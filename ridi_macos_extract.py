@@ -2,10 +2,20 @@
 """
 ridi_macos_extract.py — personal DRM-free backup of your own RIDI books (macOS).
 
-For the RIDI *desktop* app (downloaded from ridibooks.com). Run it on the same
-Mac where RIDI is installed and you are logged in: the device key lives in your
-login data and is required to decrypt. Only your own purchased library is
-touched. Decrypted EPUB/PDF files are written to ./ridi-decrypted/.
+SCOPE / STATUS
+--------------
+This targets the legacy / community-documented RIDI *desktop* (Electron) DRM
+where the device key derives from `com.ridibooks.Ridibooks.plist`
+(cf. disjukr/ridi-drm-remover). It does NOT cover RIDI's current DRM as
+shipped in the Mac App Store iOS build (`/Applications/RIDI.app/Wrapper/`),
+which uses a native AES-128-CBC scheme keyed off a device UUID + per-book
+`.dat`. Reproducing that would mean reverse-engineering a live commercial
+protection (the public successor tools are DMCA-removed) and is intentionally
+out of scope.
+
+For the supported case: run it on the same Mac where the RIDI desktop app is
+installed and you are logged in (the device key lives in your login data).
+Only your own purchased library is touched. Output goes to ./ridi-decrypted/.
 
     python3 ridi_macos_extract.py            # auto-detect everything
     python3 ridi_macos_extract.py --list     # just list found books
