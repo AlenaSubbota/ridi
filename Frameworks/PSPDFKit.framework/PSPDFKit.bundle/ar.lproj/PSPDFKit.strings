@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "إغلاق";
+"Cancel" = "إلغاء";
+"OK" = "موافق";
+"Open" = "فتح";
+"Untitled" = "بلا عنوان";
+"File Not Found" = "الملف غير موجود";
+"File couldn't be opened." = "تعذر فتح الملف."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "ملف PDF بلا اسم";
+"Page %tu" = "الصفحة %tu";
+"Page %@" = "الصفحة %@";
+"Next" = "التالي";
+"Previous" = "السابق";
+"Error" = "خطأ";
+"More options" = "المزيد من الخيارات";
+"Close Tab" = "إغلاق علامة التبويب";
+"Close All Tabs" = "إغلاق كل علامات التبويب";
+"Close All Other Tabs" = "إغلاق كل علامات التبويب الأخرى"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "قلم";
+"Highlighter" = "قلم تمييز";
+
+// toolbar
+"Outline" = "تخطيط"; // Table of contents
+"No Outline" = "لا تخطيط";
+"Search Outline" = "بحث في التخطيط";
+"Search" = "بحث";
+"Email" = "البريد الإلكتروني";
+"Send via Email" = "إرسال عبر البريد الإلكتروني";
+"Send" = "إرسال";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "مشاركة عبر رسالة";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "مشاركة عبر البريد الإلكتروني";
+"Open In" = "فتح في";
+"Commit" = "تنفيذ";
+"Sending to %@" = "يتم الإرسال إلى %@"; // Open document with an application
+"Pages" = "صفحات";
+"Print with annotations" = "طباعة مع الشروح";
+"Print without annotations" = "طباعة بدون الشروح";
+"No Applications found" = "لا يوجد تطبيق مثبت يمكنه فتح ملفات PDF.";
+"Print" = "طباعة";
+"Annotation" = "شرح توضيحي";
+"Annotations" = "شروح توضيحية";
+"No Annotations" = "لا شروح توضيحية";
+"Bookmarks" = "إشارات مرجعية";
+"No Bookmarks" = "لا توجد إشارات مرجعية";
+"Add Bookmark" = "إضافة إشارة مرجعية";
+"Remove Bookmark" = "إزالة الإشارة المرجعية";
+"Brightness" = "السطوع";
+"Share" = "مشاركة";
+"Preparing" = "يتم الآن التحضير";
+"Loading" = "تحميل";
+"Expand" = "توسيع";
+"Collapse" = "طي";
+// SMS / iMessage sharing button
+"Message" = "رسالة";
+"Thumbnails" = "صور مصغرة";
+"Drag Toolbar" = "شريط أدوات السحب";
+
+// thumbnails
+"Bookmarked" = "وضعت إشارة مرجعية";
+"Annotated" = "ذات شروح";
+"All" = "الكل";
+"Loading Annotations" = "تحميل الشروح التوضيحية";
+"Loading Pages" = "تحميل الصفحات";
+"Loading Bookmarks" = "تحميل الإشارات المرجعية";
+
+// password
+"Password" = "كلمة السر"; // text on a label
+"Unlock" = "إلغاء القفل";
+"Please enter the password." = "يرجى إدخال كلمة السر.";
+"This document cannot be unlocked." = "تعذر إلغاء قفل هذا المستند.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "خانة كلمة السر";
+
+// page
+"%tu of %tu" = "%tu من %tu";
+"%tu–%tu of %tu" = "%tu–%tu من %tu";
+"%@ (%tu of %tu)" = "%@ (%tu من %tu)";
+"%@, Page %tu" = "%@، صفحة %tu";
+"Leave %@?" = "مغادرة %@؟";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu من %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu من %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu من %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "بحث في المستند"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "البحث في الصفحة %tu من %tu";
+"Search Completed" = "تم البحث";
+"Search Cancelled" = "تم إلغاء البحث";
+"%tu left" = "يتبقى %tu"; // Indexing Documents... 5 left
+"Searching" = "بحث";
+"Done" = "تم";
+"Indexing Documents" = "يتم الآن فهرسة المستندات";
+"Document" = "المستند";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "بحث في الشروح";
+
+// inline browser
+"Open in Safari" = "فتح في سفاري";
+"Open in Chrome" = "فتح في كروم";
+"Your %@ is not configured to send emails." = "لم تتم تهيئة %@ لإرسال بريد إلكتروني.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "يطلب الرابط فتح %1$@. %2$@ هل ترغب في المتابعة؟"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "تطبيق خارجي"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "متجر التطبيقات"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "البريد"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "لم يتم العثور على معالج لـ %@";
+
+// text selection
+"Text copied to clipboard." = "تم نسخ النص إلى الحافظة.";
+"Save to Photo Library" = "حفظ في مكتبة الصور";
+"Failed to extract image." = "فشل استخراج الصورة.";
+"Type value or pick from list" = "اكتب القيمة أو اختر من القائمة";
+
+// annotations
+"Add %@" = "إضافة %@";
+"Remove %@" = "إزالة %@";
+"Remove" = "إزالة";
+"Delete" = "حذف"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "تحرير";
+"Undo" = "تراجع";
+"Nothing to undo" = "لا يوجد شيء للتراجع عنه";
+"Redo" = "إعادة";
+"Nothing to redo" = "لا يوجد شيء لإعادته";
+"Type" = "النوع"; // kind of Annotation can be selected
+"Size" = "الحجم";
+"Font" = "الخط";
+"Fonts" = "الخطوط";
+"All Fonts" = "جميع الخطوط";
+"Downloadable Fonts" = "الخطوط القابلة للتنزيل";
+"Search Fonts" = "البحث في الخطوط";
+"Choose Color" = "اختيار اللون";
+"Choose Fill Color" = "اختر لون التعبئة";
+"Rainbow" = "قوس قزح";
+"Monochrome" = "أحادي اللون";
+"Vintage" = "عتيق";
+"Modern" = "عصري";
+"ColorPalette_Unified" = "البالتة";
+"Color" = "اللون";
+"Border" = "حدود";
+"Fill Color" = "لون التعبئة";
+"Start and End Color" = "لون البداية والنهاية";
+"Opacity" = "التعتيم";
+"Thickness" = "السُمك";
+"%@ pt" = "%@ نقطة";
+"Yellow" = "أصفر";
+"Green" = "أخضر";
+"Red" = "أحمر";
+"Blue" = "أزرق";
+"Pink" = "قرنفلي";
+"Black" = "أسود";
+"Orange" = "برتقالي";
+"Purple" = "أرجواني";
+"Cyan" = "سماوي";
+"Gray" = "رمادي";
+"White" = "أبيض";
+"Color_Brown" = "بني";
+"Color_DarkRed" = "أحمر داكن";
+"Color_DarkBlue" = "أزرق داكن";
+"Color_Magenta" = "أرجواني";
+"Define" = "تعريف";
+"Wikipedia" = "ويكيبيديا";
+"Highlight" = "تمييز";
+"Underline" = "تسطير";
+"Squiggly" = "تمايل";
+"StrikeOut" = "شطب";
+"Rectangle" = "مستطيل";
+"Ellipse" = "قطع ناقص";
+"Line" = "سطر"; // something that can be drawn
+"Polygon" = "مضلع";
+"Signature" = "التوقيع";
+"Signatures" = "التوقيعات";
+"Signed" = "موقّع";
+"Sign" = "التوقيع";
+"Signing…" = "توقيع…";
+"Sign using %@" = "التوقيع باستخدام %@"; // e.g. Adobe.PPKLite
+"Methods" = "الطرق"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "اختيار الهوية"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "ختم";
+"Stamps" = "أختام";
+"Custom" = "مخصص"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "إنشاء ختم";
+"Preview" = "معاينة";
+"Stamp Text" = "نص الختم";
+"Add Signature" = "إضافة توقيع";
+"Remove Signature" = "إزالة التوقيع";
+"My Signature" = "توقيعي";
+"No Signatures" = "لا توجد توقيعات"; // text on label - is shown when there is no signature to display
+"Please sign here" = "يرجى التوقيع هنا";
+"Text" = "ملاحظة";
+"FreeText" = "نص";
+"Delete Note" = "حذف الملاحظة";
+"Remove Note" = "إزالة الملاحظة";
+"%@ could not be found." = "تعذر العثور على %@.";
+"Photo Library" = "مكتبة الصور";
+"Camera" = "الكاميرا";
+"camera_not_available" = "الكاميرا غير متاحة";
+"Image" = "صورة";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "اختر جودة الصورة";
+"Low Quality" = "جودة منخفضة";
+"Medium Quality" = "جودة متوسطة";
+"High Quality" = "جودة عالية";
+"Clear All" = "مسح الكل";
+"Clear" = "مسح";
+"Style" = "النمط";
+"Link" = "رابط";
+"Ink" = "حبر";
+"Screen" = "الشاشة";
+"RichMedia" = "وسائط غنية";
+"FileAttachment" = "ملف";
+"Left" = "يسار";
+"Center" = "وسط";
+"Right" = "يمين";
+"Alignment" = "محاذاة";
+"Preview File" = "معاينة الملف";
+"Copy" = "نسخ";
+"Paste" = "لصق";
+"Inspector" = "المراقب";
+"Group" = "المجموعة";
+"Ungroup" = "فك المجموعة";
+"Merge" = "دمج"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "نموذج";
+"Annotation Summary for %@:" = "ملخصات الشروح في %@:";
+"Show Text" = "عرض النص";
+// title
+"Author Name" = "اسم المؤلف";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "يرجى إدخال اسم المحرر الذي تريد استخدامه للشروح التي تم إدراجها مؤخرًا.";
+// text field placeholder
+"Name" = "الاسم";
+// meaning: close
+"Dismiss" = "إلغاء";
+"Fit to Text" = "ملاءمة للنص";
+"Draw" = "رسم";
+"Sound" = "الصوت";
+"Eraser" = "الممحاة";
+"Toggle Eraser" = "تبديل الممحاة"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "أداة التحديد";
+"Add" = "إضافة"; // to add - infinitive
+"Date" = "التاريخ";
+"Time" = "التوقيت";
+"No Pages" = "لا توجد صفحات";
+"Drag to resize" = "سحب لتغيير الحجم"; // used as hint that inspector is resizable
+"Convert to" = "تحويل إلى"; // used as label on action that changes free text intent type
+"Color Presets" = "الألوان المسبقة";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "اللون المسبق";
+"pt" = "نقطة"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "قص";
+"Annotation copied." = "تم نسخ الشرح التوضيحي.";
+"Annotation cut." = "تم قص الشرح التوضيحي.";
+"Annotation pasted." = "تم لصق الشرح التوضيحي.";
+"%tu selected" = "تم تحديد %tu";
+"Custom Stamp" = "ختم مخصص";
+"Change text and color" = "تغيير النص واللون";
+"Use an existing stamp design" = "استخدام تصميم طابع موجود";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "سحر";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "فشل تحميل الخط '%@' بمقاس %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "مراقب النمط";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "هل ترغب حقًا في مسح جميع الشروح التوضيحية؟";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "تم تعطيل إنشاء التعليقات التوضيحية";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "به تعليق";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "تعليق توضيحي للنص";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "علامة اختيار";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "علامة متقاطعة";
+
+"Callout" = "مربع الشروح"; // freetext annotation with an arrow
+"Generic" = "عام"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "نمط السطر";
+"Solid" = "سطر كامل";
+"Narrow Dots" = "نقاط ضيقة";
+"Wide Dots" = "نقاط واسعة";
+"Narrow Dashes" = "شرطات ضيقة";
+"Wide Dashes" = "شرطات واسعة";
+"Cloudy" = "سحابي"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "مقبول";
+"Not Approved" = "غير مقبول";
+"Draft" = "مسودة";
+"Final" = "نهائي";
+"Completed" = "اكتمل";
+"Confidential" = "سري";
+"For Public Release" = "للإصدار العام";
+"Not For Public Release" = "ليس للإصدار العام";
+"For Comment" = "للتعليق";
+"Void" = "لاغٍ";
+"Preliminary Results" = "النتائج الأولية";
+"Information only" = "معلومات فقط";
+"Accepted" = "مقبول";
+"Rejected" = "مرفوض";
+"Initial Here" = "الحروف الأولى هنا";
+"Sign Here" = "التوقيع هنا";
+"Witness" = "الشاهد";
+"Revised" = "تمت مراجعته";
+"Stamp.AsIs" = "كما هي";
+"Stamp.Departmental" = "إداري";
+"Stamp.Experimental" = "تجريبي";
+"Stamp.Expired" = "منتهي الصلاحية";
+"Stamp.Sold" = "مباع";
+"Stamp.TopSecret" = "سري للغاية";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "قلم";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "إيقاف";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "مسح";
+// text on a label; app connects to a stylus
+"Pairing" = "اقتران";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ متصل";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ مفصول";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "الإعدادات";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "استخدم قلم Apple Pencil لإضافة تعليقات توضيحية";
+
+// PDF annotation name overrides
+"Square" = "مستطيل";
+"Circle" = "قطع ناقص";
+"PolyLine" = "متعدد الخطوط";
+"SavedAnnotations" = "الشروح المحفوظة";
+
+// named actions
+"NextPage" = "الصفحة التالية";
+"PrevPage" = "الصفحة السابقة";
+"FirstPage" = "الصفحة الأولى";
+"LastPage" = "الصفحة الأخيرة";
+"GoBack" = "انتقال للخلف";
+"GoForward" = "الانتقال للأمام";
+"GoToPage" = "انتقال إلى صفحة";
+"Find" = "بحث";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "تكبير";
+"ZoomOut" = "تصغير";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "إجراء وسائط غنية";
+"Rendition Action" = "إجراء التنفيذ";
+"Hide Action" = "إخفاء الإجراء";
+"Submit Form" = "إرسال النموذج";
+"Reset" = "إعادة الضبط";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "رجوع";
+// Description of the select all text keyboard shortcut.
+"Select All" = "تحديد الكل";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "تحديد العنصر أعلاه";
+"KeyCommand.SelectBelow" = "تحديد العنصر أدناه";
+"KeyCommand.SelectTop" = "تحديد أعلى عنصر";
+"KeyCommand.SelectBottom" = "تحديد أدنى عنصر";
+"KeyCommand.ClearSelection" = "مسح التحديد";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "توسيع القسم";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "طي القسم";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "عرض علامة التبويب التالية";
+"KeyCommand.ShowPreviousTab" = "عرض علامة التبويب السابقة";
+"KeyCommand.SelectAllAnnotations" = "تحديد كافة التعليقات التوضيحية";
+
+// line annotations
+"Start" = "بدء";
+"End" = "النهاية";
+"Line.None" = "لا شيء";
+"Line.ClosedArrow" = "سهم مغلق";
+"Line.OpenArrow" = "سهم مفتوح";
+"Line.Square" = "مربع";
+"Line.Circle" = "دائرة";
+"Line.Diamond" = "معيّن";
+"Line.ROpenArrow" = "عكس السهم المفتوح";
+"Line.RClosedArrow" = "عكس السهم المغلق";
+"Line.Slash" = "شرطة مائلة";
+"Line.Butt" = "زر";
+"Line Start" = "بداية السطر";
+"Line End" = "نهاية السطر";
+"Arrow" = "سهم"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "إنشاء رابط";
+"Add Link" = "إضافة رابط";
+"Edit Link" = "تحرير الرابط";
+"Move Link" = "نقل الرابط";
+"Remove Link" = "إزالة الرابط";
+"Open Link" = "فتح الرابط";
+"Go to Page %tu" = "انتقال إلى صفحة %tu";
+"Go to Page" = "انتقال إلى صفحة"; // title of a Popup
+"Go" = "انتقال"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "نسخ عنوان URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "نسخ الرابط";
+"Save" = "حفظ";
+"Link Destination" = "وجهة الرابط";
+"Enter page index or a http:// address to link to an URL." = "أدخل مؤشر الصفحة أو عنوان http:// للربط بعنوان الإنترنت.";
+"Page %@ Not Found" = "الصفحة %@ غير موجودة";
+"Add to Reading List" = "إضافة إلى قائمة القراءة";
+
+"Link annotation creation failed." = "فشل إنشاء الرابط التوضيحي.";
+"Link annotation successfully created." = "تم إنشاء الرابط التوضيحي.";
+"Entered text could not be converted to an Integer nor URL." = "تعذر تحويل النص الذي تم إدخاله إلى عدد صحيح أو عنوان ويب.";
+
+// voiceover accessibility
+"Grid" = "شبكة"; // grid with thumbnails
+"Translucent" = "شفاف";
+"left" = "يسار";
+"center" = "وسط";
+"right" = "يمين";
+"decrease" = "خفض";
+"increase" = "زيادة";
+"All Open Documents" = "جميع المستندات المفتوحة";
+"Add Documents" = "إضافة مستندات"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "فتح الملف";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "التحكم في الوسائط";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "إعادة ضبط النموذج";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "إظهار الإجراء";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "إجراء ذو اسم";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "الصفحات %tu-%tu"; // Range of pages
+"Current Page" = "الصفحة الحالية";
+"Current Page (%tu)" = "الصفحة الحالية (%tu)";
+"Ignore Annotations" = "تجاهل الشروح";
+"The PDF will not contain any annotations." = "لن يتضمن ملف PDF أية شروح.";
+"Embed Annotations" = "تضمين الشروح";
+"Annotations will remain editable and are embedded into the PDF." = "ستظل الشروح قابلة للتحرير ومضمنة في ملف PDF.";
+"Flatten Annotations" = "دمج الشروح";
+"Annotations are drawn into the PDF and are readonly." = "يتم عرض الشروح في ملف PDF وهي للقراءة فقط.";
+"Annotation Summary" = "ملخص الشروح";
+"Embed Annotations into the PDF and also list them in the email." = "تضمين الشروح في مستند PDF، وإدراجها أيضًا في البريد الإلكتروني.";
+"Annotations will be listed in a text file." = "سيتم إدراج الشروحات كنص.";
+"Files" = "الملفات";
+"Send as single files" = "إرسال كملفات منفصلة";
+"Merge files" = "دمج الملفات";
+"Original File" = "الملف الأصلي";
+"Range" = "نطاق";
+"Annotated Pages" = "الصفحات ذات الشروح";
+"Message could not be sent." = "تعذر إرسال الرسالة.";
+"Export" = "تصدير";
+"This action can't be performed." = "لا يمكن تنفيذ هذا الإجراء.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "تصدير ملفات غير مستندية غير مدعوم";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "هذا المستند لا يتضمن أية شروح توضيحية.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "تعذرت مشاركة الملف";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "مشاركة صور الملفات محدودة بعدد %tu صفحة في المرة الواحدة.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "لا يمكن إرسال المرفقات عبر تطبيق الرسائل.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "الملفات غير قابلة للطباعة.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "مستند PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "الوجهة غير متاحة";
+
+// sound annotations
+"Speak" = "تحدث"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "تشغيل";
+"Pause" = "إيقاف مؤقت";
+"Resume" = "استئناف";
+"Stop" = "إيقاف";
+"Play/Stop" = "تشغيل/إيقاف";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "تسجيل";
+"Pause Recording" = "إيقاف مؤقت للتسجيل";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "تم إيقاف التسجيل مؤقتًا";
+"Continue Recording" = "متابعة التسجيل";
+"Finish Recording" = "إنهاء التسجيل";
+"Audio Problem" = "مشكلة في الصوت";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "تعذر بدء التشغيل.";
+"Could not resume playback." = "تعذر استئناف التشغيل.";
+"Microphone permission not granted." = "لم يتم السماح بالوصول إلى الميكروفون.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "لا يمكن تسجيل الصوت في الوقت الحالي. يرجى منح التطبيق صلاحية الوصول إلى الميكروفون.";
+"There was a problem trying to record audio." = "حدثت مشكلة أثناء محاولة تسجيل الصوت.";
+"Already Recording" = "يتم التسجيل بالفعل";
+"You are already recording on page %@." = "أنت تسجل بالفعل على الصفحة %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "يبدو أنك رفضت وصول هذا التطبيق للميكروفون بشكل دائم. لتسجيل الملاحظات الصوتية، ستحتاج إلى تمكين الميكروفون يدويًا عبر شاشة إعدادات التطبيقات.";
+
+// Forms
+"Form Element" = "من العنصر";
+"Text Field" = "مربع نص";
+"Button" = "زر";
+"Choice Field" = "خانة الاختيار";
+"Signature Field" = "خانة التوقيع";
+"Clear Field" = "مسح الخانة"; // same as delete
+"Default Values" = "القيم الافتراضية";
+"Custom Value" = "قيمة مخصصة";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "بحث عن الخيارات";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "القيمة غير صالحة: يجب أن تكون أكبر من أو تساوي %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "القيمة غير صالحة: يجب أن تكون أكبر من أو تساوي %s وأصغر من أو تساوي %s.";
+"Invalid value: must be less than or equal to %s." = "القيمة غير صالحة: يجب أن تكون أصغر من أو تساوي %s.";
+"The value entered does not match the format of the field [%s]" = "القيمة المدخلة لا تتوافق مع تنسيق الحقل [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "تاريخ/وقت غير صالح: يرجى التأكد من وجود التاريخ/الوقت. يجب أن يتوافق الحقل [%s] مع التنسيق %s";
+
+// General validation
+"Invalid value [%s]" = "قيمة غير صالحة [%s]";
+
+// Gallery
+"Connection Error" = "خطأ في الاتصال";
+"Unsupported Content" = "محتوى غير مدعوم";
+"The specified content cannot be displayed." = "تعذر عرض المحتوى المحدد.";
+"Something went wrong" = "حدث خطأ ما";
+"This item is currently unavailable." = "هذا العنصر غير متوفر حاليًا.";
+"The information for this gallery could not be loaded." = "تعذر تحميل معلومات هذا الألبوم.";
+"Content Error" = "خطأ في المحتوى";
+"This content is unsupported." = "هذا المحتوى غير مدعوم.";
+
+// Signatures
+"Digital Signature" = "توقيع رقمي";
+"Signature is valid." = "التوقيع صالح.";
+"Signature is valid, but there are some warnings." = "التوقيع صالح، ولكن هناك بعض التحذيرات.";
+"It was signed by %@ on %@ at %@." = "تم التوقيع من قبل %@ بتاريخ %@ في الساعة %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "تم التوقيع بتاريخ %@ في الساعة %@.";
+"It claims to have been signed by %@ on %@ at %@." = "يزعم أنها وقعت من قبل %@ بتاريخ %@ الساعة %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "يزعم أنها وقعت بتاريخ %@ الساعة %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "لم يتم تعديل المراجعة الموقع عليها بهذا التوقيع، ولكن هناك تغييرات أدخلت على المستند منذ أن تم توقيعه."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "التوقيع صالح، ومحتوى هذا المستند لم يتغير منذ أن تم توقيعه.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "توقيع غير صالح - منذ التوقيع على محتوى هذا المستند، تم تعديل الممستند، أو التلاعب به، أو إتلافه.";
+"Unsigned Signature Field" = "خانة التوقيع بلا توقيع";
+"Do you really want to remove the signature from the document?" = "هل ترغب فعلاً في حذف التوقيع من المستند؟";
+"Could not retrieve the certificate from the signature." = "تعذر استرداد الشهادة من التوقيع.";
+"Could not retrieve the signature contents." = "تعذر استرداد محتويات التوقيع.";
+"Could not retrieve the public key from the signature." = "تعذر استرداد المفتاح العام من التوقيع.";
+"Could not retrieve the byte range of the signature." = "تعذر استرداد نطاق البايت الخاص بالتوقيع.";
+"Could not understand the encryption padding." = "تعذر فهم حشو التشفير.";
+"Could not compute the digest for the document." = "تعذر حساب ملخص المستند.";
+"General failure while trying to determine document integrity." = "خطأ عام أثناء محاولة تحديد سلامة المستند.";
+"Certificate chain is invalid." = "سلسلة الشهادات غير صالحة.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "تعذر التحقق من سلسلة الشهادات، حيث لم يتم توفير مفاتيح موثوق بها.";
+"Document integrity success, but certificate is self signed." = "الشهادة موقعة ذاتيًا.";
+"Document integrity check failed." = "فشل التحقق من سلامة المستند.";
+"The signing certificate is not trusted." = "شهادة التوقيع غير موثوقة";
+"unknown time" = "وقت غير معلوم";
+"unknown date" = "تاريخ غير معلوم";
+"Digitally signed by {}" = "توقيع رقمي بواسطة {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "التاريخ:";
+"Reason: " = "السبب:";
+"Location: " = "الموقع:";
+"Certificate" = "الشهادة";
+"No Certificate" = "لا توجد شهادة";
+"No Certificates" = "لا توجد شهادات";
+"Store Signature" = "استعادة التوقيع";
+"Add Trusted Certificate" = "إضافة شهادة موثوقة";
+"Add Signer" = "إضافة موقّع";
+"Added Trusted Certificate" = "الشهادة الموثوقة المضافة";
+"Added Signer" = "الموقّع المضاف";
+"File doesn't match any certificate type" = "الملف لا يطابق أي نوع شهادة";
+"Import Failed" = "فشل الاستيراد";
+"Signature Area" = "مساحة التوقيع";
+"Draw Signature Area" = "رسم مساحة التوقيع";
+
+// Signature Errors
+"Could not init PKCS7 object" = "تعذر بدء المكون PKCS7";
+"Could not find signature" = "تعذر العثور على التوقيع";
+"Could not hash the PDF document" = "تعذر تقصير اسم ملف PDF";
+"Could not create padding for the digital signature" = "تعذر إنشاء حاشية للتوقيع الرقمي";
+"Could not verify the signature" = "تعذر التحقق من التوقيع";
+"Could not save the signed document" = "تعذر حفظ الملف الموقّع";
+"Cannot sign attributes" = "لا يمكن توقيع السمات";
+"The selected subfilter type for the signature is not supported" = "نوع الفلتر الفرعي المحدد للتوقيع غير مدعوم";
+"Could not add signature to PKCS7 object" = "تعذر إضافة توقيع للمكون PKCS7";
+"Could not write PKCS7 signature" = "تعذرت كتابة توقيع PKCS7";
+"Could not create PKCS7 object" = "تعذر إنشاء المكون PKCS7";
+"Could not generate PKCS7 object" = "تعذر توليد المكون PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "تعذر توقيع المستند لأنه موقع بالفعل.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "تعذرت قراءة بيانات الشهادة كشهادة PKCS#7. البيانات بالتنسيق الصحيح يمكن تصديرها من أدوبي أكروبات."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "تعذر فك تشفير التوقيع في هذه الشهادة.";
+"The public key in the certificate could not be read." = "تعذرت قراءة المفتاح العام في الشهادة.";
+"The signature of the certificate is not valid." = "التوقيع الخاص بهذه الشهادة غير صالح.";
+"Signature is not valid." = "التوقيع غير صالح.";
+"There is a format error in the notBefore field of the certificate." = "هناك خطأ في التنسيق في خانة notBefore في الشهادة."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "هناك خطأ في التنسيق في خانة notAfter في الشهادة."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "لا يمكن التحقق من أية توقيعات، لأن سلسلة الشهادة تحتوي على شهادة واحدة فقط، وهي ليست موقعة ذاتيًا، وغير موثوق بمحررها.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "شهادة CA غير صالحة، لأنها ليست CA أو لأن امتداداتها لا تتفق مع الغرض المقصود."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "تم تجاوز معامل طول المسار basicConstraints."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "لم يتم تمييز CA الجذر كهيئة موثوق بها للغرض المقصود."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "تم تمييز الجذر CA لرفض الغرض المحدد."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "تم رفض شهادة المحرر لأن اسم الموضوع لم يطابق اسم محرر الشهادة الحالية."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "تم رفض شهادة المحرر لأن معرف مفتاح الموضوع كان حاضرًا ولم يطابق معرف مفتاح المصادقة الخاص بالشهادة الحالية."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "تم رفض شهادة المحرر لأن اسم المحرر والرقم المسلسل كانا حاضرين ولم يطابقا معرف مفتاح المصادقة الخاص بالشهادة الحالية."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "تم إبطال الشهادة من قبل محررها.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "الشهادة المحررة تم توقيعها ذاتيًا، والشهادة نفسها لا يمكن العثور عليها في قائمة الشهادات الموثوقة.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "توجد شهادة موقعة ذاتيًا في سلسلة الشهادات. ربما تم تكوين سلسلة الشهادات باستخدام شهادات غير موثوق بها، ولكن لم يتم العثور على الجذر CA محليًا."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "تعذر العثور على شهادة لواحدة أو أكثر من هيئات الشهادات (CA) في التسلسل الهرمي للتوقيعات، وهيئة الشهادة هذه غير موثوق بها من قبل التطبيق المحلي."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "تعذر العثور على شهادة المحرر في شهادة يبحث عنها محليًا. هذا يعني عادة أن قائمة الشهادات الموثوق بها ليست كاملة.";
+"The certificate that was provided cannot be used for its intended purpose." = "الشهادة المقدمة لا يمكن استخدامها في الغرض المقصود.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "امتداد keyUsage بشهادة المحرر لا يسمح بالتوقيع على الشهادة.";
+"The certificate has expired." = "انتهت صلاحية الشهادة.";
+"The certificate is not valid until a date in the future." = "الشهادة غير صالحة حتى تاريخ في المستقبل.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "تعذرت قراءة الشهادة X509 من البيانات.";
+// X509 should not be translated
+"No X509 certificate found" = "لم يتم العثور على أية شهادة X509";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "تعذر فتح الملف PKCS12. تنسيق الملف غير صحيح أو الملف تالف.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "تعذر إلغاء قفل بيانات PKCS12. هل أدخلت كلمة السر الصحيحة؟";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "تعذر فك شفرة بيانات PKCS12. قد تكون البيانات تالفة أو غير متوافقة.";
+"Could not unlock PKCS12 data." = "تعذر إلغاء قفل بيانات PKCS12.";
+"Could not add signature." = "تعذرت إضافة توقيع.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "تعذر فتح الملف للتحقق من التوقيع";
+"Could not get signer info" = "تعذر الحصول على بيانات الموقّع";
+
+// Night Mode
+"Default" = "الافتراضي"; // Default view (night mode not enabled)
+"Sepia" = "بني"; // Document uses sepia colors
+"Night" = "ليلية"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "لم يتم تحديد أي مستند";
+"Unable to display document" = "غير قادر على عرض المستند";
+"Locked" = "مقفل";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "الملف الذي تحاول الوصول إما ليس ملف PDF أو قد يكون تالفًا.";
+"A password is required to access this document." = "يتطلب فتح هذا المستند توفر كلمة السر.";
+"The security scheme of this document is currently not supported." = "مخطط الضمان بهذا المستند غير مدعوم في الوقت الحالي.";
+"An unknown error has occured while trying to open this file." = "حدث خطأ غير معروف أثناء محاولة فتح هذا الملف.";
+
+// Document Editor
+"Document Editor" = "محرر المستندات";
+"Add Page" = "إضافة صفحة";
+"Delete Pages" = "حذف الصفحات";
+"Duplicate Pages" = "تكرار الصفحات";
+"Move Pages" = "نقل الصفحات";
+"Rotate Pages" = "تدوير الصفحات";
+"Page Size" = "مقاس الصفحة";
+"Background Color" = "لون الخلفية";
+"Paper" = "صفحة";
+"Pattern" = "قالب";
+"Use Document Size" = "استخدام حجم المستند";
+"Orientation" = "الاتجاه";
+"Portrait" = "رأسي";
+"Landscape" = "أفقي";
+"Document Name" = "اسم المستند";
+"Documents" = "المستندات"; // Name of directory
+"Use Document Folder" = "استخدام مجلد المستند";
+"Folder" = "المجلد";
+"Replace File?" = "استبدال الملف؟";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "هناك ملف يحمل الاسم “%@” موجود بالفعل في الوجهة المحددة. هل ترغب في استبداله؟";
+"Replace" = "استبدال";
+"Saving…" = "يتم الآن الحفظ…";
+"Saved" = "تم الحفظ";
+"Save As…" = "حفظ باسم…";
+"Discard Changes" = "تجاهل التعديلات";
+"Empty" = "فارغ";
+"Use Image Size" = "استخدام مقاس الصورة";
+"Page Background" = "خلفية الصفحة";
+"Insert image annotation" = "إدراج شرح للصورة";
+"Import page background" = "استيراد خلفية الصفحة";
+"Quality" = "الجودة";
+"Low" = "منخفضة";
+"Medium" = "متوسط";
+"High" = "عالية";
+"Best" = "الأفضل";
+"Copy Pages" = "تكرار الصفحات";
+"Paste Pages" = "لصق الصفحات";
+"Copied" = "تم النسخ";
+"“%@” has unsaved changes. Do you want to save them now?" = "هناك تغييرات على “%@” لم يتم حفظها بعد. هل ترغب في حفظها الآن؟";
+"Select Source Document" = "تحديد المستند المصدر";
+"Add After Page %tu" = "إضافة بعد الصفة رقم %tu";
+"Cut Pages" = "قص الصفحات";
+"Import Document" = "استيراد الملف";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "استخدام منتقي المجلدات";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "انتقاء المجلد";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "تحديد كل الصفحات";
+
+// Document Editor Errors
+"A blank document can not be saved." = "لا يمكن حفظ مستند فارغ.";
+"The document could not be saved." = "تعذر حفظ المستند.";
+"This document does not support editing." = "هذا المستند لا يدعم التحرير.";
+"The document could not be accessed." = "تعذر الوصول إلى المستند.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "تعذر استيراد ملف PDF في هذا الوقت.";
+"The image could not be imported at this time." = "تعذر استيراد الصورة في هذا التوقيت.";
+
+// Page Patterns
+"None" = "لا يوجد";
+"Dot5mm" = "نقاط ٥ مم";
+"Grid5mm" = "شبكة ٥ مم";
+"Lines5mm" = "أسطر ٥ مم";
+"Lines7mm" = "أسطر ٧ مم";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "تصدير الصفحات";
+"Export…" = "تصدير…";
+"Exporting…" = "يتم الآن التصدير…";
+"Exported" = "تم التصدير";
+"%@ - Exported" = "%@ - تم التصدير"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - نسخ"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "الملف المحدد مفتوح حاليًا. يرجى اختيار اسم آخر للملف.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "خدمة تحويل النص إلى كلام غير متوفرة. تأكد من أنك متصل بالإنترنت، أو أن محرك تحويل النص إلى كلام من جوجل مثبت وممكّن على جهازك.";
+
+// Settings
+"Page Layout" = "تصميم الصفحة";
+"Scroll Direction" = "اتجاه التمرير";
+"Theme" = "السمة";
+"Keep screen on" = "دع الشاشة مفتوحة";
+"Page Transition" = "انتقال الصفحة";
+"Single" = "مفرد";
+"Continuous" = "مستمر";
+"Curl" = "مجعد";
+"Scroll" = "تمرير";
+"Horizontal" = "أفقي";
+"Vertical" = "رأسي";
+"Page Mode" = "وضع الصفحة";
+"Automatic" = "تلقائي";
+"Double" = "مزدوج";
+"Appearance" = "المظهر";
+"Scrubber Bar" = "شريط الانتقال";
+"Jump" = "قفز"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "غير متوفر"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "احتواء الصفحة";
+"Fit" = "احتواء";
+"Fill" = "تعبئة";
+"Adaptive" = "توافقي";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "لا يمتلك %@ صلاحيات الوصول إلى صورك.";
+"%@ does not have access to your camera." = "لا يمتلك %@ صلاحيات الوصول إلى كاميرا جهازك.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "إعدادات الخصوصية";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "يمكنك السماح بالوصول من %@.";
+
+"Update Required" = "يتطلب التحديث";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "يتطلب %@ تحديثًا للوصول إلى المستند ومزامنة الشروح التوضيحية.";
+
+
+// Annotation Replies
+"Comment" = "تعليق";
+"Comments" = "تعليقات";
+"Add your comment…" = "أضف تعليقك…";
+"Delete Comment" = "حذف التعليق";
+"Set Status" = "ضبط الحالة";
+"Cancelled" = "تم الإلغاء";
+"Accepted by" = "مقبول بواسطة";
+"Rejected by" = "رفض بواسطة";
+"Completed by" = "اكتمل بواسطة";
+"Cancelled by" = "تم الإلغاء بواسطة";
+
+// Note Annotation Icon Types
+"Right Pointer" = "مؤشر يمين";
+"Right Arrow" = "سهم يمين";
+"Checkmark" = "علامة صح";
+"Circle Note" = "دائرة";
+"Cross" = "متقاطع";
+"Insert Text" = "إدراج نص";
+"New Paragraph" = "فقرة جديدة";
+"Text Note" = "ملاحظة نصية";
+"Paragraph" = "فقرة";
+"Help" = "المساعدة";
+"Star" = "نجمة";
+"Key" = "مفتاح";
+
+// PSPDFKit Web Strings
+"Light Blue" = "أزرق فاتح";
+"Light Red" = "أحمر فاتح";
+"Light Green" = "أخضر فاتح";
+"Fuchsia" = "فوشيا";
+"Page %tu of %tu" = "صفحة %tu من %tu";
+"Preparing document for printing…" = "يتم الآن تحضير المستند للطباعة…";
+"Are you sure you want to delete this annotation?" = "هل ترغب حقًا في حذف هذا الشرح؟";
+"Confirm annotation deletion" = "تأكيد حذف الشرح";
+"Page Rotation" = "تدوير الصفحة";
+"Rotate Left" = "تدوير إلى اليسار";
+"Rotate Right" = "تدوير إلى اليمين";
+"%@ (not supported)" = "%@ (غير مدعوم)";
+"Pan Mode" = "وضع اليد";
+"Fit Page" = "احتواء الصفحة";
+"Fit Width" = "احتواء العرض";
+"Password Required" = "كلمة السر مطلوبة";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "يجب إلغاء قفل المستند كي يمكن عرضه. يرجى إدخال كلمة السر في الخانة أدناه.";
+"The password you entered is not correct. Please try again." = "كلمة السر التي أدخلتها غير صحيحة. يرجى إعادة المحاولة.";
+"Clear Signature" = "مسح التوقيع";
+"Top" = "أعلى";
+"Bottom" = "أسفل";
+"Vertical Alignment" = "محاذاة رأسية";
+"Horizontal Alignment" = "محاذاة أفقية";
+"Light Orange" = "برتقالي فاتح";
+"Light Yellow" = "أصفر فاتح";
+"Mauve" = "بنفسجي";
+"Light Gray" = "رمادي فاتح";
+"Dark Gray" = "رمادي داكن";
+"NoColor" = "لا شيء";
+"Transparent" = "شفاف";
+// Generic label for bookmark
+"Bookmark" = "إشارة مرجعية";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "إشارة مرجعية جديدة";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "هل أنت متأكد من رغبتك في حذف الإشارة المرجعية هذه؟";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "تأكيد حذف الإشارة المرجعية";
+// Label for the select image field
+"Select Image" = "تحديد صورة";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "أدوات %@، قائمة التبديل";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "تنسيق شرح الصور غير مدعوم: %@. يرجى استخدام JPEG أو PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "أداة التحديد";
+"Toolbar_TextHighlighter" = "أداة تمييز النصوص";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "شريط أدوات التعليق التوضيحي ";
+// Region of the application where the PDF document is shown
+"Document viewport" = "منفذ عرض المستندات";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "التنقيح قيد التنفيذ";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "يشير إلى أنه يجري تنقيح المستند الحالي";
+"Icon" = "أيقونة";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "نقل";
+// The instruction/prompt shown on the Move UI
+"movePage" = "نقل الصفحة إلى";
+// The label of the button on the Move UI
+"move" = "نقل";
+"selectedItem" = "%@، محدد.";
+"annotationDeleted" = "تم حذف الشرح.";
+"newAnnotationCreated" = "تم إنشاء شرح %@ جديد.";
+"bookmarkCreated" = "تم إنشاء الإشارة المرجعية.";
+"bookmarkEdited" = "تم تحرير الإشارة المرجعية.";
+"bookmarkDeleted" = "تم حذف الإشارة المرجعية.";
+"cancelledEditingBookmark" = "تم إلغاء تحرير الإشارة المرجعية.";
+"selectAFileForImage" = "حدد ملفاً لشرح الصورة الجديد.";
+"deleteAnnotationConfirmAccessibilityDescription" = "حوار يسمح لك بتأكيد حذف الشرح أو إلغاء حذفه.";
+"deleteBookmarkConfirmAccessibilityDescription" = "حوار يسمح لك بتأكيد حذف الإشارة المرجعية أو إلغاء حذفها.";
+"deleteCommentConfirmAccessibilityDescription" = "حوار يسمح لك بتأكيد حذف التعليق أو إلغاء حذفه.";
+"resize" = "تغيير الحجم";
+"resizeHandleTop" = "أعلى";
+"resizeHandleBottom" = "زر";
+"resizeHandleRight" = "يمين";
+"resizeHandleLeft" = "يسار";
+"cropCurrentPage" = "قص الصفحة الحالية";
+"cropCurrent" = "قص الحالي";
+"cropAllPages" = "قص كل الصفحات";
+"cropAll" = "قص الكل";
+"documentCrop" = "قص المستند";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "إدراج بعد الصفحة";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "اكتب “0” لنقل الصفحة (الصفحات) المحددة إلى بداية المستند.";
+
+// Blend Mode Strings
+"Normal" = "عادي";
+"Multiply" = "متضاعف";
+"ScreenBlend" = "Screen";
+"Overlay" = "غشاء";
+"Darken" = "تغميق";
+"Lighten" = "تفتيح";
+"ColorDodge" = "كولور دودج";
+"ColorBurn" = "حرق اللون";
+"HardLight" = "ضوء شديد";
+"SoftLight" = "ضوء ناعم";
+"Difference" = "الاختلاف";
+"Exclusion" = "إبعاد";
+"Multiple" = "متعدد";
+"Blend Mode" = "وضع المزج";
+
+// Image Document Strings
+"File type not supported." = "نوع الملف غير مدعوم.";
+"Could not load image file." = "تعذر تحميل الصورة.";
+"The image is too large to be opened." = "الصورة كبيرة للغاية ولا يمكن فتحها.";
+"Could not generate a PDF document from the image." = "تعذر إنشاء ملف PDF من الصورة.";
+"Unnamed Image Document" = "مستند صورة بلا عنوان";
+"Annotations will remain editable and are embedded into the image." = "ستظل الشروح قابلة للتحرير ومضمنة في الصورة.";
+"Annotations are drawn into the image and are readonly." = "يتم رسم الشروح في الصورة وتكون للقراءة فقط.";
+
+//Metadata Strings
+"Document Info" = "معلومات الملف";
+"Content" = "المحتوى";
+"Title" = "العنوان";
+"Author" = "المؤلف";
+"Subject" = "الموضوع";
+"Keywords" = "كلمات أساسية";
+"Not Set" = "غير مضبوط";
+"NoneValue" = "لا شيء";
+"Security" = "الأمان";
+"Document Open Password" = "كلمة السر لفتح الملف";
+"Not set, minimum 8 characters" = "غير مضبوط، ٨ أحرف على الأقل";
+"Permissions" = "أذون";
+"Changes" = "التغييرات";
+"Printing" = "طباعة";
+"Content Copying for Accessibility" = "نسخ المحتوى للوصول";
+"Content Modification" = "تعديل المحتوى";
+"High Quality Printing" = "الطباعة بجودة عالية";
+"Filling of Form Fields" = "ملء خانات النموذج";
+"Document Assembly" = "تجميع الملف";
+"Annotations and Forms" = "الشروح التوضيحية والنماذج";
+"Content Copying" = "نسخ المحتوى";
+"Number of Pages" = "عدد الصفحات";
+"File Size" = "حجم الملف";
+"CreationDate" = "تم الإنشاء";
+"ModDate" = "معدل";
+"Creator" = "مؤلف المحتوى";
+"Producer" = "منتِج PDF";
+"Info" = "معلومات";
+"Tap the Edit button to show all metadata fields." = "انقر على زر التحرير لعرض جميع خانات البيانات الوصفية.";
+"Document Owner Password" = "كلمة السر لمالك الملف";
+"Changes Are Locked" = "تم قفل التغييرات";
+"Enter the Document Owner Password to make changes." = "أدخل كلمة سر المالك لإجراء التغييرات.";
+"Incorrect Password" = "كلمة السر غير صحيحة";
+"Passwords" = "كلمات السر";
+"Modifying Content" = "تعديل المحتوى";
+"Editing Annotations and Forms" = "تحرير الشروح التوضيحية والنماذج";
+"Filling Forms" = "ملء النماذج";
+"Copying Content" = "نسخ المحتوى";
+"Copying Content for Accessibility" = "نسخ المحتوى للوصول";
+"Could Not Save" = "تعذر الحفظ";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "عند تحديد كلمة سر فتح الملف، يجب إدخال كلمة سر مالك الملف.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "مسار الملف";
+"Identical Passwords" = "كلمتا السر متطابقتان";
+"Choose a different Owner or Open password." = "اختر كلمة سر أخرى للمالك، أو كلمة سر أخرى لفتح الملف.";
+"Owner Password Required" = "كلمة سر مالك الملف مطلوبة";
+"An owner password is required to change the permissions of a document." = "يتطلب كلمة سر مالك الملف لتغيير صلاحيات الملف.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "تفرض بعض برامج قراءة PDF قيودًا على الأذونات. هذه القيود غير مفروضة في هذا التطبيق.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "تم تحديد %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "تم تحديد %@ مع %@ كمحتوى";
+// Accessibility string for comment threads
+"commentThread" = "سلسلة التعليقات";
+"printProgressModalDesc" = "يشير إلى أن المستند يجري إعداده للطباعة";
+"printProgressModal" = "جارٍ الطباعة";
+"documentEditorDesc" = "إجراء تغييرات على المستند الحالي";
+"reloadDocumentDialog" = "تأكيد إعادة تحميل المستند";
+"reloadDocumentDialogDesc" = "حوار يطالب المستخدم بتأكيد إعادة تحميل المستند.";
+"signatureDialog" = "التوقيع";
+"signatureDialogDesc" = "يسمح لك هذا الحوار بتحديد توقيع حبر لإدراجه في المستند. إذا كنت لم تكن لديك توقيعات مخزّنة، يمكنك إنشاء توقيع باستخدام عرض اللوحة.";
+"stampAnnotationTemplatesDialog" = "قوالب التعليق التوضيحي للأختام";
+"stampAnnotationTemplatesDialogDesc" = "يسمح لك هذا الحوار بتحديد تعليق توضيحي للأختام لإدراجه في المستند أو إنشاء تعليق توضيحي مخصص للأختام بنصك الخاص.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "تنقيح";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "علامة تنقيح";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "تم تطبيق التنقيح";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "لون التخطيط";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "نص متراكب";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "تكرار النص";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "لون النص";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "معلومات التنقيح";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "هذا الملف يحتوي على تعليقات بتنقيحات لم يتم تطبيقها. هل تود تطبيقها؟";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "تطبيق";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "\tالتنقيح عملية من خطوتين. أولاً قم بوضع علامة تنقيح لتحديد المنطقة التي ينبغي تنقيحها. لإزالة المحتوى بشكل لا يمكن التراجع عنه، انقر على زر ▵ الأحمر في الركن السفلي الأيسر، وطبّق التنقيحات.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "تطبيق التنقيح";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "مسح التنقيحات";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "إتاحة معاينة التنقيح";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "تعطيل معاينة التنقيح";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "سيؤدي تطبيق التنقيحات إلى إزالة المعلومات نهائيًا ولا يمكن التراجع عن ذلك.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "حفظ إلى ملف جديد";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "تنقيح الملف الحالي";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "يتم الآن التنقيح…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "تعذر تنقيح الملف.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "لن يتم حذف المحتوى المحدد للتنقيح عند حفظ الملف. هل ترغب حقًا في المتابعة؟";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "تنقيح الملف الحالي";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "حفظ الملف المنقح باسم";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - منقح";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "حجب منطقة";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "حجب نص";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "جاري تطبيق الحجب";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "يجري التوقيع الآن";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "يشير إلى أنه يجري توقيع المستند الحالي";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "إدراج نص متراكب";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "استعادة الملف";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "ملف غير موجود";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "تمت إزالة '%@'. خارج التطبيق. هل تريد إغلاق هذا الملف أو استعادة الملف؟";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "تعارض ملفات";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "تم تغيير '%@'. خارج التطبيق. حفظ الملف هنا سوف يلغي التغييرات التي تمت في التطبيق الآخر.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "حفظ التغييرات";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "انقر لتحميل الوسائط.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "تعذر تحميل الوسائط الخاصة بهذا الشرح التوضيحي بسبب مشكلة في الاتصال. يرجى إعادة المحاولة فيما بعد.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "انقر لإعادة محاولة تحميل الوسائط.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "لم يتم العثور على وسائط هذا الشرح التوضيحي. إذا استمرت هذه الرسالة في الظهور بعد مزامنة هذا الملف، يرجى مراسلتنا بشأن هذه المسألة مع إرفاق المعلومات التالية: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "انقر لإلغاء التنزيل";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "حدث خطأ غير متوقع أثناء تحميل الوسائط. خطأ %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "رابط لصفحة";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "رابط لموقع إنترنت";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "رقم الصفحة";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "تحديد الصفحة";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "لصق من الحافظة";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "معاينة موقع الإنترنت";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "عنوان موقع الإنترنت";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "رجوع";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "إلى الأمام";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "البالتة";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "المستخدم حديثًا";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "بالتة الألوان الافتراضية";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "درجات اللون";
+// Custom color value for HSL color picking: Hue
+"Hue" = "درجة اللون";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "التشبع";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "الإضاءة";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "قيمة سداسية عشرية للون";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "القيمة المذكورة ليست صالحة كلون.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "لصق من الحافظة";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "طي الصفحة";
+// Text shown when left edge binding is selected.
+"Left Edge" = "الحافة اليسرى";
+// Text shown when right edge binding is selected.
+"Right Edge" = "الحافة اليمنى";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "غير معروف";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "يسار";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "يمين";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "ترتيب";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "للأمام";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "إلى الأمام";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "للخلف";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "رجوع";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "تكرار";
+"DocumentEditor_Extract" = "استخراج";
+"General_SelectNone" = "عدم تحديد";
+"DocumentEditor_NewPage" = "صفحة جديدة";
+"DocumentEditor_InstantModifiedWarning" = "تم تعديل الملف وهو الآن في وضع القراءة فقط. أعد تحميل الصفحة لإصلاح هذا الأمر.";
+"DocumentEditor_MoveBefore" = "نقل قبل";
+"DocumentEditor_MoveAfter" = "نقل بعد";
+"DocumentEditor_DocumentMergedHere" = "سيتم دمج الملف هنا";
+
+// Android Strings
+"FileSystemPermission" = "يبدو أنك رفضت وصول هذا التطبيق لنظام الملفات بشكل دائم. لعرض وفتح ملفات PDF المحفوظة على جهازك، سوف تحتاج إلى منح صلاحية الوصول إلى نظام الملفات يدويًا من شاشة إعدادات التطبيقات.";
+"Button_OpenSettings" = "فتح الإعدادات";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "عرض المزيد";
+// Button to show less comments
+"Comments_ShowLess" = "عرض أقل";
+// Button to reply to a comment
+"Comments_Reply" = "رد";
+// Button to show all comments
+"Comments_ShowAll" = "إظهار الكل";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "هل تريد بالتأكيد حذف هذا التعليق؟";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "قم بتأكيد حذف التعليق";
+// Verb for Comment
+"Comment_Action" = "ضع تعليقًا";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "تم توقيع هذا المستند رقمياً، وجميع التوقيعات صالحة.";
+"DigitalSignatures_DocModified" = "تم توقيع هذا المستند رقمياً، ولكن تم تعديله منذ أن تم توقيعه.";
+"DigitalSignatures_SignatureWarning" = "تم توقيع هذا المستند رقمياً، ولكن هناك توقيع واحد على الأقل به مشكلات.";
+"DigitalSignatures_SignatureWarningDocModified" = "تم توقيع هذا المستند رقمياً، ولكن تم تعديله منذ أن تم توقيعه، وهناك توقيع واحد على الأقل به مشكلات.";
+"DigitalSignatures_SignatureError" = "تم توقيع هذا المستند رقمياً، ولكن هناك توقيع واحد على الأقل غير صالح.";
+"DigitalSignatures_SignatureErrorDocModified" = "تم توقيع هذا المستند رقمياً، ولكن تم تعديله منذ أن تم توقيعه، وهناك توقيع واحد على الأقل غير صالح.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "تعذر بدأ التسجيل";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "تعذر إيقاف التسجيل";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "تعذر لصق الصفحات";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "تعذر طلب توقيع الشهادة";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "تعذر توقيع المستند";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "حدث خطأ غير معروف أثناء محاولة فتح هذا الملف.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "عرض القارئ";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "رسم";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "صورة";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "كتابة";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "التوقيع هنا";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "اكتب توقيعك أعلاه";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "حفظ التوقع";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "تحديد صورة أو سحبها";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "تحديد صورة";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "استبدال الصورة";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "الملفات";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "توقيع جديد";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "تشغيل";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "تعطيل";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "إضافة شرح توضيحي";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "إضافة شروح توضيحية";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "إضافة تعليق";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "تغيير حالة التعليق";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "تغيير نوع التعليق التوضيحي";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "تغيير التحديد";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "مسح الشروح التوضيحية";
+// Command of cutting.
+"Undo_Cut" = "قص";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "اكتشاف الشكل";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "رسم";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "إسقاط";
+// Command of editing text of a comment.
+"Undo_EditComment" = "تحرير التعليق";
+// Command of editing text inside text fields.
+"Undo_EditText" = "تحرير النص";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "محو";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "المجموعة";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "دمج";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "تعديل الشرح التوضيحي";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "تعديل الشروح التوضيحية";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "نقل الشرح التوضيحي";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "نقل الشروح التوضيحية";
+// Command of pasting.
+"Undo_Paste" = "لصق";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "إزالة الشرح التوضيحي";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "إزالة الشروح التوضيحية";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "إزالة التعليق";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "إزالة التعليقات";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "تغيير حجم الشرح التوضيحي";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "تغيير حجم الشروح التوضيحية";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "تدوير الشرح التوضيحي";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "تدوير الشروح التوضيحية";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "فك المجموعة";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "محاذاة";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "محاذاة المستندات";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "تحديد نقطة";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "قديم";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "جديد";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "مقارنة";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "حدد ثلاث نقاط على كلا المستندين للمحاذاة اليدوية. للحصول على أفضل النتائج، اختر النقاط القريبة من زوايا المستند، مع التأكد من أن النقاط بنفس الترتيب في كلا المستندين.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "إلغاء";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "محاذاة المستندات";
+// Compare two documents.
+"Comparison_DocumentComparison" = "مقارنة المستندات";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "مستند قديم";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "مستند جديد";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "إعادة الضبط";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "تحديد النقاط";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "محاذاة…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "تحديد النقاط";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "النقطة %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "تم تحديد %1$tu من %2$tu في “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "النقطة %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "هدف تحديد النقطة";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "مستطيل سحابي";
+"DashedRectangleAnnotation" = "مستطيل متقطع";
+"CloudyEllipseAnnotation" = "شكل بيضاوي سحابي";
+"DashedEllipseAnnotation" = "شكل بيضاوي متقطع";
+"CloudyPolygonAnnotation" = "مضلع سحابي";
+"DashedPolygonAnnotation" = "مضلع مخطط";
+"CloudAnnotation" = "سحابي";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "بلا تعبئة";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "تعذر تحميل الشروح التوضيحية المحفوظة";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "تعذر تحميل الشروح التوضيحية";
+
+/// Measurement Strings
+"DistanceMeasurement" = "المسافة";
+"PerimeterMeasurement" = "المحيط الخارجي";
+"PolygonalAreaMeasurement" = "مساحة المضلع";
+"RectangularAreaMeasurement" = "مساحة المستطيل";
+"EllipticalAreaMeasurement" = "مساحة القطع الناقص";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "تدوير عكس اتجاه عقارب الساعة";
+"Rotate_Clockwise" = "تدوير باتجاه عقارب الساعة";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "أدخل الوصف هنا";
+// "New option button text"
+"FormDesigner_addOption" = "إضافة خيار";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "خصائص {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "هناك خانة نموذج تُسمى {formFieldName} موجودة بالفعل. يُرجى اختيار اسم مختلف.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "نمط {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "اسم خانة النموذج";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "القيمة الافتراضية";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "أسطر متعددة";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "لتجميع الأزرار التبادلية، تأكد من أن لها نفس أسماء خانات النموذج.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "إعدادات متقدمة";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "اسم المنشئ";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "ملاحظة";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "بيانات مخصصة";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "مطلوب";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "للقراءة فقط";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "تم الإنشاء في";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "تم التحديث في";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "يجب أن يكون عنصر JSON عادي قابل للتسلسل";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "لون الحد";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "عرض الحد";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "نمط الحد";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "طباعة";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "متصل";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "متقطع";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "مشطوف";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "داخلي";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "مُسطّر";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "نمط الخط";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "حجم الخط";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "لون الخط";
+// "Button Field"
+"FormDesigner_button" = "خانة الزر";
+// "Text Field Button"
+"FormDesigner_textField" = "مربع نص";
+// "Radio Field Button"
+"FormDesigner_radioField" = "خانة الزر التبادلي";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "حقل خانة الاختيار";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "حقل مربع تحرير وسرد";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "حقل مربع قائمة";
+// "signature Field Button"
+"FormDesigner_signatureField" = "خانة توقيع";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "نص الزر";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "لا ينطبق";
+// Label for form field
+"FormDesigner_label" = "التسمية";
+// Value for form field
+"FormDesigner_value" = "القيمة";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "لا يمكن إجراء تعديلات بمجرد الإنشاء.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "لا يمكن ترك اسم خانة النص فارغة.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "منشئ النماذج";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "تحديد متعدد";
+"FormDesigner_readOnlyProperty" = "للقراءة فقط";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "خيارات";
+
+// Measurement tools
+"MeasurementScale" = "مقياس الحجم";
+"MeasurementCalibrateLength" = "معايرة الطول";
+"MeasurementPrecision" = "الدقة";
+"MeasurementSnapping" = "محاذاة";
+"MeasurementPrecision_Whole" = "رقم صحيح";
+"MeasurementPrecision_OneDecimalPlace" = "خانة عشرية واحدة";
+"MeasurementPrecision_TwoDecimalPlaces" = "خانتان عشريتان";
+"MeasurementPrecision_ThreeDecimalPlaces" = "ثلاث خانات عشرية";
+"MeasurementPrecision_FourDecimalPlaces" = "أربع خانات عشرية";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "المساحة";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "الشرح التوضيحي للوسائط";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "هذا المتصفح لا يدعم الفيديو أو الصوت المضمن.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "إعدادات الروابط";
+// Label for selection of link type (website - page).
+"linkTo" = "رابط إلى";
+// Label for website selection.
+"uriLink" = "موقع الويب";
+// Label for page selection.
+"pageLink" = "صفحة";
+// Text for preceding number for page link number.
+"linkToPage" = "رابط إلى الصفحة %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "أدخل رقم صفحة صالحًا.";
+// Error message for invalid page link.
+"invalidPageLink" = "أدخل رابط صفحة صالحًا.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "إعدادات قياس {measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "تحديد تعليقات توضيحية متعددة";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ أدوات";
+
+// Document unlock string
+"Unlock_Document_Description" = "يجب إلغاء قفل المستند لعرضه. يرجى إدخال كلمة السر في الخانة أدناه.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "مجهول";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "خيارات التعليق";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "تحرير المحتوى";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "إعدادات قياس المحيط الخارجي";
+"Distance_Popover_Title" = "إعدادات قياس المسافة";
+"Rectangle_Area_Title" = "إعدادات قياس مساحة المستطيل";
+"Polygon_Area_Title" = "إعدادات قياس مساحة المضلع";
+"Ellipse_Area_Title" = "إعدادات قياس مساحة القطع الناقص";
+
+// Rich text formatting options for text annotations.
+"Bold" = "عريض";
+"Italic" = "مائل";
+
+// Button to save and then close current context
+"Save_And_Close" = "حفظ وإغلاق";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "تبديل تلميحات أدوات عدم تطابق الخط";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "خط %@ غير متوفر أو لا يمكن استخدامه لتحرير المحتوى في هذا المستند. سيتم إعادة المحتوى الذي تم إضافته أو تغييره إلى الخط الافتراضي. ";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "تضمين";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "تسطيح";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "تجاهل";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "ملخص";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "حدد صفحة البداية";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "حدد صفحة النهاية";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "إلى";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "تدوير";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "تحرير المحتوى";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "هناك تغييرات على “%1$@” لم يتم حفظها بعد.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "خطوط متعددة";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "خط غير معروف";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "أحجام متعددة";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "تقليل الحجم";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "زيادة الحجم";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "ألوان متعددة";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ عريض";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ مائل";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ عريض مائل";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "فتح سلسلة التعليقات التي بدأها: %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "المزيد من التعليقات";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "نطاق الصفحة";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "لون مخصص جديد";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "محرر المحتوى";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "العثور على التحديد";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "بحث في الويب";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "بوصات كاملة";
+"MeasurementPrecision_Halves" = "أنصاف بوصات";
+"MeasurementPrecision_Quarters" = "أرباع بوصات";
+"MeasurementPrecision_Eighths" = "أثمان البوصة";
+"MeasurementPrecision_Sixteenths" = "1/16 من البوصة";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "سلسة الشهادات المستخدمة لتوقيع المستند فارغة.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "نوع التوقيع الرقمي غير مدعوم.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "يتضمن التوقيع الرقمي طابع زمني غير صالح، أو تم التلاعب ببيانات الطابع الزمني الخاصة به.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "إعدادات القياس";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "إضافة مقياس حجم";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "استخدام أداة معايرة";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "معايرة مقياس الحجم";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "ضبط المقياس";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "الوحدات الثانوية";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "وحدة";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "سيؤدي حذف المقياس أيضاً إلى حذف القياسات التي تستخدم المقياس.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "هذا المقياس قيد الاستخدام بالفعل";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "هل ترغب في تحرير أو استخدام المقياس الموجود؟";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "استخدام الموجود";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "بلا عنوان";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "محاذاة مع المحتوى";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "محاذاة مع النفس";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "عرض الأدلة الذكية";
+
+// Label for the add text box button
+"AddTextBox" = "إضافة مربع نص";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "هل تريد بالتأكيد حذف مربع النص هذا؟";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "تأكيد حذف مربع النص";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "حوار يسمح للمستخدم بتأكيد حذف مربع النص أو إلغائه";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "للقراءة فقط";
+"locked" = "مقفل";
+"lockedContent" = "محتوى مقفل";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "تمت إضافة مقياس الحجم";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "تمت إضافة “%@” إلى قائمة مقاييس الحجم بنجاح.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "أيقونة إعدادات القياس";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "أيقونة تشير إلى أن مقياس إعدادات القياس غير مضبوط";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "تم التوقيع على هذا المستند باستخدام %@ من قبل %@ في يوم %@ الساعة %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "يزعم هذا المستند أنه تم التوقيع عليه باستخدام %@ من قبل %@ في يوم %@ الساعة %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "الخوارزمية %@ باستخدام %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "استخراج الصفحات";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "اسم المقياس";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "تم تعريف مقياس بهذه الإعدادات بالفعل. يُرجى اختيار مقياس مختلف.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "عرض الوحدة الثانوية";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "تعديل أو إضافة مقياس جديد";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "معايرة";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "الطبقات";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "لا توجد طبقات";
+
+"The certificate is not yet valid" = "الشهادة ليست صالحة بعد.";
+"Signature validation failed - invalid signature" = "التوقيع غير صالح.";
+"The certificate has been revoked" = "تم إبطال الشهادة.";
+"Certificate problem" = "توجد مشكلة في الشهادة.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "تعذر تفقد ما إذا كانت الشهادة قد تم إبطالها.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "تباعد الأسطر";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "مفرد";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "مزدوج";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "حدد المزيد…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "القياسات";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "إعادة تحميل المستند";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "مساعدة العالم لابتكار ما يتجاوز الأوراق بواسطة أدوات المطورين وحلول الحد الأدنى من البرمجة وأدوات مستخدمين نهائيين تغطي كل المنصات الرئيسية.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "إجراء";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "اختصار";
+
+// Mention button popover text.
+"CommentEditor_mention" = "إشارة";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "فتح حوار المساعدة";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "اقرأ المزيد";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "تركيز شريط الأدوات";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "لا توجد ذاكرة كافية لعرض هذه الصفحة.";

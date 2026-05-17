@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu match fundet</string>
+        <key>other</key>
+        <string>%tu matches fundet</string>
+        <key>zero</key>
+        <string>Ingen matches fundet</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu dokument indekseret</string>
+        <key>other</key>
+        <string>%tu dokumenter indekserede</string>
+        <key>zero</key>
+        <string>Ingen dokumenter indekserede</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu kommentar</string>
+        <key>other</key>
+        <string>%tu kommentarer</string>
+        <key>zero</key>
+        <string>Ingen kommentarer</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu punkt</string>
+        <key>other</key>
+        <string>%tu punkter</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Alle (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu side</string>
+        <key>other</key>
+        <string>%tu sider</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu resultat</string>
+        <key>other</key>
+        <string>%tu resultater</string>
+        <key>zero</key>
+        <string>Intet resultat</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Søger %#@pages@</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu side</string>
+        <key>other</key>
+        <string>%tu sider</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu linje</string>
+        <key>other</key>
+        <string>%tu linjer</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Slet %#@comments@</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu kommentar</string>
+        <key>other</key>
+        <string>%tu kommentarer</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu kommentar</string>
+        <key>other</key>
+        <string>%tu kommentarer</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu mere kommentar</string>
+        <key>other</key>
+        <string>%tu flere kommentarer</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Alle (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu side</string>
+        <key>other</key>
+        <string>%tu sider</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu dokument</string>
+        <key>other</key>
+        <string>%tu dokumenter</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu side valgt</string>
+        <key>other</key>
+        <string>%tu sider valgte</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Kommenterdialog. Åbn kommentarer. Forfatter %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu svar</string>
+        <key>other</key>
+        <string>%tu svar</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu side</string>
+        <key>other</key>
+        <string>%tu sider</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu segment</string>
+        <key>other</key>
+        <string>%tu segmenter</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu dokument valgt</string>
+        <key>other</key>
+        <string>%tu dokumenter valgt</string>
+        <key>zero</key>
+        <string>Intet dokument valgt</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Denne skala bruges i %#@measurements@.</string>
+      <key>measurements</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu måling</string>
+        <key>other</key>
+        <string>%tu målinger</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

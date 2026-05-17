@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Zavrieť";
+"Cancel" = "Zrušiť";
+"OK" = "OK";
+"Open" = "Otvoriť";
+"Untitled" = "Bez názvu";
+"File Not Found" = "Súbor nebol nájdený";
+"File couldn't be opened." = "Nebolo možné otvoriť súbor."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF bez mena";
+"Page %tu" = "Strana %tu";
+"Page %@" = "Strana %@";
+"Next" = "Ďalší";
+"Previous" = "Predchádzajúci";
+"Error" = "Chyba";
+"More options" = "Viac možností";
+"Close Tab" = "Zavrieť kartu";
+"Close All Tabs" = "Zavrieť všetky karty";
+"Close All Other Tabs" = "Zavrieť všetky ostatné karty"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Kreslenie";
+"Highlighter" = "Zvýrazňovač";
+
+// toolbar
+"Outline" = "Obsah"; // Table of contents
+"No Outline" = "Žiadny obsah";
+"Search Outline" = "Hladať v obsahu";
+"Search" = "Hladať";
+"Email" = "E-mail";
+"Send via Email" = "Poslať emailom";
+"Send" = "Odposlať";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Poslať správu";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Poslať e-mail";
+"Open In" = "Otvoriť v";
+"Commit" = "Vykonať";
+"Sending to %@" = "Odposielam %@"; // Open document with an application
+"Pages" = "Strany";
+"Print with annotations" = "Tlačiť s anotáciami";
+"Print without annotations" = "Tlačiť bez anotácií";
+"No Applications found" = "Nie sú nainštalované žiadne aplikácie pre otvorenie PDF súborov.";
+"Print" = "Tlačiť";
+"Annotation" = "Anotácia";
+"Annotations" = "Anotácie";
+"No Annotations" = "Žiadne anotácie";
+"Bookmarks" = "Záložky";
+"No Bookmarks" = "Žiadne záložky";
+"Add Bookmark" = "Pridať záložku";
+"Remove Bookmark" = "Odstrániť záložku";
+"Brightness" = "Jas";
+"Share" = "Zdieľať";
+"Preparing" = "Prebieha príprava";
+"Loading" = "Načítavam";
+"Expand" = "Rozbaliť";
+"Collapse" = "Zbaliť";
+// SMS / iMessage sharing button
+"Message" = "Správa";
+"Thumbnails" = "Ikony";
+"Drag Toolbar" = "Premiestniť panel nástrojov";
+
+// thumbnails
+"Bookmarked" = "Záložka pridaná";
+"Annotated" = "Anotácia pridaná";
+"All" = "Všetko";
+"Loading Annotations" = "Načítavajú sa anotácie";
+"Loading Pages" = "Načítavajú sa strany";
+"Loading Bookmarks" = "Načítavajú sa záložky";
+
+// password
+"Password" = "Heslo"; // text on a label
+"Unlock" = "Odomknúť";
+"Please enter the password." = "Vložte heslo.";
+"This document cannot be unlocked." = "Dokument nemohol byť odomknutý.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Pole s heslom";
+
+// page
+"%tu of %tu" = "%tu z %tu";
+"%tu–%tu of %tu" = "%tu–%tu z %tu";
+"%@ (%tu of %tu)" = "%@ (%tu z %tu)";
+"%@, Page %tu" = "%@, Strana %tu";
+"Leave %@?" = "Opustiť %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu z %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu z %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu z %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Hľadať v dokumente"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Hľadám na strane %tu of %tu";
+"Search Completed" = "Hľadanie bolo dokončené";
+"Search Cancelled" = "Hľadanie bolo zrušené";
+"%tu left" = "%tu zostáva"; // Indexing Documents... 5 left
+"Searching" = "Prebieha hľadanie";
+"Done" = "Hotovo";
+"Indexing Documents" = "Indexujem dokumenty";
+"Document" = "Dokument";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Hľadať Anotácie";
+
+// inline browser
+"Open in Safari" = "Otvoriť v Safari";
+"Open in Chrome" = "Otvoriť v Chrome";
+"Your %@ is not configured to send emails." = "Váš %@ nie je nakonfigurovaný pre posielanie emailov.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Odkaz vyžaduje otvorenie %1$@. %2$@ Chcete pokračovať?";
+"an external application" = "externej aplikácie"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "E‑mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Žiadna aplikácia pre otvorenie %@ nebola nájdená.";
+
+// text selection
+"Text copied to clipboard." = "Text bol skopírovaný do schránky.";
+"Save to Photo Library" = "Uložiť do Knižnice fotografií";
+"Failed to extract image." = "Nepodarilo sa extrahovať obrázok.";
+"Type value or pick from list" = "Zadajte hodnotu alebo vyberte zo zoznamu";
+
+// annotations
+"Add %@" = "Pridať %@";
+"Remove %@" = "Odstrániť %@";
+"Remove" = "Odstrániť";
+"Delete" = "Zmazať"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Upraviť";
+"Undo" = "Zrušiť";
+"Nothing to undo" = "Nič k navráteniu";
+"Redo" = "Opakovať";
+"Nothing to redo" = "Nič k opakovaniu";
+"Type" = "Typ"; // kind of Annotation can be selected
+"Size" = "Veľkosť";
+"Font" = "Písmo";
+"Fonts" = "Písma";
+"All Fonts" = "Všetky písma";
+"Downloadable Fonts" = "Písma k stiahnutiu";
+"Search Fonts" = "Hladať písma";
+"Choose Color" = "Zvoľte farbu";
+"Choose Fill Color" = "Zvoľte farbu výplne";
+"Rainbow" = "Dúha";
+"Monochrome" = "Monochróm";
+"Vintage" = "Vintage";
+"Modern" = "Moderný";
+"ColorPalette_Unified" = "Paleta";
+"Color" = "Farba";
+"Border" = "Ohraničenie";
+"Fill Color" = "Farba výplne";
+"Start and End Color" = "Farba začiatku a konca čiary";
+"Opacity" = "Nepriehľadnosť";
+"Thickness" = "Hrúbka";
+"%@ pt" = "%@ pt";
+"Yellow" = "Žltá";
+"Green" = "Zelená";
+"Red" = "Červená";
+"Blue" = "Modrá";
+"Pink" = "Ružová";
+"Black" = "Čierna";
+"Orange" = "Oranžová";
+"Purple" = "Fialová";
+"Cyan" = "Azúrová";
+"Gray" = "Šedá";
+"White" = "Biela";
+"Color_Brown" = "Hnedá";
+"Color_DarkRed" = "Tmavočervená";
+"Color_DarkBlue" = "Tmavomodrá";
+"Color_Magenta" = "Magenta";
+"Define" = "Definovať";
+"Wikipedia" = "Wikipédia";
+"Highlight" = "Zvýraznenie textu";
+"Underline" = "Podtrhnutie";
+"Squiggly" = "Klikyhák";
+"StrikeOut" = "Preškrtnúť";
+"Rectangle" = "Obdĺžnik";
+"Ellipse" = "Elipsa";
+"Line" = "Čiara"; // something that can be drawn
+"Polygon" = "Mnohouholník";
+"Signature" = "Podpis";
+"Signatures" = "Podpisy";
+"Signed" = "Podpísané";
+"Sign" = "Podpísať";
+"Signing…" = "Podpisujem…";
+"Sign using %@" = "Podpísať s %@"; // e.g. Adobe.PPKLite
+"Methods" = "Metódy"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Zvoľte identitu"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Razítko";
+"Stamps" = "Razítka";
+"Custom" = "Vlastné"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Vytvoriť razítko";
+"Preview" = "Ukážka";
+"Stamp Text" = "Text razítka";
+"Add Signature" = "Pridať podpis";
+"Remove Signature" = "Odstrániť podpis";
+"My Signature" = "Môj podpis";
+"No Signatures" = "Žiadne podpisy"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Podpíšte tu";
+"Text" = "Poznámka";
+"FreeText" = "Správa";
+"Delete Note" = "Zmazať poznámku";
+"Remove Note" = "Odstrániť poznámku";
+"%@ could not be found." = "%@ nebolo nájdené.";
+"Photo Library" = "Knižnica fotografií";
+"Camera" = "Fotoaparát";
+"camera_not_available" = "Fotoaparát nie je k dispozícii";
+"Image" = "Obrázok";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Vyberte kvalitu obrázku";
+"Low Quality" = "Nízka kvalita";
+"Medium Quality" = "Stredná kvalita";
+"High Quality" = "Vysoká kvalita";
+"Clear All" = "Zmazať všetko";
+"Clear" = "Zmazať";
+"Style" = "Štýl";
+"Link" = "Odkaz";
+"Ink" = "Kreslenie";
+"Screen" = "Šablóna";
+"RichMedia" = "Multimédiá";
+"FileAttachment" = "Súbor";
+"Left" = "Vľavo";
+"Center" = "Uprostred";
+"Right" = "Vpravo";
+"Alignment" = "Zarovnanie";
+"Preview File" = "Ukázať súbor";
+"Copy" = "Kopírovať";
+"Paste" = "Vložiť";
+"Inspector" = "Inšpektor";
+"Group" = "Skupina";
+"Ungroup" = "Rozdeliť skupinu";
+"Merge" = "Zlúčiť"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Ukážka";
+"Annotation Summary for %@:" = "Prehľad anotácií pre %@:";
+"Show Text" = "Ukázať text";
+// title
+"Author Name" = "Meno autora";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Zadajte meno autora, ktoré chcete použiť pre novo pridané anotácie.";
+// text field placeholder
+"Name" = "Názov";
+// meaning: close
+"Dismiss" = "Zavrieť";
+"Fit to Text" = "Prispôsobiť textu";
+"Draw" = "Nakresliť";
+"Sound" = "Zvuk";
+"Eraser" = "Guma";
+"Toggle Eraser" = "Zavrieť gumu"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Nástroj pre výber";
+"Add" = "Pridať"; // to add - infinitive
+"Date" = "Dátum";
+"Time" = "Čas";
+"No Pages" = "Žiadne strany";
+"Drag to resize" = "Ťahajte pre zmenu veľkosti"; // used as hint that inspector is resizable
+"Convert to" = "Konvertovať do"; // used as label on action that changes free text intent type
+"Color Presets" = "Predvoľby farieb";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Predvoľba farieb";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Vystrihnúť";
+"Annotation copied." = "Anotácia bola skopírovaná.";
+"Annotation cut." = "Anotácia bola vystrihnutá.";
+"Annotation pasted." = "Anotácia bola vložená.";
+"%tu selected" = "Označených %tu";
+"Custom Stamp" = "Vlastné razítko";
+"Change text and color" = "Zmeniť text a farbu";
+"Use an existing stamp design" = "Použiť existujúci návrh razítka";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Kúzelný atrament";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Nepodarilo sa načítať písmo '%@' na pozícii %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Inšpektor štýlu";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Naozaj chcete vymazať všetky anotácie?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Vytváranie anotácií je zakázané";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Má komentár";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Textová anotácia";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Fajka";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Krížik";
+
+"Callout" = "Popisok"; // freetext annotation with an arrow
+"Generic" = "Všeobecné"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Štýl čiary";
+"Solid" = "Pevný";
+"Narrow Dots" = "Úzke bodky";
+"Wide Dots" = "Široké bodky";
+"Narrow Dashes" = "Úzke pomlčky";
+"Wide Dashes" = "Široké pomlčky";
+"Cloudy" = "Obláčik"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Schválené";
+"Not Approved" = "Neschválené";
+"Draft" = "Koncept";
+"Final" = "Konečný";
+"Completed" = "Dokončené";
+"Confidential" = "Tajné";
+"For Public Release" = "Pre verejné vydanie";
+"Not For Public Release" = "Nie pre verejné vydanie";
+"For Comment" = "Pre komentáre";
+"Void" = "Neplatný";
+"Preliminary Results" = "Predbežné výsledky";
+"Information only" = "Iba pre informácie";
+"Accepted" = "Prijaté";
+"Rejected" = "Odmietnuté";
+"Initial Here" = "Iniciály tu";
+"Sign Here" = "Podpíšte tu";
+"Witness" = "Svedok";
+"Revised" = "Revidované";
+"Stamp.AsIs" = "Zachovať";
+"Stamp.Departmental" = "Rezortné";
+"Stamp.Experimental" = "Experimentálne";
+"Stamp.Expired" = "Platnosť vypršala";
+"Stamp.Sold" = "Predané";
+"Stamp.TopSecret" = "Prísne tajné";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Stylus";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Vypnuté";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Skenovanie";
+// text on a label; app connects to a stylus
+"Pairing" = "Párovanie";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ Pripojené";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ Odpojené";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Nastavenia";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Použiť Apple ceruzku na anotovanie";
+
+// PDF annotation name overrides
+"Square" = "Obdĺžnik";
+"Circle" = "Elipsa";
+"PolyLine" = "Lomená čiara";
+"SavedAnnotations" = "Uložené anotácie";
+
+// named actions
+"NextPage" = "Dalšia strana";
+"PrevPage" = "Predchádzajúca strana";
+"FirstPage" = "Prvá stana";
+"LastPage" = "Posledná strana";
+"GoBack" = "Späť";
+"GoForward" = "Ísť dopredu";
+"GoToPage" = "Ísť na stranu";
+"Find" = "Hladať";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Zvätšiť";
+"ZoomOut" = "Zmenšiť";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Multimediálna akcia";
+"Rendition Action" = "Ztvárnenie";
+"Hide Action" = "Schovať akciu";
+"Submit Form" = "Odoslať";
+"Reset" = "Obnoviť";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Späť";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Vybrať všetko";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Vybrať položku hore";
+"KeyCommand.SelectBelow" = "Vybrať položku dole";
+"KeyCommand.SelectTop" = "Vybrať vrchnú položku";
+"KeyCommand.SelectBottom" = "Vybrať spodnú položku";
+"KeyCommand.ClearSelection" = "Zrušiť výber";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Rozšíriť výber";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Zbaliť výber";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Zobraziť nasledujúcu kartu";
+"KeyCommand.ShowPreviousTab" = "Zobraziť predchádzajúcu kartu";
+"KeyCommand.SelectAllAnnotations" = "Vybrať všetky anotácie";
+
+// line annotations
+"Start" = "Začiatok";
+"End" = "Koniec";
+"Line.None" = "Žiadny";
+"Line.ClosedArrow" = "Zatvorená šípka";
+"Line.OpenArrow" = "Otvorená šípka";
+"Line.Square" = "Štvorec";
+"Line.Circle" = "Kruh";
+"Line.Diamond" = "Kosoštvorec";
+"Line.ROpenArrow" = "Obrátená otvorená šípka";
+"Line.RClosedArrow" = "Obrátená zatvorená šípka";
+"Line.Slash" = "Lomka";
+"Line.Butt" = "Zakončenie";
+"Line Start" = "Začiatok čiary";
+"Line End" = "Koniec čiary";
+"Arrow" = "Šípka"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Vytvoriť odkaz";
+"Add Link" = "Pridať odkaz";
+"Edit Link" = "Upraviť odkaz";
+"Move Link" = "Posunúť odkaz";
+"Remove Link" = "Odstrániť odkaz";
+"Open Link" = "Otvoriť odkaz";
+"Go to Page %tu" = "Ísť na stranu %tu";
+"Go to Page" = "Ísť na stranu"; // title of a Popup
+"Go" = "Ísť"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Kopírovať adresu URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Kopírovať odkaz";
+"Save" = "Uložiť";
+"Link Destination" = "Cieľ odkazu";
+"Enter page index or a http:// address to link to an URL." = "Zadajte index strany alebo http:// adresu ako odkaz na URL.";
+"Page %@ Not Found" = "Strana %@ nebola nájdená";
+"Add to Reading List" = "Pridať do zoznamu čítania";
+
+"Link annotation creation failed." = "Vytvorenie odkazu zlyhalo.";
+"Link annotation successfully created." = "Odkaz bol úspešne vytvorený.";
+"Entered text could not be converted to an Integer nor URL." = "Zadaný text nemohol byť prevedený na celé číslo ani na adresu URL.";
+
+// voiceover accessibility
+"Grid" = "Mriežka"; // grid with thumbnails
+"Translucent" = "Priesvitný";
+"left" = "doľava";
+"center" = "uprostred";
+"right" = "doprava";
+"decrease" = "znížiť";
+"increase" = "zvýšiť";
+"All Open Documents" = "Všetky otvorené dokumenty";
+"Add Documents" = "Pridať dokumenty"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Otvoriť súbor";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Ovládanie multimédií";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Resetovať formulár";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Zobraziť anotáciu";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Pomenovaná akcia";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Strany %tu-%tu"; // Range of pages
+"Current Page" = "Aktuálna strana";
+"Current Page (%tu)" = "Aktuálna strana (%tu)";
+"Ignore Annotations" = "Ignorovať anotácie";
+"The PDF will not contain any annotations." = "PDF nebude obsahovať žiadne anotácie.";
+"Embed Annotations" = "Vložiť anotácie";
+"Annotations will remain editable and are embedded into the PDF." = "Anotácie zostanú editovateľné a budú vložené do PDF.";
+"Flatten Annotations" = "Vyhladiť anotácie";
+"Annotations are drawn into the PDF and are readonly." = "Anotácie budú vykreslené v PDF a nebudú editovateľné.";
+"Annotation Summary" = "Prehľad anotácií";
+"Embed Annotations into the PDF and also list them in the email." = "Vložiť anotácie do PDF a uviesť ich zoznam v e-maile.";
+"Annotations will be listed in a text file." = "Anotácie budú uložené ako text.";
+"Files" = "Súbory";
+"Send as single files" = "Poslať ako jednotlivé súbory";
+"Merge files" = "Zlúčiť súbory";
+"Original File" = "Originálny súbor";
+"Range" = "Rozsah";
+"Annotated Pages" = "Komentované strany";
+"Message could not be sent." = "Nepodarilo sa odposlať správu.";
+"Export" = "Exportovať";
+"This action can't be performed." = "Táto akcia nemôže byť vykonaná.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Export dokumentov, ktoré nie sú súbory, nie je podporovaný.";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Dokument neobsahuje žiadne anotácie.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Dokument nie je možné zdieľať";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Zdieľanie obrázkov v dokumente je obmedzené maximálne na %tu strán naraz.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Nemôžete poslať prílohy cez správy.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Dokumenty nie je možné tlačiť.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF dokument";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Cieľ nie je k dispozícii";
+
+// sound annotations
+"Speak" = "Čítať"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Prehrať";
+"Pause" = "Pozastaviť";
+"Resume" = "Ďalej";
+"Stop" = "Zastaviť";
+"Play/Stop" = "Spustiť/Zastaviť";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Záznam";
+"Pause Recording" = "Pozastaviť nahrávanie";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Nahrávka pozastavená";
+"Continue Recording" = "Pokračovať v nahrávaní";
+"Finish Recording" = "Dokončiť nahrávku";
+"Audio Problem" = "Problém so zvukom";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Nepodarilo se zahájiť prehrávanie.";
+"Could not resume playback." = "Nepodarilo se obnoviť prehrávanie.";
+"Microphone permission not granted." = "Povolenie k použitiu mikrofónu nebolo udelené.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Nie je možné nahrávať zvuk. Prosím prideľte aplikácii povolenie pre prístup k mikrofónu.";
+"There was a problem trying to record audio." = "Nastal problém pri nahrávaní zvuku.";
+"Already Recording" = "Už nahrávam";
+"You are already recording on page %@." = "Už nahrávate na strane %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Zdá sa, že pre túto aplikáciu máte trvalo zamietnutý prístup k mikrofónu. Ak chcete vytvárať zvukové poznámky, musíte manuálne povoliť prístup k mikrofónu prostredníctvom obrazovky nastavenia aplikácie.";
+
+// Forms
+"Form Element" = "Prvok formulára";
+"Text Field" = "Textové pole";
+"Button" = "Tlačítko";
+"Choice Field" = "Pole pre výber";
+"Signature Field" = "Pole pre podpis";
+"Clear Field" = "Zmazať pole"; // same as delete
+"Default Values" = "Predvolené hodnoty";
+"Custom Value" = "Vlastná hodnota";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Možnosti vyhľadávania";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Neplatná hodnota: musí byť väčšie alebo rovné ako %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Neplatná hodnota: musí byť väčšie alebo rovné ako %s a menšie alebo rovné ako %s.";
+"Invalid value: must be less than or equal to %s." = "Neplatná hodnota: musí byť menšie alebo rovné ako %s.";
+"The value entered does not match the format of the field [%s]" = "Zadaná hodnota nezodpovedá formátu poľa [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Neplatný dátum/čas: uistite sa, že dátum/čas existuje. Pole [%s] by malo mať formát %s";
+
+// General validation
+"Invalid value [%s]" = "Nesprávna hodnota [%s]";
+
+// Gallery
+"Connection Error" = "Chyba pripojenia";
+"Unsupported Content" = "Nepodporovaný obsah";
+"The specified content cannot be displayed." = "Vybraný obsah nemôže byť zobrazený.";
+"Something went wrong" = "Niečo se pokazilo";
+"This item is currently unavailable." = "Táto položka nie je dostupná.";
+"The information for this gallery could not be loaded." = "Informácie o tejto galérii neboli načítané.";
+"Content Error" = "Chyba obsahu";
+"This content is unsupported." = "Tento obsah nie je podporovaný.";
+
+// Signatures
+"Digital Signature" = "Digitálny podpis";
+"Signature is valid." = "Podpis je platný.";
+"Signature is valid, but there are some warnings." = "Podpis je platný, ale vyskytujú sa upozornenia.";
+"It was signed by %@ on %@ at %@." = "Podpísané od %@ v %@ v %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Podpísané v %@ v %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Údajne podpísané od %@ v %@ v %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Údajne podpísané v %@ v %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Revízia nebola upravená od podpísania, v dokumente sa však vyskytujú zmeny od posledného podpísania."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Podpis je neplatný a obsah tohto dokumentu nebol upravený od posledného podpísania.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Neplatný podpis — od podpísania obsahu v tomto dokumente bol obsah zmenený alebo inak poznamenaný.";
+"Unsigned Signature Field" = "Nepodpísané pole podpisu";
+"Do you really want to remove the signature from the document?" = "Naozaj chcete odstrániť podpis z dokumentu?";
+"Could not retrieve the certificate from the signature." = "Nie je možné načítať certifikát z podpisu.";
+"Could not retrieve the signature contents." = "Nie je možné načítať obsah podpisu.";
+"Could not retrieve the public key from the signature." = "Nie je možné načítať verejný kľúč z podpisu.";
+"Could not retrieve the byte range of the signature." = "Nie je možné načítat rozsah bajtov podpisu.";
+"Could not understand the encryption padding." = "Bol použitý nesprávny formát šifry.";
+"Could not compute the digest for the document." = "Nie je možné zašifrovať dokument.";
+"General failure while trying to determine document integrity." = "Všeobecné zlyhanie pri pokuse o určenie integrity dokumentu.";
+"Certificate chain is invalid." = "Reťazec certifikátov je neplatný.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Reťazec certifikátov nie je možné overiť, pretože neboli dodané žiadne dôveryhodné kľúče.";
+"Document integrity success, but certificate is self signed." = "Certifikát je podpísaný sám sebou.";
+"Document integrity check failed." = "Kontrola integrity dokumentu se nepodarila.";
+"The signing certificate is not trusted." = "Certifikát podpisu nie je dôveryhodný.";
+"unknown time" = "neznámy čas";
+"unknown date" = "neznámy dátum";
+"Digitally signed by {}" = "Digitálne podpísal {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Dátum: ";
+"Reason: " = "Dôvod: ";
+"Location: " = "Umiestnenie: ";
+"Certificate" = "Certifikát";
+"No Certificate" = "Žiadny certifikát";
+"No Certificates" = "Žiadne certifikáty";
+"Store Signature" = "Uložiť podpis";
+"Add Trusted Certificate" = "Pridať dôveryhodný certifikát";
+"Add Signer" = "Pridať podpis";
+"Added Trusted Certificate" = "Dôveryhodný certifikát bol pridaný";
+"Added Signer" = "Podpis bol pridaný";
+"File doesn't match any certificate type" = "Súbor neodpovedá žiadnemu typu certifikátu";
+"Import Failed" = "Import se nepodaril";
+"Signature Area" = "Priestor pre podpis";
+"Draw Signature Area" = "Označte oblasť podpisu";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Nepodarilo sa inicializovať PKCS7 objekt";
+"Could not find signature" = "Nepodarilo sa nájsť podpis";
+"Could not hash the PDF document" = "Nepodarilo sa vytvoriť hash PDF dokumentu";
+"Could not create padding for the digital signature" = " Nepodarilo sa vytvoriť vypchávku pre digitálny podpis";
+"Could not verify the signature" = "Podpis sa nepodarilo overiť";
+"Could not save the signed document" = "Podpisovaný dokument sa nepodarilo uložiť";
+"Cannot sign attributes" = "Nie je možné podpísať atribúty";
+"The selected subfilter type for the signature is not supported" = "Zvolený filter podpisu nie je podporovaný";
+"Could not add signature to PKCS7 object" = "Nepodarilo sa pridať podpis do objektu PKCS7";
+"Could not write PKCS7 signature" = "Nepodarilo sa uložiť podpis PKCS7";
+"Could not create PKCS7 object" = "Nepodarilo sa vytvoriť PKCS7 objekt";
+"Could not generate PKCS7 object" = "Nepodarilo sa vygenerovať PKCS7 object";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Dokument sa nepodarilo podpísať, pretože už je podpísaný.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Nepodarilo sa prečítať dáta z certifikátu ako PKCS#7 certifikát. Dáta v správnom formáte môžu byť vyexportované z Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Nepodarilo se dešifrovať podpis v certifikáte.";
+"The public key in the certificate could not be read." = "Nepodarilo sa prečítať verejný klúč v certifikáte.";
+"The signature of the certificate is not valid." = "Podpis certifikátu nie je platný.";
+"Signature is not valid." = "Podpis je neplatný.";
+"There is a format error in the notBefore field of the certificate." = "Vyskytuje se chyba formátu v poli notBefore v certifikáte."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Vyskytuje se chyba formátu v poli notAfter v certifikáte."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Žiadne podpisy nemohli byť potvrdené, pretože reťaz certifikátu obsahuje iba jeden certifikát, ktorý nie je sám podpísaný a jeho vydavateľ nie je dôveryhodný.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Certifikát certifikačnej autority je neplatný, pretože nie je certifikačnou autoritou alebo jeho rozšírenia nie sú v súlade so zamýšľaným účelom."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Parameter basicConstraints pathlength bol prekročený."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Koreňová certifikačná autorita nie je označená ako dôveryhodná pre daný účel."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Koreňová certifikačná autorita je označená pre zamietnutie zadaného účelu."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Certifikát vydavateľa bol zamietnutý, pretože \"subject name\" sa nezhodovalo s menom vydavateľa súčasného certifikátu."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Certifikát vydavateľa bol zamietnutý, pretože subject key identifier bol prítomný a nezhodoval sa s authority key identifier súčasného certifikátu."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Certifikát vydavateľa bol zamietnutý, pretože meno jeho vydavateľa a sériové číslo bolo prítomné a nezhodovalo sa s \"authority key identifier\" súčasného certifikátu."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Certifikát bol zrušený jeho vydavateľom.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Certifikát je samopodpísaný a rovnaký certifikát nebol nájdený v zozname dôveryhodných certifikátov.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Samopodpísaný certifikát existuje v reťazi certifikátu. Reťaz certifikátu mohla byť vytvorená pomocou nedôveryhodných certifikátov, ale koreňová certifikačná autorita nebola nájdená lokálne."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Nepodarilo sa nájsť certifikát pre jednu z certifikačných autorít (CA) v podpisovej hierarchii a lokálna aplikácia nedôveruje tejto CA."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Certifikát vydavateľa lokálneho certifikátu nebol nájdený. Toto normálne znamená, že zoznam dôveryhodných certifikátov nie je úplný.";
+"The certificate that was provided cannot be used for its intended purpose." = "Certifikát, který bol poskytnutý, nemôže byť použitý pre zadaný účel.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "KeyUsage rozšírenie certifikátu vydavateľa nepovoluje podpisovanie certifikátov.";
+"The certificate has expired." = "Certifikát vypršal.";
+"The certificate is not valid until a date in the future." = "Certifikát nie je platný do dátumu v budúcnosti.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Nepodarilo sa prečítať X509 certifikát";
+// X509 should not be translated
+"No X509 certificate found" = "Žiadny X509 certifikát nebol nájdený";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Nepodarilo sa prečítať PKCS12 súbor. Súbor ma nesprávne formátovanie alebo je poškodený.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Nepodarilo sa odomknúť PKCS12 dáta. Zadali ste správne heslo?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12 dáta sa nedajú dekódovať. Môžu byť skreslené alebo neúplné.";
+"Could not unlock PKCS12 data." = "PKCS12 dáta sa nedajú odomknúť.";
+"Could not add signature." = "Nepodarilo sa pridať podpis.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Nepodarilo sa otvoriť súbor pre overenie podpisu";
+"Could not get signer info" = "Nepodarilo sa zistiť informácie o podpisujúcom sa";
+
+// Night Mode
+"Default" = "Predvolný"; // Default view (night mode not enabled)
+"Sepia" = "Sépia"; // Document uses sepia colors
+"Night" = "Noc"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Žiadny dokument nebol nastavený";
+"Unable to display document" = "Nepodarilo sa zobraziť dokument";
+"Locked" = "Uzamknuté";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Súbor, ku ktorému sa pokúšate získať prístup, buď nie je PDF súbor alebo môže byť poškodený.";
+"A password is required to access this document." = "Pre otvorenie tohto dokumentu je požadované heslo.";
+"The security scheme of this document is currently not supported." = "Schéma zabezpečenia tohto dokumentu nie je podporovaná.";
+"An unknown error has occured while trying to open this file." = "Nastala neznáma chyba pri otváraní tohto súboru.";
+
+// Document Editor
+"Document Editor" = "Editor dokumentov";
+"Add Page" = "Pridať stranu";
+"Delete Pages" = "Zmazať strany";
+"Duplicate Pages" = "Duplikovať strany";
+"Move Pages" = "Presunúť strany";
+"Rotate Pages" = "Otočiť strany";
+"Page Size" = "Veľkosť strany";
+"Background Color" = "Farba pozadia";
+"Paper" = "Papier";
+"Pattern" = "Vzor";
+"Use Document Size" = "Použiť veľkosť dokumentu";
+"Orientation" = "Orientácia";
+"Portrait" = "Na výšku";
+"Landscape" = "Na šírku";
+"Document Name" = "Názov dokumentu";
+"Documents" = "Dokumenty"; // Name of directory
+"Use Document Folder" = "Použiť priečinok dokumentu";
+"Folder" = "Priečinok";
+"Replace File?" = "Nahradiť súbor?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Súbor s názvom “%@” už existuje. Chcete ho nahradiť?";
+"Replace" = "Nahradiť";
+"Saving…" = "Ukladám…";
+"Saved" = "Uložené";
+"Save As…" = "Uložiť ako…";
+"Discard Changes" = "Zrušiť zmeny";
+"Empty" = "Prázdny";
+"Use Image Size" = "Použiť veľkosť obrázku";
+"Page Background" = "Pozadie strany";
+"Insert image annotation" = "Vložiť obrázkovú anotáciu";
+"Import page background" = "Importovať pozadie strany";
+"Quality" = "Kvalita";
+"Low" = "Nízka";
+"Medium" = "Stredná";
+"High" = "Vysoká";
+"Best" = "Najlepšia";
+"Copy Pages" = "Kopírovať strany";
+"Paste Pages" = "Vložiť strany";
+"Copied" = "Skopírované";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” má neuložené zmeny. Chcete ich teraz uložiť?";
+"Select Source Document" = "Vyberte zdrojový dokument";
+"Add After Page %tu" = "Pridať za stranu %tu";
+"Cut Pages" = "Vystrihnúť strany";
+"Import Document" = "Importovať dokument";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Použiť systémové rozhranie pre výber priečinkov";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Vybrať priečinok";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Vybrať všetky strany";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Prázdny dokument nemôže byť uložený.";
+"The document could not be saved." = "Dokument nebol uložený.";
+"This document does not support editing." = "Tento dokument nepodporuje úpravy.";
+"The document could not be accessed." = "Nepodarilo sa získať prístup k dokumentu.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "Nebolo možné importovať PDF dokument.";
+"The image could not be imported at this time." = "Nebolo možné importovať obrázok.";
+
+// Page Patterns
+"None" = "Žiadny";
+"Dot5mm" = "Bodky 5mm";
+"Grid5mm" = "Mriežka 5mm";
+"Lines5mm" = "Riadky 5mm";
+"Lines7mm" = "Riadky 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US dopis";
+"US Legal" = "US právny";
+
+// Page Export
+"Export Pages" = "Exportovať strany";
+"Export…" = "Export…";
+"Exporting…" = "Exportujem…";
+"Exported" = "Exportované";
+"%@ - Exported" = "%@ - Exportované"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Kópia"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Zvolený dokument je práve otvorený. Prosím zvoľte iný názov súboru.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Služba text-to-speech je nedostupná. Uistite sa, že máte aktívne pripojenie k internetu alebo nainštalovaný Google text-to-speech, který je povolený v tomto zariadení.";
+
+// Settings
+"Page Layout" = "Rozvrhnutie strany";
+"Scroll Direction" = "Smer skrolovania";
+"Theme" = "Téma";
+"Keep screen on" = "Nechať zapnutú obrazovku";
+"Page Transition" = "Prechod strán";
+"Single" = "Jedna strana";
+"Continuous" = "Súvisle";
+"Curl" = "Obracať strany";
+"Scroll" = "Skrolovať";
+"Horizontal" = "Horizontálny";
+"Vertical" = "Vertikálny";
+"Page Mode" = "Režim stánok";
+"Automatic" = "Automatický";
+"Double" = "Dve strany";
+"Appearance" = "Vzhľad";
+"Scrubber Bar" = "Navigačná lišta";
+"Jump" = "Preskočiť"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Nie je dostupné"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Nastavenie strany";
+"Fit" = "Prispôsobiť";
+"Fill" = "Vyplniť";
+"Adaptive" = "Adaptívne";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ nemá prístup k vašim fotografiám.";
+"%@ does not have access to your camera." = "%@ nemá prístup k vášmu fotoaparátu.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Nastavenie ochrany osobných údajov";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Môžete povoliť prístup v %@.";
+
+"Update Required" = "Je vyžadovaná aktualizácia";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Pre prístup k dokumentu a synchronizáciu anotácií je vyžadovaná aktualizácia aplikacie %@.";
+
+
+// Annotation Replies
+"Comment" = "Komentár";
+"Comments" = "Komentáre";
+"Add your comment…" = "Pridať komentár…";
+"Delete Comment" = "Odstrániť komentár";
+"Set Status" = "Nastaviť stav";
+"Cancelled" = "Zrušený";
+"Accepted by" = "Prijal";
+"Rejected by" = "Odmietol";
+"Completed by" = "Dokončil";
+"Cancelled by" = "Zrušil";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Pravý ukazovateľ";
+"Right Arrow" = "Pravá šípka";
+"Checkmark" = "Fajka";
+"Circle Note" = "Circle";
+"Cross" = "Kríž";
+"Insert Text" = "Vložiť text";
+"New Paragraph" = "Nový odsek";
+"Text Note" = "Textová poznámka";
+"Paragraph" = "Odsek";
+"Help" = "Pomoc";
+"Star" = "Hviezda";
+"Key" = "Kľúč";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Svetlo modrá";
+"Light Red" = "Svetlo červená";
+"Light Green" = "Svetlo zelená";
+"Fuchsia" = "Fuchsia";
+"Page %tu of %tu" = "Strana %tu z %tu";
+"Preparing document for printing…" = "Príprava dokumentu na tlač…";
+"Are you sure you want to delete this annotation?" = "Naozaj chcete odstrániť túto anotáciu?";
+"Confirm annotation deletion" = "Potvrďte vymazanie anotácie";
+"Page Rotation" = "Rotácia strany";
+"Rotate Left" = "Otočiť doľava";
+"Rotate Right" = "Otočiť doprava";
+"%@ (not supported)" = "%@ (nie je podporované)";
+"Pan Mode" = "Spôsob pohybu";
+"Fit Page" = "Prispôsobiť strane";
+"Fit Width" = "Prispôsobiť šírke";
+"Password Required" = "Vyžadované heslo";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Tento dokument musíte odomknúť, aby ste ho mohli zobraziť. Zadajte heslo do poľa nižšie.";
+"The password you entered is not correct. Please try again." = "Zadané heslo nie je správne. Prosím skúste to znova.";
+"Clear Signature" = "Zmazať podpis";
+"Top" = "Navrch";
+"Bottom" = "Na spodok";
+"Vertical Alignment" = "Vertikálne zarovnanie";
+"Horizontal Alignment" = "Horizontálne zarovnanie";
+"Light Orange" = "Svetlo oranžová";
+"Light Yellow" = "Svetlo žltá";
+"Mauve" = "Svetlo fialová";
+"Light Gray" = "Svetlo sivá";
+"Dark Gray" = "Tmavo sivá";
+"NoColor" = "Žiadna";
+"Transparent" = "Priehľadná";
+// Generic label for bookmark
+"Bookmark" = "Záložka";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nová záložka";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Naozaj chcete túto záložku zmazať?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Potvrďte odstránenie záložky";
+// Label for the select image field
+"Select Image" = "Vybrať obrázok";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ nástroje, otvoriť menu";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Nepodporovaný formát pre obrázkovú anotáciu: %@. Použite súbory vo formáte JPEG alebo PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Obdĺžnikový nástroj pre zväčšenie";
+"Toolbar_TextHighlighter" = "Zvýrazňovač textu";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Panel s nástrojmi textových anotácií";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Oblasť dokumentu";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Prebieha redakcia";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Označuje, že aktuálny dokument je práve redigovaný";
+"Icon" = "Ikona";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Presunúť";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Presunúť stranu";
+// The label of the button on the Move UI
+"move" = "Presunúť";
+"selectedItem" = "Vybraných: %@";
+"annotationDeleted" = "Anotácia zmazaná";
+"newAnnotationCreated" = "Vytvorená nová %@ anotácia.";
+"bookmarkCreated" = "Vytvorená záložka.";
+"bookmarkEdited" = "Editovaná záložka.";
+"bookmarkDeleted" = "Zmazaná záložka";
+"cancelledEditingBookmark" = "Zrušená úprava záložky.";
+"selectAFileForImage" = "Vyberte súbor pre novú obrázkovú anotáciu.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialog umožňujúci potvrdiť zmazanie anotácie.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialog umožňujúci potvrdiť zmazanie záložky.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialog umožňujúci potvrdiť zmazanie komentára.";
+"resize" = "Zmeniť veľkosť";
+"resizeHandleTop" = "Vrch";
+"resizeHandleBottom" = "Spodok";
+"resizeHandleRight" = "Vpravo";
+"resizeHandleLeft" = "Vľavo";
+"cropCurrentPage" = "Orezať aktuálnu stranu";
+"cropCurrent" = "Orezať aktuálnu stranu";
+"cropAllPages" = "Orezať všetky strany";
+"cropAll" = "Orezať všetko";
+"documentCrop" = "Orezanie dokumentov";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Vložiť za stranu";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Zadajte “0” pre presunutie vybranej strany/strán na začiatok dokumentu.";
+
+// Blend Mode Strings
+"Normal" = "Normálne";
+"Multiply" = "Vynásobiť";
+"ScreenBlend" = "Clona";
+"Overlay" = "Prekryť";
+"Darken" = "Ztmaviť";
+"Lighten" = "Zosvetliť";
+"ColorDodge" = "Zosvetliť farby";
+"ColorBurn" = "Stmaviť farby";
+"HardLight" = "Ostré svetlo";
+"SoftLight" = "Jemné svetlo";
+"Difference" = "Rozdiel";
+"Exclusion" = "Vylúčiť";
+"Multiple" = "Násobok";
+"Blend Mode" = "Mód miešania";
+
+// Image Document Strings
+"File type not supported." = "Nepodporovaný typ súboru.";
+"Could not load image file." = "Nepodarilo sa načítať súbor s obrázkom.";
+"The image is too large to be opened." = "Obrázok je príliš veľký pre otvorenie.";
+"Could not generate a PDF document from the image." = "Nepodarilo sa vygenerovať PDF dokument z obrázku.";
+"Unnamed Image Document" = "Nepomenovaný obrazový dokument";
+"Annotations will remain editable and are embedded into the image." = "Anotácie zostanú editovateľné a sú uložené do obrázku.";
+"Annotations are drawn into the image and are readonly." = "Anotácie sú uložené do obrázku a nie sú editovateľné.";
+
+//Metadata Strings
+"Document Info" = "Informácie o dokumente";
+"Content" = "Obsah";
+"Title" = "Názov";
+"Author" = "Autor";
+"Subject" = "Predmet";
+"Keywords" = "Kľúčové slová";
+"Not Set" = "Nie je nastavené";
+"NoneValue" = "Žiadna hodnota";
+"Security" = "Zabezpečenie";
+"Document Open Password" = "Heslo na otvorenie dokumentu";
+"Not set, minimum 8 characters" = "Nie je nastavené, minimálne 8 znakov";
+"Permissions" = "Oprávnenia";
+"Changes" = "Zmeny";
+"Printing" = "Tlač";
+"Content Copying for Accessibility" = "Kopírovanie obsahu pre uľahčenie prístupu";
+"Content Modification" = "Zmena obsahu";
+"High Quality Printing" = "Tlač vo vysokej kvalite";
+"Filling of Form Fields" = "Vypĺňanie formulárov";
+"Document Assembly" = "Skladanie dokumentov";
+"Annotations and Forms" = "Anotácie a formuláre";
+"Content Copying" = "Kopírovanie obsahu";
+"Number of Pages" = "Počet strán";
+"File Size" = "Veľkosť súboru";
+"CreationDate" = "Vytvorené";
+"ModDate" = "Zmenené";
+"Creator" = "Tvorca obsahu";
+"Producer" = "Producent PDF";
+"Info" = "Informácie";
+"Tap the Edit button to show all metadata fields." = "Kliknutím na tlačidlo Upraviť zobrazíte všetky polia metadát.";
+"Document Owner Password" = "Heslo vlastníka dokumentu";
+"Changes Are Locked" = "Zmeny sú zamknuté";
+"Enter the Document Owner Password to make changes." = "Zadajte heslo pre vlastníka dokumentu pre vykonanie zmien.";
+"Incorrect Password" = "Nesprávne heslo";
+"Passwords" = "Heslá";
+"Modifying Content" = "Úprava obsahu";
+"Editing Annotations and Forms" = "Úpravy anotácií a formulárov";
+"Filling Forms" = "Vypĺňanie formulárov";
+"Copying Content" = "Kopírovanie obsahu";
+"Copying Content for Accessibility" = "Kopírovanie obsahu pre uľahčenie prístupu";
+"Could Not Save" = "Nemožno uložiť";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Pri zadávaní hesla pre otvorenie dokumentu musí byť k dispozícii heslo vlastníka dokumentu.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Cesta k súboru";
+"Identical Passwords" = "Rovnaké hesla";
+"Choose a different Owner or Open password." = "Vyberte iné heslo pre vlastníka alebo pre otvorenie dokumentu.";
+"Owner Password Required" = "Je požadované heslo vlastníka dokumentu";
+"An owner password is required to change the permissions of a document." = "Heslo vlastníka je vyžadované pre zmenu povolenia dokumentu.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Niektoré aplikácie pre prácu s PDF dodržiavajú obmedzenia povolení dokumentov. Tieto obmedzenia sa v tejto aplikácii neuplatňujú.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Vybraná %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Vybraná %@ s obsahom %@";
+// Accessibility string for comment threads
+"commentThread" = "Vlákno komentárov";
+"printProgressModalDesc" = "Označuje, že dokument sa pripravuje na tlač";
+"printProgressModal" = "Prebieha tlač";
+"documentEditorDesc" = "Vykonajte zmeny v aktuálnom dokumente";
+"reloadDocumentDialog" = "Potvrďte opätovné načítanie dokumentu";
+"reloadDocumentDialogDesc" = "Dialóg vyzývajúci používateľa na potvrdenie opätovného načítania dokumentu.";
+"signatureDialog" = "Podpis";
+"signatureDialogDesc" = "Toto dialógové okno umožňuje zvoliť podpis, ktorý sa má vložiť do dokumentu. Ak nemáte uložené podpisy, môžete ich vytvoriť pomocou plochy pre kreslenie.";
+"stampAnnotationTemplatesDialog" = "Šablóny pečiatok";
+"stampAnnotationTemplatesDialogDesc" = "Toto dialógové okno vám umožňuje vybrať pečiatky, ktorú chcete vložiť do dokumentu, alebo vytvoriť pečiatky s vlastným textom.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Redakcia";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Značka redakcie";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Aplikovaná redakcia";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Farba obrysu";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Prekrývajúci text";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Opakovať text";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Farba textu";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Informácie o redakcii";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Tento dokument obsahuje neaplikované redakcie. Chcete ich aplikovať?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Aplikovať";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Redakcia je dvojstupňový proces. Najprv vytvorte redakčnú anotáciu pre výber oblasti, ktorá má byť redigovaná. Ak chcete obsah nenávratne zmazať, kliknite na červené tlačidlo v pravom dolnom rohu a aplikujte redakcie.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Aplikovať redakcie";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Zmazať redakcie";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Povoliť náhľad redakcií";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Zakázať náhľad redakcií";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Po redigovaní dokumentu budú informácie natrvalo odstránené a nebude ich možné vrátiť späť.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Uložiť do nového súboru";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Redigovať dokument";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Redigujem…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Dokument nemohol byť redigovaný.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Obsah označený pre redakciu nebude pri ukladaní dokumentu odstránený. Naozaj chcete pokračovať?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Redigovať dokument";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Uložiť redigovaný dokument ako";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Redigovaný";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Redakcia oblasti";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Redakcia textu";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Aplikujem redakcie";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Prebieha podpisovanie";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Označuje, že je aktuálny dokument podpísaný";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Vložte prekrývajúci text";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Obnoviť súbor";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Chýba súbor";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' bol odstránený mimo aplikáciu. Chcete tento dokument zatvoriť alebo obnoviť súbor?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Konflikt súborov";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' bol zmenený mimo aplikácie. Ukladanie prepíše všetky zmeny.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Uložiť zmeny";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Kliknite tu pre stiahnutie dát.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Dáta pre túto anotáciu nie je možné stiahnuť z dôvodu problému s pripojením. Vyskúšajte to prosím neskôr.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Kliknite tu pre opakovanie sťahovania.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Dáta pre túto anotáciu neboli nájdené. Pokiaľ po úspešnej synchronizácii tohto dokumentu táto správa pretrváva, oznámte prosím tento problém vrátane nasledujúcich informácií: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Kliknite tu pre zrušenie sťahovania";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Počas sťahovania dát došlo k neočakávanej chybe. Chyba %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Odkaz na stranu";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Odkaz na webové stránky";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Číslo strany";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Výber strany";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Vložiť zo schránky";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Náhľad webových stránok";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Adresa webových stránok";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Späť";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Dopredu";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Paleta";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Nedávno použité";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Predvolená paleta farieb";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Farebné variácie";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Odtieň";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Saturácia";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Jas";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Hexadecimálna hodnota farby";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Zadaná hodnota nie je platnou farbou.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Prilepiť zo schránky";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Väzba strany";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Ľavý okraj";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Pravý okraj";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Neznámy";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Ľavý";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Pravý";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Poradie";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Vrch";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Dopredu";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Dozadu";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Spodok";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Duplikovať";
+"DocumentEditor_Extract" = "Vytiahnuť";
+"General_SelectNone" = "Zrušiť výber";
+"DocumentEditor_NewPage" = "Nová strana";
+"DocumentEditor_InstantModifiedWarning" = "Dokument bol upravený a teraz je v režime len na čítanie. Ak to chcete opraviť, načítajte dokument znova.";
+"DocumentEditor_MoveBefore" = "Presunúť dopredu";
+"DocumentEditor_MoveAfter" = "Presunúť dozadu";
+"DocumentEditor_DocumentMergedHere" = "Dokument tu bude zlúčený";
+
+// Android Strings
+"FileSystemPermission" = "Zdá sa, že ste natrvalo odobrali oprávnenia pre prístup k lokálnemu úložisku pre túto aplikáciu. Ak chcete zobraziť a otvárať PDF súbory, ktoré sú uložené vo Vašom zariadení, je potrebné ručne udeliť povolenie na prístup k lokálnemu úložisku v nastaveniach aplikácie.";
+"Button_OpenSettings" = "Otvoriť nastavenia";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Zobraziť viac";
+// Button to show less comments
+"Comments_ShowLess" = "Zobraziť menej";
+// Button to reply to a comment
+"Comments_Reply" = "Odpovedať";
+// Button to show all comments
+"Comments_ShowAll" = "Ukázať všetko";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Naozaj chcete zmazať tento komentár?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Potvrďte odstránenie komentára";
+// Verb for Comment
+"Comment_Action" = "Komentovať";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Dokument bol digitálne podpísaný a všetky podpisy sú platné.";
+"DigitalSignatures_DocModified" = "Dokument bol digitálne podpísaný, ale od podpisu bol upravený.";
+"DigitalSignatures_SignatureWarning" = "Dokument bol digitálne podpísaný, ale aspoň jeden podpis má problémy.";
+"DigitalSignatures_SignatureWarningDocModified" = "Dokument bol digitálne podpísaný, ale od podpisu bol zmenený a aspoň jeden podpis má problémy.";
+"DigitalSignatures_SignatureError" = "Dokument bol digitálne podpísaný, ale aspoň jeden podpis je neplatný.";
+"DigitalSignatures_SignatureErrorDocModified" = "Dokument bol digitálne podpísaný, ale od podpisu bol zmenený a aspoň jeden podpis je neplatný.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Nie je možné spustiť nahrávanie";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Nie je možné zastaviť nahrávanie";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Nie je možné vložiť strany";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Nebolo možné požiadať o podpisový certifikát";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Dokument nie je možné podpísať";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Pri pokuse o otvorenie tohto súboru sa vyskytla neznáma chyba.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Režim čítania";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Kresliť";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Obrázok";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Písať";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Podpíšte tu";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Zadajte svoj podpis";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Uložiť podpis";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Vyberte alebo pretiahnite obrázok";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Vyberte obrázok";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Nahradiť obrázok";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Súbory";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Nový podpis";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Zapnuté";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Vypnuté";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "pridanie anotácií";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "pridanie anotácie";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "pridanie komentára";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "zmenu stavu komentára";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "zmenu typu značkovanie";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "zmenu výberu";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "odstránenie anotácie";
+// Command of cutting.
+"Undo_Cut" = "vybratie do schránky";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "detekciu tvaru";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "kresbu";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "vloženie";
+// Command of editing text of a comment.
+"Undo_EditComment" = "úpravu komentára";
+// Command of editing text inside text fields.
+"Undo_EditText" = "úpravu textu";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "vymazanie";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "zoskupenia";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "zlúčenie";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "úpravu anotácie";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "úpravu anotácií";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "presun anotácie";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "presun anotácií";
+// Command of pasting.
+"Undo_Paste" = "vloženie";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "odstránenie anotácie";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "odstránenie anotácií";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "odstránenie komentára";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "odstránenie komentárov";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "zmenu veľkosti anotácie";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "zmenu veľkosti anotácií";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "rotáciu anotácie";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "rotáciu anotácií";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "odstránenie skupiny";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Zarovnať";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Zarovnať dokumenty";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Vyberte bod";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Starý";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Nový";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Porovnanie";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Vyberte tri body na oboch dokumentoch pre ručné zarovnanie. Pre dosiahnutie najlepších výsledkov vyberte body v blízkosti rohov v rovnakom poradí na oboch dokumentoch.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Zrušiť";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Zarovnať dokumenty";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Porovnanie dokumentov";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Starý dokument";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Nový dokument";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Resetovať";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Výber bodov";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Zarovnanie…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Výber bodov";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Bod %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Vybraný %1$tu z %2$tu v “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Bod %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Cieľ výberu bodov";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Obdĺžnikový obláčik";
+"DashedRectangleAnnotation" = "Čiarkovaný obdĺžnik";
+"CloudyEllipseAnnotation" = "Eliptický obláčik";
+"DashedEllipseAnnotation" = "Čiarkovaná elipsa";
+"CloudyPolygonAnnotation" = "Polygonálny obláčik";
+"DashedPolygonAnnotation" = "Čiarkovaný polygón";
+"CloudAnnotation" = "Obláčik";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Žiadna výplň";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Nepodarilo sa načítať uložené anotácie";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Anotácie sa nepodarilo uložiť";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Vzdialenosť";
+"PerimeterMeasurement" = "Obvod";
+"PolygonalAreaMeasurement" = "Obsah polygónu";
+"RectangularAreaMeasurement" = "Obsah obdĺžniku";
+"EllipticalAreaMeasurement" = "Obsah elipsy";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Otočiť proti smeru hodinových ručičiek";
+"Rotate_Clockwise" = "Otočiť v smere hodinových ručičiek";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Zadajte popis";
+// "New option button text"
+"FormDesigner_addOption" = "Pridať voľbu";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Vlastnosti pre {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Pole s názvom {formfieldName} už existuje. Vyberte si prosím iné meno.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Štýl pre {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Názov poľa";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Predvolená hodnota";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Viacriadkový text";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Ak chcete zoskupiť prepínače, priraďte všetkým rovnaké meno.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Pokročilé";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Meno tvorcu";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Poznámka";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Vlastné údaje";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Povinné";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Iba na čítanie";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Vytvorené";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Aktualizované";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Musí byť vo formáte vhodnom pre uloženie ako JSON.";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Farba okraja";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Šírka okraja";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Štýl okraja";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Tlač";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Plný";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Čiarkovaný";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Skosený";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Vložený";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Podčiarknutý";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Štýl textu";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Veľkosť písma";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Farba písma";
+// "Button Field"
+"FormDesigner_button" = "Tlačítko";
+// "Text Field Button"
+"FormDesigner_textField" = "Textové pole";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Prepínač";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Zaškrtávacie pole";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Kombinované pole";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Zoznam";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Pole s podpisom";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Text tlačítka";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "Nedostupné";
+// Label for form field
+"FormDesigner_label" = "Popis";
+// Value for form field
+"FormDesigner_value" = "Hodnota";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Nie je možné upraviť po vytvorení.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Názov poľa nemôže zostať prázdny.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Editor formulárov";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Viacnásobný výber";
+"FormDesigner_readOnlyProperty" = "Iba na čítanie";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Možnosti";
+
+// Measurement tools
+"MeasurementScale" = "Mierka";
+"MeasurementCalibrateLength" = "Kalibrácia dĺžky";
+"MeasurementPrecision" = "Presnosť";
+"MeasurementSnapping" = "Prichytenie";
+"MeasurementPrecision_Whole" = "Celé čísla";
+"MeasurementPrecision_OneDecimalPlace" = "Jedno desetinné miesto";
+"MeasurementPrecision_TwoDecimalPlaces" = "Dve desetinné miesta";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tri desetinné miesta";
+"MeasurementPrecision_FourDecimalPlaces" = "Čtyri desetinné mieta";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Obsah";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Multimediálne anotácie";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Tento prehliadač nepodporuje video a zvuk.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Nastavenie odkazu";
+// Label for selection of link type (website - page).
+"linkTo" = "Odkaz na";
+// Label for website selection.
+"uriLink" = "Webová stránka";
+// Label for page selection.
+"pageLink" = "Strana";
+// Text for preceding number for page link number.
+"linkToPage" = "Odkaz na stranu %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Zadajte platné číslo strany.";
+// Error message for invalid page link.
+"invalidPageLink" = "Zadajte platný odkaz na stranu.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} Nastavenie merania";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Vyberte viac anotácií";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Ak si prajete tento dokument zobraziť, musíte ho odomknúť. Zadajte prosím heslo do poľa nižšie.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonymný";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Možnosti komentára";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Upraviť obsah";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Nastavenia merania obvodu";
+"Distance_Popover_Title" = "Nastavenie merania vzdialenosti";
+"Rectangle_Area_Title" = "Nastavenie merania obsahu obdĺžnika";
+"Polygon_Area_Title" = "Nastavenie merania obsahu polygónu";
+"Ellipse_Area_Title" = "Nastavenie merania obsahu elipsy";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Tučné písmo";
+"Italic" = "Kurzíva";
+
+// Button to save and then close current context
+"Save_And_Close" = "Uložiť a zavrieť";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Prepnúť nastavenia upozornení na nesúlad písma";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Písmo %@ nie je k dispozícii alebo ho nie je možné použiť k úprave obsahu dokumentu. Pridaný alebo zmenený obsah použije predvolené písmo.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Vložiť";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Včleniť";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Ignorovať";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Zhrnutie";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Vyberte úvodnú stranu";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Vyberte koncovú stranu";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "do";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Rotácia";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Upraviť obsah";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” má neuložené zmeny.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Viac písiem";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Neznámé písmo";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Viac veľkostí písma";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Zmenšiť veľkosť";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Zväčšiť veľkosť";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Viac farieb";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ (tučné)";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ (kurzíva)";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ (tučná kurzíva)";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Otvoriť vlákno vytvorené %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Viac komentárov";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Rozsah strán";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Vlastná farba";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Editor obsahu";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Nájsť výber";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Vyhladať na webe";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Celé palce";
+"MeasurementPrecision_Halves" = "1/2 palca";
+"MeasurementPrecision_Quarters" = "1/4 palca";
+"MeasurementPrecision_Eighths" = "1/8 palca";
+"MeasurementPrecision_Sixteenths" = "1/16 palca";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Reťazec certifikátov použitý na podpis dokumentu je prázdny.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Typ digitálneho podpisu nie je podporovaný.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Digitálny podpis obsahuje časovú pečiatku, ktorá nie je platná, alebo boli zmanipulované dáta s časovou pečiatkou.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Nastavenie merania";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Pridať mierku";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Použiť nástroj na kalibráciu";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Kalibrovať mierku";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Nastaviť mierku";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Sekundárne mierky";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Jednotka";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Zmazaním mierky dôjde tiež k zmazaniu všetkých meraní, ktoré túto mierku používajú.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Táto mierka sa už používa";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Chcete upraviť alebo použiť existujúcu mierku?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Použiť existujúcu";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Bez mena";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Prichytiť k bodu";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Prichytiť k sebe";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Zobraziť inteligentné vodítka";
+
+// Label for the add text box button
+"AddTextBox" = "Pridať textové pole";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Naozaj chcete odstrániť toto textové pole?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Potvrďte zmazanie textového poľa";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialóg umožňujúci používateľovi potvrdiť alebo zrušiť zmazanie textového poľa";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Len na čítanie";
+"locked" = "Zamknuté";
+"lockedContent" = "Zamknutý obsah";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Mierka pridaná";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "Mierka “%@” bola úspešne pridaná.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Ikona nastavenia mierky";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Ikona signalizujúca, že mierka nie je nastavená";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Tento dokument bol podpísaný %@ používateľom %@ dňa %@ v %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Tento dokument tvrdí, že bol podpísaný %@ používateľom %@ dňa %@ v %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritmus: %@ with %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Extrahovať stránky";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Názov mierky";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Mierka s týmito nastaveniami už bola definovaná. Prosím, vyberte inú mierku.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Zobraziť vedľajšiu jednotku";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Upraviť alebo pridať novú mierku";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Kalibrovať";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Vrstvy";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Žiadne vrstvy";
+
+"The certificate is not yet valid" = "Certifikát už nie je platný.";
+"Signature validation failed - invalid signature" = "Podpis je neplatný.";
+"The certificate has been revoked" = "Certifikát bol zrušený.";
+"Certificate problem" = "Problém s certifikátom.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Nepodarilo sa skontrolovať stav odvolania certifikátu.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Riadkovanie";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Jednoduché";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dvojité";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Vybrať viac…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Meranie";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Znovu načítať dokument";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Pomáhame svetu inovovať nad rámec papiera pomocou nástrojov pre vývojárov, low-code riešení a nástrojov pre koncových používateľov pokrývajúcich všetky hlavné platformy.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Akcia";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Skratka";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Zmienka";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Otvoriť nápovedu";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Čítať viac";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Aktivovať panel nástrojov";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Nedostatok pamäte pre zobrazenie tejto stránky.";

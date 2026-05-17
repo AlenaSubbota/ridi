@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu eşleşme bulundu</string>
+        <key>other</key>
+        <string>%tu eşleşme bulundu</string>
+        <key>zero</key>
+        <string>Eşleşme bulunamadı</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu belge dizinlendi</string>
+        <key>other</key>
+        <string>%tu belge dizinlendi</string>
+        <key>zero</key>
+        <string>Belgeler dizinlenmedi</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu not</string>
+        <key>other</key>
+        <string>%tu not</string>
+        <key>zero</key>
+        <string>Not Yok</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu nokta</string>
+        <key>other</key>
+        <string>%tu nokta</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Tümü (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sayfa</string>
+        <key>other</key>
+        <string>%tu sayfa</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sonuç</string>
+        <key>other</key>
+        <string>%tu sonuç</string>
+        <key>zero</key>
+        <string>Hiçbir sonuç bulunamadı</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Aranıyor %#@pages@</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sayfa</string>
+        <key>other</key>
+        <string>%tu sayfa</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu çizgi</string>
+        <key>other</key>
+        <string>%tu çizgi</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@comments@ Sil</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu yorum</string>
+        <key>other</key>
+        <string>%tu yorum</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu yorum</string>
+        <key>other</key>
+        <string>%tu yorum</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu fazla yorum</string>
+        <key>other</key>
+        <string>%tu fazla yorum</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Tümü (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sayfa</string>
+        <key>other</key>
+        <string>%tu sayfa</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu belge</string>
+        <key>other</key>
+        <string>%tu belge</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sayfa seçildi</string>
+        <key>other</key>
+        <string>%tu sayfa seçildi</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Yorum diyaloğu. Yorumları aç. Yorum Sahibi %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu cevap</string>
+        <key>other</key>
+        <string>%tu cevap</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu kenar</string>
+        <key>other</key>
+        <string>%tu kenar</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu segment</string>
+        <key>other</key>
+        <string>%tu segment</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu belge seçildi</string>
+        <key>other</key>
+        <string>%tu belge seçildi</string>
+        <key>zero</key>
+        <string>Hiçbir belge seçilmedi</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Bu ölçek %#@measurements@’da kullanılıyor.</string>
+      <key>measurements</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu ölçümü</string>
+        <key>other</key>
+        <string>%tu ölçümü</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

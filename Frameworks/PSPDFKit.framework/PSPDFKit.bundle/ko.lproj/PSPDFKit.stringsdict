@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 일치하는 결과 발견</string>
+        <key>zero</key>
+        <string>일치하는 결과 없음</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 문서가 색인됨</string>
+        <key>zero</key>
+        <string>색인된 문서가 없음</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 주석</string>
+        <key>zero</key>
+        <string>주석 없음</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu점</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>모두 (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu 페이지</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 결과</string>
+        <key>zero</key>
+        <string>결과 없음</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@pages@ 검색 중"</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu장의 페이지</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 선</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@comments@ 삭제</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 코멘트</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 코멘트</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개 이상의 코멘트</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>모두 (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu장의 페이지</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 문서</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu장의 페이지 선택됨</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>코멘트 대화상자. 코멘트 열기. 저자 %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 답글</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 면</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 세그먼트</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 문서가 선택됨</string>
+        <key>zero</key>
+        <string>선택한 문서 없음</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>이 비율은 %#@measurements@에서 사용됩니다.</string>
+      <key>measurements</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>other</key>
+        <string>%tu개의 측정</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

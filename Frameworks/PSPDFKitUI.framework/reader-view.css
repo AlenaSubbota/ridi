@@ -1,0 +1,12 @@
+:root {
+  color-scheme: light dark;
+  /* This prevents everything being larger in landscape on iPhone. */
+  -webkit-text-size-adjust: none;
+}
+body {
+    font: -apple-system-body;
+    max-width: 35em;
+    margin: 1em auto;
+    padding: 0em 1em;
+    overflow-wrap: break-word;
+}

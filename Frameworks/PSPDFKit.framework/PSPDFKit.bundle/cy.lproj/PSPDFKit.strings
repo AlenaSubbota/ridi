@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Cau";
+"Cancel" = "Canslo";
+"OK" = "Iawn";
+"Open" = "Agor";
+"Untitled" = "Dideitl";
+"File Not Found" = "Heb ganfod y ffeil";
+"File couldn't be opened." = "Methu agor y ffeil."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF Dienw";
+"Page %tu" = "Tudalen %tu";
+"Page %@" = "Tudalen %@";
+"Next" = "Nesaf";
+"Previous" = "Blaenorol";
+"Error" = "Gwall";
+"More options" = "Mwy o ddewisiadau";
+"Close Tab" = "Cau'r Tab";
+"Close All Tabs" = "Cau Pob Tab";
+"Close All Other Tabs" = "Cau Pob Tab Arall"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Tynnu Llun";
+"Highlighter" = "Amlygydd Ffurfrydd";
+
+// toolbar
+"Outline" = "Amlinelliad"; // Table of contents
+"No Outline" = "Dim Amlinelliad";
+"Search Outline" = "Chwilio'r Amlinelliad";
+"Search" = "Chwilio";
+"Email" = "E-bost";
+"Send via Email" = "Anfon ar E-bost";
+"Send" = "Anfon";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Rhannu mewn Neges";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Rhannu ar E-bost";
+"Open In" = "Agor Yn";
+"Commit" = "Ymrwymo";
+"Sending to %@" = "Yn anfon at %@"; // Open document with an application
+"Pages" = "Tudalennau";
+"Print with annotations" = "Argraffu gydag anodiadau";
+"Print without annotations" = "Argraffu heb anodiadau";
+"No Applications found" = "Does dim rhaglenni wedi'u gosod sy'n gallu agor dogfennau PDF.";
+"Print" = "Argraffu";
+"Annotation" = "Anodiad";
+"Annotations" = "Anodiadau";
+"No Annotations" = "Dim Anodiadau";
+"Bookmarks" = "Nodau Tudalen";
+"No Bookmarks" = "Dim Nodau Tudalen";
+"Add Bookmark" = "Ychwanegu Nod Tudalen";
+"Remove Bookmark" = "Tynnu'r Nod Tudalen";
+"Brightness" = "Disgleirdeb";
+"Share" = "Rhannu";
+"Preparing" = "Wrthi'n Paratoi";
+"Loading" = "Wrthi'n Llwytho";
+"Expand" = "Ehangu";
+"Collapse" = "Crebachu";
+// SMS / iMessage sharing button
+"Message" = "Neges";
+"Thumbnails" = "Mân-luniau";
+"Drag Toolbar" = "Llusgo'r Bar Offer";
+
+// thumbnails
+"Bookmarked" = "Nodwyd y Tudalen";
+"Annotated" = "Anodwyd";
+"All" = "Popeth";
+"Loading Annotations" = "Wrthi'n llwytho'r anodiadau";
+"Loading Pages" = "Wrthi'n llwytho'r tudalennau";
+"Loading Bookmarks" = "Wrthi'n llwytho'r nodau tudalen";
+
+// password
+"Password" = "Cyfrinair"; // text on a label
+"Unlock" = "Datgloi";
+"Please enter the password." = "Nodwch y cyfrinair.";
+"This document cannot be unlocked." = "Nid oes modd datgloi'r ddogfen hon.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Maes Cyfrinair";
+
+// page
+"%tu of %tu" = "%tu o %tu";
+"%tu–%tu of %tu" = "%tu–%tu o %tu";
+"%@ (%tu of %tu)" = "%@ (%tu o %tu)";
+"%@, Page %tu" = "%@, Tudalen %tu";
+"Leave %@?" = "Gadael %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu o %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu o %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu o %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Chwilio'r Ddogfen"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Wrthi'n Chwilio Tudalen %tu o %tu";
+"Search Completed" = "Cwblhawyd y Chwiliad";
+"Search Cancelled" = "Canslwyd y Chwiliad";
+"%tu left" = "%tu yn weddill"; // Indexing Documents... 5 left
+"Searching" = "Wrthi'n Chwilio";
+"Done" = "Wedi Gorffen";
+"Indexing Documents" = "Wrthi'n Mynegeio Dogfennau";
+"Document" = "Dogfen";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Chwilio'r Anodiadau";
+
+// inline browser
+"Open in Safari" = "Agor yn Safari";
+"Open in Chrome" = "Agor yn Chrome";
+"Your %@ is not configured to send emails." = "Nid yw eich %@ wedi'i ffurfweddu i anfon e-byst.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Mae'r ddolen yn gofyn i agor %1$@. %2$@Hoffech chi barhau?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "rhaglen allanol"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "yr App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "E-bost"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Heb ganfod triniwr ar gyfer %@";
+
+// text selection
+"Text copied to clipboard." = "Copïwyd y testun i'r clipfwrdd.";
+"Save to Photo Library" = "Cadw yn y Llyfrgell Lluniau";
+"Failed to extract image." = "Methwyd ag echdynnu'r ddelwedd.";
+"Type value or pick from list" = "Teipiwch werth neu dewiswch un o'r rhestr";
+
+// annotations
+"Add %@" = "Ychwanegu %@";
+"Remove %@" = "Tynnu %@";
+"Remove" = "Tynnu";
+"Delete" = "Dileu"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Golygu";
+"Undo" = "Dad-wneud";
+"Nothing to undo" = "Dim byd i'w dad-wneud";
+"Redo" = "Ail-wneud";
+"Nothing to redo" = "Dim byd i'w ail-wneud";
+"Type" = "Teip"; // kind of Annotation can be selected
+"Size" = "Maint";
+"Font" = "Ffont";
+"Fonts" = "Ffontiau";
+"All Fonts" = "Pob Ffont";
+"Downloadable Fonts" = "Ffontiau y Gellir eu Lawrlwytho";
+"Search Fonts" = "Chwilio'r Ffontiau";
+"Choose Color" = "Dewiswch Liw";
+"Choose Fill Color" = "Dewiswch Liw Llanw";
+"Rainbow" = "Enfys";
+"Monochrome" = "Monocrom";
+"Vintage" = "Hynafol";
+"Modern" = "Modern";
+"ColorPalette_Unified" = "Palet";
+"Color" = "Lliw";
+"Border" = "Ymyl";
+"Fill Color" = "Lliw Llanw";
+"Start and End Color" = "Cychwyn a Diwedd y Lliw";
+"Opacity" = "Didreiddedd";
+"Thickness" = "Trwch";
+"%@ pt" = "%@ pt";
+"Yellow" = "Melyn";
+"Green" = "Gwyrdd";
+"Red" = "Coch";
+"Blue" = "Glas";
+"Pink" = "Pinc";
+"Black" = "Du";
+"Orange" = "Oren";
+"Purple" = "Porffor";
+"Cyan" = "Cyan";
+"Gray" = "Llwyd";
+"White" = "Gwyn";
+"Color_Brown" = "Brown";
+"Color_DarkRed" = "Coch Tywyll";
+"Color_DarkBlue" = "Glas Tywyll";
+"Color_Magenta" = "Magenta";
+"Define" = "Diffinio";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Amlygydd Testun";
+"Underline" = "Tanlinellu";
+"Squiggly" = "Sgwigl";
+"StrikeOut" = "Llinell Drwodd";
+"Rectangle" = "Petryal";
+"Ellipse" = "Elíps";
+"Line" = "Llinell"; // something that can be drawn
+"Polygon" = "Polygon";
+"Signature" = "Llofnod";
+"Signatures" = "Llofnodion";
+"Signed" = "Llofnodwyd";
+"Sign" = "Llofnodi";
+"Signing…" = "Wrthi'n llofnodi…";
+"Sign using %@" = "Llofnodi gan ddefnyddio %@"; // e.g. Adobe.PPKLite
+"Methods" = "Dulliau"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Dewiswch Hunaniaeth"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Stamp";
+"Stamps" = "Stampiau";
+"Custom" = "Personol"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Creu Stamp";
+"Preview" = "Rhagolwg";
+"Stamp Text" = "Testun y Stamp";
+"Add Signature" = "Ychwanegu Llofnod";
+"Remove Signature" = "Tynnu'r Llofnod";
+"My Signature" = "Fy Llofnod";
+"No Signatures" = "Dim Llofnodion"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Llofnodwch yma";
+"Text" = "Nodyn";
+"FreeText" = "Testun";
+"Delete Note" = "Dileu'r Nodyn";
+"Remove Note" = "Tynnu'r Nodyn";
+"%@ could not be found." = "Heb ganfod %@.";
+"Photo Library" = "Llyfrgell Lluniau";
+"Camera" = "Camera";
+"camera_not_available" = "Nid yw’r camera ar gael";
+"Image" = "Delwedd";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Dewiswch Ansawdd y Ddelwedd";
+"Low Quality" = "Ansawdd Isel";
+"Medium Quality" = "Ansawdd Canolig";
+"High Quality" = "Ansawdd Uchel";
+"Clear All" = "Clirio'r Cwbl";
+"Clear" = "Clirio";
+"Style" = "Arddull";
+"Link" = "Dolen";
+"Ink" = "Tynnu Llun";
+"Screen" = "Sgrin";
+"RichMedia" = "Cyfrwng Cyfoethog";
+"FileAttachment" = "Ffeil";
+"Left" = "Chwith";
+"Center" = "Canol";
+"Right" = "De";
+"Alignment" = "Aliniad";
+"Preview File" = "Rhagolwg o'r Ffeil";
+"Copy" = "Copïo";
+"Paste" = "Gludo";
+"Inspector" = "Arolygydd";
+"Group" = "Grwpio";
+"Ungroup" = "Dadgrwpio";
+"Merge" = "Cyfuno"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Sampl";
+"Annotation Summary for %@:" = "Crynodeb Anodiadau ar gyfer %@:";
+"Show Text" = "Dangos y Testun";
+// title
+"Author Name" = "Enw'r Awdur";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Rhowch enw'r awdur yr ydych eisiau ei defnyddio ar gyfer anodiadau newydd.";
+// text field placeholder
+"Name" = "Enw";
+// meaning: close
+"Dismiss" = "Diystyru";
+"Fit to Text" = "Ffitio i'r Testun";
+"Draw" = "Lluniadu";
+"Sound" = "Sain";
+"Eraser" = "Rhwbiwr";
+"Toggle Eraser" = "Toglo'r Rhwbiwr"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Offeryn Dewis";
+"Add" = "Ychwanegu"; // to add - infinitive
+"Date" = "Dyddiad";
+"Time" = "Amser";
+"No Pages" = "Dim Tudalennau";
+"Drag to resize" = "Llusgwch i ailfeintio"; // used as hint that inspector is resizable
+"Convert to" = "Trosi i"; // used as label on action that changes free text intent type
+"Color Presets" = "Rhagosodiadau Lliw";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Rhagosod Lliw";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Torri";
+"Annotation copied." = "Copïwyd yr anodiad.";
+"Annotation cut." = "Torrwyd yr anodiad.";
+"Annotation pasted." = "Gludwyd yr anodiad.";
+"%tu selected" = "Dewiswyd %tu";
+"Custom Stamp" = "Stamp Personol";
+"Change text and color" = "Newid y testun a'r lliw";
+"Use an existing stamp design" = "Defnyddio dyluniad stamp cyfredol";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Inc Hud";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Wedi methu llwytho ffont '%@' ar faint %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Arolygydd Arddull";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Ydych chi'n siŵr eich bod eisiau clirio'r holl anodiadau?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Analluogwyd Nodwedd Creu Anodiad";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Yn cynnwys sylw";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Anodiad Testun";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Tic";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Croes";
+
+"Callout" = "Swigen Siarad"; // freetext annotation with an arrow
+"Generic" = "Generig"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Arddull y Llinell";
+"Solid" = "Solet";
+"Narrow Dots" = "Dotiau Cul";
+"Wide Dots" = "Dotiau Llydan";
+"Narrow Dashes" = "Dashys Cul";
+"Wide Dashes" = "Dashys Llydan";
+"Cloudy" = "Cymylog"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Wedi'u Cymeradwyo";
+"Not Approved" = "Heb eu Cymeradwyo";
+"Draft" = "Drafft";
+"Final" = "Terfynol";
+"Completed" = "Cwblhawyd";
+"Confidential" = "Cyfrinachol";
+"For Public Release" = "I'w Gyhoeddi'n Gyhoeddus";
+"Not For Public Release" = "Nid i'w Gyhoeddi'n Gyhoeddus";
+"For Comment" = "Am Sylwadau";
+"Void" = "Di-rym";
+"Preliminary Results" = "Canlyniadau Cychwynnol";
+"Information only" = "Er gwybodaeth yn unig";
+"Accepted" = "Derbyniwyd";
+"Rejected" = "Gwrthodwyd";
+"Initial Here" = "Rhowch eich Blaenlythrennau Yma";
+"Sign Here" = "Llofnodwch Yma";
+"Witness" = "Tyst";
+"Revised" = "Adolygwyd";
+"Stamp.AsIs" = "Fel y Mae";
+"Stamp.Departmental" = "Adrannol";
+"Stamp.Experimental" = "Arbrofol";
+"Stamp.Expired" = "Wedi Dod i Ben";
+"Stamp.Sold" = "Gwerthwyd";
+"Stamp.TopSecret" = "Tra Chyfrinachol";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Ysgrifbin";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "I ffwrdd";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Sganio";
+// text on a label; app connects to a stylus
+"Pairing" = "Paru";
+// text on a label; app and stylus are connected
+"%@ Connected" = "Cysylltwyd %@";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "Datgysylltwyd %@";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Gosodiadau";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Defnyddiwch Apple Pencil i Anodi";
+
+// PDF annotation name overrides
+"Square" = "Petryal";
+"Circle" = "Elíps";
+"PolyLine" = "Polylinell";
+"SavedAnnotations" = "Anodiadau a Gadwyd";
+
+// named actions
+"NextPage" = "Tudalen Nesaf";
+"PrevPage" = "Tudalen Blaenorol";
+"FirstPage" = "Tudalen Cyntaf";
+"LastPage" = "Tudalen Olaf";
+"GoBack" = "Mynd yn ôl";
+"GoForward" = "Mynd ymlaen";
+"GoToPage" = "Mynd i Dudalen";
+"Find" = "Chwilio";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Nesáu";
+"ZoomOut" = "Pellhau";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Gweithred Cyfrwng Cyfoethog";
+"Rendition Action" = "Gweithred Dehongli";
+"Hide Action" = "Cuddio'r Weithred";
+"Submit Form" = "Cyflwyno'r Ffurflen";
+"Reset" = "Ailosod";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Yn ôl";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Dewis y Cwbl";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Dewis yr Eitem Uchod";
+"KeyCommand.SelectBelow" = "Dewis yr Eitem Isod";
+"KeyCommand.SelectTop" = "Dewis yr Eitem ar y Top";
+"KeyCommand.SelectBottom" = "Dewis yr Eitem ar y Gwaelod";
+"KeyCommand.ClearSelection" = "Clirio'r Detholiad";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Ehangu'r Adran";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Crebachu'r Adran";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Dangos y Tab Nesaf";
+"KeyCommand.ShowPreviousTab" = "Dangos y Tab Blaenorol";
+"KeyCommand.SelectAllAnnotations" = "Dewis yr Holl Anodiadau";
+
+// line annotations
+"Start" = "Cychwyn";
+"End" = "Gorffen";
+"Line.None" = "Dim";
+"Line.ClosedArrow" = "Saeth Gaeedig";
+"Line.OpenArrow" = "Saeth Agored";
+"Line.Square" = "Sgwâr";
+"Line.Circle" = "Cylch";
+"Line.Diamond" = "Diemwnt";
+"Line.ROpenArrow" = "Saeth Agored Wrthdro";
+"Line.RClosedArrow" = "Saeth Gaeedig Wrthdro";
+"Line.Slash" = "Slaes";
+"Line.Butt" = "Bonyn";
+"Line Start" = "Cychwyn y Llinell";
+"Line End" = "Diwedd y Llinell";
+"Arrow" = "Saeth"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Creu Dolen";
+"Add Link" = "Ychwanegu Dolen";
+"Edit Link" = "Golygu Dolen";
+"Move Link" = "Symud Dolen";
+"Remove Link" = "Tynnu Dolen";
+"Open Link" = "Agor Dolen";
+"Go to Page %tu" = "Mynd i Dudalen %tu";
+"Go to Page" = "Mynd i Dudalen"; // title of a Popup
+"Go" = "Iawn"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Copïo'r URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Copïo'r Ddolen";
+"Save" = "Cadw";
+"Link Destination" = "Cyrchfan y Ddolen";
+"Enter page index or a http:// address to link to an URL." = "Rhowch fynegai tudalen neu gyfeiriad http:// i gysylltu ag URL.";
+"Page %@ Not Found" = "Heb ganfod tudalen %@";
+"Add to Reading List" = "Ychwanegu at Restr Darllen";
+
+"Link annotation creation failed." = "Wedi methu creu anodiad o'r ddolen.";
+"Link annotation successfully created." = "Wedi llwyddo creu anodiad o'r ddolen.";
+"Entered text could not be converted to an Integer nor URL." = "Nid oedd modd trosi'r testun a roddwyd yn Gyfanrif nac yn URL.";
+
+// voiceover accessibility
+"Grid" = "Grid"; // grid with thumbnails
+"Translucent" = "Lled Dryloyw";
+"left" = "chwith";
+"center" = "canol";
+"right" = "de";
+"decrease" = "lleihau";
+"increase" = "cynyddu";
+"All Open Documents" = "Agor Pob Dogfen";
+"Add Documents" = "Ychwanegu Dogfennau"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Agor y Ffeil";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Rheolaeth Amlgyfrwng";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Ailosod y Ffurflen";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Dangos y Weithred";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Gweithred a Enwir";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Tudalennau %tu-%tu"; // Range of pages
+"Current Page" = "Tudalen Cyfredol";
+"Current Page (%tu)" = "Tudalen Cyfredol (%tu)";
+"Ignore Annotations" = "Anwybyddu Anodiadau";
+"The PDF will not contain any annotations." = "Ni fydd y PDF yn cynnwys unrhyw anodiadau.";
+"Embed Annotations" = "Plannu Anodiadau";
+"Annotations will remain editable and are embedded into the PDF." = "Caiff anodiadau eu plannu yn y PDF a bydd modd eu golygu.";
+"Flatten Annotations" = "Gwastadu Anodiadau";
+"Annotations are drawn into the PDF and are readonly." = "Caiff anodiadau eu rendro yn y PDF a ni fydd modd eu golygu.";
+"Annotation Summary" = "Crynodeb Anodiadau";
+"Embed Annotations into the PDF and also list them in the email." = "Caiff anodiadau eu plannu yn y PDF a'u rhestru yn yr e-bost hefyd.";
+"Annotations will be listed in a text file." = "Bydd anodiadau'n cael eu rhestru fel testun.";
+"Files" = "Ffeiliau";
+"Send as single files" = "Anfon fel ffeiliau unigol";
+"Merge files" = "Cyfuno'r ffeiliau";
+"Original File" = "Ffeil Wreiddiol";
+"Range" = "Ystod";
+"Annotated Pages" = "Tudalennau a Anodwyd";
+"Message could not be sent." = "Nid oedd modd anfon y neges.";
+"Export" = "Allgludo";
+"This action can't be performed." = "Nid oes modd perfformio'r weithred hon.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Ni chefnogir allgludo dogfennau nad sy'n seiliedig ar ffeiliau.";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Nid yw'r ddogfen yn cynnwys unrhyw anodiadau.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Methu Rhannu'r Ddogfen";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Mae rhannu delweddau dogfennau'n wedi'i gyfyngu i uchafswm o %tu tudalen ar y tro.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Methu anfon atodiadau ar ffurf Negeseuon.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Nid yw'r dogfennau mewn modd y gellir ei argraffu.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "Dogfen PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Nid yw'r Man Derbyn ar Gael";
+
+// sound annotations
+"Speak" = "Siarad"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Chwarae";
+"Pause" = "Rhewi";
+"Resume" = "Ailgychwyn";
+"Stop" = "Stopio";
+"Play/Stop" = "Chwarae/Stopio";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Recordio";
+"Pause Recording" = "Rhewi'r Recordiad";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Rhewyd y Recordiad";
+"Continue Recording" = "Parhau â'r Recordiad";
+"Finish Recording" = "Gorffen y Recordiad";
+"Audio Problem" = "Problem Sain";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Methu cychwyn chwarae'r ffeil.";
+"Could not resume playback." = "Methu ailgychwyn chwarae'r ffeil.";
+"Microphone permission not granted." = "Ni roddwyd caniatâd i ddefnyddio'r microffon.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Nid oes modd recordio'r sain ar hyn o bryd. Rhowch ganiatâd i'r ap hwn gael mynediad at eich microffon.";
+"There was a problem trying to record audio." = "Roedd yna broblem wrth geisio recordio'r sain.";
+"Already Recording" = "Eisoes yn Recordio";
+"You are already recording on page %@." = "Rydych chi eisoes yn recordio ar dudalen %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Ymddengys eich bod wedi dileu mynediad yr ap hwn at y microffon yn barhaol. Er mwyn recordio nodiadau sain, rhaid i chi alluogi caniatâd y microffon eich hun ar sgrin osodiadau'r ap.";
+
+// Forms
+"Form Element" = "Elfen Ffurflen";
+"Text Field" = "Maes Testun";
+"Button" = "Botwm";
+"Choice Field" = "Maes Dewis";
+"Signature Field" = "Maes Llofnod";
+"Clear Field" = "Clirio'r Maes"; // same as delete
+"Default Values" = "Gwerthodd Diofyn";
+"Custom Value" = "Gwerth Personol";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Opsiynau Chwilio";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Gwerth annilys: rhaid iddo fod yn fwy na, neu'n gyfartal â %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Gwerth annilys: rhaid iddo fod yn fwy na, neu'n gyfartal â %s ac yn llai na, neu'n gyfartal â %s.";
+"Invalid value: must be less than or equal to %s." = "Gwerth annilys: rhaid iddo fod yn llai na, neu'n gyfartal â %s.";
+"The value entered does not match the format of the field [%s]" = "Nid yw'r gwerth a nodwyd yn cyd-fynd â fformat y maes [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Dyddiad/amser annilys: sicrhewch fod y dyddiad/amser yn bodoli. Dylai maes [%s] gyd-fynd â fformat %s";
+
+// General validation
+"Invalid value [%s]" = "Gwerth annilys [%s]";
+
+// Gallery
+"Connection Error" = "Gwall Cysylltu";
+"Unsupported Content" = "Cynnwys heb ei Gefnogi";
+"The specified content cannot be displayed." = "Nid oed modd dangos y cynnwys penodol hwn.";
+"Something went wrong" = "Aeth rhywbeth o'i le";
+"This item is currently unavailable." = "Nid yw'r eitem hon ar gael ar hyn o bryd.";
+"The information for this gallery could not be loaded." = "Nid oedd modd llwytho'r wybodaeth ar gyfer yr oriel hon.";
+"Content Error" = "Gwall gyda'r Cynnwys";
+"This content is unsupported." = "Nid oes cefnogaeth ar gyfer y cynnwys hwn.";
+
+// Signatures
+"Digital Signature" = "Llofnod Digidol";
+"Signature is valid." = "Mae'r llofnod yn ddilys.";
+"Signature is valid, but there are some warnings." = "Mae'r llofnod yn ddilys, ond mae rhai rhybuddion.";
+"It was signed by %@ on %@ at %@." = "Cafodd ei lofnodi gan %@ ar %@ am %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Cafodd ei lofnodi ar %@ am %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Fe honnir y cafodd ei lofnodi gan %@ ar %@ am %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Fe honnir y cafodd ei lofnodi ar %@ am %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Nid yw'r adolygiad sy'n berthnasol i'r llofnod hwn wedi cael ei addasu, fodd bynnag mae newidiadau wedi cael eu gwneud i'r ddogfen ers ei llofnodi."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Mae'r llofnod yn ddilys ac nid yw cynnwys y ddogfen hon wedi cael ei addasu ers ei llofnodi.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Llofnod annilys - ers llofnodi cynnwys y ddogfen hon, mae wedi cael ei haddasu, ei ymyrryd â hi neu ei lygru.";
+"Unsigned Signature Field" = "Maes Llofnod heb Lofnod";
+"Do you really want to remove the signature from the document?" = "Ydych chi wir eisiau tynnu'r llofnod o'r ddogfen hon?";
+"Could not retrieve the certificate from the signature." = "Methu adfer y dystysgrif o'r llofnod.";
+"Could not retrieve the signature contents." = "Methu adfer cynnwys y llofnod.";
+"Could not retrieve the public key from the signature." = "Methu adfer yr allwedd gyhoeddus o'r llofnod.";
+"Could not retrieve the byte range of the signature." = "Methu adfer amrediad beitiau y llofnod.";
+"Could not understand the encryption padding." = "Methu deall padin yr amgryptio.";
+"Could not compute the digest for the document." = "Methu cyfrifiannu'r crynhoad ar gyfer y ddogfen.";
+"General failure while trying to determine document integrity." = "Methiant cyffredinol wrth geisio pennu cyfanrwydd y ddogfen.";
+"Certificate chain is invalid." = "Mae cadwyn y dystysgrif yn annilys.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Nid oedd modd dilysu cadwyn y dystysgrif, oherwydd ni ddarparwyd unrhyw allweddi cymeradwy.";
+"Document integrity success, but certificate is self signed." = "Mae’r dystysgrif yn cael ei hunan-lofnodi.";
+"Document integrity check failed." = "Methodd prawf cyfanrwydd y ddogfen.";
+"The signing certificate is not trusted." = "Nid yw'r dystysgrif lofnodi'n gymeradwy.";
+"unknown time" = "amser anhysbys";
+"unknown date" = "dyddiad anhysbys";
+"Digitally signed by {}" = "Llofnodwyd yn ddigidol gan {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Dyddiad: ";
+"Reason: " = "Rheswm: ";
+"Location: " = "Lleoliad: ";
+"Certificate" = "Tystysgrif";
+"No Certificate" = "Dim Tystysgrif";
+"No Certificates" = "Dim Tystysgrifau";
+"Store Signature" = "Storio'r Llofnod";
+"Add Trusted Certificate" = "Ychwanegu Tystysgrif Gymeradwy";
+"Add Signer" = "Ychwanegu Llofnodwr";
+"Added Trusted Certificate" = "Ychwanegwyd Tystysgrif Gymeradwy";
+"Added Signer" = "Ychwanegwyd Llofnodwr";
+"File doesn't match any certificate type" = "Nid yw'r ffeil yn cyd-fynd ag unrhyw fath o dystysgrif";
+"Import Failed" = "Wedi Methu Allgludo";
+"Signature Area" = "Maes Llofnod";
+"Draw Signature Area" = "Lluniadwch y Maes Llofnod";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Methu cychwyn y gwrthrych PKCS7";
+"Could not find signature" = "Methu dod o hyd i'r llofnod";
+"Could not hash the PDF document" = "Methu hashio'r ddogfen PDF";
+"Could not create padding for the digital signature" = "Methu creu padin ar gyfer y llofnod digidol";
+"Could not verify the signature" = "Methu dilysu'r llofnod";
+"Could not save the signed document" = "Methu cadw'r ddogfen a lofnodwyd";
+"Cannot sign attributes" = "Methu llofnodi'r priodoleddau";
+"The selected subfilter type for the signature is not supported" = "Ni chefnogir y math o is-hidlydd a ddewiswyd ar gyfer y llofnod";
+"Could not add signature to PKCS7 object" = "Methu ychwanegu llofnod at y gwrthrych PKCS7";
+"Could not write PKCS7 signature" = "Methu ysgrifennu llofnod PKCS7";
+"Could not create PKCS7 object" = "Methu creu'r gwrthrych PKCS7";
+"Could not generate PKCS7 object" = "Methu cynhyrchu'r gwrthrych PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Methu â llofnodi'r ddogfen oherwydd ei bod eisoes wedi ei llofnodi.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Methu darllen data'r dystysgrif fel tystysgrif PKCS7 Gellir allgludo data o'r fformat cywir o Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Methu dadgryptio llofnod y dystysgrif.";
+"The public key in the certificate could not be read." = "Nid oedd modd darllen yr allwedd gyhoeddus yn y dystysgrif.";
+"The signature of the certificate is not valid." = "Nid yw llofnod y dystysgrif yn ddilys.";
+"Signature is not valid." = "Nid yw'r llofnod yn ddilys.";
+"There is a format error in the notBefore field of the certificate." = "Mae gwall fformatio ym maes notBefore y dystysgrif."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Mae gwall fformatio ym maes notAfter y dystysgrif."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Nid oedd modd dilysu unrhyw lofnodion gan fod cadwyn y dystysgrif yn cynnwys un dystysgrif yn unig, nid yw wedi cael ei hunan-lofnodi, ac nid yw'r cyhoeddwr yn gymeradwy.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Nid yw tystysgrif yr Awdurdod Tystysgrifo yn ddilys oherwydd nad yw'n Awdurdod Tystysgrifo neu nad yw ei estyniadau'n cyd-fynd â'r diben arfaethedig."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Mae'r paramedr yn fwy na'r hyd a ganiateir ar gyfer llwybr basicConstraints."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Nid yw'r Awdurdod Tystysgrifo gwreiddyn wedi'i gymeradwyo ar gyfer ei diben arfaethedig."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Mae'r Awdurdod Tystysgrifo gwreiddyn wedi'i farcio i wrthod y diben a nodwyd."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Gwrthodwyd tystysgrif y cyhoeddwr oherwydd na fod enw'r pwnc yn cyd-fynd ag enw cyhoeddwr y dystysgrif gyfredol."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Gwrthodwyd tystysgrif y cyhoeddwr oherwydd bod amlygydd allweddol y pwnc yn bresennol ac nid yw'n cyd-fynd ag amlygydd allweddol awdurdod y dystysgrif gyfredol."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Gwrthodwyd tystysgrif y cyhoeddwr oherwydd bod enw a rhif cyfresol y cyhoeddwr yn bresennol ac nid ydynt yn cyd-fynd ag amlygydd allweddol awdurdod y dystysgrif gyfredol."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Diddymwyd y dystysgrif gan y cyhoeddwr.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Mae'r dystysgrif a basiwyd wedi cael ei hunan-lofnodi ac nid oes modd dod o hyd i'r un dystysgrif yn y rhestr o dystysgrifau cymeradwy.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Mae tystysgrif a hunan-lofnodwyd yn bodoli yng nghadwyn y dystysgrif. Roedd modd creu cadwyn y dystysgrif gan ddefnyddio'r tystysgrifau anghymeradwy, ond nid oedd modd dod o hyd i'r Awdurdod Tystysgrifo gwreiddyn yn lleol."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Methu dod o hyd i'r dystysgrif ar gyfer un o'r awdurdodau tystysgrifo yn yr hierarchaeth lofnodi ac nid yw'r rhaglen leol yn cymeradwyo'r awdurdod tystysgrifo hwnnw."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Nid oedd modd dod o hyd i dystysgrif cyhoeddwr a chwiliwyd amdani'n lleol. Mae hyn fel arfer yn golygu bod y rhestr o dystysgrifau cymeradwy yn anghyflawn.";
+"The certificate that was provided cannot be used for its intended purpose." = "Ni ellir defnyddio'r dystysgrif a ddarparwyd ar gyfer ei diben arfaethedig.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Nid yw estyniad keyUsage tystysgrif y cyhoeddwr yn caniatáu llofnodi tystysgrifau.";
+"The certificate has expired." = "Mae'r dystysgrif wedi dod i ben.";
+"The certificate is not valid until a date in the future." = "Nid yw'r dystysgrif yn ddilys tan ddyddiad yn y dyfodol.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Methu darllen tystysgrif X509 o'r data";
+// X509 should not be translated
+"No X509 certificate found" = "Heb ganfod tystysgrif X509";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Methu darllen ffeil PKCS12. Nid yw'r ffeil wedi'i fformatio'n gywir neu mae'n llwgr.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Methu datgloi data PKCS12. A roddoch chi'r cyfrinair cywir?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Methu datgodio data PKCS12. Mae'n bosibl bod y data heb ei ffurfio'n iawn neu ei fod yn anghydnaws.";
+"Could not unlock PKCS12 data." = "Methu datgloi data PKCS12.";
+"Could not add signature." = "Methu ychwanegu'r llofnod.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Methu agor y ffeil i ddilysu'r llofnod";
+"Could not get signer info" = "Methu cael gwybodaeth ar y llofnodwr";
+
+// Night Mode
+"Default" = "Diofyn"; // Default view (night mode not enabled)
+"Sepia" = "Sepia"; // Document uses sepia colors
+"Night" = "Nos"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Ni bennwyd dogfen";
+"Unable to display document" = "Methu dangos y ddogfen";
+"Locked" = "Ar glo";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Naill ai nid yw'r ffeil rydych yn ceisio cael mynediad ati ar ffurf PDF neu mae'n bosibl ei bod yn llwgr.";
+"A password is required to access this document." = "Mae angen cyfrinair i gael mynediad at y ddogfen hon.";
+"The security scheme of this document is currently not supported." = "Ni chefnogir cynllun diogelwch y ddogfen hon ar hyn o bryd.";
+"An unknown error has occured while trying to open this file." = "Roedd gwall anhysbys wrth geisio agor y ffeil hon.";
+
+// Document Editor
+"Document Editor" = "Golygydd Dogfennau";
+"Add Page" = "Ychwanegu Tudalen";
+"Delete Pages" = "Dileu Tudalennau";
+"Duplicate Pages" = "Dyblygu Tudalennau";
+"Move Pages" = "Symud Tudalennau";
+"Rotate Pages" = "Cylchdroi Tudalennau";
+"Page Size" = "Maint y Dudalen";
+"Background Color" = "Lliw'r Cefndir";
+"Paper" = "Papur";
+"Pattern" = "Patrwm";
+"Use Document Size" = "Defnyddio Maint y Ddogfen";
+"Orientation" = "Pa ffordd";
+"Portrait" = "Ar i fyny";
+"Landscape" = "Ar draws";
+"Document Name" = "Enw'r Ddogfen";
+"Documents" = "Dogfennau"; // Name of directory
+"Use Document Folder" = "Defnyddio Ffolder y Ddogfen";
+"Folder" = "Ffolder";
+"Replace File?" = "Disodli'r Ffeil?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Mae ffeil o'r enw “%@” eisoes yn bodoli yn y ffeil derbyn a ddewiswyd. Ydych chi eisiau ei disodli hi?";
+"Replace" = "Disodli";
+"Saving…" = "Wrthi'n cadw…";
+"Saved" = "Cadwyd";
+"Save As…" = "Cadw fel…";
+"Discard Changes" = "Gwaredu'r Newidiadau";
+"Empty" = "Gwag";
+"Use Image Size" = "Defnyddio Maint y Ddelwedd";
+"Page Background" = "Cefndir y Dudalen";
+"Insert image annotation" = "Mewnosod anodiad y ddelwedd";
+"Import page background" = "Mewngludo cefndir y dudalen";
+"Quality" = "Ansawdd";
+"Low" = "Isel";
+"Medium" = "Canolig";
+"High" = "Uchel";
+"Best" = "Gorau";
+"Copy Pages" = "Copïo Tudalennau";
+"Paste Pages" = "Gludo Tudalennau";
+"Copied" = "Copïwyd";
+"“%@” has unsaved changes. Do you want to save them now?" = "Mae gan “%@” newidiadau heb eu cadw. Hoffech chi eu cadw nawr?";
+"Select Source Document" = "Dewiswch y Ddogfen Ffynhonnell";
+"Add After Page %tu" = "Ychwanegu ar ôl Tudalen %tu";
+"Cut Pages" = "Torri Tudalennau";
+"Import Document" = "Mewngludo Dogfen";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Defnyddio Dewiswr Ffolder";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Dewis Ffolder";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Dewis Pob Tudalen";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Nid oes modd cadw dogfen wag.";
+"The document could not be saved." = "Nid oedd modd cadw'r ddogfen.";
+"This document does not support editing." = "Nid yw'r ddogfen hon yn cefnogi golygu.";
+"The document could not be accessed." = "Nid oedd modd cael mynediad at y ddogfen hon.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "Nid oedd modd mewngludo'r PDF ar hyn o bryd.";
+"The image could not be imported at this time." = "Nid oedd modd mewngludo'r ddelwedd ar hyn o bryd.";
+
+// Page Patterns
+"None" = "Dim";
+"Dot5mm" = "Dot 5mm";
+"Grid5mm" = "Grid 5mm";
+"Lines5mm" = "Llinellau 5mm";
+"Lines7mm" = "Llinellau 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "Llythyr UDA";
+"US Legal" = "Dogfen Gyfreithiol UDA";
+
+// Page Export
+"Export Pages" = "Allgludo Tudalennau";
+"Export…" = "Allgludo…";
+"Exporting…" = "Wrthi'n Allgludo…";
+"Exported" = "Allgludwyd";
+"%@ - Exported" = "Allgludwyd - %@"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Copi"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Mae'r ddogfen a ddewiswyd ar agor ar hyn o bryd. Dewiswch enw ffeil gwahanol.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Nid yw gwasanaeth testun-i-lais ar gael. Sicrhewch fod gennych chi gyswllt gweithredol â'r rhyngrwyd neu injan testun-i-lais Google wedi'i osod a'i alluogi ar eich dyfais.";
+
+// Settings
+"Page Layout" = "Gosodiad y Dudalen";
+"Scroll Direction" = "Cyfeiriad Sgrolio";
+"Theme" = "Thema";
+"Keep screen on" = "Cadw'r sgrin ymlaen";
+"Page Transition" = "Trosiad y Dudalen";
+"Single" = "Sengl";
+"Continuous" = "Parhaus";
+"Curl" = "Cyrlen";
+"Scroll" = "Sgrôl";
+"Horizontal" = "Llorweddol";
+"Vertical" = "Fertigol";
+"Page Mode" = "Modd y Dudalen";
+"Automatic" = "Awtomatig";
+"Double" = "Dwbl";
+"Appearance" = "Gwedd";
+"Scrubber Bar" = "Bar Sgwrio";
+"Jump" = "Neidio"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Ddim ar Gael"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Ffitio i'r Dudalen";
+"Fit" = "Ffitio";
+"Fill" = "Llanw";
+"Adaptive" = "Addasol";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "Nid oes gan %@ fynediad at eich lluniau.";
+"%@ does not have access to your camera." = "Nid oes gan %@ fynediad at eich camera.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Gosodiadau Preifatrwydd";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Gallwch alluogi mynediad yn %@.";
+
+"Update Required" = "Angen Diweddariad";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Mae angen diweddariad ar gyfer %@ er mwyn cael mynediad at y ddogfen a chysoni anodiadau.";
+
+
+// Annotation Replies
+"Comment" = "Sylw";
+"Comments" = "Sylwadau";
+"Add your comment…" = "Ychwanegwch eich sylw…";
+"Delete Comment" = "Dileu'r Sylw";
+"Set Status" = "Gosod Statws";
+"Cancelled" = "Canslwyd";
+"Accepted by" = "Derbyniwyd gan";
+"Rejected by" = "Gwrthodwyd gan";
+"Completed by" = "Cwblhawyd gan";
+"Cancelled by" = "Canslwyd gan";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Pwyntydd i'r Dde";
+"Right Arrow" = "Saeth i'r Dde";
+"Checkmark" = "Tic";
+"Circle Note" = "Cylch";
+"Cross" = "Croes";
+"Insert Text" = "Mewnosod Testun";
+"New Paragraph" = "Paragraff Newydd";
+"Text Note" = "Nodyn Testun";
+"Paragraph" = "Paragraff";
+"Help" = "Help";
+"Star" = "Seren";
+"Key" = "Allwedd";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Glas Golau";
+"Light Red" = "Coch Golau";
+"Light Green" = "Gwyrdd Golau";
+"Fuchsia" = "Ffiwsia";
+"Page %tu of %tu" = "Tudalen %tu o %tu";
+"Preparing document for printing…" = "Wrthi'n paratoi'r ddogfen i'w hargraffu…";
+"Are you sure you want to delete this annotation?" = "Ydych chi'n siŵr eich bod eisiau dileu'r anodiad hwn?";
+"Confirm annotation deletion" = "Cadarnhau dileu'r anodiad";
+"Page Rotation" = "Cylchdroi'r Dudalen";
+"Rotate Left" = "Cylchdroi i'r Chwith";
+"Rotate Right" = "Cylchdroi i'r Dde";
+"%@ (not supported)" = "%@ (dim cefnogaeth)";
+"Pan Mode" = "Modd Tremio";
+"Fit Page" = "Ffitio'r Dudalen";
+"Fit Width" = "Ffitio'r Lled";
+"Password Required" = "Angen Cyfrinair";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Rhaid i chi ddatgloi'r ddogfen hon er mwyn ei gweld. Rhowch gyfrinair yn y maes isod.";
+"The password you entered is not correct. Please try again." = "Mae'r cyfrinair roddoch chi'n anghywir. Rhowch gynnig arall arni.";
+"Clear Signature" = "Clirio'r Llofnod";
+"Top" = "Brig";
+"Bottom" = "Gwaelod";
+"Vertical Alignment" = "Aliniad Fertigol";
+"Horizontal Alignment" = "Aliniad Llorweddol";
+"Light Orange" = "Oren Golau";
+"Light Yellow" = "Melyn Golau";
+"Mauve" = "Porffor Golau";
+"Light Gray" = "Llwyd Golau";
+"Dark Gray" = "Llwyd Tywyll";
+"NoColor" = "Dim";
+"Transparent" = "Tryloyw";
+// Generic label for bookmark
+"Bookmark" = "Nod Tudalen";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nod Tudalen Newydd";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Ydych chi'n siŵr eich bod eisiau dileu'r nod tudalen hwn?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Cadarnhau dileu'r nod tudalen";
+// Label for the select image field
+"Select Image" = "Dewiswch Ddelwedd";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ offer, dewislen toglo";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Math heb gefnogaeth ar gyfer anodiad delwedd: %@. Defnyddiwch JPEG neu PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Offeryn Testun ar Gerdded";
+"Toolbar_TextHighlighter" = "Amlygydd Testun";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Bar offer marcio anodiad";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Porth gweld y ddogfen";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Wrthi'n ail-olygu";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Yn dynodi bod y ddogfen gyfredol yn cael ei hail-olygu";
+"Icon" = "Eicon";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Symud";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Symud y dudalen i";
+// The label of the button on the Move UI
+"move" = "Symud";
+"selectedItem" = "%@, dewiswyd.";
+"annotationDeleted" = "Dilëwyd yr anodiad.";
+"newAnnotationCreated" = "Crëwyd anodiad %@ newydd.";
+"bookmarkCreated" = "Crëwyd nod tudalen.";
+"bookmarkEdited" = "Golygwyd y nod tudalen.";
+"bookmarkDeleted" = "Dilëwyd y nod tudalen.";
+"cancelledEditingBookmark" = "Canslwyd golygu'r nod tudalen.";
+"selectAFileForImage" = "Dewiswch ffeil ar gyfer yr anodiad delwedd newydd.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Deialog yn eich caniatáu i gadarnhau neu ganslo dileu'r anodiad.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Deialog yn eich caniatáu i gadarnhau neu ganslo dileu'r nod tudalen.";
+"deleteCommentConfirmAccessibilityDescription" = "Deialog yn eich caniatáu i gadarnhau neu ganslo dileu'r sylw.";
+"resize" = "Ail-feintio";
+"resizeHandleTop" = "Brig";
+"resizeHandleBottom" = "Gaelod";
+"resizeHandleRight" = "De";
+"resizeHandleLeft" = "Chwith";
+"cropCurrentPage" = "Tocio'r Dudalen Gyfredol";
+"cropCurrent" = "Tocio Hwn";
+"cropAllPages" = "Tocio Pob Tudalen";
+"cropAll" = "Tocio'r Cwbl";
+"documentCrop" = "Tocio'r Ddogfen";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Mewnosod ar ôl tudalen";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Teipiwch “0” i symud y dudalen/tudalennau a ddewiswyd i gychwyn y ddogfen.";
+
+// Blend Mode Strings
+"Normal" = "Normal";
+"Multiply" = "Lluosi";
+"ScreenBlend" = "Modd blendio";
+"Overlay" = "Troshaen";
+"Darken" = "Tywyllu";
+"Lighten" = "Goleuo";
+"ColorDodge" = "Osgoi Lliw";
+"ColorBurn" = "Llosgi Lliw";
+"HardLight" = "Golau Caled";
+"SoftLight" = "Golau Meddal";
+"Difference" = "Gwahaniaeth";
+"Exclusion" = "Eithriadau";
+"Multiple" = "Lluosog";
+"Blend Mode" = "Modd Cyfuno";
+
+// Image Document Strings
+"File type not supported." = "Ni chefnogir y math hwn o ffeil.";
+"Could not load image file." = "Methu llwytho ffeil y ddelwedd.";
+"The image is too large to be opened." = "Mae'r ddelwedd yn rhy fawr i'w hagor.";
+"Could not generate a PDF document from the image." = "Methu creu dogfen PDF o'r ddelwedd.";
+"Unnamed Image Document" = "Dogfen Ddelwedd Ddienw";
+"Annotations will remain editable and are embedded into the image." = "Caiff anodiadau eu plannu yn y ddelwedd a bydd modd eu golygu.";
+"Annotations are drawn into the image and are readonly." = "Caiff anodiadau eu rendro yn y ddelwedd a ni fydd modd eu golygu.";
+
+//Metadata Strings
+"Document Info" = "Manylion y Ddogfen";
+"Content" = "Cynnwys";
+"Title" = "Teitl";
+"Author" = "Awdur";
+"Subject" = "Pwnc";
+"Keywords" = "Allweddeiriau";
+"Not Set" = "Heb ei Osod";
+"NoneValue" = "Dim";
+"Security" = "Diogelwch";
+"Document Open Password" = "Cyfrinair Agor y Ddogfen";
+"Not set, minimum 8 characters" = "Heb ei osod, isafswm o 8 nod";
+"Permissions" = "Hawliau";
+"Changes" = "Newidiadau";
+"Printing" = "Argraffu";
+"Content Copying for Accessibility" = "Copïo Cynnwys er Hygyrchedd";
+"Content Modification" = "Addasu Cynnwys";
+"High Quality Printing" = "Argraffu o Ansawdd Uchel";
+"Filling of Form Fields" = "Maes Llenwi Ffurflenni";
+"Document Assembly" = "Cydosodiad Dogfen";
+"Annotations and Forms" = "Anodiadau a Ffurflenni";
+"Content Copying" = "Copïo Cynnwys";
+"Number of Pages" = "Nifer y Tudalennau";
+"File Size" = "Maint y Ffeil";
+"CreationDate" = "Crëwyd";
+"ModDate" = "Addaswyd";
+"Creator" = "Crëwr y Cynnwys";
+"Producer" = "Cynhyrchwyr y PDF";
+"Info" = "Gwybodaeth";
+"Tap the Edit button to show all metadata fields." = "Tapiwch fotwm Golygu i ddangos yr holl feysydd metaddata.";
+"Document Owner Password" = "Cyfrinair Perchennog y Ddogfen";
+"Changes Are Locked" = "Mae'r Newidiadau wedi'u Cloi";
+"Enter the Document Owner Password to make changes." = "Nodwch Gyfrinair Perchennog y Ddogfen i wneud newidiadau.";
+"Incorrect Password" = "Cyfrinair Anghywir";
+"Passwords" = "Cyfrineiriau";
+"Modifying Content" = "Addasu Cynnwys";
+"Editing Annotations and Forms" = "Golygu Anodiadau a Ffurflenni";
+"Filling Forms" = "Llenwi Ffurflenni";
+"Copying Content" = "Copïo Cynnwys";
+"Copying Content for Accessibility" = "Copïo Cynnwys er Hygyrchedd";
+"Could Not Save" = "Methu Cadw";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Wrth nodi Cyfrinair Agor y Ddogfen, mae angen bod Cyfrinair Perchennog y Ddogfen yn bresennol.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Llwybr y Ffeil";
+"Identical Passwords" = "Cyfrineiriau yn union yr un fath";
+"Choose a different Owner or Open password." = "Dewiswch gyfrinair Perchennog neu Agor newydd.";
+"Owner Password Required" = "Angen Cyfrinair y Perchennog";
+"An owner password is required to change the permissions of a document." = "Mae angen cyfrinair y perchennog i newid hawliau dogfen.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Mae rhai darllenwyr PDF yn dilyn cyfyngiadau caniatâd. Nid yw’r ap hwn yn gorfodi’r cyfyngiadau hyn.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Dewiswyd %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Dewiswyd %@ gyda %@ fel cynnwys";
+// Accessibility string for comment threads
+"commentThread" = "Trywydd sylwadau";
+"printProgressModalDesc" = "Yn dynodi bod dogfen yn cael ei pharatoi i'w hargraffu";
+"printProgressModal" = "Wrthi'n argraffu";
+"documentEditorDesc" = "Gwneud newidiadau i'r ddogfen gyfredol";
+"reloadDocumentDialog" = "Cadarnhau Ail-lwytho'r Ddogfen";
+"reloadDocumentDialogDesc" = "Deialog yn rhoi hwb i'r defnyddiwr gadarnhau ail-lwytho'r ddogfen.";
+"signatureDialog" = "Llofnod";
+"signatureDialogDesc" = "Mae'r deialog hwn yn caniatáu i chi ddewis llofnod inc i'w fewnosod yn y ddogfen. Os nad ydych chi wedi storio unrhyw lofnodion, gallwch greu un gan ddefnyddio'r wedd cynfas.";
+"stampAnnotationTemplatesDialog" = "Stampio Templedi Anodi";
+"stampAnnotationTemplatesDialogDesc" = "Mae'r deialog hwn yn caniatáu i chi ddewis anodiad stamp i'w fewnosod yn y ddogfen neu i greu anodiad stamp personol gyda'ch testun eich hun.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Ailolygiad";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Marc Ailolygiad";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Defnyddiwyd yr Ailolygiad";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Lliw'r Amlinelliad";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Testun y Droshaen";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Ailadrodd Testun";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Lliw'r Testun";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Manylion yr Ailolygiad";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Mae'r ddogfen hon yn cynnwys anodiadau ailolygiad heb eu hymrwymo. Hoffech chi eu defnyddio?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Hoffwn";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Mae ail-olygu'n broses dau gam. Yn gyntaf, crëwch farc ailolygiad i ddewis yr ardal y dylid ei hail-olygu. I dynnu'r cynnwys yn barhaol, tapiwch y botwm ▵ coch yn y gornel waelod ar y dde, a chyflwynwch yr ailolygiadau.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Cyflwyno'r Ailolygiadau";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Clirio'r Ailolygiadau";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Galluogi Rhagolwg o'r Ailolygiadau";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Analluogi Rhagolwg o'r Ailolygiadau";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Bydd gweithredu'r ailolygiadau'n cael gwared â'r wybodaeth yn barhaol ac ni ellir dadwneud y weithred hon.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Cadw mewn ffeil newydd";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Ail-olygu'r ddogfen gyfredol";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Wrthi'n ail-olygu…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Nid oedd modd ail-olygu'r ddogfen hon.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Ni fydd cynnwys wedi'i nodi i'w ail-olygu yn cael ei dynnu wrth gadw'r ddogfen. Ydych chi'n siŵr eich bod am barhau?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Ail-olygu'r Ddogfen Gyfredol";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Cadw'r Ddogfen a Ail-olygwyd Fel";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "Ail-olygwyd %@";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Ail-olygu Ardal";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Ail-olygu Testun";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Wrthi'n cyflwyno'r ail-olygiadau";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Wrthi'n llofnodi";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Yn dynodi bod y ddogfen gyfredol yn cael ei llofnodi";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Mewnosod testun gorchudd";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Adfer y Ffeil";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Ffeil Goll";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "Mae '%@' wedi cael ei symud y tu allan i'r rhaglen. Ydych chi eisiau cau'r ddogfen hon neu adfer y ffeil?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Ffeil Wrthdaro";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "Mae '%@' wedi cael ei newid y tu allan i'r rhaglen. Trwy gadw, bydd unrhyw newidiadau o bell yn cael eu diystyru.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Cadw'r Newidiadau";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Tapiwch i lwytho'r cyfryngau.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Nid oedd modd llwytho'r cyfryngau ar gyfer yr anodiad hwn oherwydd problem gyda'r cyswllt. Rhowch gynnig arall arni yn ddiweddarach.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Tapiwch i roi cynnig arall ar lwytho'r cyfryngau.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Nid oedd modd dod o hyd i'r cyfryngau ar gyfer yr anodiad hwn. Os yw'r neges hon yn parhau ar ôl cysoni'r ddogfen hon yn llwyddiannus, rhowch wybod am y broblem hon gan ddefnyddio'r wybodaeth ganlynol: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Tapiwch i ganslo'r lawrlwytho";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Roedd gwall annisgwyl wrth lwytho'r cyfryngau. Gwall %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Dolen i'r Dudalen";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Dolen i'r Wefan";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Rhif y Dudalen";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Detholiad y Dudalen";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Gludo o'r Clipfwrdd";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Rhagolwg o'r Wefan";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Cyfeiriad y Wefan";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Yn ôl";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Ymlaen";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Palet";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Defnyddiwyd yn ddiweddar";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Palet Lliwiau Diweddar";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Amrywiaethau Lliw";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Arlliw";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Dirlawnder";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Ysgafnder";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Gwerth Hecsadegol y Lliw";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Nid yw'r gwerth a nodwyd yn lliw dilys.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Gludo o'r Clipfwrdd";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Rhwymo Tudalennau";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Ymyl Chwith";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Ymyl Dde";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Anhysbys";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Chwith";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "De";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Trefn";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Blaen";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Ymlaen";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Am yn ôl";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Yn ôl";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Dyblygu";
+"DocumentEditor_Extract" = "Echdynnu";
+"General_SelectNone" = "Dewis Dim Un";
+"DocumentEditor_NewPage" = "Tudalen Newydd";
+"DocumentEditor_InstantModifiedWarning" = "Addaswyd y ddogfen hon ac mae bellach ym modd darllen yn unig. Ail-lwythwch y dudalen i drwsio hyn.";
+"DocumentEditor_MoveBefore" = "Symud Cyn";
+"DocumentEditor_MoveAfter" = "Symud Ar Ôl";
+"DocumentEditor_DocumentMergedHere" = "Bydd y ddogfen yn cael ei huno yma";
+
+// Android Strings
+"FileSystemPermission" = "Ymddengys eich bod wedi dileu mynediad yr ap hwn i’r system ffeiliau yn barhaol. Er mwyn gweld ac agor ffeiliau PDF sydd wedi’u storio ar eich dyfais, bydd angen i chi alluogi caniatâd i’r system ffeiliau eich hun trwy sgrin gosodiadau’r ap.";
+"Button_OpenSettings" = "Agor y Gosodiadau";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Dangos mwy";
+// Button to show less comments
+"Comments_ShowLess" = "Dangos llai";
+// Button to reply to a comment
+"Comments_Reply" = "Ateb";
+// Button to show all comments
+"Comments_ShowAll" = "Dangos y cyfan";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Ydych chi'n siŵr eich bod eisiau dileu'r sylw hwn?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Cadarnhau dileu'r sylw hwn";
+// Verb for Comment
+"Comment_Action" = "Gwneud sylw";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol ac mae'r holl lofnodion yn ddilys.";
+"DigitalSignatures_DocModified" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol, ond mae wedi cael ei haddasu ers ei llofnodi.";
+"DigitalSignatures_SignatureWarning" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol, ond mae problemau gan o leiaf un llofnod.";
+"DigitalSignatures_SignatureWarningDocModified" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol, ond mae wedi cael ei haddasu ers ei llofnodi ac mae problemau gan o leiaf un llofnod.";
+"DigitalSignatures_SignatureError" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol, ond mae o leiaf un llofnod yn annilys.";
+"DigitalSignatures_SignatureErrorDocModified" = "Mae'r ddogfen wedi cael ei llofnodi'n ddigidol, ond mae wedi cael ei haddasu ers ei llofnodi ac mae o leiaf un llofnod yn annilys.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Methu â Chychwyn y Recordiad";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Methu â Stopio'r Recordiad";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Methu â Gludo'r Tudalennau";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Methu â Gofyn i Lofnodi'r Ddogfen";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Methu â Llofnodi'r Ddogfen";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Roedd gwall anhysbys wrth geisio agor y ffeil hon.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Gwedd Darllenwr";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Â llaw";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Delwedd";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Teipio";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Llofnodwch Yma";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Teipiwch eich Llofnod Uchod";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Cadw’r Llofnod";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Dewiswch neu Lusgwch Ddelwedd";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Dewiswch Ddelwedd";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Disodli’r Ddelwedd";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Ffeiliau";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Llofnod Newydd";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Ymlaen";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "I ffwrdd";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "Ychwanegu Anodiad";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "Ychwanegu Anodiadau";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "Ychwanegu Sylw";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "Newid Statws y Sylw";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "Newid y Math o Farcio";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "Newid y Detholiad";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "Clirio'r Anodiadau";
+// Command of cutting.
+"Undo_Cut" = "Torri";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "Canfod y Siâp";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "Darlunio";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "Gollwng";
+// Command of editing text of a comment.
+"Undo_EditComment" = "Golygu'r Sylw";
+// Command of editing text inside text fields.
+"Undo_EditText" = "Golygu'r Testun";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "Dileu";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "Grwpio";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "Uno";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "Addasu'r Anodiad";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "Addasu'r Anodiadau";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "Symud yr Anodiad";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "Symud yr Anodiadau";
+// Command of pasting.
+"Undo_Paste" = "Gludo";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "Tynnu'r Anodiad";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "Tynnu'r Anodiadau";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "Tynnu'r Sylw";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "Tynnu'r Sylwadau";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "Ailfeintio'r Anodiad";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "Ailfeintio'r Anodiadau";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "Cylchdroi'r Anodiad";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "Cylchdroi'r Anodiadau";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "Dad-grwpio";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Alinio";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Alinio Dogfennau";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Dewiswch Bwynt";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Hen";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Newydd";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Cymharu";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Dewiswch tri phwynt ar y ddwy ddogfen i'w halinio eich hun. Ar gyfer y canlyniadau gorau, dewiswch bwyntiau ger corneli'r ddogfen, gan sicrhau bod y pwyntiau yn yr un drefn ar y ddwy ddogfen.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Anwybyddu";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Alinio Dogfennau";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Cymharu Dogfen";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Hen Ddogfen";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Dogfen Newydd";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Ailosod";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Wrthi'n Dewis Pwyntiau";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Alinio…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Wrthi'n Dewis Pwyntiau";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Pwynt %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Dewiswyd %1$tu o %2$tu yn “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Pwynt %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Cyrchfan y detholiad";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Petryal Cymylog";
+"DashedRectangleAnnotation" = "Petryal Toredig";
+"CloudyEllipseAnnotation" = "Elíps Cymylog";
+"DashedEllipseAnnotation" = "Elíps Toredig";
+"CloudyPolygonAnnotation" = "Polygon Cymylog";
+"DashedPolygonAnnotation" = "Polygon Toredig";
+"CloudAnnotation" = "Cwmwl";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Dim Llanw";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Nid oedd Modd Llwytho'r Anodiadau a Gadwyd";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Nid oedd Modd Cadw'r Anodiadau";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Pellter";
+"PerimeterMeasurement" = "Perimedr";
+"PolygonalAreaMeasurement" = "Arwynebedd y Polygon";
+"RectangularAreaMeasurement" = "Arwynebedd y Petryal";
+"EllipticalAreaMeasurement" = "Arwynebedd yr Elíps";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Cylchdroi yn groes i'r cloc";
+"Rotate_Clockwise" = "Cylchdroi gyda'r cloc";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Nodwch ddisgrifiad yma";
+// "New option button text"
+"FormDesigner_addOption" = "Ychwanegu opsiwn";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Priodweddau {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Mae maes o'r enw {formFieldName} yn bodoli eisoes yn y ffurflen. Dewiswch enw gwahanol.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Arddull {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Enw'r Maes Ffurflen";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Gwerth Diofyn";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Aml-linell";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "I grwpio'r botymau radio, sicrhewch fod ganddynt oll yr un enw maes ffurflen.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Uwch";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Enw'r Crëwr";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Nodyn";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Data Personol";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Gofynnol";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Darllen yn unig";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Crëwyd am";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Diweddarwyd am";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Rhaid bod yn wrthrych plaen y gellir ei gyfresoli gyda JSON";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Lliw'r Ymyl";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Lled yr Ymyl";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Arddull yr Ymyl";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Argraffu";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Solet";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Dashys";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Ar osgo";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Tu mewn";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Wedi tanlinellu";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Arddull y Testun";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Maint y Ffont";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Lliw'r Ffont";
+// "Button Field"
+"FormDesigner_button" = "Maes Botwm";
+// "Text Field Button"
+"FormDesigner_textField" = "Maes Testun";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Maes Radio";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Maes Blwch Ticio";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Maes Blwch Cyfuniad";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Maes Blwch Rhestr";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Maes Llofnod";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Testun y Botwm";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "Dd/B";
+// Label for form field
+"FormDesigner_label" = "Label";
+// Value for form field
+"FormDesigner_value" = "Gwerth";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Ni ellir ei olygu ar ôl ei chreu.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Ni ellir gadael maes enw'r ffurflen yn wag.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Lluniwr Ffurflenni";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Amlddewis";
+"FormDesigner_readOnlyProperty" = "Darllen yn unig";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Opsiynau";
+
+// Measurement tools
+"MeasurementScale" = "Graddfa";
+"MeasurementCalibrateLength" = "Graddnodi'r Hyd";
+"MeasurementPrecision" = "Manyldra";
+"MeasurementSnapping" = "Snapio";
+"MeasurementPrecision_Whole" = "Y Cyfan";
+"MeasurementPrecision_OneDecimalPlace" = "Un Lle Degol";
+"MeasurementPrecision_TwoDecimalPlaces" = "Dau Le Degol";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tri Lle Degol";
+"MeasurementPrecision_FourDecimalPlaces" = "Pedwar Lle Degol";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Arwynebedd";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Cyfrwng yr Anodiad";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Nid yw'r porwr hwn yn cefnogi plannu fideo neu sain.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Gosodiadau'r Ddolen";
+// Label for selection of link type (website - page).
+"linkTo" = "Dolen i";
+// Label for website selection.
+"uriLink" = "Gwefan";
+// Label for page selection.
+"pageLink" = "Tudalen";
+// Text for preceding number for page link number.
+"linkToPage" = "Dolen i Dudalen %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Rhowch rif dudalen dilys.";
+// Error message for invalid page link.
+"invalidPageLink" = "Rhowch ddolen dudalen dilys.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Gosodiadau Mesuriad {measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Dewis Nifer o Anodiadau";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ offeryn";
+
+// Document unlock string
+"Unlock_Document_Description" = "Rhaid i chi ddatgloi'r ddogfen hon i'w gweld hi. Rhowch y cyfrinair yn y maes isod.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Dienw";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Opsiynau Sylwadau";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Golygu Cynnwys";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Gosodiadau Mesur Perimedr";
+"Distance_Popover_Title" = "Gosodiadau Mesur Pellter";
+"Rectangle_Area_Title" = "Gosodiadau Mesur Arwynebedd Hirsgwar";
+"Polygon_Area_Title" = "Gosodiadau Mesur Arwynebedd Polygon";
+"Ellipse_Area_Title" = "Gosodiadau Mesur Arwynebedd Elíps";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Trwm";
+"Italic" = "Italig";
+
+// Button to save and then close current context
+"Save_And_Close" = "Cadw a Chau";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Awgrym offeryn toglo camgymhariad ffont";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Nid yw ffont %@ ar gael neu ni ellir ei defnyddio i olygu cynnwys yn y ddogfen hon. Bydd cynnwys a ychwanegir neu a newidir yn troi'n ôl i ffont diofyn.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Plannu";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Gwasgu'n fflat";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Anwybyddu";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Crynodeb";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Dewis y dudalen gychwyn";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Dewis y dudalen gorffen";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "i";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Cylchdroi";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Golygu Cynnwys";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "Mae gan “%1$@” newidiadau heb eu cadw.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Amryw Ffontiau";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Ffont Anhysbys";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Amryw Feintiau";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Lleihau'r Maint";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Cynyddu'r Maint";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Amryw Liwiau";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ Trwm";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ Italig";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ Trwm Italig";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Agor y ffrwd sylwadau a gychwynwyd gan %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Rhagor o sylwadau";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Amrediad o Dudalennau";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Lliw Personol Newydd";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Golygydd Cynnwys";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Dod o hyd i Ddetholiad";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Chwilio'r We";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Modfedd Gyfan";
+"MeasurementPrecision_Halves" = "Hanner Modfedd";
+"MeasurementPrecision_Quarters" = "Chwarter Modfedd";
+"MeasurementPrecision_Eighths" = "Wythfed Modfedd";
+"MeasurementPrecision_Sixteenths" = "Unfed ar bymtheg o Fodfedd";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Mae'r gadwyn tystysgrif a ddefnyddir i lofnodi'r ddogfen yn wag.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Nid yw'r math o lofnod digidol yn cael ei gefnogi.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Mae'r llofnod digidol yn cynnwys stamp amser nad sy'n ddilys, neu rhywbeth wedi ymyrryd â data'r stamp amser.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Gosodiadau Mesuriadau";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Ychwanegu Graddfa";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Defnyddio Offeryn Calibro";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Graddfa Calibro";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Gosod y Raddfa";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Unedau Eilaidd";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Uned";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Bydd dileu'r raddfa hefyd yn dileu'r mesuriadau sy'n defnyddio'r raddfa.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Mae'r raddfa hon eisoes yn cael ei defnyddio";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Hoffech chi olygu neu ddefnyddio'r raddfa gyfredol?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Defnyddio'r raddfa gyfredol";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Dienw";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Snapio i Bwynt";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Snapio gyda'r Llinell";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Dangos y Canllawiau Clyfar";
+
+// Label for the add text box button
+"AddTextBox" = "Ychwanegu Blwch Testun";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Ydych chi'n siŵr eich bod eisiau dileu'r blwch testun hwn?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Cadarnhau dileu'r blwch testun";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Deialog yn caniatáu'r defnyddiwr i gadarnhau neu ganslo dileu'r blwch testun";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Darllen yn unig";
+"locked" = "Ar glo";
+"lockedContent" = "Cynnwys ar glo";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Ychwanegwyd graddfa";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "Wedi llwyddo ychwanegu \"%@\" at y rhestr o raddfeydd.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Eicon gosodiadau mesuriadau";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Nid yw'r eicon yn dynodi'r gosodiadau mesuriadau wedi'i osod";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Llofnodwyd y ddogfen hon gyda %@ gan %@ ar %@ am %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Fe honnir y llofnodwyd y ddogfen hon gyda %@ gan %@ ar %@ am %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algorithm: %@ gyda %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Echdynnu Tudalennau";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Enw'r Raddfa";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Mae graddfa gyda'r gosodiadau hyn eisoes wedi cael ei diffinio. Dewiswch raddfa arall.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Dangos yr Uned Eilaidd";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Golygu neu ychwanegu graddfa newydd";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Calibro";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Haenau";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Dim Haenau";
+
+"The certificate is not yet valid" = "Nid yw'r dystysgrif yn ddilys eto.";
+"Signature validation failed - invalid signature" = "Nid yw'r llofnod yn ddilys.";
+"The certificate has been revoked" = "Mae'r dystysgrif wedi cael ei diddymu.";
+"Certificate problem" = "Mae problem gyda'r dystysgrif.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Methu gwirio a yw'r dystysgrif wedi cael ei diddymu.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Bylchiad Llinellau";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Sengl";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dwbl";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Dewis Mwy…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Mesuriadau";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Ail-lwytho'r Ddogfen";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Helpu'r byd i arloesi y tu hwnt i bapur gydag offer datblygwyr, datrysiadau cod isel, ac offer defnyddiwr terfynol ar gyfer pob prif lwyfan.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Gweithred";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Llwybr byr";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Rhoi sylw";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Agor y Ddeialog Help";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Darllen mwy";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Ffocws ar y Bar Offer";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Does dim digon o gof i ddangos y dudalen hon.";

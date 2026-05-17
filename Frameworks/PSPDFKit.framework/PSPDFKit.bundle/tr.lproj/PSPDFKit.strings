@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Kapat";
+"Cancel" = "Vazgeç";
+"OK" = "Tamam";
+"Open" = "Aç";
+"Untitled" = "Adsız";
+"File Not Found" = "Dosya Bulunamadı";
+"File couldn't be opened." = "Dosya açılamadı."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Adsız PDF";
+"Page %tu" = "Sayfa %tu";
+"Page %@" = "Sayfa %@";
+"Next" = "Sonraki";
+"Previous" = "Geri";
+"Error" = "Hata";
+"More options" = "Diğer seçenekler";
+"Close Tab" = "Sekmeyi Kapat";
+"Close All Tabs" = "Tüm Sekmeleri Kapat";
+"Close All Other Tabs" = "Tüm Diğer Sekmeleri Kapat"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Çizim";
+"Highlighter" = "Serbest Vurgu";
+
+// toolbar
+"Outline" = "Çerçeve"; // Table of contents
+"No Outline" = "Çerçeve Yok";
+"Search Outline" = "Arama Çerçevesi";
+"Search" = "Arama";
+"Email" = "E-posta";
+"Send via Email" = "E-posta ile Gönder";
+"Send" = "Gönder";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Mesaj ile Paylaş";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "E-posta ile Paylaş";
+"Open In" = "Aç";
+"Commit" = "İşle";
+"Sending to %@" = "Gönderiliyor: %@"; // Open document with an application
+"Pages" = "Sayfalar";
+"Print with annotations" = "Notlarla yazdır";
+"Print without annotations" = "Notsuz yazdır";
+"No Applications found" = "PDF belgelerini açabilen yüklenmiş bir uygulama bulunamadı.";
+"Print" = "Yazdır";
+"Annotation" = "Not";
+"Annotations" = "Notlar";
+"No Annotations" = "Not Yok";
+"Bookmarks" = "Yer İmleri";
+"No Bookmarks" = "Yer İmi Yok";
+"Add Bookmark" = "Yer İmi Ekle";
+"Remove Bookmark" = "Yer İmini Sil";
+"Brightness" = "Parlaklık";
+"Share" = "Paylaş";
+"Preparing" = "Hazırlanıyor";
+"Loading" = "Yükleniyor";
+"Expand" = "Genişlet";
+"Collapse" = "İçeriği Gizle";
+// SMS / iMessage sharing button
+"Message" = "Mesaj";
+"Thumbnails" = "Küçük Resimler";
+"Drag Toolbar" = "Araç Çubuğunu Sürükle";
+
+// thumbnails
+"Bookmarked" = "Yer İmleri";
+"Annotated" = "Not eklendi";
+"All" = "Tümü";
+"Loading Annotations" = "Notlar Yükleniyor";
+"Loading Pages" = "Sayfalar Yükleniyor";
+"Loading Bookmarks" = "Yer İmleri Yükleniyor";
+
+// password
+"Password" = "Şifre"; // text on a label
+"Unlock" = "Kilidi Aç";
+"Please enter the password." = "Lütfen şifrenizi girin.";
+"This document cannot be unlocked." = "Belgenin kilidi kaldırılamadı.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Şifre Alanı";
+
+// page
+"%tu of %tu" = "%tu / %tu";
+"%tu–%tu of %tu" = "%tu–%tu / %tu";
+"%@ (%tu of %tu)" = "%@ (%tu / %tu)";
+"%@, Page %tu" = "%@, Sayfa %tu";
+"Leave %@?" = "Çık “%@“?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu / %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu / %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu / %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Dökümanda Ara"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Sayfa %tu / %tu aranıyor";
+"Search Completed" = "Arama Tamamlandı";
+"Search Cancelled" = "Arama İptal Edildi";
+"%tu left" = "%tu kaldı"; // Indexing Documents... 5 left
+"Searching" = "Aranıyor";
+"Done" = "Bitti";
+"Indexing Documents" = "Belgeler Dizinleniyor";
+"Document" = "Belge";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Notları Ara";
+
+// inline browser
+"Open in Safari" = "Safari'de Aç";
+"Open in Chrome" = "Chrome'da Aç";
+"Your %@ is not configured to send emails." = "%@, e-posta göndermek için ayarlanmamış.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Bağlantı %1$@ uygulamasını açmak istiyor. %2$@ ile devam etmek istiyor musunuz?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "harici uygulama"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "E-posta"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "%@ için işleyici bulunamadı";
+
+// text selection
+"Text copied to clipboard." = "Metin panoya kopyalandı.";
+"Save to Photo Library" = "Fotoğraf Kütüphanesine Kaydet";
+"Failed to extract image." = "Görüntü ayıklanması başarısız oldu.";
+"Type value or pick from list" = "Bir değer gir ya da listeden seç";
+
+// annotations
+"Add %@" = "Ekle: %@";
+"Remove %@" = "Sil: %@";
+"Remove" = "Sil";
+"Delete" = "Sil"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Düzenle";
+"Undo" = "Geri Al";
+"Nothing to undo" = "Geri alınacak eylem yok";
+"Redo" = "Yinele";
+"Nothing to redo" = "Yinelenecek bir işlem yok";
+"Type" = "Tür"; // kind of Annotation can be selected
+"Size" = "Büyüklük";
+"Font" = "Fontlar";
+"Fonts" = "Fontlar";
+"All Fonts" = "Tüm Fontlar";
+"Downloadable Fonts" = "İndirilebilir Fontlar";
+"Search Fonts" = "Fontlarda Ara";
+"Choose Color" = "Renk Seç";
+"Choose Fill Color" = "Doldurma Rengi Seç";
+"Rainbow" = "Gökkuşağı";
+"Monochrome" = "Monokrom";
+"Vintage" = "Vintaj";
+"Modern" = "Modern";
+"ColorPalette_Unified" = "Palet";
+"Color" = "Renk";
+"Border" = "Kenarlık";
+"Fill Color" = "Doldurma Rengi";
+"Start and End Color" = "Başlangıç ve Bitiş Rengi";
+"Opacity" = "Saydamlık";
+"Thickness" = "Kalınlık";
+"%@ pt" = "%@ pt";
+"Yellow" = "Sarı";
+"Green" = "Yeşil";
+"Red" = "Kırmızı";
+"Blue" = "Mavi";
+"Pink" = "Pembe";
+"Black" = "Siyah";
+"Orange" = "Turuncu";
+"Purple" = "Mor";
+"Cyan" = "Camgöbeği";
+"Gray" = "Gri";
+"White" = "Beyaz";
+"Color_Brown" = "Kahverengi";
+"Color_DarkRed" = "Koyu Kırmızı";
+"Color_DarkBlue" = "Koyu Mavi";
+"Color_Magenta" = "Galibarda";
+"Define" = "Tanımla";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Metin Vurgusu";
+"Underline" = "Alt Çizgi";
+"Squiggly" = "Eğri";
+"StrikeOut" = "Üst Çizgi";
+"Rectangle" = "Dikdörtgen";
+"Ellipse" = "Elips";
+"Line" = "Çizgi"; // something that can be drawn
+"Polygon" = "Poligon";
+"Signature" = "İmza";
+"Signatures" = "İmzalar";
+"Signed" = "İmzalandı";
+"Sign" = "İmzala";
+"Signing…" = "İmzalanıyor…";
+"Sign using %@" = "%@ kullanarak imzala"; // e.g. Adobe.PPKLite
+"Methods" = "Yöntemler"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Kimlik Seç"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Damga";
+"Stamps" = "Damgalar";
+"Custom" = "Özel"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Damga Yarat";
+"Preview" = "Ön İzleme";
+"Stamp Text" = "Damga Metni";
+"Add Signature" = "İmza Ekle";
+"Remove Signature" = "İmzayı Sil";
+"My Signature" = "Benim İmzam";
+"No Signatures" = "İmza Yok"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Lütfen burayı imzalayın";
+"Text" = "Not";
+"FreeText" = "Metin";
+"Delete Note" = "Notu Sil";
+"Remove Note" = "Notu Kaldır";
+"%@ could not be found." = "%@ bulunamadı.";
+"Photo Library" = "Fotoğraf Kütüphanesi";
+"Camera" = "Kamera";
+"camera_not_available" = "Kamera kullanılamıyor";
+"Image" = "Resim";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Resim Kalitesini Seçin";
+"Low Quality" = "Düşük Kalite";
+"Medium Quality" = "Orta Kalite";
+"High Quality" = "Yüksek Kalite";
+"Clear All" = "Tümünü Temizle";
+"Clear" = "Temizle";
+"Style" = "Stil";
+"Link" = "Bağlantı";
+"Ink" = "Çizim";
+"Screen" = "Ekran";
+"RichMedia" = "Zengin İçerik";
+"FileAttachment" = "Dosya";
+"Left" = "Sol";
+"Center" = "Merkez";
+"Right" = "Sağ";
+"Alignment" = "Hizalama";
+"Preview File" = "Dosyayı Önizle";
+"Copy" = "Kopyala";
+"Paste" = "Yapıştır";
+"Inspector" = "Denetçi";
+"Group" = "Grupla";
+"Ungroup" = "Grubu Kaldır";
+"Merge" = "Birleştir"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Örnek";
+"Annotation Summary for %@:" = "%@ için Not Özeti:";
+"Show Text" = "Metini Göster";
+// title
+"Author Name" = "Yazar Adı";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Lütfen yeni eklenen notlar için kullanmak istediğiniz yazar adını girin.";
+// text field placeholder
+"Name" = "Ad";
+// meaning: close
+"Dismiss" = "Kapat";
+"Fit to Text" = "Metne Sabitle";
+"Draw" = "Çiz";
+"Sound" = "Ses";
+"Eraser" = "Silgi";
+"Toggle Eraser" = "Anahtar Kapatma"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Seçme Aracı";
+"Add" = "Ekle"; // to add - infinitive
+"Date" = "Tarih";
+"Time" = "Saat";
+"No Pages" = "Sayfa Yok";
+"Drag to resize" = "Sürükleyerek yeniden boyutlandır"; // used as hint that inspector is resizable
+"Convert to" = "Şuna Dönüştür"; // used as label on action that changes free text intent type
+"Color Presets" = "Renk Önayarları";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Rengi Sıfırla";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Kes";
+"Annotation copied." = "Not kopyalandı.";
+"Annotation cut." = "Not kesildi.";
+"Annotation pasted." = "Not yapıştırıldı.";
+"%tu selected" = "%tu seçili";
+"Custom Stamp" = "Kişisel Damga";
+"Change text and color" = "Metin ve rengi değiştir";
+"Use an existing stamp design" = "Mevcut bir damga tasarımı kullan";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Sihirli Mürekkep";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "'%@' fontu %@ boyutunda yüklenemedi";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Stil Denetçisi";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Notların tümünün silinmesini istiyor musunuz?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Not Ekleme Kapalı";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Yorumlar var";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Metin Notu";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Onay İşareti";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Çarpı İşareti";
+
+"Callout" = "Belirtme çizgisi"; // freetext annotation with an arrow
+"Generic" = "Jenerik"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Çizgi Stili";
+"Solid" = "Düz";
+"Narrow Dots" = "İnce Nokta";
+"Wide Dots" = "Kalın Nokta";
+"Narrow Dashes" = "İnce Tire";
+"Wide Dashes" = "Kalın Tire";
+"Cloudy" = "Bulutlu"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Onaylandı";
+"Not Approved" = "Onaylanmadı";
+"Draft" = "Taslak";
+"Final" = "Son";
+"Completed" = "Tamamlandı";
+"Confidential" = "Gizli";
+"For Public Release" = "Genel Sürüm";
+"Not For Public Release" = "Özel Sürüm";
+"For Comment" = "Yorum";
+"Void" = "Geçersiz";
+"Preliminary Results" = "Ön Sonuçlar";
+"Information only" = "Sadece Bilgi";
+"Accepted" = "Kabul Edildi";
+"Rejected" = "Kabul Edilmedi";
+"Initial Here" = "Başharfler Buraya";
+"Sign Here" = "Burayı İmzala";
+"Witness" = "Şahit";
+"Revised" = "Gözden Geçirildi";
+"Stamp.AsIs" = "Olduğu Gibi";
+"Stamp.Departmental" = "Birimsel";
+"Stamp.Experimental" = "Deneyimsel";
+"Stamp.Expired" = "Süresi Doldu";
+"Stamp.Sold" = "Satıldı";
+"Stamp.TopSecret" = "Çok Özel";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Ekran Kalemi";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Kapalı";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Taranıyor";
+// text on a label; app connects to a stylus
+"Pairing" = "Eşleştiriliyor";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ Bağlı";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ Bağlı Değil";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Ayarlar";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Not için Apple Pencil’i Kullanın";
+
+// PDF annotation name overrides
+"Square" = "Dikdörtgen";
+"Circle" = "Elips";
+"PolyLine" = "Devamlı Çizgi";
+"SavedAnnotations" = "Kaydedilmiş Notlar";
+
+// named actions
+"NextPage" = "Sonraki Sayfa";
+"PrevPage" = "Önceki Sayfa";
+"FirstPage" = "İlk Sayfa";
+"LastPage" = "Son Sayfa";
+"GoBack" = "Geri Dön";
+"GoForward" = "İleri Git";
+"GoToPage" = "Sayfaya Git";
+"Find" = "Bul";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Büyüt";
+"ZoomOut" = "Küçült";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Zengin İçerik Eylemi";
+"Rendition Action" = "İşleme Eylemi";
+"Hide Action" = "Eylemi Gizle";
+"Submit Form" = "Formu Gönder";
+"Reset" = "Sıfırla";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Geri";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Tümünü Seç";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Üstteki Öğeyi Seç";
+"KeyCommand.SelectBelow" = "Aşağıdaki Öğeyi Seç";
+"KeyCommand.SelectTop" = "En Üstteki Öğeyi Seç";
+"KeyCommand.SelectBottom" = "En Alttaki Öğeyi Seç";
+"KeyCommand.ClearSelection" = "Seçimi Kaldır";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Bölümü Genişlet";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Bölümü Daralt";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Sonraki Sekmeyi Göster";
+"KeyCommand.ShowPreviousTab" = "Önceki Sekmeyi Göster";
+"KeyCommand.SelectAllAnnotations" = "Tüm Notları Seç";
+
+// line annotations
+"Start" = "Başlat";
+"End" = "Bitir";
+"Line.None" = "Hiçbiri";
+"Line.ClosedArrow" = "Kapalı Ok";
+"Line.OpenArrow" = "Açık Ok";
+"Line.Square" = "Kare";
+"Line.Circle" = "Daire";
+"Line.Diamond" = "Karo";
+"Line.ROpenArrow" = "Ters Açık Ok";
+"Line.RClosedArrow" = "Ters Kapalı Ok";
+"Line.Slash" = "Bölme İşareti";
+"Line.Butt" = "Uç";
+"Line Start" = "Satır Başlangıcı";
+"Line End" = "Satır Sonu";
+"Arrow" = "Ok"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Bağlantı Oluştur";
+"Add Link" = "Bağlantı Ekle";
+"Edit Link" = "Bağlatıyı Düzenle";
+"Move Link" = "Bağlantıyı Taşı";
+"Remove Link" = "Bağlantıyı Kaldır";
+"Open Link" = "Bağlantıyı Aç";
+"Go to Page %tu" = "%tu. sayfaya git";
+"Go to Page" = "Sayfaya Git"; // title of a Popup
+"Go" = "Git"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "URL’yi Kopyala";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Bağlantıyı Kopyala";
+"Save" = "Kaydet";
+"Link Destination" = "Bağlantı Kayıt Yeri";
+"Enter page index or a http:// address to link to an URL." = "URL'ye bağlamak için sayfa dizini veya http:// adresi girin.";
+"Page %@ Not Found" = "Sayfa %@ Bulunamadı";
+"Add to Reading List" = "Okuma Listesine Ekle";
+
+"Link annotation creation failed." = "Bağlantı notu oluşturulamadı.";
+"Link annotation successfully created." = "Bağlantı notu başarıyla oluşturuldu.";
+"Entered text could not be converted to an Integer nor URL." = "Girilen metin tanılı bir birime veya URL’ye dönüştürülemedi.";
+
+// voiceover accessibility
+"Grid" = "Izgara"; // grid with thumbnails
+"Translucent" = "Saydam";
+"left" = "sol";
+"center" = "merkez";
+"right" = "sağ";
+"decrease" = "azalt";
+"increase" = "artır";
+"All Open Documents" = "Tüm Açık Belgeler";
+"Add Documents" = "Belge Ekle"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Dosya Aç";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Çoklu Medya Denetimi";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Formu Sıfırla";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Eylemi Göster";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Tanımlı Eylem";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Sayfa %tu-%tu"; // Range of pages
+"Current Page" = "Şu Anki Sayfa";
+"Current Page (%tu)" = "Şu anki Sayfa (%tu)";
+"Ignore Annotations" = "Notları Yoksay";
+"The PDF will not contain any annotations." = "PDF herhangi bir not içermeyecek.";
+"Embed Annotations" = "Notları Göm";
+"Annotations will remain editable and are embedded into the PDF." = "Notlar düzenlebilir olarak kalacak olup, PDF'de gömülüdür.";
+"Flatten Annotations" = "Notları Hizala";
+"Annotations are drawn into the PDF and are readonly." = "Notlar PDF’te işlenecek olup, yalnızca okunur niteliktedir.";
+"Annotation Summary" = "Not Özeti";
+"Embed Annotations into the PDF and also list them in the email." = "Notları PDF'e göm ve onları e-postada listele.";
+"Annotations will be listed in a text file." = "Notlar metin olarak listelenecektir.";
+"Files" = "Dosyalar";
+"Send as single files" = "Tek dosya olarak gönder";
+"Merge files" = "Dosyaları birleştir";
+"Original File" = "Özgün Dosya";
+"Range" = "Aralık";
+"Annotated Pages" = "Notlu Sayfalar";
+"Message could not be sent." = "Mesaj gönderilemiyor.";
+"Export" = "Dışa Aktar";
+"This action can't be performed." = "Bu eylem gerçekleştirilemiyor.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Dosya temelli olmayan belgelerin dışa aktarımı deskteklenmiyor";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Bu belgede not bulunmuyor.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Belge Paylaşılamadı";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Belge resim paylaşımı en fazla %tu sayfayla sınırlı.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Etklentiler Mesajlar ile gönderilemiyor.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Belgeler yazdırılamıyor.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF Belgesi";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Hedefe Erişilemiyor";
+
+// sound annotations
+"Speak" = "Konuş"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Çal";
+"Pause" = "Duraklat";
+"Resume" = "Sürdür";
+"Stop" = "Durdur";
+"Play/Stop" = "Oynat/Durdur";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Kaydet";
+"Pause Recording" = "Kaydı Duraklat";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Kayıt Duraklatıldı";
+"Continue Recording" = "Kayda Devam Et";
+"Finish Recording" = "Kaydı Bitir";
+"Audio Problem" = "Ses Problemi";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Oynatım başlatılamıyor.";
+"Could not resume playback." = "Oynatım sürdürülemiyor.";
+"Microphone permission not granted." = "Mikrofona erişim izni verilmedi.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Şu anda ses kaydedilemiyor. Lütfen uygulamanın mikrofonunuza erişmesine izin verin.";
+"There was a problem trying to record audio." = "Kayıt yapılırken bir sorun ile karşılaşıldı.";
+"Already Recording" = "Kayıt Yapılıyor";
+"You are already recording on page %@." = "%@ sayfada zaten ses kaydı yapıyorsunuz.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Bu uygulamaya mikrofon erişimini engellediğiniz görünüyor. Ses notlarını kaydetmeniz için uygulama ayarları ekranından mikrofon erişimini bizzat etkinleştirmeniz gerekiyor.";
+
+// Forms
+"Form Element" = "Form Öğesi";
+"Text Field" = "Metin Alanı";
+"Button" = "Düğme";
+"Choice Field" = "Seçim Alanı";
+"Signature Field" = "İmza Alanı";
+"Clear Field" = "Alanı Temizle"; // same as delete
+"Default Values" = "Saptanmış Değerler";
+"Custom Value" = "Seçilmiş Değerler";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Seçenekleri Ara";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Geçersiz değer: %s değerinden büyük veya ona eşit olmalı.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Geçersiz değer: ya %s değerinden büyük veya ona eşit olmalı ya da %s değerinden küçük veya ona eşit olmalı.";
+"Invalid value: must be less than or equal to %s." = "Geçersiz değer: %s değerinden küçük veya ona eşit olmalı.";
+"The value entered does not match the format of the field [%s]" = "Girilen değer, [%s] kısmından beklenen formatla uyuşmuyor";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Geçersiz tarih/zaman: lütfen gün/zaman bilgisini girin. [%s] alanı %s formatıyla uyuşmak zorunda";
+
+// General validation
+"Invalid value [%s]" = "Geçersiz değer [%s]";
+
+// Gallery
+"Connection Error" = "Bağlantı Hatası";
+"Unsupported Content" = "Desteklenmeyen İçerik";
+"The specified content cannot be displayed." = "Belirlenen içerik görüntülenmiyor.";
+"Something went wrong" = "Bir hata oluştu";
+"This item is currently unavailable." = "Bu öğe şu an kullanılamıyor.";
+"The information for this gallery could not be loaded." = "Bu galeri bilgisi yüklenemedi.";
+"Content Error" = "İçerik Hatası";
+"This content is unsupported." = "İçerik desteklenmiyor.";
+
+// Signatures
+"Digital Signature" = "Dijital İmza";
+"Signature is valid." = "İmza geçerli.";
+"Signature is valid, but there are some warnings." = "İmza geçerli ancak bazı uyarılar var.";
+"It was signed by %@ on %@ at %@." = "%@ tarafından %@ tarihinde %@ saatinde imzalandı."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "%@ tarihinde %@ saatinde imzalandı.";
+"It claims to have been signed by %@ on %@ at %@." = "%@ tarafından %@ tarihinde %@ saatinde imzalandığı belirtiliyor."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "%@ tarihinde %@ saatinde imzalandığı belirtiliyor.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Bu imza tarafından yapılan revizyon değiştirilmemiştir; buna rağmen, imzalandığından beri belgede belirli değişiklikler yapılmıştır."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Bu imza geçerli olup, belgenin içeriği imzalandığından beri değiştirilmemiştir.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Geçersiz imza — bu belgenin içeriği imzalandığından beri belge değiştirilmiş, içeriğiyle oynanmış veya zarar görmüş.";
+"Unsigned Signature Field" = "İmzalanmamış İmza Alanı";
+"Do you really want to remove the signature from the document?" = "Belgedeki imzayı kaldırmak istediğinizden emin misiniz?";
+"Could not retrieve the certificate from the signature." = "İmzadan sertifika elde edilemedi.";
+"Could not retrieve the signature contents." = "İmza içerikleri elde edilemedi.";
+"Could not retrieve the public key from the signature." = "İmzadan ortak anahtar elde edilemedi.";
+"Could not retrieve the byte range of the signature." = "İmzanın bit aralığı elde edilemedi.";
+"Could not understand the encryption padding." = "Şifreleme doldurmaları anlaşılamadı.";
+"Could not compute the digest for the document." = "Belge için özet çıkarılamadı.";
+"General failure while trying to determine document integrity." = "Belge bütünlüğünün belirlenişinde genel hata.";
+"Certificate chain is invalid." = "Sertifika zinciri geçersiz.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Sertifika zinciri doğrulanamıyor; güvenilir herhangi bir anahtar sağlanmamış.";
+"Document integrity success, but certificate is self signed." = "Sertifika otomatik imzalı.";
+"Document integrity check failed." = "Belge bütünlük tespiti gerçekleştirilemedi.";
+"The signing certificate is not trusted." = "İmza sertifikası güvenilir değil.";
+"unknown time" = "bilinmeyen zaman";
+"unknown date" = "bilinmeyen tarih";
+"Digitally signed by {}" = "{} digital olarak imzaladı"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Tarih: ";
+"Reason: " = "Sebep: ";
+"Location: " = "Yer: ";
+"Certificate" = "Sertifika";
+"No Certificate" = "Sertifika Yok";
+"No Certificates" = "Sertifika Yok";
+"Store Signature" = "İmzayı Arşivle";
+"Add Trusted Certificate" = "Güvenilir Sertifika Ekle";
+"Add Signer" = "İmzalayan Ekle";
+"Added Trusted Certificate" = "Güvenilir Sertifika Eklendi";
+"Added Signer" = "İmzalayan Eklendi";
+"File doesn't match any certificate type" = "Dosya bir sertifika türüyle eşleşmiyor";
+"Import Failed" = "İçe Aktarılamadı";
+"Signature Area" = "İmza Alanı";
+"Draw Signature Area" = "İmza Alanını Belirle";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7 öğesine başharfler eklenemedi";
+"Could not find signature" = "İmza bulunamadı";
+"Could not hash the PDF document" = "PDF belgesine hash eklenemedi";
+"Could not create padding for the digital signature" = "Dijital imza için boşluk oluşturulamadı";
+"Could not verify the signature" = "İmza doğrulanamadı";
+"Could not save the signed document" = "İmzalanan belge kaydedilemedi";
+"Cannot sign attributes" = "İçerikler imzalanamıyor";
+"The selected subfilter type for the signature is not supported" = "İmza için seçilen alt filtre türü desteklenmiyor";
+"Could not add signature to PKCS7 object" = "PKCS7 öğesine imza eklenemedi";
+"Could not write PKCS7 signature" = "PKCS7 imzası yazılamıyor";
+"Could not create PKCS7 object" = "PKCS7 öğesi yaratılamadı";
+"Could not generate PKCS7 object" = "PKCS7 öğesi oluşturulamadı";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Belge imzalanamadı çünkü zaten imzalanmış durumda.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Sertifika verileri PKCS#7 sertifikası olarak okunamıyor. Doğru biçim verileri Adobe Acrobat’dan dışa aktarılabilir."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Sertifika imzasının şifresi çözülemiyor.";
+"The public key in the certificate could not be read." = "Sertifikadaki açık anahtar okunamıyor.";
+"The signature of the certificate is not valid." = "Sertifikanın bu imzası geçerli değil.";
+"Signature is not valid." = "İmza geçerli değil.";
+"There is a format error in the notBefore field of the certificate." = "Sertifikanın notBefore alanında bir biçim hatası var."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Sertifikanın notAfter alanında bir biçim hatası var."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "İmzalar doğrulanamıyor çünkü sertifika zinciri yanlızca bir sertifika içeriyor; kendiliğinden imzalı değil ve sağlayıcıya güvenilemiyor.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "CA sertifikası geçerli değil çünkü o ya bir CA değil yada onun uzantıları amaçlanan hedefe uyuşmuyor."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "basicConstraints pathlength parametresi aşıldı."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "root CA, hedeflenen amacı için güvenli olarak işaretlenmemiş."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "root CA, belirlenen amacı reddetmek üzere işaretli."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Sertifika sağlayıcı reddedildi çünkü onun subject name'i, halihazırdaki sertifikanın issuer name'i ile eşleşmiyor."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Sertifika sağlayıcı reddedildi çünkü onun mevcut subject key identifier’ı, halihazırda bulunan authority key identifier’ı ile eşleşmiyor."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Sertifika sağlayıcı reddedildi çünkü onun mevcut subject name'i ve serial number'ı, halihazırda bulunan sertifikanın otorite şifre belirleyicisi ile eşleşmiyor."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Sertifika, sağlayıcı tarafından iptal edildi.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Geçen sertifika otomatik olarak imzalı ve aynı sertifika güvenilir sertifikalar listesinde bulunamıyor.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Sertifika zincirinde otomatik olarak imzalanmış bir imza var. Sertifika zincirinin güvenilmeyen sertifikalar kullanılarak oluşturulabilmesi mümkün ancak root CA yerel olarak bulunamıyor."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "İmzalama hiyerarşisinde sertifika yetkililerinden (CA'lardan) birinin sertifikası bulunamıyor ve bu CA yerel uygulama tarafından güvenilir nitelikte değil."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Yerel olarak aranan bir sertifikanın sertifika sağlayıcısı bulunamıyor. Genellikle bu, güvenilen sertifika listesinin tamamlanmış olmadığı anlamına gelir.";
+"The certificate that was provided cannot be used for its intended purpose." = "Sağlanan sertifika amaçlanan hedef için kullanılamıyor.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Sertifika sağlayıcının anahtar kullanım uzantısı sertifikanın imzalanmasına izin vermiyor.";
+"The certificate has expired." = "Sertifikanın süresi doldu.";
+"The certificate is not valid until a date in the future." = "Sertifika ilerideki bir tarihe kadar geçerli değil.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Verilerdeki X509 sertifikası okunamıyor";
+// X509 should not be translated
+"No X509 certificate found" = "X509 sertifikası bulunamadı";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "PKCS12 dosyası okunamıyor. Dosya düzgün şekilde formatlanmamış veya hasar görmüş.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "PKCS12 verilerinin kilidi açılamıyor. Doğru parolayı girdiğinizden emin misiniz?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12 verisi açılamadı. Veri hatalı veya uygulamayla uyumsuz olabilir.";
+"Could not unlock PKCS12 data." = "PKCS12 verisi açılamadı.";
+"Could not add signature." = "İmza eklenemedi.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "İmza doğrulama için dosya açılamıyor";
+"Could not get signer info" = "İmzalayan bilgisi alınamıyor";
+
+// Night Mode
+"Default" = "Saptanmış"; // Default view (night mode not enabled)
+"Sepia" = "Sepya"; // Document uses sepia colors
+"Night" = "Gece"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Ayarlı belge yok";
+"Unable to display document" = "Belge görüntülenemiyor";
+"Locked" = "Kilitli";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Erişmeyi denediğiniz dosya, ya PDF dosyası değil ya da hasar görmüş.";
+"A password is required to access this document." = "Bu belgeye erişmek için bir parola gerekli.";
+"The security scheme of this document is currently not supported." = "Bu belgenin güvenlik şeması şu anda desteklenmiyor.";
+"An unknown error has occured while trying to open this file." = "Dosyayı açmaya çalışırken hata oluştu.";
+
+// Document Editor
+"Document Editor" = "Belge Editörü";
+"Add Page" = "Sayfa Ekle";
+"Delete Pages" = "Sayfaları Sil";
+"Duplicate Pages" = "Sayfaları Çoğalt";
+"Move Pages" = "Sayfaları Taşı";
+"Rotate Pages" = "Sayfaları Döndür";
+"Page Size" = "Sayfa Büyüklüğü";
+"Background Color" = "Arkaplan Rengi";
+"Paper" = "Sayfa";
+"Pattern" = "Form Öğesi";
+"Use Document Size" = "Belge Boyutunu Kullan";
+"Orientation" = "Oryantasyon";
+"Portrait" = "Portre";
+"Landscape" = "Yatay";
+"Document Name" = "Belge Adı";
+"Documents" = "Belgeler"; // Name of directory
+"Use Document Folder" = "Belge Klasörünü Kullan";
+"Folder" = "Klasör";
+"Replace File?" = "Dosyayı Değiştir?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Seçilen konumda “%@” adında bir dosya zaten var. Onu değiştirmek mi istiyorsunuz?";
+"Replace" = "Değiştir";
+"Saving…" = "Kaydediliyor…";
+"Saved" = "Kaydedildi";
+"Save As…" = "Kaydet…";
+"Discard Changes" = "Değişiklikleri Gözardı Et";
+"Empty" = "Geçersiz";
+"Use Image Size" = "Resmin Boyutunu Kullan";
+"Page Background" = "Sayfa Arka Planı";
+"Insert image annotation" = "Resim notları ekle";
+"Import page background" = "Sayfa arka planını içe aktar";
+"Quality" = "Kalite";
+"Low" = "Düşük";
+"Medium" = "Orta";
+"High" = "Yüksek";
+"Best" = "En Yüksek";
+"Copy Pages" = "Sayfaları Kopyala";
+"Paste Pages" = "Sayfaları Yapıştır";
+"Copied" = "Kopyalandı";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” üzerinde kaydedilmemiş değişiklikler var. Onlar şimdi kaydedilsin mi?";
+"Select Source Document" = "Kaynak Belgeyi Seç";
+"Add After Page %tu" = "%tu. Sayfadan Sonra Ekle";
+"Cut Pages" = "Kesilen Sayfalar";
+"Import Document" = "Belgeyi İçe Aktar";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Klasör Seçiciyi Kullan";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Klasör Seç";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Tüm Sayfaları Seç";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Boş bir belge kaydedilemez.";
+"The document could not be saved." = "Belge kaydedilemedi.";
+"This document does not support editing." = "Bu belge düzenlemeyi desteklemiyor.";
+"The document could not be accessed." = "Bu belgeye ulaşılamıyor.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF bu sefer içe aktarılamadı.";
+"The image could not be imported at this time." = "Resim bu sefer içe aktarılamadı.";
+
+// Page Patterns
+"None" = "Hiçbiri";
+"Dot5mm" = "Nokta 5mm";
+"Grid5mm" = "Izgara 5mm";
+"Lines5mm" = "Satır 5mm";
+"Lines7mm" = "Satır 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Sayfaları Dışa Aktar";
+"Export…" = "Dışa Aktar…";
+"Exporting…" = "Dışa Aktarılıyor…";
+"Exported" = "Dışa Aktarıldı";
+"%@ - Exported" = "%@ - Dışa Aktarıldı"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Kopyala"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Seçilen belge şu anda açık. Lütfen başka bir dosya adı seçin.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Metin okuma servisi kullanılamıyor. Etkin bir İnternet bağlantınız olduğundan veya Google metin okuma motorunun yüklü ve bunun aygıtınızda etkinleştirilmiş olduğundan emin olun.";
+
+// Settings
+"Page Layout" = "Sayfa Düzeni";
+"Scroll Direction" = "Kaydırma Yönü";
+"Theme" = "Tema";
+"Keep screen on" = "Ekranı açık tut";
+"Page Transition" = "Sayfa Geçişi";
+"Single" = "Tek";
+"Continuous" = "Sürekli";
+"Curl" = "Sayfayı Çevir";
+"Scroll" = "Kaydırma";
+"Horizontal" = "Yatay";
+"Vertical" = "Dikey";
+"Page Mode" = "Sayfa Modu";
+"Automatic" = "Otomatik";
+"Double" = "Çift";
+"Appearance" = "Görünüm";
+"Scrubber Bar" = "Oynatıcı Çubuk";
+"Jump" = "Atlamalı"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Kullanılamıyor"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Sayfaya Sığdırma";
+"Fit" = "Sığdır";
+"Fill" = "Doldur";
+"Adaptive" = "Kendini Uyarlayan";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ uygulamasının fotoğraflarınıza erişim izni yok.";
+"%@ does not have access to your camera." = "%@ uygulamasının kameranıza erişim izni yok.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Gizlilik Ayarları";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "%@ içinde erişime izin verebilirsiniz.";
+
+"Update Required" = "Güncelleme Gerekiyor";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Belgeye erişmek ve notları eşzamanlamak için %@ güncellenmesi gerekmektedir.";
+
+
+// Annotation Replies
+"Comment" = "Yorum";
+"Comments" = "Yorumlar";
+"Add your comment…" = "Yorum ekleyin…";
+"Delete Comment" = "Yorumu Sil";
+"Set Status" = "Durum Belirle";
+"Cancelled" = "İptal Edildi";
+"Accepted by" = "Kabul Eden:";
+"Rejected by" = "Reddeden:";
+"Completed by" = "Tamamlayan:";
+"Cancelled by" = "İptal Eden:";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Sağ İşaretçi";
+"Right Arrow" = "Sağ Ok";
+"Checkmark" = "Onay İşareti";
+"Circle Note" = "Daire";
+"Cross" = "Çarpı";
+"Insert Text" = "Metin Ekle";
+"New Paragraph" = "Yeni Paragraf";
+"Text Note" = "Metin Notu";
+"Paragraph" = "Paragraf";
+"Help" = "Yardım";
+"Star" = "Yıldız";
+"Key" = "Anahtar";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Açık Mavi";
+"Light Red" = "Açık Kırmızı";
+"Light Green" = "Açık Yeşil";
+"Fuchsia" = "Fuşya";
+"Page %tu of %tu" = "Sayfa %tu/%tu";
+"Preparing document for printing…" = "Belge yazdırma için hazırlanıyor…";
+"Are you sure you want to delete this annotation?" = "Bu not tamamen silinsin mi?";
+"Confirm annotation deletion" = "Notu silmeyi onaylayın";
+"Page Rotation" = "Sayfa Dönüşü";
+"Rotate Left" = "Sola Döndür";
+"Rotate Right" = "Sağa Döndür";
+"%@ (not supported)" = "%@ (desteklenmiyor)";
+"Pan Mode" = "Pan Modu";
+"Fit Page" = "Sayfaya Sığdır";
+"Fit Width" = "Genişliğe Sığdır";
+"Password Required" = "Şifre Gerekiyor";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Görmek için bu belgenin kilidini açmanız gerekiyor. Lütfen şifreyi aşağıdaki alana girin.";
+"The password you entered is not correct. Please try again." = "Girmiş olduğunuz şifre geçersiz. Lütfen tekrar deneyin.";
+"Clear Signature" = "İmzayı Sil";
+"Top" = "Yukarı";
+"Bottom" = "Aşağı";
+"Vertical Alignment" = "Dikey Hizalama";
+"Horizontal Alignment" = "Yatay Hizalama";
+"Light Orange" = "Açık Turuncu";
+"Light Yellow" = "Açık Sarı";
+"Mauve" = "Eflatun";
+"Light Gray" = "Açık Gri";
+"Dark Gray" = "Koyu Gri";
+"NoColor" = "Hiçbiri";
+"Transparent" = "Şeffaf";
+// Generic label for bookmark
+"Bookmark" = "Yer İmi";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Yeni Yer İmi";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Bu yer imini silmek istediğinizden emin misiniz?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Yer imini silmeyi onayla";
+// Label for the select image field
+"Select Image" = "Resim Seç";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ araçları, menüyü aç/kapat";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Resim notları için desteklenmeyen format: %@. Lütfen bir JPEG veya PNG kullanın.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Seçim Çerçeve Aracı";
+"Toolbar_TextHighlighter" = "Metin Vurgulayıcı";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Not işaretleme araç çubuğu";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Belge görünüm konumu";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Redaksiyon yapılıyor";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Mevcut belgenin redakte edilmekte olduğunu gösteriyor";
+"Icon" = "Simge";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Taşı";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Sayfaya taşı:";
+// The label of the button on the Move UI
+"move" = "Taşı";
+"selectedItem" = "%@, seçili.";
+"annotationDeleted" = "Not silindi.";
+"newAnnotationCreated" = "Yeni %@ notu oluşturuldu.";
+"bookmarkCreated" = "Yer imi oluşturuldu.";
+"bookmarkEdited" = "Yer imi düzenlendi.";
+"bookmarkDeleted" = "Yer imi silindi.";
+"cancelledEditingBookmark" = "Yer imi düzenlenmesinden vazgeçildi.";
+"selectAFileForImage" = "Yeni foto notu için bir dosya seçin.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Not silmeyi onaylayacağınız veya ondan vazgeçeceğiniz diyalog.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Yer imi silmeyi onaylayacağınız veya ondan vazgeçeceğiniz diyalog.";
+"deleteCommentConfirmAccessibilityDescription" = "Yorum silmeyi onaylayacağınız veya ondan vazgeçeceğiniz diyalog.";
+"resize" = "Yeniden Boyutlandır";
+"resizeHandleTop" = "En Üst";
+"resizeHandleBottom" = "En Alt";
+"resizeHandleRight" = "Sağ";
+"resizeHandleLeft" = "Sol";
+"cropCurrentPage" = "Mevcut Sayfayı Kırp";
+"cropCurrent" = "Mevcudu Kırp";
+"cropAllPages" = "Tüm Sayfaları Kırp";
+"cropAll" = "Tümünü Kırp";
+"documentCrop" = "Belgeyi Kırp";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Sayfadan sonra ekle";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "“0” yazarak seçili sayfa veya sayfaları belgenin başına taşıyın.";
+
+// Blend Mode Strings
+"Normal" = "Normal";
+"Multiply" = "Çoğalt";
+"ScreenBlend" = "Ekran";
+"Overlay" = "Tabaka";
+"Darken" = "Karart";
+"Lighten" = "Aydınlat";
+"ColorDodge" = "Renk Soldurma";
+"ColorBurn" = "Renk Yakma";
+"HardLight" = "Güçlü Işık";
+"SoftLight" = "Yumuşak Işık";
+"Difference" = "Fark";
+"Exclusion" = "Dışla";
+"Multiple" = "Çoklu";
+"Blend Mode" = "Karışım Modu";
+
+// Image Document Strings
+"File type not supported." = "Dosya desteklenmiyor.";
+"Could not load image file." = "Resim dosyası yüklenemedi.";
+"The image is too large to be opened." = "Resim açılamayacak kadar büyük.";
+"Could not generate a PDF document from the image." = "Resimden bir PDF belgesi oluşturulamadı.";
+"Unnamed Image Document" = "Adsız Resim Belgesi";
+"Annotations will remain editable and are embedded into the image." = "Notlar düzenlenebilir halde kalacak olup, resime gömülüdür.";
+"Annotations are drawn into the image and are readonly." = "Notlar resime bağlanacak olup ve yalnızca okunur niteliktedir.";
+
+//Metadata Strings
+"Document Info" = "Belge Bilgisi";
+"Content" = "İçerik";
+"Title" = "Başlık";
+"Author" = "Yazar";
+"Subject" = "Konu";
+"Keywords" = "Anahtar Kelimeler";
+"Not Set" = "Belirlenmedi";
+"NoneValue" = "Hiçbiri";
+"Security" = "Güvenlik";
+"Document Open Password" = "Belge Erişim Şifresi";
+"Not set, minimum 8 characters" = "Belirlenmedi, en az 8 karaketer";
+"Permissions" = "İzinler";
+"Changes" = "Değişiklikler";
+"Printing" = "Yazdırılıyor";
+"Content Copying for Accessibility" = "Erişilebilirlik için İçerik Kopyalanıyor";
+"Content Modification" = "İçerik Değişikliği";
+"High Quality Printing" = "Yüksek Kalitede Yazdır";
+"Filling of Form Fields" = "Form Alanları Dolduruluyor";
+"Document Assembly" = "Belge Toplama";
+"Annotations and Forms" = "Notlar ve Formlar";
+"Content Copying" = "İçerik Kopyalanıyor";
+"Number of Pages" = "Sayfa Sayısı";
+"File Size" = "Dosya Boyutu";
+"CreationDate" = "Oluşturulma";
+"ModDate" = "Değiştirilme";
+"Creator" = "İçerik Yaratıcısı";
+"Producer" = "PDF Producer";
+"Info" = "Bilgi";
+"Tap the Edit button to show all metadata fields." = "Tüm metaveri alanlarını görmek için Düzenle düğmesine dokun.";
+"Document Owner Password" = "Belge Sahibi Şifresi";
+"Changes Are Locked" = "Değişiklikler Kilitlendi";
+"Enter the Document Owner Password to make changes." = "Değişiklerde bulunmak için Belge Sahip Şifresi’ni girin.";
+"Incorrect Password" = "Yanlış Şifre";
+"Passwords" = "Şifreler";
+"Modifying Content" = "İçerik Değiştirme";
+"Editing Annotations and Forms" = "Notları ve Formları Düzenleme";
+"Filling Forms" = "Formları Doldurma";
+"Copying Content" = "İçerik Kopyalama";
+"Copying Content for Accessibility" = "Erişilebilirlik için İçerik Kopyalama";
+"Could Not Save" = "Kaydedilemedi";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Bir Belge Erişim Şifresi belirlendiğinde, Belge Sahibi Şifresi hazır olmalıdır.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Dosya Yolu";
+"Identical Passwords" = "Şifreler Aynı";
+"Choose a different Owner or Open password." = "Başka bir Belge Sahibi veya Şifre seçin.";
+"Owner Password Required" = "Belge Sahibi Şifresi Gerekiyor";
+"An owner password is required to change the permissions of a document." = "Bir belgedeki izin değişimi için onu oluşturanın koymuş olduğu şifre gerekiyor.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "İzin gereksinimlerine bazı PDF okuyucularında uyulmaktadır. Onlara uygulamamızda uyulmamaktadır.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Seçili %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "İçerik olarak %@ ile seçili %@";
+// Accessibility string for comment threads
+"commentThread" = "Yorumlar";
+"printProgressModalDesc" = "Belgenin yazdırmaya hazırlanmakta olduğunu gösteriyor";
+"printProgressModal" = "Yazdırılıyor";
+"documentEditorDesc" = "Mevcut belgeyi değiştirin";
+"reloadDocumentDialog" = "Belge yenilemeyi onayla";
+"reloadDocumentDialogDesc" = "Belge yenilenmesinin onaylaması için beliren diyalog.";
+"signatureDialog" = "İmza";
+"signatureDialogDesc" = "Bu diyalog belgeye bir mürekkep imzası seçmenizi sağlıyor. Eğer kayıtlı imzalarınız yoksa kanvas görünümünü kullanarak bir tane oluşturabilirsiniz.";
+"stampAnnotationTemplatesDialog" = "Damga Not Şablonları";
+"stampAnnotationTemplatesDialogDesc" = "Bu diyalog belgeye bir damga notu seçmenizi veya kendi metninizden özel damga notu oluşturmanızı sağlıyor.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Redaksiyon";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Redaksiyon İşareti";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Uygulanan Redaksiyon";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Çerçeve Rengi";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Dolgu Metni";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Metin Tekrarlansın";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Metin Rengi";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Redaksiyon Bilgisi";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Bu belgede kesinleştirilmemiş redaksiyon notları var. Onlar uygulansınlar mı?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Uygula";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Redaksiyon iki aşamadan oluşmaktadır. İlk önce redaksiyon yapılacak bölgeyi seçmek için bir redaksiyon işareti oluşturun. İçeriği kalıcı olarak kaldırmak için, sağ alt köşedeki kırmızı ▵ düğmeye dokunun ve redaksiyonları uygulayın.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Redaksiyonları Uygula";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Redaksiyonları Kaldır";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Redaksiyon Göz Atımını Aç";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Redaksiyon Göz Atımını Kapat";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Redaksiyonlar kapatılan bilgiyi tamamen kaldıracak olup, bu eylem geri alınamamaktadır.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Yeni dosyaya kaydet";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Mevcut belgeye redaksiyon uygula";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Redakte ediliyor…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Bu belgede redaksiyon uygulanamıyor.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Belge kaydedildiğinde redaksiyon içeriği kaldırılmayacak. Devam etmek istiyor musunuz?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Mevcut Belgeyi Redakte Et";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Redakteli Belgeyi Farklı Adla Kaydet";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Redakte Edili";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Alan Redaksiyonu";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Metin Redaksiyonu";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Redaksiyonlar uygulanıyor";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Giriş yapılıyor";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Mevcut belgenin imzalanmakta olduğunu belirtiyor";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Tabaka metnini ekle";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Dosyayı Geri Yükle";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Dosya Kayıp";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' uygulama dışında kaldırılmış. Bu belge kapatılsın mı yoksa dosya geri mi yüklensin?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Dosya Eşleşmiyor";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' üzerinde uygulama dışında değişiklik yapıldı. Kaydetmek bu harici değişiklikleri iptal edecektir.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Değişiklikleri Kaydet";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Dokunarak medyayı yükle.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Bu notun medyası bir bağlantı sorunu nedeniyle yüklenemedi. Lütfen daha sonra tekrar deneyin.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Dokunarak medya yüklemeyi tekrar dene.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Bu notun medyası bulunamadı. Bu belgenin eşzamanlanmasında hata devam ederse, lüfen şu bilgiyle bu sorunu bize bildirin: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Dokunarak indirmeden vazgeçin";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Medya yüklenirken bilinmeyen bir hata oluştu: Hata %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Sayfaya Bağla";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "İnternet Sayfasına Bağla";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Sayfa Numarası";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Sayfa Seçimi";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Pano’dan Yapıştır";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "İnternet Sayfa Göz Atımı";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "İnternet Sayfa Adresi";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Geri";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "İleri";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Palet";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Son Kullanılanlar";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Saptanmış Renk Paleti";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Renk Varyansları";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Nüans";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Doygunluk";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Aydınlık";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "On Altılı Renk Değeri";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Belirlenen değer geçerli bir renk değil.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Pano’dan Yapıştır";
+"Hex" = "Hex";
+"RGB" = "KYM";
+"HSL" = "NDA";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Sayfa Ciltleme";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Sol Kenar";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Sağ Kenar";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Bilinmeyen";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Sol";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Sağ";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Sırala";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Ön";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "İleri";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Arka";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Geri";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Çoğalt";
+"DocumentEditor_Extract" = "Çıkart";
+"General_SelectNone" = "Hiçbirini Seçme";
+"DocumentEditor_NewPage" = "Yeni Sayfa";
+"DocumentEditor_InstantModifiedWarning" = "Belge değiştirilmiş olup, yalnızca okuma modunda. Düzeltmek için sayfayı yineleyin.";
+"DocumentEditor_MoveBefore" = "Öncesine Taşı";
+"DocumentEditor_MoveAfter" = "Sonrasına Taşı";
+"DocumentEditor_DocumentMergedHere" = "Belge burada birleştirilecek";
+
+// Android Strings
+"FileSystemPermission" = "Görünen o ki siz, bu uygulama için dosya sistem erişimini kalıcı bir biçimde reddetmiş konumdasınız. Aygıtınızda depolanan PDF dosyalarını açmak ve onları incelemek için, uygulama ayarları ekranı üzerinden dosya sistem iznini kişisel olarak etkinleştirmeniz gerekmektedir.";
+"Button_OpenSettings" = "Ayarları Aç";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Daha fazla göster";
+// Button to show less comments
+"Comments_ShowLess" = "Daha az göster";
+// Button to reply to a comment
+"Comments_Reply" = "Yanıtla";
+// Button to show all comments
+"Comments_ShowAll" = "Tümünü göster";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Bu yorumu silmek istediğinizden emin misiniz?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Yorumu silmeyi onayla";
+// Verb for Comment
+"Comment_Action" = "Yorum Ekle";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Bu belge dijital olarak imzalanmış olup tüm imzaları geçerlidir.";
+"DigitalSignatures_DocModified" = "Bu belge dijital olarak imzalanmış ama imzalandıktan sonra değiştirilmiştir.";
+"DigitalSignatures_SignatureWarning" = "Bu belge dijital olarak imzalanmış ama en az bir imzasında sorun bulunmaktadır.";
+"DigitalSignatures_SignatureWarningDocModified" = "Bu belge dijital olarak imzalanmıştır ama imzalandıktan sonra değiştirilmiş olup en az bir imzasında sorun bulunmaktadır.";
+"DigitalSignatures_SignatureError" = "Bu belge dijital olarak imzalanmış ama en az bir imzası geçersizdir.";
+"DigitalSignatures_SignatureErrorDocModified" = "Bu belge dijital olarak imzalanmış ama imzalandıktan sonra değiştirilmiş olup en az bir imzası geçersizdir.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Kaydetme Başlatılamadı";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Kaydetme Durdurulamadı";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Sayfalar Yapıştırılamadı";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "İmza Sertifikası İstenemedi";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Belge İmzalanamadı";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Bu dosyanın açılışında bilinmeyen bir hata oluştu.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Okuyucu Görünümü";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Çiz";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Resim";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Yaz";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Burayı İmzala";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "İmzanızı Yukarı Girin";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "İmzayı Kaydet";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Bir Resim Seç veya Sürükle";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Resim Seç";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Resmi Değiştir";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Dosyalar";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Yeni İmza";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Açık";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Kapalı";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "Not Ekle";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "Notlar Ekle";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "Yorum Ekle";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "Yorum Durumunu Değiştir";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "İşaretleme Türünü Değiştir";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "Seçimi Değiştir";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "Notları Temizle";
+// Command of cutting.
+"Undo_Cut" = "Kes";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "Biçimi Belirle";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "Çiz";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "Bırak";
+// Command of editing text of a comment.
+"Undo_EditComment" = "Yorumu Düzenle";
+// Command of editing text inside text fields.
+"Undo_EditText" = "Metni Düzenle";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "Sil";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "Grupla";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "Birleştir";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "Notu Değiştir";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "Notları Değiştir";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "Notu Taşı";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "Notları Taşı";
+// Command of pasting.
+"Undo_Paste" = "Yapıştır";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "Notu Kaldır";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "Notları Kaldır";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "Yorumu Kaldır";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "Yorumları Kaldır";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "Notu Yeniden Boyutlandır";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "Notları Yeniden Boyutlandır";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "Notu Döndür";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "Notları Döndür";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "Grubu Kaldır";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Hizala";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Belgeleri Hizala";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Nokta Seç";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Eski";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Yeni";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Karşılaştırma";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Elle hizalamak için her iki belgenizde üç nokta seçin. İdeal performans için noktaları her iki belgede de aynı hizada olacak şekilde belge köşelerine yakın yerlerden seçin.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Kapat";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Belgeleri Hizala";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Belge Karşılaştırma";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Eski Belge";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Yeni Belge";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Sıfırla";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Noktalar Seçimi";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Hizala…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Noktalar Seçimi";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Nokta %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "“%3$@” içinde %1$tu / %2$tu seçili";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Nokta %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Nokta seçim hedefi";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Bulutlu Dikdörtgen";
+"DashedRectangleAnnotation" = "Kesik Çizgili Dikdörtgen";
+"CloudyEllipseAnnotation" = "Bulutlu Elips";
+"DashedEllipseAnnotation" = "Kesik Çizgili Elips";
+"CloudyPolygonAnnotation" = "Bulutlu Poligon";
+"DashedPolygonAnnotation" = "Kesik Çizgili Poligon";
+"CloudAnnotation" = "Bulut";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Dolgu Yok";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Kayıtlı Notlar Yüklenemedi";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Notlar Kaydedilemedi";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Mesafe";
+"PerimeterMeasurement" = "Çevre";
+"PolygonalAreaMeasurement" = "Çokgenin Alanı";
+"RectangularAreaMeasurement" = "Dikdörtgenin Alanı";
+"EllipticalAreaMeasurement" = "Elipsin Alanı";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Saat yönünün tersine döndür";
+"Rotate_Clockwise" = "Saat yönüne döndür";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Açıklamayı buraya girin";
+// "New option button text"
+"FormDesigner_addOption" = "Seçenek ekle";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType} Özellikleri";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "{formFieldName} adlı bir form alanı zaten var. Lütfen farklı bir ad seçin.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType} Stili";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Form Alanı Adı";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Saptanmış Değer";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Çok satırlı";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Radyo düğmelerini gruplandırmak için aynı form alanı adlarına sahip olduklarından emin olun.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Gelişmiş Ayarlar";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Oluşturanın Adı";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Not";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Özel Veriler";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Zorunlu";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Salt Okunur";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Oluşturulma Tarihi";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Güncellenme Tarihi";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Yalın JSON-serilenebilir bir nesne olmalıdır";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Kenarlık Rengi";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Kenarlık Kalınlığı";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Kenarlık Stili";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Yazdır";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Sürekli";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Kesikli";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Eğimli";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "İç Metin";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Altı Çizgili";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Metin Stili";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Yazı Tipi Boyutu";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Yazı Tipi Rengi";
+// "Button Field"
+"FormDesigner_button" = "Düğme Alanı";
+// "Text Field Button"
+"FormDesigner_textField" = "Metin Alanı";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Radyo Alanı";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Onay Kutusu Alanı";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Açılır Kutu Alanı";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Liste Kutusu Alanı";
+// "signature Field Button"
+"FormDesigner_signatureField" = "İmza Alanı";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Düğme Metni";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "Yok";
+// Label for form field
+"FormDesigner_label" = "Etiket";
+// Value for form field
+"FormDesigner_value" = "Değer";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Oluşturulduktan sonra düzenlenemez.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Form alanı adı boş bırakılamaz.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Form Oluşturucu";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Çoklu seçim";
+"FormDesigner_readOnlyProperty" = "Salt Okunur";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Seçenekler";
+
+// Measurement tools
+"MeasurementScale" = "Ölçek";
+"MeasurementCalibrateLength" = "Uzunluğu Kalibre Et";
+"MeasurementPrecision" = "Hassasiyet";
+"MeasurementSnapping" = "Tutunma";
+"MeasurementPrecision_Whole" = "Tamamı";
+"MeasurementPrecision_OneDecimalPlace" = "Bir Ondalık Basamak";
+"MeasurementPrecision_TwoDecimalPlaces" = "İki Ondalık Basamak";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Üç Ondalık Basamak";
+"MeasurementPrecision_FourDecimalPlaces" = "Dört Ondalık Basamak";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Alan";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Medya Notu";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Bu tarayıcı gömülü video veya sesleri desteklemiyor.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Bağlantı Ayarları";
+// Label for selection of link type (website - page).
+"linkTo" = "Şuraya bağlan:";
+// Label for website selection.
+"uriLink" = "Web sitesi";
+// Label for page selection.
+"pageLink" = "Sayfa";
+// Text for preceding number for page link number.
+"linkToPage" = "Şuraya bağlan: Sayfa %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Geçerli bir sayfa numarası girin.";
+// Error message for invalid page link.
+"invalidPageLink" = "Geçerli bir sayfa bağlantısı girin.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} ölçüm ayarları";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Birden çok not seç";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ araçları";
+
+// Document unlock string
+"Unlock_Document_Description" = "Görmek için bu belgenin kilidini açmanız gerekiyor. Lütfen şifreyi aşağıdaki alana girin.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonim";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Yorum seçenekleri";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "İçeriği düzenle";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Çevre ölçüm ayarları";
+"Distance_Popover_Title" = "Mesafe ölçüm ayarları";
+"Rectangle_Area_Title" = "Dikdörtgen alan ölçüm ayarları";
+"Polygon_Area_Title" = "Çokgen alan ölçüm ayarları";
+"Ellipse_Area_Title" = "Elips alan ölçüm ayarları";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Kalın";
+"Italic" = "İtalik";
+
+// Button to save and then close current context
+"Save_And_Close" = "Kaydet ve kapat";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Yazı tipi uyumsuzluğu araç ipucunu aç/kapat";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "%@ yazı tipi yok veya bu belgede içerik düzenlemek için kullanılamıyor. Eklenen veya değiştirilen içerikler varsayılan bir yazı tipine dönüştürülecek.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Göm";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Düzleştir";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Yoksay";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Özet";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Başlangıç sayfasını seç";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Bitiş sayfasını seç";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "-";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Döndürme";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "İçeriği düzenle";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "\"%1$@\" kaydedilmemiş değişiklikler içeriyor.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Birden çok font";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Bilinmeyen font";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Birden çok boyut";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Boyutu küçült";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Boyutu büyült";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Birden çok renk";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ kalın";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ italik";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ kalın italik";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "%@ tarafından başlatılan yorum dizisini aç: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Daha fazla yorum";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Sayfa aralığı";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Yeni özel renk";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "İçerik düzenleyici";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Seçimi bul";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Web'de ara";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Tam inç";
+"MeasurementPrecision_Halves" = "Yarım inç";
+"MeasurementPrecision_Quarters" = "Çeyrek inç";
+"MeasurementPrecision_Eighths" = "İnçin sekizde biri";
+"MeasurementPrecision_Sixteenths" = "İnçin on altıda biri";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Belgeyi imzalamak için kullanılan sertifika zinciri boş.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Dijital imza türü desteklenmiyor.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Dijital imza geçerli olmayan bir zaman damgası içeriyor veya zaman damgalı veriler bozulmuş.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Ölçüm ayarları";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Ölçek ekle";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Kalibrasyon aracını kullan";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Ölçek Kalibrasyonu";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Ölçeği belirle";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "İkincil birimler";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Birim";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Ölçeği sildiğinizde ölçeği kullanan ölçümler de silinir.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Bu ölçek zaten kullanılıyor";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Var olan ölçeği düzenlemek veya kullanmak ister misiniz?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Var olanı kullan";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Adsız";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Noktaya iliştir";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Kendine iliştir";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Akıllı kılavuzları göster";
+
+// Label for the add text box button
+"AddTextBox" = "Metin kutusu ekle";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Bu metin kutusunu silmek istediğinizden emin misiniz?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Metin kutusu silmeyi onaylayın";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Metin kutusunu silmeyi onaylayacağınız veya iptal edeceğiniz iletişim penceresi";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Salt Okunur";
+"locked" = "Kilitli";
+"lockedContent" = "Kilitli İçerik";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Ölçek Eklendi";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” başarıyla ölçek listesine eklendi.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Ölçüm ayarları simgesi";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Ölçüm ayarları ölçeğinin ayarlanmamış olduğunu belirten simge";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Bu belge %@ ile, %@ tarafından %@ tarihinde ve %@ saatinde imzalanmıştır.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Bu belgenin %@ ile, %@ tarafından %@ tarihinde ve %@ saatinde imzalandığı belirtiliyor.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritma: %@, %@ ile.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Sayfaları çıkar";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Ölçek adı";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Bu ayarlarda bir ölçek zaten tanımlı. Lütfen farklı bir ölçek seçin.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "İkincil birimi göster";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Düzenle veya yeni ölçek ekle";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Kalibre et";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Katmanlar";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Katman yok";
+
+"The certificate is not yet valid" = "Sertifika henüz geçerli değil.";
+"Signature validation failed - invalid signature" = "İmza geçersiz.";
+"The certificate has been revoked" = "Sertifika iptal edilmiş.";
+"Certificate problem" = "Sertifika ile ilgili bir sorun var.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Sertifikanın iptal edilip edilmediği kontrol edilemedi.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Satır aralığı";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Tek";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Çift";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Daha çok seç…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Ölçümler";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Belgeyi yeniden yükle";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Geliştirici araçları, az kodlamalı çözümler ve tüm belli başlı platformları içeren son kullanıcı araçlarıyla dünyaya yenilikler getiriyoruz.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Eylem";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Kısayol";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Değin";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Yardım diyaloğunu aç";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Daha fazla oku";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Araç çubuğunu odakla";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Bu sayfayı görüntülemek için yeterli hafıza yok.";

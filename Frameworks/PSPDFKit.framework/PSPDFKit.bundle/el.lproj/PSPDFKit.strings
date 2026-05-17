@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Κλείσιμο";
+"Cancel" = "Ακύρωση";
+"OK" = "OK";
+"Open" = "Άνοιγμα";
+"Untitled" = "Χωρίς τίτλο";
+"File Not Found" = "Το αρχείο δεν βρέθηκε";
+"File couldn't be opened." = "Δεν ήταν δυνατό το άνοιγμα του αρχείου."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Ανώνυμο PDF";
+"Page %tu" = "Σελίδα %tu";
+"Page %@" = "Σελίδα %@";
+"Next" = "Επόμενο";
+"Previous" = "Προηγούμενο";
+"Error" = "Σφάλμα";
+"More options" = "Περισσότερες επιλογές";
+"Close Tab" = "Κλείσιμο καρτέλας";
+"Close All Tabs" = "Κλείσιμο όλων των καρτελών";
+"Close All Other Tabs" = "Κλείσιμο όλων των άλλων καρτελών"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Σχεδίαση";
+"Highlighter" = "Ελεύθερη επισήμανση";
+
+// toolbar
+"Outline" = "Διάρθρωση"; // Table of contents
+"No Outline" = "Δεν υπάρχει διάρθρωση";
+"Search Outline" = "Αναζήτηση διάρθρωσης";
+"Search" = "Αναζήτηση";
+"Email" = "Email";
+"Send via Email" = "Αποστολή μέσω email";
+"Send" = "Αποστολή";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Κοινή χρήση μέσω μηνύματος";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Κοινή χρήση μέσω email";
+"Open In" = "Άνοιγμα σε";
+"Commit" = "Δέσμευση";
+"Sending to %@" = "Γίνεται αποστολή στο %@"; // Open document with an application
+"Pages" = "Σελίδες";
+"Print with annotations" = "Εκτύπωση με σχολιασμούς";
+"Print without annotations" = "Εκτύπωση χωρίς σχολιασμούς";
+"No Applications found" = "Δεν υπάρχει καμία εγκατεστημένη εφαρμογή που μπορεί να ανοίγει έγγραφα PDF.";
+"Print" = "Εκτύπωση";
+"Annotation" = "Σχολιασμός";
+"Annotations" = "Σχολιασμοί";
+"No Annotations" = "Δεν υπάρχουν σχολιασμοί";
+"Bookmarks" = "Σελιδοδείκτες";
+"No Bookmarks" = "Δεν υπάρχουν σελιδοδείκτες";
+"Add Bookmark" = "Προσθήκη σελιδοδείκτη";
+"Remove Bookmark" = "Αφαίρεση σελιδοδείκτη";
+"Brightness" = "Φωτεινότητα";
+"Share" = "Κοινή χρήση";
+"Preparing" = "Γίνεται προετοιμασία";
+"Loading" = "Γίνεται φόρτωση";
+"Expand" = "Επέκταση";
+"Collapse" = "Σύμπτυξη";
+// SMS / iMessage sharing button
+"Message" = "Μήνυμα";
+"Thumbnails" = "Μικρογραφίες";
+"Drag Toolbar" = "Σύρετε τη γραμμή εργαλείων";
+
+// thumbnails
+"Bookmarked" = "Με σελιδοδείκτες";
+"Annotated" = "Με σχόλια";
+"All" = "Όλες";
+"Loading Annotations" = "Γίνεται φόρτωση σχολιασμών";
+"Loading Pages" = "Γίνεται φόρτωση σελίδων";
+"Loading Bookmarks" = "Γίνεται φόρτωση σελιδοδεικτών";
+
+// password
+"Password" = "Συνθηματικό"; // text on a label
+"Unlock" = "Ξεκλείδωμα";
+"Please enter the password." = "Εισαγάγετε το συνθηματικό.";
+"This document cannot be unlocked." = "Δεν είναι δυνατό το ξεκλείδωμα αυτού του εγγράφου.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Πεδίο συνθηματικού";
+
+// page
+"%tu of %tu" = "%tu από %tu";
+"%tu–%tu of %tu" = "%tu–%tu από %tu";
+"%@ (%tu of %tu)" = "%@ (%tu από %tu)";
+"%@, Page %tu" = "%@, Σελίδα %tu";
+"Leave %@?" = "Να γίνει αποχώρηση από %@;";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu από %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu από %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu από %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Αναζήτηση εγγράφου"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Γίνεται αναζήτηση σελίδας %tu από %tu";
+"Search Completed" = "Η αναζήτηση ολοκληρώθηκε";
+"Search Cancelled" = "Η αναζήτηση ακυρώθηκε";
+"%tu left" = "Απομένουν %tu"; // Indexing Documents... 5 left
+"Searching" = "Γίνεται αναζήτηση";
+"Done" = "Τέλος";
+"Indexing Documents" = "Δημιουργείται ευρετήριο εγγράφων";
+"Document" = "Έγγραφο";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Αναζήτηση σχολιασμών";
+
+// inline browser
+"Open in Safari" = "Άνοιγμα στο Safari";
+"Open in Chrome" = "Άνοιγμα στο Chrome";
+"Your %@ is not configured to send emails." = "Το %@ σας δεν έχει διαμορφωθεί για αποστολή email.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Ο σύνδεσμος ζητάει το άνοιγμα του %1$@. %2$@Θέλετε να συνεχίσετε;"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "σε μια εξωτερική εφαρμογή"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "στο App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Δεν βρέθηκε χειρισμός για %@";
+
+// text selection
+"Text copied to clipboard." = "Το κείμενο αντιγράφηκε στο πρόχειρο.";
+"Save to Photo Library" = "Αποθήκευση στη Βιβλιοθήκη φωτογραφιών";
+"Failed to extract image." = "Απέτυχε η εξαγωγή εικόνας.";
+"Type value or pick from list" = "Πληκτρολογήστε τιμή ή επιλέξτε από τη λίστα";
+
+// annotations
+"Add %@" = "Προσθήκη %@";
+"Remove %@" = "Αφαίρεση %@";
+"Remove" = "Αφαίρεση";
+"Delete" = "Διαγραφή"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Επεξεργασία";
+"Undo" = "Αναίρεση";
+"Nothing to undo" = "Δεν υπάρχει τίποτα για αναίρεση";
+"Redo" = "Επανάληψη";
+"Nothing to redo" = "Δεν υπάρχει τίποτα για επανάληψη";
+"Type" = "Τύπος"; // kind of Annotation can be selected
+"Size" = "Μέγεθος";
+"Font" = "Γραμματοσειρά";
+"Fonts" = "Γραμματοσειρές";
+"All Fonts" = "Όλες οι γραμματοσειρές";
+"Downloadable Fonts" = "Γραμματοσειρές για λήψη";
+"Search Fonts" = "Αναζήτηση γραμματοσειρών";
+"Choose Color" = "Επιλογή χρώματος";
+"Choose Fill Color" = "Επιλογή χρώματος γεμίσματος";
+"Rainbow" = "Ουράνιο τόξο";
+"Monochrome" = "Μονοχρωμία";
+"Vintage" = "Βίνταζ";
+"Modern" = "Μοντέρνα";
+"ColorPalette_Unified" = "Παλέτα";
+"Color" = "Χρώμα";
+"Border" = "Περιθώριο";
+"Fill Color" = "Χρώμα γεμίσματος";
+"Start and End Color" = "Χρώμα έναρξης και τέλους";
+"Opacity" = "Αδιαφάνεια";
+"Thickness" = "Πάχος";
+"%@ pt" = "%@ στ.";
+"Yellow" = "Κίτρινο";
+"Green" = "Πράσινο";
+"Red" = "Κόκκινο";
+"Blue" = "Μπλε";
+"Pink" = "Ροζ";
+"Black" = "Μαύρο";
+"Orange" = "Πορτοκαλί";
+"Purple" = "Μοβ";
+"Cyan" = "Κυανό";
+"Gray" = "Γκρι";
+"White" = "Λευκό";
+"Color_Brown" = "Καφέ";
+"Color_DarkRed" = "Σκούρο κόκκινο";
+"Color_DarkBlue" = "Σκούρο μπλε";
+"Color_Magenta" = "Ματζέντα";
+"Define" = "Ορισμός";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Επισήμανση κειμένου";
+"Underline" = "Υπογράμμιση";
+"Squiggly" = "Κυματιστό";
+"StrikeOut" = "Διακριτή διαγραφή";
+"Rectangle" = "Ορθογώνιο";
+"Ellipse" = "Έλλειψη";
+"Line" = "Γραμμή"; // something that can be drawn
+"Polygon" = "Πολύγωνο";
+"Signature" = "Υπογραφή";
+"Signatures" = "Υπογραφές";
+"Signed" = "Υπογεγραμμένο";
+"Sign" = "Υπογραφή";
+"Signing…" = "Υπογραφή…";
+"Sign using %@" = "Υπογραφή χρησιμοποιώντας %@"; // e.g. Adobe.PPKLite
+"Methods" = "Μέθοδοι"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Επιλογή ταυτότητας"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Σφραγίδα";
+"Stamps" = "Σφραγίδες";
+"Custom" = "Προσαρμογή"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Δημιουργία σφραγίδας";
+"Preview" = "Προεπισκόπηση";
+"Stamp Text" = "Κείμενο σφραγίδας";
+"Add Signature" = "Προσθήκη υπογραφής";
+"Remove Signature" = "Αφαίρεση υπογραφής";
+"My Signature" = "Η υπογραφή μου";
+"No Signatures" = "Δεν υπάρχουν υπογραφές"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Παρακαλώ υπογράψτε εδώ";
+"Text" = "Σημείωση";
+"FreeText" = "Κείμενο";
+"Delete Note" = "Διαγραφή σημείωσης";
+"Remove Note" = "Αφαίρεση σημείωσης";
+"%@ could not be found." = "Δεν βρέθηκε το «%@».";
+"Photo Library" = "Βιβλιοθήκη φωτογραφιών";
+"Camera" = "Κάμερα";
+"camera_not_available" = "Η κάμερα δεν είναι διαθέσιμη";
+"Image" = "Εικόνα";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Επιλογή ποιότητας εικόνας";
+"Low Quality" = "Χαμηλή ποιότητα";
+"Medium Quality" = "Μεσαία ποιότητα";
+"High Quality" = "Υψηλή ποιότητα";
+"Clear All" = "Απαλοιφή όλων";
+"Clear" = "Εκκαθάριση";
+"Style" = "Στιλ";
+"Link" = "Σύνδεσμος";
+"Ink" = "Σχεδίαση";
+"Screen" = "Οθόνη";
+"RichMedia" = "Εμπλουτισμένο περιεχόμενο";
+"FileAttachment" = "Αρχείο";
+"Left" = "Αριστερά";
+"Center" = "Κέντρο";
+"Right" = "Δεξιά";
+"Alignment" = "Στοίχιση";
+"Preview File" = "Προεπισκόπηση αρχείου";
+"Copy" = "Αντιγραφή";
+"Paste" = "Επικόλληση";
+"Inspector" = "Επιθεωρητής";
+"Group" = "Ομαδοποίηση";
+"Ungroup" = "Κατάργηση ομαδοποίησης";
+"Merge" = "Συγχώνευση"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Δείγμα";
+"Annotation Summary for %@:" = "Σύνοψη σχολιασμών για %@:";
+"Show Text" = "Εμφάνιση κειμένου";
+// title
+"Author Name" = "Όνομα συντάκτη";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Εισαγάγετε το όνομα συντάκτη που θέλετε να χρησιμοποιείτε για τους νέους σχολιασμούς.";
+// text field placeholder
+"Name" = "Όνομα";
+// meaning: close
+"Dismiss" = "Απόρριψη";
+"Fit to Text" = "Προσαρμογή στο κείμενο";
+"Draw" = "Σχεδίαση";
+"Sound" = "Ήχος";
+"Eraser" = "Γόμα";
+"Toggle Eraser" = "(Απ)ενεργοποίηση γόμας"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Εργαλείο επιλογής";
+"Add" = "Προσθήκη"; // to add - infinitive
+"Date" = "Ημερομηνία";
+"Time" = "Ώρα";
+"No Pages" = "Δεν υπάρχουν σελίδες";
+"Drag to resize" = "Σύρετε για αλλαγή μεγέθους"; // used as hint that inspector is resizable
+"Convert to" = "Μετατροπή σε"; // used as label on action that changes free text intent type
+"Color Presets" = "Προεπιλογές χρωμάτων";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Προεπιλογή χρώματος";
+"pt" = "στ."; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Αποκοπή";
+"Annotation copied." = "Ο σχολιασμός αντιγράφηκε.";
+"Annotation cut." = "Ο σχολιασμός αποκόπηκε.";
+"Annotation pasted." = "Ο σχολιασμός επικολλήθηκε.";
+"%tu selected" = "%tu επιλέχτηκαν";
+"Custom Stamp" = "Προσαρμοσμένη σφραγίδα";
+"Change text and color" = "Αλλαγή κειμένου και χρώματος";
+"Use an existing stamp design" = "Χρήση υπάρχοντος σχεδίου σφραγίδας";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Μαγικό μελάνι";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Απέτυχε η φόρτωση της γραμματοσειράς «%@» στο μέγεθος %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Επιθεωρητής στιλ";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Είστε βέβαιοι ότι θέλετε να εκκαθαρίσετε όλους τους σχολιασμούς;";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Απενεργοποιήθηκε η δημιουργία σχολιασμού";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Υπάρχει σχόλιο";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Σχολιασμός με κείμενο";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Σημάδι επιλογής";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Σημάδι μη επιλογής";
+
+"Callout" = "Λεζάντα"; // freetext annotation with an arrow
+"Generic" = "Γενικό"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Στιλ γραμμής";
+"Solid" = "Συμπαγής";
+"Narrow Dots" = "Στενές τελείες";
+"Wide Dots" = "Πλατιές τελείες";
+"Narrow Dashes" = "Στενές παύλες";
+"Wide Dashes" = "Πλατιές παύλες";
+"Cloudy" = "Θολό"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Εγκρίθηκε";
+"Not Approved" = "Δεν έχει εγκριθεί";
+"Draft" = "Πρόχειρο";
+"Final" = "Τελικό";
+"Completed" = "Ολοκληρώθηκε";
+"Confidential" = "Εμπιστευτικό";
+"For Public Release" = "Για έκδοση στο κοινό";
+"Not For Public Release" = "Δεν προορίζεται για έκδοση στο κοινό";
+"For Comment" = "Προς σχολιασμό";
+"Void" = "Άκυρο";
+"Preliminary Results" = "Προκαταρκτικά αποτελέσματα";
+"Information only" = "Πληροφορίες μόνο";
+"Accepted" = "Έγινε αποδοχή";
+"Rejected" = "Απορρίφθηκε";
+"Initial Here" = "Αρχικά εδώ";
+"Sign Here" = "Υπογραφή εδώ";
+"Witness" = "Μάρτυρας";
+"Revised" = "Έγινε αναθεώρηση";
+"Stamp.AsIs" = "Ως έχει";
+"Stamp.Departmental" = "Τμηματικό";
+"Stamp.Experimental" = "Πειραματικό";
+"Stamp.Expired" = "Έληξε";
+"Stamp.Sold" = "Πωλήθηκε";
+"Stamp.TopSecret" = "Άκρως απόρρητο";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Γραφίδα";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Απενεργοποίηση";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Γίνεται σάρωση";
+// text on a label; app connects to a stylus
+"Pairing" = "Γίνεται ζεύξη";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ συνδεδεμένο";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ αποσυνδεδεμένο";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Ρυθμίσεις";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Χρήση Apple Pencil για σχολιασμούς";
+
+// PDF annotation name overrides
+"Square" = "Ορθογώνιο";
+"Circle" = "Έλλειψη";
+"PolyLine" = "Πολύγραμμο";
+"SavedAnnotations" = "Αποθηκευμένοι σχολιασμοί";
+
+// named actions
+"NextPage" = "Επόμενη σελίδα";
+"PrevPage" = "Προηγούμενη σελίδα";
+"FirstPage" = "Πρώτη σελίδα";
+"LastPage" = "Τελευταία σελίδα";
+"GoBack" = "Επιστροφή";
+"GoForward" = "Προώθηση";
+"GoToPage" = "Μετάβαση στη σελίδα";
+"Find" = "Εύρεση";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Μεγέθυνση";
+"ZoomOut" = "Σμίκρυνση";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Ενέργεια εμπλουτισμένου περιεχομένου";
+"Rendition Action" = "Ενέργεια απόδοσης";
+"Hide Action" = "Απόκρυψη ενέργειας";
+"Submit Form" = "Υποβολή εντύπου";
+"Reset" = "Επαναφορά";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Πίσω";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Επιλογή όλων";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Επιλογή στοιχείου από πάνω";
+"KeyCommand.SelectBelow" = "Επιλογή στοιχείου από κάτω";
+"KeyCommand.SelectTop" = "Επιλογή άνω στοιχείου";
+"KeyCommand.SelectBottom" = "Επιλογή κάτω στοιχείου";
+"KeyCommand.ClearSelection" = "Εκκαθάριση επιλογής";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Επέκταση τμήματος";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Σύμπτυξη τμήματος";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Εμφάνιση επόμενης καρτέλας";
+"KeyCommand.ShowPreviousTab" = "Εμφάνιση προηγούμενης καρτέλας";
+"KeyCommand.SelectAllAnnotations" = "Επιλογή όλων των σχολιασμών";
+
+// line annotations
+"Start" = "Έναρξη";
+"End" = "Τέλος";
+"Line.None" = "Κανένα";
+"Line.ClosedArrow" = "Βέλος με κλειστή αιχμή";
+"Line.OpenArrow" = "Βέλος με ανοιχτή αιχμή";
+"Line.Square" = "Τετράγωνο";
+"Line.Circle" = "Κύκλος";
+"Line.Diamond" = "Διαμάντι";
+"Line.ROpenArrow" = "Αντιστροφή κατεύθυνσης βέλους με ανοικτή αιχμή";
+"Line.RClosedArrow" = "Αντιστροφή κατεύθυνσης βέλους με κλειστή αιχμή";
+"Line.Slash" = "Κάθετος";
+"Line.Butt" = "Άκρο";
+"Line Start" = "Αρχή γραμμής";
+"Line End" = "Τέλος γραμμής";
+"Arrow" = "Βέλος"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Δημιουργία συνδέσμου";
+"Add Link" = "Προσθήκη συνδέσμου";
+"Edit Link" = "Επεξεργασία συνδέσμου";
+"Move Link" = "Μετακίνηση συνδέσμου";
+"Remove Link" = "Αφαίρεση συνδέσμου";
+"Open Link" = "Άνοιγμα συνδέσμου";
+"Go to Page %tu" = "Μετάβαση στη σελίδα %tu";
+"Go to Page" = "Μετάβαση στη σελίδα"; // title of a Popup
+"Go" = "Μετάβαση"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Αντιγραφή διεύθυνσης URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Αντιγραφή συνδέσμου";
+"Save" = "Αποθήκευση";
+"Link Destination" = "Προορισμός συνδέσμου";
+"Enter page index or a http:// address to link to an URL." = "Εισαγάγετε δείκτη σελίδας ή διεύθυνση http:// για σύνδεσμο με ένα URL.";
+"Page %@ Not Found" = "Η σελίδα %@ δεν βρέθηκε";
+"Add to Reading List" = "Προσθήκη στη λίστα ανάγνωσης";
+
+"Link annotation creation failed." = "Απέτυχε η δημιουργία σχολιασμού με σύνδεσμο.";
+"Link annotation successfully created." = "Δημιουργήθηκε με επιτυχία σχολιασμός με σύνδεσμο.";
+"Entered text could not be converted to an Integer nor URL." = "Το κείμενο που εισήχθηκε δεν μπορεί να μετατραπεί σε Ακέραιο ή URL.";
+
+// voiceover accessibility
+"Grid" = "Πλέγμα"; // grid with thumbnails
+"Translucent" = "Ημιδιαφανές";
+"left" = "αριστερά";
+"center" = "κέντρο";
+"right" = "δεξιά";
+"decrease" = "μείωση";
+"increase" = "αύξηση";
+"All Open Documents" = "Όλα τα ανοιχτά έγγραφα";
+"Add Documents" = "Προσθήκη αρχείων"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Άνοιγμα αρχείου";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Έλεγχος πολυμέσων";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Επαναφορά εντύπου";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Εμφάνιση ενέργειας";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Ονομαζόμενη ενέργεια";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Σελίδες %tu-%tu"; // Range of pages
+"Current Page" = "Τρέχουσα σελίδα";
+"Current Page (%tu)" = "Τρέχουσα σελίδα (%tu)";
+"Ignore Annotations" = "Αγνόηση σχολιασμών";
+"The PDF will not contain any annotations." = "Το PDF δεν θα περιέχει σχολιασμούς.";
+"Embed Annotations" = "Ενσωμάτωση σχολιασμών";
+"Annotations will remain editable and are embedded into the PDF." = "Οι σχολιασμοί θα ενσωματωθούν στο PDF και παραμένουν επεξεργάσιμοι.";
+"Flatten Annotations" = "Σχολιασμοί σε επίπεδη δομή";
+"Annotations are drawn into the PDF and are readonly." = "Οι σχολιασμοί αποδίδονται στο PDF και είναι μόνο για ανάγνωση.";
+"Annotation Summary" = "Σύνοψη σχολιασμών";
+"Embed Annotations into the PDF and also list them in the email." = "Να γίνει ενσωμάτωση των σχολιασμών στο PDF και παρέθεσή τους στο email.";
+"Annotations will be listed in a text file." = "Οι σχολιασμοί θα παρατίθενται ως κείμενο.";
+"Files" = "Αρχεία";
+"Send as single files" = "Αποστολή ως μονά αρχεία";
+"Merge files" = "Συγχώνευση αρχείων";
+"Original File" = "Αρχικό αρχείο";
+"Range" = "Εύρος";
+"Annotated Pages" = "Σελίδες με σχολιασμούς";
+"Message could not be sent." = "Δεν ήταν δυνατή η αποστολή του μηνύματος.";
+"Export" = "Εξαγωγή";
+"This action can't be performed." = "Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Δεν υποστηρίζεται η εξαγωγή εγγράφων που δεν βασίζονται σε αρχεία";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Το έγγραφο δεν περιέχει σχολιασμούς.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Δεν ήταν δυνατή η κοινή χρήση του εγγράφου";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Η κοινή χρήση εικόνων εγγράφου περιορίζεται στο μέγιστο των %tu σελίδων τη φορά.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Δεν είναι δυνατή η αποστολή συνημμένων μέσω Μηνυμάτων.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Τα έγγραφα δεν έχουν δυνατότητα εκτύπωσης.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "Έγγραφο PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Ο προορισμός δεν διατίθεται";
+
+// sound annotations
+"Speak" = "Εκφώνηση"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Αναπαραγωγή";
+"Pause" = "Παύση";
+"Resume" = "Συνέχιση";
+"Stop" = "Διακοπή";
+"Play/Stop" = "Αναπαραγωγή/Διακοπή";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Εγγραφή";
+"Pause Recording" = "Παύση εγγραφής";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Εγγραφή σε παύση";
+"Continue Recording" = "Συνέχιση εγγραφής";
+"Finish Recording" = "Τέλος εγγραφής";
+"Audio Problem" = "Πρόβλημα ήχου";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Δεν ήταν δυνατή η έναρξη της αναπαραγωγής.";
+"Could not resume playback." = "Δεν ήταν δυνατή η συνέχιση της αναπαραγωγής.";
+"Microphone permission not granted." = "Δεν χορηγήθηκε άδεια μικροφώνου.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Αυτή τη στιγμή, δεν είναι δυνατή η εγγραφή ήχου. Χορηγήστε σε αυτή την εφαρμογή άδεια να αποκτήσει πρόσβαση στο μικρόφωνό σας.";
+"There was a problem trying to record audio." = "Υπήρξε πρόβλημα κατά την απόπειρα εγγραφής ήχου.";
+"Already Recording" = "Γίνεται ήδη εγγραφή";
+"You are already recording on page %@." = "Ήδη πραγματοποιείτε εγγραφή στη σελίδα %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Φαίνεται ότι έχετε απορρίψει μόνιμα την πρόσβαση στο μικρόφωνο για αυτή την εφαρμογή. Για να εγγράφετε ηχητικές σημειώσεις, πρέπει να ενεργοποιήσετε μη αυτόματα την άδεια μικροφώνου μέσω της οθόνης ρυθμίσεων εφαρμογής.";
+
+// Forms
+"Form Element" = "Στοιχείο εντύπου";
+"Text Field" = "Πεδίο κειμένου";
+"Button" = "Κουμπί";
+"Choice Field" = "Πεδίο επιλογής";
+"Signature Field" = "Πεδίο υπογραφής";
+"Clear Field" = "Εκκαθάριση πεδίου"; // same as delete
+"Default Values" = "Προεπιλεγμένες τιμές";
+"Custom Value" = "Προσαρμοσμένη τιμή";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Αναζήτηση επιλογών";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Μη έγκυρη τιμή: πρέπει να είναι μεγαλύτερη από ή ίση με %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Μη έγκυρη τιμή: πρέπει να είναι μεγαλύτερη από ή ίση με %s και μικρότερη από ή ίση με %s.";
+"Invalid value: must be less than or equal to %s." = "Μη έγκυρη τιμή: πρέπει να είναι μικρότερη από ή ίση με %s.";
+"The value entered does not match the format of the field [%s]" = "Η τιμή που καταχωρίσατε δεν ταιριάζει με τη μορφή του πεδίου [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Μη έγκυρη ημερομηνία/ώρα: βεβαιωθείτε ότι η ημερομηνία/ώρα υπάρχει. Το πεδίο [%s] θα πρέπει να ταιριάζει με τη μορφή %s";
+
+// General validation
+"Invalid value [%s]" = "Μη έγκυρη τιμή [%s]";
+
+// Gallery
+"Connection Error" = "Σφάλμα σύνδεσης";
+"Unsupported Content" = "Μη υποστηριζόμενο περιεχόμενο";
+"The specified content cannot be displayed." = "Το καθορισμένο περιεχόμενο δεν είναι δυνατό να εμφανιστεί.";
+"Something went wrong" = "Υπήρξε πρόβλημα";
+"This item is currently unavailable." = "Αυτή τη στιγμή, αυτό το στοιχείο δεν είναι διαθέσιμο.";
+"The information for this gallery could not be loaded." = "Δεν ήταν δυνατή η φόρτωση των πληροφοριών για αυτή την γκαλερί.";
+"Content Error" = "Σφάλμα περιεχομένου";
+"This content is unsupported." = "Αυτό το περιεχόμενο δεν υποστηρίζεται.";
+
+// Signatures
+"Digital Signature" = "Ψηφιακή υπογραφή";
+"Signature is valid." = "Η υπογραφή είναι έγκυρη.";
+"Signature is valid, but there are some warnings." = "Η υπογραφή είναι έγκυρη, αλλά υπάρχουν κάποιες προειδοποιήσεις.";
+"It was signed by %@ on %@ at %@." = "Υπογράφηκε από %@ στις %@, %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Υπογράφηκε %@, %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Γίνεται ισχυρισμός ότι έχει υπογραφεί από %@, στις %@, %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Γίνεται ισχυρισμός ότι έχει υπογραφεί %@, %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Η αναθεώρηση που καλύπτεται από αυτή την υπογραφή δεν έχει τροποποιηθεί. Ωστόσο έχουν γίνει αλλαγές στο έγγραφο από την υπογραφή του."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Η υπογραφή είναι έγκυρη και το περιεχόμενο αυτού του εγγράφου δεν έχει τροποποιηθεί από την υπογραφή του.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Μη έγκυρη υπογραφή — από την υπογραφή του περιεχομένου αυτού του εγγράφου, αυτό έχει τροποποιηθεί, παραβιαστεί ή καταστραφεί.";
+"Unsigned Signature Field" = "Ανυπόγραφο πεδίο υπογραφής";
+"Do you really want to remove the signature from the document?" = "Θέλετε οπωσδήποτε να αφαιρέσετε την υπογραφή από το έγγραφο;";
+"Could not retrieve the certificate from the signature." = "Δεν ήταν δυνατή η ανάκτηση του πιστοποιητικού από την υπογραφή.";
+"Could not retrieve the signature contents." = "Δεν ήταν δυνατή η ανάκτηση των περιεχομένων υπογραφής.";
+"Could not retrieve the public key from the signature." = "Δεν ήταν δυνατή η ανάκτηση του δημόσιου κλειδιού από την υπογραφή.";
+"Could not retrieve the byte range of the signature." = "Δεν ήταν δυνατή η ανάκτηση του εύρους byte της υπογραφής.";
+"Could not understand the encryption padding." = "Δεν ήταν δυνατή η κατανόηση της αναπλήρωσης κρυπτογράφησης.";
+"Could not compute the digest for the document." = "Δεν ήταν δυνατός ο υπολογισμός της σύνοψης για το έγγραφο.";
+"General failure while trying to determine document integrity." = "Γενική αποτυχία κατά την απόπειρα καθορισμού της ακεραιότητας εγγράφου.";
+"Certificate chain is invalid." = "Η αλυσίδα πιστοποιητικού δεν είναι έγκυρη.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Δεν ήταν δυνατή η επαλήθευση της αλυσίδας πιστοποιητικού, επειδή δεν δόθηκε κανένα αξιόπιστο κλειδί.";
+"Document integrity success, but certificate is self signed." = "Το πιστοποιητικό είναι αυτό-υπογεγραμμένο.";
+"Document integrity check failed." = "Απέτυχε ο έλεγχος ακεραιότητας εγγράφου.";
+"The signing certificate is not trusted." = "Το πιστοποιητικό υπογραφής δεν είναι αξιόπιστο.";
+"unknown time" = "άγνωστη ώρα";
+"unknown date" = "άγνωστη ημερομηνία";
+"Digitally signed by {}" = "Ψηφιακή υπογραφή από {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Ημερομηνία: ";
+"Reason: " = "Αιτία: ";
+"Location: " = "Τοποθεσία: ";
+"Certificate" = "Πιστοποιητικό";
+"No Certificate" = "Δεν υπάρχει πιστοποιητικό";
+"No Certificates" = "Δεν υπάρχουν πιστοποιητικά";
+"Store Signature" = "Αποθήκευση υπογραφής";
+"Add Trusted Certificate" = "Προσθήκη αξιόπιστου πιστοποιητικού";
+"Add Signer" = "Προσθήκη υπογράφοντα";
+"Added Trusted Certificate" = "Προστέθηκε αξιόπιστο πιστοποιητικό";
+"Added Signer" = "Προστέθηκε υπογράφων";
+"File doesn't match any certificate type" = "Το αρχείο δεν ταιριάζει με κανέναν τύπο πιστοποιητικού";
+"Import Failed" = "Η εισαγωγή απέτυχε";
+"Signature Area" = "Περιοχή υπογραφής";
+"Draw Signature Area" = "Σχεδίαση περιοχής υπογραφής";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Δεν ήταν δυνατή η προετοιμασία αντικειμένου PKCS7";
+"Could not find signature" = "Δεν βρέθηκε υπογραφή";
+"Could not hash the PDF document" = "Δεν ήταν δυνατός ο κατακερματισμός του εγγράφου PDF";
+"Could not create padding for the digital signature" = "Δεν ήταν δυνατή η δημιουργία αναπλήρωσης για την ψηφιακή υπογραφή";
+"Could not verify the signature" = "Δεν ήταν δυνατή η επαλήθευση της υπογραφής";
+"Could not save the signed document" = "Δεν ήταν δυνατή η αποθήκευση του υπογεγραμμένου εγγράφου";
+"Cannot sign attributes" = "Δεν είναι δυνατή η υπογραφή χαρακτηριστικών";
+"The selected subfilter type for the signature is not supported" = "Ο επιλεγμένος τύπος υποφίλτρου για την υπογραφή δεν υποστηρίζεται";
+"Could not add signature to PKCS7 object" = "Δεν ήταν δυνατή η προσθήκη υπογραφής στο αντικείμενο PKCS7";
+"Could not write PKCS7 signature" = "Δεν ήταν δυνατή η εγγραφή υπογραφής PKCS7";
+"Could not create PKCS7 object" = "Δεν ήταν δυνατή η δημιουργία αντικειμένου PKCS7";
+"Could not generate PKCS7 object" = "Δεν ήταν δυνατή η παραγωγή αντικειμένου PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Δεν ήταν δυνατή η υπογραφή του εγγράφου επειδή ήταν ήδη υπογεγραμμένο.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Δεν ήταν δυνατή η ανάγνωση δεδομένων πιστοποιητικού ως πιστοποιητικού PKCS#7. Δεδομένα στη σωστή μορφή μπορούν να εξαχθούν από το Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Δεν είναι δυνατή η αποκρυπτογράφηση της υπογραφής του πιστοποιητικού.";
+"The public key in the certificate could not be read." = "Δεν ήταν δυνατή η ανάγνωση του δημόσιου κλειδιού στο πιστοποιητικό.";
+"The signature of the certificate is not valid." = "Η υπογραφή του πιστοποιητικού δεν είναι έγκυρη.";
+"Signature is not valid." = "Η υπογραφή δεν είναι έγκυρη.";
+"There is a format error in the notBefore field of the certificate." = "Υπάρχει σφάλμα μορφής στο πεδίο notBefore του πιστοποιητικού."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Υπάρχει σφάλμα μορφής στο πεδίο notAfter του πιστοποιητικού."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Δεν ήταν δυνατή η επαλήθευση καμίας υπογραφής επειδή η αλυσίδα πιστοποιητικού περιέχει μόνο ένα πιστοποιητικό, δεν είναι αυτο-υπογεγραμμένο και ο εκδότης δεν είναι αξιόπιστος.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Ένα πιστοποιητικό CA δεν είναι έγκυρο επειδή δεν είναι CA ή οι επεκτάσεις του δεν είναι συνεπείς με τον προοριζόμενο σκοπό."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Έγινε υπέρβαση της παραμέτρου basicConstraints pathlength."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Η αρχή έκδοσης πιστοποιητικών ρίζας δεν είναι επισημασμένη ως αξιόπιστη για τον προοριζόμενο σκοπό της."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Η αρχή έκδοσης πιστοποιητικών ρίζας είναι επισημασμένη για να απορρίψει το σκοπό που καθορίζεται."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Το πιστοποιητικό εκδότη απορρίφτηκε επειδή το όνομα θέματος δεν ταίριαζε με το όνομα εκδότη του τρέχοντος πιστοποιητικού."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Το πιστοποιητικό εκδότη απορρίφτηκε επειδή το αναγνωριστικό κλειδιού θέματος υπήρχε και δεν ταίριαζε με το αναγνωριστικό κλειδιού αρχής του τρέχοντος πιστοποιητικού."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Το πιστοποιητικό εκδότη απορρίφτηκε επειδή το όνομα εκδότη και ο σειριακός αριθμός υπήρχαν και δεν ταίριαζαν με το αναγνωριστικό κλειδιού αρχής του τρέχοντος πιστοποιητικού."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Το πιστοποιητικό ανακλήθηκε από τον εκδότη.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Το επιτυχές πιστοποιητικό είναι αυτο-υπογεγραμμένο και το ίδιο πιστοποιητικό δεν βρέθηκε στη λίστα των αξιόπιστων πιστοποιητικών.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Υπάρχει ένα αυτο-υπογεγραμμένο πιστοποιητικό στην αλυσίδα πιστοποιητικών. Η αλυσίδα πιστοποιητικών μπορεί να δημιουργηθεί χρησιμοποιώντας τα αναξιόπιστα πιστοποιητικά, αλλά η αρχή έκδοσης πιστοποιητικών ρίζας δεν βρέθηκε τοπικά."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Δεν είναι δυνατή η εύρεση του πιστοποιητικού για μία από τις αρχές έκδοσης πιστοποιητικών (CA) στην ιεραρχία υπογραφών και η συγκεκριμένη CA δεν θεωρείται αξιόπιστη από την τοπική εφαρμογή."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Δεν βρέθηκε το πιστοποιητικό εκδότη ενός πιστοποιητικού για το οποίο έγινε αναζήτηση τοπικά. Αυτό κανονικά σημαίνει ότι η λίστα των αξιόπιστων πιστοποιητικών δεν είναι πλήρης.";
+"The certificate that was provided cannot be used for its intended purpose." = "Το πιστοποιητικό που δόθηκε δεν μπορεί να χρησιμοποιηθεί για τον προοριζόμενο σκοπό του.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Η επέκταση keyUsage του πιστοποιητικού εκδότη δεν επιτρέπει την υπογραφή πιστοποιητικού.";
+"The certificate has expired." = "Το πιστοποιητικό έληξε.";
+"The certificate is not valid until a date in the future." = "Το πιστοποιητικό δεν είναι έγκυρο μέχρι κάποια ημερομηνία στο μέλλον.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Δεν ήταν δυνατή η ανάγνωση του πιστοποιητικού X509 από τα δεδομένα";
+// X509 should not be translated
+"No X509 certificate found" = "Δεν βρέθηκε πιστοποιητικό X509";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Δεν είναι δυνατή η ανάγνωση του αρχείου PKCS12. Το αρχείο έχει εσφαλμένη μορφή ή είναι κατεστραμμένο.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Δεν ήταν δυνατό το ξεκλείδωμα των δεδομένων PKCS12. Εισαγάγατε το σωστό συνθηματικό;";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Δεν ήταν δυνατή η αποκωδικοποίηση δεδομένων PKCS12. Τα δεδομένα μπορεί να είναι ακατάλληλα ή ασύμβατα.";
+"Could not unlock PKCS12 data." = "Δεν ήταν δυνατό το ξεκλείδωμα δεδομένων PKCS12.";
+"Could not add signature." = "Δεν ήταν δυνατή η προσθήκη υπογραφής.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Δεν ήταν δυνατό το άνοιγμα του αρχείου για επικύρωση υπογραφής";
+"Could not get signer info" = "Δεν ήταν δυνατή η λήψη των πληροφοριών του υπογράφοντος";
+
+// Night Mode
+"Default" = "Προεπιλογή"; // Default view (night mode not enabled)
+"Sepia" = "Σέπια"; // Document uses sepia colors
+"Night" = "Νύκτα"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Δεν έχει οριστεί έγγραφο";
+"Unable to display document" = "Δεν είναι δυνατή η εμφάνιση εγγράφου";
+"Locked" = "Κλειδωμένο";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Το αρχείο στο οποίο προσπαθείτε να αποκτήσετε πρόσβαση είτε δεν είναι αρχείο PDF είτε είναι κατεστραμμένο.";
+"A password is required to access this document." = "Για πρόσβαση σε αυτό το έγγραφο, απαιτείται συνθηματικό.";
+"The security scheme of this document is currently not supported." = "Αυτή τη στιγμή, δεν υποστηρίζεται το σχήμα ασφάλειας αυτού του εγγράφου.";
+"An unknown error has occured while trying to open this file." = "Συνέβη άγνωστο σφάλμα κατά την προσπάθεια ανοίγματος αυτού του αρχείου.";
+
+// Document Editor
+"Document Editor" = "Επεξεργαστής εγγράφων";
+"Add Page" = "Προσθήκη σελίδας";
+"Delete Pages" = "Διαγραφή σελίδων";
+"Duplicate Pages" = "Διπλότυπο σελίδων";
+"Move Pages" = "Μετακίνηση σελίδων";
+"Rotate Pages" = "Περιστροφή σελίδων";
+"Page Size" = "Μέγεθος σελίδας";
+"Background Color" = "Χρώμα φόντου";
+"Paper" = "Χαρτί";
+"Pattern" = "Μοτίβο";
+"Use Document Size" = "Χρήση μεγέθους εγγράφου";
+"Orientation" = "Προσανατολισμός";
+"Portrait" = "Πορτρέτο";
+"Landscape" = "Τοπίο";
+"Document Name" = "Όνομα εγγράφου";
+"Documents" = "Έγγραφα"; // Name of directory
+"Use Document Folder" = "Χρήση φακέλου εγγράφου";
+"Folder" = "Φάκελος";
+"Replace File?" = "Να γίνει αντικατάσταση αρχείου;";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Ένα αρχείο με όνομα «%@» ήδη υπάρχει στον επιλεγμένο προορισμό. Θέλετε να το αντικαταστήσετε;";
+"Replace" = "Αντικατάσταση";
+"Saving…" = "Γίνεται αποθήκευση…";
+"Saved" = "Αποθηκεύτηκε";
+"Save As…" = "Αποθήκευση ως…";
+"Discard Changes" = "Απόρριψη αλλαγών";
+"Empty" = "Κενό";
+"Use Image Size" = "Χρήση μεγέθους εικόνας";
+"Page Background" = "Υπόβαθρο σελίδας";
+"Insert image annotation" = "Εισαγωγή σχολιασμού εικόνας";
+"Import page background" = "Εισαγωγή υποβάθρου σελίδας";
+"Quality" = "Ποιότητα";
+"Low" = "Χαμηλή";
+"Medium" = "Μεσαία";
+"High" = "Υψηλή";
+"Best" = "Βέλτιστη";
+"Copy Pages" = "Αντιγραφή σελίδων";
+"Paste Pages" = "Επικόλληση σελίδων";
+"Copied" = "Αντιγράφηκε";
+"“%@” has unsaved changes. Do you want to save them now?" = "Έγιναν αλλαγές στο «%@» που δεν έχουν αποθηκευτεί. Θέλετε να τις αποθηκεύσετε τώρα;";
+"Select Source Document" = "Επιλογή εγγράφου προέλευσης";
+"Add After Page %tu" = "Προσθήκη μετά τη σελίδα %tu";
+"Cut Pages" = "Σελίδες αποκοπής";
+"Import Document" = "Εισαγωγή εγγράφου";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Χρήση επιλογής φακέλου";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Επιλογή φακέλου";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Επιλογή όλων των σελίδων";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Δεν είναι δυνατή η αποθήκευση κενού εγγράφου.";
+"The document could not be saved." = "Δεν ήταν δυνατή η αποθήκευση του εγγράφου.";
+"This document does not support editing." = "Αυτό το έγγραφο δεν υποστηρίζει την επεξεργασία.";
+"The document could not be accessed." = "Δεν ήταν δυνατή η πρόσβαση του εγγράφου.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "Αυτή τη στιγμή, δεν ήταν δυνατή η εισαγωγή του PDF.";
+"The image could not be imported at this time." = "Αυτή τη στιγμή, δεν ήταν δυνατή η εισαγωγή της εικόνας.";
+
+// Page Patterns
+"None" = "Κανένας";
+"Dot5mm" = "Τελεία 5mm";
+"Grid5mm" = "Πλέγμα 5mm";
+"Lines5mm" = "Γραμμές 5mm";
+"Lines7mm" = "Γραμμές 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Εξαγωγή σελίδων";
+"Export…" = "Εξαγωγή…";
+"Exporting…" = "Γίνεται εξαγωγή…";
+"Exported" = "Έγινε εξαγωγή";
+"%@ - Exported" = "%@ - Έγινε εξαγωγή"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Αντιγραφή"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Αυτή τη στιγμή, το επιλεγμένο έγγραφο είναι ανοικτό. Επιλέξτε διαφορετικό όνομα αρχείου.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Δεν είναι διαθέσιμη η υπηρεσία κειμένου σε ομιλία. Βεβαιωθείτε ότι έχετε ενεργή σύνδεση στο internet ή μηχανή Google κειμένου σε ομιλία εγκατεστημένη και ενεργοποιημένη στη συσκευή σας.";
+
+// Settings
+"Page Layout" = "Διάταξη σελίδας";
+"Scroll Direction" = "Κατεύθυνση κύλισης";
+"Theme" = "Θέμα";
+"Keep screen on" = "Διατήρηση οθόνης ενεργής";
+"Page Transition" = "Μετάβαση σελίδας";
+"Single" = "Μονή";
+"Continuous" = "Συνεχόμενα";
+"Curl" = "Καμπύλη";
+"Scroll" = "Κύλιση";
+"Horizontal" = "Οριζόντια";
+"Vertical" = "Κατακόρυφα";
+"Page Mode" = "Σελίδα";
+"Automatic" = "Αυτόματα";
+"Double" = "Διπλά";
+"Appearance" = "Εμφάνιση";
+"Scrubber Bar" = "Γραμμή ρυθμιστικού";
+"Jump" = "Μεταπήδηση"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Δεν διατίθεται"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Προσαρμογή σελίδας";
+"Fit" = "Προσαρμογή";
+"Fill" = "Πλήρωση";
+"Adaptive" = "Προσαρμόσιμο";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "Η εφαρμογή %@ δεν έχει πρόσβαση στις φωτογραφίες σας.";
+"%@ does not have access to your camera." = "Η εφαρμογή %@ δεν έχει πρόσβαση στην κάμερά σας.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Ρυθμίσεις απορρήτου";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Μπορείτε να ενεργοποιήσετε την πρόσβαση στις %@.";
+
+"Update Required" = "Απαιτείται ενημέρωση";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Απαιτείται ενημέρωση για %@ για την πρόσβαση στο έγγραφο και τον συγχρονισμό σχολιασμών.";
+
+
+// Annotation Replies
+"Comment" = "Σχόλιο";
+"Comments" = "Σχόλια";
+"Add your comment…" = "Προσθήκη του σχολίου σας…";
+"Delete Comment" = "Διαγραφή σχολίου";
+"Set Status" = "Ρύθμιση κατάστασης";
+"Cancelled" = "Ακυρώθηκε";
+"Accepted by" = "Αποδοχή από";
+"Rejected by" = "Απόρριψη από";
+"Completed by" = "Ολοκλήρωση από";
+"Cancelled by" = "Ακύρωση από";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Δεξιός δείκτης";
+"Right Arrow" = "Δεξί βέλος";
+"Checkmark" = "Σημάδι ελέγχου";
+"Circle Note" = "Κύκλος";
+"Cross" = "Σταυρός";
+"Insert Text" = "Εισαγωγή κειμένου";
+"New Paragraph" = "Νέα παράγραφος";
+"Text Note" = "Σημείωση κειμένου";
+"Paragraph" = "Παράγραφος";
+"Help" = "Βοήθεια";
+"Star" = "Αστέρι";
+"Key" = "Κλειδί";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Γαλάζιο";
+"Light Red" = "Ανοιχτό κόκκινο";
+"Light Green" = "Λαχανί";
+"Fuchsia" = "Φούξια";
+"Page %tu of %tu" = "Σελίδα %tu από %tu";
+"Preparing document for printing…" = "Προετοιμασία εγγράφου για εκτύπωση…";
+"Are you sure you want to delete this annotation?" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον σχολιασμό;";
+"Confirm annotation deletion" = "Επιβεβαίωση διαγραφής σχολιασμού";
+"Page Rotation" = "Περιστροφή σελίδας";
+"Rotate Left" = "Περιστροφή αριστερά";
+"Rotate Right" = "Περιστροφή δεξιά";
+"%@ (not supported)" = "%@ (δεν υποστηρίζεται)";
+"Pan Mode" = "Λειτουργία μετατόπισης";
+"Fit Page" = "Προσαρμογή σελίδας";
+"Fit Width" = "Προσαρμογή σε πλάτος";
+"Password Required" = "Απαιτείται συνθηματικό";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Πρέπει να ξεκλειδώσετε αυτό το έγγραφο για να το προβάλετε. Εισαγάγετε το συνθηματικό στο παρακάτω πεδίο.";
+"The password you entered is not correct. Please try again." = "Το συνθηματικό που εισαγάγατε δεν είναι σωστό. Δοκιμάστε ξανά.";
+"Clear Signature" = "Εκκαθάριση υπογραφής";
+"Top" = "Άνω";
+"Bottom" = "Κάτω";
+"Vertical Alignment" = "Κατακόρυφη στοίχιση";
+"Horizontal Alignment" = "Οριζόντια στοίχιση";
+"Light Orange" = "Ανοικτό πορτοκαλί";
+"Light Yellow" = "Ανοικτό κίτρινο";
+"Mauve" = "Μοβ";
+"Light Gray" = "Ανοικτό γκρι";
+"Dark Gray" = "Σκούρο γκρι";
+"NoColor" = "Κανένας";
+"Transparent" = "Ημιδιαφανής";
+// Generic label for bookmark
+"Bookmark" = "Σελιδοδείκτης";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Νέος σελιδοδείκτης";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν το σελιδοδείκτη;";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Επιβεβαίωση διαγραφής σελιδοδείκτη";
+// Label for the select image field
+"Select Image" = "Επιλογή εικόνας";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ εργαλεία, εναλλαγή μενού";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Μη υποστηριζόμενος τύπος για σχολιασμό εικόνας: %@. Χρησιμοποιήστε JPEG ή PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Εργαλείο κυλιόμενου ζουμ";
+"Toolbar_TextHighlighter" = "Επισήμανση κειμένου";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Γραμμή εργαλείων σχολιασμών σήμανσης";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Οπτική γωνία εγγράφου";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Απόκρυψη σε εξέλιξη";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Υποδεικνύει ότι γίνεται απόκρυψη στο τρέχον έγγραφο";
+"Icon" = "Εικονίδιο";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Μετακίνηση";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Μετακίνηση σελίδας σε";
+// The label of the button on the Move UI
+"move" = "Μετακίνηση";
+"selectedItem" = "%@, επιλεγμένο.";
+"annotationDeleted" = "Σχολιασμός διαγράφηκε.";
+"newAnnotationCreated" = "Νέος σχολιασμός %@ δημιουργήθηκε.";
+"bookmarkCreated" = "Δημιουργήθηκε σελιδοδείκτης.";
+"bookmarkEdited" = "Έγινε επεξεργασία σελιδοδείκτη.";
+"bookmarkDeleted" = "Διαγράφηκε σελιδοδείκτης.";
+"cancelledEditingBookmark" = "Ακυρώθηκε επεξεργασία σελιδοδείκτη.";
+"selectAFileForImage" = "Επιλέξτε ένα αρχείο για τον νέο σχολιασμό εικόνας.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Διάλογος που σας επιτρέπει την επιβεβαίωση ή ακύρωση της διαγραφής του σχολιασμού.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Διάλογος που σας επιτρέπει την επιβεβαίωση ή ακύρωση της διαγραφής του σελιδοδείκτη.";
+"deleteCommentConfirmAccessibilityDescription" = "Διάλογος που σας επιτρέπει την επιβεβαίωση ή ακύρωση της διαγραφής του σχολίου.";
+"resize" = "Αλλαγή μεγέθους";
+"resizeHandleTop" = "Άνω";
+"resizeHandleBottom" = "Κάτω";
+"resizeHandleRight" = "Δεξιά";
+"resizeHandleLeft" = "Αριστερά";
+"cropCurrentPage" = "Περικοπή τρέχουσας σελίδας";
+"cropCurrent" = "Περικοπή τρέχουσας";
+"cropAllPages" = "Περικοπή όλων των σελίδων";
+"cropAll" = "Περικοπή όλων";
+"documentCrop" = "Περικοπή εγγράφου";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Εισαγωγή μετά τη σελίδα";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Πληκτρολογήστε «0» για να μετακινήσετε την(ις) επιλεγμένη(ες) σελίδα(ες) στην αρχή του εγγράφου.";
+
+// Blend Mode Strings
+"Normal" = "Κανονικό";
+"Multiply" = "Πολλαπλασιασμός";
+"ScreenBlend" = "Μεταξοτυπία";
+"Overlay" = "Υπέρθεση";
+"Darken" = "Σκουρότερο";
+"Lighten" = "Ανοικτότερο";
+"ColorDodge" = "Υπεκφυγή χρώματος";
+"ColorBurn" = "Ψήσιμο χρώματος";
+"HardLight" = "Σκληρό φως";
+"SoftLight" = "Απαλό φως";
+"Difference" = "Διαφορά";
+"Exclusion" = "Αποκλεισμός";
+"Multiple" = "Πολλαπλή";
+"Blend Mode" = "Λειτουργία ανάμιξης";
+
+// Image Document Strings
+"File type not supported." = "Ο τύπος αρχείου δεν υποστηρίζεται.";
+"Could not load image file." = "Δεν ήταν δυνατή η φόρτωση του αρχείου εικόνας.";
+"The image is too large to be opened." = "Η εικόνα είναι πολύ μεγάλη για να ανοίξει.";
+"Could not generate a PDF document from the image." = "Δεν ήταν δυνατή η παραγωγή εγγράφου PDF από την εικόνα.";
+"Unnamed Image Document" = "Έγγραφο εικόνας χωρίς όνομα";
+"Annotations will remain editable and are embedded into the image." = "Οι σχολιασμοί θα ενσωματωθούν στην εικόνα και παραμένουν επεξεργάσιμοι.";
+"Annotations are drawn into the image and are readonly." = "Οι σχολιασμοί θα αποδοθούν στην εικόνα και προορίζονται μόνο για ανάγνωση.";
+
+//Metadata Strings
+"Document Info" = "Πληροφορίες εγγράφου";
+"Content" = "Περιεχόμενο";
+"Title" = "Τίτλος";
+"Author" = "Συγγραφέας";
+"Subject" = "Θέμα";
+"Keywords" = "Λέξεις-κλειδιά";
+"Not Set" = "Δεν έχει ρυθμιστεί";
+"NoneValue" = "Καμία";
+"Security" = "Ασφάλεια";
+"Document Open Password" = "Συνθηματικό ανοίγματος εγγράφου";
+"Not set, minimum 8 characters" = "Δεν έχει ρυθμιστεί, ελάχιστο 8 χαρακτήρες";
+"Permissions" = "Άδειες";
+"Changes" = "Αλλαγές";
+"Printing" = "Εκτύπωση";
+"Content Copying for Accessibility" = "Αντιγραφή περιεχομένου για προσβασιμότητα";
+"Content Modification" = "Τροποποίηση περιεχομένου";
+"High Quality Printing" = "Εκτύπωση υψηλής ποιότητας";
+"Filling of Form Fields" = "Συμπλήρωση πεδίων εντύπων";
+"Document Assembly" = "Συναρμολόγηση εγγράφων";
+"Annotations and Forms" = "Σχολιασμοί και έντυπα";
+"Content Copying" = "Αντιγραφή περιεχομένου";
+"Number of Pages" = "Αριθμός σελίδων";
+"File Size" = "Μέγεθος αρχείου";
+"CreationDate" = "Δημιουργήθηκε";
+"ModDate" = "Τροποποιήθηκε";
+"Creator" = "Δημιουργός περιεχομένου";
+"Producer" = "PDF Producer";
+"Info" = "Πληροφορίες";
+"Tap the Edit button to show all metadata fields." = "Αγγίξτε το κουμπί επεξεργασίας για να εμφανιστούν όλα τα πεδία μεταδεδομένων.";
+"Document Owner Password" = "Συνθηματικό κατόχου εγγράφου";
+"Changes Are Locked" = "Οι αλλαγές είναι κλειδωμένες";
+"Enter the Document Owner Password to make changes." = "Εισαγάγετε το συνθηματικό κατόχου εγγράφου για να πραγματοποιήσετε αλλαγές.";
+"Incorrect Password" = "Λανθασμένο συνθηματικό";
+"Passwords" = "Συνθηματικά";
+"Modifying Content" = "Γίνεται τροποποίηση περιεχομένου";
+"Editing Annotations and Forms" = "Γίνεται επεξεργασία σχολιασμών και εντύπων";
+"Filling Forms" = "Γίνεται συμπλήρωση εντύπων";
+"Copying Content" = "Γίνεται αντιγραφή περιεχομένου";
+"Copying Content for Accessibility" = "Γίνεται αντιγραφή περιεχομένου για προσβασιμότητα";
+"Could Not Save" = "Δεν ήταν δυνατή η αποθήκευση";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Όταν καθορίζετε συνθηματικό ανοίγματος εγγράφου, πρέπει να υπάρχει συνθηματικό κατόχου εγγράφου.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Διαδρομή αρχείου";
+"Identical Passwords" = "Πανομοιότυπα συνθηματικά";
+"Choose a different Owner or Open password." = "Επιλέξτε διαφορετικό συνθηματικό κατόχου ή συνθηματικό ανοίγματος.";
+"Owner Password Required" = "Απαιτείται συνθηματικό κατόχου";
+"An owner password is required to change the permissions of a document." = "Η αλλαγή των αδειών ενός εγγράφου απαιτεί συνθηματικό κατόχου.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Εφαρμόζονται περιορισμοί άδειας σε μερικά προγράμματα ανάγνωσης PDF. Οι περιορισμοί αυτοί δεν επιβάλλονται σε αυτή την εφαρμογή.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Επιλεγμένο %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Επιλεγμένο %@ με %@ ως περιεχόμενο";
+// Accessibility string for comment threads
+"commentThread" = "Νήμα σχολίων";
+"printProgressModalDesc" = "Υποδεικνύει ότι ένα έγγραφο προετοιμάζεται για εκτύπωση";
+"printProgressModal" = "Εκτύπωση σε εξέλιξη";
+"documentEditorDesc" = "Πραγματοποίηση αλλαγών στο τρέχον έγγραφο";
+"reloadDocumentDialog" = "Επιβεβαίωση επαναφόρτωσης εγγράφου";
+"reloadDocumentDialogDesc" = "Διάλογος που προτρέπει τον χρήστη να επιβεβαιώσει την επαναφόρτωση του εγγράφου.";
+"signatureDialog" = "Υπογραφή";
+"signatureDialogDesc" = "Ο διάλογος αυτός σάς επιτρέπει να επιλέξετε μια υπογραφή μελανιού για να εισαγάγετε στο έγγραφο. Αν δεν έχετε αποθηκευμένες υπογραφές, μπορείτε να δημιουργήσετε μία χρησιμοποιώντας την προβολή καμβά.";
+"stampAnnotationTemplatesDialog" = "Πρότυπα σχολιασμού σφραγίδας";
+"stampAnnotationTemplatesDialogDesc" = "Ο διάλογος αυτός σάς επιτρέπει να επιλέγετε έναν σχολιασμό σφραγίδας για να εισαγάγετε στο έγγραφο ή να δημιουργήσετε έναν προσαρμοσμένο σχολιασμό σφραγίδας με δικό σας κείμενο.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Απόκρυψη";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Σημάδι απόκρυψης";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Εφαρμοζόμενη απόκρυψη";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Χρώμα περιγράμματος";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Υπέρθεση κειμένου";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Επανάληψη κειμένου";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Χρώμα κειμένου";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Πληροφορίες απόκρυψης";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Το έγγραφο αυτό περιέχει μη δεσμευμένους σχολιασμούς απόκρυψης. Θέλετε να τους εφαρμόσετε;";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Εφαρμογή";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Η απόκρυψη είναι μια διαδικασία δύο βημάτων. Πρώτα, δημιουργήστε επισήμανση της απόκρυψης για να επιλέξετε την περιοχή που πρέπει να αποκρυφτεί. Για να αφαιρέσετε το περιεχόμενο μόνιμα, αγγίξτε το κόκκινο κουμπί ▵ στην κάτω δεξιά γωνία και εφαρμόστε τις αποκρύψεις.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Εφαρμογή αποκρύψεων";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Εκκαθάριση αποκρύψεων";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Ενεργοποίηση προεπισκόπησης απόκρυψης";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Απενεργοποίηση προεπισκόπησης απόκρυψης";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Η εφαρμογή αποκρύψεων θα αφαιρέσει μόνιμα τις πληροφορίες και δεν μπορεί να αναιρεθεί.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Αποθήκευση σε νέο αρχείο";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Απόκρυψη τρέχοντος εγγράφου";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Απόκρυψη…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Δεν ήταν δυνατή η απόκρυψη του εγγράφου.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Το περιεχόμενο που έχει επισημανθεί για απόκρυψη δεν θα αφαιρεθεί κατά την αποθήκευση του εγγράφου. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Απόκρυψη τρέχοντος εγγράφου";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Αποθήκευση εγγράφου με αποκρύψεις ως";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Με αποκρύψεις";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Απόκρυψη περιοχής";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Απόκρυψη κειμένου";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Εφαρμογή αποκρύψεων";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Υπογραφή σε εξέλιξη";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Υποδεικνύει ότι το τρέχον έγγραφο υπογράφεται";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Εισαγωγή κειμένου υπέρθεσης";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Επαναφορά αρχείου";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Λείπει αρχείο";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "Το '%@' έχει αφαιρεθεί εκτός της εφαρμογής. Θέλετε να κλείσετε αυτό το έγγραφο ή να επαναφέρετε το αρχείο;";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Διένεξη αρχείων";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "Το '%@' δεν έχει αλλάξει εκτός της εφαρμογής. Η αποθήκευση θα αντικαταστήσει τις αλλαγές που έγιναν απομακρυσμένα.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Αποθήκευση αλλαγών";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Αγγίξτε για φόρτωση πολυμέσων.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Δεν ήταν δυνατή η φόρτωση των πολυμέσων για αυτόν τον σχολιασμό λόγω ενός προβλήματος με τη σύνδεση. Δοκιμάστε ξανά αργότερα.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Αγγίξτε για νέα δοκιμή της φόρτωσης πολυμέσων.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Δεν βρέθηκαν τα πολυμέσα για αυτόν τον σχολιασμό. Αν αυτό το μήνυμα εμφανιστεί ξανά μετά από τον επιτυχή συγχρονισμό αυτού του εγγράφου, αναφέρετε αυτό το ζήτημα μαζί με τις ακόλουθες πληροφορίες: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Αγγίξτε για ακύρωση λήψης";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Συνέβη ανεπάντεχο σφάλμα κατά τη φόρτωση του πολυμέσου. Σφάλμα %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Σύνδεσμος στη σελίδα";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Σύνδεσμος στον ιστότοπο";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Αριθμός σελίδας";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Επιλογή σελίδας";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Επικόλληση από Πρόχειρο";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Προεπισκόπηση ιστοτόπου";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Διεύθυνση ιστοτόπου";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Τελευταίο";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Εμπρός";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Παλέτα";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Χρησιμοποιήθηκαν πρόσφατα";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Προεπιλεγμένη παλέτα χρωμάτων";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Παραλλαγές χρώματος";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Απόχρωση";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Κορεσμός";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Φωτεινότητα";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Δεκαεξαδική τιμή χρώματος";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Η καθορισμένη τιμή δεν είναι έγκυρο χρώμα.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Επικόλληση από Πρόχειρο";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Δέσιμο σελίδας";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Αριστερό άκρο";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Δεξιό άκρο";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Άγνωστο";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Αριστερά";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Δεξιά";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Παραγγελία";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Πρώτο";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Εμπρός";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Πίσω";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Τελευταίο";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Διπλότυπο";
+"DocumentEditor_Extract" = "Εξαγωγή";
+"General_SelectNone" = "Επιλογή κανενός";
+"DocumentEditor_NewPage" = "Νέα σελίδα";
+"DocumentEditor_InstantModifiedWarning" = "Το έγγραφο έχει τροποποιηθεί και βρίσκεται τώρα σε λειτουργία μόνο ανάγνωσης. Επαναφορτώστε τη σελίδα για διόρθωση.";
+"DocumentEditor_MoveBefore" = "Μετακίνηση πριν";
+"DocumentEditor_MoveAfter" = "Μετακίνηση μετά";
+"DocumentEditor_DocumentMergedHere" = "Το έγγραφο θα συγχωνευτεί εδώ";
+
+// Android Strings
+"FileSystemPermission" = "Φαίνεται ότι έχετε απορρίψει μόνιμα την πρόσβαση στο σύστημα αρχείων για αυτή την εφαρμογή. Προκειμένου να προβάλετε και να ανοίξετε αρχεία PDF που βρίσκονται αποθηκευμένα στη συσκευή σας, πρέπει να ενεργοποιήσετε χειροκίνητα τα δικαιώματα συστήματος αρχείων μέσω της οθόνης ρυθμίσεων εφαρμογής.";
+"Button_OpenSettings" = "Άνοιγμα ρυθμίσεων";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Εμφάνιση περισσότερων";
+// Button to show less comments
+"Comments_ShowLess" = "Εμφάνιση λιγότερων";
+// Button to reply to a comment
+"Comments_Reply" = "Απάντηση";
+// Button to show all comments
+"Comments_ShowAll" = "Εμφάνιση όλων";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το σχόλιο;";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Επιβεβαίωση διαγραφής σχολίου";
+// Verb for Comment
+"Comment_Action" = "Σχολιάστε";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Το έγγραφο έχει υπογραφεί ψηφιακά και όλες οι υπογραφές είναι έγκυρες.";
+"DigitalSignatures_DocModified" = "Το έγγραφο έχει υπογραφεί ψηφιακά, αλλά έχει τροποποιηθεί από τη στιγμή που υπογράφηκε.";
+"DigitalSignatures_SignatureWarning" = "Το έγγραφο έχει υπογραφεί ψηφιακά, αλλά τουλάχιστον μία υπογραφή έχει προβλήματα.";
+"DigitalSignatures_SignatureWarningDocModified" = "Το έγγραφο έχει υπογραφεί ψηφιακά, αλλά έχει τροποποιηθεί από τη στιγμή που υπογράφηκε και τουλάχιστον μία υπογραφή έχει προβλήματα.";
+"DigitalSignatures_SignatureError" = "Το έγγραφο έχει υπογραφεί ψηφιακά, αλλά τουλάχιστον μία υπογραφή δεν είναι έγκυρη.";
+"DigitalSignatures_SignatureErrorDocModified" = "Το έγγραφο έχει υπογραφεί ψηφιακά, αλλά έχει τροποποιηθεί από τη στιγμή που υπογράφηκε και τουλάχιστον μία υπογραφή δεν είναι έγκυρη.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Δεν ήταν δυνατή η έναρξη εγγραφής";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Δεν ήταν δυνατή η διακοπή εγγραφής";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Δεν ήταν δυνατή η επικόλληση σελίδων";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Δεν ήταν δυνατό το αίτημα υπογραφής εγγράφου";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Δεν ήταν δυνατή η υπογραφή εγγράφου";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Συνέβη άγνωστο σφάλμα κατά την προσπάθεια ανοίγματος αυτού του αρχείου.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Προβολή ανάγνωσης";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Σχεδίαση";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Εικόνα";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Πληκτρολόγηση";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Υπογραφή εδώ";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Πληκτρολογήστε την υπογραφή σας παραπάνω";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Αποθήκευση υπογραφής";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Επιλογή ή σύρσιμο εικόνας";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Επιλογή εικόνας";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Αντικατάσταση εικόνας";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Αρχεία";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Νέα υπογραφή";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Ενεργοποιημένη";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Απενεργοποιημένη";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "προσθήκης σχολιασμού";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "προσθήκης σχολιασμών";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "προσθήκης σχολίου";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "αλλαγής κατάστασης σχολίου";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "αλλαγής τύπου σήμανσης";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "αλλαγής επιλογής";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "εκκαθάρισης σχολιασμών";
+// Command of cutting.
+"Undo_Cut" = "αποκοπής";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "ανίχνευσης σχήματος";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "σχεδίασης";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "απόθεσης";
+// Command of editing text of a comment.
+"Undo_EditComment" = "επεξεργασίας σχολίου";
+// Command of editing text inside text fields.
+"Undo_EditText" = "επεξεργασίας κειμένου";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "σβησίματος";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "ομαδοποίησης";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "συγχώνευσης";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "τροποποίησης σχολιασμού";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "τροποποίησης σχολιασμών";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "μετακίνησης σχολιασμού";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "μετακίνησης σχολιασμών";
+// Command of pasting.
+"Undo_Paste" = "επικόλλησης";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "αφαίρεσης σχολιασμού";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "αφαίρεσης σχολιασμών";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "αφαίρεσης σχολίου";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "αφαίρεσης σχολίων";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "αλλαγής μεγέθους σχολιασμού";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "αλλαγής μεγέθους σχολιασμών";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "περιστροφής σχολιασμού";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "περιστροφής σχολιασμών";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "κατάργησης ομαδοποίησης";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Ευθυγράμμιση";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Ευθυγράμμιση εγγράφων";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Επιλογή σημείου";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Παλιό";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Νέο";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Σύγκριση";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Επιλέξτε τρία σημεία και στα δύο έγγραφα για μη αυτόματη ευθυγράμμιση. Για καλύτερα αποτελέσματα, επιλέξτε σημεία κοντά στις γωνίες των εγγράφων, εξασφαλίζοντας ότι τα σημεία βρίσκονται στην ίδια σειρά και στα δύο έγγραφα.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Απόρριψη";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Ευθυγράμμιση εγγράφων";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Σύγκριση εγγράφων";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Παλιό έγγραφο";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Νέο έγγραφο";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Επαναφορά";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Επιλογή σημείων";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Ευθυγράμμιση…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Επιλογή σημείων";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Σημείο %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Επιλέχθηκε(αν) %1$tu από %2$tu στο «%3$@»";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Σημείο %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Στόχος επιλογής σημείου";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Ορθογώνιο σύννεφο";
+"DashedRectangleAnnotation" = "Διακεκομμένο ορθογώνιο";
+"CloudyEllipseAnnotation" = "Ελλειπτικό σύννεφο";
+"DashedEllipseAnnotation" = "Διακεκομμένη έλλειψη";
+"CloudyPolygonAnnotation" = "Πολυγωνικό σύννεφο";
+"DashedPolygonAnnotation" = "Διακεκομμένο πολύγωνο";
+"CloudAnnotation" = "Σύννεφο";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Χωρίς γέμισμα";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Δεν ήταν δυνατή η φόρτωση των αποθηκευμένων σχολιασμών";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Δεν ήταν δυνατή η αποθήκευση των σχολιασμών";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Απόσταση";
+"PerimeterMeasurement" = "Περίμετρος";
+"PolygonalAreaMeasurement" = "Εμβαδόν πολυγώνου";
+"RectangularAreaMeasurement" = "Εμβαδόν ορθογωνίου";
+"EllipticalAreaMeasurement" = "Εμβαδόν έλλειψης";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Περιστροφή αριστερόστροφα";
+"Rotate_Clockwise" = "Περιστροφή δεξιόστροφα";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Εισαγωγή περιγραφής εδώ";
+// "New option button text"
+"FormDesigner_addOption" = "Προσθήκη επιλογής";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Ιδιότητες για {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Ήδη υπάρχει ένα πεδίο φόρμας με όνομα {formFieldName}. Επιλέξτε διαφορετικό όνομα.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Στυλ για {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Όνομα πεδίου φόρμας";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Προεπιλεγμένη τιμή";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Πολλαπλές γραμμές";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Για ομαδοποίηση των κουμπιών επιλογής, βεβαιωθείτε ότι έχουν τα ίδια ονόματα πεδίου φόρμας.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Προηγμένα";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Όνομα δημιουργού";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Σημείωση";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Προσαρμοσμένα δεδομένα";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Υποχρεωτικό";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Ανάγνωση μόνο";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Δημιουργήθηκε";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Ενημερώθηκε";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Πρέπει να είναι απλό αντικείμενο με δυνατότητα σειριοποίησης JSON";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Χρώμα περιγράμματος";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Πλάτος περιγράμματος";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Στυλ περιγράμματος";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Εκτύπωση";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Συμπαγές";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Διακεκομμένο";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Λοξό";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Ένθετο";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Υπογραμμισμένο";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Στυλ κειμένου";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Μέγεθος γραμματοσειράς";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Χρώμα γραμματοσειράς";
+// "Button Field"
+"FormDesigner_button" = "Πεδίο κουμπιού";
+// "Text Field Button"
+"FormDesigner_textField" = "Πεδίο κειμένου";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Πεδίο κουμπιού επιλογής";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Πεδίο πλαισίου ελέγχου";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Πεδίο σύνθετου πλαισίου";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Πεδίο πλαισίου λίστας";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Πεδίο υπογραφής";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Κείμενο κουμπιού";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "Δ/Ε";
+// Label for form field
+"FormDesigner_label" = "Ετικέτα";
+// Value for form field
+"FormDesigner_value" = "Τιμή";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Δεν είναι δυνατή η επεξεργασία μόλις δημιουργηθεί.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Το όνομα πεδίου φόρμας δεν μπορεί να παραμείνει κενό.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Δημιουργία φόρμας";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Πολλαπλές επιλογές";
+"FormDesigner_readOnlyProperty" = "Μόνο ανάγνωση";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Επιλογές";
+
+// Measurement tools
+"MeasurementScale" = "Κλίμακα";
+"MeasurementCalibrateLength" = "Βαθμονόμηση μήκους";
+"MeasurementPrecision" = "Ακρίβεια";
+"MeasurementSnapping" = "Κούμπωμα";
+"MeasurementPrecision_Whole" = "Ακέραιος";
+"MeasurementPrecision_OneDecimalPlace" = "Ένα δεκαδικό ψηφίο";
+"MeasurementPrecision_TwoDecimalPlaces" = "Δύο δεκαδικά ψηφία";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Τρία δεκαδικά ψηφία";
+"MeasurementPrecision_FourDecimalPlaces" = "Τέσσερα δεκαδικά ψηφία";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Εμβαδόν";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Σχολιασμός πολυμέσων";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Αυτό το πρόγραμμα περιήγησης δεν υποστηρίζει ενσωματωμένο βίντεο ή ήχο.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Ρυθμίσεις συνδέσμου";
+// Label for selection of link type (website - page).
+"linkTo" = "Σύνδεσμος σε";
+// Label for website selection.
+"uriLink" = "Ιστότοπο";
+// Label for page selection.
+"pageLink" = "Σελίδα";
+// Text for preceding number for page link number.
+"linkToPage" = "Σύνδεσμος σε σελίδα %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Εισαγάγετε έγκυρο αριθμό σελίδας.";
+// Error message for invalid page link.
+"invalidPageLink" = "Εισαγάγετε έγκυρο σύνδεσμο σελίδας.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Ρυθμίσεις μέτρησης για {measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Επιλογή πολλαπλών σχολιασμών";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Εργαλεία %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Πρέπει να ξεκλειδώσετε αυτό το έγγραφο για να το προβάλετε. Εισαγάγετε το συνθηματικό στο παρακάτω πεδίο.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Ανώνυμος";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Επιλογές σχολίεων";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Επεξεργασία περιεχομένου";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Ρυθμίσεις μέτρησης περιμέτρου";
+"Distance_Popover_Title" = "Ρυθμίσεις μέτρησης απόστασης";
+"Rectangle_Area_Title" = "Ρυθμίσεις μέτρησης εμβαδού ορθογωνίου";
+"Polygon_Area_Title" = "Ρυθμίσεις μέτρησης εμβαδού πολυγώνου";
+"Ellipse_Area_Title" = "Ρυθμίσεις μέτρησης εμβαδού έλλειψης";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Έντονα";
+"Italic" = "Πλάγια";
+
+// Button to save and then close current context
+"Save_And_Close" = "Αποθήκευση και κλείσιμο";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Εναλλαγή συμβουλής εργαλείου αναντιστοιχίας γραμματοσειράς";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Η γραμματοσειρά %@ δεν είναι διαθέσιμη ή δεν μπορεί να χρησιμοποιηθεί για την επεξεργασία περιεχομένου σε αυτό το έγγραφο. Το περιεχόμενο που προστέθηκε ή άλλαξε θα επαναφερθεί σε μια προεπιλεγμένη γραμματοσειρά.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Ενσωμάτωση";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Επίπεδη δομή";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Αγνόηση";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Σύνοψη";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Επιλογή αρχικής σελίδας";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Επιλογή τελικής σελίδας";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "έως";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Περιστροφή";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Επεξεργασία περιεχομένου";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "Το «%1$@» έχει αλλαγές που δεν έχουν αποθηκευτεί.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Πολλαπλές γραμματοσειρές";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Άγνωστη γραμματοσειρά";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Πολλπλά μεγέθη";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Μείωση μεγέθους";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Αύξηση μεγέθους";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Πολλαπλά χρώματα";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ έντονα";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ πλάγια";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ έντονα πλάγια";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Άνοιγμα νήματος σχολίων που ξεκινάει με %@: «%@»";
+
+// More comments indicator in comments popover
+"MoreComments" = "Περισσότερα σχόλια";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Περιοχή σελίδων";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Νέο προσαρμοσμένο χρώμα";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Επεξεργαστής περιεχομένου";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Εύρεση επιλογής";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Αναζήτηση στο web";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Ακέραιες ίντσες";
+"MeasurementPrecision_Halves" = "Μισά ίντσας";
+"MeasurementPrecision_Quarters" = "Τέταρτα ίντσας";
+"MeasurementPrecision_Eighths" = "Όγδοα ίντσας";
+"MeasurementPrecision_Sixteenths" = "Δέκατα έκτα ίντσας";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Η αλυσίδα πιστοποιητικού που χρησιμοποιείται για την υπογραφή του εγγράφου είναι άδεια.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Ο τύπος ψηφιακής υπογραφής δεν υποστηρίζεται.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Η ψηφιακή υπογραφή περιέχει μια χρονική σφραγίδα που δεν είναι έγκυρη, ή υπήρχε παραβίαση των χρονικά σφραγισμένων δεδομένων.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Ρυθμίσεις μετρήσεων";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Προσθήκη κλίμακας";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Χρήση εργαλείου βαθμονόμησης";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Κλίμακα βαθμονόμησης";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Ρύθμιση κλίμακας";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Δευτερεύουσες μονάδες";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Μονάδα";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Αν διαγράψετε την κλίμακα, θα διαγραφούν και οι μετρήσεις που χρησιμοποιούν την κλίμακα.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Αυτή η κλίμακα ήδη χρησιμοποιείται";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Θέλετε να επεξεργαστείτε ή να χρησιμοποιήσετε την υπάρχουσα κλίμακα;";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Χρήση υπάρχουσας";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Χωρίς όνομα";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Κούμπωμα σε σημείο";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Κούμπωμα στο ίδιο";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Εμφάνιση έξυπνων οδηγών";
+
+// Label for the add text box button
+"AddTextBox" = "Προσθήκη πλαισίου κειμένου";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πλαίσιο κειμένου;";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Επιβεβαίωση διαγραφής πλαισίου κειμένου";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Διάλογος που επιτρέπει στον χρήστη να επιβεβαιώνει ή να ακυρώνει τη διαγραφή του πλαισίου κειμένου";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Μόνο για ανάγνωση";
+"locked" = "Κλειδωμένο";
+"lockedContent" = "Κλειδωμένο περιεχόμενο";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Προστέθηκε κλίμακα";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "Το «%@» προστέθηκε με επιτυχία στη λίστα κλιμάκων.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Εικονίδιο ρυθμίσεων μετρήσεων";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Εικονίδιο που υποδεινύει ότι η κλίμακα ρυθμίσεων μετρήσεων δεν έχει οριστεί";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Αυτό το έγγραφο υπογράφηκε με %@ από %@, %@ %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Αυτό το έγγραφο ισχυρίζεται ότι έχει υπογραφεί με %@ από %@, %@ %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Αλγόριθμος: %@ με %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Εξαγωγή σελίδων";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Όνομα κλίμακας";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Μια κλίμακα με αυτές τις ρυθμίσεις έχει ήδη οριστεί. Επιλέξτε διαφορετική κλίμακα.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Εμφάνιση δευτερεύουσας μονάδας";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Επεξεργασία ή προσθήκη νέας κλίμακας";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Βαθμονόμηση";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Επίπεδα";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Δεν υπάρχουν επίπεδα";
+
+"The certificate is not yet valid" = "Το πιστοποιητικό δεν είναι ακόμη έγκυρο.";
+"Signature validation failed - invalid signature" = "Η υπογραφή δεν είναι έγκυρη.";
+"The certificate has been revoked" = "Το πιστοποιητικό έχει ανακληθεί.";
+"Certificate problem" = "Υπάρχει πρόβλημα με το πιστοποιητικό.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Δεν ήταν δυνατόν να ελεγχθεί αν το πιστοποιητικό έχει ανακληθεί.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Διάστιχο";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Μονό";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Διπλό";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Επιλογή περισσότερων…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Μετρήσεις";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Επαναφόρτωση εγγράφου";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Βοηθάμε τον κόσμο να καινοτομεί χωρίς χαρτί, με εργαλεία δημιουργών και τελικών χρηστών, χωρίς βαρύ κώδικα για όλες τις κύριες πλατφόρμες.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Ενέργεια";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Συντόμευση";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Αναφορά";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Άνοιγμα παραθύρου διαλόγου Βοήθειας";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Διαβάστε περισσότερα";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Εστίαση γραμμής εργαλείων";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Δεν υπάρχει αρκετή μνήμη για την εμφάνιση αυτής της σελίδας.";

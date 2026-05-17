@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>התאמה %tu נמצאה</string>
+        <key>two</key>
+        <string>%tu התאמות נמצאו</string>
+        <key>many</key>
+        <string>%tu התאמות נמצאו</string>
+        <key>other</key>
+        <string>%tu התאמות נמצאו</string>
+        <key>zero</key>
+        <string>לא נמצאו התאמות</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>מסמך %tu נסרק לאינדקס</string>
+        <key>two</key>
+        <string>%tu מסמכים נסרקו לאינדקס</string>
+        <key>many</key>
+        <string>%tu מסמכים נסרקו לאינדקס</string>
+        <key>other</key>
+        <string>%tu מסמכים נסרקו לאינדקס</string>
+        <key>zero</key>
+        <string>לא נסרקו מסמכים לאינדקס</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>אנוטציה %tu</string>
+        <key>two</key>
+        <string>%tu אנוטציות</string>
+        <key>many</key>
+        <string>%tu אנוטציות</string>
+        <key>other</key>
+        <string>%tu אנוטציות</string>
+        <key>zero</key>
+        <string>אין אנוטציות</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>נקודה %tu</string>
+        <key>two</key>
+        <string>%tu נקודות</string>
+        <key>many</key>
+        <string>%tu נקודות</string>
+        <key>other</key>
+        <string>%tu נקודות</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>הכול (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>דף %tu</string>
+        <key>two</key>
+        <string>%tu דפים</string>
+        <key>many</key>
+        <string>%tu דפים</string>
+        <key>other</key>
+        <string>%tu דפים</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>תוצאה %tu</string>
+        <key>two</key>
+        <string>%tu תוצאות</string>
+        <key>many</key>
+        <string>%tu תוצאות</string>
+        <key>other</key>
+        <string>%tu תוצאות</string>
+        <key>zero</key>
+        <string>אין תוצאות</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>מחפש %#@pages@</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>דף %tu</string>
+        <key>two</key>
+        <string>%tu דפים</string>
+        <key>many</key>
+        <string>%tu דפים</string>
+        <key>other</key>
+        <string>%tu דפים</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>קו %tu</string>
+        <key>two</key>
+        <string>%tu קווים</string>
+        <key>many</key>
+        <string>%tu קווים</string>
+        <key>other</key>
+        <string>%tu קווים</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>מחיקת %#@comments@</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>הערה %tu</string>
+        <key>two</key>
+        <string>%tu הערות</string>
+        <key>many</key>
+        <string>%tu הערות</string>
+        <key>other</key>
+        <string>%tu הערות</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>הערה %tu</string>
+        <key>two</key>
+        <string>%tu הערות</string>
+        <key>many</key>
+        <string>%tu הערות</string>
+        <key>other</key>
+        <string>%tu הערות</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>הערה %tu נוספת</string>
+        <key>two</key>
+        <string>%tu הערות נוספות</string>
+        <key>many</key>
+        <string>%tu הערות נוספות</string>
+        <key>other</key>
+        <string>%tu הערות נוספות</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>הכול (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>דף %tu</string>
+        <key>two</key>
+        <string>%tu דפים</string>
+        <key>many</key>
+        <string>%tu דפים</string>
+        <key>other</key>
+        <string>%tu דפים</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>מסמך %tu</string>
+        <key>two</key>
+        <string>%tu מסמכים</string>
+        <key>many</key>
+        <string>%tu מסמכים</string>
+        <key>other</key>
+        <string>%tu מסמכים</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>דף %tu נבחר</string>
+        <key>two</key>
+        <string>%tu דפים נבחרו</string>
+        <key>many</key>
+        <string>%tu דפים נבחרו</string>
+        <key>other</key>
+        <string>%tu דפים נבחרו</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>דו-שיח בהערות. הערות פתוחות. מחבר/ת %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>תגובה %tu</string>
+        <key>two</key>
+        <string>%tu תגובות</string>
+        <key>many</key>
+        <string>%tu תגובות</string>
+        <key>other</key>
+        <string>%tu תגובות</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>צד %tu</string>
+        <key>two</key>
+        <string>%tu צדדים</string>
+        <key>many</key>
+        <string>%tu צדדים</string>
+        <key>other</key>
+        <string>%tu צדדים</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>מקטע %tu</string>
+        <key>two</key>
+        <string>%tu מקטעים</string>
+        <key>many</key>
+        <string>%tu מקטעים</string>
+        <key>other</key>
+        <string>%tu מקטעים</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>מסמך %tu נבחר</string>
+        <key>two</key>
+        <string>%tu מסמכים נבחרו</string>
+        <key>many</key>
+        <string>%tu מסמכים נבחרו</string>
+        <key>other</key>
+        <string>%tu מסמכים נבחרו</string>
+        <key>zero</key>
+        <string>לא נבחר מסמך</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>בסקאלה הזאת נעשה שימוש ב-%#@measurements@.</string>
+      <key>measurements</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>מדידה %tu</string>
+        <key>two</key>
+        <string>%tu מדידות</string>
+        <key>many</key>
+        <string>%tu מדידות</string>
+        <key>other</key>
+        <string>%tu מדידות</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

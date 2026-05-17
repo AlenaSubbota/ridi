@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "閉じる";
+"Cancel" = "キャンセル";
+"OK" = "OK";
+"Open" = "開く";
+"Untitled" = "名称未設定";
+"File Not Found" = "ファイルが見つかりません";
+"File couldn't be opened." = "ファイルを開けませんでした。"; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "名称未設定のPDF";
+"Page %tu" = "ページ%tu";
+"Page %@" = "ページ%@";
+"Next" = "次へ";
+"Previous" = "前へ";
+"Error" = "エラー";
+"More options" = "その他のオプション";
+"Close Tab" = "タブを閉じる";
+"Close All Tabs" = "すべてのタブを閉じる";
+"Close All Other Tabs" = "他のすべてのタブを閉じる"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "描画";
+"Highlighter" = "ハイライト (自由形式)";
+
+// toolbar
+"Outline" = "アウトライン"; // Table of contents
+"No Outline" = "アウトラインがありません";
+"Search Outline" = "アウトラインを検索";
+"Search" = "検索";
+"Email" = "メール";
+"Send via Email" = "メールで送信";
+"Send" = "送信";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "メッセージで共有";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "メールで共有";
+"Open In" = "開く";
+"Commit" = "コミット";
+"Sending to %@" = "%@に送信中"; // Open document with an application
+"Pages" = "ページ";
+"Print with annotations" = "注釈付きでプリント";
+"Print without annotations" = "注釈なしでプリント";
+"No Applications found" = "PDF書類を開けるアプリケーションがインストールされていません。";
+"Print" = "プリント";
+"Annotation" = "注釈";
+"Annotations" = "注釈";
+"No Annotations" = "注釈なし";
+"Bookmarks" = "ブックマーク";
+"No Bookmarks" = "ブックマークがありません";
+"Add Bookmark" = "ブックマークを追加";
+"Remove Bookmark" = "ブックマークを削除";
+"Brightness" = "明るさ";
+"Share" = "共有";
+"Preparing" = "準備中";
+"Loading" = "読み込み中";
+"Expand" = "開く";
+"Collapse" = "折りたたむ";
+// SMS / iMessage sharing button
+"Message" = "メッセージ";
+"Thumbnails" = "サムネール";
+"Drag Toolbar" = "ツールバーをドラッグ";
+
+// thumbnails
+"Bookmarked" = "ブックマーク";
+"Annotated" = "注釈済み";
+"All" = "すべて";
+"Loading Annotations" = "注釈を読み込み中";
+"Loading Pages" = "ページを読み込み中";
+"Loading Bookmarks" = "ブックマークを読み込み中";
+
+// password
+"Password" = "パスワード"; // text on a label
+"Unlock" = "ロック解除";
+"Please enter the password." = "パスワードを入力してください。";
+"This document cannot be unlocked." = "この書類をロック解除できません。";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "パスワードのフィールド";
+
+// page
+"%tu of %tu" = "%tu／%tu";
+"%tu–%tu of %tu" = "%tu–%tu/%tu";
+"%@ (%tu of %tu)" = "%@ (%tu / %tu)";
+"%@, Page %tu" = "%@、ページ%tu";
+"Leave %@?" = "%@を終了しますか。";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu/%tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu/%tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu/%tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "書類を検索"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "ページ%tu／%tuを検索中";
+"Search Completed" = "検索を完了";
+"Search Cancelled" = "検索がキャンセルされました";
+"%tu left" = "残り%tu件"; // Indexing Documents... 5 left
+"Searching" = "検索中";
+"Done" = "完了";
+"Indexing Documents" = "書類の索引を作成中";
+"Document" = "書類";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "注釈を検索";
+
+// inline browser
+"Open in Safari" = "Safariで開く";
+"Open in Chrome" = "Chromeで開く";
+"Your %@ is not configured to send emails." = "%@はメールを送信するよう設定されていません。";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "リンクは%1$@を開く要求をしています。%2$@続けますか。"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "外部アプリケーション"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "メール"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "%@のハンドラが見つかりません";
+
+// text selection
+"Text copied to clipboard." = "テキストをクリップボードにコピーしました。";
+"Save to Photo Library" = "フォトライブラリに保存";
+"Failed to extract image." = "イメージを抽出できませんでした。";
+"Type value or pick from list" = "値を入力するか、リストから選んでください";
+
+// annotations
+"Add %@" = "%@を追加";
+"Remove %@" = "“%@”を削除";
+"Remove" = "削除";
+"Delete" = "削除"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "編集";
+"Undo" = "取り消す";
+"Nothing to undo" = "取り消すことがありません";
+"Redo" = "やり直す";
+"Nothing to redo" = "やり直すことがありません";
+"Type" = "入力"; // kind of Annotation can be selected
+"Size" = "サイズ";
+"Font" = "フォント";
+"Fonts" = "フォント";
+"All Fonts" = "すべてのフォント";
+"Downloadable Fonts" = "ダウンロード可能なフォント";
+"Search Fonts" = "フォントを検索";
+"Choose Color" = "カラーを選択";
+"Choose Fill Color" = "塗りつぶしの色を選択";
+"Rainbow" = "虹";
+"Monochrome" = "モノクロ";
+"Vintage" = "ビンテージ";
+"Modern" = "モダン";
+"ColorPalette_Unified" = "パレット";
+"Color" = "カラー";
+"Border" = "境界線";
+"Fill Color" = "塗りつぶしのカラー";
+"Start and End Color" = "開始と終了のカラー";
+"Opacity" = "不透明度";
+"Thickness" = "太さ";
+"%@ pt" = "%@pt";
+"Yellow" = "イエロー";
+"Green" = "グリーン";
+"Red" = "レッド";
+"Blue" = "ブルー";
+"Pink" = "ピンク";
+"Black" = "ブラック";
+"Orange" = "オレンジ";
+"Purple" = "パープル";
+"Cyan" = "シアン";
+"Gray" = "グレイ";
+"White" = "ホワイト";
+"Color_Brown" = "ブラウン";
+"Color_DarkRed" = "ダークレッド";
+"Color_DarkBlue" = "ダークブルー";
+"Color_Magenta" = "マゼンタ";
+"Define" = "辞書";
+"Wikipedia" = "ウィキペディア";
+"Highlight" = "テキストハイライト";
+"Underline" = "アンダーライン";
+"Squiggly" = "曲線";
+"StrikeOut" = "取り消し線";
+"Rectangle" = "長方形";
+"Ellipse" = "楕円形";
+"Line" = "線"; // something that can be drawn
+"Polygon" = "多角形";
+"Signature" = "署名";
+"Signatures" = "署名";
+"Signed" = "署名入り";
+"Sign" = "署名";
+"Signing…" = "署名…";
+"Sign using %@" = "%@を使って署名"; // e.g. Adobe.PPKLite
+"Methods" = "方法"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "IDを選択"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "スタンプ";
+"Stamps" = "スタンプ";
+"Custom" = "カスタム"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "スタンプを作成";
+"Preview" = "プレビュー";
+"Stamp Text" = "スタンプのテキスト";
+"Add Signature" = "署名を追加";
+"Remove Signature" = "署名を削除";
+"My Signature" = "自分の署名";
+"No Signatures" = "署名がありません"; // text on label - is shown when there is no signature to display
+"Please sign here" = "こちらに署名してください";
+"Text" = "メモ";
+"FreeText" = "テキスト";
+"Delete Note" = "メモを削除";
+"Remove Note" = "メモを削除";
+"%@ could not be found." = "%@を見つけられませんでした。";
+"Photo Library" = "フォトライブラリ";
+"Camera" = "カメラ";
+"camera_not_available" = "カメラを利用できません";
+"Image" = "イメージ";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "画質を選択";
+"Low Quality" = "低音質";
+"Medium Quality" = "中音質";
+"High Quality" = "高音質";
+"Clear All" = "すべてを消去";
+"Clear" = "消去";
+"Style" = "スタイル";
+"Link" = "リンク";
+"Ink" = "描画";
+"Screen" = "画面";
+"RichMedia" = "リッチメディア";
+"FileAttachment" = "ファイル";
+"Left" = "左揃え";
+"Center" = "中央揃え";
+"Right" = "右揃え";
+"Alignment" = "行揃え";
+"Preview File" = "ファイルをプレビュー";
+"Copy" = "コピー";
+"Paste" = "ペースト";
+"Inspector" = "インスペクタ";
+"Group" = "グループ";
+"Ungroup" = "グループ解除";
+"Merge" = "結合"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "サンプル";
+"Annotation Summary for %@:" = "%@の注釈の概要：";
+"Show Text" = "テキストを表示";
+// title
+"Author Name" = "作成者名";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "新規に挿入された注釈に使用する作成者名を入力してください。";
+// text field placeholder
+"Name" = "名前";
+// meaning: close
+"Dismiss" = "終了";
+"Fit to Text" = "テキストの大きさに合わせる";
+"Draw" = "描画";
+"Sound" = "サウンド";
+"Eraser" = "消しゴム";
+"Toggle Eraser" = "消しゴムを切り替え"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "選択ツール";
+"Add" = "追加"; // to add - infinitive
+"Date" = "日付";
+"Time" = "時刻";
+"No Pages" = "ページがありません";
+"Drag to resize" = "ドラッグしてサイズ変更"; // used as hint that inspector is resizable
+"Convert to" = "変換"; // used as label on action that changes free text intent type
+"Color Presets" = "カラープリセット";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "カラーのプリセット";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "カット";
+"Annotation copied." = "注釈がコピーされました。";
+"Annotation cut." = "注釈がカットされました。";
+"Annotation pasted." = "注釈がペーストされました。";
+"%tu selected" = "%tu件選択中";
+"Custom Stamp" = "カスタムスタンプ";
+"Change text and color" = "テキストとカラーを変更";
+"Use an existing stamp design" = "既存のスタンプデザインを使用";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "魔法のインク";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "フォント“%1$@”をサイズ%2$@で読み込めませんでした";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "スタイルインスペクタ";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "すべての注釈を消去してもよろしいですか?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "注釈の作成が無効です";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "コメントあり";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "テキストの注釈";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "チェックマーク";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "バツ";
+
+"Callout" = "コールアウト"; // freetext annotation with an arrow
+"Generic" = "一般"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "線のスタイル";
+"Solid" = "ソリッド";
+"Narrow Dots" = "ドット（小）";
+"Wide Dots" = "ドット（大）";
+"Narrow Dashes" = "ハイフン（短）";
+"Wide Dashes" = "ハイフン（長）";
+"Cloudy" = "雲"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "承認済み";
+"Not Approved" = "未承認";
+"Draft" = "下書き";
+"Final" = "最終版";
+"Completed" = "完了済み";
+"Confidential" = "部外秘";
+"For Public Release" = "公開リリース用";
+"Not For Public Release" = "非公開";
+"For Comment" = "コメント用";
+"Void" = "無効";
+"Preliminary Results" = "中間結果";
+"Information only" = "情報のみ";
+"Accepted" = "受け入れ済み";
+"Rejected" = "不採用";
+"Initial Here" = "こちらにイニシャルを";
+"Sign Here" = "こちらに署名を";
+"Witness" = "証人";
+"Revised" = "改訂済み";
+"Stamp.AsIs" = "現状どおり";
+"Stamp.Departmental" = "部門別";
+"Stamp.Experimental" = "試験的";
+"Stamp.Expired" = "期限切れ";
+"Stamp.Sold" = "売却済み";
+"Stamp.TopSecret" = "極秘";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "スタイラス";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "オフ";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "スキャン中";
+// text on a label; app connects to a stylus
+"Pairing" = "ペアリング";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@が接続されています";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@が接続解除されました";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "設定";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "注釈にApple Pencilのみを使用";
+
+// PDF annotation name overrides
+"Square" = "長方形";
+"Circle" = "楕円形";
+"PolyLine" = "ポリライン";
+"SavedAnnotations" = "保存済みの注釈";
+
+// named actions
+"NextPage" = "次のページ";
+"PrevPage" = "前のページ";
+"FirstPage" = "最初のページ";
+"LastPage" = "最後のページ";
+"GoBack" = "戻る";
+"GoForward" = "進む";
+"GoToPage" = "ページに移動";
+"Find" = "検索";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "拡大";
+"ZoomOut" = "縮小";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "リッチメディアのアクション";
+"Rendition Action" = "レンディションアクション";
+"Hide Action" = "アクションを隠す";
+"Submit Form" = "フォームを送信";
+"Reset" = "リセット";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "戻る";
+// Description of the select all text keyboard shortcut.
+"Select All" = "すべてを選択";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "上の項目を選択";
+"KeyCommand.SelectBelow" = "下の項目を選択";
+"KeyCommand.SelectTop" = "一番上の項目を選択";
+"KeyCommand.SelectBottom" = "一番下の項目を選択";
+"KeyCommand.ClearSelection" = "選択部分を消去";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "選択部分を展開";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "選択部分を折りたたむ";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "次のタブを表示";
+"KeyCommand.ShowPreviousTab" = "前のタブを表示";
+"KeyCommand.SelectAllAnnotations" = "すべての注釈を選択";
+
+// line annotations
+"Start" = "開始";
+"End" = "終了位置";
+"Line.None" = "なし";
+"Line.ClosedArrow" = "三角矢印";
+"Line.OpenArrow" = "線矢印";
+"Line.Square" = "スクエア";
+"Line.Circle" = "円形";
+"Line.Diamond" = "ひし形";
+"Line.ROpenArrow" = "反転線矢印";
+"Line.RClosedArrow" = "反転三角矢印";
+"Line.Slash" = "スラッシュ";
+"Line.Butt" = "端点";
+"Line Start" = "線の始点";
+"Line End" = "線の終点";
+"Arrow" = "矢印"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "リンクを作成";
+"Add Link" = "リンクを追加";
+"Edit Link" = "リンクを編集";
+"Move Link" = "リンクを移動";
+"Remove Link" = "リンクを削除";
+"Open Link" = "リンクを開く";
+"Go to Page %tu" = "%tuページに移動";
+"Go to Page" = "ページに移動"; // title of a Popup
+"Go" = "移動"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "URLをコピー";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "リンクをコピー";
+"Save" = "保存";
+"Link Destination" = "リンク先";
+"Enter page index or a http:// address to link to an URL." = "URLにリンクするには、ページインデックスまたはhttp://アドレスを入力してください。";
+"Page %@ Not Found" = "ページ“%@”が見つかりません";
+"Add to Reading List" = "リーディングリストに追加";
+
+"Link annotation creation failed." = "リンクの注釈を作成できませんでした。";
+"Link annotation successfully created." = "リンクの注釈の作成を完了しました。";
+"Entered text could not be converted to an Integer nor URL." = "入力されたテキストは整数またはURLに変換できませんでした。";
+
+// voiceover accessibility
+"Grid" = "グリッド"; // grid with thumbnails
+"Translucent" = "半透明";
+"left" = "左";
+"center" = "中央";
+"right" = "右";
+"decrease" = "小さく";
+"increase" = "大きく";
+"All Open Documents" = "開いているすべての書類";
+"Add Documents" = "書類を追加"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "ファイルを開く";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "マルチメディアコントロール";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "フォームをリセット";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "アクションを表示";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "定義済みアクション";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "ページ%tu-%tu"; // Range of pages
+"Current Page" = "現在のページ";
+"Current Page (%tu)" = "現在のページ（%tu）";
+"Ignore Annotations" = "注釈を無視";
+"The PDF will not contain any annotations." = "PDFには注釈が含まれません。";
+"Embed Annotations" = "注釈を埋め込む";
+"Annotations will remain editable and are embedded into the PDF." = "注釈は編集可能なまま残り、PDFに埋め込まれます。";
+"Flatten Annotations" = "注釈をフラット化";
+"Annotations are drawn into the PDF and are readonly." = "注釈はPDFにレンダリングされ、読み出し専用となります。";
+"Annotation Summary" = "注釈の概要";
+"Embed Annotations into the PDF and also list them in the email." = "PDFに注釈を埋め込み、またメールにリスト表示します。";
+"Annotations will be listed in a text file." = "注釈はテキストとしてリスト表示されます。";
+"Files" = "ファイル";
+"Send as single files" = "1つのファイルとして送信";
+"Merge files" = "ファイルを結合";
+"Original File" = "オリジナル書類";
+"Range" = "範囲";
+"Annotated Pages" = "注釈付きのページ";
+"Message could not be sent." = "メッセージを送信できませんでした。";
+"Export" = "書き出す";
+"This action can't be performed." = "このアクションを実行できません。";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "ファイル形式でない書類の書き出しはサポートされていません";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "書類は注釈を含んでいません。";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "書類を共有できませんでした";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "書類イメージの共有は1度に最大%tuページまでと制限されています。";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "“メッセージ”経由で添付ファイルを送信できません。";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "書類はプリント可能ではありません。";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF書類";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "共有先を利用できません";
+
+// sound annotations
+"Speak" = "読み上げ"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "再生";
+"Pause" = "一時停止";
+"Resume" = "再開";
+"Stop" = "停止";
+"Play/Stop" = "再生／停止";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "録音";
+"Pause Recording" = "録音を一時停止";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "録音を一時停止中";
+"Continue Recording" = "録音を続ける";
+"Finish Recording" = "録音を終了";
+"Audio Problem" = "オーディオの問題";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "再生を開始できませんでした。";
+"Could not resume playback." = "再生を再開できませんでした。";
+"Microphone permission not granted." = "マイクへのアクセス権がありません。";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "残念ながらオーディオは現時点で録音できません。このアプリがマイクにアクセスできる許可を与えて下さい。";
+"There was a problem trying to record audio." = "オーディオの録音を試みている間に問題が起きました。";
+"Already Recording" = "既に録音中です";
+"You are already recording on page %@." = "ページ%@に既に録音中です。";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "このAppのマイクへのアクセスが完全に拒否されているようです。オーディオメモを録音するには、Appの“設定”画面から手動でマイクへのアクセスを許可する必要があります。";
+
+// Forms
+"Form Element" = "フォーム要素";
+"Text Field" = "テキストフィールド";
+"Button" = "ボタン";
+"Choice Field" = "選択フィールド";
+"Signature Field" = "署名フィールド";
+"Clear Field" = "フィールドを消去"; // same as delete
+"Default Values" = "デフォルト値";
+"Custom Value" = "カスタム値";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "検索オプション";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "値が無効です：値は%s以上である必要があります。";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "値が無効です：値は%s以上で、且つ%s以下である必要があります。";
+"Invalid value: must be less than or equal to %s." = "値が無効です：値は%s以下である必要があります。";
+"The value entered does not match the format of the field [%s]" = "入力された値はフィールド [%s] のフォーマットと一致しません。";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "無効な日付/時刻：日付/時刻が存在することを確認してください。フィールド [%s] はフォーマット%sと一致する必要があります。";
+
+// General validation
+"Invalid value [%s]" = "無効な値 [%s]";
+
+// Gallery
+"Connection Error" = "接続エラー";
+"Unsupported Content" = "サポートされていないコンテンツ";
+"The specified content cannot be displayed." = "指定された内容を表示できません。";
+"Something went wrong" = "何かしらの問題が起きました";
+"This item is currently unavailable." = "この項目は現在使用できません。";
+"The information for this gallery could not be loaded." = "このギャラリーの情報を読み込めませんでした。";
+"Content Error" = "コンテンツエラー";
+"This content is unsupported." = "このコンテンツはサポートされていません。";
+
+// Signatures
+"Digital Signature" = "デジタル署名";
+"Signature is valid." = "署名は有効です。";
+"Signature is valid, but there are some warnings." = "署名は有効ですが、警告が数件あります。";
+"It was signed by %@ on %@ at %@." = "%2$@、%3$@に%1$@によって署名されました。"; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "%1$@、%2$@に署名されました。";
+"It claims to have been signed by %@ on %@ at %@." = "%2$@、%3$@に%1$@によって署名されたことになっています。"; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "%1$@、%2$@に署名されたことになっています。";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "この署名の対象となるリビジョンは変更されていませんが、署名以降に書類に変更が加えられました。"; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "署名は有効で、かつ、この書類の内容は署名以降変更されていません。";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "無効な署名 — この書類の内容に署名された後、変更、改ざん、または破損が起きました。";
+"Unsigned Signature Field" = "未署名の署名フィールド";
+"Do you really want to remove the signature from the document?" = "書類から署名を削除してもよろしいですか。";
+"Could not retrieve the certificate from the signature." = "署名から証明書を取得できませんでした。";
+"Could not retrieve the signature contents." = "署名の内容を取得できませんでした。";
+"Could not retrieve the public key from the signature." = "署名から公開鍵を取得できませんでした。";
+"Could not retrieve the byte range of the signature." = "署名のバイト範囲を取得できませんでした。";
+"Could not understand the encryption padding." = "暗号化のパディングを理解できませんでした。";
+"Could not compute the digest for the document." = "書類のダイジェストを計算できませんでした。";
+"General failure while trying to determine document integrity." = "書類の整合性を判断中に一般的なエラーが起きました。";
+"Certificate chain is invalid." = "証明書チェーンが無効です。";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "信頼できるキーが提供されなかったため、証明書チェーンを確認できませんでした。";
+"Document integrity success, but certificate is self signed." = "証明書は自己署名されています。";
+"Document integrity check failed." = "書類の整合性をチェックできませんでした。";
+"The signing certificate is not trusted." = "証明書の署名を信頼できません。";
+"unknown time" = "不明な時刻";
+"unknown date" = "不明な日付";
+"Digitally signed by {}" = "{}によってデジタル署名"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "日付：";
+"Reason: " = "理由：";
+"Location: " = "場所：";
+"Certificate" = "証明書";
+"No Certificate" = "証明書がありません";
+"No Certificates" = "証明書がありません";
+"Store Signature" = "ストアの署名";
+"Add Trusted Certificate" = "信頼できる証明書を追加";
+"Add Signer" = "署名者を追加";
+"Added Trusted Certificate" = "信頼できる証明書が追加されました";
+"Added Signer" = "署名者が追加されました";
+"File doesn't match any certificate type" = "ファイルがどの証明書のタイプとも一致しません";
+"Import Failed" = "読み込みできませんでした";
+"Signature Area" = "署名箇所";
+"Draw Signature Area" = "署名の範囲を描く";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7オブジェクトをinitできませんでした";
+"Could not find signature" = "署名を見つけられませんでした";
+"Could not hash the PDF document" = "PDF書類をハッシュできませんでした";
+"Could not create padding for the digital signature" = "デジタル署名のパディングを作成できませんでした";
+"Could not verify the signature" = "署名を検証できませんでした";
+"Could not save the signed document" = "署名された書類を保存できませんでした";
+"Cannot sign attributes" = "属性を署名できません";
+"The selected subfilter type for the signature is not supported" = "署名の選択中のサブフィルターの種類はサポートされていません";
+"Could not add signature to PKCS7 object" = "PKCS7オブジェクトに署名を追加できませんでした";
+"Could not write PKCS7 signature" = "PKCS7署名を書き出せませんでした";
+"Could not create PKCS7 object" = "PKCS7オブジェクトを作成できませんでした";
+"Could not generate PKCS7 object" = "PKCS7オブジェクトを生成できませんでした";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "書類はすでに署名されているので、署名できませんでした。";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "PKCS#7の証明書として証明書データを読み取ることはできません。正しいフォーマットの日付はAdobe Acrobatから書き出すことができます。"; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "証明書の署名を暗号解除できません。";
+"The public key in the certificate could not be read." = "証明書の公開鍵を読み取れませんでした。";
+"The signature of the certificate is not valid." = "証明書の署名が有効ではありません。";
+"Signature is not valid." = "署名が有効ではありません。";
+"There is a format error in the notBefore field of the certificate." = "証明書のnotBeforeフィールドにフォーマットエラーがあります。"; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "証明書のnotAfterフィールドにフォーマットエラーがあります。"; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "証明書チェーンに証明書が1つしか含まれていない、自己署名されていない、そして発行者が信頼されないため、署名が認証されませんでした。";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "CA 証明書は、それがCAではないか、あるいはその拡張子が意図する目的と矛盾するため有効ではありません。"; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "basicConstraintsのパスの長さのパラメータを超えています。"; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "ルートCAは意図した目的に信頼できるものとして指定されていません。"; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "ルートCAは指定された目的を拒否するよう指定されています。"; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "発行者証明書は、そのサブジェクト名が現在の証明書の発行者の名前と一致しないため拒否されました。"; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "発行者証明書は、そのサブジェクト鍵識別子が存在し、現在の証明書の証明書鍵識別子と一致しないため拒否されました。"; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "発行者証明書は、その発行者の名前とシリアル番号が存在し、現在の証明書の証明書鍵識別子と一致しないため拒否されました。"; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "証明書は発行者によって取り消されました。";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "渡された証明書は自己署名されてあり、信頼された証明書リストに同じ証明書を見つけることができません。";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "自己署名された証明書が証明書チェーンに存在します。証明書チェーンは信頼されない証明書を使用して立ち上げることができますが、ルートCAをローカルに見つけることができませんでした。"; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "署名階層にある認証局（CA）の1つに証明書を見つけることができず、またそのCAはローカルアプリケーションに信頼されていません。"; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "ローカルに検索した証明書の発行者証明書を見つけられませんでした。これは通常、信頼される証明書リストが完全でないことを意味します。";
+"The certificate that was provided cannot be used for its intended purpose." = "指定された証明書は意図した目的に使用できませんでした。";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "発行者証明書のkeyUsage拡張子は、証明書の署名を許可しません。";
+"The certificate has expired." = "この証明書は期限切れです。";
+"The certificate is not valid until a date in the future." = "証明書は今より先の日付まで無効です。";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "データからX509証明書を読み込めませんでした";
+// X509 should not be translated
+"No X509 certificate found" = "X509証明書が見つかりません";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "PKCS12ファイルを読み込めません。ファイルが正しくフォーマットされていないか、または壊れています。";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "PKCS12データをロック解除できませんでした。パスワードが正しく入力されたか確認してください。";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12データをデコードできませんでした。データのフォーマットが正しくないか、または互換性がありません。";
+"Could not unlock PKCS12 data." = "PKCS12データをロック解除できませんでした。";
+"Could not add signature." = "署名を追加できませんでした。";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "署名の検証のためにファイルを開くことができませんでした";
+"Could not get signer info" = "署名者の情報を取得できませんでした";
+
+// Night Mode
+"Default" = "デフォルト"; // Default view (night mode not enabled)
+"Sepia" = "セピア"; // Document uses sepia colors
+"Night" = "夜間"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "書類が未設定です";
+"Unable to display document" = "書類を表示できません";
+"Locked" = "ロック中";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "アクセスしようとしているファイルは、PDF形式でないか破損しています。";
+"A password is required to access this document." = "この書類にアクセスするにはパスワードが必要です。";
+"The security scheme of this document is currently not supported." = "この書類のセキュリティ方式は現在サポートされていません。";
+"An unknown error has occured while trying to open this file." = "このファイルを開く際に不明のエラーが発生しました。";
+
+// Document Editor
+"Document Editor" = "書類エディタ";
+"Add Page" = "ページを追加";
+"Delete Pages" = "ページを削除";
+"Duplicate Pages" = "ページを複製";
+"Move Pages" = "ページを移動";
+"Rotate Pages" = "ページを回転";
+"Page Size" = "ページサイズ";
+"Background Color" = "背景カラー";
+"Paper" = "用紙";
+"Pattern" = "フォーム要素";
+"Use Document Size" = "書類サイズを使用";
+"Orientation" = "方向";
+"Portrait" = "縦向き";
+"Landscape" = "横向き";
+"Document Name" = "書類名";
+"Documents" = "書類"; // Name of directory
+"Use Document Folder" = "書類フォルダを使用";
+"Folder" = "フォルダ";
+"Replace File?" = "ファイルを置き換えますか？";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "選択した保存先には“%@”というファイルがすでに存在します。置き換えますか？";
+"Replace" = "置き換え";
+"Saving…" = "保存中…";
+"Saved" = "保存済み";
+"Save As…" = "別名で保存…";
+"Discard Changes" = "変更を破棄";
+"Empty" = "なし";
+"Use Image Size" = "イメージのサイズを使用";
+"Page Background" = "ページの背景";
+"Insert image annotation" = "イメージ注釈を挿入";
+"Import page background" = "ページの背景を読み込む";
+"Quality" = "品質";
+"Low" = "低";
+"Medium" = "中";
+"High" = "高";
+"Best" = "最高";
+"Copy Pages" = "ページをコピー";
+"Paste Pages" = "ページをペースト";
+"Copied" = "コピー済み";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@”に未保存の変更項目があります。今すぐ保存しますか。";
+"Select Source Document" = "ソース書類を選択してください";
+"Add After Page %tu" = "%tuページ目の後に追加";
+"Cut Pages" = "ページをカット";
+"Import Document" = "書類を読み込む";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "フォルダピッカーを使用";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "フォルダを選択";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "すべてのページを選択";
+
+// Document Editor Errors
+"A blank document can not be saved." = "空白の書類は保存できません。";
+"The document could not be saved." = "書類を保存できませんでした。";
+"This document does not support editing." = "この書類は編集できません。";
+"The document could not be accessed." = "書類にアクセスできませんでした。";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "現在PDFを読み込めません。";
+"The image could not be imported at this time." = "現在イメージを読み込めません。";
+
+// Page Patterns
+"None" = "なし";
+"Dot5mm" = "ドット（5ミリ）";
+"Grid5mm" = "グリッド（5ミリ）";
+"Lines5mm" = "ライン（5ミリ）";
+"Lines7mm" = "ライン（7ミリ）";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "レター";
+"US Legal" = "リーガル";
+
+// Page Export
+"Export Pages" = "ページを書き出す";
+"Export…" = "書き出す…";
+"Exporting…" = "書き出し中…";
+"Exported" = "書き出し済み";
+"%@ - Exported" = "%@ - エクスポート済み"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - コピー"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "選択された書類はすでに開いています。別のファイル名を選択してください。";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "テキスト読み上げサービスは現在使用できません。インターネットに接続されている、またはGoogleのテキスト読み上げエンジンが使用中のデバイスにインストールされ有効になっていることをご確認ください。";
+
+// Settings
+"Page Layout" = "ページレイアウト";
+"Scroll Direction" = "スクロールの方向";
+"Theme" = "テーマ";
+"Keep screen on" = "画面をロックしない";
+"Page Transition" = "ページトランジション";
+"Single" = "シングル";
+"Continuous" = "連続";
+"Curl" = "カール";
+"Scroll" = "スクロール";
+"Horizontal" = "横方向";
+"Vertical" = "縦方向";
+"Page Mode" = "ページモード";
+"Automatic" = "自動";
+"Double" = "ダブル";
+"Appearance" = "アピアランス";
+"Scrubber Bar" = "スクラバー・バー";
+"Jump" = "ジャンプ"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "利用できません"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "ページ合わせ";
+"Fit" = "ページに合わせる";
+"Fill" = "塗りつぶし";
+"Adaptive" = "適応させる";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@は写真へのアクセス権がありません。";
+"%@ does not have access to your camera." = "%@はカメラへのアクセス権がありません。";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "プライバシー設定";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "%@でアクセスを有効にできます。";
+
+"Update Required" = "アップデートが必要です";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "書類にアクセスして注釈を同期するには%@をアップデートする必要があります。";
+
+
+// Annotation Replies
+"Comment" = "コメント";
+"Comments" = "コメント";
+"Add your comment…" = "コメントを追加…";
+"Delete Comment" = "コメントを削除";
+"Set Status" = "ステータスを設定";
+"Cancelled" = "キャンセルされました";
+"Accepted by" = "承認者";
+"Rejected by" = "拒否した人";
+"Completed by" = "完了した人";
+"Cancelled by" = "キャンセルした人";
+
+// Note Annotation Icon Types
+"Right Pointer" = "右向きポインタ";
+"Right Arrow" = "右矢印";
+"Checkmark" = "チェックマーク";
+"Circle Note" = "円形";
+"Cross" = "十字";
+"Insert Text" = "テキストを挿入";
+"New Paragraph" = "新規段落";
+"Text Note" = "テキストメモ";
+"Paragraph" = "段落";
+"Help" = "ヘルプ";
+"Star" = "星";
+"Key" = "鍵";
+
+// PSPDFKit Web Strings
+"Light Blue" = "ライトブルー";
+"Light Red" = "ライトレッド";
+"Light Green" = "ライトグリーン";
+"Fuchsia" = "フューシャ";
+"Page %tu of %tu" = "ページ %tu/%tu";
+"Preparing document for printing…" = "書類をプリントに準備中…";
+"Are you sure you want to delete this annotation?" = "この注釈を削除してよろしいですか。";
+"Confirm annotation deletion" = "注釈の削除を確認";
+"Page Rotation" = "ページの回転";
+"Rotate Left" = "反時計回りに回転";
+"Rotate Right" = "時計回りに回転";
+"%@ (not supported)" = "%@（サポートされていません）";
+"Pan Mode" = "パンモード";
+"Fit Page" = "ページに合わせる";
+"Fit Width" = "幅に合わせる";
+"Password Required" = "パスワードが必要です";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "この書類を表示するにはロック解除する必要があります。下のフィールドにパスワードを入力してください。";
+"The password you entered is not correct. Please try again." = "入力されたパスワードが間違っています。やり直してください。";
+"Clear Signature" = "署名を消去";
+"Top" = "上";
+"Bottom" = "下";
+"Vertical Alignment" = "縦方向の配置";
+"Horizontal Alignment" = "横方向の配置";
+"Light Orange" = "ライトオレンジ";
+"Light Yellow" = "ライトイエロー";
+"Mauve" = "モーブ";
+"Light Gray" = "ライトグレイ";
+"Dark Gray" = "ダークグレイ";
+"NoColor" = "なし";
+"Transparent" = "透明";
+// Generic label for bookmark
+"Bookmark" = "ブックマーク";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "新規ブックマーク";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "このブックマークを削除してよろしいですか?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "ブックマークの削除を確認";
+// Label for the select image field
+"Select Image" = "イメージを選択";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ ツール、メニューを切り替え";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "サポートされていない種類のイメージ注釈: %@。JPEGまたはPNGを使用してください。";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "マーキーズームツール";
+"Toolbar_TextHighlighter" = "テキストハイライト";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "マークアップの注釈のためのツールバー";
+// Region of the application where the PDF document is shown
+"Document viewport" = "書類のビューポート";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "墨消しが進行中です";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "現在の書類に墨消しが進行中であることを示します";
+"Icon" = "アイコン";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "移動";
+// The instruction/prompt shown on the Move UI
+"movePage" = "ページの移動先";
+// The label of the button on the Move UI
+"move" = "移動";
+"selectedItem" = "%@、選択中。";
+"annotationDeleted" = "注釈が削除されました。";
+"newAnnotationCreated" = "新しい%@注釈が作成されました。";
+"bookmarkCreated" = "ブックマークを作成しました。";
+"bookmarkEdited" = "ブックマークを編集しました。";
+"bookmarkDeleted" = "ブックマークが削除されました。";
+"cancelledEditingBookmark" = "ブックマークの編集をキャンセルしました。";
+"selectAFileForImage" = "新しいイメージ注釈のファイルを選択してください。";
+"deleteAnnotationConfirmAccessibilityDescription" = "注釈の削除を確認またはキャンセルできるダイアログ。";
+"deleteBookmarkConfirmAccessibilityDescription" = "ブックマークの削除を確認またはキャンセルできるダイアログ。";
+"deleteCommentConfirmAccessibilityDescription" = "コメントの削除を確認またはキャンセルできるダイアログ。";
+"resize" = "サイズ変更";
+"resizeHandleTop" = "上";
+"resizeHandleBottom" = "下";
+"resizeHandleRight" = "右";
+"resizeHandleLeft" = "左";
+"cropCurrentPage" = "現在のページを切り取り";
+"cropCurrent" = "現項目を切り取り";
+"cropAllPages" = "すべてのページを切り取り";
+"cropAll" = "すべてを切り取り";
+"documentCrop" = "書類の切り取り";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "次のページの後に挿入";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "選択中のページを書類の一番最初に移動するには“0”と入力してください。";
+
+// Blend Mode Strings
+"Normal" = "通常";
+"Multiply" = "乗算";
+"ScreenBlend" = "スクリーン";
+"Overlay" = "オーバーレイ";
+"Darken" = "比較（暗）";
+"Lighten" = "比較（明）";
+"ColorDodge" = "覆い焼きカラー";
+"ColorBurn" = "焼き込みカラー";
+"HardLight" = "ハードライト";
+"SoftLight" = "ソフトライト";
+"Difference" = "差の絶対値";
+"Exclusion" = "除外";
+"Multiple" = "複数";
+"Blend Mode" = "ブレンドモード";
+
+// Image Document Strings
+"File type not supported." = "サポートされていないファイルタイプです。";
+"Could not load image file." = "イメージファイルを読み込めませんでした。";
+"The image is too large to be opened." = "イメージが大きすぎて開けません。";
+"Could not generate a PDF document from the image." = "イメージからPDF書類を生成できませんでした。";
+"Unnamed Image Document" = "名称未設定のイメージ書類";
+"Annotations will remain editable and are embedded into the image." = "注釈は編集可能なままイメージに埋め込まれます。";
+"Annotations are drawn into the image and are readonly." = "注釈はイメージに描かれ、読み出し専用です。";
+
+//Metadata Strings
+"Document Info" = "書類の情報";
+"Content" = "内容";
+"Title" = "タイトル";
+"Author" = "作成者";
+"Subject" = "件名";
+"Keywords" = "キーワード";
+"Not Set" = "未設定";
+"NoneValue" = "なし";
+"Security" = "セキュリティ";
+"Document Open Password" = "書類を開くためのパスワード";
+"Not set, minimum 8 characters" = "未設定。最低8文字";
+"Permissions" = "権限";
+"Changes" = "変更内容";
+"Printing" = "プリント中";
+"Content Copying for Accessibility" = "アクセシビリティのためにコピーする内容";
+"Content Modification" = "内容の修正";
+"High Quality Printing" = "高画質プリント";
+"Filling of Form Fields" = "フォームの自動入力";
+"Document Assembly" = "書類の作成";
+"Annotations and Forms" = "注釈と字形";
+"Content Copying" = "コピーする内容";
+"Number of Pages" = "ページ数";
+"File Size" = "ファイルサイズ";
+"CreationDate" = "作成日";
+"ModDate" = "修正日";
+"Creator" = "内容の作成者";
+"Producer" = "PDFの製作元";
+"Info" = "情報";
+"Tap the Edit button to show all metadata fields." = "“編集”ボタンをタップするとすべてのメタデータのフィールド表示できます。";
+"Document Owner Password" = "書類のオーナーのパスワード";
+"Changes Are Locked" = "変更内容はロックされました";
+"Enter the Document Owner Password to make changes." = "書類のオーナーのパスワード入力して変更してください。";
+"Incorrect Password" = "パスワードが違います";
+"Passwords" = "パスワード";
+"Modifying Content" = "内容を修正中";
+"Editing Annotations and Forms" = "注釈とフォームを編集中";
+"Filling Forms" = "フォームを入力中";
+"Copying Content" = "内容をコピー中";
+"Copying Content for Accessibility" = "アクセシビリティのために内容をコピー中";
+"Could Not Save" = "保存できませんでした";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "書類を開くパスワードを指定する時には、書類のオーナーのパスワードが存在する必要があります。";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "ファイルパス";
+"Identical Passwords" = "パスワードが同一です";
+"Choose a different Owner or Open password." = "別の所有者のパスワード、または書類を開くための別のパスワードを選択してください。";
+"Owner Password Required" = "所有者のパスワードが必要です";
+"An owner password is required to change the permissions of a document." = "書類のアクセス権を変更するには所有者のパスワードが必要です。";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "PDFリーダーによってはアクセスが制限されます。このAppではこれらの制限は適用されません。";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "%@を選択中";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "%2$@の付いている%1$@をコンテンツとして選択中";
+// Accessibility string for comment threads
+"commentThread" = "コメントスレッド";
+"printProgressModalDesc" = "書類がプリントされる準備中であることを示します";
+"printProgressModal" = "プリントが進行中";
+"documentEditorDesc" = "現在の書類に変更を加える";
+"reloadDocumentDialog" = "書類の再読み込みを確認";
+"reloadDocumentDialogDesc" = "ユーザに書類の再読み込みの確認を促すダイアログです。";
+"signatureDialog" = "署名";
+"signatureDialogDesc" = "このダイアログを使うと、書類に挿入するインク署名を選択できます。まだ署名を保管していない場合は、キャンバス表示を使って作成できます。";
+"stampAnnotationTemplatesDialog" = "スタンプ注釈のテンプレート";
+"stampAnnotationTemplatesDialogDesc" = "このダイアログを使うと、書類に挿入するスタンプ注釈を選択したり、自分のテキストを使ってスタンプ注釈をカスタム作成できます。";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "墨消し";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "墨消しマーク";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "適用する墨消し";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "アウトラインの色";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "オーバーレイテキスト";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "テキストの繰り返し";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "テキストのカラー";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "墨消しの情報";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "この書類には確定されていない墨消しの注釈が含まれています。適用してよろしいですか?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "適用";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "墨消しには2つのステップがあります。まず、墨消しマークを作成して、墨消ししたい部分を選択してください。コンテンツを不可逆的に削除するには、右下の赤い ▵ のボタンをタップして、墨消しを適用してください。";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "墨消しを適用";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "墨消しを消去";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "墨消しのプレビューをオンにする";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "墨消しのプレビューをオフにする";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "墨消しを適用すると、情報は完全に削除され、取り消せません。";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "新規ファイルに保存";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "現在の書類を墨消し";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "墨消し中…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "書類を墨消しできませんでした。";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "書類を保存する際、墨消しとして印を付けた内容は削除されません。続けてよろしいですか?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "現在の書類を墨消し";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "墨消しした書類を別名で保存";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - 墨消しされています";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "エリアを墨消し";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "テキストを墨消し";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "墨消しを適用中";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "署名が進行中です";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "現在の書類に署名が進行中であることを示します";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "オーバーレイテキストを挿入";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "ファイルを復元";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "ファイルが見つかりません";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "“%@”は他のアプリケーションで削除されています。この書類を終了しますか、それともファイルを復元しますか?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "ファイルが一致しません";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "“%@”は他のアプリケーションで変更されています。保存するとリモートの変更内容が上書きされます。";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "変更内容を保存";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "タップしてメディアを読み込んでください。";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "接続の問題のため、この注釈のメディアを読み込めませんでした。\n後でやり直してください。";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "タップしてメディアの読み込みをやり直してください。";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "この注釈のメディアが見つかりませんでした。この書類の同期が問題なく完了した後も、このメッセージが継続して表示される場合は、以下の情報と共に問題を報告してください: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "ダウンロードをキャンセルするにはタップしてください";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "メディアをダウンロード中予期しないエラーが起きました。エラー %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "ページにリンク";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "ウェブサイトにリンク";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "ページ番号";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "ページ選択";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "クリップボードからペースト";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "ウェブサイトのプレビュー";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "ウェブサイトアドレス";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "戻る";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "進む";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "パレット";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "最近使用した項目";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "デフォルトカラーパレット";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "カラーバリエーション";
+// Custom color value for HSL color picking: Hue
+"Hue" = "色相";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "彩度";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "明度";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "色値 (16進数)";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "指定された値は有効なカラーではありません。";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "クリップボードからペースト";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "ページの綴じ方向";
+// Text shown when left edge binding is selected.
+"Left Edge" = "左とじ";
+// Text shown when right edge binding is selected.
+"Right Edge" = "右とじ";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "不明";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "左揃え";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "右揃え";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "並べ替え順";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "一番前に";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "1つ前に";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "1つ後ろに";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "一番後ろに";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "複製";
+"DocumentEditor_Extract" = "抜粋";
+"General_SelectNone" = "何も選択しない";
+"DocumentEditor_NewPage" = "新規ページ";
+"DocumentEditor_InstantModifiedWarning" = "書類が修正され、読み出し専用になりました。これを修正するには、ページを再度読み込んでください。";
+"DocumentEditor_MoveBefore" = "前に移動";
+"DocumentEditor_MoveAfter" = "後に移動";
+"DocumentEditor_DocumentMergedHere" = "書類はこちらに結合されます";
+
+// Android Strings
+"FileSystemPermission" = "このAppはファイルシステムへのアクセスが完全に否定されているようです。デバイスに保管されているPDFファイルを開封して表示するには、Appの設定からファイルシステムのアクセス権を手動で有効にする必要があります。";
+"Button_OpenSettings" = "設定を開く";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "さらに表示";
+// Button to show less comments
+"Comments_ShowLess" = "表示を減らす";
+// Button to reply to a comment
+"Comments_Reply" = "返信";
+// Button to show all comments
+"Comments_ShowAll" = "すべてを表示";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "このコメントを削除してよろしいですか?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "コメントの削除を確認";
+// Verb for Comment
+"Comment_Action" = "コメントする";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "書類はデジタル署名されていて、すべての署名は有効です。";
+"DigitalSignatures_DocModified" = "書類はデジタル署名されていますが、署名以降に変更が加えられています。";
+"DigitalSignatures_SignatureWarning" = "書類はデジタル署名されていますが、署名のうち少なくとも１つに問題があります。";
+"DigitalSignatures_SignatureWarningDocModified" = "書類はデジタル署名されていますが、署名以降に変更が加えられていて、署名のうち少なくとも１つに問題があります。";
+"DigitalSignatures_SignatureError" = "書類はデジタル署名されていますが、署名のうち少なくとも１つは無効です。";
+"DigitalSignatures_SignatureErrorDocModified" = "書類はデジタル署名されていますが、署名以降に変更が加えられていて、署名のうち少なくとも１つは無効です。";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "録音を開始できませんでした";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "録音を停止できませんでした";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "ページをペーストできませんでした";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "署名用証明書をリクエストできませんでした";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "書類に署名できませんでした";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "このファイルを開く途中に不明なエラーが起きました。";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "リーダー表示";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "自筆";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "イメージ";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "タイプ入力";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "こちらに署名してください";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "上欄に署名をタイプ入力してください";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "署名を保存";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "イメージを選択またはドラッグ";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "イメージを選択";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "イメージを置き換える";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "ファイル";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "新しい署名";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "オン";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "オフ";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "- 注釈を追加";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "- 注釈を追加";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "- コメントを追加";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "- コメント状況を変更";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "- マークアップの種類を変更";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "- 選択内容を変更";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "- 注釈を消去";
+// Command of cutting.
+"Undo_Cut" = "- カット";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "- シェイプを検出";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "- 描画";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "- ドロップ";
+// Command of editing text of a comment.
+"Undo_EditComment" = "- コメントを編集";
+// Command of editing text inside text fields.
+"Undo_EditText" = "- テキストを編集";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "- 消しゴム操作";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "- グループ化";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "- 結合";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "- 注釈を変更";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "- 注釈を変更";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "- 注釈を移動";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "- 注釈を移動";
+// Command of pasting.
+"Undo_Paste" = "- ペースト";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "- 注釈を削除";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "- 注釈を削除";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "- コメントを削除";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "- コメントを削除";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "- 注釈をサイズ変更";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "- 注釈をサイズ変更";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "- 注釈を回転";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "- 注釈を回転";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "- グループ解除";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "揃える";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "書類を揃える";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "ポイントを選択";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "古い";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "新規";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "比較";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "手動で揃えるには両方の書類から3つのポイントを選択してください。書類の角に近いポイントを選択すると、より良い結果が得られます。ポイントを選択する順番は、必ず両方の書類で同じ順番にしてください。";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "終了";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "書類を揃える";
+// Compare two documents.
+"Comparison_DocumentComparison" = "書類の比較";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "古い書類";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "新しい書類";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "リセット";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "ポイントを選択するには";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "揃える…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "ポイントを選択";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "ポイント %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "“%3$@”の%2$tuのうち%1$tuを選択中";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "ポイント %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "ポインタを選択対象に移動";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "雲（四角形）";
+"DashedRectangleAnnotation" = "破線（四角形）";
+"CloudyEllipseAnnotation" = "雲（楕円形）";
+"DashedEllipseAnnotation" = "破線（楕円形）";
+"CloudyPolygonAnnotation" = "雲（多角形）";
+"DashedPolygonAnnotation" = "破線（多角形）";
+"CloudAnnotation" = "雲";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "塗りつぶしなし";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "保存した注釈を読み込めませんでした";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "注釈を保存できませんでした";
+
+/// Measurement Strings
+"DistanceMeasurement" = "距離";
+"PerimeterMeasurement" = "周長";
+"PolygonalAreaMeasurement" = "多角形の面積";
+"RectangularAreaMeasurement" = "四角形の面積";
+"EllipticalAreaMeasurement" = "楕円形の面積";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "反時計回りに回転";
+"Rotate_Clockwise" = "時計回りに回転";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "こちらに説明を入力";
+// "New option button text"
+"FormDesigner_addOption" = "オプションを追加";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType} のプロパティ";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "{formFieldName} という名前のフォームフィールドは既に存在します。別の名前を選択してください。";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType} のスタイル";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "フォームフィールド名";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "デフォルト値";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "複数行";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "ラジオボタンをグループ化するには、それらが同じフォームフィールド名であることを確認してください。";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "詳細";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "作成者";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "メモ";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "カスタムデータ";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "必須";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "読み出し専用";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "作成日";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "更新日";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "標準のJSON形式にシリアライズできるオブジェクトである必要があります";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "枠のカラー";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "枠の太さ";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "枠のスタイル";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "プリント";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "実線";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "破線";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "ベベル";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "インセット";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "アンダーライン";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "テキストスタイル";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "フォントサイズ";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "フォントカラー";
+// "Button Field"
+"FormDesigner_button" = "ボタンフィールド";
+// "Text Field Button"
+"FormDesigner_textField" = "テキストフィールド";
+// "Radio Field Button"
+"FormDesigner_radioField" = "ラジオフィールド";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "チェックボックスフィールド";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "コンボ・ボックスフィールド";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "リストボックスフィールド";
+// "signature Field Button"
+"FormDesigner_signatureField" = "署名フィールド";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "ボタンテキスト";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "ラベル";
+// Value for form field
+"FormDesigner_value" = "値";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "一旦作成されると編集できません。";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "フォームフィールドの名前は空欄にできません。";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "フォームクリエイター";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "マルチ選択";
+"FormDesigner_readOnlyProperty" = "読み出し専用";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "オプション";
+
+// Measurement tools
+"MeasurementScale" = "比率";
+"MeasurementCalibrateLength" = "長さ補正";
+"MeasurementPrecision" = "精度";
+"MeasurementSnapping" = "スナッピング";
+"MeasurementPrecision_Whole" = "整数";
+"MeasurementPrecision_OneDecimalPlace" = "小数点第1位";
+"MeasurementPrecision_TwoDecimalPlaces" = "小数点第2位";
+"MeasurementPrecision_ThreeDecimalPlaces" = "小数点第3位";
+"MeasurementPrecision_FourDecimalPlaces" = "小数点第4位";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "面積";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "メディアの注釈";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "このブラウザは埋め込まれたビデオまたはオーディオをサポートしません。";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "リンク設定";
+// Label for selection of link type (website - page).
+"linkTo" = "リンク先";
+// Label for website selection.
+"uriLink" = "Webサイト";
+// Label for page selection.
+"pageLink" = "ページ";
+// Text for preceding number for page link number.
+"linkToPage" = "%tu ページにリンク";
+// Error message for invalid page number.
+"invalidPageNumber" = "有効なページ番号を入力してください。";
+// Error message for invalid page link.
+"invalidPageLink" = "有効なページのリンクを入力してください。";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} の測定の設定";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "複数の注釈を選択";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ ツール";
+
+// Document unlock string
+"Unlock_Document_Description" = "この書類を表示するにはロック解除する必要があります。下のフィールドにパスワードを入力してください。";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "匿名";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "コメントオプション";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "コンテンツを編集";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "周長の測定の設定";
+"Distance_Popover_Title" = "距離の測定の設定";
+"Rectangle_Area_Title" = "四角形の面積の測定の設定";
+"Polygon_Area_Title" = "多角形の面積の測定の設定";
+"Ellipse_Area_Title" = "楕円形の面積の測定の設定";
+
+// Rich text formatting options for text annotations.
+"Bold" = "ボールド";
+"Italic" = "イタリック";
+
+// Button to save and then close current context
+"Save_And_Close" = "保存して閉じる";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "フォントの不一致に関するツールヒントを表示/非表示";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "フォント“%@”は利用できないか、または、この書類の内容を編集するために使用できません。追加または編集された内容はデフォルトフォントに戻されます。";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "埋め込む";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "統合";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "無視";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "概要";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "開始ページを選択";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "最後のページを選択";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "から";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "回転";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "内容を編集";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@”には保存していない変更内容が含まれています。";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "複数のフォント";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "不明なフォント";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "複数のサイズ";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "サイズを小さくする";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "サイズを大きくする";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "複数のカラー";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ ボールド";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ イタリック";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ ボールド・イタリック";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "%@: “%@”で始まるコメントのスレッドを開く";
+
+// More comments indicator in comments popover
+"MoreComments" = "その他のコメント";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "ページ範囲";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "新規カスタムカラー";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "コンテンツエディタ";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "選択内容を検索";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Webを検索";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "1インチ";
+"MeasurementPrecision_Halves" = "1/2インチ";
+"MeasurementPrecision_Quarters" = "1/4インチ";
+"MeasurementPrecision_Eighths" = "1/8インチ";
+"MeasurementPrecision_Sixteenths" = "1/16インチ";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "書類の署名に使用された証明書チェーンが空です。";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "デジタル署名の入力はサポートされていません。";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "デジタル署名に無効なタイムスタンプが含まれているか、タイムスタンプされたデータが改ざんされています。";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "測定設定";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "比率を追加";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "補正ツールを使用";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "比率を補正";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "比率を設定";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "２つ目の単位";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "単位";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "比率を削除すると、比率を使った測定結果も削除されます。";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "この比率はすでに使用されています";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "既存の比率を編集しますか。それとも、使用しますか？";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "既存のものを使用";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "名称未設定";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "ポイントにスナップ";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "開始ポイントにスナップ";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "スマートガイドを表示";
+
+// Label for the add text box button
+"AddTextBox" = "テキストボックスを追加";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "このテキストボックスを削除してもよろしいですか？";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "テキストボックスの削除を確認";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "テキストボックスの削除を確認またはキャンセルできるダイアログ。";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "読み出し専用";
+"locked" = "ロック中";
+"lockedContent" = "内容はロックされています";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "比率が追加されました";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” が比率のリストに追加されました。";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "測定設定のアイコン";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "アイコンは測定設定の比率が設定されていないことを示しています";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "この書類は、%3$@、%4$@に%2$@によって%1$@で署名されました。";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "この書類は、%3$@、%4$@に%2$@によって%1$@で署名されたことになっています。";
+"DigitalSignatureSignedWithAlgo%@with%@." = "アルゴリズム: %@ - %@";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "ページを取り出す";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "比率名";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "これらの設定を使った比率はすでに定義されています。別の比率を選択してください。";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "２つ目の単位を表示";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "新しい比率を編集または追加";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "補正";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "レイヤー";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "レイヤーがありません";
+
+"The certificate is not yet valid" = "証明書がまだ有効ではありません。";
+"Signature validation failed - invalid signature" = "署名が無効です。";
+"The certificate has been revoked" = "証明書は取り消されました。";
+"Certificate problem" = "証明書に問題があります。";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "証明書が取り消されたどうか確認できませんでした。";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "行間隔";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "シングルスペース";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "ダブルスペース";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "その他を選択…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "測定";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "書類を再読み込み";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "開発者ツール、ローコードソリューション、そして、すべての主要プラットフォームをカバーするエンドユーザツールで、世界中に紙を超える革新を起こすお手伝いをします。";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "アクション";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "ショートカット";
+
+// Mention button popover text.
+"CommentEditor_mention" = "メンション";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "ヘルプダイアログを開く";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "内容を読む";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "ツールバーにフォーカス";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "このページを表示するための十分なメモリがありません。";

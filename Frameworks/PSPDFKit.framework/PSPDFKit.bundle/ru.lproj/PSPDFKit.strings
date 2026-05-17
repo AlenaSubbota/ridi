@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Закрыть";
+"Cancel" = "Отменить";
+"OK" = "ОК";
+"Open" = "Открыть";
+"Untitled" = "Без названия";
+"File Not Found" = "Файл не найден";
+"File couldn't be opened." = "Не удалось открыть файл."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Безымянный PDF";
+"Page %tu" = "Страница %tu";
+"Page %@" = "Страница %@";
+"Next" = "Далее";
+"Previous" = "Назад";
+"Error" = "Ошибка";
+"More options" = "Еще";
+"Close Tab" = "Закрыть вкладку";
+"Close All Tabs" = "Закрыть все вкладки";
+"Close All Other Tabs" = "Закрыть другие вкладки"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Рисование";
+"Highlighter" = "Произвольное выделение";
+
+// toolbar
+"Outline" = "Содержание"; // Table of contents
+"No Outline" = "Без содержания";
+"Search Outline" = "Поиск в содержании";
+"Search" = "Поиск";
+"Email" = "Эл. почта";
+"Send via Email" = "Отправить по эл. почте";
+"Send" = "Отправить";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Поделиться через Сообщения";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Поделиться по эл. почте";
+"Open In" = "Открыть в";
+"Commit" = "Подтвердить";
+"Sending to %@" = "Отправка в %@"; // Open document with an application
+"Pages" = "Страницы";
+"Print with annotations" = "Печать с аннотациями";
+"Print without annotations" = "Печать без аннотаций";
+"No Applications found" = "Отсутствуют приложения для открытия PDF-документов.";
+"Print" = "Печать";
+"Annotation" = "Аннотация";
+"Annotations" = "Аннотации";
+"No Annotations" = "Нет аннотаций";
+"Bookmarks" = "Закладки";
+"No Bookmarks" = "Нет закладок";
+"Add Bookmark" = "Добавить закладку";
+"Remove Bookmark" = "Удалить закладку";
+"Brightness" = "Яркость";
+"Share" = "Поделиться";
+"Preparing" = "Подготовка";
+"Loading" = "Загрузка";
+"Expand" = "Раскрыть";
+"Collapse" = "Свернуть";
+// SMS / iMessage sharing button
+"Message" = "Сообщение";
+"Thumbnails" = "Эскизы";
+"Drag Toolbar" = "Перетащить панель инструментов";
+
+// thumbnails
+"Bookmarked" = "В закладкax";
+"Annotated" = "С аннотациями";
+"All" = "Все";
+"Loading Annotations" = "Загрузка аннотаций";
+"Loading Pages" = "Загрузка страниц";
+"Loading Bookmarks" = "Загрузка закладок";
+
+// password
+"Password" = "Пароль"; // text on a label
+"Unlock" = "Разблокировать";
+"Please enter the password." = "Введите пароль.";
+"This document cannot be unlocked." = "Документ не может быть разблокирован.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Поле ввода пароля";
+
+// page
+"%tu of %tu" = "%tu из %tu";
+"%tu–%tu of %tu" = "%tu–%tu из %tu";
+"%@ (%tu of %tu)" = "%@ (%tu из %tu)";
+"%@, Page %tu" = "%@, страница %tu";
+"Leave %@?" = "Оставить %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu из %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu из %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu из %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Поиск в документе"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Поиск – страница %tu из %tu";
+"Search Completed" = "Поиск завершен";
+"Search Cancelled" = "Поиск отменен";
+"%tu left" = "осталось %tu"; // Indexing Documents... 5 left
+"Searching" = "Поиск";
+"Done" = "Готово";
+"Indexing Documents" = "Индексация документов";
+"Document" = "Документ";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Поиск в аннотациях";
+
+// inline browser
+"Open in Safari" = "Открыть в Safari";
+"Open in Chrome" = "Открыть в Chrome";
+"Your %@ is not configured to send emails." = "Ваш %@ не настроен на отправку электронной почты.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Переход по ссылке откроет программу «%1$@». %2$@Продолжить?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "внешнее приложение"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "приложение «Почта»"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Невозможно открыть ссылку %@";
+
+// text selection
+"Text copied to clipboard." = "Текст скопирован в буфер обмена.";
+"Save to Photo Library" = "Сохранить в медиатеку";
+"Failed to extract image." = "Не удалось извлечь изображение.";
+"Type value or pick from list" = "Введите значение или выберите из списка";
+
+// annotations
+"Add %@" = "Добавить %@";
+"Remove %@" = "Удалить %@";
+"Remove" = "Удалить";
+"Delete" = "Удалить"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Править";
+"Undo" = "Отменить";
+"Nothing to undo" = "Нечего отменять";
+"Redo" = "Повторить";
+"Nothing to redo" = "Нечего повторять";
+"Type" = "Тип"; // kind of Annotation can be selected
+"Size" = "Размер";
+"Font" = "Шрифт";
+"Fonts" = "Шрифты";
+"All Fonts" = "Все шрифты";
+"Downloadable Fonts" = "Загружаемые шрифты";
+"Search Fonts" = "Поиск шрифтов";
+"Choose Color" = "Выберите цвет";
+"Choose Fill Color" = "Выберите заливку";
+"Rainbow" = "Радуга";
+"Monochrome" = "Монохромный";
+"Vintage" = "Винтаж";
+"Modern" = "Модерн";
+"ColorPalette_Unified" = "Палитра";
+"Color" = "Цвет";
+"Border" = "Рамка";
+"Fill Color" = "Цвет заливки";
+"Start and End Color" = "Начать и закончить цвет";
+"Opacity" = "Непрозрачность";
+"Thickness" = "Толщина";
+"%@ pt" = "%@ пт";
+"Yellow" = "Желтый";
+"Green" = "Зеленый";
+"Red" = "Красный";
+"Blue" = "Синий";
+"Pink" = "Розовый";
+"Black" = "Черный";
+"Orange" = "Оранжевый";
+"Purple" = "Лиловый";
+"Cyan" = "Голубой";
+"Gray" = "Серый";
+"White" = "Белый";
+"Color_Brown" = "Коричневый";
+"Color_DarkRed" = "Темно-красный";
+"Color_DarkBlue" = "Темно-синий";
+"Color_Magenta" = "Пурпурный";
+"Define" = "Определить";
+"Wikipedia" = "Википедия";
+"Highlight" = "Выделение текста";
+"Underline" = "Подчеркивание";
+"Squiggly" = "Волнистое подчеркивание";
+"StrikeOut" = "Зачеркивание";
+"Rectangle" = "Прямоугольник";
+"Ellipse" = "Эллипс";
+"Line" = "Линия"; // something that can be drawn
+"Polygon" = "Многоугольник";
+"Signature" = "Подпись";
+"Signatures" = "Подписи";
+"Signed" = "Подписано";
+"Sign" = "Подписать";
+"Signing…" = "Подпись…";
+"Sign using %@" = "Подписать с помощью %@"; // e.g. Adobe.PPKLite
+"Methods" = "Способы"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Выбрать личность"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Печать";
+"Stamps" = "Печати";
+"Custom" = "Свой"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Создать печать";
+"Preview" = "Просмотр";
+"Stamp Text" = "Текст печати";
+"Add Signature" = "Добавить подпись";
+"Remove Signature" = "Удалить подпись";
+"My Signature" = "Моя подпись";
+"No Signatures" = "Нет подписей"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Подпишите здесь";
+"Text" = "Заметка";
+"FreeText" = "Текст";
+"Delete Note" = "Удалить заметку";
+"Remove Note" = "Стереть заметку";
+"%@ could not be found." = "%@ не найдена.";
+"Photo Library" = "Медиатека";
+"Camera" = "Камера";
+"camera_not_available" = "Камера недоступна";
+"Image" = "Изображение";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Качество изображения";
+"Low Quality" = "Низкое качество";
+"Medium Quality" = "Среднее качество";
+"High Quality" = "Высокое качество";
+"Clear All" = "Удалить все";
+"Clear" = "Очистить";
+"Style" = "Стиль";
+"Link" = "Ссылка";
+"Ink" = "Рисование";
+"Screen" = "Экран";
+"RichMedia" = "Рич-медиа";
+"FileAttachment" = "Файл";
+"Left" = "Слева";
+"Center" = "По центру";
+"Right" = "Справа";
+"Alignment" = "Выравнивание";
+"Preview File" = "Просмотреть файл";
+"Copy" = "Скопировать";
+"Paste" = "Вставить";
+"Inspector" = "Инспектор";
+"Group" = "Группировать";
+"Ungroup" = "Разгруппировать";
+"Merge" = "Объединить"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Образец";
+"Annotation Summary for %@:" = "Сводка аннотаций для %@:";
+"Show Text" = "Показать текст";
+// title
+"Author Name" = "Имя автора";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Введите имя автора, которое вы хотите использовать для новых аннотаций.";
+// text field placeholder
+"Name" = "Имя";
+// meaning: close
+"Dismiss" = "Закрыть";
+"Fit to Text" = "Поместить в текст";
+"Draw" = "Рисовать";
+"Sound" = "Звук";
+"Eraser" = "Ластик";
+"Toggle Eraser" = "Переключить ластик"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Инструмент выделения";
+"Add" = "Добавить"; // to add - infinitive
+"Date" = "Дата";
+"Time" = "Время";
+"No Pages" = "Нет страниц";
+"Drag to resize" = "Перетащите для изм. размера"; // used as hint that inspector is resizable
+"Convert to" = "Преобразовать в"; // used as label on action that changes free text intent type
+"Color Presets" = "Библиотека цветов";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Цветовой пресет";
+"pt" = "пт"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Вырезать";
+"Annotation copied." = "Аннотация скопирована.";
+"Annotation cut." = "Аннотация вырезана.";
+"Annotation pasted." = "Аннотация вставлена.";
+"%tu selected" = "Выбрано %tu";
+"Custom Stamp" = "Своя печать";
+"Change text and color" = "Изменить текст и цвет";
+"Use an existing stamp design" = "Использовать существующую печать";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Волшебные чернила";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Не удалось загрузить шрифт «%@» размера %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Инспектор стилей";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Действительно очистить все аннотации?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Создание аннотаций отключено";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "С комментарием";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Текстовая аннотация";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Галочка";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Крестик";
+
+"Callout" = "Выноска"; // freetext annotation with an arrow
+"Generic" = "Обычный"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Стиль линий";
+"Solid" = "Сплошные";
+"Narrow Dots" = "Узкие точки";
+"Wide Dots" = "Широкие точки";
+"Narrow Dashes" = "Узкие штрихи";
+"Wide Dashes" = "Широкие штрихи";
+"Cloudy" = "Облака"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Одобрено";
+"Not Approved" = "Не одобрено";
+"Draft" = "Черновик";
+"Final" = "Окончательный";
+"Completed" = "Завершено";
+"Confidential" = "Конфиденциально";
+"For Public Release" = "Публичный выпуск";
+"Not For Public Release" = "Не для публичного выпуска";
+"For Comment" = "Для комментариев";
+"Void" = "Аннулировать";
+"Preliminary Results" = "Предварительно";
+"Information only" = "Только информация";
+"Accepted" = "Принято";
+"Rejected" = "Отклонено";
+"Initial Here" = "ФИО";
+"Sign Here" = "Место подписи";
+"Witness" = "Удостоверить";
+"Revised" = "Изменено";
+"Stamp.AsIs" = "Как есть";
+"Stamp.Departmental" = "Внутри отдела";
+"Stamp.Experimental" = "Экспериментальная версия";
+"Stamp.Expired" = "Срок действия истек";
+"Stamp.Sold" = "Продано";
+"Stamp.TopSecret" = "Совершенно секретно";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Стилус";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Выкл.";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Сканирование";
+// text on a label; app connects to a stylus
+"Pairing" = "Создание пары";
+// text on a label; app and stylus are connected
+"%@ Connected" = "Подключено: %@";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "Отключено: %@";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Настройки";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Использовать для аннотаций Apple Pencil";
+
+// PDF annotation name overrides
+"Square" = "Прямоугольник";
+"Circle" = "Эллипс";
+"PolyLine" = "Ломаная линия";
+"SavedAnnotations" = "Архив аннотаций";
+
+// named actions
+"NextPage" = "Следующая страница";
+"PrevPage" = "Предыдущая страница";
+"FirstPage" = "Первая страница";
+"LastPage" = "Последняя страница";
+"GoBack" = "Назад";
+"GoForward" = "Вперед";
+"GoToPage" = "Перейти к странице";
+"Find" = "Поиск";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Увеличить масштаб";
+"ZoomOut" = "Уменьшить масштаб";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Действие рич-медиа";
+"Rendition Action" = "Действие воспроизведения";
+"Hide Action" = "Скрыть действие";
+"Submit Form" = "Отправить форму";
+"Reset" = "Сброс";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Назад";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Выбрать все";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Выбрать элемент выше";
+"KeyCommand.SelectBelow" = "Выбрать элемент ниже";
+"KeyCommand.SelectTop" = "Выбрать первый элемент";
+"KeyCommand.SelectBottom" = "Выбрать последний элемент";
+"KeyCommand.ClearSelection" = "Очистить выделение";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Развернуть раздел";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Свернуть раздел";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Показать следующую вкладку";
+"KeyCommand.ShowPreviousTab" = "Показать предыдущую вкладку";
+"KeyCommand.SelectAllAnnotations" = "Выбрать все аннотации";
+
+// line annotations
+"Start" = "Начало";
+"End" = "Конец";
+"Line.None" = "Нет";
+"Line.ClosedArrow" = "Закрытая стрелка";
+"Line.OpenArrow" = "Открытая стрелка";
+"Line.Square" = "Квадрат";
+"Line.Circle" = "Круг";
+"Line.Diamond" = "Ромб";
+"Line.ROpenArrow" = "Развернутая открытая стрелка";
+"Line.RClosedArrow" = "Развернутая закрытая стрелка";
+"Line.Slash" = "Косая черта";
+"Line.Butt" = "Конец";
+"Line Start" = "Начало линии";
+"Line End" = "Конец линии";
+"Arrow" = "Стрелка"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Создать ссылку";
+"Add Link" = "Добавить ссылку";
+"Edit Link" = "Редактировать ссылку";
+"Move Link" = "Переместить ссылку";
+"Remove Link" = "Удалить ссылку";
+"Open Link" = "Открыть ссылку";
+"Go to Page %tu" = "Перейти к странице %tu";
+"Go to Page" = "Перейти к странице"; // title of a Popup
+"Go" = "Перейти"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Скопировать URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Скопировать ссылку";
+"Save" = "Сохранить";
+"Link Destination" = "Конечный объект";
+"Enter page index or a http:// address to link to an URL." = "Введите индекс страницы или адрес (http://) ссылки.";
+"Page %@ Not Found" = "Страница %@ не найдена";
+"Add to Reading List" = "В список для чтения";
+
+"Link annotation creation failed." = "Сбой при создании аннотации-ссылки.";
+"Link annotation successfully created." = "Аннотация-ссылка создана.";
+"Entered text could not be converted to an Integer nor URL." = "Введенный текст не удалось преобразовать ни в целое число, ни в URL.";
+
+// voiceover accessibility
+"Grid" = "Сетка"; // grid with thumbnails
+"Translucent" = "Полупрозрачный";
+"left" = "влево";
+"center" = "центр";
+"right" = "вправо";
+"decrease" = "уменьшить";
+"increase" = "увеличить";
+"All Open Documents" = "Все открытые документы";
+"Add Documents" = "Добавить документы"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Открыть файл";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Управление медиа";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Сбросить форму";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Показать действие";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Поименованное действие";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Страницы %tu–%tu"; // Range of pages
+"Current Page" = "Текущая страница";
+"Current Page (%tu)" = "Текущая страница (%tu)";
+"Ignore Annotations" = "Игнорировать аннотации";
+"The PDF will not contain any annotations." = "PDF не будет содержать аннотаций.";
+"Embed Annotations" = "Встроить аннотации";
+"Annotations will remain editable and are embedded into the PDF." = "Аннотации останутся изменяемыми и встроенными в PDF.";
+"Flatten Annotations" = "Вклеить аннотации";
+"Annotations are drawn into the PDF and are readonly." = "Аннотации будут объединены с содержимым PDF и доступны только для чтения.";
+"Annotation Summary" = "Сводка аннотаций";
+"Embed Annotations into the PDF and also list them in the email." = "Аннотации будут встроены в PDF и их список будет добавлен в сообщение эл. почты.";
+"Annotations will be listed in a text file." = "Аннотации будут показаны как текст.";
+"Files" = "Файлы";
+"Send as single files" = "Отправить по одному";
+"Merge files" = "Объединить файлы";
+"Original File" = "Исходный файл";
+"Range" = "Диапазон";
+"Annotated Pages" = "Страницы с аннотациями";
+"Message could not be sent." = "Не удалось отправить сообщение.";
+"Export" = "Экспортировать";
+"This action can't be performed." = "Не удалось выполнить действие.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Экспорт нефайловых документов не поддерживается.";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Документ не содержит аннотаций.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Не удалось поделиться";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Экспорт страниц как изображений ограничен %tu стр. за один раз.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Невозможно отправить вложение через «Сообщения».";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Невозможно напечатать документы.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF-документ";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Цель недоступна";
+
+// sound annotations
+"Speak" = "Произнести"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Воспр.";
+"Pause" = "Пауза";
+"Resume" = "Возобновить";
+"Stop" = "Стоп";
+"Play/Stop" = "Воспр./Стоп";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Запись";
+"Pause Recording" = "Приостановить запись";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Запись приостановлена";
+"Continue Recording" = "Продолжить запись";
+"Finish Recording" = "Завершить запись";
+"Audio Problem" = "Проблема со звуком";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Не удалось воспроизвести.";
+"Could not resume playback." = "Не удалось возобновить воспроизведение.";
+"Microphone permission not granted." = "Не дано разрешение на использование микрофона.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "В данный момент запись звука невозможна. Предоставьте приложению доступ к микрофону.";
+"There was a problem trying to record audio." = "При записи звука произошел сбой.";
+"Already Recording" = "Идет запись";
+"You are already recording on page %@." = "Вы уже записываете на странице %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Вы отказали этому приложению в доступе к микрофону. Для записи аудиозаметок разрешите доступ к микрофону вручную в настройках приложения.";
+
+// Forms
+"Form Element" = "Элемент формы";
+"Text Field" = "Текстовое поле";
+"Button" = "Кнопка";
+"Choice Field" = "Поле выбора";
+"Signature Field" = "Поле для подписи";
+"Clear Field" = "Очистить поле"; // same as delete
+"Default Values" = "Значения по умолчанию";
+"Custom Value" = "Пользовательское значение";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Поиск параметров";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Неверное значение: должно быть больше или равно %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Неверное значение: должно быть больше или равно %s и при этом меньше или равно %s.";
+"Invalid value: must be less than or equal to %s." = "Неверное значение: должно быть меньше или равно %s.";
+"The value entered does not match the format of the field [%s]" = "Введенное значение не совпадает с форматом поля [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Неверная дата/время. Убедитесь, что дата или время существуют. Значение в поле [%s] должно иметь формат %s";
+
+// General validation
+"Invalid value [%s]" = "Неверное значение [%s]";
+
+// Gallery
+"Connection Error" = "Ошибка подключения";
+"Unsupported Content" = "Неподдерживаемое содержимое";
+"The specified content cannot be displayed." = "Указанное содержимое не может быть отображено.";
+"Something went wrong" = "Произошла ошибка";
+"This item is currently unavailable." = "Данная позиция сейчас недоступна.";
+"The information for this gallery could not be loaded." = "Информация по галерее не может быть загружена.";
+"Content Error" = "Ошибка содержимого";
+"This content is unsupported." = "Содержимое не поддерживается.";
+
+// Signatures
+"Digital Signature" = "Цифровая подпись";
+"Signature is valid." = "Подпись верна.";
+"Signature is valid, but there are some warnings." = "Подпись верна, но есть предупреждения.";
+"It was signed by %@ on %@ at %@." = "Документ подписан %@ %@ в %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Подписан %@ в %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Заявлено подписание %@ %@ в %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Заявлено подписание %@ в %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Подписанная версия не была изменена, однако после подписания документа в него были внесены изменения."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Подпись действительна, содержимое документа не было изменено после его подписания.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Неверная подпись – после подписания документ был изменен или данные повреждены.";
+"Unsigned Signature Field" = "Неподписанное поле подписи";
+"Do you really want to remove the signature from the document?" = "Вы действительно хотите удалить подпись из документа?";
+"Could not retrieve the certificate from the signature." = "Не удалось получить сертификат из подписи.";
+"Could not retrieve the signature contents." = "Не удалось получить содержимое подписи.";
+"Could not retrieve the public key from the signature." = "Не удалось получить открытый ключ из подписи.";
+"Could not retrieve the byte range of the signature." = "Не удалось получить диапазон байтов подписи.";
+"Could not understand the encryption padding." = "Не удалось распознать дополнение шифрования.";
+"Could not compute the digest for the document." = "Не удалось вычислить дайджест документа.";
+"General failure while trying to determine document integrity." = "При проверке документа на целостность произошла общая ошибка.";
+"Certificate chain is invalid." = "Недействительная цепь сертификатов.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Не удалось верифицировать цепь сертификатов, поскольку не предоставлено ни одного доверенного ключа.";
+"Document integrity success, but certificate is self signed." = "Cертификат является самоподписанным.";
+"Document integrity check failed." = "Документ не прошел проверку на целостность.";
+"The signing certificate is not trusted." = "Сертификат подписи ненадежен.";
+"unknown time" = "время неизвестно";
+"unknown date" = "дата неизвестна";
+"Digitally signed by {}" = "Цифровая подпись поставлена: {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Дата:";
+"Reason: " = "Причина:";
+"Location: " = "Место:";
+"Certificate" = "Сертификат";
+"No Certificate" = "Нет сертификата";
+"No Certificates" = "Нет сертификатов";
+"Store Signature" = "Запомнить подпись";
+"Add Trusted Certificate" = "Добавить доверенный сертификат";
+"Add Signer" = "Добавить подписанта";
+"Added Trusted Certificate" = "Добавлен доверенный сертификат";
+"Added Signer" = "Добавлен подписант";
+"File doesn't match any certificate type" = "Файл не соответствует никакому типу сертификата";
+"Import Failed" = "Сбой при импорте";
+"Signature Area" = "Место для подписи";
+"Draw Signature Area" = "Начертите область для подписи";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Не удалось инициализировать объект PKCS7";
+"Could not find signature" = "Не удалось обнаружить подпись";
+"Could not hash the PDF document" = "Не удалось создать хэш PDF-документа";
+"Could not create padding for the digital signature" = "Не удалось создать дополнение для цифровой подписи";
+"Could not verify the signature" = "Не удалось проверить подлинность подписи";
+"Could not save the signed document" = "Не удалось сохранить подписанный документ";
+"Cannot sign attributes" = "Не удается добавить подпись к атрибутам";
+"The selected subfilter type for the signature is not supported" = "Выбранный тип подфильтра подписи не поддерживается";
+"Could not add signature to PKCS7 object" = "Не удалось добавить подпись к объекту PKCS7";
+"Could not write PKCS7 signature" = "Не удалось записать подпись PKCS7";
+"Could not create PKCS7 object" = "Не удалось создать объект PKCS7";
+"Could not generate PKCS7 object" = "Не удалось сгенерировать объект PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Не удалось подписать документ, поскольку он уже подписан.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Не удается прочитать данные сертификата PKCS#7. Данные в правильном формате могут быть экспортированы из Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Не удалось расшифровать подпись сертификата.";
+"The public key in the certificate could not be read." = "Не удалось прочитать открытый ключ сертификата.";
+"The signature of the certificate is not valid." = "Подпись сертификата недействительна.";
+"Signature is not valid." = "Подпись недействительна.";
+"There is a format error in the notBefore field of the certificate." = "Ошибка формата в поле notBefore сертификата."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Ошибка формата в поле notAfter сертификата."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Подписи не могут быть подтверждены, поскольку цепь сертификатов содержит лишь один сертификат, он не является самоподписанным, и эмитент не является доверенным.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Сертификат БС недействителен, поскольку был выпущен не БС или его расширения не соответствуют назначению."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Превышен параметр basicConstraints pathlength."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Корневое БС не помечено как доверенное для его цели."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Корневое БС помечено к отклонению указанной цели."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Сертификат эмитента был отклонен, поскольку значение имени Subject не совпадало со значением Issuer текущего сертификата."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Сертификат эмитента был отклонен, поскольку Subject Key Identifier не совпадал с Authority Key Identifier текущего сертификата."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Сертификат эмитента был отклонен, поскольку значение имени Issuer и Serial Number не совпадали с Authority Key Identifier текущего сертификата."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Сертификат был отозван эмитентом.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Переданный сертификат является самоподписанным и не может быть найден в списке доверенных сертификатов.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "В цепи сертификатов существует самоподписанный сертификат. Цепь может состоять из недостоверных сертификатов, но корневое БС в локальной системе не найдено."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Не удалось найти сертификат для одного из бюро сертификации (БС) в иерархии подписей; данное БС не является доверенным для локального приложения."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Локальный поиск сертификата не обнаружил сертификата эмитента. Обычно это означает, что список доверенных сертификатов не полон.";
+"The certificate that was provided cannot be used for its intended purpose." = "Предоставленный сертификат не может быть использован с этой целью.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Расширение keyUsage сертификата эмитента не разрешает подписание сертификата.";
+"The certificate has expired." = "Сертификат истек.";
+"The certificate is not valid until a date in the future." = "Сертификат недействителен до даты в будущем.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Не удалось прочитать сертификат X509 из данных";
+// X509 should not be translated
+"No X509 certificate found" = "Сертификат X509 не найден";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Не удается прочитать файл PKCS12. Файл неверно отформатирован или поврежден.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Не удалось разблокировать данные PKCS12. Верен ли введенный пароль?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Не удалось разблокировать данные PKCS12. Возможно, они имеют неверный формат или повреждены.";
+"Could not unlock PKCS12 data." = "Не удалось разблокировать данные PKCS12.";
+"Could not add signature." = "Не удалось добавить подпись.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Не удалось открыть файл для подтверждения подписи";
+"Could not get signer info" = "Не удалось получить данные о подписанте";
+
+// Night Mode
+"Default" = "По умолчанию"; // Default view (night mode not enabled)
+"Sepia" = "Сепия"; // Document uses sepia colors
+"Night" = "Ночь"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Не выбран документ";
+"Unable to display document" = "Не удалось отобразить документ";
+"Locked" = "Заблокировано";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Формат файла – не PDF, или файл поврежден.";
+"A password is required to access this document." = "Для доступа к документу требуется пароль.";
+"The security scheme of this document is currently not supported." = "Схема безопасности данного документа в настоящий момент не поддерживается.";
+"An unknown error has occured while trying to open this file." = "При попытке открыть файл произошла неизвестная ошибка.";
+
+// Document Editor
+"Document Editor" = "Редактор документов";
+"Add Page" = "Добавить страницу";
+"Delete Pages" = "Удалить страницы";
+"Duplicate Pages" = "Дублировать страницы";
+"Move Pages" = "Переместить страницы";
+"Rotate Pages" = "Повернуть страницы";
+"Page Size" = "Формат страницы";
+"Background Color" = "Цвет фона";
+"Paper" = "Бумага";
+"Pattern" = "Рисунок";
+"Use Document Size" = "Использовать размер документа";
+"Orientation" = "Ориентация";
+"Portrait" = "Книжная";
+"Landscape" = "Альбомная";
+"Document Name" = "Имя документа";
+"Documents" = "Документы"; // Name of directory
+"Use Document Folder" = "Использовать папку с документом";
+"Folder" = "Папка";
+"Replace File?" = "Заменить файл?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Выбранная папка уже содержит файл с именем «%@». Заменить существующий файл?";
+"Replace" = "Заменить";
+"Saving…" = "Сохранение…";
+"Saved" = "Сохранено";
+"Save As…" = "Сохранить как…";
+"Discard Changes" = "Отменить изменения";
+"Empty" = "Аннулировать";
+"Use Image Size" = "Размер изображения";
+"Page Background" = "Фон страницы";
+"Insert image annotation" = "Вставить визуальную заметку";
+"Import page background" = "Импорт фона страницы";
+"Quality" = "Качество";
+"Low" = "Низкое";
+"Medium" = "Среднее";
+"High" = "Высокое";
+"Best" = "Наилучшее";
+"Copy Pages" = "Скопировать страницы";
+"Paste Pages" = "Вставить страницы";
+"Copied" = "Скопировано";
+"“%@” has unsaved changes. Do you want to save them now?" = "В «%@» есть несохраненные изменения. Сохранить их?";
+"Select Source Document" = "Выбрать документ-источник";
+"Add After Page %tu" = "Добавить после стр. %tu";
+"Cut Pages" = "Вырезать страницы";
+"Import Document" = "Импорт документа";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Использовать окно выбора папки";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Выбрать папку";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Выбрать все страницы";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Пустой документ сохранить нельзя.";
+"The document could not be saved." = "Не удалось сохранить документ.";
+"This document does not support editing." = "Этот документ не поддерживает редактирование.";
+"The document could not be accessed." = "Не удалось получить доступ к документу.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "Не удалось импортировать PDF.";
+"The image could not be imported at this time." = "Не удалось импортировать изображение.";
+
+// Page Patterns
+"None" = "Нет";
+"Dot5mm" = "Точка 5 мм";
+"Grid5mm" = "Сетка 5 мм";
+"Lines5mm" = "Линии 5 мм";
+"Lines7mm" = "Линии 7 мм";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Экспортировать страницы";
+"Export…" = "Экспорт…";
+"Exporting…" = "Идет экспорт…";
+"Exported" = "Экспортировано";
+"%@ - Exported" = "%@ – экспорт"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ – копия"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Выбранный документ в настоящий момент открыт. Выберите другое имя файла.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Служба преобразования текста в речь недоступна. Убедитесь, что ваше устройство подключено к интернету, или что на нем установлен и включен Синтезатор речи Google.";
+
+// Settings
+"Page Layout" = "Макет страницы";
+"Scroll Direction" = "Направление прокрутки";
+"Theme" = "Тема";
+"Keep screen on" = "Не выключать экран";
+"Page Transition" = "Переход";
+"Single" = "Одна страница";
+"Continuous" = "Непрерывно";
+"Curl" = "Загиб";
+"Scroll" = "Прокрутка";
+"Horizontal" = "Горизонтально";
+"Vertical" = "Вертикально";
+"Page Mode" = "Просмотр страниц";
+"Automatic" = "Авто";
+"Double" = "Две страницы";
+"Appearance" = "Внешний вид";
+"Scrubber Bar" = "Панель прокрутки";
+"Jump" = "По одной странице"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Недоступно"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Подгонка";
+"Fit" = "Подогнать";
+"Fill" = "Заполнить";
+"Adaptive" = "Адаптивная";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "У %@ нет доступа к фото.";
+"%@ does not have access to your camera." = "У %@ нет доступа к камере.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Настройки > Конфиденциальность";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Чтобы включить доступ, откройте %@.";
+
+"Update Required" = "Требуется обновление";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Для доступа к документу и синхронизации аннотаций необходимо обновить %@.";
+
+
+// Annotation Replies
+"Comment" = "Комментарий";
+"Comments" = "Комментарии";
+"Add your comment…" = "Добавьте комментарий…";
+"Delete Comment" = "Удалить комментарий";
+"Set Status" = "Задать статус";
+"Cancelled" = "Отменено";
+"Accepted by" = "Кем принято:";
+"Rejected by" = "Кем отклонено:";
+"Completed by" = "Кем завершено:";
+"Cancelled by" = "Кем отменено:";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Указатель вправо";
+"Right Arrow" = "Стрелка вправо";
+"Checkmark" = "Флажок";
+"Circle Note" = "Круг";
+"Cross" = "Крестик";
+"Insert Text" = "Вставить текст";
+"New Paragraph" = "Новый абзац";
+"Text Note" = "Записка";
+"Paragraph" = "Абзац";
+"Help" = "Справка";
+"Star" = "Звездочка";
+"Key" = "Ключ";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Голубой";
+"Light Red" = "Бледно-красный";
+"Light Green" = "Бледно-зеленый";
+"Fuchsia" = "Фуксия";
+"Page %tu of %tu" = "Страница %tu из %tu";
+"Preparing document for printing…" = "Подготовка документа к печати…";
+"Are you sure you want to delete this annotation?" = "Действительно удалить эту аннотацию?";
+"Confirm annotation deletion" = "Подтвердить удаление аннотации";
+"Page Rotation" = "Поворот страницы";
+"Rotate Left" = "Повернуть влево";
+"Rotate Right" = "Повернуть вправо";
+"%@ (not supported)" = "%@ (не поддерживается)";
+"Pan Mode" = "Панорамирование";
+"Fit Page" = "По размеру страницы";
+"Fit Width" = "По ширине";
+"Password Required" = "Требуется пароль";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Для просмотра документа его необходимо разблокировать. Введите пароль в поле ниже.";
+"The password you entered is not correct. Please try again." = "Неверный пароль. Повторите попытку.";
+"Clear Signature" = "Очистить подпись";
+"Top" = "По верхнему краю";
+"Bottom" = "По нижнему краю";
+"Vertical Alignment" = "Вертикальное выравнивание";
+"Horizontal Alignment" = "Горизональное выравнивание";
+"Light Orange" = "Бледно-оранжевый";
+"Light Yellow" = "Бледно-желтый";
+"Mauve" = "Бледно-лиловый";
+"Light Gray" = "Светло-серый";
+"Dark Gray" = "Темно-серый";
+"NoColor" = "Нет";
+"Transparent" = "Прозрачный";
+// Generic label for bookmark
+"Bookmark" = "Закладка";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Новая закладка";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Действительно удалить эту закладку?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Подтвердить удаление закладки";
+// Label for the select image field
+"Select Image" = "Выбрать изобр.";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "Меню инструментов %@, открыть или закрыть";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Неподдерживаемый тип визуальной заметки:  %@. Используйте JPEG или PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Инструмент «Увеличить выделенное»";
+"Toolbar_TextHighlighter" = "Текстовый маркер";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Панель инструментов аннотирования";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Окно просмотра документа";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Идет внесение исправлений";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Сигнализирует, что идет внесение исправлений в текущий документ";
+"Icon" = "Значок";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Переместить";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Переместить страницу:";
+// The label of the button on the Move UI
+"move" = "Переместить";
+"selectedItem" = "%@, выбрано.";
+"annotationDeleted" = "Аннотация удалена.";
+"newAnnotationCreated" = "Создана новая аннотация вида %@.";
+"bookmarkCreated" = "Закладка создана.";
+"bookmarkEdited" = "Закладка отредактирована.";
+"bookmarkDeleted" = "Закладка удалена.";
+"cancelledEditingBookmark" = "Редактирование закладки отменено.";
+"selectAFileForImage" = "Выберите файл для новой визуальной заметки.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Диалоговое окно, позволяющее подтвердить удаление аннотации или отменить операцию.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Диалоговое окно, позволяющее подтвердить удаление закладки или отменить операцию.";
+"deleteCommentConfirmAccessibilityDescription" = "Диалоговое окно, позволяющее подтвердить удаление комментария или отменить операцию.";
+"resize" = "Изменить размер";
+"resizeHandleTop" = "Вверху";
+"resizeHandleBottom" = "Внизу";
+"resizeHandleRight" = "Справа";
+"resizeHandleLeft" = "Слева";
+"cropCurrentPage" = "Обрезать текущую страницу";
+"cropCurrent" = "Обрезать текущую";
+"cropAllPages" = "Обрезать все страницы";
+"cropAll" = "Обрезать все";
+"documentCrop" = "Обрезка документа";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Вставить после страницы";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Введите 0, чтобы переместить выбранную страницу(-ы) в начало документа.";
+
+// Blend Mode Strings
+"Normal" = "Обычный";
+"Multiply" = "Умножение";
+"ScreenBlend" = "Осветление";
+"Overlay" = "Перекрытие";
+"Darken" = "Замена темным";
+"Lighten" = "Замена светлым";
+"ColorDodge" = "Осветление основы";
+"ColorBurn" = "Затемнение основы";
+"HardLight" = "Жесткий свет";
+"SoftLight" = "Мягкий свет";
+"Difference" = "Разница";
+"Exclusion" = "Исключение";
+"Multiple" = "Несколько";
+"Blend Mode" = "Режим наложения";
+
+// Image Document Strings
+"File type not supported." = "Тип файла не поддерживается.";
+"Could not load image file." = "Не удалось загрузить файл изображения.";
+"The image is too large to be opened." = "Изображение слишком большое, и его не удается открыть.";
+"Could not generate a PDF document from the image." = "Не удалось создать PDF-документ из изображения.";
+"Unnamed Image Document" = "Безымянный документ-изображение";
+"Annotations will remain editable and are embedded into the image." = "Аннотации останутся изменяемыми и встроенными в изображение.";
+"Annotations are drawn into the image and are readonly." = "Аннотации будут объединены с изображением и доступны только для чтения.";
+
+//Metadata Strings
+"Document Info" = "Сведения о документе";
+"Content" = "Содержимое";
+"Title" = "Заголовок";
+"Author" = "Автор";
+"Subject" = "Тема";
+"Keywords" = "Ключевые слова";
+"Not Set" = "Не задано";
+"NoneValue" = "Нет";
+"Security" = "Безопасность";
+"Document Open Password" = "Пароль на документ";
+"Not set, minimum 8 characters" = "Не задано; не меньше 8 символов";
+"Permissions" = "Права доступа";
+"Changes" = "Изменения";
+"Printing" = "Печать";
+"Content Copying for Accessibility" = "Копирование содержимого для универс. доступа";
+"Content Modification" = "Изменение содержимого";
+"High Quality Printing" = "Высокое качество печати";
+"Filling of Form Fields" = "Заполнение форм";
+"Document Assembly" = "Сборка документа";
+"Annotations and Forms" = "Аннотации и формы";
+"Content Copying" = "Копирование содержимого";
+"Number of Pages" = "Количество страниц";
+"File Size" = "Размер файла";
+"CreationDate" = "Создано";
+"ModDate" = "Изменено";
+"Creator" = "Содержимое создано";
+"Producer" = "Генератор PDF";
+"Info" = "Сведения";
+"Tap the Edit button to show all metadata fields." = "Коснитесь кнопки «Править» для показа всех полей метаданных.";
+"Document Owner Password" = "Пароль владельца документа";
+"Changes Are Locked" = "Изменения заблокированы";
+"Enter the Document Owner Password to make changes." = "Для внесения изменений введите пароль владельца документа.";
+"Incorrect Password" = "Неверный пароль";
+"Passwords" = "Пароли";
+"Modifying Content" = "Изменение содержимого";
+"Editing Annotations and Forms" = "Редактирование аннотаций и форм";
+"Filling Forms" = "Заполнение форм";
+"Copying Content" = "Копирование содержимого";
+"Copying Content for Accessibility" = "Копирование содержимого для универс. доступа";
+"Could Not Save" = "Сбой при сохранении";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Чтобы установить пароль для открытия документа, необходимо предварительно назначить пароль владельца документа.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Путь к файлу";
+"Identical Passwords" = "Одинаковые пароли";
+"Choose a different Owner or Open password." = "Назначьте другой пароль владельца или пароль для открытия.";
+"Owner Password Required" = "Требуется пароль владельца";
+"An owner password is required to change the permissions of a document." = "Для изменения прав доступа к документу требуется пароль владельца.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "В отличие от некоторых других приложений для просмотра PDF, в данном приложении ограничения доступа не учитываются.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Выбрано: %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Выбрано: %@, содержимое: %@";
+// Accessibility string for comment threads
+"commentThread" = "Ветка комментариев";
+"printProgressModalDesc" = "Сигнализирует, что идет подготовка документа к печати";
+"printProgressModal" = "Идет печать";
+"documentEditorDesc" = "Внести изменения в текущий документ";
+"reloadDocumentDialog" = "Подтвердить повторную загрузку документа";
+"reloadDocumentDialogDesc" = "Диалоговое окно с просьбой пользователю подтвердить повторную загрузку документа.";
+"signatureDialog" = "Подпись";
+"signatureDialogDesc" = "Это диалоговое окно позволяет выбрать рукописную подпись и вставить в документ, или же создать новую подпись.";
+"stampAnnotationTemplatesDialog" = "Шаблоны штампов";
+"stampAnnotationTemplatesDialogDesc" = "Это диалоговое окно позволяет выбрать штамп и вставить в документ в качестве аннотации, или же создать новый штамп с собственным текстом.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Исправление";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Метка исправления";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Внесенное исправление";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Цвет обводки";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Перекрывающий текст";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Повторять текст";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Цвет текста";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Сведения об исправлении";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "В этот документ были внесены исправления, удаляющие информацию. Применить их?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Применить";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Удаление контента из документа выполняется в два этапа. Сначала выделите нужные фрагменты с помощью меток исправления. Затем коснитесь красного символа ▵ в нижнем правом углу и примените ваши изменения, чтобы безвозвратно удалить контент.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Применить исправления";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Очистить исправления";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Включить просмотр исправлений";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Отключить просмотр исправлений";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Если применить исправления, информация будет удалена из документа безвозвратно.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Сохранить в новый файл";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Внести исправления в этот документ";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Исправление…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Не удалось внести исправления в документ.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Контент, помеченный к исправлению, не будет удален при сохранении документа. Продолжить?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Внести исправления в текущий документ";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Сохранить документ с исправлениями как";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ — с исправлениями";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Исправить область";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Исправить текст";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Применение исправлений";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Идет подписание";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Сигнализирует, что идет подписание текущего документа";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Ваш текст для перекрытия";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Восстановить файл";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Файл отсутствует";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "Файл «%@» был удален вне приложения. Закрыть документ или восстановить файл?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Конфликт";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "Файл «%@» был изменен вне приложения. Если сохранить документ, это сотрет сторонние изменения.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Сохранить изменения";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Коснитесь для загрузки медиафайла.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Не удалось загрузить медиафайл для этой аннотации из-за проблем с соединением. Повторите попытку позже.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Коснитесь, чтобы попытаться загрузить медиафайл еще раз.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Не удалось найти медиафайл для этой аннотации. Если после успешной синхронизации документа это сообщение не исчезает, пожалуйста, сообщите о проблеме в техподдержку и укажите следующую информацию: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Коснитесь для отмены загрузки";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "При загрузке медиафайла произошел непредвиденный сбой. Ошибка %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Ссылка на страницу";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Ссылка на веб-сайт";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Номер страницы";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Выбор страницы";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Вставить из буфера";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Предварительный просмотр сайта";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Адрес сайта";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Назад";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Вперед";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Палитры";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Недавние";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Стандартная палитра";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Оттенки";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Тон";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Насыщенность";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Яркость";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Шестнадцатеричное значение цвета";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Введенное значение не является цветом.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Вставить из буфера обмена";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Переплет страницы";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Левое поле";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Правое поле";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Неизвестно";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Слева";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Справа";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Порядок";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "На передний план";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Вперёд";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Назад";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "На задний план";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Дублировать";
+"DocumentEditor_Extract" = "Извлечь";
+"General_SelectNone" = "Снять выбор всех";
+"DocumentEditor_NewPage" = "Новая страница";
+"DocumentEditor_InstantModifiedWarning" = "Документ был изменен и находится в режиме «только чтение». Перезагрузите страницу, чтобы выйти из этого режима.";
+"DocumentEditor_MoveBefore" = "Переместить вперед";
+"DocumentEditor_MoveAfter" = "Переместить назад";
+"DocumentEditor_DocumentMergedHere" = "Документы будут объединены здесь";
+
+// Android Strings
+"FileSystemPermission" = "Похоже, вы запретили приложению доступ к файловой системе. Для просмотра и редактирования файлов PDF на устройстве перейдите в настройки приложения и вручную активируйте соответствующие права доступа.";
+"Button_OpenSettings" = "Открыть «Настройки»";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Показать больше";
+// Button to show less comments
+"Comments_ShowLess" = "Показать меньше";
+// Button to reply to a comment
+"Comments_Reply" = "Ответить";
+// Button to show all comments
+"Comments_ShowAll" = "Показать все";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Действительно удалить этот комментарий?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Подтвердить удаление комментария";
+// Verb for Comment
+"Comment_Action" = "Комментировать";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Документ был подписан цифровым образом, и все подписи действительны.";
+"DigitalSignatures_DocModified" = "Документ был подписан цифровым образом, но содержимое документа было изменено после подписания.";
+"DigitalSignatures_SignatureWarning" = "Документ был подписан цифровым образом, но как минимум одна подпись является проблематичной.";
+"DigitalSignatures_SignatureWarningDocModified" = "Документ был подписан цифровым образом, но содержимое документа было изменено после подписания, и как минимум одна подпись является проблематичной.";
+"DigitalSignatures_SignatureError" = "Документ был подписан цифровым образом, но как минимум одна подпись недействительна.";
+"DigitalSignatures_SignatureErrorDocModified" = "Документ был подписан цифровым образом, но содержимое документа было изменено после подписания, и как минимум одна подпись недействительна.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Не удалось начать запись";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Не удалось остановить запись";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Не удалось вставить страницы";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Не удалось запросить сертификат подписи";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Не удалось добавить к документу подпись";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "При попытке открыть файл произошла неизвестная ошибка.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Режим чтения";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "От руки";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Изображение";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "С клавиатуры";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Место подписи";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Наберите здесь вашу подпись";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Сохранить подпись";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Выберите или перетащите сюда изображение";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Выбрать изображение";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Заменить изображение";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Файлы";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Новая подпись";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Включено";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Выключено";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "добавление аннотации";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "добавление аннотаций";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "добавление комментария";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "изменение статуса комментария";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "изменение типа аннотации";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "изменение выделения";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "очистку аннотаций";
+// Command of cutting.
+"Undo_Cut" = "вырезание";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "распознавание формы";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "рисование";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "перетаскивание";
+// Command of editing text of a comment.
+"Undo_EditComment" = "правку комментария";
+// Command of editing text inside text fields.
+"Undo_EditText" = "правку текста";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "стирание";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "группировку";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "объединение";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "редактирование аннотации";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "редактирование аннотаций";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "перемещение аннотации";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "перемещение аннотаций";
+// Command of pasting.
+"Undo_Paste" = "вставку";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "удаление аннотации";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "удаление аннотаций";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "удаление комментария";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "удаление комментариев";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "изменение размера аннотации";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "изменение размера аннотаций";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "поворот аннотации";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "поворот аннотаций";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "разгруппировку";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Выровнять";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Выровнять документы";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Выбор точки";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Старый";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Новый";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Сравнение";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Выберите по три точки в каждом документе, чтобы выровнять и совместить их вручную. Лучше всего выбирать точки по краям, расположенные в обоих документах в одинаковом порядке.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Закрыть";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Выровнять документы";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Сравнение документов";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Старый документ";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Новый документ";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Сброс";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Выбор точек";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Выровнять…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Выбор точек";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Точка %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Выбрано: %1$tu из %2$tu в документе «%3$@»";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Точка %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Цель выбора точек";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Волнистый прямоугольник";
+"DashedRectangleAnnotation" = "Пунктирный прямоугольник";
+"CloudyEllipseAnnotation" = "Волнистный эллипс";
+"DashedEllipseAnnotation" = "Пунктирный эллипс";
+"CloudyPolygonAnnotation" = "Волнистый многоугольник";
+"DashedPolygonAnnotation" = "Пунктирный многоугольник";
+"CloudAnnotation" = "Облачко";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Без заливки";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Не удалось загрузить сохраненные аннотации";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Не удалось сохранить аннотации";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Расстояние";
+"PerimeterMeasurement" = "Периметр";
+"PolygonalAreaMeasurement" = "Площадь многоугольника";
+"RectangularAreaMeasurement" = "Площадь прямоугольника";
+"EllipticalAreaMeasurement" = "Площадь эллипса";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Повернуть против часовой стрелки";
+"Rotate_Clockwise" = "Повернуть по часовой стрелке";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Задайте описание";
+// "New option button text"
+"FormDesigner_addOption" = "Добавить опцию";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Свойства поля «{formFieldType}»";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Поле формы «{formFieldName}» уже существует. Выберите другое имя.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Стиль поля «{formFieldType}»";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Имя поля";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Значение по умолчанию";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Многострочный текст";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Для группировки все кнопки переключателя должны иметь одинаковое имя поля.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Дополнительно";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Имя автора";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Примечание";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Собственные данные";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Обязательное поле";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Только чтение";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Дата создания";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Дата обновления";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Только сериализуемые объекты JSON";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Цвет рамки";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Толщина рамки";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Стиль рамки";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Печать";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Сплошная";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Пунктирная";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Объемная";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Вставка";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Только снизу";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Стиль текста";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Размер шрифта";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Цвет шрифта";
+// "Button Field"
+"FormDesigner_button" = "Поле кнопки";
+// "Text Field Button"
+"FormDesigner_textField" = "Текстовое поле";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Поле переключателя";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Поле для флажка";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Поле для комбинированного списка";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Поле для списка";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Поле для подписи";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Текст на кнопке";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "Метка";
+// Value for form field
+"FormDesigner_value" = "Значение";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Правка после создания невозможна.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Имя поля формы не может быть пустым.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Инструмент создания формуляров";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Выбор нескольких";
+"FormDesigner_readOnlyProperty" = "Только чтение";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Параметры";
+
+// Measurement tools
+"MeasurementScale" = "Масштаб";
+"MeasurementCalibrateLength" = "Калибровка длины";
+"MeasurementPrecision" = "Точность";
+"MeasurementSnapping" = "Привязка";
+"MeasurementPrecision_Whole" = "Целые";
+"MeasurementPrecision_OneDecimalPlace" = "Один знак после запятой";
+"MeasurementPrecision_TwoDecimalPlaces" = "Два знака после запятой";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Три знака после запятой";
+"MeasurementPrecision_FourDecimalPlaces" = "Четыре знака после запятой";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Площадь";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Мультимедийная аннотация";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Этот браузер не поддерживает внедренные видео- и аудиофайлы.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Настройки ссылки";
+// Label for selection of link type (website - page).
+"linkTo" = "Ссылка на";
+// Label for website selection.
+"uriLink" = "Сайт";
+// Label for page selection.
+"pageLink" = "Страницу";
+// Text for preceding number for page link number.
+"linkToPage" = "Ссылка на страницу %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Введите допустимый номер страницы.";
+// Error message for invalid page link.
+"invalidPageLink" = "Задайте допустимую ссылку на страницу.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Параметры измерения ({measurementType})";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Выбрать несколько аннотаций";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Меню инструментов %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Для просмотра документа его необходимо разблокировать. Введите пароль в поле ниже.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Аноним";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Опции комментария";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Править содержимое";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Параметры измерения периметра";
+"Distance_Popover_Title" = "Параметры измерения расстояния";
+"Rectangle_Area_Title" = "Параметры измерения площади прямоугольника";
+"Polygon_Area_Title" = "Параметры измерения площади многоугольника";
+"Ellipse_Area_Title" = "Параметры измерения площади эллипса";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Жирный";
+"Italic" = "Курсив";
+
+// Button to save and then close current context
+"Save_And_Close" = "Сохранить и закрыть";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Показать всплывающую подсказку об отсутствии шрифтов";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Шрифт «%@» недоступен или не может использоваться для редактирования этого документа. Добавленный или измененный текст будет показан стандартным шрифтом.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Встроить";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Вклеить";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Игнорировать";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Сводка";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Выберите начальную страницу";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Выберите конечную страницу";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "по";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Поворот";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Правка содержимого";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "Документ «%1$@» содержит несохраненные изменения.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Несколько шрифтов";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Неизвестный шрифт";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Несколько размеров шрифта";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Уменьшить размер";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Увеличить размер";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Несколько цветов шрифта";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ жирный";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ курсив";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ жирный курсив";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Открыть ветку комментариев, начатую %@: «%@»";
+
+// More comments indicator in comments popover
+"MoreComments" = "Еще комментарии";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Диапазон страниц";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Новый собственный цвет";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Редактор контента";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Найти выбранное";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Искать в интернете";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Целые дюймы";
+"MeasurementPrecision_Halves" = "Половина дюйма";
+"MeasurementPrecision_Quarters" = "Четверть дюйма";
+"MeasurementPrecision_Eighths" = "Одна восьмая дюйма";
+"MeasurementPrecision_Sixteenths" = "Одна шестнадцатая дюйма";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Цепь сертификатов, использованная для подписи документа, пуста.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Тип цифровой подписи не поддерживается.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Цифровая подпись содержит недействительную метку времени, или в информацию о времени внесены несанкционированные изменения.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Параметры измерения";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Добавить шкалу";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Использовать инструмент калибровки";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Калибровка шкалы";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Шкала";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Доп. единицы";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Единица измерения";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "При удалении шкалы все замеры, сделанные с ее использованием, также будут удалены.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Эта шкала уже используется";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Отредактировать шкалу или использовать существующую?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Исп. существующую";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Без имени";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Привязка к точке";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Привязка к линии";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Показать смарт-направляющие";
+
+// Label for the add text box button
+"AddTextBox" = "Добавить текстовое поле";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Действительно удалить это текстовое поле?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Подтвердить удаление текстового поля";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Диалоговое окно, позволяющее подтвердить удаление текстового поля или отменить операцию";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Только чтение";
+"locked" = "Заблокировано";
+"lockedContent" = "Содержимое заблокировано";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Масштаб добавлен";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "«%@» добавлен в список вариантов масштаба.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Значок параметров измерения";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Значок, сигнализирующий, что не задан масштаб измерения";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Документ подписан в формате %@ пользователем %@ %@ в %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Заявлено подписание документа в формате %@ пользователем %@ %@ в %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Алгоритм: %@ с %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Извлечь страницы";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Имя шкалы";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Шкала с такими параметрами уже задана. Выберите другую шкалу.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Отображать доп. единицы";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Редактировать или добавить шкалу";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Калибровка";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Слои";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Нет слоев";
+
+"The certificate is not yet valid" = "Сертификат еще не вступил в силу.";
+"Signature validation failed - invalid signature" = "Подпись недействительна.";
+"The certificate has been revoked" = "Сертификат был отозван.";
+"Certificate problem" = "Проблема с сертификатом.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Не удалось проверить, не отозван ли сертификат.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Межстрочный интервал";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Одинарный";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Двойной";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Выбрать еще…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Измерение";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Перезагрузить документ";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Инновации в сфере безбумажной работы: low-code решения и инструменты для всех крупных платформ, для разработчиков и конечных пользователей.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Действие";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Сочетание клавиш";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Упоминание";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Открыть диал. окно справки";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Подробнее";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Фокус на панели инструментов";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Недостаточно памяти для отображения этой страницы.";

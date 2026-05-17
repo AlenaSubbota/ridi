@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "关闭";
+"Cancel" = "取消";
+"OK" = "好";
+"Open" = "打开";
+"Untitled" = "未命名";
+"File Not Found" = "未找到文件";
+"File couldn't be opened." = "无法打开文件。"; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "未命名 PDF";
+"Page %tu" = "第 %tu 页";
+"Page %@" = "第 %@ 页";
+"Next" = "下一步";
+"Previous" = "上一页";
+"Error" = "错误";
+"More options" = "更多选项";
+"Close Tab" = "关闭选项卡";
+"Close All Tabs" = "关闭所有选项卡";
+"Close All Other Tabs" = "关闭所有其他选项卡"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "绘画";
+"Highlighter" = "自由高亮显示";
+
+// toolbar
+"Outline" = "大纲"; // Table of contents
+"No Outline" = "无大纲";
+"Search Outline" = "搜索大纲";
+"Search" = "搜索";
+"Email" = "电子邮件";
+"Send via Email" = "通过电子邮件发送";
+"Send" = "发送";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "通过短信分享";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "通过电子邮件分享";
+"Open In" = "打开程序";
+"Commit" = "提交";
+"Sending to %@" = "正在发送至 %@"; // Open document with an application
+"Pages" = "页";
+"Print with annotations" = "连同批注打印";
+"Print without annotations" = "不含批注打印";
+"No Applications found" = "没有安装可以打开 PDF 文稿的应用程序。";
+"Print" = "打印";
+"Annotation" = "批注";
+"Annotations" = "批注";
+"No Annotations" = "没有批注";
+"Bookmarks" = "书签";
+"No Bookmarks" = "没有书签";
+"Add Bookmark" = "添加书签";
+"Remove Bookmark" = "移除书签";
+"Brightness" = "亮度";
+"Share" = "共享";
+"Preparing" = "正在准备";
+"Loading" = "正在加载";
+"Expand" = "展开";
+"Collapse" = "折叠";
+// SMS / iMessage sharing button
+"Message" = "信息";
+"Thumbnails" = "缩略图";
+"Drag Toolbar" = "拖动工具栏";
+
+// thumbnails
+"Bookmarked" = "已加书签";
+"Annotated" = "已加批注";
+"All" = "全部";
+"Loading Annotations" = "加载批注";
+"Loading Pages" = "加载页面";
+"Loading Bookmarks" = "加载书签";
+
+// password
+"Password" = "密码"; // text on a label
+"Unlock" = "解锁";
+"Please enter the password." = "请输入密码。";
+"This document cannot be unlocked." = "此文稿无法解锁。";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "密码字段";
+
+// page
+"%tu of %tu" = "%tu/%tu";
+"%tu–%tu of %tu" = "%tu–%tu/%tu";
+"%@ (%tu of %tu)" = "%@ (%tu/%tu)";
+"%@, Page %tu" = "%@，第 %tu 页";
+"Leave %@?" = "离开 %@？";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@页 (%tu–%tu页，共%tu页)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu页 (%tu–%tu页，共%tu页)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@页 (%tu–%tu页，共 %tu页)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "搜索文稿"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "正在搜索第 %tu 页（共 %tu 页）";
+"Search Completed" = "搜索完成";
+"Search Cancelled" = "搜索取消";
+"%tu left" = "剩下 %tu"; // Indexing Documents... 5 left
+"Searching" = "正在搜索";
+"Done" = "完成";
+"Indexing Documents" = "正在检索文稿";
+"Document" = "文稿";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "搜索批注";
+
+// inline browser
+"Open in Safari" = "在 Safari 中打开";
+"Open in Chrome" = "在 Chrome 中打开";
+"Your %@ is not configured to send emails." = "您的 %@ 未经配置，无法发送电子邮件。";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "此链接正在请求打开 %1$@。%2$@ 是否继续？"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "一个外部应用程序"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "邮件"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "没有找到 %@ 的处理程序";
+
+// text selection
+"Text copied to clipboard." = "文本已复制到剪贴板。";
+"Save to Photo Library" = "存储至图库";
+"Failed to extract image." = "提取图像失败。";
+"Type value or pick from list" = "键入值或从列表中选取";
+
+// annotations
+"Add %@" = "添加 %@";
+"Remove %@" = "移除 %@";
+"Remove" = "移除";
+"Delete" = "删除"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "编辑";
+"Undo" = "撤销";
+"Nothing to undo" = "没有要撤销的操作";
+"Redo" = "重做";
+"Nothing to redo" = "没有要重做的操作";
+"Type" = "类型"; // kind of Annotation can be selected
+"Size" = "大小";
+"Font" = "字体";
+"Fonts" = "字体";
+"All Fonts" = "所有字体";
+"Downloadable Fonts" = "可下载字体";
+"Search Fonts" = "搜索字体";
+"Choose Color" = "选择颜色";
+"Choose Fill Color" = "选择填充颜色";
+"Rainbow" = "彩虹";
+"Monochrome" = "单色";
+"Vintage" = "复古";
+"Modern" = "现代";
+"ColorPalette_Unified" = "调色板";
+"Color" = "颜色";
+"Border" = "边框";
+"Fill Color" = "填充颜色";
+"Start and End Color" = "开始和结束颜色";
+"Opacity" = "不透明度";
+"Thickness" = "粗细";
+"%@ pt" = "%@ 磅";
+"Yellow" = "黄色";
+"Green" = "绿色";
+"Red" = "红色";
+"Blue" = "蓝色";
+"Pink" = "粉色";
+"Black" = "黑色";
+"Orange" = "橙色";
+"Purple" = "紫色";
+"Cyan" = "青色";
+"Gray" = "灰色";
+"White" = "白色";
+"Color_Brown" = "棕色";
+"Color_DarkRed" = "深红";
+"Color_DarkBlue" = "深蓝";
+"Color_Magenta" = "洋红";
+"Define" = "定义";
+"Wikipedia" = "维基百科";
+"Highlight" = "文本高亮显示";
+"Underline" = "下划线";
+"Squiggly" = "波形曲线";
+"StrikeOut" = "删去";
+"Rectangle" = "矩形";
+"Ellipse" = "椭圆";
+"Line" = "直线"; // something that can be drawn
+"Polygon" = "多边形";
+"Signature" = "签名";
+"Signatures" = "签名";
+"Signed" = "已签名";
+"Sign" = "签名";
+"Signing…" = "正在签署…";
+"Sign using %@" = "使用 %@ 签名"; // e.g. Adobe.PPKLite
+"Methods" = "方法"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "选择身份"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "印章";
+"Stamps" = "印章";
+"Custom" = "自定"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "创建印章";
+"Preview" = "预览";
+"Stamp Text" = "印章文本";
+"Add Signature" = "添加签名";
+"Remove Signature" = "移除签名";
+"My Signature" = "我的签名";
+"No Signatures" = "没有签名"; // text on label - is shown when there is no signature to display
+"Please sign here" = "请在这里签名";
+"Text" = "注释";
+"FreeText" = "文本";
+"Delete Note" = "删除注释";
+"Remove Note" = "移除注释";
+"%@ could not be found." = "无法找到 %@。";
+"Photo Library" = "图库";
+"Camera" = "相机";
+"camera_not_available" = "相机不可用";
+"Image" = "图像";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "选择图像画质";
+"Low Quality" = "低质量";
+"Medium Quality" = "中等质量";
+"High Quality" = "高质量";
+"Clear All" = "清除全部";
+"Clear" = "清除";
+"Style" = "样式";
+"Link" = "链接";
+"Ink" = "绘画";
+"Screen" = "屏幕";
+"RichMedia" = "富媒体";
+"FileAttachment" = "文件";
+"Left" = "剩下";
+"Center" = "中心";
+"Right" = "右转";
+"Alignment" = "对齐";
+"Preview File" = "预览文件";
+"Copy" = "拷贝";
+"Paste" = "粘贴";
+"Inspector" = "检查器";
+"Group" = "群组";
+"Ungroup" = "取消群组";
+"Merge" = "合并"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "样本";
+"Annotation Summary for %@:" = "%@ 批注摘要：";
+"Show Text" = "显示文本";
+// title
+"Author Name" = "作者姓名";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "请输入您要为新插入的批注使用的作者姓名。";
+// text field placeholder
+"Name" = "姓名";
+// meaning: close
+"Dismiss" = "消除";
+"Fit to Text" = "适配文本";
+"Draw" = "绘图";
+"Sound" = "声音";
+"Eraser" = "橡皮";
+"Toggle Eraser" = "切换橡皮"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "选择工具";
+"Add" = "添加"; // to add - infinitive
+"Date" = "日期";
+"Time" = "时间";
+"No Pages" = "没有页面";
+"Drag to resize" = "拖动调整尺寸"; // used as hint that inspector is resizable
+"Convert to" = "转换为"; // used as label on action that changes free text intent type
+"Color Presets" = "颜色预设";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "颜色预设";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "剪切";
+"Annotation copied." = "批注已拷贝。";
+"Annotation cut." = "批注已剪切。";
+"Annotation pasted." = "批注已粘贴。";
+"%tu selected" = "已选择 %tu";
+"Custom Stamp" = "自定义印章";
+"Change text and color" = "更改文本和颜色";
+"Use an existing stamp design" = "使用现有印章设计";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "神奇墨水";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "加载字体 '%@' 字号 %@ 失败";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "样式检查器";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "您确定要清除全部批注吗？";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "批注创建已停用";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "有批注";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "文字批注";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "对号";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "差号";
+
+"Callout" = "标注"; // freetext annotation with an arrow
+"Generic" = "通用"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "线型";
+"Solid" = "实线";
+"Narrow Dots" = "窄点";
+"Wide Dots" = "宽点";
+"Narrow Dashes" = "窄虚线";
+"Wide Dashes" = "宽虚线";
+"Cloudy" = "模糊"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "已批准";
+"Not Approved" = "未批准";
+"Draft" = "草案";
+"Final" = "最终";
+"Completed" = "已完成";
+"Confidential" = "机密";
+"For Public Release" = "公开发布";
+"Not For Public Release" = "非公开发布";
+"For Comment" = "添加注释";
+"Void" = "无效";
+"Preliminary Results" = "初步结果";
+"Information only" = "仅供参考";
+"Accepted" = "已接受";
+"Rejected" = "已拒绝";
+"Initial Here" = "在这里首字母签名";
+"Sign Here" = "在此签名";
+"Witness" = "见证";
+"Revised" = "已修订";
+"Stamp.AsIs" = "原样";
+"Stamp.Departmental" = "部门";
+"Stamp.Experimental" = "实验";
+"Stamp.Expired" = "已过期";
+"Stamp.Sold" = "已售";
+"Stamp.TopSecret" = "绝密";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "触笔";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "关";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "扫描";
+// text on a label; app connects to a stylus
+"Pairing" = "配对";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ 已连接";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ 已断开连接";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "设置";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "使用 Apple Pencil 进行批注";
+
+// PDF annotation name overrides
+"Square" = "矩形";
+"Circle" = "椭圆";
+"PolyLine" = "折线";
+"SavedAnnotations" = "保存批注";
+
+// named actions
+"NextPage" = "下一页";
+"PrevPage" = "上一页";
+"FirstPage" = "第一页";
+"LastPage" = "最后页";
+"GoBack" = "返回";
+"GoForward" = "前进";
+"GoToPage" = "前往页面";
+"Find" = "查找";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "放大";
+"ZoomOut" = "缩小";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "富媒体操作";
+"Rendition Action" = "转绘操作";
+"Hide Action" = "隐藏操作";
+"Submit Form" = "提交表格";
+"Reset" = "重置";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "返回";
+// Description of the select all text keyboard shortcut.
+"Select All" = "全选";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "选择以上项目";
+"KeyCommand.SelectBelow" = "选择以下项目";
+"KeyCommand.SelectTop" = "选择顶部项目";
+"KeyCommand.SelectBottom" = "选择底部项目";
+"KeyCommand.ClearSelection" = "清除选择";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "展开部分";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "折叠部分";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "显示下一个选项卡";
+"KeyCommand.ShowPreviousTab" = "显示上一个选项卡";
+"KeyCommand.SelectAllAnnotations" = "选择所有批注";
+
+// line annotations
+"Start" = "开始";
+"End" = "结束";
+"Line.None" = "无";
+"Line.ClosedArrow" = "闭合箭头";
+"Line.OpenArrow" = "开放箭头";
+"Line.Square" = "方框";
+"Line.Circle" = "圆圈";
+"Line.Diamond" = "菱形";
+"Line.ROpenArrow" = "倒转开放箭头";
+"Line.RClosedArrow" = "倒转闭合箭头";
+"Line.Slash" = "斜线";
+"Line.Butt" = "对接";
+"Line Start" = "直线起点";
+"Line End" = "直线终点";
+"Arrow" = "箭头"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "创建链接";
+"Add Link" = "添加链接";
+"Edit Link" = "编辑链接";
+"Move Link" = "移动链接";
+"Remove Link" = "移除链接";
+"Open Link" = "打开链接";
+"Go to Page %tu" = "前往第 %tu 页";
+"Go to Page" = "前往页面"; // title of a Popup
+"Go" = " 前往"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "拷贝 URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "拷贝链接";
+"Save" = "保存";
+"Link Destination" = "链接目标";
+"Enter page index or a http:// address to link to an URL." = "输入页面检索或 http:// 地址链接到 URL。";
+"Page %@ Not Found" = "未找到第 %@ 页";
+"Add to Reading List" = "添加到阅读列表";
+
+"Link annotation creation failed." = "链接批注创建失败。";
+"Link annotation successfully created." = "链接批注创建成功。";
+"Entered text could not be converted to an Integer nor URL." = "输入的文本无法转换成整数或 URL。";
+
+// voiceover accessibility
+"Grid" = "网格"; // grid with thumbnails
+"Translucent" = "半透明";
+"left" = "左";
+"center" = "中心";
+"right" = "右";
+"decrease" = "减小";
+"increase" = "增加";
+"All Open Documents" = "全部已打开文稿";
+"Add Documents" = "添加文稿"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "打开文件";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "多媒体控制";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "重置表单";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "显示操作";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "已命名操作";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "第 %tu 页 - 第 %tu 页"; // Range of pages
+"Current Page" = "当前页";
+"Current Page (%tu)" = "当前页 (%tu)";
+"Ignore Annotations" = "忽略批注";
+"The PDF will not contain any annotations." = "PDF 不再含有任何批注。";
+"Embed Annotations" = "嵌入批注";
+"Annotations will remain editable and are embedded into the PDF." = "批注将仍可以编辑且嵌入在 PDF 内。";
+"Flatten Annotations" = "平展批注";
+"Annotations are drawn into the PDF and are readonly." = "批注在 PDF 中渲染，而且只读。";
+"Annotation Summary" = "批注摘要";
+"Embed Annotations into the PDF and also list them in the email." = "将批注嵌入 PDF 中且将它们列在电子邮件中";
+"Annotations will be listed in a text file." = "批注将以文本的形式列出。";
+"Files" = "文件";
+"Send as single files" = "作为单个文件发送";
+"Merge files" = "合并文件";
+"Original File" = "原始文件";
+"Range" = "范围";
+"Annotated Pages" = "已加批注的页";
+"Message could not be sent." = "无法发送消息。";
+"Export" = "导出";
+"This action can't be performed." = "无法执行此操作。";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "不支持导出基于非文件的文稿";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "此文稿不含有注释。";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "无法共享文稿";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "文稿图像分享一次最多 %tu 页。";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "无法通过“信息”发送附件。";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "文稿不可打印。";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF 文稿";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "目标不可用";
+
+// sound annotations
+"Speak" = "朗读"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "播放";
+"Pause" = "暂停";
+"Resume" = "继续";
+"Stop" = "停止";
+"Play/Stop" = "播放/停止";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "录制";
+"Pause Recording" = "暂停录制";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "录制已暂停";
+"Continue Recording" = "继续录制";
+"Finish Recording" = "完成录制";
+"Audio Problem" = "音频问题";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "无法开始播放。";
+"Could not resume playback." = "无法继续播放。";
+"Microphone permission not granted." = "未授予麦克风访问权限。";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "抱歉，暂时无法录制音频。请授权本应用访问您的麦克风。";
+"There was a problem trying to record audio." = "抱歉，尝试录制音频时出现问题。";
+"Already Recording" = "已经录制";
+"You are already recording on page %@." = "您已经在第 %@ 页录制。";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "您似乎永久拒绝本应用程序取用麦克风。必须从应用程序设置页面手动允许取用麦克风才能录制笔记。";
+
+// Forms
+"Form Element" = "表单元素";
+"Text Field" = "文本字段";
+"Button" = "按钮";
+"Choice Field" = "选择字段";
+"Signature Field" = "签名字段";
+"Clear Field" = "清除字段"; // same as delete
+"Default Values" = "默认值";
+"Custom Value" = "自定值";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "搜索可用选项";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "值无效：必须不小于 %s。";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "值无效：必须不小于 %s 且不大于 %s。";
+"Invalid value: must be less than or equal to %s." = "值无效：必须不大于 %s。";
+"The value entered does not match the format of the field [%s]" = "输入的值与字段 [%s] 的格式不匹配";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "无效日期/时间：请确保日期/时间存在。字段 [%s] 应该与格式 %s 匹配";
+
+// General validation
+"Invalid value [%s]" = "无效值 [%s]";
+
+// Gallery
+"Connection Error" = "连接错误";
+"Unsupported Content" = "不支持的内容";
+"The specified content cannot be displayed." = "无法显示指定内容。";
+"Something went wrong" = "出现问题";
+"This item is currently unavailable." = "此项目前不可用。";
+"The information for this gallery could not be loaded." = "无法加载此画廊的信息。";
+"Content Error" = "内容错误";
+"This content is unsupported." = "不支持此内容。";
+
+// Signatures
+"Digital Signature" = "数字签名";
+"Signature is valid." = "签名有效。";
+"Signature is valid, but there are some warnings." = "签名有效，但是出现一些警告。";
+"It was signed by %@ on %@ at %@." = "由 %@ 于 %@ %@ 签名。"; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "它已于 %@ %@ 签名。";
+"It claims to have been signed by %@ on %@ at %@." = "它声称已由 %@ 于 %@ %@ 签名。"; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "它声称已于 %@ %@ 签名。";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "此签名中的修订尚未修改，然而在签名之后已对文稿作出更改。"; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "签名有效，且此文稿的内容自签名后没有修改。";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "无效签名 — 自本文稿内容签名后，它已被修改、 篡改或损坏。";
+"Unsigned Signature Field" = "未签名签名字段";
+"Do you really want to remove the signature from the document?" = "确实要将签名从文稿中移除？";
+"Could not retrieve the certificate from the signature." = "无法从签名检索证书。";
+"Could not retrieve the signature contents." = "无法检索签名内容。";
+"Could not retrieve the public key from the signature." = "无法从签名检索公共密钥。";
+"Could not retrieve the byte range of the signature." = "无法检索签名的字节范围。";
+"Could not understand the encryption padding." = "无法理解加密赘语。";
+"Could not compute the digest for the document." = "无法计算文稿的汇编。";
+"General failure while trying to determine document integrity." = "尝试确定文稿完整性时出现一般性问题";
+"Certificate chain is invalid." = "证书链无效。";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "无法验证证书链，因为没有提供可信的密钥。";
+"Document integrity success, but certificate is self signed." = "证书使用了自签名。";
+"Document integrity check failed." = "文稿完整性检查失败。";
+"The signing certificate is not trusted." = "签名证书不受信任。";
+"unknown time" = "未知时间";
+"unknown date" = "未知日期";
+"Digitally signed by {}" = "数字签名者 {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "日期：";
+"Reason: " = "原因：";
+"Location: " = "位置：";
+"Certificate" = "证书";
+"No Certificate" = "无证书";
+"No Certificates" = "无证书";
+"Store Signature" = "存储签名";
+"Add Trusted Certificate" = "添加可信的证书";
+"Add Signer" = "添加签名者";
+"Added Trusted Certificate" = "已添加可信的证书";
+"Added Signer" = "已添加签名者";
+"File doesn't match any certificate type" = "文件与任何证书类型不匹配";
+"Import Failed" = "导入失败";
+"Signature Area" = "签名区域";
+"Draw Signature Area" = "绘制签名区";
+
+// Signature Errors
+"Could not init PKCS7 object" = "无法初始化 PKCS7 对象";
+"Could not find signature" = "无法找到签名";
+"Could not hash the PDF document" = "无法杂凑 PDF 文稿";
+"Could not create padding for the digital signature" = "无法为数字签名创建赘语";
+"Could not verify the signature" = "无法验证签名";
+"Could not save the signed document" = "无法保存签名的文稿";
+"Cannot sign attributes" = "无法为属性签名";
+"The selected subfilter type for the signature is not supported" = "不支持选择的签名子筛选器类型";
+"Could not add signature to PKCS7 object" = "无法为 PKCS7 对象添加签名";
+"Could not write PKCS7 signature" = "无法写入 PKCS7 签名";
+"Could not create PKCS7 object" = "无法创建 PKCS7 对象";
+"Could not generate PKCS7 object" = "无法生成 PKCS7 对象";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "此文稿已经有签名，因此无法签名。";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "无法读取证书数据为 PKCS#7 证书。正确格式的数据可以从 Adobe Acrobat 导出。"; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "无法解密证书签名。";
+"The public key in the certificate could not be read." = "无法读取证书中的公共密钥。";
+"The signature of the certificate is not valid." = "证书签名无效。";
+"Signature is not valid." = "签名无效。";
+"There is a format error in the notBefore field of the certificate." = "证书的 notBefore 字段存在格式错误。"; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "证书的 notAfter 字段出现格式错误。"; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "没有签名可以验证，因为证书链仅含有一个证书，它不是自签名，颁发者未被信任。";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "CA 证书无效，因为它不是 CA 或者其扩展名与预期用途不一致。"; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "超出 basicConstraints 路径长度参数。"; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "根 CA 未标记为信任为其预期目的。"; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "根 CA 被标记为拒绝指定的用途。"; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "颁发者证书被拒绝，因为其主题名称与当前证书的颁发者名称不匹配颁发者"; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "颁发者证书被拒绝，因为其主题密钥标识符出现且与当前证书的办法机构密钥标识符不匹配。"; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "颁发者证书被拒绝，因为颁发者名称和序列号出现且与当前证书的颁发机构密钥标识符不匹配。"; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "证书被颁发者撤销。";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "通过的证书为自签名，在信任证书列表中找不到相同证书。";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "证书链中有自签名证书。证书链可以通过不受信任的证书建立，但是本地找不到根 CA。"; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "在签名层次结构中无法找到证书颁发机构 (CA) 之一的证书且此 CA 不受本地应用程序信任。"; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "无法找到本地查找的证书的颁发者证书。这通常意味着可信证书列表不完整。";
+"The certificate that was provided cannot be used for its intended purpose." = "提供的证书无法用于预期用途。";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "颁发者证书的 keyUsage 扩展名不允许证书签名。";
+"The certificate has expired." = "证书已过期。";
+"The certificate is not valid until a date in the future." = "证书在未来某日期之前无效。";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "无法从数据中读取 X509 证书";
+// X509 should not be translated
+"No X509 certificate found" = "未找到 X509 证书";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "无法读取 PKCS12 文件。文件格式错误或者损坏。";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "无法解锁 PKCS12 数据。您是否输入正确的密码？";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "无法解码 PKCS12 数据。数据可能格式不正确或不兼容。";
+"Could not unlock PKCS12 data." = "无法解锁 PKCS12 数据。";
+"Could not add signature." = "无法添加签名。";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "无法打开文件进行签字验证";
+"Could not get signer info" = "无法获得签名者信息";
+
+// Night Mode
+"Default" = "默认"; // Default view (night mode not enabled)
+"Sepia" = "棕褐色"; // Document uses sepia colors
+"Night" = "夜晚"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "未设置文稿";
+"Unable to display document" = "无法显示文稿";
+"Locked" = "已锁定";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "您尝试访问的文件不是 PDF 文件或者已经损坏。";
+"A password is required to access this document." = "访问此文稿需要密码。";
+"The security scheme of this document is currently not supported." = "目前不支持此文稿的安全机制。";
+"An unknown error has occured while trying to open this file." = "尝试打开此文件时发生未知错误。";
+
+// Document Editor
+"Document Editor" = "文稿编辑器";
+"Add Page" = "添加页面";
+"Delete Pages" = "删除页面";
+"Duplicate Pages" = "复制页面";
+"Move Pages" = "移动页面";
+"Rotate Pages" = "旋转页面";
+"Page Size" = "页面大小";
+"Background Color" = "背景颜色";
+"Paper" = "纸张";
+"Pattern" = "表单元素";
+"Use Document Size" = "使用文稿大小";
+"Orientation" = "方向";
+"Portrait" = "纵向";
+"Landscape" = "横向";
+"Document Name" = "文稿名称";
+"Documents" = "文稿"; // Name of directory
+"Use Document Folder" = "使用文稿文件夹";
+"Folder" = "文件夹";
+"Replace File?" = "替换文件？";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "在所选目标已经存在名称为 “%@” 的文件。是否要替换它？";
+"Replace" = "替换";
+"Saving…" = "正在保存…";
+"Saved" = "保存批注";
+"Save As…" = "另存为…";
+"Discard Changes" = "放弃更改";
+"Empty" = "无效";
+"Use Image Size" = "使用图片大小";
+"Page Background" = "页面背景";
+"Insert image annotation" = "插入图片批注";
+"Import page background" = "导入页面背景";
+"Quality" = "质量";
+"Low" = "低";
+"Medium" = "中等";
+"High" = "高";
+"Best" = "最佳";
+"Copy Pages" = "复制页面";
+"Paste Pages" = "粘贴页";
+"Copied" = "已拷贝";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” 有未保存的更改。是否要现在保存它们？";
+"Select Source Document" = "选择源文件";
+"Add After Page %tu" = "在第 %tu 页后添加";
+"Cut Pages" = "剪切页面";
+"Import Document" = "导入文稿";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "使用文件夹选取器";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "选取文件夹";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "选择所有页面";
+
+// Document Editor Errors
+"A blank document can not be saved." = "空文稿无法保存";
+"The document could not be saved." = "无法保存文稿。";
+"This document does not support editing." = "此文稿不支持编辑。";
+"The document could not be accessed." = "无法访问文稿。";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "暂时无法导入 PDF。";
+"The image could not be imported at this time." = "暂时无法导入图像。";
+
+// Page Patterns
+"None" = "无";
+"Dot5mm" = "点: 5毫米";
+"Grid5mm" = "网格: 5毫米";
+"Lines5mm" = "行: 5毫米";
+"Lines7mm" = "行: 7毫米";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "美国信函";
+"US Legal" = "美国正规";
+
+// Page Export
+"Export Pages" = "导出页面";
+"Export…" = "导出…";
+"Exporting…" = "正在导出…";
+"Exported" = "已导出";
+"%@ - Exported" = "%@ - 已导出"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - 拷贝"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "选择的文稿当前已经打开。请选择不同的文件名。";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "文本到语音转换服务不可用。确保您的网络处于连接状态或者您的设备安装并启用了 Google 文本到语音转换引擎。";
+
+// Settings
+"Page Layout" = "页面布局";
+"Scroll Direction" = "滚动方向";
+"Theme" = "主题";
+"Keep screen on" = "禁止屏幕进入待命状态";
+"Page Transition" = "页面过渡";
+"Single" = "单页";
+"Continuous" = "连续";
+"Curl" = "卷曲";
+"Scroll" = "滚动";
+"Horizontal" = "水平";
+"Vertical" = "垂直";
+"Page Mode" = "页面模式";
+"Automatic" = "自动";
+"Double" = "双页";
+"Appearance" = "外观";
+"Scrubber Bar" = "清理栏";
+"Jump" = "跳转"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "不可用"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "页面适配";
+"Fit" = "适配";
+"Fill" = "填充";
+"Adaptive" = "适应";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ 没有访问您的照片的权限。";
+"%@ does not have access to your camera." = "%@ 没有访问您的相机的权限。";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "隐私设置";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "您可以在 %@ 中启用访问权限。";
+
+"Update Required" = "需要更新";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "必须更新 %@ 才能访问文稿与同步批注。";
+
+
+// Annotation Replies
+"Comment" = "注释";
+"Comments" = "注释";
+"Add your comment…" = "添加您的注释…";
+"Delete Comment" = "删除注释";
+"Set Status" = "设置状态";
+"Cancelled" = "已取消";
+"Accepted by" = "接受者";
+"Rejected by" = "拒绝者";
+"Completed by" = "完成者";
+"Cancelled by" = "取消者";
+
+// Note Annotation Icon Types
+"Right Pointer" = "右指针";
+"Right Arrow" = "右箭头";
+"Checkmark" = "对号";
+"Circle Note" = "圆圈";
+"Cross" = "交叉";
+"Insert Text" = "插入文本";
+"New Paragraph" = "新段落";
+"Text Note" = "文本注释";
+"Paragraph" = "段落";
+"Help" = "帮助";
+"Star" = "星形";
+"Key" = "键形";
+
+// PSPDFKit Web Strings
+"Light Blue" = "浅蓝色";
+"Light Red" = "浅红色";
+"Light Green" = "浅绿色";
+"Fuchsia" = "紫红色";
+"Page %tu of %tu" = "第 %tu/%tu 页";
+"Preparing document for printing…" = "正在准备打印文稿…";
+"Are you sure you want to delete this annotation?" = "您确定要删除此批注吗？";
+"Confirm annotation deletion" = "确认删除批注";
+"Page Rotation" = "页面旋转";
+"Rotate Left" = "向左旋转";
+"Rotate Right" = "向右旋转";
+"%@ (not supported)" = "%@（不支持）";
+"Pan Mode" = "平移模式";
+"Fit Page" = "适配页面";
+"Fit Width" = "适配宽度";
+"Password Required" = "需要密码";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "您必须解锁此文稿才能查看。请在下方字段输入密码。";
+"The password you entered is not correct. Please try again." = "您输入的密码不正确。请重试。";
+"Clear Signature" = "清除签名";
+"Top" = "顶部";
+"Bottom" = "底部";
+"Vertical Alignment" = "垂直对齐";
+"Horizontal Alignment" = "水平对齐";
+"Light Orange" = "浅橙色";
+"Light Yellow" = "浅黄色";
+"Mauve" = "淡紫色";
+"Light Gray" = "浅灰色";
+"Dark Gray" = "深灰色";
+"NoColor" = "无";
+"Transparent" = "透明";
+// Generic label for bookmark
+"Bookmark" = "书签";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "新建书签";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "您确定要删除此书签吗？";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "确认删除书签";
+// Label for the select image field
+"Select Image" = "选择图像";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ 个工具，切换菜单";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "不支持的图像批注：%@。请使用 JPEG 或 PNG。";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "选框工具";
+"Toolbar_TextHighlighter" = "文本荧光笔";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "标记批注工具栏";
+// Region of the application where the PDF document is shown
+"Document viewport" = "文稿视区";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "正在编辑";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "表示当前文稿正在编辑中";
+"Icon" = "图标";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "移动";
+// The instruction/prompt shown on the Move UI
+"movePage" = "将页面移动到";
+// The label of the button on the Move UI
+"move" = "移动";
+"selectedItem" = "已选中%@。";
+"annotationDeleted" = "批注已删除。";
+"newAnnotationCreated" = "新%@批注已经创建。";
+"bookmarkCreated" = "已创建的书签。";
+"bookmarkEdited" = "已编辑的书签。";
+"bookmarkDeleted" = "已删除的书签。";
+"cancelledEditingBookmark" = "取消书签编辑。";
+"selectAFileForImage" = "为新图像批注选择文件。";
+"deleteAnnotationConfirmAccessibilityDescription" = "确认或取消删除批注的对话框。";
+"deleteBookmarkConfirmAccessibilityDescription" = "确认或取消删除书签的对话框。";
+"deleteCommentConfirmAccessibilityDescription" = "确认或取消删除评论的对话框。";
+"resize" = "调整大小";
+"resizeHandleTop" = "顶部";
+"resizeHandleBottom" = "底部";
+"resizeHandleRight" = "右";
+"resizeHandleLeft" = "左";
+"cropCurrentPage" = "剪裁当前页面";
+"cropCurrent" = "剪裁当前";
+"cropAllPages" = "剪裁所有页面";
+"cropAll" = "剪裁全部";
+"documentCrop" = "文稿剪裁";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "在页后插入";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "输入“0”可以将选择的页面移动到文稿开始位置。";
+
+// Blend Mode Strings
+"Normal" = "正常";
+"Multiply" = "正片叠底";
+"ScreenBlend" = "滤色";
+"Overlay" = "叠层";
+"Darken" = "变暗";
+"Lighten" = "变亮";
+"ColorDodge" = "颜色减淡";
+"ColorBurn" = "颜色加深";
+"HardLight" = "强光";
+"SoftLight" = "柔光";
+"Difference" = "差异";
+"Exclusion" = "排除";
+"Multiple" = "混合";
+"Blend Mode" = "混合模式";
+
+// Image Document Strings
+"File type not supported." = "文件类型不受支持。";
+"Could not load image file." = "无法记载图像文件。";
+"The image is too large to be opened." = "图像太大，无法打开。";
+"Could not generate a PDF document from the image." = "无法从图像生成 PDF 文稿。";
+"Unnamed Image Document" = "为命名的图像文稿";
+"Annotations will remain editable and are embedded into the image." = "批注将仍可以编辑且嵌入在图像内。";
+"Annotations are drawn into the image and are readonly." = "批注被拖入图像中，而且只读。";
+
+//Metadata Strings
+"Document Info" = "文稿信息";
+"Content" = "内容";
+"Title" = "标题";
+"Author" = "作者";
+"Subject" = "主题";
+"Keywords" = "关键字";
+"Not Set" = "未设置";
+"NoneValue" = "无";
+"Security" = "安全";
+"Document Open Password" = "文稿打开密码";
+"Not set, minimum 8 characters" = "未设置，最少 8 个字符";
+"Permissions" = "权限";
+"Changes" = "更改";
+"Printing" = "打印";
+"Content Copying for Accessibility" = "内容拷贝方便访问";
+"Content Modification" = "内容修改";
+"High Quality Printing" = "高质量打印";
+"Filling of Form Fields" = "填写表单字段";
+"Document Assembly" = "文稿汇编";
+"Annotations and Forms" = "批注和表单";
+"Content Copying" = "内容拷贝";
+"Number of Pages" = "页数";
+"File Size" = "文件大小";
+"CreationDate" = "已创建";
+"ModDate" = "已修改";
+"Creator" = "内容创建者";
+"Producer" = "PDF Producer";
+"Info" = "信息";
+"Tap the Edit button to show all metadata fields." = "轻点编辑按钮，显示所有元数据字段。";
+"Document Owner Password" = "文稿所有人密码";
+"Changes Are Locked" = "更改已锁定";
+"Enter the Document Owner Password to make changes." = "输入文稿所有人密码进行更改。";
+"Incorrect Password" = "密码错误";
+"Passwords" = "密码";
+"Modifying Content" = "修改内容";
+"Editing Annotations and Forms" = "编辑批注和表单";
+"Filling Forms" = "填写表单";
+"Copying Content" = "拷贝内容";
+"Copying Content for Accessibility" = "内容拷贝方便访问";
+"Could Not Save" = "无法保存";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "指定文稿打开密码时，需要提供文稿所有人密码。";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "文件路径";
+"Identical Passwords" = "密码一致";
+"Choose a different Owner or Open password." = "选择不同的所有人密码或打开密码。";
+"Owner Password Required" = "需要所有人密码";
+"An owner password is required to change the permissions of a document." = "需要所有人密码才能更改文稿的权限。";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "部分 PDF 阅读器有权限限制。这些限制不会在此应用中强制执行。";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "选择的 %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "选择的是 %@，内容为 %@";
+// Accessibility string for comment threads
+"commentThread" = "注释会话";
+"printProgressModalDesc" = "指示文稿正在准备打印";
+"printProgressModal" = "正在打印";
+"documentEditorDesc" = "更改当前文稿";
+"reloadDocumentDialog" = "确认文稿重新加载";
+"reloadDocumentDialogDesc" = "提醒用户确认重新加载文稿的对话框。";
+"signatureDialog" = "签名";
+"signatureDialogDesc" = "您可以在此对话框中选择要插入到文稿中的墨迹签名。如果您没有存储签名，您可以使用画布视图创建一个签名。";
+"stampAnnotationTemplatesDialog" = "印章批注模板";
+"stampAnnotationTemplatesDialogDesc" = "您可以在此对话框中选择要插入到文稿中的印章批注或用自己的文字创建自定义印章批注。";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "编辑";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "编辑标记";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "已应用编辑";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "大纲颜色";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "叠层文本";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "重复文本";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "文本颜色";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "编辑信息";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "此文稿含有未实施的编辑注释。是否要应用它们？";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "应用";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "编辑是一个两步过程。首先，创建一个编辑标记以选择应该编辑的区域。要不可逆地移除内容，轻点右下角的红色 ▵ 按钮，并应用编辑。";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "应用编辑";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "清除编辑";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "启用编辑预览";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "禁用编辑预览";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "应用编辑将永久移除该信息，无法撤销。";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "保持至新文件";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "编辑当前文稿";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "正在编辑…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "此文稿无法编辑。";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "保存文稿时，标记为编辑的内容不被移除。是否要继续？";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "编辑当前文稿";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "将已编辑的文档另存为";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - 已编辑";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "区域编辑";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "文本编辑";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "正在应用编辑";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "正在登录";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "表示当前文稿正在签名";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "插入覆盖文本";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "恢复文件";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "缺失文件";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' 已被移除应用程序之外。是否要关闭此文稿或恢复此文件？";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "文件冲突";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' 已被更改到应用程序之外。保存会覆盖远程更改。";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "保存更改";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "轻点以加载媒体。";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "无法加载此批注的媒体，因为连接出现问题。请稍后重试。";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "轻点以重试加载媒体。";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "无法找到此批注的媒体。如果成功同步此文稿后仍然出现此消息，请上报此问题，并提供以下信息：%@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "轻点取消下载";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "加载媒体时发生意外错误。错误 %@：%@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "页码链接";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "链接网站";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "页码";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "页面选择";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "从剪贴板粘贴";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "网站预览";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "网站地址";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "后面";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "向前";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "调色板";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "最近使用";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "默认调色板";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "颜色变化";
+// Custom color value for HSL color picking: Hue
+"Hue" = "色调";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "饱和度";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "亮度";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "十六进制色彩值";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "该值非有效值。";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "从剪切板粘贴";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "页面装订设置";
+// Text shown when left edge binding is selected.
+"Left Edge" = "左侧边缘";
+// Text shown when right edge binding is selected.
+"Right Edge" = "右侧边缘";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "未知";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "左侧";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "右侧";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "顺序";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "前面";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "向前";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "向后";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "后面";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "复制";
+"DocumentEditor_Extract" = "提取";
+"General_SelectNone" = "未选择任何内容";
+"DocumentEditor_NewPage" = "新建页面";
+"DocumentEditor_InstantModifiedWarning" = "本文稿已修订，现在处于只读模式。重新加载页面，捷径此问题。";
+"DocumentEditor_MoveBefore" = "在此之前移动";
+"DocumentEditor_MoveAfter" = "在此之后移动";
+"DocumentEditor_DocumentMergedHere" = "文稿将在此合并";
+
+// Android Strings
+"FileSystemPermission" = "您似乎选择了永久拒绝本应用程序访问文件系统。要查看并打开存储在您的设备上的 PDF 文件，您需要从应用程序设置页面手动启用文件系统访问权限。";
+"Button_OpenSettings" = "打开设置";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "分享更多";
+// Button to show less comments
+"Comments_ShowLess" = "收起";
+// Button to reply to a comment
+"Comments_Reply" = "回复";
+// Button to show all comments
+"Comments_ShowAll" = "显示全部";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "您确定要删除此评论吗？";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "确认删除评论";
+// Verb for Comment
+"Comment_Action" = "添加注释";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "此文稿已经有数字签名，且所有签名有效。";
+"DigitalSignatures_DocModified" = "此文稿已经有数字签名，但是在签名之后发生过更改。";
+"DigitalSignatures_SignatureWarning" = "此文稿已经有数字签名，但是至少一个签名存在问题。";
+"DigitalSignatures_SignatureWarningDocModified" = "此文稿已经有数字签名，但是在签名之后发生过更改，且至少一个签名存在问题。";
+"DigitalSignatures_SignatureError" = "此文稿已经有数字签名，但是至少一个签名无效。";
+"DigitalSignatures_SignatureErrorDocModified" = "此文稿已经有数字签名，但是在签名之后发生过更改，且至少一个签名无效。";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "无法停止录制";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "无法停止录制";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "无法粘贴页面";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "无法请求签名证书";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "文稿无法签名";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "尝试打开此文件时发生未知错误。";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "阅读器视图";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "绘制签名";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "图像";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "输入";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "在此签名";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "在上面输入您的签名";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "保存签名";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "选择或拖动图像";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "选择图像";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "替换图像";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "文件";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "新建签名";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "开启";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "关闭";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "添加批注";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "添加批注";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "添加注释";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "更改注释状态";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "更改标记类型";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "更改选择";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "清除批注";
+// Command of cutting.
+"Undo_Cut" = "剪切";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "删除形状";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "绘图";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "释放";
+// Command of editing text of a comment.
+"Undo_EditComment" = "编辑注释";
+// Command of editing text inside text fields.
+"Undo_EditText" = "编辑文本";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "抹掉";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "分组";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "合并";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "修改批注";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "修改批注";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "移动批注";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "移动批注";
+// Command of pasting.
+"Undo_Paste" = "粘贴";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "删除批注";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "删除批注";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "删除注释";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "删除注释";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "调整批注大小";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "调整批注大小";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "旋转批注";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "旋转批注";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "取消分组";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "对齐";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "对齐文稿";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "选择点";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "旧";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "新建";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "比较";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "在两个文稿中选择三个点进行手动对齐。为了获得最理想的效果，请选择靠近文稿边角的点，确保两个文稿中点的顺序相同。";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "消除";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "对齐文稿";
+// Compare two documents.
+"Comparison_DocumentComparison" = "文稿比较";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "旧文稿";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "新建文稿";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "重置";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "选择点";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "对齐…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "选择点";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "点 %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "在“%3$@”中选择的 %1$tu/%2$tu";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "点 %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "点选目标";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "云边矩形";
+"DashedRectangleAnnotation" = "虚线矩形";
+"CloudyEllipseAnnotation" = "云边椭圆形";
+"DashedEllipseAnnotation" = "虚线椭圆形";
+"CloudyPolygonAnnotation" = "云边多边形";
+"DashedPolygonAnnotation" = "虚线多边形";
+"CloudAnnotation" = "云";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "不填充";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "无法加载保存的批注";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "批注无法保存";
+
+/// Measurement Strings
+"DistanceMeasurement" = "距离";
+"PerimeterMeasurement" = "周长";
+"PolygonalAreaMeasurement" = "多边形面积";
+"RectangularAreaMeasurement" = "矩形面积";
+"EllipticalAreaMeasurement" = "椭圆形面积";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "逆时针旋转";
+"Rotate_Clockwise" = "顺时针旋转";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "在此输入描述";
+// "New option button text"
+"FormDesigner_addOption" = "添加选项";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType}属性";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "名为“{formFieldName}”的表单字段已存在，请选择其他名称。";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType}样式";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "表单字段名称";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "默认值";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "多行";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "若要对单选按钮进行分组，请确保它们具有相同的表单字段名称。";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "高级";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "创建者名称";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "备注";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "自定义数据";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "必填";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "只读";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "创建日期";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "更新日期";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "必须为纯 JSON 序列化对象";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "边框颜色";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "边框粗细";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "边框样式";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "打印";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "实心";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "虚线";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "斜面";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "内线";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "下划线";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "文本样式";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "字体大小";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "字体颜色";
+// "Button Field"
+"FormDesigner_button" = "按钮字段";
+// "Text Field Button"
+"FormDesigner_textField" = "文本字段";
+// "Radio Field Button"
+"FormDesigner_radioField" = "单选按钮字段";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "复选框字段";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "组合框字段";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "列表框字段";
+// "signature Field Button"
+"FormDesigner_signatureField" = "签名字段";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "按钮文本";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "不适用";
+// Label for form field
+"FormDesigner_label" = "标签";
+// Value for form field
+"FormDesigner_value" = "值";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "创建后无法编辑。";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "表单字段名称不能为空。";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "来自创作者";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "多选";
+"FormDesigner_readOnlyProperty" = "只读";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "选项";
+
+// Measurement tools
+"MeasurementScale" = "比例";
+"MeasurementCalibrateLength" = "校准长度";
+"MeasurementPrecision" = "精度";
+"MeasurementSnapping" = "定住";
+"MeasurementPrecision_Whole" = "全部";
+"MeasurementPrecision_OneDecimalPlace" = "1 位小数";
+"MeasurementPrecision_TwoDecimalPlaces" = "2 位小数";
+"MeasurementPrecision_ThreeDecimalPlaces" = "3 位小数";
+"MeasurementPrecision_FourDecimalPlaces" = "4 位小数";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "面积";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "媒体批注";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "该浏览器不支持嵌入视频或音频。";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "链接设置";
+// Label for selection of link type (website - page).
+"linkTo" = "链接至";
+// Label for website selection.
+"uriLink" = "网站";
+// Label for page selection.
+"pageLink" = "页码";
+// Text for preceding number for page link number.
+"linkToPage" = "链接至第 %tu 页";
+// Error message for invalid page number.
+"invalidPageNumber" = "请输入有效的页码。";
+// Error message for invalid page link.
+"invalidPageLink" = "请输入有效的页面链接。";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType}测量设置";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "选择多个批注";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@工具";
+
+// Document unlock string
+"Unlock_Document_Description" = "您必须解锁此文稿才能查看。请在下方字段输入密码。";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "匿名";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "注释选项";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "编辑内容";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "周长测量设置";
+"Distance_Popover_Title" = "距离测量设置";
+"Rectangle_Area_Title" = "长方形面积测量设置";
+"Polygon_Area_Title" = "多边形面积测量设置";
+"Ellipse_Area_Title" = "椭圆面积测量设置";
+
+// Rich text formatting options for text annotations.
+"Bold" = "加粗";
+"Italic" = "斜体";
+
+// Button to save and then close current context
+"Save_And_Close" = "保存并关闭";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "显示/隐藏字体不匹配工具提示";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "%@字体不可用，或无法用于编辑此文稿中的内容。已添加或已更改的内容将恢复为使用默认字体。";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "嵌入";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "平展";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "忽略";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "摘要";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "选择起始页面";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "选择结束页面";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "至";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "旋转";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "编辑内容";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@”中有未保存的更改。";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "多种字体";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "未知字体";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "多种字号";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "减小字号";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "增大字号";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "多种颜色";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@粗体";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@斜体";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@加粗斜体";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "打开从%@的“%@”开始的注释会话";
+
+// More comments indicator in comments popover
+"MoreComments" = "更多注释";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "页面范围";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "新自定义颜色";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "内容编辑器";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "查找所选内容";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "搜索网页";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "整数（英寸）";
+"MeasurementPrecision_Halves" = "二分之一（英寸）";
+"MeasurementPrecision_Quarters" = "四分之一（英寸）";
+"MeasurementPrecision_Eighths" = "八分之一（英寸）";
+"MeasurementPrecision_Sixteenths" = "十六分之一（英寸）";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "用于在此文稿上签字的证书链为空。";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "此数字签名类型不受支持。";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "此数字签名包含无效时间戳，或此数字签名的带时间戳的数据已被篡改。";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "测量设置";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "添加比例";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "使用校准工具";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "校准比例";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "设置比例";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "次要单位";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "单位";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "如果删除该比例，则使用该比例的测量也将被一并删除。";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "该比例正在使用中";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "是否想要编辑或使用现有比例？";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "使用现有比例";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "未命名";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "磁吸至点";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "磁吸至极轴";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "显示智能辅助线";
+
+// Label for the add text box button
+"AddTextBox" = "添加文本框";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "您确定要删除此文本框吗？";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "确认删除文本框";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "允许用户确认或取消删除文本框的对话框。";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "只读";
+"locked" = "已锁定";
+"lockedContent" = "锁定内容";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "已添加比例";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@”已成功添加至比例列表。";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "测量设置图标";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "未设置指示测量设置比例的图标";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "此文稿由 %@ 使用 %@ 于%@ %@ 签名。";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "此文稿声称已由 %@ 使用 %@ 于 %@ %@ 签名。";
+"DigitalSignatureSignedWithAlgo%@with%@." = "算法：带 %@ 的 %@。";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "提取页面";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "比例名称";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "已存在带有相同设置的比例。请选择其他比例。";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "显示次要单位";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "编辑或添加新比例";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "校准";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "层";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "没有层";
+
+"The certificate is not yet valid" = "证书尚未生效。";
+"Signature validation failed - invalid signature" = "此签名无效。";
+"The certificate has been revoked" = "证书已被撤销。";
+"Certificate problem" = "证书存在问题。";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "无法核查此证书是否已被撤销。";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "行距";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "单倍行距";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "双倍行距";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "选择更多…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "测量";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "重新加载文稿";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "帮助世界各地用户在电子文稿上发挥创意，提供覆盖主要平台的各种开发者工具、低代码解决方案和终端用户工具。";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "操作";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "快捷键";
+
+// Mention button popover text.
+"CommentEditor_mention" = "提及";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "打开“帮助“窗口";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "查看详情";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "工具栏聚焦";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "内存不足，无法显示此页面。";

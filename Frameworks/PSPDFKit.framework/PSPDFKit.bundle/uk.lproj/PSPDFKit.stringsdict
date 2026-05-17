@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Знайдено %tu співпадіння</string>
+        <key>few</key>
+        <string>Знайдено %tu співпадіння</string>
+        <key>many</key>
+        <string>Знайдено %tu співпадінь</string>
+        <key>other</key>
+        <string>Знайдено %tu співпадіння</string>
+        <key>zero</key>
+        <string>Співпадінь не знайдено</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Проіндексовано %tu документ</string>
+        <key>few</key>
+        <string>Проіндексовано %tu документи</string>
+        <key>many</key>
+        <string>Проіндексовано %tu документів</string>
+        <key>other</key>
+        <string>Проіндексовано %tu документи</string>
+        <key>zero</key>
+        <string>Жодного документа не проіндексовано</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu анотація</string>
+        <key>few</key>
+        <string>%tu анотації</string>
+        <key>many</key>
+        <string>%tu анотацій</string>
+        <key>other</key>
+        <string>%tu анотації</string>
+        <key>zero</key>
+        <string>Немає анотацій</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu точка</string>
+        <key>few</key>
+        <string>%tu точки</string>
+        <key>many</key>
+        <string>%tu точок</string>
+        <key>other</key>
+        <string>%tu точки</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Все (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu сторінка</string>
+        <key>few</key>
+        <string>%tu сторінки</string>
+        <key>many</key>
+        <string>%tu сторінок</string>
+        <key>other</key>
+        <string>%tu сторінки</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu результат</string>
+        <key>few</key>
+        <string>%tu результати</string>
+        <key>many</key>
+        <string>%tu результатів</string>
+        <key>other</key>
+        <string>%tu результати</string>
+        <key>zero</key>
+        <string>Немає результатів</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Пошук на %#@pages@</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu сторінці</string>
+        <key>few</key>
+        <string>%tu сторінках</string>
+        <key>many</key>
+        <string>%tu сторінках</string>
+        <key>other</key>
+        <string>%tu сторінках</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu лінія</string>
+        <key>few</key>
+        <string>%tu лінії</string>
+        <key>many</key>
+        <string>%tu ліній</string>
+        <key>other</key>
+        <string>%tu лінії</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Видалити %#@comments@</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu коментар</string>
+        <key>few</key>
+        <string>%tu коментарі</string>
+        <key>many</key>
+        <string>%tu коментарів</string>
+        <key>other</key>
+        <string>%tu коментарі</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu коментар</string>
+        <key>few</key>
+        <string>%tu коментарі</string>
+        <key>many</key>
+        <string>%tu коментарів</string>
+        <key>other</key>
+        <string>%tu коментарі</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Ще %tu коментар</string>
+        <key>few</key>
+        <string>Ще %tu коментари</string>
+        <key>many</key>
+        <string>Ще %tu коментарів</string>
+        <key>other</key>
+        <string>Ще %tu коментари</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Все (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu сторінка</string>
+        <key>few</key>
+        <string>%tu сторінки</string>
+        <key>many</key>
+        <string>%tu сторінок</string>
+        <key>other</key>
+        <string>%tu сторінки</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu документ</string>
+        <key>few</key>
+        <string>%tu документи</string>
+        <key>many</key>
+        <string>%tu документів</string>
+        <key>other</key>
+        <string>%tu документи</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Обрана %tu сторінка</string>
+        <key>few</key>
+        <string>Обрано %tu сторінки</string>
+        <key>many</key>
+        <string>Обрано %tu сторінок</string>
+        <key>other</key>
+        <string>Обрано %tu сторінки</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Діалог коментарів. Відкрити коментарі. Автор %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu відповідь</string>
+        <key>few</key>
+        <string>%tu відповіді</string>
+        <key>many</key>
+        <string>%tu відповідей</string>
+        <key>other</key>
+        <string>%tu відповіді</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu сторона</string>
+        <key>few</key>
+        <string>%tu сторони</string>
+        <key>many</key>
+        <string>%tu сторін</string>
+        <key>other</key>
+        <string>%tu сторони</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu сегмент</string>
+        <key>few</key>
+        <string>%tu сегменти</string>
+        <key>many</key>
+        <string>%tu сегментів</string>
+        <key>other</key>
+        <string>%tu сегменти</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Обрано %tu документ</string>
+        <key>few</key>
+        <string>Обрано %tu документи</string>
+        <key>many</key>
+        <string>Обрано %tu документів</string>
+        <key>other</key>
+        <string>Обрано %tu документи</string>
+        <key>zero</key>
+        <string>Жодного документа не обрано</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Ця шкала використується у %#@measurements@.</string>
+      <key>measurements</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu вимірюванні</string>
+        <key>few</key>
+        <string>%tu вимірюваннях</string>
+        <key>many</key>
+        <string>%tu вимірюваннях</string>
+        <key>other</key>
+        <string>%tu вимірюваннях</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

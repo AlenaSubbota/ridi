@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Sulje";
+"Cancel" = "Kumoa";
+"OK" = "OK";
+"Open" = "Avaa";
+"Untitled" = "Nimetön";
+"File Not Found" = "Tiedostoa ei löytynyt";
+"File couldn't be opened." = "Tiedostoa ei voitu avata."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Nimetön PDF";
+"Page %tu" = "Sivu %tu";
+"Page %@" = "Sivu %@";
+"Next" = "Seuraava";
+"Previous" = "Edellinen";
+"Error" = "Virhe";
+"More options" = "Lisää asetuksia";
+"Close Tab" = "Sulje välilehti";
+"Close All Tabs" = "Sulje kaikki välilehdet";
+"Close All Other Tabs" = "Sulje kaikki muut välilehdet"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Piirustus";
+"Highlighter" = "Vapaamuotoinen korostus";
+
+// toolbar
+"Outline" = "Runko"; // Table of contents
+"No Outline" = "Ei runkoa";
+"Search Outline" = "Etsi rungosta";
+"Search" = "Etsi";
+"Email" = "Sähköposti";
+"Send via Email" = "Lähetä sähköpostilla";
+"Send" = "Lähetä";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Jaa vientillä";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Jaa sähköpostilla";
+"Open In" = "Avaa ohjelmassa";
+"Commit" = "Tee";
+"Sending to %@" = "Lähetetään %@"; // Open document with an application
+"Pages" = "Sivut";
+"Print with annotations" = "Tulosta merkintöjen kanssa";
+"Print without annotations" = "Tulosta ilman merkintöjä";
+"No Applications found" = "PDF-tiedostoja avaavia ohjelmia ei ole asennettu.";
+"Print" = "Tulosta";
+"Annotation" = "Merkintä";
+"Annotations" = "Merkinnät";
+"No Annotations" = "Ei merkintöjä";
+"Bookmarks" = "Kirjanmerkit";
+"No Bookmarks" = "Ei kirjanmerkkejä";
+"Add Bookmark" = "Lisää kirjanmerkki";
+"Remove Bookmark" = "Poista kirjanmerkki";
+"Brightness" = "Kirkkaus";
+"Share" = "Jaa";
+"Preparing" = "Valmistellaan";
+"Loading" = "Ladataan";
+"Expand" = "Laajenna";
+"Collapse" = "Taita kokoon";
+// SMS / iMessage sharing button
+"Message" = "Viesti";
+"Thumbnails" = "Esikatselukuvakkeet";
+"Drag Toolbar" = "Raahaa työkalupalkkia";
+
+// thumbnails
+"Bookmarked" = "Kirjanmerkit";
+"Annotated" = "Merkintöjä";
+"All" = "Kaikki";
+"Loading Annotations" = "Ladataan merkintöjä";
+"Loading Pages" = "Lataa sivuja";
+"Loading Bookmarks" = "Lataa kirjanmerkkejä";
+
+// password
+"Password" = "Salasana"; // text on a label
+"Unlock" = "Avaa";
+"Please enter the password." = "Anna salasana.";
+"This document cannot be unlocked." = "Tätä dokumenttia ei voitu avata.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Salasanakenttä";
+
+// page
+"%tu of %tu" = "%tu / %tu";
+"%tu–%tu of %tu" = "%tu–%tu / %tu";
+"%@ (%tu of %tu)" = "%@ (%tu / %tu)";
+"%@, Page %tu" = "%@, Sivu %tu";
+"Leave %@?" = "Jätä %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu / %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu / %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu / %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Etsi dokumentista"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Etsitään sivulta %tu / %tu";
+"Search Completed" = "Haku suoritettu";
+"Search Cancelled" = "Haku kumottu";
+"%tu left" = "%tu jäljellä"; // Indexing Documents... 5 left
+"Searching" = "Etsitään";
+"Done" = "Valmis";
+"Indexing Documents" = "Luetteloidaan dokumentteja";
+"Document" = "Dokumentti";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Etsi merkintöjä";
+
+// inline browser
+"Open in Safari" = "Avaa Safarissa";
+"Open in Chrome" = "Avaa Chromessa";
+"Your %@ is not configured to send emails." = "%@ ei voi lähettää sähköposteja asetusten vuoksi.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Linkki haluaa avata ohjelman %1$@. %2$@Haluatko jatkaa?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "ulkoinen ohjelma"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Sähköposti"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Ei avaavaa ohjelmaa kohteelle %@";
+
+// text selection
+"Text copied to clipboard." = "Teksti kopioitu leikepöydälle.";
+"Save to Photo Library" = "Tallenna Kuvakirjastoon";
+"Failed to extract image." = "Kuvan poiminta ei onnistunut.";
+"Type value or pick from list" = "Anna arvo tai valitse listalta";
+
+// annotations
+"Add %@" = "Lisää %@";
+"Remove %@" = "Poista %@";
+"Remove" = "Poista";
+"Delete" = "Poista"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Muokkaa";
+"Undo" = "Peru";
+"Nothing to undo" = "Ei peruttavaa";
+"Redo" = "Tee sittenkin";
+"Nothing to redo" = "Ei uudelleen tehtävää";
+"Type" = "Tyyppi"; // kind of Annotation can be selected
+"Size" = "Koko";
+"Font" = "Kirjasin";
+"Fonts" = "Kirjasimet";
+"All Fonts" = "Kaikki kirjasimet";
+"Downloadable Fonts" = "Ladattavat kirjasimet";
+"Search Fonts" = "Etsi kirjasimia";
+"Choose Color" = "Valitse väri";
+"Choose Fill Color" = "Valitse täyttöväri";
+"Rainbow" = "Sateenkaari";
+"Monochrome" = "Monokromaattinen";
+"Vintage" = "Klassinen";
+"Modern" = "Moderni";
+"ColorPalette_Unified" = "Paletti";
+"Color" = "Väri";
+"Border" = "Reuna";
+"Fill Color" = "Täyttöväri";
+"Start and End Color" = "Aloitus- ja lopetusväri";
+"Opacity" = "Peittävyys";
+"Thickness" = "Paksuus";
+"%@ pt" = "%@ pt";
+"Yellow" = "Keltainen";
+"Green" = "Vihreä";
+"Red" = "Punainen";
+"Blue" = "Sininen";
+"Pink" = "Pinkki";
+"Black" = "Musta";
+"Orange" = "Oranssi";
+"Purple" = "Violetti";
+"Cyan" = "Syaani";
+"Gray" = "Harmaa";
+"White" = "Valkoinen";
+"Color_Brown" = "Ruskea";
+"Color_DarkRed" = "Tummanpunainen";
+"Color_DarkBlue" = "Tummansininen";
+"Color_Magenta" = "Magenta";
+"Define" = "Määrittele";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Tekstin korostus";
+"Underline" = "Alleviivaus";
+"Squiggly" = "Kiemura";
+"StrikeOut" = "Yliviivaus";
+"Rectangle" = "Suorakulmio";
+"Ellipse" = "Ellipsi";
+"Line" = "Viiva"; // something that can be drawn
+"Polygon" = "Monikulmio";
+"Signature" = "Allekirjoitus";
+"Signatures" = "Allekirjoitukset";
+"Signed" = "Allekirjoitettu";
+"Sign" = "Allekirjoita";
+"Signing…" = "Allekirjoitetaan…";
+"Sign using %@" = "Allekirjoita %@:lla"; // e.g. Adobe.PPKLite
+"Methods" = "Metodit"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Valitse identiteetti"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Leima";
+"Stamps" = "Leimat";
+"Custom" = "Muokattu"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Luo leima";
+"Preview" = "Esikatselu";
+"Stamp Text" = "Leiman teksti";
+"Add Signature" = "Lisää allekirjoitus";
+"Remove Signature" = "Poista allekirjoitus";
+"My Signature" = "Oma allekirjoitukseni";
+"No Signatures" = "Ei allekirjoituksia"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Allekirjoitus tähän";
+"Text" = "Merkintä";
+"FreeText" = "Teksti";
+"Delete Note" = "Poista merkintä";
+"Remove Note" = "Poista merkintä";
+"%@ could not be found." = "%@ ei ollut löydettävissä.";
+"Photo Library" = "Kuvakirjasto";
+"Camera" = "Kamera";
+"camera_not_available" = "Kamera ei käytettävissä";
+"Image" = "Kuva";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Valitse kuvanlaatu";
+"Low Quality" = "Matala laatu";
+"Medium Quality" = "Keskilaatu";
+"High Quality" = "Korkealaatuinen";
+"Clear All" = "Tyhjennä kaikki";
+"Clear" = "Tyhjennä";
+"Style" = "Tyyli";
+"Link" = "Linkki";
+"Ink" = "Piirustus";
+"Screen" = "Näyttö";
+"RichMedia" = "Näyttö";
+"FileAttachment" = "Tiedosto";
+"Left" = "Vasen";
+"Center" = "Keskitä";
+"Right" = "Oikea";
+"Alignment" = "Tasaus";
+"Preview File" = "Esikatsele tiedosto";
+"Copy" = "Kopioi";
+"Paste" = "Sijoita";
+"Inspector" = "Tarkastaja";
+"Group" = "Ryhmä";
+"Ungroup" = "Pura ryhmä";
+"Merge" = "Yhdistä"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Näyte";
+"Annotation Summary for %@:" = "Merkintöjen yhteenveto kohteelle %@:";
+"Show Text" = "Näytä teksti";
+// title
+"Author Name" = "Tekijän nimi";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Nimeä tekijä, jonka nimissä uudet merkinnät tehdään.";
+// text field placeholder
+"Name" = "Nimi";
+// meaning: close
+"Dismiss" = "Hylkää";
+"Fit to Text" = "Sovita tekstiin";
+"Draw" = "Kuva";
+"Sound" = "Ääni";
+"Eraser" = "Pyyhin";
+"Toggle Eraser" = "Valitse pyyhekumi"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Valintatyökalu";
+"Add" = "Lisää"; // to add - infinitive
+"Date" = "Päivämäärä";
+"Time" = "Aika";
+"No Pages" = "Ei sivuja";
+"Drag to resize" = "Muuta kokoa raahaamalla"; // used as hint that inspector is resizable
+"Convert to" = "Konvertoi muotoon"; // used as label on action that changes free text intent type
+"Color Presets" = "Värin esiasetukset";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Värin esiasetus";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Leikkaa";
+"Annotation copied." = "Merkintä kopioitu.";
+"Annotation cut." = "Merkintä leikattu.";
+"Annotation pasted." = "Merkintä liimattu.";
+"%tu selected" = "%tu valittu";
+"Custom Stamp" = "Oma leimasin";
+"Change text and color" = "Vaihda teksti ja väri";
+"Use an existing stamp design" = "Käytä valmista leimasinta";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Mustepiirto";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Kirjasimen lataus epäonnistui: ‘%@‘, koko %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Tyyli-inspektori";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Haluatko varmasti tyhjentää kaikki merkinnät?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Merkintöjen luonti pois käytöstä";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Sisältää kommentin";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Tekstimerkintä";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Valintamerkki";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Ristimerkki";
+
+"Callout" = "Huomautus"; // freetext annotation with an arrow
+"Generic" = "Yleinen"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Viivatyyli";
+"Solid" = "Tasainen";
+"Narrow Dots" = "Kapeat pisteet";
+"Wide Dots" = "Leveät pisteet";
+"Narrow Dashes" = "Kapeat viivat";
+"Wide Dashes" = "Leveät viivat";
+"Cloudy" = "Pilvinen"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Hyväksytty";
+"Not Approved" = "Ei hyväksytty";
+"Draft" = "Luonnos";
+"Final" = "Lopullinen";
+"Completed" = "Valmiit";
+"Confidential" = "Salassa pidettävää";
+"For Public Release" = "Yleiseen jakeluun";
+"Not For Public Release" = "Ei yleiseen jakeluun";
+"For Comment" = "Kommentoitavaksi";
+"Void" = "Tyhjä";
+"Preliminary Results" = "Alustavat tulokset";
+"Information only" = "Vain informaatio";
+"Accepted" = "Hyväksytty";
+"Rejected" = "Hylätty";
+"Initial Here" = "Nimikirjaimet tähän";
+"Sign Here" = "Allekirjoitus tähän";
+"Witness" = "Todistaja";
+"Revised" = "Muokattu";
+"Stamp.AsIs" = "Sellaisenaan";
+"Stamp.Departmental" = "Osasto";
+"Stamp.Experimental" = "Kokeellinen";
+"Stamp.Expired" = "Erääntynyt";
+"Stamp.Sold" = "Myyty";
+"Stamp.TopSecret" = "Huippusalainen";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Piirrin";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Pois päältä";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Etsii";
+// text on a label; app connects to a stylus
+"Pairing" = "Muodostetaan paria";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@: Yhdistetty";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@: Yhteys katkaistu";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Asetukset";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Käytä merkintöjen tekoon Apple Pencil -kynää";
+
+// PDF annotation name overrides
+"Square" = "Suorakulmio";
+"Circle" = "Ellipsi";
+"PolyLine" = "Murtoviiva";
+"SavedAnnotations" = "Tall. merkinnät";
+
+// named actions
+"NextPage" = "Seuraava sivu";
+"PrevPage" = "Edellinen sivu";
+"FirstPage" = "Ensimmäinen sivu";
+"LastPage" = "Viimeinen sivu";
+"GoBack" = "Siirry taaksepäin";
+"GoForward" = "Siirry eteenpäin";
+"GoToPage" = "Mene sivulle";
+"Find" = "Etsi";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Lähennä";
+"ZoomOut" = "Loitonna";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Rich Media -toiminto";
+"Rendition Action" = "Esillepano-toiminto";
+"Hide Action" = "Piilota-toiminto";
+"Submit Form" = "Lähetä lomake";
+"Reset" = "Palauta";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Takaisin";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Valitse kaikki";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Valitse yllä oleva kohde";
+"KeyCommand.SelectBelow" = "Valitse alla oleva kohde";
+"KeyCommand.SelectTop" = "Valitse ylin kohde";
+"KeyCommand.SelectBottom" = "Valitse alin kohde";
+"KeyCommand.ClearSelection" = "Tyhjennä valinta";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Laajenna kohtaa";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Pienennä kohtaa";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Näytä seuraava välilehti";
+"KeyCommand.ShowPreviousTab" = "Näytä edellinen välilehti";
+"KeyCommand.SelectAllAnnotations" = "Valitse kaikki merkinnät";
+
+// line annotations
+"Start" = "Alku";
+"End" = "Loppu";
+"Line.None" = "Ei mitään";
+"Line.ClosedArrow" = "Suljettu nuoli";
+"Line.OpenArrow" = "Avoin nuoli";
+"Line.Square" = "Neliö";
+"Line.Circle" = "Ympyrä";
+"Line.Diamond" = "Vinoneliö";
+"Line.ROpenArrow" = "Käänteinen avoin nuoli";
+"Line.RClosedArrow" = "Käänteinen suljettu nuoli";
+"Line.Slash" = "Kauttaviiva";
+"Line.Butt" = "Perä";
+"Line Start" = "Viivan alku";
+"Line End" = "Viivan pää";
+"Arrow" = "Nuoli"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Luo linkki";
+"Add Link" = "Lisää linkki";
+"Edit Link" = "Muokkaa linkkiä";
+"Move Link" = "Siirrä linkki";
+"Remove Link" = "Poista linkki";
+"Open Link" = "Avaa linkki";
+"Go to Page %tu" = "Mene sivulle %tu";
+"Go to Page" = "Mene sivulle"; // title of a Popup
+"Go" = "Mene"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Kopioi URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Kopioi linkki";
+"Save" = "Tallenna";
+"Link Destination" = "Linkin kohde";
+"Enter page index or a http:// address to link to an URL." = "Anna sivunumero tai http:// -osoite linkataksesi URL:iin.";
+"Page %@ Not Found" = "Sivua %@ ei löytynyt";
+"Add to Reading List" = "Lisää lukulistalle";
+
+"Link annotation creation failed." = "Linkkimerkinnän luonti ei onnistunut.";
+"Link annotation successfully created." = "Linkkimerkintä luotiin onnistuneesti.";
+"Entered text could not be converted to an Integer nor URL." = "Kirjoitettua tekstiä ei voitu muuntaa kokonaisluvuksi eikä URL:ksi.";
+
+// voiceover accessibility
+"Grid" = "Ruudukko"; // grid with thumbnails
+"Translucent" = "Läpinäkyvä";
+"left" = "vasen";
+"center" = "keskitä";
+"right" = "oikea";
+"decrease" = "vähennä";
+"increase" = "lisää";
+"All Open Documents" = "Kaikki avoimet dokumentit";
+"Add Documents" = "Lisää dokumentteja"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Avaa tiedosto";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Multimediaohjaus";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Tyhjennä lomake";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Näytä toiminto";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Nimetty toimenpide";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Sivut %tu-%tu"; // Range of pages
+"Current Page" = "Nykyinen sivu";
+"Current Page (%tu)" = "Nykyinen sivu (%tu)";
+"Ignore Annotations" = "Sivuuta merkinnät";
+"The PDF will not contain any annotations." = "PDF ei sisällä merkintöjä.";
+"Embed Annotations" = "Upota merkinnät";
+"Annotations will remain editable and are embedded into the PDF." = "Merkintöjä voidaan yhä muokata ja ne upotetaan PDF:ään.";
+"Flatten Annotations" = "Litistä merkinnät";
+"Annotations are drawn into the PDF and are readonly." = "Merkinnät renderoidaan PDF:ään ja niitä ei voi muokata.";
+"Annotation Summary" = "Yhteenveto merkinnöistä";
+"Embed Annotations into the PDF and also list them in the email." = "Upota merkinnät PDF:ään ja listaa ne myös sähköpostissa.";
+"Annotations will be listed in a text file." = "Merkinnät listataan tekstimuodossa.";
+"Files" = "Tiedostot";
+"Send as single files" = "Lähetä erillisinä tiedostoina";
+"Merge files" = "Yhdistä tiedostot";
+"Original File" = "Alkuperäinen tiedosto";
+"Range" = "Alue";
+"Annotated Pages" = "Merkityt sivut";
+"Message could not be sent." = "Viestiä ei voitu lähettää.";
+"Export" = "Vienti";
+"This action can't be performed." = "Tätä toimintoa ei voida suorittaa.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Ei-tiedostopohjaisten dokumenttien vientiä ei tueta";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Dokumentti ei sisällä merkintöjä.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Dokumenttia ei voitu jakaa";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Dokumenttikuvien jakaminen on rajoitettu kerrallaan enintään %tu sivuun.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Liitteitä ei voi lähettää Viestit-toiminnon kautta.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Documentit eivät ole tulostettavissa.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF-dokumentti";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Kohdetta ei saatavana";
+
+// sound annotations
+"Speak" = "Puhu"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Toista";
+"Pause" = "Keskeytä";
+"Resume" = "Jatka";
+"Stop" = "Pysäytä";
+"Play/Stop" = "Toista/Pysäytä";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Äänitys";
+"Pause Recording" = "Keskeytä äänitys";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Äänitys keskeytetty";
+"Continue Recording" = "Jatka äänitystä";
+"Finish Recording" = "Lopeta äänitys";
+"Audio Problem" = "Ääniongelma";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Toistoa ei voitu aloittaa.";
+"Could not resume playback." = "Toistoa ei voitu jatkaa.";
+"Microphone permission not granted." = "Lupaa mikrofonin käyttöön ei saatu.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Äänitys ei onnistu. Anna ohjelmalle lupa käyttää mikrofonia.";
+"There was a problem trying to record audio." = "Äänitys ei onnistunut ongelman vuoksi.";
+"Already Recording" = "Äänittää jo";
+"You are already recording on page %@." = "Äänität jo sivulla %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Näyttää, että olet kieltänyt tältä sovellukselta mikrofonin käytön pysyvästi. Jotta voisit nauhoittaa äänitallenteita, sinun on annettava manuaalisesti lupa mikrofonin käyttöön sovelluksen asetusnäytössä.";
+
+// Forms
+"Form Element" = "Lomake-elementti";
+"Text Field" = "Tekstikenttä";
+"Button" = "Painike";
+"Choice Field" = "Valitse kenttä";
+"Signature Field" = "Allekirjoituksen kenttä";
+"Clear Field" = "Tyhjä kenttä"; // same as delete
+"Default Values" = "Oletusarvot";
+"Custom Value" = "Mukautettu arvo";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Hae vaihtoehtoja";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Virheellinen arvo: täytyy olla suurempi tai yhtä suuri kuin %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Virheellinen arvo: täytyy olla suurempi tai yhtä suuri kuin %s ja pienempi tai yhtä suuri kuin %s.";
+"Invalid value: must be less than or equal to %s." = "Virheellinen arvo: täytyy olla pienempi tai yhtä suuri kuin %s.";
+"The value entered does not match the format of the field [%s]" = "Annettu arvo ei vastaa kentän formaattia [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Väärä päivämäärä/aika: varmista, että päivämäärä-/aikatieto on olemassa. Kentän [%s] pitäisi olla formaatissa %s";
+
+// General validation
+"Invalid value [%s]" = "Väärä arvo [%s]";
+
+// Gallery
+"Connection Error" = "Yhteysvirhe";
+"Unsupported Content" = "Sisältötyyppiä ei tueta";
+"The specified content cannot be displayed." = "Kyseistä sisältöä ei voitu näyttää.";
+"Something went wrong" = "Jotain meni pieleen";
+"This item is currently unavailable." = "Tämä kohde ei ole juuri nyt saatavilla.";
+"The information for this gallery could not be loaded." = "Tämän gallerian tietoja ei voitu ladata.";
+"Content Error" = "Sisältövirhe";
+"This content is unsupported." = "Tätä sisältötyyppiä ei tueta.";
+
+// Signatures
+"Digital Signature" = "Digitaalinen allekirjoitus";
+"Signature is valid." = "Allekirjoitus on voimassa.";
+"Signature is valid, but there are some warnings." = "Allekirjoitus on voimassa, mutta joitain varoituksia ilmeni.";
+"It was signed by %@ on %@ at %@." = "Sen allekirjoitti %@ %@ %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Sen allekirjoitti %@ %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Se ilmoittaa, että sen allekirjoitti %@ %@ %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Se ilmoittaa, että se on allekirjoitettu %@ %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Tällä allekirjoituksella hyväksyttyä versiota ei ole muokattu, mutta dokumenttiin on tehty muutoksia allekirjoituksen jälkeen."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Allekirjoitus on voimassa, eikä dokumentin sisältöä ole muokattu sen allekirjoittamisen jälkeen.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Virheellinen allekirjoitus – tämän dokumentin sisällön allekirjoittamisen jälkeen sitä on muokattu, sitä on peukaloitu tai se on korruptoitunut.";
+"Unsigned Signature Field" = "Allekirjoittamaton osuus";
+"Do you really want to remove the signature from the document?" = "Haluatko varmasti poistaa allekirjoituksen dokumentista?";
+"Could not retrieve the certificate from the signature." = "Varmennetta ei voitu hakea allekirjoituksesta.";
+"Could not retrieve the signature contents." = "Allekirjoituksen sisältöä ei voitu hakea.";
+"Could not retrieve the public key from the signature." = "Julkista avainta ei voitu hakea allekirjoituksesta.";
+"Could not retrieve the byte range of the signature." = "Allekirjoituksen bittiväliä ei voitu hakea.";
+"Could not understand the encryption padding." = "Salauksen täyttö ei ollut ymmärrettävä.";
+"Could not compute the digest for the document." = "Dokumentin yhteenvetoa ei voitu laskea.";
+"General failure while trying to determine document integrity." = "Varmenneketju ei ole oikeanlainen.";
+"Certificate chain is invalid." = "Varmenneketju ei ole oikeanlainen.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Varmenneketjua ei voitu tarkistaa, koska luotettuja avaimia ei annettu.";
+"Document integrity success, but certificate is self signed." = "Varmenne on itse allekirjoitettu.";
+"Document integrity check failed." = "Dokumentin eheyden tarkistus epäonnistui.";
+"The signing certificate is not trusted." = "Allekirjoittava varmenne ei ole luotettava.";
+"unknown time" = "tuntematon aika";
+"unknown date" = "tuntematon päivämäärä";
+"Digitally signed by {}" = "Sähköisesti allekirjoittanut {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Päivämäärä: ";
+"Reason: " = "Syy: ";
+"Location: " = "Sijainti: ";
+"Certificate" = "Sertifikaatti";
+"No Certificate" = "Ei sertifikaattia";
+"No Certificates" = "Ei sertifikaatteja";
+"Store Signature" = "Tallenna allekirjoitus";
+"Add Trusted Certificate" = "Lisää luotettu sertifikaatti";
+"Add Signer" = "Lisää allekirjoittaja";
+"Added Trusted Certificate" = "Lisätty luotettu sertifikaatti";
+"Added Signer" = "Lisätty allekirjoittaja";
+"File doesn't match any certificate type" = "Tiedosto ei vastaa mitään sertifikaattityyppiä";
+"Import Failed" = "Tuonti epäonnistui";
+"Signature Area" = "Allekirjoitus tähän";
+"Draw Signature Area" = "Piirrä alue allekirjoitukselle";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7-objektia ei voitu alustaa";
+"Could not find signature" = "Allekirjoitusta ei löytynyt";
+"Could not hash the PDF document" = "PDF-dokumentin tarkistus ei onnistunut";
+"Could not create padding for the digital signature" = "Ei voitu luoda tilaa digitaaliselle allekirjoitukselle";
+"Could not verify the signature" = "Allekirjoituksen tarkistus ei onnistunut";
+"Could not save the signed document" = "Allekirjoitettua dokumenttia ei voitu tallentaa";
+"Cannot sign attributes" = "Attribuuttien allekirjoitus ei onnistunut";
+"The selected subfilter type for the signature is not supported" = "Valittua salasanan alafiltterin tyyppiä ei tueta";
+"Could not add signature to PKCS7 object" = "PKCS7-objektiin ei voitu lisätä salasanaa";
+"Could not write PKCS7 signature" = "PKCS7-allekirjoituksen luonti ei onnistunut";
+"Could not create PKCS7 object" = "PKCS7-objektin luonti ei onnisstunut";
+"Could not generate PKCS7 object" = "PKCS7-objektin luonti ei onnistunut";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Dokumenttia ei voida allekirjoittaa koska se on jo allekirjoitettu.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Varmenteen dataa ei voitu lukea PKCS#7-varmenteeksi. Oikean formaatin data voidaan viedä Adobe Acrobatista."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Varmenteen allekirjoituksen salauksen purkaminen ei onnistu.";
+"The public key in the certificate could not be read." = "Varmenteen julkista avainta ei voitu lukea.";
+"The signature of the certificate is not valid." = "Varmenteen allekirjoitus ei ole voimassa.";
+"Signature is not valid." = "Allekirjoitus ei ole voimassa.";
+"There is a format error in the notBefore field of the certificate." = "Varmenteen kentässä notBefore on muotoiluvirhe."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Varmenteen kentässä notAfter on muotoiluvirhe."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Yhtään allekirjoitusta ei voitu varmistaa, koska varmenneketju sisältää vain yhden varmenteen, se ei ole itse allekirjoitettu ja sen myöntäjään ei luoteta.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Varmentajan varmenne ei ole voimassa, koska kyseessä ei ole tunnettu varmentaja tai sen tarkenteet eivät ole yhdenmukaisia kyseisen käyttötarkoituksen kanssa."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Parametrin basicConstraints polun pituus ylittyi."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Juurivarmennetta ei ole merkitty luotetuksi kyseiseen tarkoitukseen."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Juurivarmenne on merkitty torjumaan kyseinen tarkoitus."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Myöntäjän varmennetta ei hyväksytty, koska sen \"subject name\" ei ollut sama kuin nykyisen varmenteen \"issuer name\"."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Myöntäjän varmennetta ei hyväksytty, koska sen subject key identifier havaittiin eikä vastannut nykyisen varmenteen authority key identifieriä."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Myöntäjän varmennetta ei hyväksytty, koska sen \"issuer name ja \"serial number\" havaittiin eivätkä ne vastanneet nykyisen varmenteen authority key identifieriä."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Myöntäjä kumosi varmenteen.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Annettu varmenne on itse allekirjoitettu ja samaa varmennetta ei löydy luotettujen varmenteiden listalta.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Varmenneketjussa on itse allekirjoitettu varmenne. Varmenneketju voidaan rakentaa varmenteista, joita ei voida todentaa, mutta paikallista juurivarmennetta ei löydetty."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Yhdelle varmentajalle (CA) ei löytynyt varmennetta allekirjoitushierarkiasta eikä paikallinen ohjelma luota kyseiseen varmentajaan."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Paikallisesti etsityn varmenteen myöntäjän varmennetta ei löytynyt. Yleensä tämä tarkoittaa sitä, ettei luotettujen varmenteiden lista ole täydellinen.";
+"The certificate that was provided cannot be used for its intended purpose." = "Annettua varmennetta ei voitu käyttää kyseiseen tarkoitukseen.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Myöntäjän (CA) varmenteen keyUsage-tarkenne ei salli varmenteen allekirjoitusta.";
+"The certificate has expired." = "Varmenne on vanhentunut.";
+"The certificate is not valid until a date in the future." = "Varmenne on voimassa vasta tulevaisuudessa olevana päivämääränä.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "X509-varmenteen luku ei onnistunut";
+// X509 should not be translated
+"No X509 certificate found" = "X509-varmennetta ei löytynyt";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "PKCS12-tiedostoa ei voida lukea. Tiedosto on joko muotoiltu väärin tai korruptoitunut.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "PKCS12-dataa ei voitu avata. Annoitko oikean salasanan?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12-dataa ei voitu purkaa. Data voi olla väärässä muodossa tai epäyhteensopiva.";
+"Could not unlock PKCS12 data." = "PKCS12-dataa ei voitu avata.";
+"Could not add signature." = "Allekirjoitusta ei voitu lisätä.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Tiedostoa ei voitu avata allekirjoituksen todentamiseksi";
+"Could not get signer info" = "Allekirjoittajan tietoja ei saatu";
+
+// Night Mode
+"Default" = "Oletus"; // Default view (night mode not enabled)
+"Sepia" = "Seepia"; // Document uses sepia colors
+"Night" = "Yö"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Ei valittua dokumenttia";
+"Unable to display document" = "Dokumenttia ei voitu näyttää";
+"Locked" = "Lukittu";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Tiedosto, jota yrität avata, ei ole PDF-tiedosto tai se voi olla viallinen.";
+"A password is required to access this document." = "Tämän tiedoston avaamiseen vaaditaan salasana.";
+"The security scheme of this document is currently not supported." = "Tämän dokumentin suojaustapaa ei tueta tällä hetkellä.";
+"An unknown error has occured while trying to open this file." = "Tiedostoa avattaessa tapahtui tuntematon virhe.";
+
+// Document Editor
+"Document Editor" = "Dokumenttieditori";
+"Add Page" = "Lisää sivu";
+"Delete Pages" = "Poista sivuja";
+"Duplicate Pages" = "Monista sivuja";
+"Move Pages" = "Siirrä sivuja";
+"Rotate Pages" = "Pyöritä sivuja";
+"Page Size" = "Sivukoko";
+"Background Color" = "Taustaväri";
+"Paper" = "Paperi";
+"Pattern" = "Lomake-elementti";
+"Use Document Size" = "Käytä dokumentin kokoa";
+"Orientation" = "Suunta";
+"Portrait" = "Pysty";
+"Landscape" = "Vaaka";
+"Document Name" = "Dokumentin nimi";
+"Documents" = "Dokumentit"; // Name of directory
+"Use Document Folder" = "Käytä dokumentin hakemistoa";
+"Folder" = "Kansio";
+"Replace File?" = "Korvataanko tiedosto?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Tiedosto nimeltä “%@” on jo valitussa hakemistossa. Haluatko korvata sen?";
+"Replace" = "Korvaa";
+"Saving…" = "Tallentaa…";
+"Saved" = "Tallennettu";
+"Save As…" = "Tallenna nimellä…";
+"Discard Changes" = "Hylkää muutokset";
+"Empty" = "Tyhjä";
+"Use Image Size" = "Käytä kuvakokoa";
+"Page Background" = "Sivun tausta";
+"Insert image annotation" = "Lisää kuvamerkintä";
+"Import page background" = "Tuo sivun tausta";
+"Quality" = "Laatu";
+"Low" = "Matala";
+"Medium" = "Keskitaso";
+"High" = "Korkea";
+"Best" = "Paras";
+"Copy Pages" = "Kopioi sivut";
+"Paste Pages" = "Liimaa sivut";
+"Copied" = "Kopioitu";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” sisältää tallentamattomia muutoksia. Haluatko tallentaa ne nyt?";
+"Select Source Document" = "Valitse lähdetiedosto";
+"Add After Page %tu" = "Lisää sivun %tu jälkeen";
+"Cut Pages" = "Ei sivuja";
+"Import Document" = "Tuo Dokumentti";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Käytä kansion valintaa";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Valitse kansio";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Valitse kaikki sivut";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Tyhjää dokumenttia ei voida tallentaa.";
+"The document could not be saved." = "Dokumenttia ei voitu tallentaa.";
+"This document does not support editing." = "Tämä dokumentti ei tue editointia.";
+"The document could not be accessed." = "Dokumenttiin ei ollut pääsyä.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF:ää ei voitu tuoda juuri nyt.";
+"The image could not be imported at this time." = "Kuvaa ei voitu tuoda juuri nyt.";
+
+// Page Patterns
+"None" = "Ei mitään";
+"Dot5mm" = "Pisteet 5mm";
+"Grid5mm" = "Ruudukko 5mm";
+"Lines5mm" = "Viivat 5mm";
+"Lines7mm" = "Viivat 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Vie sivuja";
+"Export…" = "Vie…";
+"Exporting…" = "Vie…";
+"Exported" = "Viety";
+"%@ - Exported" = "%@ - Viety"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Kopio"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Valittu dokumentti on auki. Ole hyvä ja valitse toinen tiedostonimi.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Tekstistä puheeksi -palvelu ei ole saatavilla. Varmista internetyhteytesi toimivuus tai että Google Text-to-speech -palvelu on asennettu ja toiminnassa laitteellasi.";
+
+// Settings
+"Page Layout" = "Sivun asettelu";
+"Scroll Direction" = "Vierityssuunta";
+"Theme" = "Teema";
+"Keep screen on" = "Pidä näyttö aktiivisena";
+"Page Transition" = "Sivusiirros";
+"Single" = "Yksi sivu";
+"Continuous" = "Jatkuva";
+"Curl" = "Kiertyminen";
+"Scroll" = "Vierityksenä";
+"Horizontal" = "Vaakatasossa";
+"Vertical" = "Pystysuunnassa";
+"Page Mode" = "Sivunäkymä";
+"Automatic" = "Automaattinen";
+"Double" = "Kahtena sivuna";
+"Appearance" = "Ulkoasu";
+"Scrubber Bar" = "Skimmauspalkki";
+"Jump" = "Hyppy"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Ei käytettävissä"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Sivun sovitus";
+"Fit" = "Sovita";
+"Fill" = "Täytä";
+"Adaptive" = "Mukautuva";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "Ohjelmalla %@ ei ole lupaa käyttää kuviasi.";
+"%@ does not have access to your camera." = "Ohjelmalla %@ ei ole lupaa käyttää kameraasi.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Yksityisyysasetukset";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Anna lupa asetusten kohdasta %@.";
+
+"Update Required" = "Päivitys vaaditaan";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "%@ pitää päivittää, jotta se saa pääsyn dokumenttiin ja voi synkroida merkinnät.";
+
+
+// Annotation Replies
+"Comment" = "Kommentti";
+"Comments" = "Kommentit";
+"Add your comment…" = "Lisää kommenttisi…";
+"Delete Comment" = "Poista kommentti";
+"Set Status" = "Aseta tila";
+"Cancelled" = "Peruttu";
+"Accepted by" = "Hyväksyjä";
+"Rejected by" = "Torjunut";
+"Completed by" = "Saanut valmiiksi";
+"Cancelled by" = "Perunut";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Osoitin oikealle";
+"Right Arrow" = "Nuoli oikealle";
+"Checkmark" = "Tarkistusmerkki";
+"Circle Note" = "Ympyrä";
+"Cross" = "Rasti";
+"Insert Text" = "Lisää tekstiä";
+"New Paragraph" = "Uusi kappale";
+"Text Note" = "Tekstimerkintä";
+"Paragraph" = "Kappale";
+"Help" = "Ohje";
+"Star" = "Tähti";
+"Key" = "Avain";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Vaaleansininen";
+"Light Red" = "Vaaleanpunainen";
+"Light Green" = "Vaaleanvihreä";
+"Fuchsia" = "Fuksia";
+"Page %tu of %tu" = "Sivu %tu / %tu";
+"Preparing document for printing…" = "Valmistellaan dokumenttia tulostettavaksi…";
+"Are you sure you want to delete this annotation?" = "Haluatko varmasti poistaa tämän merkinnän?";
+"Confirm annotation deletion" = "Vahvista merkinnän poisto";
+"Page Rotation" = "Sivun kääntö";
+"Rotate Left" = "Käännä vasemmalle";
+"Rotate Right" = "Käännä oikealle";
+"%@ (not supported)" = "%@ (ei tuettu)";
+"Pan Mode" = "Panorointimoodi";
+"Fit Page" = "Sovita sivulle";
+"Fit Width" = "Sovita leveys";
+"Password Required" = "Salasana vaaditaan";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Tämän dokumentin salaus pitää avata, jotta sitä voi katsoa. Ole hyvä ja syötä salasana alla olevaan kenttään.";
+"The password you entered is not correct. Please try again." = "Syöttämäsi salasana ei ole oikea. Ole hyvä ja yritä uudelleen.";
+"Clear Signature" = "Tyhjennä allekirjoitus";
+"Top" = "Yläosa";
+"Bottom" = "Alaosa";
+"Vertical Alignment" = "Tasaus pystysuunnassa";
+"Horizontal Alignment" = "Tasaus vaakatasossa";
+"Light Orange" = "Vaalean oranssi";
+"Light Yellow" = "Vaalean keltainen";
+"Mauve" = "Malvanvärinen";
+"Light Gray" = "Vaalean harmaa";
+"Dark Gray" = "Tumman harmaa";
+"NoColor" = "Ei mitään";
+"Transparent" = "Läpinäkyvä";
+// Generic label for bookmark
+"Bookmark" = "Kirjanmerkki";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Uusi kirjanmerkki";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Haluatko varmasti poistaa tämän kirjanmerkin?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Vahvista kirjanmerkin poisto";
+// Label for the select image field
+"Select Image" = "Valitse kuva";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ -työkalut, näytä valikko";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Kuvamerkintä ei tue tyyppiä: %@. Käytä tiedostomuotoja JPEG tai PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Valinnan zoomaus";
+"Toolbar_TextHighlighter" = "Tekstin korostus";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Huomautusmerkintöjen työkalupalkki";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Dokumentin näyttöikkuna";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Hävitysoperaatiota suoritetaan";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Ilmaisee, että nykyisen dokumentin hävitysoperaatioita suoritetaan";
+"Icon" = "Kuvake";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Siirrä";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Siirrä sivu kohtaan";
+// The label of the button on the Move UI
+"move" = "Siirrä";
+"selectedItem" = "%@, valittu.";
+"annotationDeleted" = "Merkintä poistettu.";
+"newAnnotationCreated" = "Uusi %@ -merkintä luotu.";
+"bookmarkCreated" = "Luotu kirjanmerkki.";
+"bookmarkEdited" = "Muokattu kirjanmerkki.";
+"bookmarkDeleted" = "Poistettu kirjanmerkki.";
+"cancelledEditingBookmark" = "Peruutettu kirjanmerkin muutos.";
+"selectAFileForImage" = "Valitse tiedosto merkinnän uutta kuvaa varten.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialogi, jossa voit vahvistaa tai poistaa merkinnän.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialogi, jossa voit vahvistaa tai perua kirjanmerkin poistamisen.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialogi, jossa voit vahvistaa tai poistaa kommentin.";
+"resize" = "Muuta kokoa";
+"resizeHandleTop" = "Yläosa";
+"resizeHandleBottom" = "Alaosa";
+"resizeHandleRight" = "Oikea";
+"resizeHandleLeft" = "Vasen";
+"cropCurrentPage" = "Rajaa tämä sivu";
+"cropCurrent" = "Rajaa tämä";
+"cropAllPages" = "Rajaa kaikki sivut";
+"cropAll" = "Rajaa kaikki";
+"documentCrop" = "Dokumentin rajaaminen";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Siirrä sivun jälkeen";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Kirjoita “0” jos haluat siirtää valitut sivut dokumentin alkuun.";
+
+// Blend Mode Strings
+"Normal" = "Normaali";
+"Multiply" = "Kertova";
+"ScreenBlend" = "Rasteri";
+"Overlay" = "Peittävä";
+"Darken" = "Tummentava";
+"Lighten" = "Vaalentava";
+"ColorDodge" = "Värivarjostus";
+"ColorBurn" = "Värilisävalotus";
+"HardLight" = "Kova valo";
+"SoftLight" = "Pehmeä valo";
+"Difference" = "Erottava";
+"Exclusion" = "Poistava";
+"Multiple" = "Monta";
+"Blend Mode" = "Sekoitustila";
+
+// Image Document Strings
+"File type not supported." = "Tiedoston tyyppiä ei tueta.";
+"Could not load image file." = "Kuvatiedostoa ei voitu ladata.";
+"The image is too large to be opened." = "Kuva on liian iso avattavaksi.";
+"Could not generate a PDF document from the image." = "Kuvasta ei voitu luoda PDF-dokumenttia.";
+"Unnamed Image Document" = "Nimeämätön kuvatiedosto";
+"Annotations will remain editable and are embedded into the image." = "Merkinnät säilyvät muokattavina ja sisällytetään kuvaan.";
+"Annotations are drawn into the image and are readonly." = "Merkinnät piirretään kuvaan, ja ne ovat vain lukutilassa.";
+
+//Metadata Strings
+"Document Info" = "Dokumentin tiedot";
+"Content" = "Sisältö";
+"Title" = "Otsikko";
+"Author" = "Tekijä";
+"Subject" = "Aihe";
+"Keywords" = "Avainsanat";
+"Not Set" = "Ei asetettu";
+"NoneValue" = "Ei mitään";
+"Security" = "Turvallisuus";
+"Document Open Password" = "Salasana dokumentin avaamiseen";
+"Not set, minimum 8 characters" = "Ei asetettu, minimi 8 merkkiä";
+"Permissions" = "Luvat";
+"Changes" = "Muutokset";
+"Printing" = "Tulostus";
+"Content Copying for Accessibility" = "Sisällön kopiointi saavutettavuutta varten";
+"Content Modification" = "Sisällön muokkaaminen";
+"High Quality Printing" = "Korkealaatuinen tulostus";
+"Filling of Form Fields" = "Lomakekenttien täyttäminen";
+"Document Assembly" = "Dokumentin kokoaminen";
+"Annotations and Forms" = "Merkinnät ja kaavakkeet";
+"Content Copying" = "Sisällön kopiointi";
+"Number of Pages" = "Sivumäärä";
+"File Size" = "Tiedostokoko";
+"CreationDate" = "Luotu";
+"ModDate" = "Muokattu";
+"Creator" = "Sisällön luoja";
+"Producer" = "PDF-tuottaja";
+"Info" = "Viesti";
+"Tap the Edit button to show all metadata fields." = "Napauta Muokkaa-näppäintä näyttääksesi kaikki metadatakentät.";
+"Document Owner Password" = "Dokumentin omistajan salasana";
+"Changes Are Locked" = "Muutokset on lukittu";
+"Enter the Document Owner Password to make changes." = "Syötä dokumentin omistajan salasana tehdäksesi muutoksia.";
+"Incorrect Password" = "Väärä salasana";
+"Passwords" = "Salasana";
+"Modifying Content" = "Sisällön muokkaaminen";
+"Editing Annotations and Forms" = "Merkinnät ja kaavakkeet";
+"Filling Forms" = "Kaavakenttien täyttäminen";
+"Copying Content" = "Sisällön kopiointi";
+"Copying Content for Accessibility" = "Sisällön kopiointi saavutettavuutta varten";
+"Could Not Save" = "Ei voitu tallentaa";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Dokumentin avaavaa salasanaa määriteltäessä on oltava dokumentin omistajan salasana.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Tiedoston polku";
+"Identical Passwords" = "Identtiset salasanat";
+"Choose a different Owner or Open password." = "Valitse toinen omistajan salasana tai avaamiseen käytettävä salasana.";
+"Owner Password Required" = "Vaatii omistajan salasanan";
+"An owner password is required to change the permissions of a document." = "Dokumentin oikeuksien muuttamiseen vaaditaan omistajan salasana.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Jotkin PDF-lukijat noudattavat käyttöoikeusrajoituksia. Tämä sovellus ei pakota noudattamaan niitä.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Valittu %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Valittu %@, sisältää %@";
+// Accessibility string for comment threads
+"commentThread" = "Kommenttisäie";
+"printProgressModalDesc" = "Ilmaisee, että dokumenttia valmistellaan tulostusta varten";
+"printProgressModal" = "Tulostus meneillään";
+"documentEditorDesc" = "Tee muutoksia nykyiseen dokumenttiin";
+"reloadDocumentDialog" = "Vahvista dokumentin uudelleenlataus";
+"reloadDocumentDialogDesc" = "Dialogi, jossa käyttäjää pyydetään vahvistamaan dokumentin lataus uudelleen.";
+"signatureDialog" = "Allekirjoitus";
+"signatureDialogDesc" = "Tässä dialogissa voit valita dokumenttiin lisättävän musteallekirjoituksen. Ellei allekirjoituksia ole tallennettuna, voit luoda uuden käyttämällä piirtoaluenäkymää.";
+"stampAnnotationTemplatesDialog" = "Leimamerkintämallit";
+"stampAnnotationTemplatesDialogDesc" = "Tässä dialogissa voit valita dokumenttiin lisättävän leimamerkinnän tai luoda oman leimamerkinnän omalla tekstilläsi.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Hävittäminen";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Hävittämisen merkintä";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Suoritettu hävitys";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Reunan väri";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Peittävä teksti";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Toista teksti";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Tekstin väri";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Hävittämisen tiedot";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Tämä dokumentti sisältää hävitettäväksi merkittyä tekstiä, jota ei ole vahvistettu. Haluatko vahvistaa hävittämisen?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Suorita";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Hävittäminen on kaksivaiheinen prosessi. Luo ensin hävitysmerkki hävitettävän alueen valitsemiseksi. Poista sisältö peruuttamattomasti napauttamalla oikeassa alakulmassa punaista ▵-painiketta ja suorita hävittäminen.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Suorita hävitys";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Poista hävitykset";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Ota hävityksen esikatselu käyttöön";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Poista hävityksen esikatselu käytöstä";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Hävityksen suorittaminen poistaa tiedot pysyvästi eikä sitä voida perua.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Tallenna uuteen tiedostoon";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Hävitä nykyinen dokumentti";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Hävitetään…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Dokumenttia ei voida hävittää.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Hävitettäväksi merkittyä sisältöä ei poisteta kun dokumentti tallennetaan. Haluatko varmasti jatkaa?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Hävitä nykyisestä dokumentista";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Tallenna hävitetty dokumentti nimellä";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Hävitetty";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Alueen hävitys";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Tekstin hävitys";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Hävityksiä suoritetaan";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Allekirjoitus kesken";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Ilmaisee, että nykyinen dokumentti on allekirjoitettavana";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Aseta peittävä teksti";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Palauta tiedosto";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Puuttuva tiedosto";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "Kohde “%@“ on poistettu sovelluksen ulkopuolella. Haluatko sulkea tämän dokumentin vai palauttaa tiedoston?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Tiedostokonflikti";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "Kohdetta “%@“ on muutettu sovelluksen ulkopuolella. Tallentaminen kirjoittaa yli muualla tehdyt muutokset.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Tallenna muutokset";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Lataa media napauttamalla.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Tämän merkinnän mediaa ei voitu ladata yhteysongelman vuoksi. Yritä myöhemmin uudelleen.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Napauta yrittääksesi uudelleen median lataamista.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Tämän merkinnän mediaa ei löydy. Jos tämä viesti näytetään senkin jälkeen kun tämä dokumentti on synkronisoitu, raportoi tämä ongelma ja liitä raporttiin seuraavat tiedot: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Peru lataus napauttamalla";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Mediaa ladattaessa tapahtui odottamaton virhe. Virhe %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Linkki sivulle";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Linkki verkkosivustolle";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Sivunumero";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Sivun valinta";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Liitä leikepöydältä";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Verkkosivuston esikatselu";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Verkkosivuston osoite";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Takaisin";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Eteenpäin";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Paletti";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Viimeksi käytetyt";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Oletusväripaletti";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Värivaihtoehdot";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Väri";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Värikylläisyys";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Valoisuus";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Heksadesimaalinen väriarvo";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Annettu arvo ei ole voimassa oleva väri.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Liitä leikepöydältä";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Sivun asemointi";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Vasen reuna";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Oikea reuna";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Ei käytössä";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Vasen";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Oikea";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Järjestys";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Eteen";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Eteenpäin";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Taaksepäin";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Taakse";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Jäljennä";
+"DocumentEditor_Extract" = "Poimi";
+"General_SelectNone" = "Älä valitse mitään";
+"DocumentEditor_NewPage" = "Uusi sivu";
+"DocumentEditor_InstantModifiedWarning" = "Tätä dokumenttia on muutettu ja se on vain luku -tilassa. Korjaa tämä lataamalla sivu uudelleen.";
+"DocumentEditor_MoveBefore" = "Siirrä ennen";
+"DocumentEditor_MoveAfter" = "Siirrä jälkeen";
+"DocumentEditor_DocumentMergedHere" = "Dokumentti yhdistetään tässä";
+
+// Android Strings
+"FileSystemPermission" = "Näyttää että olet kieltänyt tältä ohjelmalta tiedostojärjestelmäoikeudet pysyvästi. Jotta voisit katsella ja avata PDF-tiedostoja, jotka on tallennettu laitteellesi, sinun tulee sallia tiedostojärjestelmälupa käsin ohjelman asetuksista.";
+"Button_OpenSettings" = "Avaa asetukset";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Näytä lisää";
+// Button to show less comments
+"Comments_ShowLess" = "Näytä vähemmän";
+// Button to reply to a comment
+"Comments_Reply" = "Vastaa";
+// Button to show all comments
+"Comments_ShowAll" = "Näytä kaikki";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Haluatko varmasti poistaa tämän kommentin?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Vahvista commenting poistaminen";
+// Verb for Comment
+"Comment_Action" = "Kommentoi";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Dokumentti on allekirjoitettu digitaalisesti ja kaikki allekirjoitukset ovat voimassa.";
+"DigitalSignatures_DocModified" = "Dokumentti on allekirjoitettu digitaalisesti, mutta sitä on muutettu allekirjoituksen jälkeen.";
+"DigitalSignatures_SignatureWarning" = "Dokumentti on allekirjoitettu digitaalisesti, mutta ainakin yhdessä allekirjoituksessa on ongelmia.";
+"DigitalSignatures_SignatureWarningDocModified" = "Dokumentti on allekirjoitettu digitaalisesti, mutta sitä on muutettu allekirjoituksen jälkeen ja ainakin yhdessä allekirjoituksessa on ongelmia.";
+"DigitalSignatures_SignatureError" = "Dokumentti on allekirjoitettu digitaalisesti, mutta ainakin yksi allekirjoitus on virheellinen.";
+"DigitalSignatures_SignatureErrorDocModified" = "Dokumentti on allekirjoitettu digitaalisesti, mutta sitä on muutettu allekirjoituksen jälkeen ja ainakin yksi allekirjoitus on virheellinen.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Äänitystä ei voitu aloittaa";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Äänitystä ei voitu lopettaa";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Sivuja ei voitu liimata";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Allekirjoitussertifikaattia ei saatu";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Dokumenttia ei voitu allekirjoittaa";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Tämän tiedoston avaamisessa tapahtui tuntematon virhe.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Lukijanäyttö";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Piirrä";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Kuva";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Syötä";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Allekirjoita tähän";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Syötä allekirjoituksesi yläpuolelle";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Tallenna allekirjoitus";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Valitse tai raahaa kuva";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Valitse kuva";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Korvaa kuva";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Tiedostot";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Uusi allekirjoitus";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Käytössä";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Ei käytössä";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "Lisää merkintä";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "Lisää merkintöjä";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "Lisää kommentti";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "Muuta dokumentin tilaa";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "Muuta huomautustyyppiä";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "Muuta valintaa";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "Tyhjennä merkinnät";
+// Command of cutting.
+"Undo_Cut" = "Leikkaa";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "Valitse hahmo";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "Piirrä";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "Pudota";
+// Command of editing text of a comment.
+"Undo_EditComment" = "Muokkaa kommenttia";
+// Command of editing text inside text fields.
+"Undo_EditText" = "Muokkaa tekstiä";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "Nollaa";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "Aseta ryhmitys";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "Yhdistä";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "Muokkaa merkintää";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "Muokkaa merkintöjä";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "Siirrä merkintä";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "Siirrä merkintöjä";
+// Command of pasting.
+"Undo_Paste" = "Liimaa";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "Poista merkintä";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "Poista merkinnät";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "Poista kommentti";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "Poista kommentit";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "Muuta merkinnän kokoa";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "Muuta merkintöjen kokoa";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "Kierrä merkintää";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "Kierrä merkintöjä";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "Poista ryhmitys";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Kohdista";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Kohdista dokumentit";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Valitse piste";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Vanha";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Uusi";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Vertailu";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Valitse kummastakin dokumentista kolme pistettä manuaalista kohdistusta varten. Saat parhaat tulokset jos valitset pisteet läheltä dokumentin kulmia. Varmista että pisteet ovat kummassakin dokumentissa samassa järjestyksessä.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Kumoa";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Kohdista dokumentit";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Dokumentin vertailu";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Vanha dokumentti";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Uusi dokumentti";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Nollaa";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Pisteiden valinta";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Kohdista…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Pisteiden valinta";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Piste %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Valittu %1$tu/%2$tu dokumentissa “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Piste %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Pisteiden valinnan kohde";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Pilvimäinen suorakulmio";
+"DashedRectangleAnnotation" = "Suorakulmio katkoviivalla";
+"CloudyEllipseAnnotation" = "Pilvimäinen ellipsi";
+"DashedEllipseAnnotation" = "Ellipsi katkoviivalla";
+"CloudyPolygonAnnotation" = "Pilvimäinen monikulmio";
+"DashedPolygonAnnotation" = "Monikulmio katkoviivalla";
+"CloudAnnotation" = "Pilvi";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Ei täytetä";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Tallennettuja merkintöjä ei voitu ladata";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Merkintöjä ei voitu tallentaa";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Etäisyys";
+"PerimeterMeasurement" = "Kehä";
+"PolygonalAreaMeasurement" = "Monikulmion pinta-ala";
+"RectangularAreaMeasurement" = "Suorakulmion pinta-ala";
+"EllipticalAreaMeasurement" = "Ellipsin pinta-ala";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Kierrä vastapäivään";
+"Rotate_Clockwise" = "Kierrä myötäpäivään";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Lisää kuvaus tähän";
+// "New option button text"
+"FormDesigner_addOption" = "Lisää vaihtoehto";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType}-objektin ominaisuudet";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Lomakkeessa on jo kenttä nimeltä {formFieldName}. Valitse toinen nimi.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType}-objektin tyyli";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Lomakekentän nimi";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Oletusarvo";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Useita rivejä";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Jos haluat liittää useita valintanappeja samaan ryhmään, varmista, että ne käyttävät samaa lomakekentän nimeä.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Lisäasetukset";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Tekijän nimi";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Kommentti";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Erikoismuotoinen data";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Välttämätön";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Vain luku";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Luotu";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Päivitetty";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Täytyy olla puhdas JSON-sarjamuotoinen objekti";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Reunuksen väri";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Reunan leveys";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Reunan tyyli";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Tulostus";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Tasainen";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Katko";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Viistetty";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Upotettu";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Alleviivaus";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Tekstityyli";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Kirjasinkoko";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Kirjasinväri";
+// "Button Field"
+"FormDesigner_button" = "Painikekenttä";
+// "Text Field Button"
+"FormDesigner_textField" = "Tekstikenttä";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Valintanappikenttä";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Valintaruutukenttä";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Yhdistelmäruutukenttä";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Luetteloruutukenttä";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Allekirjoituskenttä";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Painiketeksti";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "Tunniste";
+// Value for form field
+"FormDesigner_value" = "Arvo";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Ei voi enää muuttaa luomisen jälkeen.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Lomakekentän nimi ei voi olla tyhjä.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Lomaketyökalu";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Monivalitsin";
+"FormDesigner_readOnlyProperty" = "Vain luku";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Vaihtoehdot";
+
+// Measurement tools
+"MeasurementScale" = "Mittakaava";
+"MeasurementCalibrateLength" = "Kalibroi pituus";
+"MeasurementPrecision" = "Tarkkuus";
+"MeasurementSnapping" = "Kohdistus";
+"MeasurementPrecision_Whole" = "Kokonaisluku";
+"MeasurementPrecision_OneDecimalPlace" = "Yksi desimaalipaikka";
+"MeasurementPrecision_TwoDecimalPlaces" = "Kaksi desimaalipaikkaa";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Kolme desimaalipaikkaa";
+"MeasurementPrecision_FourDecimalPlaces" = "Neljä desimaalipaikkaa";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Pinta-ala";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Mediamerkintä";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Tämä selain ei tue sulautettua videota tai ääntä.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Linkkiasetukset";
+// Label for selection of link type (website - page).
+"linkTo" = "Linkki kohteeseen";
+// Label for website selection.
+"uriLink" = "Verkkosivusto";
+// Label for page selection.
+"pageLink" = "Sivu";
+// Text for preceding number for page link number.
+"linkToPage" = "Linkki sivulle %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Syötä validi sivunumero.";
+// Error message for invalid page link.
+"invalidPageLink" = "Syötä validi sivulinkki.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Mittausasetukset {measurementType}-tyypille";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Valitse useita merkintöjä";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ - työkalut";
+
+// Document unlock string
+"Unlock_Document_Description" = "Tämän dokumentin katselu edellyttää sen avaamista. Syötä salasana alla olevaan kenttään.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonyymi";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Kommentointivaihtoehdot";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Muokkaa sisältöä";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Kehän mittausasetukset";
+"Distance_Popover_Title" = "Etäisyyden mittausasetukset";
+"Rectangle_Area_Title" = "Suorakulmion pinta-alan mittausasetukset";
+"Polygon_Area_Title" = "Monikulmion pinta-alan mittausasetukset";
+"Ellipse_Area_Title" = "Ellipsin pinta-alan mittausasetukset";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Lihavoitu";
+"Italic" = "Kursiivi";
+
+// Button to save and then close current context
+"Save_And_Close" = "Tallenna & sulje";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Näytä epäyhteensopivan fontin työkaluvihje";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "%@ -fontti ei ole käytettävissä tai sitä ei voi käyttää tämän dokumentin muokkaamisessa. Lisätty tai muutettu sisältö näytetään käyttäen oletusfonttia.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Upota";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Litistä";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Sivuuta";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Yhteenveto";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Valitse ensimmäinen sivu";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Valitse viimeinen sivu";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "–";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Kierto";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Muokkaa sisältöä";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "Dokumentin “%1$@” muutoksia ei ole tallennettu.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Useita kirjasimia";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Tuntematon kirjasin";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Useita kokoja";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Pienennä kokoa";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Kasvata kokoa";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Useita värejä";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ lihavoitu";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ kursiivi";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ lihavoitu kursiivi";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Avoin kommenttisäie, säikeen on aloittanut %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Lisää kommentteja";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Sivut";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Uusi muokattu väri";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Sisältöeditori";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Etsi valinta";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Etsi verkosta";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Kokonaiset tuumat";
+"MeasurementPrecision_Halves" = "Puolikkaat tuumat";
+"MeasurementPrecision_Quarters" = "Neljännestuumat";
+"MeasurementPrecision_Eighths" = "Tuuman kahdeksasosat";
+"MeasurementPrecision_Sixteenths" = "Tuuman kuudestoistaosat";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Dokumentin allekirjoittamiseen käytettävä varmenneketju on tyhjä.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Digitaalista allekirjoitusta ei tueta.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Digitaalinen allekirjoitus sisältää virheellisen aikaleiman tai aikaleimatietoa on peukaloitu.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Mittausasetukset";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Lisää mittakaava";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Käytä kalibrointityökalua";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Kalibroi mittakaava";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Aseta mittakaava";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Lisäyksiköt";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Yksikkö";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Mittakaavan poistaminen poistaa myös kyseistä mittakaavaa käyttävät mitttaukset.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Tämä mittakaava on jo käytössä";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Haluaisitko muokata tai käyttää olemassa olevaa mittakaavaa?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Käytä olemassa olevaa";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Nimeämätön";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Kohdistus pisteeseen";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Itsekohdistus";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Näytä älykkäät opasteet";
+
+// Label for the add text box button
+"AddTextBox" = "Lisää tekstiruutu";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Haluatko varmasti poistaa tämän tekstiruudun?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Vahvista tekstiruudun poistaminen";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialogi, jossa käyttäjä voi vahvistaa tai perua tekstiruudun poistamisen";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Vain luku";
+"locked" = "Lukittu";
+"lockedContent" = "Lukittu sisältö";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Mittakaava lisätty";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "”%@” on lisätty onnistuneesti mittakaavaluetteloon.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Mittausasetusten kuvake";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Kuvake, joka ilmaisee, että mittausasetusten mittakaavaa ei ole asetettu";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Tämän dokumentin allekirjoitusformaatti on %@ ja sen allekirjoitti %@ %@ kello %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Tämä dokumentti ilmoittaa, että sen allekirjoitusformaatti on %@ ja että sen allekirjoitti %@ %@ kello %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritmi: %@ ja %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Poimi sivut";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Mittakaavan nimi";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Järjestelmään on jo määritetty näitä asetuksia käyttävä mittakaava. Valitse erilainen mittakaava.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Näytä lisäyksikkö";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Muokkaa mittakaavaa tai lisää uusi mittakaava";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Kalibroi";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Kerrokset";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Ei kerroksia";
+
+"The certificate is not yet valid" = "Varmenne ei ole vielä voimassa.";
+"Signature validation failed - invalid signature" = "Allekirjoitus on virheellinen.";
+"The certificate has been revoked" = "Varmenne on peruttu.";
+"Certificate problem" = "Varmenteen kanssa on ongelma.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Emme pystyneet tarkistamaan onko varmenne peruttu.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Rivien välinen tila";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Yksi riviväli";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Kaksinkertainen riviväli";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Valitse lisätoiminto…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Mittaus";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Lataa dokumentti uudelleen";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Autamme innovoimaan paperittomasti tarjoamalla kehitystyökalut, vähäkoodiset ratkaisut ja loppukäyttäjän työkalut tärkeimmillä alustoilla.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Toiminto";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Pikanäppäin";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Maininta";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Avaa Ohje-dialogi";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Lue lisää";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Työkalupalkin fokus";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Muistia ei ole tarpeeksi tämän sivun näyttämiseksi.";

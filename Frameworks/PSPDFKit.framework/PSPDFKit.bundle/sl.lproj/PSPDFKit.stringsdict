@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>%tu match(es) found</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_matches_found@</string>
+        <key>tu_matches_found</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Ni najdenih zadetkov</string>
+            <key>one</key>
+            <string>%tu najden zadetek</string>
+            <key>two</key>
+            <string>%tu najdena zadetka</string>
+            <key>other</key>
+            <string>%tu najdenih zadetkov</string>
+        </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_documents_indexed@</string>
+        <key>tu_documents_indexed</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Brez indeksiranih dokumentov</string>
+            <key>one</key>
+            <string>%tu indeksiran dokument</string>
+            <key>two</key>
+            <string>%tu indeksirana dokumenta</string>
+            <key>other</key>
+            <string>%tu indeksiranih dokumentov</string>
+        </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_annotations@</string>
+        <key>tu_annotations</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Brez označb</string>
+            <key>one</key>
+            <string>%tu označba</string>
+            <key>two</key>
+            <string>%tu označbi</string>
+            <key>other</key>
+            <string>%tu označb</string>
+        </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_points@</string>
+        <key>tu_points</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu točka</string>
+            <key>two</key>
+            <string>%tu točki</string>
+            <key>other</key>
+            <string>%tu točk</string>
+        </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Vse (%#@pages@)</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu stran</string>
+            <key>two</key>
+            <string>%tu strani</string>
+            <key>other</key>
+            <string>%tu strani</string>
+        </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_results@</string>
+        <key>tu_results</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Ni zadetkov</string>
+            <key>one</key>
+            <string>%tu zadetek</string>
+            <key>two</key>
+            <string>%tu zadetka</string>
+            <key>other</key>
+            <string>%tu zadetkov</string>
+        </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Iskanje po %#@pages@</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu strani</string>
+            <key>two</key>
+            <string>%tu straneh</string>
+            <key>other</key>
+            <string>%tu straneh</string>
+        </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_lines@</string>
+        <key>tu_lines</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu črta</string>
+            <key>two</key>
+            <string>%tu črti</string>
+            <key>other</key>
+            <string>%tu črte</string>
+        </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Izbriši %#@comments@</string>
+        <key>comments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu komentar</string>
+            <key> two</key>
+            <string>%tu komentarja</string>
+            <key> few</key>
+            <string>%tu komentarji</string>
+            <key>other</key>
+            <string>%tu komentarjev</string>
+        </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+       <key>NSStringLocalizedFormatKey</key>
+       <string>%#@tu_comments@</string>
+       <key>tu_comments</key>
+       <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu komentar</string>
+            <key> two</key>
+            <string>%tu komentarja</string>
+            <key> few</key>
+            <string>%tu komentarji</string>
+            <key>other</key>
+            <string>%tu komentarjev</string>
+       </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_more_comments@</string>
+        <key>tu_more_comments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu preostali komentar</string>
+            <key> two</key>
+            <string>%tu preostala komentarja</string>
+            <key> few</key>
+            <string>%tu preostali komentarji</string>
+            <key>other</key>
+            <string>%tu preostalih komentarjev</string>
+        </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Vse (%#@pages@, %#@documents@)</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu stran</string>
+            <key>other</key>
+            <string>%tu strani</string>
+        </dict>
+        <key>documents</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu dokument</string>
+            <key>two</key>
+            <string>%tu dokumenta</string>
+            <key>other</key>
+            <string>%tu dokumenti</string>
+        </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_pages_selected@</string>
+        <key>tu_pages_selected</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu izbrana stran</string>
+            <key>other</key>
+            <string>%tu izbrane strani</string>
+        </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Pogovorno okno s komentarji. Odprti komentarji. Avtor: %@. %#@tu_replies@</string>
+        <key>tu_replies</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu odgovor</string>
+            <key>two</key>
+            <string>%tu odgovora</string>
+            <key>three</key>
+            <string>%tu odgovori</string>
+            <key>four</key>
+            <string>%tu odgovori</string>
+            <key>other</key>
+            <string>%tu odgovorov</string>
+        </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_sides@</string>
+        <key>tu_sides</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu stran</string>
+            <key>other</key>
+            <string>%tu strani</string>
+        </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_segments@</string>
+        <key>tu_segments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu odsek</string>
+            <key>two</key>
+            <string>%tu odseka</string>
+            <key>three</key>
+            <string>%tu odseki</string>
+            <key>four</key>
+            <string>%tu odseki</string>
+            <key>other</key>
+            <string>%tu odsekov</string>
+        </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_documents_selected@</string>
+        <key>tu_documents_selected</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu izbran document</string>
+            <key>two</key>
+            <string>%tu izbrana documenta</string>
+            <key>three</key>
+            <string>%tu izbrani documenti</string>
+            <key>four</key>
+            <string>%tu izbrani documenti</string>
+            <key>other</key>
+            <string>%tu izbranih dokumentov</string>
+            <key>zero</key>
+            <string>Brez izbranih dokumentov</string>
+        </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@measurements@</string>
+         <key>measurements</key>
+         <dict>
+             <key>NSStringFormatSpecTypeKey</key>
+             <string>NSStringPluralRuleType</string>
+             <key>NSStringFormatValueTypeKey</key>
+             <string>tu</string>
+             <key>one</key>
+             <string>To merilo je uporabljeno v %tu meritvi.</string>
+             <key>other</key>
+             <string>To merilo je uporabljeno v %tu meritvah.</string>
+             <key>zero</key>
+             <string>To merilo ni uporabljeno v nobeni meritvi.</string>
+         </dict>
+    </dict>
+</dict>
+</plist>

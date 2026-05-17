@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Luk";
+"Cancel" = "Annuller";
+"OK" = "OK";
+"Open" = "Åbn";
+"Untitled" = "Uden navn";
+"File Not Found" = "Arkiv ikke fundet";
+"File couldn't be opened." = "Arkiv kunne ikke åbnes."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF uden navn";
+"Page %tu" = "Side %tu";
+"Page %@" = "Side %@";
+"Next" = "Næste";
+"Previous" = "Forrige";
+"Error" = "Fejl";
+"More options" = "Flere valgmuligheder";
+"Close Tab" = "Luk fane";
+"Close All Tabs" = "Luk alle faner";
+"Close All Other Tabs" = "Luk alle andre faner"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Tegning";
+"Highlighter" = "Friform markering";
+
+// toolbar
+"Outline" = "Kontur"; // Table of contents
+"No Outline" = "Intet indhold";
+"Search Outline" = "Søg i indeks";
+"Search" = "Søg";
+"Email" = "E-mail";
+"Send via Email" = "Send pr. e-mail";
+"Send" = "Udfør";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Del via Beskeder";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Del via e-mail";
+"Open In" = "Åbn i";
+"Commit" = "Udfør";
+"Sending to %@" = "Sender til %@"; // Open document with an application
+"Pages" = "Sider";
+"Print with annotations" = "Udskriv med annoteringer";
+"Print without annotations" = "Udskriv uden annoteringer";
+"No Applications found" = "Ingen programmer, der kan åbne PDF-dokumenter, er installeret.";
+"Print" = "Udskriv";
+"Annotation" = "Annotering";
+"Annotations" = "Annoteringer";
+"No Annotations" = "Ingen annoteringer";
+"Bookmarks" = "Bogmærker";
+"No Bookmarks" = "Ingen bogmærker";
+"Add Bookmark" = "Tilføj bogmærke";
+"Remove Bookmark" = "Fjern bogmærke";
+"Brightness" = "Lysstyrke";
+"Share" = "Del";
+"Preparing" = "Forbereder";
+"Loading" = "Indlæser";
+"Expand" = "Udvid";
+"Collapse" = "Sammenfold";
+// SMS / iMessage sharing button
+"Message" = "Meddelelse";
+"Thumbnails" = "Oversigter";
+"Drag Toolbar" = "Træk værktøjslinje";
+
+// thumbnails
+"Bookmarked" = "Bogmærket";
+"Annotated" = "Annoteret";
+"All" = "Alle";
+"Loading Annotations" = "Indlæser annoteringer";
+"Loading Pages" = "Indlæser sider";
+"Loading Bookmarks" = "Indlæser bogmærker";
+
+// password
+"Password" = "Adgangskode"; // text on a label
+"Unlock" = "Lås op";
+"Please enter the password." = "Skriv venligst adgangskode.";
+"This document cannot be unlocked." = "Dette dokument kan ikke låses op.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Adgangskodefelt";
+
+// page
+"%tu of %tu" = "%tu af %tu";
+"%tu–%tu of %tu" = "%tu–%tu af %tu";
+"%@ (%tu of %tu)" = "%@ (%tu af %tu)";
+"%@, Page %tu" = "%@, side %tu";
+"Leave %@?" = "Forlad %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu af %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu af %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu af %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Søg i dokument"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Søger i side %tu af %tu";
+"Search Completed" = "Søgning afsluttet";
+"Search Cancelled" = "Søgning annuleret";
+"%tu left" = "%tu tilbage"; // Indexing Documents... 5 left
+"Searching" = "Søger";
+"Done" = "Færdig";
+"Indexing Documents" = "Indekserer dokumenter";
+"Document" = "Dokument";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Søg i annoteringer";
+
+// inline browser
+"Open in Safari" = "Åbn i Safari";
+"Open in Chrome" = "Åbn i Chrome";
+"Your %@ is not configured to send emails." = "Din %@ er ikke konfigureret til at sende e-mails.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Dette link beder om at åbne %1$@. %2$@Vil du fortsætte?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "et eksternt program"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "„Handler“ for %@ blev ikke fundet";
+
+// text selection
+"Text copied to clipboard." = "Tekst kopieret til Udklipsholder.";
+"Save to Photo Library" = "Arkiver i fotobibliotek";
+"Failed to extract image." = "Kunne ikke udtrække billede.";
+"Type value or pick from list" = "Skriv værdi eller vælg fra listen";
+
+// annotations
+"Add %@" = "Tilføj %@";
+"Remove %@" = "Fjern %@";
+"Remove" = "Fjern";
+"Delete" = "Slet"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Rediger";
+"Undo" = "Fortryd";
+"Nothing to undo" = "Intet at fortryde";
+"Redo" = "Gentag";
+"Nothing to redo" = "Intet at bruge";
+"Type" = "Skriv"; // kind of Annotation can be selected
+"Size" = "Str.";
+"Font" = "Skrift";
+"Fonts" = "Skrifter";
+"All Fonts" = "Alle skrifter";
+"Downloadable Fonts" = "Skriftyper til download";
+"Search Fonts" = "Søg i skrifter";
+"Choose Color" = "Vælg farve";
+"Choose Fill Color" = "Vælg fyldfarve";
+"Rainbow" = "Regnbue";
+"Monochrome" = "Sort/hvid";
+"Vintage" = "Gammeldags";
+"Modern" = "Moderne";
+"ColorPalette_Unified" = "Palette";
+"Color" = "Farve";
+"Border" = "Ramme";
+"Fill Color" = "Fyldfarve";
+"Start and End Color" = "Start- og slut-farve";
+"Opacity" = "Transparens";
+"Thickness" = "Tykkelse";
+"%@ pt" = "%@ pt";
+"Yellow" = "Gul";
+"Green" = "Grøn";
+"Red" = "Rød";
+"Blue" = "Blå";
+"Pink" = "Lyserød";
+"Black" = "Sort";
+"Orange" = "Orange";
+"Purple" = "Violet";
+"Cyan" = "Cyan";
+"Gray" = "Grå";
+"White" = "Hvid";
+"Color_Brown" = "Brun";
+"Color_DarkRed" = "Mørkerød";
+"Color_DarkBlue" = "Mørkeblå";
+"Color_Magenta" = "Magenta";
+"Define" = "Definer";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Tekstmarkering";
+"Underline" = "Understreget";
+"Squiggly" = "Bølgelinje";
+"StrikeOut" = "Gennemstreget";
+"Rectangle" = "Rektangel";
+"Ellipse" = "Ellipse";
+"Line" = "Linje"; // something that can be drawn
+"Polygon" = "Polygon";
+"Signature" = "Signatur";
+"Signatures" = "Signaturer";
+"Signed" = "Signeret";
+"Sign" = "Signer";
+"Signing…" = "Signerer…";
+"Sign using %@" = "Underskriv med %@"; // e.g. Adobe.PPKLite
+"Methods" = "Metoder"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Vælg idenditet"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Stempel";
+"Stamps" = "Stempler";
+"Custom" = "Speciel"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Opret stempel";
+"Preview" = "Vis";
+"Stamp Text" = "Stempeltekst";
+"Add Signature" = "Tilføj signatur";
+"Remove Signature" = "Fjern signatur";
+"My Signature" = "Min signatur";
+"No Signatures" = "Ingen signaturer"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Underskriv her";
+"Text" = "Bemærk";
+"FreeText" = "Tekst";
+"Delete Note" = "Slet note";
+"Remove Note" = "Fjern note";
+"%@ could not be found." = "%@ blev ikke fundet.";
+"Photo Library" = "Fotobibliotek";
+"Camera" = "Kamera";
+"camera_not_available" = "Kamera ikke tilgængeligt";
+"Image" = "Billede";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Vælg billedkvalitet";
+"Low Quality" = "Lav kvalitet";
+"Medium Quality" = "Middel kvalitet";
+"High Quality" = "Høj kvalitet";
+"Clear All" = "Ryd alt";
+"Clear" = "Ryd";
+"Style" = "Udseende";
+"Link" = "Henvisning";
+"Ink" = "Tegning";
+"Screen" = "Skærmbrædt";
+"RichMedia" = "Multimedie";
+"FileAttachment" = "Arkiv";
+"Left" = "Venstre";
+"Center" = "Centreret";
+"Right" = "Højrejusteret";
+"Alignment" = "Justering";
+"Preview File" = "Vis arkiv";
+"Copy" = "Kopier";
+"Paste" = "Sæt ind";
+"Inspector" = "Inspektør";
+"Group" = "Grupper";
+"Ungroup" = "Ophæv gruppe";
+"Merge" = "Kombiner"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Eksempel";
+"Annotation Summary for %@:" = "Annoteringsresumé af %@:";
+"Show Text" = "Vis tekst";
+// title
+"Author Name" = "Forfatternavn";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Angiv venligst det forfatternavn du ønsker at bruge til indsatte annoteringer.";
+// text field placeholder
+"Name" = "Navn";
+// meaning: close
+"Dismiss" = "Luk";
+"Fit to Text" = "Tilpas til tekst";
+"Draw" = "Tegn";
+"Sound" = "Lyd";
+"Eraser" = "Viskelæder";
+"Toggle Eraser" = "Luk viskelæder"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Valg-værktøj";
+"Add" = "Tilføj"; // to add - infinitive
+"Date" = "Dato";
+"Time" = "Tid";
+"No Pages" = "Ingen sider";
+"Drag to resize" = "Træk for at skalere"; // used as hint that inspector is resizable
+"Convert to" = "Konverter til"; // used as label on action that changes free text intent type
+"Color Presets" = "Farvevalg";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Farvevalg";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Klip";
+"Annotation copied." = "Annotering kopieret.";
+"Annotation cut." = "Annotering klippet.";
+"Annotation pasted." = "Annotering indsat.";
+"%tu selected" = "%tu valgt";
+"Custom Stamp" = "Specielt stempel";
+"Change text and color" = "Rediger tekst og farve";
+"Use an existing stamp design" = "Brug et eksisterende stempeldesign";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Magisk blæk";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Kunne ikke indlæse skriften '%@' i str. %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Udseendeinspektør";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Er du sikker på du vil slette alle annoteringer?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Annoteringsoprettelse slået fra";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Har kommentar";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Tekstannotering";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Flueben";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Kryds";
+
+"Callout" = "Tekstbox"; // freetext annotation with an arrow
+"Generic" = "Generisk"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Linjeudseende";
+"Solid" = "Fortsat";
+"Narrow Dots" = "Tætte prikker";
+"Wide Dots" = "Spredte prikker";
+"Narrow Dashes" = "Tætte streger";
+"Wide Dashes" = "Spredte streger";
+"Cloudy" = "Skyet"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Godkendt";
+"Not Approved" = "Ikke godkendt";
+"Draft" = "Udkast";
+"Final" = "Endelig";
+"Completed" = "Færdige";
+"Confidential" = "Fortroligt";
+"For Public Release" = "Til offentliggørelse";
+"Not For Public Release" = "Ikke til offentliggørelse";
+"For Comment" = "Til kommentering";
+"Void" = "Ugyldig";
+"Preliminary Results" = "Foreløbige resultater";
+"Information only" = "Kun til information";
+"Accepted" = "Accepteret";
+"Rejected" = "Afvist";
+"Initial Here" = "Initial her";
+"Sign Here" = "Underskriv her";
+"Witness" = "Vidne";
+"Revised" = "Revideret";
+"Stamp.AsIs" = "Som den er";
+"Stamp.Departmental" = "Internt brug";
+"Stamp.Experimental" = "Eksperimentel";
+"Stamp.Expired" = "Udløbet";
+"Stamp.Sold" = "Solgt";
+"Stamp.TopSecret" = "Top Secret";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Penne";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Fra";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Søger";
+// text on a label; app connects to a stylus
+"Pairing" = "Parring";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ tilsluttet";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ forbindelse afbrudt";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Indstillinger";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Brug Apple Pencil til annotering";
+
+// PDF annotation name overrides
+"Square" = "Rektangel";
+"Circle" = "Cirkel";
+"PolyLine" = "Polygonal";
+"SavedAnnotations" = "Arkiveret";
+
+// named actions
+"NextPage" = "Næste side";
+"PrevPage" = "Forrige side";
+"FirstPage" = "Første side";
+"LastPage" = "Sidste side";
+"GoBack" = "Tilbage";
+"GoForward" = "Fremad";
+"GoToPage" = "Gå til side";
+"Find" = "Søg";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Zoom ind";
+"ZoomOut" = "Zoom ud";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Multimediehandling";
+"Rendition Action" = "Gengivelseshandling";
+"Hide Action" = "Skjul handling";
+"Submit Form" = "Send formular";
+"Reset" = "Nulstil";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Tilbage";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Vælg alt";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Vælg emne ovenfor";
+"KeyCommand.SelectBelow" = "Vælg emne herunder";
+"KeyCommand.SelectTop" = "Vælg øverste emne";
+"KeyCommand.SelectBottom" = "Vælg nederste emne";
+"KeyCommand.ClearSelection" = "Ryd markering";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Udvid det valgte";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Sammenfold markering";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Vis næste fane";
+"KeyCommand.ShowPreviousTab" = "Vis forrige fane";
+"KeyCommand.SelectAllAnnotations" = "Vælg alle annoteringer";
+
+// line annotations
+"Start" = "Linjeslut";
+"End" = "Slut";
+"Line.None" = "Ingen";
+"Line.ClosedArrow" = "Lukket pil";
+"Line.OpenArrow" = "Åbn pil";
+"Line.Square" = "Kvadrat";
+"Line.Circle" = "Cirkel";
+"Line.Diamond" = "Diamant";
+"Line.ROpenArrow" = "Omvendt åben pil";
+"Line.RClosedArrow" = "Omvendt lukket pil";
+"Line.Slash" = "Skråstreg";
+"Line.Butt" = "Knop";
+"Line Start" = "Linjestart";
+"Line End" = "Linjeslut";
+"Arrow" = "Pil"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Opret henvisning";
+"Add Link" = "Tilføj henvisning";
+"Edit Link" = "Rediger link";
+"Move Link" = "Flyt henvisning";
+"Remove Link" = "Fjern henvisning";
+"Open Link" = "Åbn henvisning";
+"Go to Page %tu" = "Gå til side %tu";
+"Go to Page" = "Gå til side"; // title of a Popup
+"Go" = "Gå"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Kopier URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Kopier link";
+"Save" = "Arkiver";
+"Link Destination" = "Link-destination";
+"Enter page index or a http:// address to link to an URL." = "Angiv side-index eller en http:// adresse for at linke til en URL.";
+"Page %@ Not Found" = "Side %@ ikke fundet";
+"Add to Reading List" = "Føj til læseliste";
+
+"Link annotation creation failed." = "Oprettelse af linkannotering mislykkedes.";
+"Link annotation successfully created." = "Oprettelse af linkannotering lykkedes.";
+"Entered text could not be converted to an Integer nor URL." = "Skrevet tekst kunne ikke konverteres til et hel-tal eller en URL.";
+
+// voiceover accessibility
+"Grid" = "Net"; // grid with thumbnails
+"Translucent" = "Transparent";
+"left" = "venstre";
+"center" = "centrer";
+"right" = "højre";
+"decrease" = "formindsk";
+"increase" = "forøg";
+"All Open Documents" = "Alle åbne dokumenter";
+"Add Documents" = "Tilføj dokumenter"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Åbn arkiv";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Multimediekontrol";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Nustil formular";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Vis handling";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Navngivet handling";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Sider %tu-%tu"; // Range of pages
+"Current Page" = "Aktuel side";
+"Current Page (%tu)" = "Aktuel side (%tu)";
+"Ignore Annotations" = "Ignorer annoteringer";
+"The PDF will not contain any annotations." = "PDF'en vil ikke indeholde annoteringer.";
+"Embed Annotations" = "Indlejr annoteringer";
+"Annotations will remain editable and are embedded into the PDF." = "Annoteringer kan fortsat redigeres og indlejres i PDF'en.";
+"Flatten Annotations" = "Udjævn anmærkninger";
+"Annotations are drawn into the PDF and are readonly." = "Annoteringer gengives i PDF'en og er skrivebeskyttede.";
+"Annotation Summary" = "Annoteringsresumé";
+"Embed Annotations into the PDF and also list them in the email." = "Indlejr annoteringer i PDF'en og oplist dem også i e-mail.";
+"Annotations will be listed in a text file." = "Annoteringer oplistes som tekst.";
+"Files" = "Arkiver";
+"Send as single files" = "Send som enkelte arkiver";
+"Merge files" = "Flet arkiver";
+"Original File" = "Originalt arkiv";
+"Range" = "Omfang";
+"Annotated Pages" = "Annoterede sider";
+"Message could not be sent." = "Meddelelse kunne ikke sendes.";
+"Export" = "Eksporter";
+"This action can't be performed." = "Denne handling kan ikke udføres.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Eksport af dokumenter som ikke er arkivbaserede understøttes ikke";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Dokumentet indeholder ingen annoteringer.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Kunne ikke dele dokument";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Dokument-billeddeling er begrænset til maksimalt %tu sider ad gangen.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Kan ikke sende vedhæftelser via Beskeder.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Dokumenter kan ikke udskrives.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF-dokument";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Destination ikke tilgængelig";
+
+// sound annotations
+"Speak" = "Læs op"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Afspil";
+"Pause" = "Pause";
+"Resume" = "Genoptag";
+"Stop" = "Stop";
+"Play/Stop" = "Afspil/Stop";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Optag";
+"Pause Recording" = "Optagelse på pause";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Optagelse på pause";
+"Continue Recording" = "Fortsæt optagelse";
+"Finish Recording" = "Slut optagelse";
+"Audio Problem" = "Lydproblem";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Kunne ikke afspille.";
+"Could not resume playback." = "Kunne ikke genoptage afspilning.";
+"Microphone permission not granted." = "Mikrofontilladelse ikke givet.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Beklager, der kan i øjeblikket ikke optages lyd. Giv denne app tiladelse til at bruge din mikrofon.";
+"There was a problem trying to record audio." = "Beklager, der opstod et problem under optagelse af lyd.";
+"Already Recording" = "Optagelse igang";
+"You are already recording on page %@." = "Du optager allerede på side %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Det ser ud til du permanent har nægtet denne app tilladelse til at bruge mikrofonen. For at kunne optage lyd-notater skal du via app’en indstillingsskærm manuelt give tilladelse hertil.";
+
+// Forms
+"Form Element" = "Formular-felt";
+"Text Field" = "Tekstfelt";
+"Button" = "Knap";
+"Choice Field" = "Valg-felt";
+"Signature Field" = "Signaturfelt";
+"Clear Field" = "Ryd felt"; // same as delete
+"Default Values" = "Standardværdier";
+"Custom Value" = "Særlig værdi";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Søg efter muligheder";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Ugyldig værdi; skal være større end eller lig med %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Ugyldig værdi; skal være større end eller lig med %s og mindre end eller lig med %s.";
+"Invalid value: must be less than or equal to %s." = "Ugyldig værdi; skal være mindre end eller lig med %s.";
+"The value entered does not match the format of the field [%s]" = "Den skrevne værdi matcher ikke formatet for feltet [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Ugyldig dato/tidspunkt: sørg venligst for at dato/tidspunkt findes. Feltet [%s] skal matche formatet %s";
+
+// General validation
+"Invalid value [%s]" = "Ugyldig væridi [%s]";
+
+// Gallery
+"Connection Error" = "Forbindelsesfejl";
+"Unsupported Content" = "Ikke understøttet indhold";
+"The specified content cannot be displayed." = "Det angivne indhold kan ikke vises.";
+"Something went wrong" = "Noget gik galt";
+"This item is currently unavailable." = "Dette emne er aktuelt ikke tilgængeligt.";
+"The information for this gallery could not be loaded." = "Informationen til dette galleri kunne ikke indlæses.";
+"Content Error" = "Indholdsfejl";
+"This content is unsupported." = "Dette indhold understøttes ikke.";
+
+// Signatures
+"Digital Signature" = "Digital signatur";
+"Signature is valid." = "Signatur er gyldig.";
+"Signature is valid, but there are some warnings." = "Signaturen er gyldig, men der er nogle advarsler.";
+"It was signed by %@ on %@ at %@." = "Det blev signeret af %@ d. %@ kl. %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Det blev signeret d. %@ kl. %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Det påstår at være signeret af %@ d. %@ kl. %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Det angiver at være signeret d. %@ kl. %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Revisionen, dækket af denne signatur, er ikke blevet ændret, dog er der foretaget ændringer i dokumentet efter det blev signeret."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Signaturen er gyldig, og indholdet af dette dokument er ikke blevet ændret, efter det blev signeret.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Ugyldig signatur — efter indholdet af dette dokument blev signeret, er det blevet ændret, fusket med eller korrumperet.";
+"Unsigned Signature Field" = "Ikke signeret signaturfelt";
+"Do you really want to remove the signature from the document?" = "Vil du virkelig fjerne signaturen fra dokumentet?";
+"Could not retrieve the certificate from the signature." = "Kunne ikke hente certifikatet fra signaturen.";
+"Could not retrieve the signature contents." = "Kunne ikke hente signaturens indhold.";
+"Could not retrieve the public key from the signature." = "Kunne ikke hente signaturens offentlige nøgle.";
+"Could not retrieve the byte range of the signature." = "Kunne ikke hente signaturens byte-omfang.";
+"Could not understand the encryption padding." = "Kunne ikke forstå krypteringsindpakning.";
+"Could not compute the digest for the document." = "Kunne ikke opstille et resumé af dokumentet.";
+"General failure while trying to determine document integrity." = "Generel fejl i forsøg på at bestemme dokumentets integritet.";
+"Certificate chain is invalid." = "Certifikatskæden er ugyldig.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Certifikatkæden kunne ikke kontrolleres, da ingen kendte nøgler blev leveret.";
+"Document integrity success, but certificate is self signed." = "Certifikatet er selvsigneret.";
+"Document integrity check failed." = "Kontrol af dokumentets integritet mislykkedes.";
+"The signing certificate is not trusted." = "Signeringscertifikatet er ikke godkendt.";
+"unknown time" = "ukendt tidspunkt";
+"unknown date" = "ukendt dato";
+"Digitally signed by {}" = "Digitalt signeret af {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Dato: ";
+"Reason: " = "Årsag: ";
+"Location: " = "Lokation: ";
+"Certificate" = "Certifikat";
+"No Certificate" = "intet certifikat";
+"No Certificates" = "Ingen certifikater";
+"Store Signature" = "Arkiver signatur";
+"Add Trusted Certificate" = "Tilføj pålideligt certifikat";
+"Add Signer" = "Tilføjet signerer";
+"Added Trusted Certificate" = "Tilføj pålideligt certifikat";
+"Added Signer" = "Tilføjet signerer";
+"File doesn't match any certificate type" = "Arkivet svarer ikke til nogen certifikatstype";
+"Import Failed" = "Import mislykkedes";
+"Signature Area" = "Signaturfelt";
+"Draw Signature Area" = "Opret signaturfelt";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Kunne ikke initiere PKCS7-objekt";
+"Could not find signature" = "Kunne ikke finde signatur";
+"Could not hash the PDF document" = "Kunne ikke genere “hash” for PDF-dokumentet";
+"Could not create padding for the digital signature" = "Kunne ikke oprette polstring for den digitale signatur";
+"Could not verify the signature" = "Kunne ikke verificere signaturen";
+"Could not save the signed document" = "Kunne ikke arkivere det underskrevne dokument";
+"Cannot sign attributes" = "Kan ikke signere attributter";
+"The selected subfilter type for the signature is not supported" = "Den valgte under-filtertype til signaturen er ikke understøttet";
+"Could not add signature to PKCS7 object" = "Kunne ikke tilføj signatur til PKCS7-objekt";
+"Could not write PKCS7 signature" = "Kunne ikke skrive PKCS7-signatur";
+"Could not create PKCS7 object" = "Kunne ikke oprette PKCS7-objekt";
+"Could not generate PKCS7 object" = "Kunne ikke generere PKCS7-objekt";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Kunne ikke signere dokumentet, da det allerede er signeret.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Kan ikke læse certifikatdata som PKCS#7-certifikat. Data i det rette format kan eksporteres fra Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Kunne ikke afkryptere certifikatets signatur.";
+"The public key in the certificate could not be read." = "Den offentlige nøgle i certifikatet kunne ikke læses.";
+"The signature of the certificate is not valid." = "Certifikatets signatur er ikke gyldig.";
+"Signature is not valid." = "Signatur er ikke gyldig.";
+"There is a format error in the notBefore field of the certificate." = "Der er en formateringsfejl i certifikatets notBefore-felt."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Der er en formatfejl i notAfter-feltet i certifikatet."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Ingen signaturer kunne verificeres, fordi certifikatkæden kun indeholder et certifikat, den er ikke self-signed, og udstederen er ikke godkendt.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Et CA-certifikat er ikke gyldigt, fordi det ikke er et CA, eller dets endelser ikke svarer til dets forventede anvendelse."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Stilængde-parameteren basicComstraints blev overskredet."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Rod-certifikat er ikke betegnet som godkendt til dets forventede formål."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Rod-certifikatet er beregnet til at afvise det angivne formål."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Udstedercertifikatet blev afvist, fordi dets emne-navn ikke matcher udstedernavnet for det aktuelle certifikat."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Udsteder-certifikatet blev afvist, fordi dets \"subject key identifier\" var tilstede og ikke matchede \"authority key identifier\" i det aktuelle certifikat."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Udstedercertifikatet blev afvist, fordi dets udstedernavn og serienummer var tilstede og ikke matchede „authority key identifier“ for det aktuelle certifikat."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Certifikatet er tilbagekaldt af udsteder.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Det givne certifikat er selv-signeret og det samme certifikat findes ikke i listen med godkendte certifikater.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Der findes et selv-signeret certifikat i certifikatkæden. Certifikatkæden kan bygges med ikke godkendte certifikater, men et rod-certifikat blev ikke fundet lokalt."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Kunne ikke finde certifikatet for en af certifikatautoriteterne (CAs) i  signeringshierarkiet og den autoritet er ikke godkendt af det lokale program."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Udstedercertifikatet fra et lokalt opslået certifikat blev ikke fundet. Det betyder normalt, at listen med godkendte certifikater ikke er fuldstændig.";
+"The certificate that was provided cannot be used for its intended purpose." = "Det leverede certifikat kan ikke bruges til dets forventede anvendelse.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Udstedercertifikatets „keyUsage extension“ tillader ikke certifikatsignering.";
+"The certificate has expired." = "Certifikatet er udløbet.";
+"The certificate is not valid until a date in the future." = "Certifikatet er ikke gyldigt før end en fremtidig dato.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Kunne ikke læse X509-certifikat fra data";
+// X509 should not be translated
+"No X509 certificate found" = "Intet X509-certifikat blev fundet";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Kan ikke læse PKCS12-arkiv. Arkivet er forkert formateret eller korrupt.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Kunne ikke låse PKCS12-data op. Skrev du den korrekte adgangskode?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Kunne ikke afkode PKCS12-data. Måske er data misformet eller inkompatible.";
+"Could not unlock PKCS12 data." = "Kunne ikke låse PKCS12-date op.";
+"Could not add signature." = "Kunne ikke tilføje signatur.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Kunne ikke åbne arkiv til signaturvalidering";
+"Could not get signer info" = "Kunne ikke finde info om underskriver";
+
+// Night Mode
+"Default" = "Standard"; // Default view (night mode not enabled)
+"Sepia" = "Sepia"; // Document uses sepia colors
+"Night" = "Nat"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Intet dokument valgt";
+"Unable to display document" = "Kunne ikke vise dokumentet";
+"Locked" = "Låst";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Arkivet du prøver at åbne er enten ikke et PDF-arkiv, eller det er måske korrupt.";
+"A password is required to access this document." = "Der kræves adgangskode for at få adgang til dette dokument.";
+"The security scheme of this document is currently not supported." = "Dokumentets sikkerhedsmetode understøttes ikke aktuelt.";
+"An unknown error has occured while trying to open this file." = "Der opstod en ukendt fejl under åbning af dette arkiv.";
+
+// Document Editor
+"Document Editor" = "Dokument-editor";
+"Add Page" = "Tilføj side";
+"Delete Pages" = "Slet sider";
+"Duplicate Pages" = "Dubler sider";
+"Move Pages" = "Flyt sider";
+"Rotate Pages" = "Roter sider";
+"Page Size" = "Papirstr.";
+"Background Color" = "Baggrundsfarve";
+"Paper" = "Papir";
+"Pattern" = "Formular-felt";
+"Use Document Size" = "Brug dokumentstr.";
+"Orientation" = "Orientering";
+"Portrait" = "Portræt";
+"Landscape" = "Landskab";
+"Document Name" = "Dokumentnavn";
+"Documents" = "Dokumenter"; // Name of directory
+"Use Document Folder" = "Brug dokumentets mappe";
+"Folder" = "Mappe";
+"Replace File?" = "Erstat arkiv?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Der findes allerede et arkiv kaldet, „%@“ i den valgte destination. Vil du erstatte det?";
+"Replace" = "Erstat";
+"Saving…" = "Arkiverer…";
+"Saved" = "Arkiveret";
+"Save As…" = "Arkiver som…";
+"Discard Changes" = "Glem ændringer";
+"Empty" = "Ugyldig";
+"Use Image Size" = "Brug billedstr.";
+"Page Background" = "Sidebaggrund";
+"Insert image annotation" = "Indsæt billedannoteringer";
+"Import page background" = "Importer sidebaggrund";
+"Quality" = "Kvalitet";
+"Low" = "Lav";
+"Medium" = "Centreret";
+"High" = "Høj";
+"Best" = "Bedste";
+"Copy Pages" = "Kopier sider";
+"Paste Pages" = "Indsæt sider";
+"Copied" = "Kopieret";
+"“%@” has unsaved changes. Do you want to save them now?" = "„%@“ har ikke arkiverede ændringer. Vil du arkivere dem nu?";
+"Select Source Document" = "Vælg kildedokument";
+"Add After Page %tu" = "Tilføj efter side %tu";
+"Cut Pages" = "Klip sider";
+"Import Document" = "Importer dokument";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Brug mappe-vælger";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Vælg mappe";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Vælg alle sider";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Et tomt dokument kan ikke arkiveres.";
+"The document could not be saved." = "Dokumentet kunne ikke arkiveres.";
+"This document does not support editing." = "Dette dokument understøtter ikke redigering.";
+"The document could not be accessed." = "Dokumentet kunne ikke tilgås.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF’en kunne aktuelt ikke importeres.";
+"The image could not be imported at this time." = "Billedet kunne aktuelt ikke importeres.";
+
+// Page Patterns
+"None" = "Ingen";
+"Dot5mm" = "Prik 5mm";
+"Grid5mm" = "Net 5mm";
+"Lines5mm" = "Linjer 5mm";
+"Lines7mm" = "Linjer 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Eksporter sider";
+"Export…" = "Eksporter…";
+"Exporting…" = "Eksporterer…";
+"Exported" = "Eksporteret";
+"%@ - Exported" = "%@ - eksporteret"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - kopi"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Det valgte dokument er aktuelt åbent. Vælg venligst et andet arkivnavn.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Tekst-til-tale er ikke tilgængelig. Sørg for du har en aktiv internetforbindelse eller Google Text-to-speech engine installeret og slået til på din enhed.";
+
+// Settings
+"Page Layout" = "Sidelayout";
+"Scroll Direction" = "Rulle-retning";
+"Theme" = "Tema";
+"Keep screen on" = "Vis denne skærm";
+"Page Transition" = "Sideovergang";
+"Single" = "Enkelt";
+"Continuous" = "Fortsat";
+"Curl" = "Bladr";
+"Scroll" = "Rul";
+"Horizontal" = "Vandret";
+"Vertical" = "Lodret";
+"Page Mode" = "Side tilstand";
+"Automatic" = "Automatisk";
+"Double" = "Dobbelt";
+"Appearance" = "Udseende";
+"Scrubber Bar" = "Rullefelt";
+"Jump" = "Skift"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Ikke tilgængelig"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Tilpas til side";
+"Fit" = "Tilpas";
+"Fill" = "Tilpas";
+"Adaptive" = "Adaptiv";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ har ikke adgang til dine fotos.";
+"%@ does not have access to your camera." = "%@ har ikke adgang til dit kamera.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Anonymitet";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Du kan slå adgang til i %@.";
+
+"Update Required" = "Opdatering kræves";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Der kræves en opdatering af %@ kræves for at åbne dokumentet og synkronisere annoteringer.";
+
+
+// Annotation Replies
+"Comment" = "Kommentar";
+"Comments" = "Kommentarer";
+"Add your comment…" = "Tilføj din kommentar…";
+"Delete Comment" = "Slet kommentar";
+"Set Status" = "Vælg status";
+"Cancelled" = "Annulleret";
+"Accepted by" = "Accepteret af";
+"Rejected by" = "Afvist af";
+"Completed by" = "Afsluttet af";
+"Cancelled by" = "Annulleret af";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Højre markør";
+"Right Arrow" = "Højre pil";
+"Checkmark" = "Flueben";
+"Circle Note" = "Cirkel";
+"Cross" = "Kryds";
+"Insert Text" = "Indsæt tekst";
+"New Paragraph" = "Nyt afsnit";
+"Text Note" = "Tekstnote";
+"Paragraph" = "Afsnit";
+"Help" = "Hjælp";
+"Star" = "Stjerne";
+"Key" = "Nøgle";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Lyseblå";
+"Light Red" = "Lyserød";
+"Light Green" = "Lysegrøn";
+"Fuchsia" = "Fuchsia";
+"Page %tu of %tu" = "Side %tu af %tu";
+"Preparing document for printing…" = "Forbereder dokument til udskrivning…";
+"Are you sure you want to delete this annotation?" = "Er du sikker på du vil slette denne annotering?";
+"Confirm annotation deletion" = "Bekræft sletning af annotering";
+"Page Rotation" = "Siderotation";
+"Rotate Left" = "Roter til venstre";
+"Rotate Right" = "Roter til højre";
+"%@ (not supported)" = "%@ (ikke understøttet)";
+"Pan Mode" = "Panorering";
+"Fit Page" = "Tilpas til side";
+"Fit Width" = "Tilpas til bredde";
+"Password Required" = "Adgangskode kræves";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Du skal låse dette dokument op for at kunne se det. Skriv venligst adgangskoden i nedenstende felt.";
+"The password you entered is not correct. Please try again." = "Adgangskoden du skrev er ikke korrekt. Prøv venligst igen.";
+"Clear Signature" = "Slet signatur";
+"Top" = "Top";
+"Bottom" = "Bund";
+"Vertical Alignment" = "Lodret justering";
+"Horizontal Alignment" = "Vandret justering";
+"Light Orange" = "Lys orange";
+"Light Yellow" = "Lysegul";
+"Mauve" = "Violet";
+"Light Gray" = "Lysegrå";
+"Dark Gray" = "Mørkegrå";
+"NoColor" = "Ingen";
+"Transparent" = "Transparent";
+// Generic label for bookmark
+"Bookmark" = "Bogmærke";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nyt bogmærke";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Er du sikker på du vil slette dette bogmærke?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Bekræft sletning af bogmærke";
+// Label for the select image field
+"Select Image" = "Vælg billede";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ værktøj, skift menu";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Ikke understøttet type til billedannotering: %@. Brug venligst et JPEG eller et PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Zoomværktøj";
+"Toolbar_TextHighlighter" = "Tekstmarkering";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Annoteringsmarkup-værktøjslinje";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Dokumentvisning";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Bortredigering i gang";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Angiver det aktuelle dokument bliver bortredigeret";
+"Icon" = "Symbol";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Flyt";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Flyt side til";
+// The label of the button on the Move UI
+"move" = "Flyt";
+"selectedItem" = "%@, valgt.";
+"annotationDeleted" = "Annotering slettet.";
+"newAnnotationCreated" = "Ny %@ annotering oprettet.";
+"bookmarkCreated" = "Oprettet bogmærke.";
+"bookmarkEdited" = "Redigeret bogmærke.";
+"bookmarkDeleted" = "Slettet bogmærke.";
+"cancelledEditingBookmark" = "Slettet bogmærkeredigering.";
+"selectAFileForImage" = "Vælg et arkiv til ny billedannotering.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialog til bekræftelse eller annullering af annotationen.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialog til bekræftelse eller annullering af bogmærket.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialog til bekræftelse eller annullering af kommentaren.";
+"resize" = "Skaler";
+"resizeHandleTop" = "Top";
+"resizeHandleBottom" = "Bund";
+"resizeHandleRight" = "Højre";
+"resizeHandleLeft" = "Venstre";
+"cropCurrentPage" = "Beskær aktuel side";
+"cropCurrent" = "Beskær aktuel";
+"cropAllPages" = "Beskær alle sider";
+"cropAll" = "Beskær alle";
+"documentCrop" = "Dokumentbeskæring";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Indsæt efter side";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Tast “0” for at flytte de(n) valgte side(r) til starten af dokumentet.";
+
+// Blend Mode Strings
+"Normal" = "Normal";
+"Multiply" = "Multiplicering";
+"ScreenBlend" = "Afskærm";
+"Overlay" = "Overlejring";
+"Darken" = "Mørkere";
+"Lighten" = "Lysere";
+"ColorDodge" = "Farve-lysning";
+"ColorBurn" = "Farve-mætning";
+"HardLight" = "Hårdt lys";
+"SoftLight" = "Blødt lys";
+"Difference" = "Forskel";
+"Exclusion" = "Udelukkelse";
+"Multiple" = "Flere";
+"Blend Mode" = "Blandingsmetode";
+
+// Image Document Strings
+"File type not supported." = "Arkivtypen understøttes ikke.";
+"Could not load image file." = "Kunne ikke indlæse billedarkiv.";
+"The image is too large to be opened." = "Billedet er for stort at åbne.";
+"Could not generate a PDF document from the image." = "Kunne ikke generere et PDF-dokument fra billedet.";
+"Unnamed Image Document" = "Billeddokument uden navn";
+"Annotations will remain editable and are embedded into the image." = "Annoteringer forbliver redigerbare og er indlejrede i billedet.";
+"Annotations are drawn into the image and are readonly." = "Annoteringer tegnes ind i billedet og er skrivebeskyttede.";
+
+//Metadata Strings
+"Document Info" = "DokumentInfo";
+"Content" = "Indhold";
+"Title" = "Titel";
+"Author" = "Forfatter";
+"Subject" = "Emne";
+"Keywords" = "Søgeord";
+"Not Set" = "Ikke valgt";
+"NoneValue" = "Ingen";
+"Security" = "Sikkerhed";
+"Document Open Password" = "Dokumentadgangskode";
+"Not set, minimum 8 characters" = "Ikke valgt, min. 8 tegn";
+"Permissions" = "Tilladelser";
+"Changes" = "Ændringer";
+"Printing" = "Udskrivning";
+"Content Copying for Accessibility" = "Tilgængelighed for indholdskopiering";
+"Content Modification" = "Indholdsændring";
+"High Quality Printing" = "Høj udskriftskvalitet";
+"Filling of Form Fields" = "Udfyldning af formularfelter";
+"Document Assembly" = "Dokumentfletning";
+"Annotations and Forms" = "Annoteringer og formularer";
+"Content Copying" = "Indholdskopiering";
+"Number of Pages" = "Antal sider";
+"File Size" = "Arkivstr.";
+"CreationDate" = "Oprettet";
+"ModDate" = "Ændret";
+"Creator" = "Indholdsopretter";
+"Producer" = "PDF-opretter";
+"Info" = "Info";
+"Tap the Edit button to show all metadata fields." = "Tryk på redigerknappen for at vise alle metadata-felter.";
+"Document Owner Password" = "Dokumentejer-adgangskode";
+"Changes Are Locked" = "Ændringer er låst";
+"Enter the Document Owner Password to make changes." = "Skriv dokumentejer-adgangskode for at foretage ændringer.";
+"Incorrect Password" = "Forkert adgangskode";
+"Passwords" = "Adgangskoder";
+"Modifying Content" = "Ændre indhold";
+"Editing Annotations and Forms" = "Redigere annoteringer og formularer";
+"Filling Forms" = "Udfylde formularer";
+"Copying Content" = "Kopier indhold";
+"Copying Content for Accessibility" = "Kopier indhold med tilgængeligehed";
+"Could Not Save" = "Kunne ikke arkivere";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Ved angivelse af dokumentåbningsadgangskode, skal en ejeradgangskode være angivet.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Arkivsti";
+"Identical Passwords" = "Identiske adgangskoder";
+"Choose a different Owner or Open password." = "Vælg en anden ejer eller en anden adgangskode.";
+"Owner Password Required" = "Ejer-adgangskode kræves";
+"An owner password is required to change the permissions of a document." = "En ejer-adgangskode kræves for at ændre tilladelserne i et dokument.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Begrænsninger i tilladelser overholder af nogle PDF-læsere. Disse begrænsninger håndhæves ikke i denne app.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Valgt %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Valgt %@ med %@ som indhold";
+// Accessibility string for comment threads
+"commentThread" = "Kommentartråd";
+"printProgressModalDesc" = "Angiver at dokumentet forberedes til udskrivning";
+"printProgressModal" = "Udskrivning i gang";
+"documentEditorDesc" = "Foretag ændringer i det aktuelle dokument";
+"reloadDocumentDialog" = "Bekræft genindlæsning af sokument";
+"reloadDocumentDialogDesc" = "Dialog som beder brugeren om at bekræfte genindlæsning af dokumentet.";
+"signatureDialog" = "Underskrift";
+"signatureDialogDesc" = "Denne dialog lader dig vælge en blækundeskrift til indsætning i dokumentet. Har du ikke gemt underskrifter, kan du oprette en sådan i lærredsvisning.";
+"stampAnnotationTemplatesDialog" = "Stempel annoteringsskabeloner";
+"stampAnnotationTemplatesDialogDesc" = "Denne dialog lader dig vælge en stempelannotering til indsætning i dokumentet eller oprette en speciel stempelannotering med din egen tekst.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Bortrediger";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Bortredigeringsmærke";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Anvendt bortredigering";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Konturfarve";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Overlægningstekst";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Gentag tekst";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Tekstfarve";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Bortredigeringsinfo";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Dette dokument indeholder ikke arkiverede bortredigeringer. Vil du anvende dem?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Anvend";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Bortrediger er en to-trins proces. Opret først et bortredigeringsmærke for at vælge området der skal tildækkes. Tryk på den røde ▵-knap nederst til højre for at fjerne indholdet irreversibelt, og anvende bortredigeringerne.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Anvend bortredigeringer";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Slet bortredigeringer";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Slå bortredigeringsoversigt til";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Slå bortredigeringsoversigt fra";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Anvendelse af bortredigering fjerner informationen og kan ikke fortrydes.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Arkiver i nyt arkiv";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Bortrediger aktuelt dokument";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Bortredigerer…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Dokumentet kunne ikke bortredigeres.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Indhold markeret som bortredigeret fjernes ikke ved arkivering af dokumentet. Er du sikker på du vil fortsætte?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Bortrediger aktuelt dokument";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Arkiver bortredigeret dokument som";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - bortredigeret";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Bortrediger område";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Tekstbortredigering";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Anvender bortredigering";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Signering i gang";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Angiver at det aktuelle dokument bliver signeret";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Indsæt overliggende tekst";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Gendan arkiv";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Manglende arkiv";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' er blevet fjernet udenfor programmet. Vil du lukke dette dokument eller gendanne arkivet?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Arkivkonflikt";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' er blevet ændret udenfor programmet. Arkivering tilsidesætter disse ændringer.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Arkiver ændringer";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Tryk for at indlæse medie.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Mediet for denne annotering kune ikke indlæses pga. et forbindelseproblem. Prøv venligst igen senere.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Tryk for at indlæse medie.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Mediet for denne annotering blev ikke fundet. Vedbliver denne meddelelse efter synkronisering af dette dokument, rapporter venligst dette problem inkl. følgende information: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Tryk for at annullere download";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Der opstod en uventet fejl under indlæsning af mediet. Fejl %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Link til side";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Link til website";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Sidenr.";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Sidevalg";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Indsæt fra udklipsholder";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Website-oversigt";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Website-adresse";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Tilbage";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Fremad";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Palette";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Nyligt brugt";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Standard farvepalette";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Farvevariation";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Tone";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Mætning";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Lyshed";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Hexadecimal farveværdi";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Den angivne værdi er ikke en gyldig farve.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Indsæt fra udklipsholder";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Sidebinding";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Venstre kant";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Højre kant";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Ukendt";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Venstre";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Højre";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Rækkefølge";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Forrest";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Fremad";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Bagud";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Tilbage";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Dubler";
+"DocumentEditor_Extract" = "Udtræk";
+"General_SelectNone" = "Vælg ingen";
+"DocumentEditor_NewPage" = "Ny side";
+"DocumentEditor_InstantModifiedWarning" = "Dokumentet er ændret og er nu skrivebeskyttet. Genindlæs siden for at rette dette.";
+"DocumentEditor_MoveBefore" = "Flyt før";
+"DocumentEditor_MoveAfter" = "Flyt efter";
+"DocumentEditor_DocumentMergedHere" = "Dokument bliver flettet her";
+
+// Android Strings
+"FileSystemPermission" = "Det ser ud som om, du permanent har nægtet arkivsystem-adgang for denne app. For at kunne læse og åbne PDF-arkiver på din enhed skal du manuelt via app’en indstillingsskærm give tilladelse hertil.";
+"Button_OpenSettings" = "Abn indstillinger";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Vis mere";
+// Button to show less comments
+"Comments_ShowLess" = "Vis mindre";
+// Button to reply to a comment
+"Comments_Reply" = "Svar";
+// Button to show all comments
+"Comments_ShowAll" = "Vis alle";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Er du sikker på du vil slette denne kommentar?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Bekræft sletning af kommentar";
+// Verb for Comment
+"Comment_Action" = "Kommenter";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Dokumentet er blevet digitalt underskrevet og alle underskrifter er gyldige.";
+"DigitalSignatures_DocModified" = "Dokumentet er blevet digitalt underskrevet, men det er blevet ændret efter det blev underskrevet.";
+"DigitalSignatures_SignatureWarning" = "Dokumentet er blevet digitalt underskrevet, men der er problemer med mindst en underskrift.";
+"DigitalSignatures_SignatureWarningDocModified" = "Dokumentet er blevet digitalt underskrevet, men det er blevet ændret efter det blev underskrevet og der problemer med mindst en underskrift.";
+"DigitalSignatures_SignatureError" = "Dokumentet er blevet digitalt underskrevet, men mindst en underskrift er ugyldig.";
+"DigitalSignatures_SignatureErrorDocModified" = "Dokumentet er blevet digitalt underskrevet, men det er blevet ændret efter det blev underskrevet og mindst en underskrift er ugyldig.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Kunne ikke starte optagelse";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Kunne ikke stoppe optagelse";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Kunne ikke indsætte sider";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Kunne ikke anmode om signeringscertifikat";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Kunne ikke signere dokument";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Der opstod en ukendt fejl under åbning af dette arkiv.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Læseoversigt";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Tegn";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Billede";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Skriv";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Underskriv her";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Skriv din underskrift ovenfor";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Arkiver underskrift";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Vælg eller træk billede";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Vælg billede";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Erstat billede";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Arkiver";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Ny underskrift";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Til";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Fra";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "tilføj annotering";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "tilføj annoteringer";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "tilføj kommentar";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "rediger kommentarstatus";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "rediger markup type";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "rediger markering";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "slet annoteringer";
+// Command of cutting.
+"Undo_Cut" = "klip";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "opdag form";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "tegn";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "anbring";
+// Command of editing text of a comment.
+"Undo_EditComment" = "rediger kommentar";
+// Command of editing text inside text fields.
+"Undo_EditText" = "rediger tekst";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "slet";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "grupper";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "flet";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "rediger annotering";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "rediger annoteringer";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "flyt annotering";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "flyt annoteringer";
+// Command of pasting.
+"Undo_Paste" = "sæt ind";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "fjern annotering";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "fjern annoteringer";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "fjern kommentar";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "fjern kommentarer";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "skaler annotering";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "skaler annoteringer";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "roter annotering";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "roter annoteringer";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "ophæv gruppe";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Juster";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Juster dokumenter";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Vælg punkt";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Ældre";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Nyt";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Sammenligning";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Vælg tre punkter på begge dokumenter til manuel justering. For de bedste resultater skal du vælge punkter i nærheden af dokumenternes hjørner, hvilket sikrer, at punktene er i samme rækkefølge på begge dokumenter.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Luk";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Juster dokumenter";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Dokumentsammeligning";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Ældre dokument";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Nyt dokument";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Nulstil";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Valg af punkter";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Juster…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Valg af punkter";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Punkt %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "%1$tu af %2$tu valgte i “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Punkt %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Mål for punktmarkering";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Skyet rektangel";
+"DashedRectangleAnnotation" = "Punkteret rektangel";
+"CloudyEllipseAnnotation" = "Skyet ellipse";
+"DashedEllipseAnnotation" = "Punkteret ellipse";
+"CloudyPolygonAnnotation" = "Skyet polygon";
+"DashedPolygonAnnotation" = "Punkteret polygon";
+"CloudAnnotation" = "Sky";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Ingen udfyldningsfarve";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Arkiverede annoteringer kunne ikke indlæses";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Annoteringer kunne ikke arkiveres";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Distance";
+"PerimeterMeasurement" = "Omkreds";
+"PolygonalAreaMeasurement" = "Polygonareal";
+"RectangularAreaMeasurement" = "Rektangelareal";
+"EllipticalAreaMeasurement" = "Ellipseareal";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Roter mod uret";
+"Rotate_Clockwise" = "Roter med uret";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Indtast beskrivelse her";
+// "New option button text"
+"FormDesigner_addOption" = "Tilføj mulighed";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType} - egenskaber";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Et formularfelt kaldet {formFieldName} findes allerede. Vælg venligst et andet navn.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType} - udseende";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Navn til formularfelt";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Standardværdi";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Multilinje";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "For at gruppere radioknapperne skal du sørge for, at de har de samme formularfeltnavne.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Avanceret";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Opretternavn";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Note";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Specielle data";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Krævet";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Skrivebeskyttet";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Oprettet d.";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Opdateret d.";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Skal være et almindeligt JSON-serialiserbart objekt";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Rammefarve";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Rammebredde";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Rammeudseende";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Udskriv";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Ubrudt";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Punkteret";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Skrå";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Indsat";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Understreget";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Tekstudseende";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Skriftstr.";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Skriftfarve";
+// "Button Field"
+"FormDesigner_button" = "Knapfelt";
+// "Text Field Button"
+"FormDesigner_textField" = "Tekstfelt";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Radioknapfelt";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Afkrydningsboksfelt";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Kombiboksfelt";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Listeboksfelt";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Signaturfelt";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Knaptekst";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "Mærke";
+// Value for form field
+"FormDesigner_value" = "Værdi";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Kan ikke redigeres efter oprettelse.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Formularfeltnavn kan ikke stå tomt.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Formularopretter";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Vælg flere";
+"FormDesigner_readOnlyProperty" = "Skrivebeskyttet";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Valg";
+
+// Measurement tools
+"MeasurementScale" = "Målestok";
+"MeasurementCalibrateLength" = "Kalibrer længde";
+"MeasurementPrecision" = "Præcision";
+"MeasurementSnapping" = "Spring til";
+"MeasurementPrecision_Whole" = "Heltal";
+"MeasurementPrecision_OneDecimalPlace" = "En decimalplads";
+"MeasurementPrecision_TwoDecimalPlaces" = "To decimalpladser";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tre decimalpladser";
+"MeasurementPrecision_FourDecimalPlaces" = "Fire decimalpladser";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Areal";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Medieannotering";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Denne browser understøtter ikke indlejret video eller lyd.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Linkindstillinger";
+// Label for selection of link type (website - page).
+"linkTo" = "Link til";
+// Label for website selection.
+"uriLink" = "Website";
+// Label for page selection.
+"pageLink" = "Side";
+// Text for preceding number for page link number.
+"linkToPage" = "Link til side %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Skriv et gyldigt sidenummer.";
+// Error message for invalid page link.
+"invalidPageLink" = "Skriv et gyldigt sidelink.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} måleindstillinger";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Vælg flere annoteringer";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ værktøjer";
+
+// Document unlock string
+"Unlock_Document_Description" = "Du skal låse dette dokument op for at se det. Skriv venligst adgangskoden i nedenstående felt.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonym";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Kommentarmuligheder";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Rediger indhold";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Indstillinger for perimetermåling";
+"Distance_Popover_Title" = "Indstillinger for afstandsmåling";
+"Rectangle_Area_Title" = "Indstillinger for måling af rektangelområde";
+"Polygon_Area_Title" = "Indstillinger for måling af polygonområde";
+"Ellipse_Area_Title" = "Indstillinger for måling af ellipseområde";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Fed";
+"Italic" = "Kursiv";
+
+// Button to save and then close current context
+"Save_And_Close" = "Gem og luk";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Værktøjstip fejl i skrifttype";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Skrifttypen %@ er ikke tilgængelig eller kan ikke bruges til at redigere indhold i dette dokument. Tilføjet eller ændret indhold vil ændres til en standardskrifttype.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Indlejr";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Udjævn";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Ignorer";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Resumé";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Vælg startside";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Vælg slutside";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "til";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Rotér";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Rediger indhold";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” har ændringer, der ikke er sendt.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Flere skrifttyper";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Ukendt skrifttype";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Flere størrelser";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Formindsk størrelse";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Forstør størrelse";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Flere farver";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ Fed";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ Kursiv";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ Fed kursiv";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Åben kommentartråd startet af %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Flere kommentarer";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Sideområde";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Ny tilpasset farve";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Indholdseditor";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Find det valgte";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Søg på internettet";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Hele tommer";
+"MeasurementPrecision_Halves" = "Halve tommer";
+"MeasurementPrecision_Quarters" = "Kvarte tommer";
+"MeasurementPrecision_Eighths" = "Ottendedele af en tomme";
+"MeasurementPrecision_Sixteenths" = "Sekstendedele af en tomme";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Certifikatkæden, der blev brugt til at signere dokumentet, er tom.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Den digitale signaturtype understøttes ikke.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Den digitale signatur indeholder et tidsstempel, der ikke er gyldigt, eller dens tidsstemplede data blev manipuleret med.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Måleindstillinger";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Tilføj skala";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Brug Kalibreringsværktøj";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Kalibrer skala";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Indstil skala";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Sekundære enheder";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Enhed";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Sletning af skalaen vil også slette målinger der bruger skalaen.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Denne skala er allerede i brug";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Vil du redigere eller bruge den eksisterende skala?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Brug eksisterende";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Unavngiven";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Snap til punkt";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Snap til sig selv";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Vis Smart-guides";
+
+// Label for the add text box button
+"AddTextBox" = "Tilføj tekstboks";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Er du sikker på, du vil slette denne tekstboks?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Bekræft sletning af tekstboks";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialog, der giver brugeren mulighed for at bekræfte eller annullere sletning af tekstboksen";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Skrivebeskyttet";
+"locked" = "Låst";
+"lockedContent" = "Låst indhold";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Tilføjet skala";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "\"%@\" er blevet tilføjet til listen over skalaer.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Ikon for måleindstillinger";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Ikon, som viser, at størrelsesforholdet for måleindstillinger ikke er indstillet";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Dette dokument blev underskrevet med %@ af %@, %@ kl. %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Dette dokument er angiveligt underskrevet med %@ af %@, %@ kl. %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritme: %@ med %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Udtræk sider";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Navn på størrelsesforhold";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Der er allerede angivet et størrelsesforhold med disse indstillinger. Vælg et andet størrelsesforhold.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Vis sekundær enhed";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Rediger eller tilføj nyt størrelsesforhold";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Kalibrer";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Lag";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Ingen lag";
+
+"The certificate is not yet valid" = "Certifikatet er endnu ikke gyldigt.";
+"Signature validation failed - invalid signature" = "Signaturen er ugyldig.";
+"The certificate has been revoked" = "Certifikatet er blevet tilbagekaldt.";
+"Certificate problem" = "Der er et problem med certifikatet.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Kunne ikke kontrollere, om certifikatet er blevet tilbagekaldt.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Linjeafstand";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Enkelt";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dobbelt";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Vælg flere…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Målinger";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Genindlæs dokument";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Hjælper alle med at innovere uden papir med værktøjer til udviklere og slutbrugere samt løsninger med lav på alle de største platforme.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Handling";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Genvej";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Omtal";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Åbn hjælpedialog";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Læs mere";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Værktøjslinjefokus";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Der er ikke tilstrækkelig hukommelse til at vise denne side.";

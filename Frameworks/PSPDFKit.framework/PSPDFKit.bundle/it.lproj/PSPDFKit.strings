@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Chiudi";
+"Cancel" = "Annulla";
+"OK" = "OK";
+"Open" = "Apri";
+"Untitled" = "Senza Titolo";
+"File Not Found" = "File non trovato";
+"File couldn't be opened." = "Impossibile aprire il file."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF senza nome";
+"Page %tu" = "Pagina %tu";
+"Page %@" = "Pagina %@";
+"Next" = "Avanti";
+"Previous" = "Precedente";
+"Error" = "Errore";
+"More options" = "Altre opzioni";
+"Close Tab" = "Chiudi pannello";
+"Close All Tabs" = "Chiudi tutti i pannelli";
+"Close All Other Tabs" = "Chiudi tutti gli altri pannelli"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Disegno";
+"Highlighter" = "Evidenziato a mano libera";
+
+// toolbar
+"Outline" = "Indice"; // Table of contents
+"No Outline" = "Nessun indice";
+"Search Outline" = "Cerca nell'Indice";
+"Search" = "Cerca";
+"Email" = "E-mail";
+"Send via Email" = "Invia via e-mail";
+"Send" = "Invia";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Condividi tramite messaggio";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Condividi tramite e-mail";
+"Open In" = "Apri in";
+"Commit" = "Conferma";
+"Sending to %@" = "Invio a %@"; // Open document with an application
+"Pages" = "Pagine";
+"Print with annotations" = "Stampa con annotazioni";
+"Print without annotations" = "Stampa senza annotazioni";
+"No Applications found" = "Non sono installate applicazioni in grado di aprire documenti PDF.";
+"Print" = "Stampa";
+"Annotation" = "Annotazione";
+"Annotations" = "Annotazioni";
+"No Annotations" = "Nessuna annotazione";
+"Bookmarks" = "Segnalibri";
+"No Bookmarks" = "Nessun segnalibro";
+"Add Bookmark" = "Aggiungi segnalibro";
+"Remove Bookmark" = "Rimuovi segnalibro";
+"Brightness" = "Luminosità";
+"Share" = "Condividi";
+"Preparing" = "Preparo";
+"Loading" = "Caricamento";
+"Expand" = "Espandi";
+"Collapse" = "Comprimi";
+// SMS / iMessage sharing button
+"Message" = "Messaggio";
+"Thumbnails" = "Miniature";
+"Drag Toolbar" = "Trascina barra strumenti";
+
+// thumbnails
+"Bookmarked" = "Segnalibro";
+"Annotated" = "Annotato";
+"All" = "Tutte";
+"Loading Annotations" = "Carico annotazioni";
+"Loading Pages" = "Carico pagine";
+"Loading Bookmarks" = "Carico segnalibri";
+
+// password
+"Password" = "Password"; // text on a label
+"Unlock" = "Sblocca";
+"Please enter the password." = "Inserisci la password.";
+"This document cannot be unlocked." = "Impossibile aprire il documento.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Campo password";
+
+// page
+"%tu of %tu" = "%tu di %tu";
+"%tu–%tu of %tu" = "%tu–%tu di %tu";
+"%@ (%tu of %tu)" = "%@ (%tu di %tu)";
+"%@, Page %tu" = "%@, pagina %tu";
+"Leave %@?" = "Uscire da %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu di %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu di %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu di %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Cerca nel documento"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Cerco pagina %tu di %tu";
+"Search Completed" = "Ricerca completata";
+"Search Cancelled" = "Ricerca annullata";
+"%tu left" = "%tu lasciati"; // Indexing Documents... 5 left
+"Searching" = "Cerco";
+"Done" = "Fine";
+"Indexing Documents" = "Indicizzazione documenti";
+"Document" = "Documento";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Ricerca annotazioni";
+
+// inline browser
+"Open in Safari" = "Apri in Safari";
+"Open in Chrome" = "Apri in Chrome";
+"Your %@ is not configured to send emails." = "Il tuo %@ non è configurato per ricevere e-mail.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Il link richiede l'apertura di %1$@. %2$@Vuoi continuare?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "un'applicazione esterna"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "l'App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Impossibile aprire il link: %@";
+
+// text selection
+"Text copied to clipboard." = "Testo copiato negli appunti.";
+"Save to Photo Library" = "Salva nella Libreria foto";
+"Failed to extract image." = "Estrazione immagine fallita.";
+"Type value or pick from list" = "Inserisci valore o seleziona dall'elenco";
+
+// annotations
+"Add %@" = "Aggiungi %@";
+"Remove %@" = "Rimuovi %@";
+"Remove" = "Rimuovi";
+"Delete" = "Elimina"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Modifica";
+"Undo" = "Annulla";
+"Nothing to undo" = "Nulla da annullare";
+"Redo" = "Ripristina";
+"Nothing to redo" = "Nulla da ripetere";
+"Type" = "Tipo"; // kind of Annotation can be selected
+"Size" = "Dimensioni";
+"Font" = "Font";
+"Fonts" = "Font";
+"All Fonts" = "Tutti i font";
+"Downloadable Fonts" = "Font scaricabili";
+"Search Fonts" = "Cerca font";
+"Choose Color" = "Seleziona colore";
+"Choose Fill Color" = "Seleziona colore di riempimento";
+"Rainbow" = "Arcobaleno";
+"Monochrome" = "Monocromatico";
+"Vintage" = "Vintage";
+"Modern" = "Moderno";
+"ColorPalette_Unified" = "Tavolozza";
+"Color" = "Colore";
+"Border" = "Bordo";
+"Fill Color" = "Colore di riempimento";
+"Start and End Color" = "Colore di inizio e fine";
+"Opacity" = "Opacità";
+"Thickness" = "Spessore";
+"%@ pt" = "%@ punti";
+"Yellow" = "Giallo";
+"Green" = "Verde";
+"Red" = "Rosso";
+"Blue" = "Blu";
+"Pink" = "Rosa";
+"Black" = "Nero";
+"Orange" = "Arancione";
+"Purple" = "Viola";
+"Cyan" = "Ciano";
+"Gray" = "Grigio";
+"White" = "Bianco";
+"Color_Brown" = "Marrone";
+"Color_DarkRed" = "Rosso scuro";
+"Color_DarkBlue" = "Blu scuro";
+"Color_Magenta" = "Magenta";
+"Define" = "Definizione";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Evidenziazione testo";
+"Underline" = "Sottolineato";
+"Squiggly" = "Zigzag";
+"StrikeOut" = "Barrato";
+"Rectangle" = "Rettangolo";
+"Ellipse" = "Ellisse";
+"Line" = "Linea"; // something that can be drawn
+"Polygon" = "Poligono";
+"Signature" = "Firma";
+"Signatures" = "Firme";
+"Signed" = "Firmato";
+"Sign" = "Firma";
+"Signing…" = "Firmo…";
+"Sign using %@" = "Firma con %@"; // e.g. Adobe.PPKLite
+"Methods" = "Metodi"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Scegli identità"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Timbro";
+"Stamps" = "Timbri";
+"Custom" = "Personalizzato"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Crea timbro";
+"Preview" = "Anteprima";
+"Stamp Text" = "Testo del timbro";
+"Add Signature" = "Aggiungi firma";
+"Remove Signature" = "Rimuovi firma";
+"My Signature" = "La mia firma";
+"No Signatures" = "Nessuna firma"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Firma qui";
+"Text" = "Nota";
+"FreeText" = "Testo";
+"Delete Note" = "Elimina nota";
+"Remove Note" = "Rimuovi nota";
+"%@ could not be found." = "Impossibile trovare %@.";
+"Photo Library" = "Libreria foto";
+"Camera" = "Fotocamera";
+"camera_not_available" = "Fotocamera non disponibile";
+"Image" = "Immagine";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Seleziona qualità immagine";
+"Low Quality" = "Qualità bassa";
+"Medium Quality" = "Qualità media";
+"High Quality" = "Qualità alta";
+"Clear All" = "Cancella tutto";
+"Clear" = "Pulisci";
+"Style" = "Stile";
+"Link" = "Link";
+"Ink" = "Disegno";
+"Screen" = "Schermo";
+"RichMedia" = "Multimediale";
+"FileAttachment" = "File";
+"Left" = "Sinistra";
+"Center" = "Centrato";
+"Right" = "Destra";
+"Alignment" = "Allineamento";
+"Preview File" = "Anteprima file";
+"Copy" = "Copia";
+"Paste" = "Incolla";
+"Inspector" = "Inspector";
+"Group" = "Gruppo";
+"Ungroup" = "Separa";
+"Merge" = "Unisci"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Esempio";
+"Annotation Summary for %@:" = "Riepilogo annotazioni per %@:";
+"Show Text" = "Mostra testo";
+// title
+"Author Name" = "Nome dell'autore";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Inserisci il nome dell'autore che vuoi usare per nuove annotazioni.";
+// text field placeholder
+"Name" = "Nome";
+// meaning: close
+"Dismiss" = "Chiudi";
+"Fit to Text" = "Adatta al testo";
+"Draw" = "Disegna";
+"Sound" = "Suono";
+"Eraser" = "Gomma";
+"Toggle Eraser" = "Cambia gomma"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Strumento Selezione";
+"Add" = "Aggiungi"; // to add - infinitive
+"Date" = "Data";
+"Time" = "Ora";
+"No Pages" = "Nessuna pagina";
+"Drag to resize" = "Trascina per ridimensionare"; // used as hint that inspector is resizable
+"Convert to" = "Converti in"; // used as label on action that changes free text intent type
+"Color Presets" = "Colori predefiniti";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Colori predefiniti";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Taglia";
+"Annotation copied." = "Annotazioni copiate.";
+"Annotation cut." = "Annotazioni tagliate.";
+"Annotation pasted." = "Annotazioni incollate.";
+"%tu selected" = "%tu selezionate";
+"Custom Stamp" = "Timbro personalizzato";
+"Change text and color" = "Modifica testo e colore";
+"Use an existing stamp design" = "Usa design di timbro esistente";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Inchiostro magico";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Caricamento font '%@' a %@ non riuscito";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Inspector Stile";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Sei sicuro di voler cancellare tutte le annotazioni?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Creazione annotazione disabilitata";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Con commenti";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Annotazione testo";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Segno di spunta";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Croce";
+
+"Callout" = "Callout"; // freetext annotation with an arrow
+"Generic" = "Generico"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Stile linea";
+"Solid" = "Continuo";
+"Narrow Dots" = "Puntini stretti";
+"Wide Dots" = "Puntini larghi";
+"Narrow Dashes" = "Trattini stretti";
+"Wide Dashes" = "Trattini larghi";
+"Cloudy" = "Nuvoletta"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Approvato";
+"Not Approved" = "Non approvato";
+"Draft" = "Bozza";
+"Final" = "Finale";
+"Completed" = "Completato";
+"Confidential" = "Confidenziale";
+"For Public Release" = "Per la pubblicazione";
+"Not For Public Release" = "Non per la pubblicazione";
+"For Comment" = "Per commenti";
+"Void" = "Annullato";
+"Preliminary Results" = "Risultati preliminari";
+"Information only" = "Solo informazione";
+"Accepted" = "Accettato";
+"Rejected" = "Rifiutato";
+"Initial Here" = "Iniziali qui";
+"Sign Here" = "Firma qui";
+"Witness" = "Controllo";
+"Revised" = "Revisionato";
+"Stamp.AsIs" = "Così com’è";
+"Stamp.Departmental" = "Di sezione";
+"Stamp.Experimental" = "Sperimentale";
+"Stamp.Expired" = "Scaduto";
+"Stamp.Sold" = "Venduto";
+"Stamp.TopSecret" = "Top Secret";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Stilo";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Disattivo";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Scansione";
+// text on a label; app connects to a stylus
+"Pairing" = "Accoppiamento";
+// text on a label; app and stylus are connected
+"%@ Connected" = "Connesso: %@";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "Disconnesso: %@";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Impostazioni";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Usa Apple Pencil per le annotazioni";
+
+// PDF annotation name overrides
+"Square" = "Rettangolo";
+"Circle" = "Ellisse";
+"PolyLine" = "Polilinea";
+"SavedAnnotations" = "Annotazioni salvate";
+
+// named actions
+"NextPage" = "Pagina successiva";
+"PrevPage" = "Pagina precedente";
+"FirstPage" = "Prima pagina";
+"LastPage" = "Ultima pagina";
+"GoBack" = "Indietro";
+"GoForward" = "Avanti";
+"GoToPage" = "Vai a pagina";
+"Find" = "Ricerca";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Ingrandisci";
+"ZoomOut" = "Riduci";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Azione multimediale";
+"Rendition Action" = "Azione di rendering";
+"Hide Action" = "Nascondi azione";
+"Submit Form" = "Modulo d'invio";
+"Reset" = "Ripristina";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Precedente";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Seleziona pagina";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Seleziona l’elemento in alto";
+"KeyCommand.SelectBelow" = "Seleziona l’elemento in basso";
+"KeyCommand.SelectTop" = "Seleziona l’elemento superiore";
+"KeyCommand.SelectBottom" = "Seleziona l’elemento inferiore";
+"KeyCommand.ClearSelection" = "Cancella sezione";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Espandi sezione";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Riduci sezione";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Mostra la scheda successiva";
+"KeyCommand.ShowPreviousTab" = "Mostra la scheda precedente";
+"KeyCommand.SelectAllAnnotations" = "Seleziona tutte le annotazioni";
+
+// line annotations
+"Start" = "Inizio";
+"End" = "Fine";
+"Line.None" = "Nessuno";
+"Line.ClosedArrow" = "Freccia chiusa";
+"Line.OpenArrow" = "Freccia aperta";
+"Line.Square" = "Quadrato";
+"Line.Circle" = "Cerchio";
+"Line.Diamond" = "Diamante";
+"Line.ROpenArrow" = "Freccia aperta invertita";
+"Line.RClosedArrow" = "Freccia chiusa invertita";
+"Line.Slash" = "Barra";
+"Line.Butt" = "Piatta";
+"Line Start" = "Inizio linea";
+"Line End" = "Fine linea";
+"Arrow" = "Freccia"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Crea link";
+"Add Link" = "Aggiungi link";
+"Edit Link" = "Modifica link";
+"Move Link" = "Sposta link";
+"Remove Link" = "Rimuovi link";
+"Open Link" = "Apri link";
+"Go to Page %tu" = "Vai alla pagina %tu";
+"Go to Page" = "Vai a pagina"; // title of a Popup
+"Go" = "Vai"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Copia URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Copia link";
+"Save" = "Salva";
+"Link Destination" = "Destinazione link";
+"Enter page index or a http:// address to link to an URL." = "Inserisci pagina o collegamento ipertestuale.";
+"Page %@ Not Found" = "Pagina %@ non trovata";
+"Add to Reading List" = "Aggiungi a Elenco lettura";
+
+"Link annotation creation failed." = "Creazione di annotazione link non riuscita.";
+"Link annotation successfully created." = "Creazione di annotazione link completata.";
+"Entered text could not be converted to an Integer nor URL." = "Il testo inserito non ha potuto essere convertito in un numero intero o un URL.";
+
+// voiceover accessibility
+"Grid" = "Griglia"; // grid with thumbnails
+"Translucent" = "traslucido";
+"left" = "sinistra";
+"center" = "centro";
+"right" = "destra";
+"decrease" = "riduci";
+"increase" = "ingrandsci";
+"All Open Documents" = "Tutti i documenti aperti";
+"Add Documents" = "Aggiungi documenti"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Apri file";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Controllo multimediale";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Ripristina  modulo";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Mostra azione";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Azione con nome";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Pagine %tu–%tu"; // Range of pages
+"Current Page" = "Pagina attuale";
+"Current Page (%tu)" = "Pagina attuale (%tu)";
+"Ignore Annotations" = "Ignora annotazioni";
+"The PDF will not contain any annotations." = "Il PDF sarà privo di annotazioni.";
+"Embed Annotations" = "Incorpora annotazioni";
+"Annotations will remain editable and are embedded into the PDF." = "Le annotazioni restano modificabili e saranno incorporate nel PDF.";
+"Flatten Annotations" = "Unisci annotazioni";
+"Annotations are drawn into the PDF and are readonly." = "Le annotazioni sono visualizzate nel PDF e sono di sola lettura.";
+"Annotation Summary" = "Riepilogo annotazioni";
+"Embed Annotations into the PDF and also list them in the email." = "Le annotazioni sono incorporate nel PDF ed elencate anche nel messaggio e-mail.";
+"Annotations will be listed in a text file." = "Le annotazioni verranno elencate come testo.";
+"Files" = "File";
+"Send as single files" = "Invia come file singoli";
+"Merge files" = "Unisci file";
+"Original File" = "File originale";
+"Range" = "Pagine";
+"Annotated Pages" = "Pagine annotate";
+"Message could not be sent." = "Impossibile inviare il messaggio.";
+"Export" = "Esporta";
+"This action can't be performed." = "Impossibile eseguire questa azione.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "L’esportazione di documenti non basati su file non è supportata";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Il documento non contiene annotazioni.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Impossibile condividere il documento";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "La condivisione immagini di documenti è limitata a un massimo di %tu pagine alla volta.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Impossibile inviare allegati tramite Messaggi.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "I documenti non sono stampabili.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "Documento PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Destinazione non disponibile";
+
+// sound annotations
+"Speak" = "Leggi"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Riproduci";
+"Pause" = "Pausa";
+"Resume" = "Riprendi";
+"Stop" = "Interrompi";
+"Play/Stop" = "Riproduci/Stop";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Registra";
+"Pause Recording" = "Metti in pausa registrazione";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Registrazione in pausa";
+"Continue Recording" = "Continua registrazione";
+"Finish Recording" = "Fine registrazione";
+"Audio Problem" = "Problema audio";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Impossibile avviare la riproduzione.";
+"Could not resume playback." = "Impossibile riavviare la riproduzione.";
+"Microphone permission not granted." = "L'accesso al microfono è stato negato.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Impossibile registrare l’audio al momento. Autorizzare l’app per accedere al microfono.";
+"There was a problem trying to record audio." = "Si è verificato un problema durante la registrazione audio.";
+"Already Recording" = "Registrazione già attiva";
+"You are already recording on page %@." = "Stai già registrando su pagina %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Sembra che tu abbia negato in modo permanente l'accesso al microfono per questa app. Per registrare le note audio devi abilitare manualmente i permessi del microfono tramite la schermata delle impostazioni dell'app.";
+
+// Forms
+"Form Element" = "Elemento del modulo";
+"Text Field" = "Campo di testo";
+"Button" = "Pulsante";
+"Choice Field" = "Campo a scelte multiple";
+"Signature Field" = "Campo firma";
+"Clear Field" = "Cancella campo"; // same as delete
+"Default Values" = "Valori di default";
+"Custom Value" = "Valore personalizzato";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Cerca opzioni";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Valore non valido: deve essere superiore o uguale a %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Valore non valido: deve essere superiore o uguale a %s e inferiore o uguale a %s.";
+"Invalid value: must be less than or equal to %s." = "Valore non valido: deve essere inferiore o uguale a %s.";
+"The value entered does not match the format of the field [%s]" = "Il valore inserito non corrisponde al formato del campo [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Data/ora non valida: assicurati che la data/l’ora esista. Il campo [%s]  deve corrispondere al formato %s";
+
+// General validation
+"Invalid value [%s]" = "Valore non valido [%s]";
+
+// Gallery
+"Connection Error" = "Errore di connessione";
+"Unsupported Content" = "Contenuto non supportato";
+"The specified content cannot be displayed." = "Impossibile visualizzare il contenuto specificato.";
+"Something went wrong" = "Si è verificato un errore";
+"This item is currently unavailable." = "Questo elemento non è al momento disponibile.";
+"The information for this gallery could not be loaded." = "Impossibile caricare le informazioni per questa galleria.";
+"Content Error" = "Errore di contenuto";
+"This content is unsupported." = "Questo contenuto non è supportato.";
+
+// Signatures
+"Digital Signature" = "Firma digitale";
+"Signature is valid." = "La firma è valida.";
+"Signature is valid, but there are some warnings." = "La firma è valida ma ci sono alcuni avvisi.";
+"It was signed by %@ on %@ at %@." = "È stato firmato da %@ il %@ alle %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "È stato firmato il %@ alle %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Secondo il certificato firmato da %@ il %@ alle %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Sembra che sia stato firmato il %@ alle %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "La versione firmata non è stata modificata, tuttavia sono state apportate delle modifiche al documento da quando è stato firmato."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "La firma è valida e il contenuto di questo documento non è stato modificato da quando è stato firmato.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Firma non valida — il contenuto del documento è stato modificato, manomesso o danneggiato dopo la firma.";
+"Unsigned Signature Field" = "Campo firma non firmato";
+"Do you really want to remove the signature from the document?" = "Sei sicuro di voler rimuovere la firma dal documento?";
+"Could not retrieve the certificate from the signature." = "Impossibile recuperare il certificato della firma.";
+"Could not retrieve the signature contents." = "Impossibile recuperare i contenuti della firma.";
+"Could not retrieve the public key from the signature." = "Impossibile recuperare la chiave pubblica della firma.";
+"Could not retrieve the byte range of the signature." = "Impossibile recuperare l’intervallo di byte della firma.";
+"Could not understand the encryption padding." = "Impossibile interpretare i dati di riempimento della codifica.";
+"Could not compute the digest for the document." = "Impossibile calcolare il digest del documento.";
+"General failure while trying to determine document integrity." = "Errore generale nel tentativo di determinare l’integrità del documento.";
+"Certificate chain is invalid." = "La catena dei certificati non è valida.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Non è stato possibile verificare la catena dei certificati, perché non è stata fornita una chiave sicura.";
+"Document integrity success, but certificate is self signed." = "Il certificato è autofirmato.";
+"Document integrity check failed." = "Verifica dell’integrità del documento non riuscita.";
+"The signing certificate is not trusted." = "Il certificato di firma non è attendibile.";
+"unknown time" = "ora sconosciuta";
+"unknown date" = "data sconosciuta";
+"Digitally signed by {}" = "Firmato digitalmente da {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Data: ";
+"Reason: " = "Motivo: ";
+"Location: " = "Posizione: ";
+"Certificate" = "Certificato";
+"No Certificate" = "Nessun certificato";
+"No Certificates" = "Nessun certificato";
+"Store Signature" = "Memorizza firma";
+"Add Trusted Certificate" = "Aggiungi certificato attendibile";
+"Add Signer" = "Aggiungi firmatario";
+"Added Trusted Certificate" = "Aggiunto certificato attendibile";
+"Added Signer" = "Aggiunto firmatario";
+"File doesn't match any certificate type" = "Il file non corrisponde a nessun tipo di certificato";
+"Import Failed" = "Importazione non riuscita";
+"Signature Area" = "Spazio per la firma";
+"Draw Signature Area" = "Traccia l’area per la firma";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Impossibile inizializzare l’oggetto PKCS7";
+"Could not find signature" = "Impossibile trovare la firma";
+"Could not hash the PDF document" = "Impossibile generare l’hash del documento PDF";
+"Could not create padding for the digital signature" = "Impossibile creare il riempimento per la firma digitale";
+"Could not verify the signature" = "Impossibile verificare la firma";
+"Could not save the signed document" = "Impossibile salvare il documento firmato";
+"Cannot sign attributes" = "Impossibile firmare gli attributi";
+"The selected subfilter type for the signature is not supported" = "Il tipo di sottofiltro selezionato per la firma non è supportato";
+"Could not add signature to PKCS7 object" = "Impossibile aggiungere la firma all’oggetto PKCS7";
+"Could not write PKCS7 signature" = "Impossibile creare la firma PKCS7";
+"Could not create PKCS7 object" = "Impossibile creare l’oggetto PKCS7";
+"Could not generate PKCS7 object" = "Impossibile generare l’oggetto PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Impossibile firmare il documento perché è già firmato.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Impossibile riconoscere il certificato come certificato PKCS#7. Il formato corretto può essere esportato tramite Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Impossibile decifrare la firma del certificato.";
+"The public key in the certificate could not be read." = "Impossibile leggere la chiave pubblica nel certificato.";
+"The signature of the certificate is not valid." = "La firma del certificato non è valida.";
+"Signature is not valid." = "La firma non è valida.";
+"There is a format error in the notBefore field of the certificate." = "Errore di formato nel campo notBefore del certificato."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Errore di formato nel campo notAfter del certificato."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Le firme non sono state verificate perché la catena di certificati contiene un solo certificato, non è auto-firmato e l'emittente non è attendibile.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Un certificato CA non è valido perché non è una CA o le sue estensioni non sono coerenti con lo scopo previsto."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Il parametro basicConstraints pathlength è stato superato."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "La root CA non è segnata come attendibile per lo scopo specificato."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "La root CA è segnata per respingere lo scopo specificato."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Il certificato dell'emittente è stato respinto perché il nome del soggetto non corrisponde al nome dell'emittente del certificato attuale."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Il certificato dell'emittente è stato respinto perché l’identificatore chiave del soggetto non corrispondeva all’identificatore chiave dell’autorità del certificato attuale."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Il certificato dell'emittente è stato respinto perché il nome dell'emittente e il numero di serie non corrispondono all’identificatore chiave dell’autorità del certificato attuale."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Il certificato è stato revocato da parte dell'emittente.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Il certificato consegnato è auto-firmato e lo stesso certificato non può trovarsi nell'elenco dei certificati attendibili.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Un certificato auto-firmato esiste nella catena di certificati. La catena di certificati potrebbe essere creata utilizzando i certificati non attendibili, ma l’autorità di certificazione principale non è stata trovata a livello locale."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Impossibile trovare il certificato per una delle autorità di certificazione (CA) nella gerarchia di firma e quindi questa CA non è attendibile per l'applicazione locale."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Impossibile trovare il certificato dell'emittente di un certificato cercato a livello locale. In genere questo indica che l'elenco di certificati attendibili non è completo.";
+"The certificate that was provided cannot be used for its intended purpose." = "Il certificato fornito non può essere usato per lo scopo previsto.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "L'estensione keyUsage non consente la firma di certificati.";
+"The certificate has expired." = "Il certificato è scaduto.";
+"The certificate is not valid until a date in the future." = "Il certificato non è valido fino a una data futura.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Impossibile leggere il certificato X509 nei dati";
+// X509 should not be translated
+"No X509 certificate found" = "Nessun certificato X509 trovato";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Impossibile leggere il file PKCS12. Non è formattato correttamente o è danneggiato.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Impossibile sbloccare dati PKCS12. Hai inserito la password corretta?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Impossibile decodificare i dati PKCS12. I dati potrebbero essere non validi o incompatibili.";
+"Could not unlock PKCS12 data." = "Impossibile sbloccare i dati PKCS12.";
+"Could not add signature." = "Impossibile aggiungere la firma.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Impossibile aprire il file per la validazione della firma";
+"Could not get signer info" = "Impossibile ottenere info sul firmatario";
+
+// Night Mode
+"Default" = "Default"; // Default view (night mode not enabled)
+"Sepia" = "Seppia"; // Document uses sepia colors
+"Night" = "Notte"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Nessun documento configurato";
+"Unable to display document" = "Impossibile visualizzare il documento";
+"Locked" = "Bloccato";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Il file che stai tentando di accedere o non è un file PDF o potrebbe essere danneggiato.";
+"A password is required to access this document." = "È richiesta una password per accedere al documento.";
+"The security scheme of this document is currently not supported." = "Il regime di sicurezza di questo documento non è al momento supportato.";
+"An unknown error has occured while trying to open this file." = "Si è verificato un errore sconosciuto durante l’apertura del file.";
+
+// Document Editor
+"Document Editor" = "Editor documenti";
+"Add Page" = "Aggiungi pagina";
+"Delete Pages" = "Elimina pagine";
+"Duplicate Pages" = "Duplica pagine";
+"Move Pages" = "Sposta pagine";
+"Rotate Pages" = "Ruota pagine";
+"Page Size" = "Dimensione pagina";
+"Background Color" = "Colore di sfondo";
+"Paper" = "Carta";
+"Pattern" = "Elemento del modulo";
+"Use Document Size" = "Usa dimensione documento";
+"Orientation" = "Orientamento";
+"Portrait" = "Ritratto";
+"Landscape" = "Orizzontale";
+"Document Name" = "Nome documento";
+"Documents" = "Documenti"; // Name of directory
+"Use Document Folder" = "Usa cartella del documento";
+"Folder" = "Cartella";
+"Replace File?" = "Sostituire file?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Un file con il nome “%@” esiste già nella destinazione selezionata. Vuoi sostituirlo?";
+"Replace" = "Sostituisci";
+"Saving…" = "Salvo…";
+"Saved" = "Salvato";
+"Save As…" = "Salva come…";
+"Discard Changes" = "Annulla modifiche";
+"Empty" = "Vuoto";
+"Use Image Size" = "Usa dim. immagine";
+"Page Background" = "Sfondo pagina";
+"Insert image annotation" = "Inserisci annotazione immagine";
+"Import page background" = "Importa sfondo pagina";
+"Quality" = "Qualità";
+"Low" = "Bassa";
+"Medium" = "Media";
+"High" = "Alta";
+"Best" = "Migliore";
+"Copy Pages" = "Copia pagine";
+"Paste Pages" = "Incolla pagine";
+"Copied" = "Copiato";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” contiene modifiche non salvate. Vuoi salvarle ora?";
+"Select Source Document" = "Seleziona documento di origine";
+"Add After Page %tu" = "Aggiungi dopo pagina %tu";
+"Cut Pages" = "Taglia pagine";
+"Import Document" = "Importa documento";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Usa il selettore cartella";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Seleziona cartella";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Seleziona tutte le pagine";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Impossibile salvare un documento vuoto.";
+"The document could not be saved." = "Impossibile salvare il documento.";
+"This document does not support editing." = "Questo documento non supporta modifiche.";
+"The document could not be accessed." = "Impossibile accedere al documento.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "Al momento è impossibile importare il PDF.";
+"The image could not be imported at this time." = "Al momento è impossibile importare l’immagine.";
+
+// Page Patterns
+"None" = "Nessuno";
+"Dot5mm" = "Puntini 5mm";
+"Grid5mm" = "Griglia 5mm";
+"Lines5mm" = "Linee 5mm";
+"Lines7mm" = "Linee 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "Lettera US";
+"US Legal" = "Legale US";
+
+// Page Export
+"Export Pages" = "Esporta pagine";
+"Export…" = "Esportazione…";
+"Exporting…" = "Esporto…";
+"Exported" = "Esportata";
+"%@ - Exported" = "%@ - Esportata"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Copia"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Il documento selezionato è aperto. Seleziona un nome di file differente.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Servizio Text-to-speech non disponibile. Assicurati di essere connesso a internet o di aver installato e abilitato il motore Google Text-to-speech sul tuo dispositivo.";
+
+// Settings
+"Page Layout" = "Layout pagina";
+"Scroll Direction" = "Direzione scorrimento";
+"Theme" = "Tema";
+"Keep screen on" = "Mantieni lo schermo attivo";
+"Page Transition" = "Transizione pagine";
+"Single" = "Pagina singola";
+"Continuous" = "Continua";
+"Curl" = "Angolo pagina";
+"Scroll" = "Scorrimento";
+"Horizontal" = "Orizzontale";
+"Vertical" = "Verticale";
+"Page Mode" = "Modalità pagina";
+"Automatic" = "Automatica";
+"Double" = "Due pagine";
+"Appearance" = "Aspetto";
+"Scrubber Bar" = "Barra di navigazione";
+"Jump" = "Passaggio"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Non disponibile"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Adattamento pagina";
+"Fit" = "Adatta";
+"Fill" = "Riempimento";
+"Adaptive" = "Adattivo";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ non ha accesso alle foto.";
+"%@ does not have access to your camera." = "%@ non ha accesso alla fotocamera.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Impostazioni di Privacy";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Puoi abilitare l’accesso in %@.";
+
+"Update Required" = "Aggiornamento richiesto";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "È necessario un aggiornamento di %@ per accedere al documento e sincronizzare le annotazioni.";
+
+
+// Annotation Replies
+"Comment" = "Commento";
+"Comments" = "Commenti";
+"Add your comment…" = "Aggiungi il tuo commento…";
+"Delete Comment" = "Elimina commento";
+"Set Status" = "Imposta stato";
+"Cancelled" = "Annullato";
+"Accepted by" = "Accettato da";
+"Rejected by" = "Rifiutato da";
+"Completed by" = "Completato da";
+"Cancelled by" = "Annullato da";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Punta verso destra";
+"Right Arrow" = "Freccia a destra";
+"Checkmark" = "Segno di spunta";
+"Circle Note" = "Cerchio";
+"Cross" = "Croce";
+"Insert Text" = "Inserisci testo";
+"New Paragraph" = "Nuovo paragrafo";
+"Text Note" = "Nota di testo";
+"Paragraph" = "Paragrafo";
+"Help" = "Aiuto";
+"Star" = "Stella";
+"Key" = "Chiave";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Celeste";
+"Light Red" = "Rosso chiaro";
+"Light Green" = "Verde chiaro";
+"Fuchsia" = "Fucsia";
+"Page %tu of %tu" = "Pagina %tu di %tu";
+"Preparing document for printing…" = "Preparo documento per la stampa…";
+"Are you sure you want to delete this annotation?" = "Sei sicuro di voler eliminare questa annotazione?";
+"Confirm annotation deletion" = "Conferma eliminazione annotazione";
+"Page Rotation" = "Rotazione pagina";
+"Rotate Left" = "Ruota a sinistra";
+"Rotate Right" = "Ruota a destra";
+"%@ (not supported)" = "%@ (non supportato)";
+"Pan Mode" = "Spostamento";
+"Fit Page" = "Adatta pagina";
+"Fit Width" = "Adatta larghezza";
+"Password Required" = "Password richiesta";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Devi sbloccare questo documento per vederlo. Inserisci la password nel campo sottostante.";
+"The password you entered is not correct. Please try again." = "La password inserita non è corretta. Riprova.";
+"Clear Signature" = "Cancella firma";
+"Top" = "In alto";
+"Bottom" = "In basso";
+"Vertical Alignment" = "Allineamento verticale";
+"Horizontal Alignment" = "Allineamento orizzontale";
+"Light Orange" = "Arancione chiaro";
+"Light Yellow" = "Giallo chiaro";
+"Mauve" = "Malva";
+"Light Gray" = "Grigio chiaro";
+"Dark Gray" = "Grigio scuro";
+"NoColor" = "Nessuno";
+"Transparent" = "Trasparente";
+// Generic label for bookmark
+"Bookmark" = "Segnalibro";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nuovo segnalibro";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Sei sicuro di voler eliminare questo segnalibro?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Conferma eliminazione segnalibro";
+// Label for the select image field
+"Select Image" = "Seleziona immagine";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ strumenti, cambia menu";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Tipo non supportato come annotazione immagine: %@. Usa JPEG o PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Strumento di selezione";
+"Toolbar_TextHighlighter" = "Evidenziatore testo";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Barra strumenti annotazioni markup";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Riquadro di visualizzazione documento";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Revisione in corso";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Indica che il documento attuale viene revisionato";
+"Icon" = "Icona";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Sposta";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Sposta pagina a";
+// The label of the button on the Move UI
+"move" = "Sposta";
+"selectedItem" = "%@, selezionato.";
+"annotationDeleted" = "L’annotazione è stata eliminata.";
+"newAnnotationCreated" = "La nuova annotazione %@ è stata creata.";
+"bookmarkCreated" = "Il segnalibro è stato creato.";
+"bookmarkEdited" = "Il segnalibro è stato modificato.";
+"bookmarkDeleted" = "Il segnalibro è stato eliminato.";
+"cancelledEditingBookmark" = "La modifica del segnalibro è stata annullata.";
+"selectAFileForImage" = "Seleziona un file per la nuova annotazione immagine.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialogo che consente di confermare o eliminare l’annotazione.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialogo che consente di confermare o eliminare il segnalibro.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialogo che consente di confermare o eliminare il commento.";
+"resize" = "Ridimensiona";
+"resizeHandleTop" = "In alto";
+"resizeHandleBottom" = "In basso";
+"resizeHandleRight" = "A destra";
+"resizeHandleLeft" = "A sinistra";
+"cropCurrentPage" = "Ritaglia pagina attuale";
+"cropCurrent" = "Ritaglia attuale";
+"cropAllPages" = "Ritaglia tutte le pagine";
+"cropAll" = "Ritaglia tutto";
+"documentCrop" = "Ritaglia documento";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Inserisci dopo pagina";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Digita \"0\" per spostare la/le pagina/e all’inizio del documento.";
+
+// Blend Mode Strings
+"Normal" = "Normale";
+"Multiply" = "Moltiplica";
+"ScreenBlend" = "Scolora";
+"Overlay" = "Sovrapponi";
+"Darken" = "Scurisci";
+"Lighten" = "Schiarisci";
+"ColorDodge" = "Colore scherma";
+"ColorBurn" = "Colore brucia";
+"HardLight" = "Luce intensa";
+"SoftLight" = "Luce soffusa";
+"Difference" = "Differenza";
+"Exclusion" = "Esclusione";
+"Multiple" = "Multipli";
+"Blend Mode" = "Metodo di fusione";
+
+// Image Document Strings
+"File type not supported." = "Tipo di file non supportato.";
+"Could not load image file." = "Impossibile caricare file immagine.";
+"The image is too large to be opened." = "L’immagine è troppo grande per essere aperta.";
+"Could not generate a PDF document from the image." = "Impossibile creare un documento PDF dall’immagine.";
+"Unnamed Image Document" = "Documento immagine senza nome";
+"Annotations will remain editable and are embedded into the image." = "Le annotazioni restano modificabili e saranno incorporate nell’immagine.";
+"Annotations are drawn into the image and are readonly." = "Le annotazioni sono disegnate nell’immagine e sono di sola lettura.";
+
+//Metadata Strings
+"Document Info" = "Informazioni sul documento";
+"Content" = "Contenuto";
+"Title" = "Titolo";
+"Author" = "Autore";
+"Subject" = "Oggetto";
+"Keywords" = "Parole chiave";
+"Not Set" = "Non impostato";
+"NoneValue" = "Nessuno";
+"Security" = "Sicurezza";
+"Document Open Password" = "Password di apertura documento";
+"Not set, minimum 8 characters" = "Non impostato, minimo 8 caratteri";
+"Permissions" = "Permessi";
+"Changes" = "Modifiche";
+"Printing" = "Stampa";
+"Content Copying for Accessibility" = "Copia contenuto per accessibilità";
+"Content Modification" = "Modifiche dei contenuti";
+"High Quality Printing" = "Stampa di alta qualità";
+"Filling of Form Fields" = "Compilazione di campi modulo";
+"Document Assembly" = "Unire documenti";
+"Annotations and Forms" = "Annotazioni e moduli";
+"Content Copying" = "Copia contenuto";
+"Number of Pages" = "Numero di pagine";
+"File Size" = "Dimensione file";
+"CreationDate" = "Creato il";
+"ModDate" = "Modificato";
+"Creator" = "Creatore di contenuti";
+"Producer" = "Creatore del PDF";
+"Info" = "Info";
+"Tap the Edit button to show all metadata fields." = "Tocca il tasto Modifica per mostrare tutti i campi di metadati.";
+"Document Owner Password" = "Password titolare documento";
+"Changes Are Locked" = "Le modifiche sono boccate";
+"Enter the Document Owner Password to make changes." = "Inserisci la password del titolare del documento per fare delle modifiche.";
+"Incorrect Password" = "Password non corretta";
+"Passwords" = "Password";
+"Modifying Content" = "Modifica contenuto";
+"Editing Annotations and Forms" = "Modifica di annotazioni e moduli";
+"Filling Forms" = "Riempimento moduli";
+"Copying Content" = "Copia contenuto";
+"Copying Content for Accessibility" = "Copia contenuto per accessibilità";
+"Could Not Save" = "Impossibile salvare";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "La specifica di una password di apertura documento richiede la presenza di una password del titolare del documento.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Percorso file";
+"Identical Passwords" = "Password identiche";
+"Choose a different Owner or Open password." = "Seleziona una password di titolare o una password di apertura diversi.";
+"Owner Password Required" = "Password titolare richiesta";
+"An owner password is required to change the permissions of a document." = "È richiesta una password di titolare per modificare i permessi di un documento.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Alcuni lettori PDF seguono le restrizioni dei permessi originali, ma la presente app non le rispetta.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "%@ selezionata";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "%@ selezionata con %@ come contenuto";
+// Accessibility string for comment threads
+"commentThread" = "Thread di commenti";
+"printProgressModalDesc" = "Indica che un documento è in preparazione per la stampa";
+"printProgressModal" = "Stampa in corso";
+"documentEditorDesc" = "Applica modifiche al documento attuale";
+"reloadDocumentDialog" = "Conferma la ricarica del documento";
+"reloadDocumentDialogDesc" = "Dialogo che chiede conferma all’utente di caricare nuovamente il documento.";
+"signatureDialog" = "Firma";
+"signatureDialogDesc" = "Questo dialogo consente la selezione di una firma a inchiostro da inserire nel documento. Se non hai firme archiviate, puoi crearne una, usa la vista della tela.";
+"stampAnnotationTemplatesDialog" = "Modelli di annotazioni timbro";
+"stampAnnotationTemplatesDialogDesc" = "Questo dialogo consente la selezione di un’annotazione timbro da inserire nel documento o di creare un’annotazione timbro personalizzata con il proprio testo.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Revisione";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Segno di revisione";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Revisione applicata";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Colore indice";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Sovrapponi testo";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Ripeti testo";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Colore testo";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Info Revisione";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Questo documento contiene annotazioni di revisioni non salvate. Vuoi applicarle?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Applica";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "La Revisione è un processo a due passi. Crea prima un segno di revisione per selezionare l’area che deve essere rimossa permanentemente. Per rimuovere il contenuto in modo irreversibile, tocca il tasto rosso ▵ nell’angolo in alto a destra e applica la revisione.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Applica revisioni";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Cancella revisioni";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Abilita anteprima revisione";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Disabilita anteprima revisione";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "L’applicazione delle revisioni eliminerà le informazioni in modo permanente e non può essere annullata.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Salva come nuovo file";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Revisiona documento attuale";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Revisiono…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Impossibile revisionare il documento.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "I contenuti contrassegnati per la revisione non verranno rimossi durante il salvataggio del documento. Sei sicuro di voler procedere?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Revisiona documento attuale";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Salva il documento revisionato come";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Revisionato";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Revisione area";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Revisione testo";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Applico revisione";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Firma in corso";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Indica che il documento attuale viene firmato";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Inserisci testo sovrapposto";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Ripristina file";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "File mancante";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' è stato rimosso al di fuori dell’applicazione. Vuoi chiudere questo documento o ripristinare il file?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Conflitto di file";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' è stato modificato al di fuori dell’applicazione. Il salvataggio sovrascriverà le modifiche remote.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Salva modifiche";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Tocca per caricare il file multimediale.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Non è stato possibile caricare il file multimediale di questa annotazione a causa di un errore di connessione. Riprova più tardi.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Tocca per riprovare a caricare il file multimediale.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Impossibile trovare il file multimediale per questa annotazione. Se il messaggio persiste dopo la sincronizzazione corretta di questo documento, segnala il problema includendo le seguenti informazioni: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Tocca per annullare il download";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Si è verificato un errore imprevisto durante il caricamento del file multimediale. Errore %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Link alla pagina";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Link al sito web";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Numero di pagina";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Selezione pagina";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Copia dagli appunti";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Anteprima del sito web";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Indirizzo del sito web";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Mostra la pagina precedente";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Mostra la pagina successiva";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Tavolozza";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Usati di recente";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Tavolozza di colori predefinita";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Variazioni di colore";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Tonalità";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Saturazione";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Luminosità";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Valore colore esadecimale";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Il valore specificato non è un colore valido.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Copia dagli appunti";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Rilegatura pagina";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Bordo sinistro";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Bordo destro";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Sconosciuto";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Sinistra";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Destra";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Ordinamento";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "In primo piano";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "In avanti";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Indietro";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "In fondo";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Duplica";
+"DocumentEditor_Extract" = "Estrai";
+"General_SelectNone" = "Non selezionare niente";
+"DocumentEditor_NewPage" = "Nuova pagina";
+"DocumentEditor_InstantModifiedWarning" = "Il documento è stato modificato ed è ora in modalità di sola lettura. Ricarica la pagina per risolvere il problema.";
+"DocumentEditor_MoveBefore" = "Sposta prima";
+"DocumentEditor_MoveAfter" = "Sposta dopo";
+"DocumentEditor_DocumentMergedHere" = "Il documento verrà unito qui";
+
+// Android Strings
+"FileSystemPermission" = "Sembra che tu abbia proibito in modo permanente l’accesso al file system per questa app. Per poter visualizzare e aprire file PDF sul tuo dispositivo, devi abilitare manualmente i permessi di accesso al file system mediante la schermata impostazioni dell’app.";
+"Button_OpenSettings" = "Apri Impostazioni";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Mostra di più";
+// Button to show less comments
+"Comments_ShowLess" = "Mostra di meno";
+// Button to reply to a comment
+"Comments_Reply" = "Rispondi";
+// Button to show all comments
+"Comments_ShowAll" = "Mostra tutti";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Sei sicuro di voler eliminare questo commento?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Conferma eliminazione commento";
+// Verb for Comment
+"Comment_Action" = "Commenta";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Il documento è stato firmato digitalmente e tutte le firme sono valide.";
+"DigitalSignatures_DocModified" = "Il documento è stato firmato digitalmente, ma è stato modificato da quando è stato firmato.";
+"DigitalSignatures_SignatureWarning" = "Il documento è stato firmato digitalmente, ma almeno una firma presenta dei problemi.";
+"DigitalSignatures_SignatureWarningDocModified" = "Il documento è stato firmato digitalmente, ma è stato modificato da quando è stato firmato e almeno una firma presenta dei problemi.";
+"DigitalSignatures_SignatureError" = "Il documento è stato firmato digitalmente, ma almeno una firma non è valida.";
+"DigitalSignatures_SignatureErrorDocModified" = "Il documento è stato firmato digitalmente, ma è stato modificato da quando è stato firmato e almeno una firma non è valida.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Impossibile avviare la registrazione";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Impossibile interrompere la registrazione";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Impossibile incollare le pagine";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Impossibile richiedere la firma del documento";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Impossibile firmare il documento";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Si è verificato un errore sconosciuto durante l’apertura del file.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Vista lettore";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Disegna";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Immagine";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Scrivi";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Firma qui";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Scrivi la tua firma qui sopra";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Salva firma";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Seleziona o trascina immagine";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Seleziona immagine";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Sostituisci immagine";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "File";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Nuova firma";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Attivato";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Disattivo";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "aggiunta annotazione";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "aggiunta annotazioni";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "aggiunta commento";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "modifica stato del commento";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "modifica tipo di markup";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "modifica selezione";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "cancellazione annotazioni";
+// Command of cutting.
+"Undo_Cut" = "taglio";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "rilevamento forma";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "disegno";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "rilasciamento";
+// Command of editing text of a comment.
+"Undo_EditComment" = "modifica commento";
+// Command of editing text inside text fields.
+"Undo_EditText" = "modifica testo";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "cancellazione";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "raggruppamento";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "unione";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "modifica annotazione";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "modifica annotazioni";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "spostamento annotazione";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "spostamento annotazioni";
+// Command of pasting.
+"Undo_Paste" = "incollaggio";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "rimozione annotazione";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "rimozione annotazioni";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "rimozione commento";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "rimozione commenti";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "ridimensionamento annotazione";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "ridimensionamento annotazioni";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "rotazione annotazione";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "rotazione annotazioni";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "separazione";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Allinea";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Allinea documenti";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Seleziona punto";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Vecchio";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Nuovo";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Confronta";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Seleziona tre punti in entrambi i documenti per un allineamento manuale. Per i migliori risultati seleziona dei punti vicini agli angoli dei documenti, assicurandoti che i punti siano nello stesso ordine in entrambi i documenti.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Ignora";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Allinea documenti";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Confronta documenti";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Vecchio documento";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Nuovo documento";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Ripristina";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Selezione punti";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Allinea…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Selezione punti";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Punto %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Selezionati %1$tu di %2$tu in \"%3$@\"";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Punto %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Obiettivo di selezione del punto";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Rettangolo ondulato";
+"DashedRectangleAnnotation" = "Rettangolo tratteggiato";
+"CloudyEllipseAnnotation" = "Ellisse ondulata";
+"DashedEllipseAnnotation" = "Ellisse tratteggiata";
+"CloudyPolygonAnnotation" = "Poligono ondulato";
+"DashedPolygonAnnotation" = "Poligono tratteggiato";
+"CloudAnnotation" = "Nuvola";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Nessun riempimento";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Impossibile caricare le annotazioni salvate";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Impossibile caricare le annotazioni";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Distanza";
+"PerimeterMeasurement" = "Perimetro";
+"PolygonalAreaMeasurement" = "Area poligonale";
+"RectangularAreaMeasurement" = "Area rettangolare";
+"EllipticalAreaMeasurement" = "Area ellittica";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Ruota in senso antiorario";
+"Rotate_Clockwise" = "Ruota in senso orario";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Inserisci la descrizione qui";
+// "New option button text"
+"FormDesigner_addOption" = "Aggiungi opzione";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Proprietà {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Un campo modulo con il nome {formFieldName} esiste già. Scegli un altro nome.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Stile {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Nome del campo modulo";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Valore di default";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Multilinea";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Per essere raggruppati i pulsanti di scelta devono avere lo stesso nome di campo modulo.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Avanzate";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Nome del creatore";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Nota";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Data personalizzata";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Obbligatorio";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Sola lettura";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Creato il";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Aggiornato il";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Deve essere un oggetto semplice serializzabile in JSON";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Colore del bordo";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Spessore del bordo";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Stile del bordo";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Stampa";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Uniforme";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Tratteggiato";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Smussato";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Rilievo";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Sottolineato";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Stile del testo";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Dimensioni font";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Colore font";
+// "Button Field"
+"FormDesigner_button" = "Campo pulsante";
+// "Text Field Button"
+"FormDesigner_textField" = "Campo di testo";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Campo di scelta";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Campo casella di controllo";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Campo casella combinata";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Campo casella di riepilogo";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Campo firma";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Testo pulsante";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/D";
+// Label for form field
+"FormDesigner_label" = "Etichetta";
+// Value for form field
+"FormDesigner_value" = "Valore";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Non può essere modificato dopo la creazione.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Il nome del campo modulo non può essere vuoto.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Creatore del modulo";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Selezione multipla";
+"FormDesigner_readOnlyProperty" = "Sola lettura";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Opzioni";
+
+// Measurement tools
+"MeasurementScale" = "Scala";
+"MeasurementCalibrateLength" = "Calibra lunghezza";
+"MeasurementPrecision" = "Precisione";
+"MeasurementSnapping" = "Allineamento";
+"MeasurementPrecision_Whole" = "Intero";
+"MeasurementPrecision_OneDecimalPlace" = "Una decimale";
+"MeasurementPrecision_TwoDecimalPlaces" = "Due decimali";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tre decimali";
+"MeasurementPrecision_FourDecimalPlaces" = "Quattro decimali";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Area";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Annotazione multimediale";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Questo browser non supporta video o audio incorporati.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Impostazioni link";
+// Label for selection of link type (website - page).
+"linkTo" = "Link a";
+// Label for website selection.
+"uriLink" = "Sito web";
+// Label for page selection.
+"pageLink" = "Pagina";
+// Text for preceding number for page link number.
+"linkToPage" = "Link alla pagina %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Inserisci un numero di pagina valido.";
+// Error message for invalid page link.
+"invalidPageLink" = "Inserisci un link alla pagina valido.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Impostazioni di misurazione ({measurementType})";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Seleziona più annotazioni";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Strumenti del menu %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Devi sbloccare questo documento per visualizzarlo. Inserisci la password nel campo sottostante.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonimo";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Opzioni commento";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Modifica contenuto";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Impostazioni di misurazione del perimetro";
+"Distance_Popover_Title" = "Impostazioni di misurazione della distanza";
+"Rectangle_Area_Title" = "Impostazioni di misurazione dell'area rettangolare";
+"Polygon_Area_Title" = "Impostazioni di misurazione dell'area poligonale";
+"Ellipse_Area_Title" = "Impostazioni di misurazione dell'area ellittica";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Grassetto";
+"Italic" = "Corsivo";
+
+// Button to save and then close current context
+"Save_And_Close" = "Salva e chiudi";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Attiva/disattiva descrizione per font non corrispondenti";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Il font %@ non è disponibile o non può essere usato per modificare il contenuto nel documento. Il contenuto aggiunto o modificato verrà ripristinato con un font predefinito.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Incorpora";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Unisci";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Ignora";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Riepilogo";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Seleziona pagina iniziale";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Seleziona pagina finale";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "a";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Rotazione";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Modifica contenuto";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” contiene modifiche non salvate.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Più font";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Font sconosciuto";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Più dimensioni";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Riduci dimensioni";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Aumenta dimensioni";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Più colori";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ Grassetto";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ Corsivo";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ Grassetto Corsivo";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Apri thread di commenti iniziato da %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Altri commenti";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Intervallo pagine";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Nuovo colore personalizzato";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Editor contenuto";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Trova selezione";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Cerca sul web";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Pollici interi";
+"MeasurementPrecision_Halves" = "Mezzi pollici";
+"MeasurementPrecision_Quarters" = "Quarti di pollice";
+"MeasurementPrecision_Eighths" = "Ottavi di pollice";
+"MeasurementPrecision_Sixteenths" = "Sedicesimi di pollice";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "La catena dei certificati usata per firmare il documento è vuota.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Il tipo di firma digitale non è supportato.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "La firma digitale contiene data e ora non validi oppure data e ora sono stati manomessi.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Impostazioni di misurazione";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Aggiungi scala";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Usa strumento di calibrazione";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Calibra scala";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Imposta scala";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Unità secondarie";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Unità";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "L'eliminazione della scala comporta l'eliminazione delle misurazioni che usano la scala.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Questa scala è già in uso";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Vuoi modificare o utilizzare la scala esistente?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Usa esistente";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Senza nome";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Allinea al punto";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Allinea a se stesso";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Mostra guide intelligenti";
+
+// Label for the add text box button
+"AddTextBox" = "Aggiungi casella di testo";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Sei sicuro di voler eliminare questa casella di testo?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Conferma eliminazione casella di testo";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialogo che consente all'utente di confermare o eliminare la casella di testo.";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Sola lettura";
+"locked" = "Bloccato";
+"lockedContent" = "Contenuto bloccato";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Scala aggiunta";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” è stata aggiunta all'elenco delle scale.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Icona delle impostazioni di misurazione";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Icona che indica che la scala delle impostazioni di misurazione non è impostata";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Questo documento è stato firmato con %@ da %@ il %@ alle %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Questo documento afferma di essere stato firmato con %@ da %@ il %@ alle %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritmo: %@ con %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Estrai le pagine";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Nome della scala";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Una scala con queste impostazioni è già stata definita. Seleziona un'altra scala.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Visualizza unità secondaria";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Modifica o aggiungi nuova scala";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Calibra";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Livelli";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Nessun livello";
+
+"The certificate is not yet valid" = "Il certificato non è ancora valido.";
+"Signature validation failed - invalid signature" = "La firma non è valida.";
+"The certificate has been revoked" = "Il certificato è stato ritirato.";
+"Certificate problem" = "Si è verificato un problema con il certificato.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Impossibile verificare se il certificato è stato ritirato.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Spaziatura linea";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Singola";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Doppia";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Seleziona altro…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Misurazioni";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Ricarica documento";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Stiamo innovando il mondo senza carta con soluzioni low-code, strumenti per sviluppatori e utenti finali per le principali piattaforme.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Azione";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Abbreviazione";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Menziona";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Apri la finestra di dialogo Aiuto";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Leggi tutto";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Visualizza la barra strumenti";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Non c'è memoria sufficiente per visualizzare questa pagina.";

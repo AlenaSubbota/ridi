@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>%tu match(es) found</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_matches_found@</string>
+        <key>tu_matches_found</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Žiadne zhody neboli nájdené</string>
+            <key>one</key>
+            <string>%tu nájdená zhoda</string>
+            <key>few</key>
+            <string>%tu nájdené zhody</string>
+            <key>other</key>
+            <string>%tu nájdených zhôd</string>
+        </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_documents_indexed@</string>
+        <key>tu_documents_indexed</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Žiadne dokumenty neboli indexované</string>
+            <key>one</key>
+            <string>%tu dokument bol indexovaný</string>
+            <key>few</key>
+            <string>%tu dokumenty boli indexované</string>
+            <key>other</key>
+            <string>%tu dokumentov bolo indexovaných</string>
+        </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_annotations@</string>
+        <key>tu_annotations</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Žiadne anotácie</string>
+            <key>one</key>
+            <string>%tu anotácia</string>
+            <key>few</key>
+            <string>%tu anotácie</string>
+            <key>other</key>
+            <string>%tu anotácií</string>
+        </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_points@</string>
+        <key>tu_points</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu bod</string>
+            <key>few</key>
+            <string>%tu body</string>
+            <key>other</key>
+            <string>%tu bodov</string>
+        </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Všetko (%#@pages@)</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu strana</string>
+            <key>few</key>
+            <string>%tu strany</string>
+            <key>other</key>
+            <string>%tu strán</string>
+        </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_results@</string>
+        <key>tu_results</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>zero</key>
+            <string>Žiadne výsledky</string>
+            <key>one</key>
+            <string>%tu výsledok</string>
+            <key>few</key>
+            <string>%tu výsledky</string>
+            <key>other</key>
+            <string>%tu výsledkov</string>
+        </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Hľadám na %#@pages@</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu strane</string>
+            <key>few</key>
+            <string>%tu stranách</string>
+            <key>other</key>
+            <string>%tu stranách</string>
+        </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_lines@</string>
+        <key>tu_lines</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu čiara</string>
+            <key>few</key>
+            <string>%tu čiary</string>
+            <key>other</key>
+            <string>%tu čiar</string>
+        </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Odstrániť %#@comments@</string>
+      	<key>comments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu komentár</string>
+            <key>few</key>
+            <string>%tu komentáre</string>
+            <key>other</key>
+            <string>%tu komentárov</string>
+        </dict>
+    </dict>
+    <key>%tu Comment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@comments@</string>
+      	<key>comments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu komentár</string>
+            <key>few</key>
+            <string>%tu komentáre</string>
+            <key>other</key>
+            <string>%tu komentárov</string>
+        </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+	    <key>NSStringLocalizedFormatKey</key>
+	    <string>%#@tu_more_comments@</string>
+      	<key>tu_more_comments</key>
+	      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+    		<string>NSStringPluralRuleType</string>
+    		<key>NSStringFormatValueTypeKey</key>
+    		<string>tu</string>
+    		<key>one</key>
+    		<string>%tu ďalší komentár</string>
+            <key>few</key>
+        	<string>%tu ďalšie komentáre</string>
+    		<key>other</key>
+    		<string>%tu ďalších komentárov</string>
+	   </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>Vše (%#@pages@, %#@documents@)</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu strana</string>
+            <key>few</key>
+        	<string>%tu strany</string>
+            <key>other</key>
+            <string>%tu strán</string>
+        </dict>
+        <key>documents</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu dokument</string>
+            <key>few</key>
+        	<string>%tu dokumenty</string>
+            <key>other</key>
+            <string>%tu dokumentov</string>
+        </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+	    <key>NSStringLocalizedFormatKey</key>
+	    <string>%#@tu_pages_selected@</string>
+      	<key>tu_pages_selected</key>
+	      <dict>
+        	<key>NSStringFormatSpecTypeKey</key>
+      		<string>NSStringPluralRuleType</string>
+      		<key>NSStringFormatValueTypeKey</key>
+      		<string>tu</string>
+      		<key>one</key>
+      		<string>Vybraná %tu strana</string>
+            <key>few</key>
+        	<string>Vybrané %tu strany</string>
+      		<key>other</key>
+      		<string>Vybraných %tu strán</string>
+	       </dict>
+    </dict>
+        </dict>
+    <key>commentDialogClosed_old</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dialóg komentárov. Otvoriť komentáre. Autor %@. %#@tu_replies@</string>
+		<key>tu_replies</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>%tu komentár</string>
+            <key>few</key>
+        	<string>%tu komentáre</string>
+			<key>other</key>
+			<string>%tu komentárov</string>
+		</dict>
+	</dict>
+	<key>%tu Side(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_sides@</string>
+        <key>tu_sides</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu strana</string>
+            <key>few</key>
+        	<string>%tu strany</string>
+            <key>other</key>
+            <string>%tu strán</string>
+        </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_segments@</string>
+        <key>tu_segments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu segment</string>
+            <key>few</key>
+        	<string>%tu segmenty</string>
+            <key>other</key>
+            <string>%tu segmentov</string>
+        </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_documents_selected@</string>
+        <key>tu_documents_selected</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu vybraný dokument</string>
+            <key>other</key>
+            <string>%tu vybrané dokumenty</string>
+            <key>zero</key>
+            <string>Žiadne vybrané dokumenty</string>
+        </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@measurements@</string>
+        <key>measurements</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>Táto mierka se používa v %tu meraní.</string>
+            <key>other</key>
+            <string>Táto mierka se používa v %tu meraniach.</string>
+            <key>zero</key>
+            <string>Táto mierka se nepoužíva v žiadnom meraní.</string>
+        </dict>
+    </dict>
+</dict>
+</plist>

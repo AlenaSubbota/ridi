@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Sluit";
+"Cancel" = "Annuleer";
+"OK" = "OK";
+"Open" = "Open in";
+"Untitled" = "Naamloos";
+"File Not Found" = "Bestand niet gevonden";
+"File couldn't be opened." = "Bestand kan niet worden geopend."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Naamloze PDF";
+"Page %tu" = "Pagina %tu";
+"Page %@" = "Pagina %@";
+"Next" = "Volgende";
+"Previous" = "Vorige";
+"Error" = "Fout";
+"More options" = "Meer opties";
+"Close Tab" = "Sluit tabblad";
+"Close All Tabs" = "Sluit alle tabbladen";
+"Close All Other Tabs" = "Sluit alle andere tabbladen"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Tekening";
+"Highlighter" = "Vrije tekstmarkering";
+
+// toolbar
+"Outline" = "Inhoudsopgave"; // Table of contents
+"No Outline" = "Geen inhoudsopgave";
+"Search Outline" = "Inhoudsopgave doorzoeken";
+"Search" = "Zoek";
+"Email" = "E-mail";
+"Send via Email" = "Verstuur via e-mail";
+"Send" = "Verstuur";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Deel via bericht";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Deel via e-mail";
+"Open In" = "Open in";
+"Commit" = "Leg vast";
+"Sending to %@" = "Versturen naar %@"; // Open document with an application
+"Pages" = "Pagina's";
+"Print with annotations" = "Druk af met annotaties";
+"Print without annotations" = "Druk af zonder annotaties";
+"No Applications found" = "Er zijn geen apps geïnstalleerd die PDF-documenten kunnen openen.";
+"Print" = "Druk af";
+"Annotation" = "Annotatie";
+"Annotations" = "Annotaties";
+"No Annotations" = "Geen annotaties";
+"Bookmarks" = "Bladwijzers";
+"No Bookmarks" = "Geen bladwijzers";
+"Add Bookmark" = "Voeg bladwijzer toe";
+"Remove Bookmark" = "Verwijder bladwijzer";
+"Brightness" = "Helderheid";
+"Share" = "Deel";
+"Preparing" = "Voorbereiden";
+"Loading" = "Laden";
+"Expand" = "Vouw uit";
+"Collapse" = "Vouw samen";
+// SMS / iMessage sharing button
+"Message" = "Bericht";
+"Thumbnails" = "Miniaturen";
+"Drag Toolbar" = "Sleep knoppenbalk";
+
+// thumbnails
+"Bookmarked" = "Bladwijzer toegevoegd";
+"Annotated" = "Annotaties";
+"All" = "Alles";
+"Loading Annotations" = "Annotaties laden";
+"Loading Pages" = "Pagina's laden";
+"Loading Bookmarks" = "Bladwijzers laden";
+
+// password
+"Password" = "Wachtwoord"; // text on a label
+"Unlock" = "Ontgrendel";
+"Please enter the password." = "Voer het wachtwoord in.";
+"This document cannot be unlocked." = "Dit document kan niet worden ontgrendeld.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Wachtwoordveld";
+
+// page
+"%tu of %tu" = "%tu van %tu";
+"%tu–%tu of %tu" = "%tu–%tu van %tu";
+"%@ (%tu of %tu)" = "%@ (%tu van %tu)";
+"%@, Page %tu" = "%@, Pagina %tu";
+"Leave %@?" = "%@ verlaten?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu van %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu van %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu van %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Zoek in document"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Zoeken op pagina %tu van %tu";
+"Search Completed" = "Zoeken voltooid";
+"Search Cancelled" = "Zoeken geannuleerd";
+"%tu left" = "%tu over"; // Indexing Documents... 5 left
+"Searching" = "Zoeken";
+"Done" = "Gereed";
+"Indexing Documents" = "Documenten indexeren";
+"Document" = "Documenten";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Zoek annotaties";
+
+// inline browser
+"Open in Safari" = "Open in Safari";
+"Open in Chrome" = "Open in Chrome";
+"Your %@ is not configured to send emails." = "Je %@ is niet geconfigureerd om e-mails te versturen.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "De koppeling vraagt om %1$@ te openen. %2$@Wil je doorgaan?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "een externe app"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "de App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Geen handler gevonden voor %@";
+
+// text selection
+"Text copied to clipboard." = "Tekst naar klembord gekopieerd.";
+"Save to Photo Library" = "Bewaar in fotobibliotheek";
+"Failed to extract image." = "Afbeelding extraheren is mislukt.";
+"Type value or pick from list" = "Typ waarde of kies uit lijst";
+
+// annotations
+"Add %@" = "Voeg %@ toe";
+"Remove %@" = "Verwijder %@";
+"Remove" = "Verwijder";
+"Delete" = "Verwijder"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Wijzig";
+"Undo" = "Herstel";
+"Nothing to undo" = "Niets te herstellen";
+"Redo" = "Opnieuw";
+"Nothing to redo" = "Niets opnieuw uit te voeren";
+"Type" = "Soort"; // kind of Annotation can be selected
+"Size" = "Grootte";
+"Font" = "Lettertype";
+"Fonts" = "Lettertypen";
+"All Fonts" = "Alle lettertypen";
+"Downloadable Fonts" = "Downloadbare lettertypen";
+"Search Fonts" = "Zoek lettertypen";
+"Choose Color" = "Kies kleur";
+"Choose Fill Color" = "Kies vulkleur";
+"Rainbow" = "Regenboog";
+"Monochrome" = "Monochroom";
+"Vintage" = "Vintage";
+"Modern" = "Modern";
+"ColorPalette_Unified" = "Palet";
+"Color" = "Kleur";
+"Border" = "Rand";
+"Fill Color" = "Vulkleur";
+"Start and End Color" = "Begin- en eindkleur";
+"Opacity" = "Transparantie";
+"Thickness" = "Dikte";
+"%@ pt" = "%@ pt";
+"Yellow" = "Geel";
+"Green" = "Groen";
+"Red" = "Rood";
+"Blue" = "Blauw";
+"Pink" = "Roze";
+"Black" = "Zwart";
+"Orange" = "Oranje";
+"Purple" = "Paars";
+"Cyan" = "Cyaan";
+"Gray" = "Grijs";
+"White" = "Wit";
+"Color_Brown" = "Bruin";
+"Color_DarkRed" = "Donkerrood";
+"Color_DarkBlue" = "Donkerblauw";
+"Color_Magenta" = "Magenta";
+"Define" = "Definieer";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Tekstmarkering";
+"Underline" = "Onderstreep";
+"Squiggly" = "Krabbel";
+"StrikeOut" = "Doorgehaald";
+"Rectangle" = "Rechthoek";
+"Ellipse" = "Ellips";
+"Line" = "Lijn"; // something that can be drawn
+"Polygon" = "Veelhoek";
+"Signature" = "Handtekening";
+"Signatures" = "Handtekeningen";
+"Signed" = "Ondertekend";
+"Sign" = "Teken";
+"Signing…" = "Tekenen…";
+"Sign using %@" = "Teken met %@"; // e.g. Adobe.PPKLite
+"Methods" = "Methoden"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Kies identiteit"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Stempel";
+"Stamps" = "Stempels";
+"Custom" = "Aangepast"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Maak stempel";
+"Preview" = "Voorvertoning";
+"Stamp Text" = "Stempeltekst";
+"Add Signature" = "Voeg handtekening toe";
+"Remove Signature" = "Verwijder handtekening";
+"My Signature" = "Mijn handtekening";
+"No Signatures" = "Geen handtekeningen"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Teken hier";
+"Text" = "Notitie";
+"FreeText" = "Tekst";
+"Delete Note" = "Verwijder notitie";
+"Remove Note" = "Verwijder notitie";
+"%@ could not be found." = "%@ kan niet worden gevonden.";
+"Photo Library" = "Fotobibliotheek";
+"Camera" = "Camera";
+"camera_not_available" = "Camera niet beschikbaar";
+"Image" = "Afbeelding";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Kies beeldkwaliteit";
+"Low Quality" = "Lage kwaliteit";
+"Medium Quality" = "Gemiddelde kwaliteit";
+"High Quality" = "Hoge kwaliteit";
+"Clear All" = "Wis alles";
+"Clear" = "Wis";
+"Style" = "Stijl";
+"Link" = "Koppeling";
+"Ink" = "Tekening";
+"Screen" = "Scherm";
+"RichMedia" = "Uitgebreide media";
+"FileAttachment" = "Archief";
+"Left" = "Links";
+"Center" = "Midden";
+"Right" = "Rechts";
+"Alignment" = "Uitlijning";
+"Preview File" = "Voorvertoning";
+"Copy" = "Kopieer";
+"Paste" = "Plak";
+"Inspector" = "Infovenster";
+"Group" = "Groepeer";
+"Ungroup" = "Hef groepering op";
+"Merge" = "Voeg samen"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Voorbeeld";
+"Annotation Summary for %@:" = "Overzicht van annotaties voor %@:";
+"Show Text" = "Toon tekst";
+// title
+"Author Name" = "Naam auteur";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Voer de naam van de auteur in die je voor nieuwe annotaties wilt gebruiken.";
+// text field placeholder
+"Name" = "Naam";
+// meaning: close
+"Dismiss" = "Sluit";
+"Fit to Text" = "Pas aan tekst aan";
+"Draw" = "Teken";
+"Sound" = "Geluid";
+"Eraser" = "Gum";
+"Toggle Eraser" = "Toon/verberg gum"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Selectiegereedschap";
+"Add" = "Voeg toe"; // to add - infinitive
+"Date" = "Datum";
+"Time" = "Tijd";
+"No Pages" = "Geen pagina's";
+"Drag to resize" = "Sleep en wijzig grootte"; // used as hint that inspector is resizable
+"Convert to" = "Converteer naar"; // used as label on action that changes free text intent type
+"Color Presets" = "Kleurvoorinstellingen";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Kleurvoorinstelling";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Knip";
+"Annotation copied." = "Annotatie is gekopieerd.";
+"Annotation cut." = "Annotatie is geknipt.";
+"Annotation pasted." = "Annotatie is geplakt.";
+"%tu selected" = "%tu geselecteerd";
+"Custom Stamp" = "Aangepaste stempel";
+"Change text and color" = "Wijzig tekst en kleur";
+"Use an existing stamp design" = "Gebruik een bestaand stempelontwerp";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Magische inkt";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Lettertype '%@' met grootte %@ kon niet worden geladen";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Infovenster stijl";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Weet je zeker dat je alle annotaties wilt wissen?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Annotaties uitgeschakeld";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Heeft opmerking";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Tekstannotatie";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Vinkje";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Kruis";
+
+"Callout" = "Bijschrift"; // freetext annotation with an arrow
+"Generic" = "Algemeen"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Lijnstijl";
+"Solid" = "Effen";
+"Narrow Dots" = "Smalle stippen";
+"Wide Dots" = "Brede stippen";
+"Narrow Dashes" = "Smalle streepjes";
+"Wide Dashes" = "Brede streepjes";
+"Cloudy" = "Bewolkt"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Goedgekeurd";
+"Not Approved" = "Afgekeurd";
+"Draft" = "Concept";
+"Final" = "Laatste";
+"Completed" = "Voltooid";
+"Confidential" = "Vertrouwelijk";
+"For Public Release" = "Voor openbare publicatie";
+"Not For Public Release" = "Niet voor openbare publicatie";
+"For Comment" = "Voor opmerking";
+"Void" = "Ongeldig";
+"Preliminary Results" = "Voorlopige resultaten";
+"Information only" = "Alleen informatie";
+"Accepted" = "Geaccepteerd";
+"Rejected" = "Geweigerd";
+"Initial Here" = "Initialen hier";
+"Sign Here" = "Teken hier";
+"Witness" = "Getuige";
+"Revised" = "Gereviseerd";
+"Stamp.AsIs" = "Zonder meer";
+"Stamp.Departmental" = "Departementaal";
+"Stamp.Experimental" = "Experimenteel";
+"Stamp.Expired" = "Verlopen";
+"Stamp.Sold" = "Verkocht";
+"Stamp.TopSecret" = "Zeer geheim";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Stylus";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Uit";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Scannen";
+// text on a label; app connects to a stylus
+"Pairing" = "Koppelen";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ verbonden";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ niet meer verbonden";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Instellingen";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Gebruik Apple Pencil voor annotaties";
+
+// PDF annotation name overrides
+"Square" = "Rechthoek";
+"Circle" = "Ellips";
+"PolyLine" = "Polylijn";
+"SavedAnnotations" = "Bewaarde annotaties";
+
+// named actions
+"NextPage" = "Volgende pagina";
+"PrevPage" = "Vorige pagina";
+"FirstPage" = "Eerste pagina";
+"LastPage" = "Laatste pagina";
+"GoBack" = "Terug";
+"GoForward" = "Vooruit";
+"GoToPage" = "Ga naar pagina";
+"Find" = "Zoek";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Zoom in";
+"ZoomOut" = "Zoom uit";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Uitgebreide media-actie";
+"Rendition Action" = "Versie-actie";
+"Hide Action" = "Verberg actie";
+"Submit Form" = "Verstuur formulier";
+"Reset" = "Stel opnieuw in";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Vorige";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Selecteer alles";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Selecteer bovenstaand onderdeel";
+"KeyCommand.SelectBelow" = "Selecteer onderstaand onderdeel";
+"KeyCommand.SelectTop" = "Selecteer bovenste onderdeel";
+"KeyCommand.SelectBottom" = "Selecteer onderste onderdeel";
+"KeyCommand.ClearSelection" = "Wis selectie";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Vouw sectie uit";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Vouw sectie samen";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Toon volgend tabblad";
+"KeyCommand.ShowPreviousTab" = "Toon vorig tabblad";
+"KeyCommand.SelectAllAnnotations" = "Selecteer alle annotaties";
+
+// line annotations
+"Start" = "Einde van lijn";
+"End" = "Einde";
+"Line.None" = "Geen";
+"Line.ClosedArrow" = "Gesloten pijl";
+"Line.OpenArrow" = "Open pijl";
+"Line.Square" = "Vierkant";
+"Line.Circle" = "Cirkel";
+"Line.Diamond" = "Diamant";
+"Line.ROpenArrow" = "Omgekeerde open pijl";
+"Line.RClosedArrow" = "Omgekeerde gesloten pijl";
+"Line.Slash" = "Schuine streep";
+"Line.Butt" = "Knop";
+"Line Start" = "Begin van lijn";
+"Line End" = "Einde van lijn";
+"Arrow" = "Pijl"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Maak koppeling";
+"Add Link" = "Voeg koppeling toe";
+"Edit Link" = "Wijzig koppeling";
+"Move Link" = "Verplaats koppeling";
+"Remove Link" = "Verwijder koppeling";
+"Open Link" = "Open koppeling";
+"Go to Page %tu" = "Ga naar pagina %tu";
+"Go to Page" = "Ga naar pagina"; // title of a Popup
+"Go" = "Ga"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Kopieer URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Kopieer koppeling";
+"Save" = "Bewaar";
+"Link Destination" = "Doel van koppeling";
+"Enter page index or a http:// address to link to an URL." = "Voer een pagina-index of http://-adres in om naar een URL te verwijzen.";
+"Page %@ Not Found" = "Pagina %@ niet gevonden";
+"Add to Reading List" = "Voeg toe aan leeslijst";
+
+"Link annotation creation failed." = "Aanmaken van koppelingsannotatie is mislukt.";
+"Link annotation successfully created." = "Koppelingsannotatie is aangemaakt.";
+"Entered text could not be converted to an Integer nor URL." = "De ingevoerde tekst kon niet worden geconverteerd naar een geheel getal of URL.";
+
+// voiceover accessibility
+"Grid" = "Raster"; // grid with thumbnails
+"Translucent" = "Doorzichtig";
+"left" = "links";
+"center" = "midden";
+"right" = "rechts";
+"decrease" = "verklein";
+"increase" = "vergroot";
+"All Open Documents" = "Alle open documenten";
+"Add Documents" = "Voeg documenten toe"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Open bestand";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Multimediabediening";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Stel formulier opnieuw in";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Toon actie";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Benoemde actie";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Pagina’s %tu-%tu"; // Range of pages
+"Current Page" = "Huidige pagina";
+"Current Page (%tu)" = "Huidige pagina (%tu)";
+"Ignore Annotations" = "Negeer annotaties";
+"The PDF will not contain any annotations." = "De PDF bevat geen annotaties.";
+"Embed Annotations" = "Bed annotaties in";
+"Annotations will remain editable and are embedded into the PDF." = "Annotaties worden ingebed in de PDF en kun je altijd bewerken.";
+"Flatten Annotations" = "Sluit annotaties in";
+"Annotations are drawn into the PDF and are readonly." = "De annotaties worden in de PDF weergegeven en kunnen alleen worden gelezen.";
+"Annotation Summary" = "Overzicht van annotaties";
+"Embed Annotations into the PDF and also list them in the email." = "Annotaties worden ingebed in de PDF en worden ook in de e-mail vermeld.";
+"Annotations will be listed in a text file." = "Annotaties worden als tekst weergegeven.";
+"Files" = "Bestanden";
+"Send as single files" = "Verstuur als losse bestanden";
+"Merge files" = "Voeg bestanden samen";
+"Original File" = "Origineel bestand";
+"Range" = "Bereik";
+"Annotated Pages" = "Geannoteerde pagina’s";
+"Message could not be sent." = "Bericht kan niet worden verstuurd.";
+"Export" = "Exporteer";
+"This action can't be performed." = "Deze bewerking kan niet worden uitgevoerd.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Exporteren van niet op bestanden gebaseerde documenten wordt niet ondersteund";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Het document bevat geen annotaties.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Document kan niet worden gedeeld";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Je kunt maximaal %tu pagina’s tegelijk delen als afbeeldingen.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Bijlagen versturen via Berichten is niet mogelijk.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Documenten kunnen niet worden afgedrukt.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF-document";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Doel niet beschikbaar";
+
+// sound annotations
+"Speak" = "Spreek uit"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Speel af";
+"Pause" = "Pauzeer";
+"Resume" = "Hervat";
+"Stop" = "Stop";
+"Play/Stop" = "Speel af/Stop";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Neem op";
+"Pause Recording" = "Pauzeer opname";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Opname gepauzeerd";
+"Continue Recording" = "Ga door met opname";
+"Finish Recording" = "Voltooi opname";
+"Audio Problem" = "Probleem met audio";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Kan afspelen niet starten.";
+"Could not resume playback." = "Kan afspelen niet hervatten.";
+"Microphone permission not granted." = "Geen toestemming voor microfoon verleend.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Audio kan momenteel niet worden opgenomen. Geef deze app toegang tot de microfoon.";
+"There was a problem trying to record audio." = "Er deed zich een probleem voor tijdens het opnemen van audio.";
+"Already Recording" = "Opname al bezig";
+"You are already recording on page %@." = "Je bent al aan het opnemen op pagina %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Je hebt deze app geen toegang tot de microfoon gegeven. Als je audionotities wilt opnemen, moet je handmatig toegang tot de microfoon verlenen via de instellingen van de app.";
+
+// Forms
+"Form Element" = "Formulierelement";
+"Text Field" = "Tekstveld";
+"Button" = "Knop";
+"Choice Field" = "Keuzeveld";
+"Signature Field" = "Handtekeningveld";
+"Clear Field" = "Wis veld"; // same as delete
+"Default Values" = "Standaardwaarden";
+"Custom Value" = "Aangepaste waarde";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Zoek opties";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Ongeldige waarde: moet groter dan of gelijk zijn aan %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Ongeldige waarde: moet groter dan of gelijk zijn aan %s en kleiner of gelijk aan %s.";
+"Invalid value: must be less than or equal to %s." = "Ongeldige waarde: moet kleiner dan of gelijk zijn aan %s.";
+"The value entered does not match the format of the field [%s]" = "De ingevoerde waarde komt niet overeen met de structuur van het veld [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Ongeldige datum/tijd: controleer of de datum/tijd bestaat. Het veld [%s] moet de structuur %s hebben.";
+
+// General validation
+"Invalid value [%s]" = "Ongeldige waarde [%s]";
+
+// Gallery
+"Connection Error" = "Verbindingsfout";
+"Unsupported Content" = "Niet-ondersteunde inhoud";
+"The specified content cannot be displayed." = "De opgegeven inhoud kan niet worden weergegeven.";
+"Something went wrong" = "Er is iets niet goed gegaan";
+"This item is currently unavailable." = "Dit item is momenteel niet beschikbaar.";
+"The information for this gallery could not be loaded." = "De informatie voor deze galerie kan niet worden geladen.";
+"Content Error" = "Inhoudsfout";
+"This content is unsupported." = "Deze inhoud wordt niet ondersteund.";
+
+// Signatures
+"Digital Signature" = "Digitale handtekening";
+"Signature is valid." = "Handtekening is geldig.";
+"Signature is valid, but there are some warnings." = "Handtekening is geldig maar er zijn enkele waarschuwingen.";
+"It was signed by %@ on %@ at %@." = "Het is ondertekend door %@ op %@ om %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Het is ondertekend op %@ om %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Het meldt ondertekend te zijn door %@ op %@ om %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Het meldt ondertekend te zijn op %@ om %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "De revisie die is ondertekend met deze handtekening is niet gewijzigd maar er zijn wel wijzigingen in het document aangebracht na de ondertekening."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "De handtekening is geldig en de inhoud van het document is niet gewijzigd na ondertekening.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Ongeldige handtekening — de inhoud van het document is gewijzigd of beschadigd of er is mee geknoeid na de ondertekening.";
+"Unsigned Signature Field" = "Niet-getekend handtekeningveld";
+"Do you really want to remove the signature from the document?" = "Weet je zeker dat je de handtekening wilt verwijderen uit het document?";
+"Could not retrieve the certificate from the signature." = "Het certificaat van de handtekening kon niet worden opgehaald.";
+"Could not retrieve the signature contents." = "De inhoud van de handtekening kon niet worden opgehaald.";
+"Could not retrieve the public key from the signature." = "De openbare sleutel van de handtekening kon niet worden opgehaald.";
+"Could not retrieve the byte range of the signature." = "Bereik in bytes voor de handtekening kon niet worden opgehaald.";
+"Could not understand the encryption padding." = "Encryptiepadding kon niet worden gecontroleerd.";
+"Could not compute the digest for the document." = "Samenvatting voor document kon niet worden gemaakt.";
+"General failure while trying to determine document integrity." = "Algemene fout tijdens bepaling van integriteit van document.";
+"Certificate chain is invalid." = "Certificaatketen is ongeldig.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Certificaatketen kon niet worden gecontroleerd omdat geen vertrouwde sleutels zijn geleverd.";
+"Document integrity success, but certificate is self signed." = "Certificaat is zelfondertekend.";
+"Document integrity check failed." = "Integriteitscontrole van document is mislukt.";
+"The signing certificate is not trusted." = "Het ondertekeningscertificaat wordt niet vertrouwd.";
+"unknown time" = "onbekende tijd";
+"unknown date" = "onbekende datum";
+"Digitally signed by {}" = "Digitaal ondertekend door {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Datum: ";
+"Reason: " = "Reden: ";
+"Location: " = "Locatie: ";
+"Certificate" = "Certificaat";
+"No Certificate" = "Geen certificaat";
+"No Certificates" = "Geen certificaten";
+"Store Signature" = "Bewaar handtekening";
+"Add Trusted Certificate" = "Voeg vertrouwd certificaat toe";
+"Add Signer" = "Voeg ondertekenaar toe";
+"Added Trusted Certificate" = "Toegevoegd vertrouwd certificaat";
+"Added Signer" = "Toegevoegde ondertekenaar";
+"File doesn't match any certificate type" = "Bestand is geen soort certificaat";
+"Import Failed" = "Import mislukt";
+"Signature Area" = "Handtekeninggebied";
+"Draw Signature Area" = "Teken handtekeninggebied";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7-object kon niet worden geïnitialiseerd";
+"Could not find signature" = "Handtekening kan niet worden gevonden";
+"Could not hash the PDF document" = "Geen hash van PDF-document mogelijk";
+"Could not create padding for the digital signature" = "Opvulling maken voor digitale handtekening niet mogelijk";
+"Could not verify the signature" = "Handtekening kon niet worden gecontroleerd";
+"Could not save the signed document" = "Het ondertekende document kon niet worden bewaard";
+"Cannot sign attributes" = "Ondertekenen niet mogelijk";
+"The selected subfilter type for the signature is not supported" = "Geselecteerd type subfilter voor handtekening wordt niet ondersteund";
+"Could not add signature to PKCS7 object" = "Handtekening kan niet worden toegevoegd aan PKCS7-object";
+"Could not write PKCS7 signature" = "Kan PKCS7-handtekening niet schrijven";
+"Could not create PKCS7 object" = "PKCS7-object kon niet worden aangemaakt";
+"Could not generate PKCS7 object" = "PKCS7-object kon niet worden gegenereerd";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Document kan niet worden ondertekend omdat het al ondertekend is.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Kan de certificaatgegevens niet lezen als een PKCS#7-certificaat. Gegevens in de juiste structuur kunnen worden geëxporteerd naar Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Kan de handtekening van het certificaat niet decoderen.";
+"The public key in the certificate could not be read." = "De openbare sleutel van het certificaat kan niet worden gelezen.";
+"The signature of the certificate is not valid." = "De handtekening van het certificaat is niet geldig.";
+"Signature is not valid." = "Handtekening is niet geldig.";
+"There is a format error in the notBefore field of the certificate." = "Het certificaat bevat een structuurout in het veld 'notBefore'."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Er is een structuurfout in het veld 'notAfter' van het certificaat."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Handtekeningen kunnen niet worden geverifieerd omdat de certificaatketen slechts één certificaat bevat, deze niet zelfondertekend is en de verstrekker niet wordt vertrouwd.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Een CA-certificaat is niet geldig omdat het geen CA is of de extensies ervan komen niet overeen met het beoogde doel."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "De parameter 'basicConstraints pathlength' is overschreden."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "De root-CA is niet gemarkeerd als vertrouwd voor het beoogde doel."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "De root-CA is gemarkeerd om het opgegeven doel te weigeren."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Het verstrekkercertificaat is geweigerd omdat de naam van het onderwerp niet overeenkomt met de naam van de verstrekker van het huidige certificaat."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Het verstrekkercertificaat is geweigerd omdat de 'subject key identifier' aanwezig is en niet overeenkomt met de 'authority key identifier' van het huidige certificaat."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Het verstrekkercertificaat is geweigerd omdat de naam van de verstrekker en het serienummer aanwezig waren en niet overeenkwamen met de 'authority key identifier' van het huidige certificaat."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Het certificaat is ingetrokken door de verstrekker.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Het verstrekte certificaat is zelfondertekend en hetzelfde certificaat kan niet worden gevonden in de lijst met vertrouwde certificaten.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Er bestaat een zelfondertekend certificaat in de certificaatketen. De certificaatketen is mogelijk gemaakt met niet-vertrouwde certificaten maar de root-CA kan niet lokaal worden gevonden."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Kan het certificaat niet vinden voor één van de certificaatautoriteiten (CA's) in de handtekeninghiërarchie en die CA wordt niet vertrouwd door de lokale app."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Het verstrekkercertificaat van een lokaal opgezocht certificaat kan niet worden gevonden. Dit betekent normaal dat de lijst met vertrouwde certificaten niet volledig is.";
+"The certificate that was provided cannot be used for its intended purpose." = "Het verstrekte certificaat kan niet worden gebruikt voor het beoogde doel.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "De extensie 'keyUsage' van het verstrekkercertificaat staat geen ondertekening van het certificaat toe.";
+"The certificate has expired." = "Het certificaat is verlopen.";
+"The certificate is not valid until a date in the future." = "Het certificaat is niet geldig tot een latere datum.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Kan X509-certificaat niet lezen uit gegevens";
+// X509 should not be translated
+"No X509 certificate found" = "Geen X509-certificaat gevonden";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Kan PKCS12-bestand niet lezen. Bestand heeft onjuiste structuur of is beschadigd.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Kan PKCS12-gegevens niet ontgrendelen. Heb je het juiste wachtwoord ingevoerd?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12-gegevens decoderen is niet mogelijk. De gegevens zijn mogelijk beschadigd of incompatibel.";
+"Could not unlock PKCS12 data." = "PKCS12-gegevens ontgrendelen is niet mogelijk.";
+"Could not add signature." = "Handtekening toevoegen is niet mogelijk.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Kan bestand niet openen voor validatie van handtekening";
+"Could not get signer info" = "Kan info van ondertekenaar niet ophalen";
+
+// Night Mode
+"Default" = "Standaard"; // Default view (night mode not enabled)
+"Sepia" = "Sepia"; // Document uses sepia colors
+"Night" = "Nacht"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Geen document ingesteld";
+"Unable to display document" = "Document kan niet worden weergegeven";
+"Locked" = "Vergrendeld";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Het bestand dat je probeert te openen, is geen PDF-bestand of is mogelijk beschadigd.";
+"A password is required to access this document." = "Voor toegang tot dit document is een wachtwoord vereist.";
+"The security scheme of this document is currently not supported." = "Het beveiligingsschema van dit document wordt momenteel niet ondersteund.";
+"An unknown error has occured while trying to open this file." = "Er heeft zich een onbekende fout voorgedaan tijdens het openen van dit bestand.";
+
+// Document Editor
+"Document Editor" = "Documenteditor";
+"Add Page" = "Voeg pagina toe";
+"Delete Pages" = "Verwijder pagina's";
+"Duplicate Pages" = "Dupliceer pagina’s";
+"Move Pages" = "Verplaats pagina's";
+"Rotate Pages" = "Roteer pagina’s";
+"Page Size" = "Paginaformaat";
+"Background Color" = "Achtergrondkleur";
+"Paper" = "Papier";
+"Pattern" = "Formulierelement";
+"Use Document Size" = "Gebruik documentformaat";
+"Orientation" = "Richting";
+"Portrait" = "Staand";
+"Landscape" = "Liggend";
+"Document Name" = "Documentnaam";
+"Documents" = "Documenten"; // Name of directory
+"Use Document Folder" = "Gebruik documentmap";
+"Folder" = "Map";
+"Replace File?" = "Vervang bestand?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Er bestaat al een bestand met de naam “%@” op de geselecteerde bestemming. Wilt u het vervangen?";
+"Replace" = "Vervang";
+"Saving…" = "Bewaren…";
+"Saved" = "Bewaard";
+"Save As…" = "Bewaar als…";
+"Discard Changes" = "Verwijder wijzigingen";
+"Empty" = "Leeg";
+"Use Image Size" = "Gebruik afbeeldingsformaat";
+"Page Background" = "Pagina-achtergrond";
+"Insert image annotation" = "Voeg afbeeldingsannotatie in";
+"Import page background" = "Importeer pagina-achtergrond";
+"Quality" = "Kwaliteit";
+"Low" = "Laag";
+"Medium" = "Normaal";
+"High" = "Hoog";
+"Best" = "Best";
+"Copy Pages" = "Kopieer pagina’s";
+"Paste Pages" = "Plak pagina’s";
+"Copied" = "Gekopieerd";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” heeft niet-bewaarde wijzigingen. Wil je deze nu bewaren?";
+"Select Source Document" = "Selecteer brondocument";
+"Add After Page %tu" = "Voeg toe na pagina %tu";
+"Cut Pages" = "Knip pagina’s";
+"Import Document" = "Importeer document";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Gebruik mapkiezer";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Kies map";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Selecteer alle pagina’s";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Een leeg document kan niet worden bewaard.";
+"The document could not be saved." = "Het document kan niet worden bewaard.";
+"This document does not support editing." = "Dit document kan niet worden bewerkt.";
+"The document could not be accessed." = "Het document kan niet worden geopend.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "De PDF kan momenteel niet worden geïmporteerd.";
+"The image could not be imported at this time." = "De afbeelding kan momenteel niet worden geïmporteerd.";
+
+// Page Patterns
+"None" = "Geen";
+"Dot5mm" = "Stip 5mm";
+"Grid5mm" = "Raster 5mm";
+"Lines5mm" = "Lijnen 5mm";
+"Lines7mm" = "Lijnen 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Exporteer pagina’s";
+"Export…" = "Exporteer…";
+"Exporting…" = "Exporteren…";
+"Exported" = "Geéxporteerd";
+"%@ - Exported" = "%@ - Geëxporteerd"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Kopie"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Het geselecteerde document is momenteel geopend. Kies een andere bestandsnaam.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Tekst-naar-spraak is niet beschikbaar. Zorg ervoor dat je een actieve internetverbinding hebt of de tekst-naar-spraak-engine van Google hebt geïnstalleerd en ingeschakeld op het apparaat.";
+
+// Settings
+"Page Layout" = "Paginalay-out";
+"Scroll Direction" = "Scrolrichting";
+"Theme" = "Thema";
+"Keep screen on" = "Houd scherm ingeschakeld";
+"Page Transition" = "Pagina-overgang";
+"Single" = "Enkel";
+"Continuous" = "Doorlopend";
+"Curl" = "Omslaan";
+"Scroll" = "Scrol";
+"Horizontal" = "Horizontaal";
+"Vertical" = "Verticaal";
+"Page Mode" = "Paginamodus";
+"Automatic" = "Automatisch";
+"Double" = "Dubbel";
+"Appearance" = "Weergave";
+"Scrubber Bar" = "Navigatiebalk";
+"Jump" = "Springen"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Niet beschikbaar"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Passende pagina";
+"Fit" = "Passend";
+"Fill" = "Vulling";
+"Adaptive" = "Aanpassing";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ heeft geen toegang tot je foto’s.";
+"%@ does not have access to your camera." = "%@ heeft geen toegang tot je camera.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Privacy-instellingen";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Je kunt de toegang in %@ inschakelen.";
+
+"Update Required" = "Update vereist";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "%@ moet worden bijgewerkt om toegang tot het document te krijgen en annotaties te synchroniseren.";
+
+
+// Annotation Replies
+"Comment" = "Opmerking";
+"Comments" = "Opmerkingen";
+"Add your comment…" = "Voeg je opmerking toe…";
+"Delete Comment" = "Verwijder opmerking";
+"Set Status" = "Stel status in";
+"Cancelled" = "Geannuleerd";
+"Accepted by" = "Geaccepteerd door";
+"Rejected by" = "Geweigerd door";
+"Completed by" = "Voltooid door";
+"Cancelled by" = "Geannuleerd door";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Aanwijzer naar rechts";
+"Right Arrow" = "Pijl naar rechts";
+"Checkmark" = "Vinkje";
+"Circle Note" = "Cirkel";
+"Cross" = "Kruis";
+"Insert Text" = "Voeg tekst in";
+"New Paragraph" = "Nieuwe alinea";
+"Text Note" = "Tekstnotitie";
+"Paragraph" = "Alinea";
+"Help" = "Help";
+"Star" = "Ster";
+"Key" = "Sleutel";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Lichtblauw";
+"Light Red" = "Lichtrood";
+"Light Green" = "Lichtgroen";
+"Fuchsia" = "Fuchsia";
+"Page %tu of %tu" = "Pagina %tu van %tu";
+"Preparing document for printing…" = "Document voorbereiden op afdrukken…";
+"Are you sure you want to delete this annotation?" = "Weet je zeker dat je deze annotatie wilt verwijderen?";
+"Confirm annotation deletion" = "Bevestig verwijdering van annotatie";
+"Page Rotation" = "Paginarotatie";
+"Rotate Left" = "Roteer naar links";
+"Rotate Right" = "Roteer naar rechts";
+"%@ (not supported)" = "%@ (niet ondersteund)";
+"Pan Mode" = "Panmodus";
+"Fit Page" = "Passende pagina";
+"Fit Width" = "Passende breedte";
+"Password Required" = "Wachtwoord vereist";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Je moet dit document ontgrendelen om het te bekijken. Voer het wachtwoord in het onderstaande veld in.";
+"The password you entered is not correct. Please try again." = "Het ingevoerde wachtwoord is onjuist. Probeer het opnieuw.";
+"Clear Signature" = "Wis handtekening";
+"Top" = "Boven";
+"Bottom" = "Onder";
+"Vertical Alignment" = "Verticale uitlijning";
+"Horizontal Alignment" = "Horizontale uitlijning";
+"Light Orange" = "Lichtoranje";
+"Light Yellow" = "Lichtgeel";
+"Mauve" = "Mauve";
+"Light Gray" = "Lichtgrijs";
+"Dark Gray" = "Donkergrijs";
+"NoColor" = "Geen";
+"Transparent" = "Doorzichtig";
+// Generic label for bookmark
+"Bookmark" = "Bladwijzer";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nieuwe bladwijzer";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Weet je zeker dat je deze bladwijzer wilt verwijderen?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Bevestig verwijdering van bladwijzer";
+// Label for the select image field
+"Select Image" = "Selecteer afbeelding";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@-tools, menu in- of uitschakelen";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Niet-ondersteund type voor afbeeldingsannotatie: %@. Gebruik een JPEG- of PNG-bestand.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Selectiegereedschap";
+"Toolbar_TextHighlighter" = "Markeerstift voor tekst";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Annotatieknoppenbalk";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Document-viewport";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Bezig met redigeren";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Geeft aan dat het huidige document wordt geredigeerd";
+"Icon" = "Symbool";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Verplaats";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Verplaats pagina naar";
+// The label of the button on the Move UI
+"move" = "Verplaats";
+"selectedItem" = "%@, geselecteerd.";
+"annotationDeleted" = "Annotatie is verwijderd.";
+"newAnnotationCreated" = "Nieuwe annotatie van het type %@ is aangemaakt.";
+"bookmarkCreated" = "Bladwijzer is aangemaakt.";
+"bookmarkEdited" = "Bladwijzer is bewerkt.";
+"bookmarkDeleted" = "Bladwijzer is verwijderd.";
+"cancelledEditingBookmark" = "Bewerking van bladwijzer is geannuleerd.";
+"selectAFileForImage" = "Selecteer een bestand voor de nieuwe afbeeldingsannotatie.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialoogvenster waarin je de verwijdering van de annotatie kunt bevestigen of annuleren.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialoogvenster waarin je de verwijdering van de bladwijzer kunt bevestigen of annuleren.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialoogvenster waarin je de verwijdering van de opmerking kunt bevestigen of annuleren.";
+"resize" = "Pas grootte aan";
+"resizeHandleTop" = "Boven";
+"resizeHandleBottom" = "Onder";
+"resizeHandleRight" = "Rechts";
+"resizeHandleLeft" = "Links";
+"cropCurrentPage" = "Snij huidige pagina bij";
+"cropCurrent" = "Snij huidige bij";
+"cropAllPages" = "Snij alle pagina's bij";
+"cropAll" = "Snij alles bij";
+"documentCrop" = "Document bijsnijden";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Voeg in na pagina";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Typ '0' om de geselecteerde pagina('s) naar het begin van het document te verplaatsen.";
+
+// Blend Mode Strings
+"Normal" = "Normaal";
+"Multiply" = "Vermenigvuldiging";
+"ScreenBlend" = "Bleken";
+"Overlay" = "Overlay";
+"Darken" = "Donkerder";
+"Lighten" = "Lichter";
+"ColorDodge" = "Kleur-dodge";
+"ColorBurn" = "Kleur-burn";
+"HardLight" = "Hard licht";
+"SoftLight" = "Zacht licht";
+"Difference" = "Verschil";
+"Exclusion" = "Uitsluiting";
+"Multiple" = "Meerdere";
+"Blend Mode" = "Overvloeimodus";
+
+// Image Document Strings
+"File type not supported." = "Bestandstype niet ondersteund.";
+"Could not load image file." = "Kon afbeeldingsbestand niet laden.";
+"The image is too large to be opened." = "De afbeelding is te groot om deze te openen.";
+"Could not generate a PDF document from the image." = "Kan geen PDF-document maken op basis van de afbeelding.";
+"Unnamed Image Document" = "Naamloos afbeeldingsdocument";
+"Annotations will remain editable and are embedded into the image." = "Annotaties worden ingebed in de afbeelding en kun je altijd bewerken.";
+"Annotations are drawn into the image and are readonly." = "Annotaties worden in de afbeelding getekend en kunnen alleen worden gelezen.";
+
+//Metadata Strings
+"Document Info" = "Documentinfo";
+"Content" = "Inhoud";
+"Title" = "Naam";
+"Author" = "Auteur";
+"Subject" = "Onderwerp";
+"Keywords" = "Trefwoorden";
+"Not Set" = "Niet ingesteld";
+"NoneValue" = "Geen";
+"Security" = "Beveiliging";
+"Document Open Password" = "Wachtwoord document openen";
+"Not set, minimum 8 characters" = "Niet ingesteld, minimum 8 tekens";
+"Permissions" = "Bevoegdheden";
+"Changes" = "Wijzigingen";
+"Printing" = "Afdrukken";
+"Content Copying for Accessibility" = "Inhoudskopie voor toegankelijkheid";
+"Content Modification" = "Inhoudswijziging";
+"High Quality Printing" = "Afdruk van hoge kwaliteit";
+"Filling of Form Fields" = "Invullen van formuliervelden";
+"Document Assembly" = "Samenvoeging documenten";
+"Annotations and Forms" = "Annotaties en formulieren";
+"Content Copying" = "Inhoudskopie";
+"Number of Pages" = "Aantal pagina's";
+"File Size" = "Bestandsgrootte";
+"CreationDate" = "Aangemaakt";
+"ModDate" = "Gewijzigd";
+"Creator" = "Maker inhoud";
+"Producer" = "PDF-producent";
+"Info" = "Info";
+"Tap the Edit button to show all metadata fields." = "Tik op Wijzig om alle metagegevensvelden te tonen.";
+"Document Owner Password" = "Wachtwoord documenteigenaar";
+"Changes Are Locked" = "Wijzigingen zijn vergrendeld";
+"Enter the Document Owner Password to make changes." = "Voer het wachtwoord van de documenteigenaar in om wijzigingen te maken.";
+"Incorrect Password" = "Wachtwoord onjuist";
+"Passwords" = "Wachtwoorden";
+"Modifying Content" = "Inhoud wijzigen";
+"Editing Annotations and Forms" = "Annotaties en formulieren wijzigen";
+"Filling Forms" = "Formulieren invullen";
+"Copying Content" = "Inhoud kopiëren";
+"Copying Content for Accessibility" = "Inhoudskopie voor toegankelijkheid";
+"Could Not Save" = "Bewaren is mislukt";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Als je een wachtwoord voor het openen van het document wilt instellen, moet de eigenaar van het document een wachtwoord hebben ingesteld.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Bestandspad";
+"Identical Passwords" = "Identieke wachtwoorden";
+"Choose a different Owner or Open password." = "Kies een ander wachtwoord van eigenaar of ander wachtwoord om het document te openen.";
+"Owner Password Required" = "Wachtwoord van eigenaar vereist";
+"An owner password is required to change the permissions of a document." = "Voor het wijzigen van de rechten van een document is het wachtwoord van een eigenaar vereist.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Sommige PDF-readers passen de gekozen beperkingen voor bevoegdheden toe. Deze beperkingen worden in deze app niet toegepast.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "%@ geselecteerd";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "%@ met %@ als inhoud geselecteerd";
+// Accessibility string for comment threads
+"commentThread" = "Opmerkingen";
+"printProgressModalDesc" = "Geeft aan dat het afdrukken van het huidige document wordt voorbereid";
+"printProgressModal" = "Bezig met afdrukken";
+"documentEditorDesc" = "Maak wijzigingen aan het huidige document";
+"reloadDocumentDialog" = "Bevestig herladen van document";
+"reloadDocumentDialogDesc" = "Venster waarin de gebruiker wordt gevraagd om te bevestigen dat het document opnieuw moet worden geladen.";
+"signatureDialog" = "Handtekening";
+"signatureDialogDesc" = "Met dit venster kun je een geschreven handtekening aan het document toevoegen. Als je geen handtekeningen hebt bewaard, kun je er een maken met de canvasweergave.";
+"stampAnnotationTemplatesDialog" = "Stempelsjablonen";
+"stampAnnotationTemplatesDialogDesc" = "Met dit venster kun je een stempel aan het document toevoegen of een aangepaste stempel met je eigen tekst maken.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Redactie";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Redactiemarkering";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Toegepaste redactie";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Contourkleur";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Overlaytekst";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Herhaal tekst";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Tekstkleur";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Redactie-info";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Dit document bevat redigerende annotaties die niet zijn vastgelegd. Wil je ze toepassen?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Pas toe";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Een redactie gebeurt in twee stappen. Maak eerst een redactiemarkering om het gebied te selecteren dat je wilt redigeren. Als je de inhoud definitief wilt wissen, tik je rechtsonder op de rode knop ▵ en pas je de redactie toe.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Pas redacties toe";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Wis redacties";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Zet redactievoorbeeld aan";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Zet redactievoorbeeld uit";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Het toepassen van redacties verwijdert de informatie definitief en kan niet ongedaan worden gemaakt.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Bewaar in nieuw bestand";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Redigeer huidig document";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Redigeren…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Het document kan niet worden geredigeerd.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Inhoud die is gemarkeerd voor redactie wordt niet verwijderd wanneer het document wordt bewaard. Weet je zeker dat je wilt doorgaan?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Redigeer huidig document";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Bewaar geredigeerd document als";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Geredigeerd";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Gebiedsredactie";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Tekstredactie";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Redacties toepassen";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Bezig met ondertekenen";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Geeft aan dat het huidige document wordt ondertekend";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Voeg overlaytekst in";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Zet bestand terug";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Ontbrekend bestand";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' is buiten de app verwijderd. Wil je dit document sluiten of het bestand herstellen?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Bestandsconflict";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' is buiten de app gewijzigd. Als je het bewaart, worden de externe wijzigingen overschreven.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Bewaar wijzigingen";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Tik om de media te laden.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "De media voor deze annotatie konden niet worden geladen wegens een probleem met de verbinding. Probeer het later opnieuw.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Tik om de media opnieuw te proberen laden.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "De media voor deze annotatie konden niet worden gevonden. Als je dit bericht na de synchronisatie opnieuw ziet, meld je dit probleem en voeg je de volgende informatie toe: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Tik om download te annuleren";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Er deed zich een onverwachte fout voor tijdens het laden van de media. Fout %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Koppeling naar pagina";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Koppeling naar website";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Paginanummer";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Paginaselectie";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Plak vanaf klembord";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Voorvertoning website";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Webadres";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Vorige";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Volgende";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Palet";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Laatst gebruikt";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Standaard kleurenpalet";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Kleurvariaties";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Tint";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Verzadiging";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Helderheid";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Hexadecimale kleurwaarde";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "De opgegeven waarde is geen geldige kleur.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Plak vanaf klembord";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Paginabinding";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Linkerrand";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Rechterrand";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Onbekend";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Links";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Rechts";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Volgorde";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Vooraan";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Naar voren";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Naar achteren";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Achteraan";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Dupliceer";
+"DocumentEditor_Extract" = "Extraheer";
+"General_SelectNone" = "Selecteer niets";
+"DocumentEditor_NewPage" = "Nieuwe pagina";
+"DocumentEditor_InstantModifiedWarning" = "Het document is gewijzigd en bevindt zich nu in de alleen-lezenmodus. Herlaad de pagina om dit op te lossen.";
+"DocumentEditor_MoveBefore" = "Plaats voor";
+"DocumentEditor_MoveAfter" = "Plaats na";
+"DocumentEditor_DocumentMergedHere" = "Document wordt hier samengevoegd";
+
+// Android Strings
+"FileSystemPermission" = "Je hebt de toegang tot het bestandssysteem definitief geweigerd voor deze app. Om opgeslagen PDF-bestanden op je apparaat te bekijken, moet je de bestandssysteemmachtigingen via de instellingen van de app inschakelen.";
+"Button_OpenSettings" = "Open Instellingen";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Toon meer";
+// Button to show less comments
+"Comments_ShowLess" = "Toon minder";
+// Button to reply to a comment
+"Comments_Reply" = "Reageer";
+// Button to show all comments
+"Comments_ShowAll" = "Toon alles";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Weet je zeker dat je deze opmerking wilt verwijderen?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Bevestig verwijdering van opmerking";
+// Verb for Comment
+"Comment_Action" = "Plaats opmerking";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Het document is digitaal ondertekend en alle handtekeningen zijn geldig.";
+"DigitalSignatures_DocModified" = "Het document is digitaal ondertekend maar het is gewijzigd na de ondertekening.";
+"DigitalSignatures_SignatureWarning" = "Het document is digitaal ondertekend maar ten minste één handtekening vertoont problemen.";
+"DigitalSignatures_SignatureWarningDocModified" = "Het document is digitaal ondertekend maar het is gewijzigd na de ondertekening en ten minste één handtekening vertoont problemen.";
+"DigitalSignatures_SignatureError" = "Het document is digitaal ondertekend maar ten minste één handtekening is ongeldig.";
+"DigitalSignatures_SignatureErrorDocModified" = "Het document is digitaal ondertekend maar het is gewijzigd na de ondertekening en ten minste één handtekening is ongeldig.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Opname kan niet worden gestart";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Opname kan niet worden gestopt";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Pagina’s kunnen niet worden geplakt";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Ondertekeningscertificaat kan niet worden gevraagd";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Document kan niet worden ondertekend";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Er deed zich een onbekende fout voor tijdens het openen van dit bestand.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Reader-weergave";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Teken";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Afbeelding";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Typ";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Teken hier";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Typ je handtekening hierboven";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Bewaar handtekening";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Selecteer of sleep afbeelding";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Selecteer afbeelding";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Vervang afbeelding";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Bestanden";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Nieuwe handtekening";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Aan";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Uit";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "annotatie toevoegen";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "annotaties toevoegen";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "opmerking toevoegen";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "status van opmerking wijzigen";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "opmaaktype wijzigen";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "selectie wijzigen";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "annotaties wissen";
+// Command of cutting.
+"Undo_Cut" = "knippen";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "vorm detecteren";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "tekenen";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "neerzetten";
+// Command of editing text of a comment.
+"Undo_EditComment" = "opmerking wijzigen";
+// Command of editing text inside text fields.
+"Undo_EditText" = "tekst wijzigen";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "wissen";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "groeperen";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "samenvoegen";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "annotatie wijzigen";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "annotaties wijzigen";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "annotatie verplaatsen";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "annotaties verplaatsen";
+// Command of pasting.
+"Undo_Paste" = "plakken";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "annotatie verwijderen";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "annotaties verwijderen";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "opmerking verwijderen";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "opmerkingen verwijderen";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "grootte van annotatie aanpassen";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "grootte van annotaties aanpassen";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "annotatie draaien";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "annotaties draaien";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "groepering opheffen";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Lijn uit";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Lijn documenten uit";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Selecteer punt";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Oud";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Nieuw";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Vergelijking";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Selecteer drie punten in beide documenten om ze handmatig uit te lijnen. De beste resultaten verkrijg je door punten in de hoeken van de documenten te kiezen, waarbij je ervoor zorgt dat de punten in dezelfde volgorde worden gekozen.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Sluit";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Lijn documenten uit";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Documentvergelijking";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Oud document";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Nieuw document";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Herstel";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Punten selecteren";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Lijn uit…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Punten selecteren";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Punt %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "%1$tu van %2$tu geselecteerd in '%3$@'";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Punt %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Doel puntmarkering";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Rechthoek wolkvormig";
+"DashedRectangleAnnotation" = "Rechthoek onderbroken lijn";
+"CloudyEllipseAnnotation" = "Ellips wolkvormig";
+"DashedEllipseAnnotation" = "Ellips onderbroken lijn";
+"CloudyPolygonAnnotation" = "Veelhoek wolkvormig";
+"DashedPolygonAnnotation" = "Veelhoek onderbroken lijn";
+"CloudAnnotation" = "Wolk";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Geen vulling";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Opgeslagen annotaties konden niet worden geladen";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Annotaties konden niet worden opgeslagen";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Afstand";
+"PerimeterMeasurement" = "Omtrek";
+"PolygonalAreaMeasurement" = "Oppervlak van veelhoek";
+"RectangularAreaMeasurement" = "Oppervlak van rechthoek";
+"EllipticalAreaMeasurement" = "Oppervlak van ellips";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Roteer linksom";
+"Rotate_Clockwise" = "Roteer rechtsom";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Voer hier een beschrijving in";
+// "New option button text"
+"FormDesigner_addOption" = "Voeg optie toe";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Eigenschappen van {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Er bestaat al een formulierveld met de naam {formFieldName}. Kies een andere naam.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Stijl van {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Naam van formulierveld";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Standaardwaarde";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Meerdere regels";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Als je de keuzerondjes wilt groeperen, zorg je dat ze dezelfde formulierveldnaam hebben.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Geavanceerd";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Naam van maker";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Opmerking";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Aangepaste gegevens";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Verplicht";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Alleen-lezen";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Gemaakt op";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Bijgewerkt op";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Moet een JSON-serialiseerbaar object zonder opmaak zijn";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Randkleur";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Randdikte";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Randstijl";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Druk af";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Effen";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Onderbroken";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Afgeschuind";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Inzet";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Onderstreept";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Tekststijl";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Lettergrootte";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Letterkleur";
+// "Button Field"
+"FormDesigner_button" = "Knopveld";
+// "Text Field Button"
+"FormDesigner_textField" = "Tekstveld";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Keuzerondjeveld";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Aankruisvakveld";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Combinatievakveld";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Keuzelijstveld";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Handtekeningveld";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Knoptekst";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N.v.t.";
+// Label for form field
+"FormDesigner_label" = "Label";
+// Value for form field
+"FormDesigner_value" = "Waarde";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Kan na aanmaak niet worden bewerkt.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Naam van formulierveld mag niet leeg zijn.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Formuliermaker";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Meerkeuze";
+"FormDesigner_readOnlyProperty" = "Alleen-lezen";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Opties";
+
+// Measurement tools
+"MeasurementScale" = "Schaal";
+"MeasurementCalibrateLength" = "Kalibreer lengte";
+"MeasurementPrecision" = "Precisie";
+"MeasurementSnapping" = "Lijn automatisch uit";
+"MeasurementPrecision_Whole" = "Geheel";
+"MeasurementPrecision_OneDecimalPlace" = "Eén decimaal";
+"MeasurementPrecision_TwoDecimalPlaces" = "Twee decimalen";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Drie decimalen";
+"MeasurementPrecision_FourDecimalPlaces" = "Vier decimalen";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Oppervlakte";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Media-annotatie";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Deze browser ondersteunt geen ingebedde video of audio.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Koppelingsinstellingen";
+// Label for selection of link type (website - page).
+"linkTo" = "Koppeling naar";
+// Label for website selection.
+"uriLink" = "Website";
+// Label for page selection.
+"pageLink" = "Pagina";
+// Text for preceding number for page link number.
+"linkToPage" = "Koppeling naar pagina %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Voer een geldig paginanummer in.";
+// Error message for invalid page link.
+"invalidPageLink" = "Voer een geldige paginakoppeling in.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Instellingen voor meten van {measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Selecteer meerdere annotaties";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Tools voor %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Je moet dit document ontgrendelen om het te bekijken. Voer het wachtwoord in het onderstaande veld in.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anoniem";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Opties voor opmerkingen";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Wijzig content";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Instellingen voor meting van omtrek";
+"Distance_Popover_Title" = "Instellingen voor meting van afstand";
+"Rectangle_Area_Title" = "Instellingen voor meting van oppervlak van rechthoek";
+"Polygon_Area_Title" = "Instellingen voor meting van oppervlak van veelhoek";
+"Ellipse_Area_Title" = "Instellingen voor meting van oppervlak van ellips";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Vet";
+"Italic" = "Cursief";
+
+// Button to save and then close current context
+"Save_And_Close" = "Bewaar en sluit";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Zet knopinfo over ongelijk lettertype aan/uit";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Het lettertype %@ font is niet beschikbaar of kan niet worden gebruikt om content in dit document te bewerken. Voor toegevoegde of gewijzigde content wordt een standaardlettertype gebruikt.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Bed in";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Sluit in";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Negeer";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Overzicht";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Selecteer beginpagina";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Selecteer eindpagina";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "tot";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Rotatie";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Wijzig content";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "'%1$@' heeft niet-bewaarde wijzigingen.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Meerdere lettertypen";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Onbekend lettertype";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Meerdere grootten";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Verklein";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Vergroot";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Meerdere kleuren";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ vet";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ cursief";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ vet en cursief";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Open de discussie begonnen door %@: '%@'";
+
+// More comments indicator in comments popover
+"MoreComments" = "Meer opmerkingen";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Paginabereik";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Nieuwe aangepaste kleur";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Contenteditor";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Selectie voor zoekactie";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Zoek op het web";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Hele inches";
+"MeasurementPrecision_Halves" = "Halve inches";
+"MeasurementPrecision_Quarters" = "Kwart inches";
+"MeasurementPrecision_Eighths" = "Achtsten van een inch";
+"MeasurementPrecision_Sixteenths" = "Zestienden van een inch";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "De gebruikte certificaatketen voor de ondertekening van het document is leeg.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "De digitale handtekening wordt niet ondersteund.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "De digitale handtekening bevat een ongeldige tijdstempel is of er is geknoeid met de gegevens met tijdstempel.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Instellingen van meting";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Voeg schaal toe";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Gebruik kalibratietool";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Kalibreer schaal";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Stel schaal in";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Secundaire eenheden";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Eenheid";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Als je de schaal verwijdert, worden ook de metingen verwijderd die de schaal gebruiken.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Deze schaal wordt al gebruikt";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Wil je de bestaande schaal bewerken of gebruiken?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Gebruik bestaande schaal";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Naamloos";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Lijn uit op punt";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Lijn uit op eigen punt";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Toon slimme hulplijnen";
+
+// Label for the add text box button
+"AddTextBox" = "Voeg tekstvak toe";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Weet je zeker dat je dit tekstvak wilt verwijderen?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Bevestig verwijdering van tekstvak";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialoogvenster waarin de gebruiker de verwijdering van het tekstvak kan bevestigen of annuleren";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Alleen-lezen";
+"locked" = "Vergrendeld";
+"lockedContent" = "Vergrendelde inhoud";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Schaal toegevoegd";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "\"%@\" is toegevoegd aan de lijst met schalen.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Meetinstellingenpictogram";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Pictogram dat aangeeft dat de schaal voor de meetinstellingen niet is ingesteld";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Dit document is ondertekend met %@ door %@ op %@ om %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Dit document beweert te zijn ondertekend met %@ door %@ op %@ om %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritme: %@ met %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Extraheer pagina's";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Naam van schaal";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Er is al een schaal met deze instellingen gedefinieerd. Kies een andere schaal.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Geef tweede eenheid weer";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Wijzig of voeg nieuwe schaal toe";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Kalibreer";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Lagen";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Geen lagen";
+
+"The certificate is not yet valid" = "Het certificaat is nog niet geldig.";
+"Signature validation failed - invalid signature" = "De handtekening is ongeldig.";
+"The certificate has been revoked" = "Het certificaat is ingetrokken.";
+"Certificate problem" = "Er is een probleem met het certificaat.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Kan niet controleren of het certificaat is ingetrokken.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Regelafstand";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Enkel";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dubbel";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Selecteer meer…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Afmetingen";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Herlaad document";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Helpt de wereld te innoveren met tools voor ontwikkelaars, low-code oplossingen en tools voor eindgebruikers voor alle grote platforms.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Actie";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Sneltoets";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Vermeld";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Open hulpvenster";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Meer info";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Werkbalkfocus";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Er is onvoldoende geheugen om deze pagina weer te geven.";

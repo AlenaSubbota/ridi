@@ -1,0 +1,38 @@
+{
+    "Ridibooks.ReaderViewController": {
+        "UIToolbar": {
+            "tintColor": ["blackColor", 0.6],
+        },
+        "ReaderMenuContainerView": {
+            "tintColor": ["blackColor", 0.6],
+            "@media(poor)": {
+                "backgroundColor": "#EBE1CA",
+            },
+            "UILabel": {
+                "textColor": ["blackColor", 0.65],
+            },
+            "ReaderMenuButton": {
+                "tintColor": ["blackColor", 0.6],
+            },
+        },
+        "ReaderMenuNavigationBar": {
+            "@media(poor)": {
+                "barTintColor": "#EBE1CA",
+            },
+            "tintColor": ["blackColor", 0.6],
+            "titleTextAttributes": {
+                "textColor": ["blackColor", 0.6],
+            },
+        },
+        "ReaderPageSlider": {
+            "minimumTrackTintColor": ["blackColor", 0.6],
+            "maximumTrackTintColor": ["blackColor", 0.15],
+        },
+        "HairLine": {
+            "backgroundColor": ["blackColor", 0.15],
+        },
+        "Ridibooks.ComicImageView": {
+            "tintColor": ["blackColor", 0.6],
+        },
+    },
+}

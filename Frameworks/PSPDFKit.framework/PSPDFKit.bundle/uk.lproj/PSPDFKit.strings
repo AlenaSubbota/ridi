@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Закрити";
+"Cancel" = "Скасувати";
+"OK" = "ОК";
+"Open" = "Відкрити";
+"Untitled" = "Без назви";
+"File Not Found" = "Файл не знайдено";
+"File couldn't be opened." = "Файл не можна відкрити."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Безімений PDF";
+"Page %tu" = "Сторінка %tu";
+"Page %@" = "Сторінка %@";
+"Next" = "Наступна";
+"Previous" = "Попередня";
+"Error" = "Помилка";
+"More options" = "Більше налагоджень";
+"Close Tab" = "Закрити вкладку";
+"Close All Tabs" = "Закрити всі вкладки";
+"Close All Other Tabs" = "Закрити всі інші вкладки"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Малюнок";
+"Highlighter" = "Вільне виділення";
+
+// toolbar
+"Outline" = "Зміст"; // Table of contents
+"No Outline" = "Без змісту";
+"Search Outline" = "Пошук в змісті";
+"Search" = "Пошук";
+"Email" = "Ел. пошта";
+"Send via Email" = "Надіслати ел. поштою";
+"Send" = "Надіслати";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Поділитися у повідомленні";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Поділитися за допомогою ел. пошти";
+"Open In" = "Відкрити в";
+"Commit" = "Надіслати";
+"Sending to %@" = "Надсилання на %@"; // Open document with an application
+"Pages" = "Сторінки";
+"Print with annotations" = "Друк з примітками";
+"Print without annotations" = "Друкувати без приміток";
+"No Applications found" = "Додатки не знайдено.";
+"Print" = "Друк";
+"Annotation" = "Примітка";
+"Annotations" = "Примітки";
+"No Annotations" = "Немає приміток";
+"Bookmarks" = "Закладки";
+"No Bookmarks" = "Немає закладок";
+"Add Bookmark" = "Додати закладку";
+"Remove Bookmark" = "Видалити закладку";
+"Brightness" = "Яскравість";
+"Share" = "Поділитися";
+"Preparing" = "Підготовка";
+"Loading" = "Завантаження";
+"Expand" = "Розгорнути";
+"Collapse" = "Згорнути";
+// SMS / iMessage sharing button
+"Message" = "Повідомлення";
+"Thumbnails" = "Мініатюри";
+"Drag Toolbar" = "Перетягнути панель інструментів";
+
+// thumbnails
+"Bookmarked" = "З закладками";
+"Annotated" = "З примітками";
+"All" = "Всі";
+"Loading Annotations" = "Завантаження приміток";
+"Loading Pages" = "Завантаження сторінок";
+"Loading Bookmarks" = "Завантаження закладок";
+
+// password
+"Password" = "Пароль"; // text on a label
+"Unlock" = "Розблокувати";
+"Please enter the password." = "Будь ласка, введіть пароль.";
+"This document cannot be unlocked." = "Цей документ не може бути розблоковано.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Поле пароля";
+
+// page
+"%tu of %tu" = "%tu з %tu";
+"%tu–%tu of %tu" = "%tu–%tu з %tu";
+"%@ (%tu of %tu)" = "%@ (%tu з %tu)";
+"%@, Page %tu" = "%@, Сторінка %tu";
+"Leave %@?" = "Покинути %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu з %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu з %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu з %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Шукати в документі"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Пошук на сторінці %tu з %tu";
+"Search Completed" = "Пошук завершено";
+"Search Cancelled" = "Пошук скасовано";
+"%tu left" = "%tu залишилось"; // Indexing Documents... 5 left
+"Searching" = "Пошук";
+"Done" = "Готово";
+"Indexing Documents" = "Індексування документів";
+"Document" = "Документ";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Шукати примітки";
+
+// inline browser
+"Open in Safari" = "Відкрити в Safari";
+"Open in Chrome" = "Відкрити в Chrome";
+"Your %@ is not configured to send emails." = "Ваш %@ не налаштований для відправки листів.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Посилання буде відкрито у %1$@. %2$@Ви хочете продовжити?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "зовнішню програму"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Пошту"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Не знайдено обробника для %@";
+
+// text selection
+"Text copied to clipboard." = "Текст скопійовано в буфер обміну.";
+"Save to Photo Library" = "Зберегти до бібліотеки фотографій";
+"Failed to extract image." = "Не вдалося витягти зображення.";
+"Type value or pick from list" = "Введіть значення або виберіть зі списку";
+
+// annotations
+"Add %@" = "Додати %@";
+"Remove %@" = "Видалити %@";
+"Remove" = "Видалити";
+"Delete" = "Видалити"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Редагувати";
+"Undo" = "Скасувати";
+"Nothing to undo" = "Нічого скасовувати";
+"Redo" = "Повторити";
+"Nothing to redo" = "Нічого повторювати";
+"Type" = "Тип"; // kind of Annotation can be selected
+"Size" = "Розмір";
+"Font" = "Шрифт";
+"Fonts" = "Шрифти";
+"All Fonts" = "Всі шрифти";
+"Downloadable Fonts" = "Завантажувальні шрифти";
+"Search Fonts" = "Шукати шрифти";
+"Choose Color" = "Виберіть колір";
+"Choose Fill Color" = "Виберіть колір заливки";
+"Rainbow" = "Веселка";
+"Monochrome" = "Монохромний";
+"Vintage" = "Винтаж";
+"Modern" = "Модерн";
+"ColorPalette_Unified" = "Палітра";
+"Color" = "Колір";
+"Border" = "Межа";
+"Fill Color" = "Колір заливки";
+"Start and End Color" = "Колір заливки кінця лінії";
+"Opacity" = "Непрозорість";
+"Thickness" = "Товщина";
+"%@ pt" = "%@ пт";
+"Yellow" = "Жовтий";
+"Green" = "Зелений";
+"Red" = "Червоний";
+"Blue" = "Синій";
+"Pink" = "Рожевий";
+"Black" = "Чорний";
+"Orange" = "Помаранчевий";
+"Purple" = "Фіолетовий";
+"Cyan" = "Блакитний";
+"Gray" = "Сірий";
+"White" = "Білий";
+"Color_Brown" = "Брунатний";
+"Color_DarkRed" = "Темно-червоний";
+"Color_DarkBlue" = "Темно-синій";
+"Color_Magenta" = "Маджента";
+"Define" = "Визначити";
+"Wikipedia" = "Вікіпедія";
+"Highlight" = "Виділення тексту";
+"Underline" = "Підкреслити";
+"Squiggly" = "Хвилясте";
+"StrikeOut" = "Закреслення";
+"Rectangle" = "Прямокутник";
+"Ellipse" = "Еліпс";
+"Line" = "Лінія"; // something that can be drawn
+"Polygon" = "Полігон";
+"Signature" = "Підпис";
+"Signatures" = "Підписи";
+"Signed" = "Підписано";
+"Sign" = "Підписати";
+"Signing…" = "Підписання…";
+"Sign using %@" = "Підписати з %@"; // e.g. Adobe.PPKLite
+"Methods" = "Метод"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Виберіть особистість"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Штамп";
+"Stamps" = "Штампи";
+"Custom" = "Користувацькі"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Створити штамп";
+"Preview" = "Попередній перегляд";
+"Stamp Text" = "Штамп тексту";
+"Add Signature" = "Додати підпис";
+"Remove Signature" = "Видалити підпис";
+"My Signature" = "Мій підпис";
+"No Signatures" = "Немає підписів"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Будь-ласка підпишіть тут";
+"Text" = "Примітка";
+"FreeText" = "Текст";
+"Delete Note" = "Видалити примітку";
+"Remove Note" = "Видалити примітку";
+"%@ could not be found." = "%@ не знайдено.";
+"Photo Library" = "Бібліотека фотографій";
+"Camera" = "Камера";
+"camera_not_available" = "Камера не доступна";
+"Image" = "Зображення";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Обрати якість зображення";
+"Low Quality" = "Низька якість";
+"Medium Quality" = "Середня якість";
+"High Quality" = "Висока якість";
+"Clear All" = "Очистити все";
+"Clear" = "Очистити";
+"Style" = "Стиль";
+"Link" = "Посилання";
+"Ink" = "Малюнок";
+"Screen" = "Екран";
+"RichMedia" = "Екран";
+"FileAttachment" = "Файл";
+"Left" = "Ліво";
+"Center" = "Центр";
+"Right" = "Право";
+"Alignment" = "Вирівнювання";
+"Preview File" = "Попередній перегляд файлу";
+"Copy" = "Копіювати";
+"Paste" = "Вставити";
+"Inspector" = "Інспектор";
+"Group" = "Згрупувати";
+"Ungroup" = "Розгрупувати";
+"Merge" = "Об`єднати"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Зразок";
+"Annotation Summary for %@:" = "Звіт по приміткам для %@:";
+"Show Text" = "Показати текст";
+// title
+"Author Name" = "Ім'я автора";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Будь ласка, введіть ім'я автора якого ви хочете використовувати для знову доданих приміток.";
+// text field placeholder
+"Name" = "Ім'я";
+// meaning: close
+"Dismiss" = "Закрити";
+"Fit to Text" = "Вмістити в текст";
+"Draw" = "Малюнок";
+"Sound" = "Звук";
+"Eraser" = "Гумка";
+"Toggle Eraser" = "Перемкнути гумку"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Інструмент вибору";
+"Add" = "Додати"; // to add - infinitive
+"Date" = "Дата";
+"Time" = "Час";
+"No Pages" = "Немає сторінок";
+"Drag to resize" = "Перетягніть для зміни розміру"; // used as hint that inspector is resizable
+"Convert to" = "Перетворити в"; // used as label on action that changes free text intent type
+"Color Presets" = "Бібліотека кольорів";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Заданий колір";
+"pt" = "пт."; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Вирізати";
+"Annotation copied." = "Примітку скопійовано.";
+"Annotation cut." = "Примітку вирізано.";
+"Annotation pasted." = "Примітку вставлено.";
+"%tu selected" = "вибрано %tu";
+"Custom Stamp" = "Власний штамп";
+"Change text and color" = "Змінити текст та фарбу";
+"Use an existing stamp design" = "Використати існуючий дизайн";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Чарівні чорнила";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Неможливо завантажити шрифт %@ у розмірі %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Інспектор стилю";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Ви впевнені, що хочете очистити всі примітки?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Створення приміток вимкнено";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Має коментар";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Текстова примітка";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Галочка";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Хрестик";
+
+"Callout" = "Виноска"; // freetext annotation with an arrow
+"Generic" = "Звичайний"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Стиль лінії";
+"Solid" = "Безперервний";
+"Narrow Dots" = "Вузькі крапки";
+"Wide Dots" = "Широкі крапки";
+"Narrow Dashes" = "Вузький пунктир";
+"Wide Dashes" = "Широкий пунктир";
+"Cloudy" = "Хмарка"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Затверджено";
+"Not Approved" = "Не затверджено";
+"Draft" = "Проект";
+"Final" = "Фінал";
+"Completed" = "Завершено";
+"Confidential" = "Конфіденційно";
+"For Public Release" = "Для широкого розповсюдження";
+"Not For Public Release" = "Не для широкого розповсюдження";
+"For Comment" = "Для коментарів";
+"Void" = "Пустота";
+"Preliminary Results" = "Попередні результати";
+"Information only" = "Лише інформація";
+"Accepted" = "Прийнято";
+"Rejected" = "Відхилено";
+"Initial Here" = "Ініціали";
+"Sign Here" = "Підписувати тут";
+"Witness" = "Свідок";
+"Revised" = "Переглянуто";
+"Stamp.AsIs" = "Як є";
+"Stamp.Departmental" = "Відомчий";
+"Stamp.Experimental" = "Експериментальний";
+"Stamp.Expired" = "Прострочений";
+"Stamp.Sold" = "Продано";
+"Stamp.TopSecret" = "Цілком таємно";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Стилус";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Вимк";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Сканування";
+// text on a label; app connects to a stylus
+"Pairing" = "Підключення";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ Підключено";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ Відключено";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Налаштування";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Використовувати Apple Pencil для додавання приміток";
+
+// PDF annotation name overrides
+"Square" = "Прямокутник";
+"Circle" = "Еліпс";
+"PolyLine" = "Ламана лінія";
+"SavedAnnotations" = "Збережені примітки";
+
+// named actions
+"NextPage" = "Наступна сторінка";
+"PrevPage" = "Попередня сторінка";
+"FirstPage" = "Перша сторінка";
+"LastPage" = "Остання сторінка";
+"GoBack" = "Повернутися";
+"GoForward" = "Йти вперед";
+"GoToPage" = "Перейти на сторінку";
+"Find" = "Знайти";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Збільшити";
+"ZoomOut" = "Зменшити";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Мультимедійні дії";
+"Rendition Action" = "Дії відображення";
+"Hide Action" = "Сховати дію";
+"Submit Form" = "Надіслати форму";
+"Reset" = "Скидання";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Назад";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Обрати все";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Вибрати об’єкт вище";
+"KeyCommand.SelectBelow" = "Вибрати об’єкт нижче";
+"KeyCommand.SelectTop" = "Обрати верхній елемент";
+"KeyCommand.SelectBottom" = "Обрати нижній елемент";
+"KeyCommand.ClearSelection" = "Очистити розділ";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Розгорнути розділ";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Згорнути розділ";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Показати наступну вкладку";
+"KeyCommand.ShowPreviousTab" = "Показати попередню вкладку";
+"KeyCommand.SelectAllAnnotations" = "Обрати всі примітки";
+
+// line annotations
+"Start" = "Початок";
+"End" = "Закінчення";
+"Line.None" = "Немає";
+"Line.ClosedArrow" = "Закрита стрілка";
+"Line.OpenArrow" = "Відкрита стрілка";
+"Line.Square" = "Квадрат";
+"Line.Circle" = "Круг";
+"Line.Diamond" = "Діамант";
+"Line.ROpenArrow" = "Зворотня відкрита стрілка";
+"Line.RClosedArrow" = "Зворотня закрита стрілка";
+"Line.Slash" = "Коса риска";
+"Line.Butt" = "Кнопка";
+"Line Start" = "Початок лінії";
+"Line End" = "Кінець лінії";
+"Arrow" = "Стрілка"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Створити посилання";
+"Add Link" = "Додати посилання";
+"Edit Link" = "Редагувати посилання";
+"Move Link" = "Перемістити посилання";
+"Remove Link" = "Видалити посилання";
+"Open Link" = "Відкрити посилання";
+"Go to Page %tu" = "Перейти на сторінку %tu";
+"Go to Page" = "Перейти на сторінку"; // title of a Popup
+"Go" = "Перейти"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Копіювати адресу сайту";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Копіювати посилання";
+"Save" = "Зберегти";
+"Link Destination" = "Призначення посилання";
+"Enter page index or a http:// address to link to an URL." = "Введіть індекс сторінки або http:// адресу до URL.";
+"Page %@ Not Found" = "Сторінку %@ не знайдено";
+"Add to Reading List" = "Додати до Читанки";
+
+"Link annotation creation failed." = "Неможливо створити примітку-посилання.";
+"Link annotation successfully created." = "Примітка-посилання була успішно створена.";
+"Entered text could not be converted to an Integer nor URL." = "Неможливо перетворити введений текст у ціле число або URL.";
+
+// voiceover accessibility
+"Grid" = "Сітка"; // grid with thumbnails
+"Translucent" = "Напівпрозорий";
+"left" = "ліворуч";
+"center" = "центр";
+"right" = "праворуч";
+"decrease" = "зменшити";
+"increase" = "збільшити";
+"All Open Documents" = "Всі відкриті документи";
+"Add Documents" = "Додати документи"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Відкрити файл";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Контроль мультимедіа";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Скинути форму";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Показати дію";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Призначена дія";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Сторінки %tu-%tu"; // Range of pages
+"Current Page" = "Поточна сторінка";
+"Current Page (%tu)" = "Поточна сторінка (%tu)";
+"Ignore Annotations" = "Ігнорувати примітки";
+"The PDF will not contain any annotations." = "PDF не містить приміток.";
+"Embed Annotations" = "Вбудовані примітки";
+"Annotations will remain editable and are embedded into the PDF." = "Примітки можна буде редагувати і вони будуть вбудовані в PDF.";
+"Flatten Annotations" = "Звести примітки";
+"Annotations are drawn into the PDF and are readonly." = "Примітки опиняються в PDF і доступні тільки для читання.";
+"Annotation Summary" = "Звіт по приміткам";
+"Embed Annotations into the PDF and also list them in the email." = "Вбудувати примітки в PDF та вставити в ел. пошту.";
+"Annotations will be listed in a text file." = "Примітки буде відображено як текст.";
+"Files" = "Файли";
+"Send as single files" = "Надіслати як окремі файли";
+"Merge files" = "Об'єднати файли";
+"Original File" = "Оригінальний файл";
+"Range" = "Діапазон";
+"Annotated Pages" = "Сторінки з примітками";
+"Message could not be sent." = "Не вдалося відправити повідомлення.";
+"Export" = "Експортувати";
+"This action can't be performed." = "Неможливо виконати цю дію.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Експортування документів, які не є файлами, неможливо";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "В документі немає приміток.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Неможливо поділитися документом";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Поділитися документом як зображенням можливо лише у обсязі %tu сторінок.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Неможливо відправити прикріплений файл за допомогою Messages.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Неможливо надрукувати документи.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "Документ PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Місце призначення недоступне";
+
+// sound annotations
+"Speak" = "Говоріть"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Грати";
+"Pause" = "Пауза";
+"Resume" = "Продовжити";
+"Stop" = "Перервати";
+"Play/Stop" = "Грати/Зупинити";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Записати";
+"Pause Recording" = "Призупинити запис";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Запис призупинено";
+"Continue Recording" = "Продовжити запис";
+"Finish Recording" = "Завершити запис";
+"Audio Problem" = "Проблема з аудіо";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Не можна розпочати програвання.";
+"Could not resume playback." = "Не можу продовжити програвання.";
+"Microphone permission not granted." = "Доступ до мікрофону не надано.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Звук не може бути записаний на даний момент. Будь ласка, надайте дозвіл для доступу до мікрофону.";
+"There was a problem trying to record audio." = "Проблема при запису аудіо.";
+"Already Recording" = "Вже записується";
+"You are already recording on page %@." = "Запис вже відбувається на сторінці %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Ви заборонили доступ до мікрофону для цього додатку. Для запису аудіо-нотаток дозвольте доступ до мікрофону вручну в налаштуваннях додатку.";
+
+// Forms
+"Form Element" = "Елемент форми";
+"Text Field" = "Текстове поле";
+"Button" = "Кнопка";
+"Choice Field" = "Поле вибору";
+"Signature Field" = "Поле підпису";
+"Clear Field" = "Очистити поле"; // same as delete
+"Default Values" = "Значення за замовчанням";
+"Custom Value" = "Користувацьке значення";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Пошук параметрів";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Некоректне значення: повинно бути більше або дорівнює %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Некоректне значення: повинно бути більше або дорівнює %s та менше або дорівнює %s.";
+"Invalid value: must be less than or equal to %s." = "Некоректне значення: повинно бути менше або дорівнює %s.";
+"The value entered does not match the format of the field [%s]" = "Введене значення не відповідає формату поля  [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Неправильна дата/час: перевірте, що така дата/час існують Поле [%s] має відповідати формату %s";
+
+// General validation
+"Invalid value [%s]" = "Неправильне значення [%s]";
+
+// Gallery
+"Connection Error" = "Помилка з'єднання";
+"Unsupported Content" = "Не підтримується зміст";
+"The specified content cannot be displayed." = "Зазначений вміст не може бути відображено.";
+"Something went wrong" = "Щось пішло не так";
+"This item is currently unavailable." = "Цей пункт в даний час недоступний.";
+"The information for this gallery could not be loaded." = "Інформація для цієї галереї не може бути завантажена.";
+"Content Error" = "Помилка контенту";
+"This content is unsupported." = "Цей контент не підтримується.";
+
+// Signatures
+"Digital Signature" = "Цифровий підпис";
+"Signature is valid." = "Підпис дійсний.";
+"Signature is valid, but there are some warnings." = "Підпис дійсний, але є деякі застереження.";
+"It was signed by %@ on %@ at %@." = "Підписано %@ дата %@ час %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Підписано %@ %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Це стверджує, що підписано %@ дата %@ час %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Це стверджує, що підписано %@ %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Підписана ревізія документа не була змінена, однак існують зміни, які були зроблені пізніше."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Підпис дійсний і вміст документа не був змінений з часу підпису.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Неправильний підпис — з моменту підписання зміст цього документа був змінений, підроблений, або пошкоджений.";
+"Unsigned Signature Field" = "Непідписане поля для підпису";
+"Do you really want to remove the signature from the document?" = "Ви дійсно хочете видалити підпис з документа?";
+"Could not retrieve the certificate from the signature." = "Неможливо знайти сертифікат підпису.";
+"Could not retrieve the signature contents." = "Неможливо знайти зміст підпису.";
+"Could not retrieve the public key from the signature." = "Неможливо знайти відкритий ключ підпису.";
+"Could not retrieve the byte range of the signature." = "Неможливо знайти байтовий діапазон підпису.";
+"Could not understand the encryption padding." = "Незрозуміле заповнення шифрування.";
+"Could not compute the digest for the document." = "Неможливо розрахувати вибірку для цього документу.";
+"General failure while trying to determine document integrity." = "Загальна помилка підчас перевірки цілісності документу.";
+"Certificate chain is invalid." = "Невірний ланцюжок сертифікатів.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Неможливо перевірити ланцюжок сертифікатів, оскільки не було надано надійних ключів.";
+"Document integrity success, but certificate is self signed." = "Сертифікат є самопідписаним.";
+"Document integrity check failed." = "Збій перевірки цілісності документу.";
+"The signing certificate is not trusted." = "Ненадійний сертифікат підпису.";
+"unknown time" = "невідомий час";
+"unknown date" = "невідома дата";
+"Digitally signed by {}" = "Електронний підпис {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Дата: ";
+"Reason: " = "Підстава: ";
+"Location: " = "Розташування: ";
+"Certificate" = "Сертифікат";
+"No Certificate" = "Немає сертифікату";
+"No Certificates" = "Немає сертифікатів";
+"Store Signature" = "Зберегти підпис";
+"Add Trusted Certificate" = "Додати надійний сертифікат";
+"Add Signer" = "Додати підпис";
+"Added Trusted Certificate" = "Доданий надійний сертифікат";
+"Added Signer" = "Доданий підпис";
+"File doesn't match any certificate type" = "Файл не відповідає жодному типу сертифікатів";
+"Import Failed" = "Збій імпорту";
+"Signature Area" = "Поле підпису";
+"Draw Signature Area" = "Поле підпису";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Неможливо ініціалізувати об’єкт PKCS7";
+"Could not find signature" = "Не вдалося знайти підпис";
+"Could not hash the PDF document" = "Неможливо гешувати PDF документ";
+"Could not create padding for the digital signature" = "Неможливо створити заповнення для цифрового підпису";
+"Could not verify the signature" = "Неможливо перевірити підпис";
+"Could not save the signed document" = "Неможливо зберегти підписаний документ";
+"Cannot sign attributes" = "Неможливо підписати атрибути";
+"The selected subfilter type for the signature is not supported" = "Обраний тип підфільтру підпису не підтримується";
+"Could not add signature to PKCS7 object" = "Неможливо додати підпис до об’єкту PKCS7";
+"Could not write PKCS7 signature" = "Неможливо записати підпис PKCS7";
+"Could not create PKCS7 object" = "Неможливо створити об’єкт PKCS7";
+"Could not generate PKCS7 object" = "Неможливо генерувати об’єкт PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Не вдалося підписати документ, бо його вже було підписано.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Неможливо прочитати дані сертифіката як PKCS#7 сертифікат. Дані у відповідному форматі можуть бути експортовані з Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Неможливо розшифрувати підпис сертифіката.";
+"The public key in the certificate could not be read." = "Публічний ключ сертифіката не може бути прочитаний.";
+"The signature of the certificate is not valid." = "Підпис сертифікату не є дійсним.";
+"Signature is not valid." = "Підпис не є допустимим.";
+"There is a format error in the notBefore field of the certificate." = "Існує помилка формату в області NotBefore сертифіката."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Існує помилка формату в області NotAfter сертифіката."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Підписи неможливо перевірити, оскільки ланцюг сертифікату містить тільки один сертифікат, який є самопідписаним і емітент не є довіреним.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Сертифікат CA не є дійсним, оскільки це не СА або її розширення не узгоджується з наміченою метою."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Перевищено basicConstraints pathlength."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Root CA не зазначено, як довірений за прямим призначенням."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Root CA відзначається відхилити призначенням."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Сертифікат емітента було відхилено, тому що його ім'я subject не відповідає імені видавця поточного сертифіката."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Сертифікат емітента було відхилено, оскільки його subject key identifier присутній і не збігається з authority key identifier поточного сертифіката."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Сертифікат емітента був відхилений, так як його назва емітента та serial number був присутній і не збігатися з Authority key Identifier поточного сертифіката."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Сертифікат було анульовано емітентом.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Переданий сертифікат є самопідписаним і той же сертифікат не може бути знайдений у списку довірених сертифікатів.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Самостійно підписаний сертифікат існує в ланцюжку сертифікатів. Ланцюжок сертифікатів може бути побудований з використанням ненадійних сертифікатів, але root CA не може бути знайдений на місцевому рівні."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Неможливо знайти сертифікат для одного з центрів сертифікації (СА) в ієрархії підписання і що СА не є довіреною для місцевого застосування."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Сертифікат емітента не може бути знайдений для знайденого сертифіката. Зазвичай це означає, що список довірених сертифікатів не є повним.";
+"The certificate that was provided cannot be used for its intended purpose." = "Сертифікат, який був наданий не може бути використаний за прямим призначенням.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Розширення KeyUsage сертифікату емітента не дозволяє підписання сертифікату.";
+"The certificate has expired." = "Термін дії сертифіката минув.";
+"The certificate is not valid until a date in the future." = "Сертифікат не дійсний до дати в майбутньому.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Не вдалося прочитати сертифікат X509 на основі даних";
+// X509 should not be translated
+"No X509 certificate found" = "Сертифіката X509 не знайдено";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Неможливо прочитати PKCS12 файл. Файл має неправильний формат або пошкоджений.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Не вдалося розблокувати дані PKCS12. Знаєте ви ввести правильний пароль?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Не вдалося декодувати дані PKCS12. Дані можуть бути пошкоджені або несумісні.";
+"Could not unlock PKCS12 data." = "Не вдалося розблокувати дані PKCS12.";
+"Could not add signature." = "Не вдалося добавити підпис.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Не вдалося відкрити файл для перевірки підпису";
+"Could not get signer info" = "Не вдалося отримати інформацію підписанта";
+
+// Night Mode
+"Default" = "За замовчуванням"; // Default view (night mode not enabled)
+"Sepia" = "Сепія"; // Document uses sepia colors
+"Night" = "Ніч"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Не обрано документів";
+"Unable to display document" = "Не вдалося відобразити документ";
+"Locked" = "Заблоковано";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Файл пошкоджено або він не є PDF-файлом.";
+"A password is required to access this document." = "Для доступу до документа потрібен пароль.";
+"The security scheme of this document is currently not supported." = "Схема безпеки цього документа на даний момент не підтримується.";
+"An unknown error has occured while trying to open this file." = "Виникла невідома помилка при спробі відкрити файл.";
+
+// Document Editor
+"Document Editor" = "Редактор документа";
+"Add Page" = "Додати сторінку";
+"Delete Pages" = "Видалити сторінки";
+"Duplicate Pages" = "Дублювати сторінки";
+"Move Pages" = "Перемістити сторінки";
+"Rotate Pages" = "Повернути сторінки";
+"Page Size" = "Розмір сторінки";
+"Background Color" = "Колір тла";
+"Paper" = "Папір";
+"Pattern" = "Візерунок";
+"Use Document Size" = "Як у документа";
+"Orientation" = "Орієнтація";
+"Portrait" = "Портретна";
+"Landscape" = "Ландшафтна";
+"Document Name" = "Назва документа";
+"Documents" = "Документи"; // Name of directory
+"Use Document Folder" = "Використовувати папку документу";
+"Folder" = "Папка";
+"Replace File?" = "Замінити файл?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Файл з назвою “%@” вже існує в обраному місці. Ви хочете його замінити?";
+"Replace" = "Замінити";
+"Saving…" = "Збереження…";
+"Saved" = "Збережено";
+"Save As…" = "Зберегти як…";
+"Discard Changes" = "Скасувати зміни";
+"Empty" = "Пустий";
+"Use Image Size" = "Як у зображення";
+"Page Background" = "Тло сторінки";
+"Insert image annotation" = "Додати зображення-примітку";
+"Import page background" = "Імпорт тла сторінки";
+"Quality" = "Якість";
+"Low" = "Низька";
+"Medium" = "Середня";
+"High" = "Висока";
+"Best" = "Найкраща";
+"Copy Pages" = "Дублювати сторінки";
+"Paste Pages" = "Вставити сторінки";
+"Copied" = "Скопійовано";
+"“%@” has unsaved changes. Do you want to save them now?" = "Зміни у “%@” не було збережено. Ви хочете зберегти ці зміни?";
+"Select Source Document" = "Виберіть вихідний документ";
+"Add After Page %tu" = "Додати після сторінки %tu";
+"Cut Pages" = "Немає сторінок";
+"Import Document" = "Імпортувати документ";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Використати інструмент обирання папок";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Обрати папку";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Обрати всі сторінки";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Неможливо зберегти документ без сторінок.";
+"The document could not be saved." = "Не вдалося зберегти документ.";
+"This document does not support editing." = "Цей документ не має підтримки редагування.";
+"The document could not be accessed." = "Цей документ недоступний.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF тимчасово неможливо імпортувати.";
+"The image could not be imported at this time." = "Зображення тимчасово неможливо імпортувати.";
+
+// Page Patterns
+"None" = "Немає";
+"Dot5mm" = "Крапки 5mm";
+"Grid5mm" = "Сітка 5mm";
+"Lines5mm" = "Лінії 5mm";
+"Lines7mm" = "Лінії 7mm";
+
+// Page Sizes
+"A4" = "А4";
+"A5" = "А5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Експорт сторінок";
+"Export…" = "Експортувати…";
+"Exporting…" = "Експорт…";
+"Exported" = "Експортовано";
+"%@ - Exported" = "%@ - Експорт"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Копія"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Обраний документ зараз відкрито. Будь ласка, оберіть іншу назву файлу.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Служба синтезу мовлення недоступна. Впевніться, що ваш пристрій під'єднано до інтернету та що на ньому встановлено і ввімкнено Синтез мовлення Google.";
+
+// Settings
+"Page Layout" = "Розкладка сторінки";
+"Scroll Direction" = "Напрям прокрутки";
+"Theme" = "Тема";
+"Keep screen on" = "Залишити екран увімкнутим";
+"Page Transition" = "Перехід між сторінками";
+"Single" = "По одній";
+"Continuous" = "Безперервний";
+"Curl" = "Перегортання";
+"Scroll" = "Прокручування";
+"Horizontal" = "Горизонтальне";
+"Vertical" = "Вертикальне";
+"Page Mode" = "Режим сторінок";
+"Automatic" = "Автоматично";
+"Double" = "Дві сторінки";
+"Appearance" = "Вигляд";
+"Scrubber Bar" = "Смуга навігації";
+"Jump" = "Стрибок"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Недоступно"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Припасування сторінки";
+"Fit" = "Припасування";
+"Fill" = "Заливка";
+"Adaptive" = "Адаптування";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ не має доступу до ваших фотографій.";
+"%@ does not have access to your camera." = "%@ не має доступу до камери.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Параметри приватності";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Ви можете увімкнути доступ в розділі %@.";
+
+"Update Required" = "Потрібне оновлення";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Потрібне оновлення %@ для доступу до документів та синхронізації приміток.";
+
+
+// Annotation Replies
+"Comment" = "Коментар";
+"Comments" = "Коментарі";
+"Add your comment…" = "Додати";
+"Delete Comment" = "Видалити примітку";
+"Set Status" = "Задати стан";
+"Cancelled" = "Скасовано";
+"Accepted by" = "Прийнято:";
+"Rejected by" = "Відхилено:";
+"Completed by" = "Виконано:";
+"Cancelled by" = "Скасовано:";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Правий покажчик";
+"Right Arrow" = "Стрілка вправо";
+"Checkmark" = "Позначка";
+"Circle Note" = "Круг";
+"Cross" = "Хрестик";
+"Insert Text" = "Вставити текст";
+"New Paragraph" = "Новий абзац";
+"Text Note" = "Текстова примітка";
+"Paragraph" = "Абзац";
+"Help" = "Довідка";
+"Star" = "Зірка";
+"Key" = "Ключ";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Блакитний";
+"Light Red" = "Рожевий";
+"Light Green" = "Світло-зелений";
+"Fuchsia" = "Фуксія";
+"Page %tu of %tu" = "Сторінка %tu з %tu";
+"Preparing document for printing…" = "Готуємо документ до друку…";
+"Are you sure you want to delete this annotation?" = "Видалити цю примітку?";
+"Confirm annotation deletion" = "Підтвердити видалення примітки";
+"Page Rotation" = "Повернути сторінки";
+"Rotate Left" = "Повернути ліворуч";
+"Rotate Right" = "Повернути праворуч";
+"%@ (not supported)" = "«%@» не підтримується";
+"Pan Mode" = "Режим панорами";
+"Fit Page" = "Масштабування по сторінці";
+"Fit Width" = "Масштабування по ширині";
+"Password Required" = "Потрібний пароль";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Потрібно розблокувати цей документ для перегляду.  Введіть пароль нижче.";
+"The password you entered is not correct. Please try again." = "Введено неправильний пароль. Спробуйте ще раз.";
+"Clear Signature" = "Видалити підпис";
+"Top" = "Верх";
+"Bottom" = "Низ";
+"Vertical Alignment" = "Вертикальне вирівнювання";
+"Horizontal Alignment" = "Горизонтальне вирівнювання";
+"Light Orange" = "Світло-помаранчевий";
+"Light Yellow" = "Світло-жовтий";
+"Mauve" = "Бузковий";
+"Light Gray" = "Світло-сірий";
+"Dark Gray" = "Темно-сірий";
+"NoColor" = "Немає";
+"Transparent" = "Прозорий";
+// Generic label for bookmark
+"Bookmark" = "Закладка";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Нова закладка";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Видалити цю закладку?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Підтвердити видалення закладки";
+// Label for the select image field
+"Select Image" = "Обрати зображення";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "інструменти %@, увімкнути меню";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Цей тип зображень-приміток не підтримується: %@. Будь ласка, оберіть файл JPEG або PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Область масштабування";
+"Toolbar_TextHighlighter" = "Виділення тексту";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Спливаюча панель приміток";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Вікно перегляду документу";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Виконується редагування";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Показує, що документ редагується";
+"Icon" = "Іконка";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Перемістити";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Перемістити сторінку до";
+// The label of the button on the Move UI
+"move" = "Перемістити";
+"selectedItem" = "Обрано %@.";
+"annotationDeleted" = "Примітка видалена.";
+"newAnnotationCreated" = "Нова %@ примітка створена.";
+"bookmarkCreated" = "Закладка створена.";
+"bookmarkEdited" = "Закладка відредагована.";
+"bookmarkDeleted" = "Закладка видалена.";
+"cancelledEditingBookmark" = "Редагування закладки відмінено.";
+"selectAFileForImage" = "Оберіть файл для нової примітки-зображення.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Діалог, що дозволяє вам підтвердити чи відмінити видалення примітки.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Діалог, що дозволяє вам підтвердити чи відмінити видалення закладки.";
+"deleteCommentConfirmAccessibilityDescription" = "Діалог, що дозволяє вам підтвердити чи відмінити видалення коментара.";
+"resize" = "Змінити розмір";
+"resizeHandleTop" = "Угорі";
+"resizeHandleBottom" = "Унизу";
+"resizeHandleRight" = "Справа";
+"resizeHandleLeft" = "Зліва";
+"cropCurrentPage" = "Підрізати поточну сторінку";
+"cropCurrent" = "Підрізати поточне";
+"cropAllPages" = "Підрізати всі сторінки";
+"cropAll" = "Підрізати всі";
+"documentCrop" = "Підрізати документ";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Вставити після сторінки";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Введіть “0” для переміщення обраної сторінки чи сторінок до початку документу.";
+
+// Blend Mode Strings
+"Normal" = "Звичайний";
+"Multiply" = "Множення";
+"ScreenBlend" = "Освітлення";
+"Overlay" = "Перекриття";
+"Darken" = "Затемнення";
+"Lighten" = "Заміна світлим";
+"ColorDodge" = "Освітлення основи";
+"ColorBurn" = "Затемнення основи";
+"HardLight" = "Направлене світло";
+"SoftLight" = "Розсіяне світло";
+"Difference" = "Різниця";
+"Exclusion" = "Виключення";
+"Multiple" = "Декілька режимів";
+"Blend Mode" = "Режим накладання";
+
+// Image Document Strings
+"File type not supported." = "Тип файлу не підтримується.";
+"Could not load image file." = "Не вдалося відкрити файл зображення.";
+"The image is too large to be opened." = "Це зображення завелике для відкриття.";
+"Could not generate a PDF document from the image." = "Неможливо створити PDF документ з цього зображення.";
+"Unnamed Image Document" = "Безіменний документ-зображення";
+"Annotations will remain editable and are embedded into the image." = "Примітки можна буде редагувати і вони будуть вбудовані в зображення.";
+"Annotations are drawn into the image and are readonly." = "Примітки приєднані до цього зображення та доступні лише для перегляду.";
+
+//Metadata Strings
+"Document Info" = "Інформація про документ";
+"Content" = "Контент";
+"Title" = "Назва";
+"Author" = "Автор";
+"Subject" = "Тема";
+"Keywords" = "Ключові слова";
+"Not Set" = "Не задано";
+"NoneValue" = "Немає";
+"Security" = "Захист";
+"Document Open Password" = "Пароль для відкриття документу";
+"Not set, minimum 8 characters" = "Не задано, мінімум 8 символів";
+"Permissions" = "Дозвіл";
+"Changes" = "Зміни";
+"Printing" = "Друк";
+"Content Copying for Accessibility" = "Копіювання контенту для доступу";
+"Content Modification" = "Модифікація контенту";
+"High Quality Printing" = "Високоякісний друк";
+"Filling of Form Fields" = "Заповнення форм";
+"Document Assembly" = "Зібрання документів";
+"Annotations and Forms" = "Примітки та форми";
+"Content Copying" = "Копіювання контенту";
+"Number of Pages" = "Кількість сторінок";
+"File Size" = "Розмір файлу";
+"CreationDate" = "Створено";
+"ModDate" = "Змінено";
+"Creator" = "Створювач контенту";
+"Producer" = "Виробник PDF";
+"Info" = "Відомості";
+"Tap the Edit button to show all metadata fields." = "Натисніть кнопку «змінити», щоб показати всі поля метаданих.";
+"Document Owner Password" = "Пароль власника документу";
+"Changes Are Locked" = "Зміни заблоковано";
+"Enter the Document Owner Password to make changes." = "Введіть пароль власника документу для внесення змін.";
+"Incorrect Password" = "Неправильний пароль";
+"Passwords" = "Паролі";
+"Modifying Content" = "Модифікація контенту";
+"Editing Annotations and Forms" = "Редагування приміток та форм";
+"Filling Forms" = "Заповнення форм";
+"Copying Content" = "Копіювання контенту";
+"Copying Content for Accessibility" = "Копіювання контенту для доступу";
+"Could Not Save" = "Не вдалося зберегти";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Коли ви встановлюєте пароль для відкриття документу, ви потребуєте пароль власника документу.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Шлях до файлу";
+"Identical Passwords" = "Ідентичні паролі";
+"Choose a different Owner or Open password." = "Оберіть інший пароль власника або інший пароль для відкриття документу.";
+"Owner Password Required" = "Потрібен пароль власника";
+"An owner password is required to change the permissions of a document." = "Потрібен пароль власника для зміни дозволів документу.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Деякі PDF-читачі дотримуються обмеженнь на дозвіл. Цей додаток не підтримує обмеженнь на дозвіл.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Обрано %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Обрано %@ з контентом %@";
+// Accessibility string for comment threads
+"commentThread" = "Ланцюжок коментарів";
+"printProgressModalDesc" = "Показує, що документ готується до друку";
+"printProgressModal" = "Друкуємо";
+"documentEditorDesc" = "Внести зміни до цього документу";
+"reloadDocumentDialog" = "Підтвердити перезавантаження документу";
+"reloadDocumentDialogDesc" = "Діалог, що викликає підтверждення користувачем перезавантаження документу.";
+"signatureDialog" = "Підпис";
+"signatureDialogDesc" = "Цей діалог дозволяє обрати підпис чорнилами та вставити його в документ. Якщо ви ще не маєте збереженого підпису, ви можете створити його на полотні.";
+"stampAnnotationTemplatesDialog" = "Шаблон штампів-приміток";
+"stampAnnotationTemplatesDialogDesc" = "Цей діалог дозволяє обрати штамп-примітку та вставити її в документ або створити власну штамп-примітку з власним текстом.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Редагування";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Помітка редагування";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Підтверджені редагування";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Колір контуру";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Перекрити текстом";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Повторити текст";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Колір тексту";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Дані редагування";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Цей документ містить непідтверджені редагування приміток. Підтвердити?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Гаразд";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Редагування — це двокроковий процес. Спочатку створіть помітку редагування, щоб обрати, яку частину потрібно редагувати. Щоб остаточно видалити зміст, натисніть червону кнопку у нижньому правому кутку та підтвердите зміни.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Застосувати редагування";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Очистити редагування";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Увімкнути попередній перегляд редагування";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Вимкнути попередній перегляд редагування";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Редагування видалить інформацію назавжди. Цю дію неможливо буде відмінити.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Зберегти до нового файлу";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Редагувати поточний документ";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Редагування…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Не вдалося редагувати документ.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Контент, відмічений до редагування, не буде видалено при збереженні документу. Ви впевнені, що хочете продовжити?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Редагувати поточний документ";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Зберегти редагований документ як";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - редаговано";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Редагування зони";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Редагування тексту";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Редагування виконується";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Підписуємо...";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Показує, що цей документ підписується";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Введіть текст перекриття";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Відновити файл";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Відсутній файл";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' було видалено за межами додатку. Закрити документ чи відновити файл?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Конфлікт файлів";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' було змінено за межами додатку. Збереження відмінить інші зміни.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Зберегти зміни";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Натисніть, щоб завантажити медіафайли.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Неможливо завантажити медіафайли для цієї примітки через проблему підключення. Спробуйте ще раз пізніше.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Натисніть, щоб спробувати ще раз завантажити медіафайли.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Медіафайли для цієї примітки не знайдено. Якщо це повідомлення залишається після успішної синхронізації документу, повідомте нас про цю проблему, включаючи наступну інформацію: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Натисніть, щоб відмінити завантаження";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Несподівана помилка сталася під час завантаження. Помилка %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Посилання на сторінку";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Посилання на веб-сайт";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Номер сторінки";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Вибрати сторінки";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Вставити з буфера обміну";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Перегляд веб-сайту";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Адреса веб-сайту";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Назад";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Вперед";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Палітра";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Нещодавно використані";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Кольорова палітра за замовчуванням";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Різновиди кольору";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Відтінки";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Насиченість";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Яркість";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Шістнадцятиричне значення кольору";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Введене значення не є кольором.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Вставити з буферу обміну";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Оправа сторінки";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Ліве поле";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Праве поле";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Невідоме";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Ліво";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Право";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Розміщення";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "На передній план";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Вперед";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Назад";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "На задній план";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Створити копію";
+"DocumentEditor_Extract" = "Витягти";
+"General_SelectNone" = "Не обирати жодного";
+"DocumentEditor_NewPage" = "Нова сторінка";
+"DocumentEditor_InstantModifiedWarning" = "Документ було змінено і тепер він може використовуватися лише у режимі читання. Перезавантажте сторінку, щоб виправити цю помилку.";
+"DocumentEditor_MoveBefore" = "Перемістити наперед";
+"DocumentEditor_MoveAfter" = "Перемістити назад";
+"DocumentEditor_DocumentMergedHere" = "Документи будуть поєднані тут";
+
+// Android Strings
+"FileSystemPermission" = "Здається, що ви перманентно заборонили доступ до системи для цього додатку. Для того, щоб переглядати та відкривати PDF, які зберігаються на вашому пристрої, ви маєте вручну дати додатку доступ до файлової системи за допомогою налаштувань додатку.";
+"Button_OpenSettings" = "Відкрити налаштування";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Показати більше";
+// Button to show less comments
+"Comments_ShowLess" = "Показати менше";
+// Button to reply to a comment
+"Comments_Reply" = "Відповісти";
+// Button to show all comments
+"Comments_ShowAll" = "Показати всі";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Ви насправді хочете видалити цей коментар?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Підтвердити видалення коментару";
+// Verb for Comment
+"Comment_Action" = "Коментувати";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Документ було підписано за допомогою електронного підпису — усі підписи дійсні.";
+"DigitalSignatures_DocModified" = "Документ було підписано за допомогою електронного підпису, однак існують зміни, які були зроблені пізніше.";
+"DigitalSignatures_SignatureWarning" = "Документ було підписано за допомогою електронного підпису, однак існують проблемі з щонайменше одним підписом.";
+"DigitalSignatures_SignatureWarningDocModified" = "Документ було підписано за допомогою електронного підпису, однак існують зміни, які були зроблені пізніше, та проблемі з щонайменше одним підписом.";
+"DigitalSignatures_SignatureError" = "Документ було підписано за допомогою електронного підпису, однак щонайменше один підпис недійсний.";
+"DigitalSignatures_SignatureErrorDocModified" = "Документ було підписано за допомогою електронного підпису, однак існують зміни, які були зроблені пізніше, та щонайменше один підпис недійсний.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Не вдалося почати запис";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Не вдалося зупинити запис";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Не вдалося вставити сторінки";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Не вдалося запросити сертифікат підпису";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Не вдалося підписати документ";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Підчас відкривання цього файлу сталася невідома помилка.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Режим читача";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Малювати";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Зображення";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Набирати";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Підпішіться тут";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Наберіть підпис вище";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Зберегти підпис";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Обрати або перетягти зображення";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Обрати зображення";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Замінити зображення";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Файли";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Новий підпис";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Увімкнуто";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Вимкнено";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "додавання примітки";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "додавання приміток";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "додавання коментару";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "змінювання статусу коментару";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "змінювання типу виділення";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "змінювання значень";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "очистку приміток";
+// Command of cutting.
+"Undo_Cut" = "вирізання";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "роспізнання форми";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "малювання";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "перетягування";
+// Command of editing text of a comment.
+"Undo_EditComment" = "редагування коментара";
+// Command of editing text inside text fields.
+"Undo_EditText" = "редагування тексту";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "використання гумки";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "групування";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "об`єднання";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "змінення примітки";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "змінення приміток";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "переміщення примітки";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "переміщення приміток";
+// Command of pasting.
+"Undo_Paste" = "вставлення";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "видалення примітки";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "видалення приміток";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "видалення коментару";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "видалення коментарів";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "змінення розміру примітки";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "змінення розміру приміток";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "поворот примітки";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "поворот приміток";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "розгрупування";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Вирівняти";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Вирівняти документи";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Обрати точку";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Попередній";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Новий";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Порівняння";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Оберіть три точки обох документів для вирівнювання вручну. Для отримання найліпших результатів оберіть точки біля кутів документів та перевірте, що точки встановлені в однаковому порядку.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Закрити";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Вирівняти документи";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Порівняння документів";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Попередній документ";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Новий документ";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Скинути";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Обрання точок";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Вирівняти…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Обрання точок";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Точка %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Обрано %1$tu з %2$tu у “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Точка %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Ціль точечного обрання";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Хмарний прямокутник";
+"DashedRectangleAnnotation" = "Пунктирний прямокутник";
+"CloudyEllipseAnnotation" = "Хмарний овал";
+"DashedEllipseAnnotation" = "Пунктирний овал";
+"CloudyPolygonAnnotation" = "Хмарний багатокутник";
+"DashedPolygonAnnotation" = "Пунктирний багатокутний";
+"CloudAnnotation" = "Хмара";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Без заповнення";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Неможливо завантажити збережені примітки";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Неможливо зберегти примітку";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Відстань";
+"PerimeterMeasurement" = "Периметр";
+"PolygonalAreaMeasurement" = "Площа многокутника";
+"RectangularAreaMeasurement" = "Площа прямокутника";
+"EllipticalAreaMeasurement" = "Площа елiпсу";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Повернути проти стрілки годинника";
+"Rotate_Clockwise" = "Повернути за стрілкою годинника";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Введіть опис тут";
+// "New option button text"
+"FormDesigner_addOption" = "Додати варіант";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Властивості полю \"{formFieldType}\"";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Поле форми з назвою \"{formFieldName}\" вже існує. Оберіть іншу назву.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Стиль полю \"{formFieldType}\"";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Назва полю форми";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Значення за замовчанням";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Декілька рядків";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Для групування кнопок радіо вони потребують однакову назву полю форми.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Додатково";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Ім'я автору";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Примітка";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Спеціальні дані";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Обов'язкове";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Лише для читання";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Створено";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Обновлено";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Лише серіалізуємий об'єкт JSON";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Колір межі";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Ширина межі";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Стиль межі";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Друк";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Суцільна";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Штрихова";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Скошена";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Вкладена";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Підкреслення";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Стиль тексту";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Розмір шрифту";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Колір шрифту";
+// "Button Field"
+"FormDesigner_button" = "Поле кнопки";
+// "Text Field Button"
+"FormDesigner_textField" = "Текстове поле";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Поле радіо";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Кнопка-прапорець";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Поле з комбінованим списком";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Поле зі списком";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Поле підпису";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Текст кнопки";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "Позначка";
+// Value for form field
+"FormDesigner_value" = "Значення";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Неможливо редагувати після створення.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Назва полю форми не може бути порожня.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Створювач форм";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Мульти-вибір";
+"FormDesigner_readOnlyProperty" = "Лише для читання";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Опції";
+
+// Measurement tools
+"MeasurementScale" = "Масштаб";
+"MeasurementCalibrateLength" = "Калібрувати довжину";
+"MeasurementPrecision" = "Точність";
+"MeasurementSnapping" = "Прив’язка";
+"MeasurementPrecision_Whole" = "Цілі";
+"MeasurementPrecision_OneDecimalPlace" = "Десяткові";
+"MeasurementPrecision_TwoDecimalPlaces" = "Соті";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Тисячні";
+"MeasurementPrecision_FourDecimalPlaces" = "Десятитисячні";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Площа";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Примітка-медіафайл";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Цей браузер не підтримує вбудовані відео чи аудіофайли.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Налаштування посилання";
+// Label for selection of link type (website - page).
+"linkTo" = "Посилання до";
+// Label for website selection.
+"uriLink" = "Веб-сайт";
+// Label for page selection.
+"pageLink" = "Сторінка";
+// Text for preceding number for page link number.
+"linkToPage" = "Посилання на сторінку %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Введіть дійсний номер сторінки.";
+// Error message for invalid page link.
+"invalidPageLink" = "Введіть дійсне посилання до сторінки.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} — налаштування вимірювань";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Обрати декілька приміток";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Меню інструментів \"%@\"";
+
+// Document unlock string
+"Unlock_Document_Description" = "Потрібно розблокувати цей документ для перегляду. Введіть пароль нижче.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Анонімний користувач";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Опції коментарів";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Редагування контенту";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Налаштування вимірювань периметру";
+"Distance_Popover_Title" = "Налаштування вимірювань відстані";
+"Rectangle_Area_Title" = "Налаштування вимірювань площі прямокутника";
+"Polygon_Area_Title" = "Налаштування вимірювань площі многокутника";
+"Ellipse_Area_Title" = "Налаштування вимірювань площі еліпсу";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Жирний";
+"Italic" = "Курсив";
+
+// Button to save and then close current context
+"Save_And_Close" = "Зберегти та закрити";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Перемикач підказки про розузгодження шрифту";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Шрифт \"%@\" зараз недоступний або ви не можете використовувати його задля редагування контенту в цьому документі. Доданий або змінений контент буде змінено до шрифту за замовчуванням.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Вбудовані";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Зведені";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Ігнорувати";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Звіт";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Обрати початкову сторінку";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Обрати останню сторінку";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "до";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Обертання";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Редагування контенту";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "«%1$@» містить незбережені зміни.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Декілька шрифтів";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Невідомий шрифт";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Декілька розмірів";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Зменшити розмір";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Збільшити розмір";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Декілька кольорів";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ жирний";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ курсив";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ жирний курсив";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Відкрити ланцюжок коментарів, початий %@: «%@»";
+
+// More comments indicator in comments popover
+"MoreComments" = "Більше коментарів";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Діапазон сторінок";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Новий власний колір";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Редагувач контенту";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Знайти вибране";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Вебпошук";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Цілі дюйми";
+"MeasurementPrecision_Halves" = "Половини дюйма";
+"MeasurementPrecision_Quarters" = "Чверті дюйма";
+"MeasurementPrecision_Eighths" = "Восьмини дюйма";
+"MeasurementPrecision_Sixteenths" = "Шістнадцяти частини дюйма";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Ланцюжок сертифікатів, що використується для підпису, пустий.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Цей тип цифрового підпису не підтримується.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Цифровий підпис містить невірну мітку часу або дані мітки часу були підроблені.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Параметри вимірювань";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Додати шкалу";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Використати інструмент для калібрування";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Калібрувати шкалу";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Встановити шкалу";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Вторинні одиниці";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Одиниця";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Видалення шкали також видалить вимірювання з застосуванням цієї шкали.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Ця шкала вже використовується";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Редагувати шкалу чи використати існуючу шкалу?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Використати існуючу";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Непойменоване";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Прив’язка до точки";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Прив’язка до лінії";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Показати інтелектуальні підказки";
+
+// Label for the add text box button
+"AddTextBox" = "Додати текстове поле";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Видалити це текстове поле?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Підтвердити видалення текстового поля";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Діалог, що дозволяє вам підтвердити чи відмінити видалення текстового поля";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Лише для читання";
+"locked" = "Заблоковано";
+"lockedContent" = "Заблокований контент";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Шкалу додано";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” успішно додано до списку шкал.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Символ параметрів вимірювань";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Символ, що показує, що шкала вимірювань не встановлена";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Цей документ було підписано за допомогою %@ користувачем %@ %@ у %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Цей документ стверджує, що його було підписано за допомогою %@ користувачем %@ %@ у %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Алгоритм: %@ з %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Витягти сторінки";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Ім'я шкали";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Шкала з такими параметрами вже визначена. Оберіть іншу шкалу.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Відображати вторинні одиниці";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Редагувати чи додати нову шкалу";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Калібрувати";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Шари";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Немає шарів";
+
+"The certificate is not yet valid" = "Цей сертифікат ще недійсний.";
+"Signature validation failed - invalid signature" = "Підпис недійсний.";
+"The certificate has been revoked" = "Сертифікат було анульовано.";
+"Certificate problem" = "Проблема сертифікату.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Неможливо перевірити, чи було сертифікат анульовано.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Міжрядковий інтервал";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Одинарний";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Двійний";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Обрати більше…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Вимірювання";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Перезавантажити документ";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Розвиток безпаперових інновацій з інструментами розробників та рішеннями для користувачів для всіх основних платформ.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Дія";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Скорочення";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Згадка";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Відкрити довідку";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Читайте більше";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Фокус на панелі приміток";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Недостатньо пам'яті для відображення цієї сторінки.";

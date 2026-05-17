@@ -1,0 +1,83 @@
+{
+    "TypoSettingsNavigationController": {
+        "UINavigationBar": {
+            "tintColor": "#C8C7CC",
+            "barTintColor": "whiteColor",
+            "titleTextAttributes": {
+                "textColor": "blackColor",
+                "font": ["AppleSDGothicNeo-SemiBold", 17],
+            },
+        },
+    },
+    "Ridibooks.TypoSettingsTableViewController": {
+        "UITableView": {
+            "separatorColor": "#C8C7CC",
+        },
+    },
+    "Ridibooks.PageMoveModeCell": {
+        "backgroundColor": "whiteColor",
+        "Ridibooks.SelectionView": {
+            "selectTintColor": "ridiDodgerBlue50Color",
+            "normalTintColor": "ridiDodgerBlue50Color",
+            "markColor": "whiteColor",
+            "innerBorderColor": "ridiDodgerBlue50Color",
+            "outerBorderColor": "whiteColor",
+        },
+    },
+    "ReaderMenuNavigationBar": {
+        "shadowImage": "clearColor"
+    },
+    "Ridibooks.ShareNavigationController": {
+        "UINavigationBar": {
+            "tintColor": "ridiSlateGray80Color",
+            "barTintColor": "whiteColor",
+        },
+        "HairLine": {
+            "backgroundColor": "ridiSlateGray20Color",
+        },
+    },
+    "Ridibooks.SearchBarView": {
+        "tintColor": "ridiBlueGray60Color",
+        "image:search:normal": ["main_searchbar_icon_search", "template"],
+        "image:clear:normal": ["main_searchbar_icon_clear", "template"],
+        "UITextField": {
+            "backgroundColor": "ridiSlateGray10Color",
+            "defaultTextAttributes": {
+                "textColor": "ridiBlueGray70Color",
+                "font": ["AppleSDGothicNeo-Regular", 14],
+            },
+            "placeholderTextAttributes": {
+                "textColor": "ridiSlateGray60Color",
+                "font": ["AppleSDGothicNeo-Regular", 14],
+            },
+        },
+    },
+    "Ridibooks.ReadingNoteCollectionViewCell": {
+        "Ridibooks.SelectionView": {
+            "selectTintColor": "ridiDodgerBlue50Color",
+            "normalTintColor": ["blackColor", 0.3],
+            "markColor": "whiteColor",
+            "innerBorderColor": ["whiteColor", 0.0],
+            "outerBorderColor": "whiteColor",
+        },
+    },
+    "Ridibooks.ReadingNoteTableViewCell": {
+        "Ridibooks.SelectionView": {
+            "selectTintColor": "ridiDodgerBlue50Color",
+            "normalTintColor": "whiteColor",
+            "markColor": "whiteColor",
+            "innerBorderColor": ["whiteColor", 0.0],
+            "outerBorderColor": ["blackColor", 0.3],
+        },
+    },
+    "Ridibooks.TOCViewController": {
+        "UINavigationBar": {
+            "tintColor": "ridiSlateGray80Color",
+            "barTintColor": "whiteColor",
+            "shadowImage": "clearColor",
+        },
+        "HairLine": {
+            "backgroundColor": "ridiSlateGray20Color",
+        },
+    },
+}

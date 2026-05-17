@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Share Content</title>
+        <meta charset="utf-8">
+        <meta name="viewport" id="viewport" content="width=1200, height=1200, initial-scale=1">
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizeLegibility;
+                -webkit-text-size-adjust: none;
+            }
+            .info {
+                margin-top: 32px;
+            }
+            .contentInfo {
+                font-size: 48px;
+                font-family: notosans_l;
+                color: #ffffff;
+                margin: 0;
+                margin-top: 32px;
+                height: 54px;
+            }
+            .wrap {
+                display: table;
+                width: 1035px;
+                margin: 0 auto;
+                height: inherit;
+            }
+            .verticalCenter {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .textShadow {
+                text-shadow: rgba(0,0,0,.01) 0 0 1px;
+            }
+            #shareContent {
+                width: 1200px;
+                height: 1200px;
+                margin: 0 auto;
+            }
+            #contentText {
+                text-align: justify;
+                line-height: 108px;
+                font-size: 60px;
+                font-family: kopubbatang;
+                color: #ffffff;
+                letter-spacing: -0.05em;
+                padding-right: 5px;
+                margin: 0;
+                overflow: hidden;
+                max-height: 756px;
+            }
+            #logoImage {
+                position: absolute;
+                top: 1097px;
+                left: 1030px;
+                width: 150px;
+                height: 83px;
+            }
+            @font-face {
+                font-family: ridibatang;
+                src: url("RIDIBatang.otf") format("opentype");
+            }
+            @font-face {
+                font-family: kopubbatang;
+                font-weight: bold;
+                src: url("KoPubBatang_Pro-Medium.otf") format("opentype");
+            }
+            @font-face {
+                font-family: notosans_l;
+                src: url("notosans_l.otf") format("opentype");
+            }
+            @font-face {
+                font-family: nanummyeongjo;
+                src: url("nanummyeongjo.woff") format("woff");
+            }
+        </style>
+        <script type="text/javascript">
+            function $(id) {
+                return document.getElementById(id);
+            }
+            function setContent(text) {
+                $("contentText").innerHTML = text;
+            }
+            function setContentInfo(title, author) {
+                $("contentTitle").innerText = title;
+                $("contentAuthor").innerText = author;
+            }
+            function setTextWhite() {
+                $("contentText").style.color = "#ffffff";
+                $("contentTitle").style.color = "#ffffff";
+                $("contentAuthor").style.color = "rgba(255, 255, 255, 0.7)";
+                $("logoImage").style.content = "url('share_logo_w.png')";
+            }
+            function setTextBlack() {
+                $("contentText").style.color = "#373a3c";
+                $("contentTitle").style.color = "#373a3c";
+                $("contentAuthor").style.color = "rgba(55, 58, 60, 0.7)";
+                $("logoImage").style.content = "url('share_logo_b.png')";
+            }
+            function setFont(fontName) {
+                $("contentText").style.fontFamily = fontName;
+            }
+            function setFontSize(fontSize, lineHeight, maxHeight) {
+                $("contentText").style.fontSize = fontSize;
+                $("contentText").style.lineHeight = lineHeight;
+                $("contentText").style.maxHeight = maxHeight;
+            }
+            function setDisplayModeVertical() {
+                $("viewport").setAttribute("content","width=1200, height=1600, initial-scale=1");
+                $("shareContent").style.height = "1600px";
+                $("contentText").style.maxHeight = "1080px";
+                $("logoImage").style.top = "1497px";
+            }
+            function setDisplayModeSquare() {
+                $("viewport").setAttribute("content","width=1200, height=1200, initial-scale=1");
+                $("shareContent").style.height = "1200px";
+                $("contentText").style.maxHeight = "756px";
+                $("logoImage").style.top = "1097px";
+            }
+        </script>
+    </head>
+    <body>
+        <div id="shareContent">
+            <div class="wrap">
+                <div class="verticalCenter">
+                    <p class="textShadow" id="contentText"></p>
+                    <div class="info">
+                        <p class="contentInfo textShadow" id="contentTitle"></p>
+                        <p class="contentInfo textShadow" id="contentAuthor"></p>
+                    </div>
+                </div>
+            </div>
+            <img id="logoImage" src="share_logo_w.png" alt=""/>
+        </div>
+    </body>
+</html>

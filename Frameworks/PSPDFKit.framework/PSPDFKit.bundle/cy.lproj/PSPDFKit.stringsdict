@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>%tu match(es) found</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_matches_found@</string>
+      <key>tu_matches_found</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Canfuwyd %tu eitem sy’n cyfateb</string>
+        <key>two</key>
+        <string>Canfuwyd %tu eitem sy’n cyfateb</string>
+        <key>few</key>
+        <string>Canfuwyd %tu eitem sy’n cyfateb</string>
+        <key>many</key>
+        <string>Canfuwyd %tu eitem sy’n cyfateb</string>
+        <key>other</key>
+        <string>Canfuwyd %tu eitem sy’n cyfateb</string>
+        <key>zero</key>
+        <string>Heb ganfod unrhyw eitemau sy’n cyfateb</string>
+      </dict>
+    </dict>
+    <key>%tu document(s) indexed.</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_indexed@</string>
+      <key>tu_documents_indexed</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu ddogfen wedi’u mynegeio</string>
+        <key>two</key>
+        <string>%tu dogfen wedi’u mynegeio</string>
+        <key>few</key>
+        <string>%tu dogfen wedi’u mynegeio</string>
+        <key>many</key>
+        <string>%tu dogfen wedi’u mynegeio</string>
+        <key>other</key>
+        <string>%tu dogfen wedi’u mynegeio</string>
+        <key>zero</key>
+        <string>Dim dogfennau wedi’u mynegeio</string>
+      </dict>
+    </dict>
+    <key>%tu Annotation(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_annotations@</string>
+      <key>tu_annotations</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Anodiad</string>
+        <key>two</key>
+        <string>%tu Anodiad</string>
+        <key>few</key>
+        <string>%tu Anodiad</string>
+        <key>many</key>
+        <string>%tu Anodiad</string>
+        <key>other</key>
+        <string>%tu Anodiad</string>
+        <key>zero</key>
+        <string>Dim Anodiadau</string>
+      </dict>
+    </dict>
+    <key>%tu Point(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_points@</string>
+      <key>tu_points</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Pwynt</string>
+        <key>two</key>
+        <string>%tu Bwynt</string>
+        <key>few</key>
+        <string>%tu Phwynt</string>
+        <key>many</key>
+        <string>%tu Pwynt</string>
+        <key>other</key>
+        <string>%tu Pwynt</string>
+        <key>zero</key>
+        <string>%tu Pwyntiau</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Pob (%#@pages@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Dudalen</string>
+        <key>two</key>
+        <string>%tu Tudalen</string>
+        <key>few</key>
+        <string>%tu Tudalen</string>
+        <key>many</key>
+        <string>%tu Tudalen</string>
+        <key>other</key>
+        <string>%tu Tudalen</string>
+        <key>zero</key>
+        <string>%tu Tudalennau</string>
+      </dict>
+    </dict>
+    <key>%tu result(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_results@</string>
+      <key>tu_results</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu ganlyniad</string>
+        <key>two</key>
+        <string>%tu canlyniad</string>
+        <key>few</key>
+        <string>%tu chanlyniad</string>
+        <key>many</key>
+        <string>%tu canlyniad</string>
+        <key>other</key>
+        <string>%tu canlyniad</string>
+        <key>zero</key>
+        <string>Dim canlyniadau</string>
+      </dict>
+    </dict>
+    <key>Searching %tu page(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Wrthi'n chwilio ar %#@pages@</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu tudalen</string>
+        <key>two</key>
+        <string>%tu dudalen</string>
+        <key>few</key>
+        <string>%tu tudalen</string>
+        <key>many</key>
+        <string>%tu tudalen</string>
+        <key>other</key>
+        <string>%tu tudalen</string>
+        <key>zero</key>
+        <string>%tu tudalennau</string>
+      </dict>
+    </dict>
+    <key>%tu Line(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_lines@</string>
+      <key>tu_lines</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Linell</string>
+        <key>two</key>
+        <string>%tu Llinell</string>
+        <key>few</key>
+        <string>%tu Llinell</string>
+        <key>many</key>
+        <string>%tu Llinell</string>
+        <key>other</key>
+        <string>%tu Llinell</string>
+        <key>zero</key>
+        <string>%tu Llinellau</string>
+      </dict>
+    </dict>
+    <key>Delete %tu Comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Dileu %#@comments@</string>
+      <key>comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Sylw</string>
+        <key>two</key>
+        <string>%tu Sylw</string>
+        <key>few</key>
+        <string>%tu Sylw</string>
+        <key>many</key>
+        <string>%tu Sylw</string>
+        <key>other</key>
+        <string>%tu Sylw</string>
+        <key>zero</key>
+        <string>%tu Sylwadau</string>
+      </dict>
+    </dict>
+    <key>%tu comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_comments@</string>
+      <key>tu_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sylw</string>
+        <key>two</key>
+        <string>%tu sylw</string>
+        <key>few</key>
+        <string>%tu sylw</string>
+        <key>many</key>
+        <string>%tu sylw</string>
+        <key>other</key>
+        <string>%tu sylw</string>
+        <key>zero</key>
+        <string>%tu sylw</string>
+      </dict>
+    </dict>
+    <key>%tu more comment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_more_comments@</string>
+      <key>tu_more_comments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu sylw arall</string>
+        <key>two</key>
+        <string>%tu sylw arall</string>
+        <key>few</key>
+        <string>%tu sylw arall</string>
+        <key>many</key>
+        <string>%tu sylw arall</string>
+        <key>other</key>
+        <string>%tu sylw arall</string>
+        <key>zero</key>
+        <string>%tu sylw arall</string>
+      </dict>
+    </dict>
+    <key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Pob (%#@pages@, %#@documents@)</string>
+      <key>pages</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Tudalen</string>
+        <key>two</key>
+        <string>%tu Dudalen</string>
+        <key>few</key>
+        <string>%tu Tudalen</string>
+        <key>many</key>
+        <string>%tu Tudalen</string>
+        <key>other</key>
+        <string>%tu Tudalen</string>
+        <key>zero</key>
+        <string>%tu Tudalennau</string>
+      </dict>
+      <key>documents</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Dogfen</string>
+        <key>two</key>
+        <string>%tu Ddogfen</string>
+        <key>few</key>
+        <string>%tu Dogfen</string>
+        <key>many</key>
+        <string>%tu Dogfen</string>
+        <key>other</key>
+        <string>%tu Dogfen</string>
+        <key>zero</key>
+        <string>%tu Dogfennau</string>
+      </dict>
+    </dict>
+    <key>DocumentEditor_NumPagesSelected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_pages_selected@</string>
+      <key>tu_pages_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>Dewiswyd %tu Tudalen</string>
+        <key>two</key>
+        <string>Dewiswyd %tu Dudalen</string>
+        <key>few</key>
+        <string>Dewiswyd %tu Tudalen</string>
+        <key>many</key>
+        <string>Dewiswyd %tu Tudalen</string>
+        <key>other</key>
+        <string>Dewiswyd %tu Tudalen</string>
+        <key>zero</key>
+        <string>Dewiswyd %tu Tudalennau</string>
+      </dict>
+    </dict>
+    <key>commentDialogClosed_old</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Blwch sylwadau. Agor y sylwadau. Awdur %@. %#@tu_replies@</string>
+      <key>tu_replies</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu ateb</string>
+        <key>two</key>
+        <string>%tu ateb</string>
+        <key>few</key>
+        <string>%tu ateb</string>
+        <key>many</key>
+        <string>%tu ateb</string>
+        <key>other</key>
+        <string>%tu ateb</string>
+        <key>zero</key>
+        <string>%tu atebion</string>
+      </dict>
+    </dict>
+    <key>%tu Side(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_sides@</string>
+      <key>tu_sides</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Ochr</string>
+        <key>two</key>
+        <string>%tu Ochr</string>
+        <key>few</key>
+        <string>%tu Ochr</string>
+        <key>many</key>
+        <string>%tu Ochr</string>
+        <key>other</key>
+        <string>%tu Ochr</string>
+        <key>zero</key>
+        <string>%tu Ochrau</string>
+      </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_segments@</string>
+      <key>tu_segments</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Segment</string>
+        <key>two</key>
+        <string>%tu Segment</string>
+        <key>few</key>
+        <string>%tu Segment</string>
+        <key>many</key>
+        <string>%tu Segment</string>
+        <key>other</key>
+        <string>%tu Segment</string>
+        <key>zero</key>
+        <string>%tu Segmentau</string>
+      </dict>
+    </dict>
+    <key>%tu Document(s) selected</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@tu_documents_selected@</string>
+      <key>tu_documents_selected</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu Dogfen wedi'i dethol</string>
+        <key>two</key>
+        <string>%tu Ddogfen wedi'u dethol</string>
+        <key>few</key>
+        <string>%tu Dogfen wedi'u dethol</string>
+        <key>many</key>
+        <string>%tu Dogfen wedi'u dethol</string>
+        <key>other</key>
+        <string>%tu Dogfen wedi'u dethol</string>
+        <key>zero</key>
+        <string>Dim Dogfennau wedi'u dethol</string>
+      </dict>
+    </dict>
+    <key>Measurements_ScaleUsedElsewhere</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Defnyddir y raddfa hon yn %#@measurements@.</string>
+      <key>measurements</key>
+      <dict>
+        <key>zero</key>
+        <string>%tu mesur</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>tu</string>
+        <key>one</key>
+        <string>%tu mesur</string>
+        <key>two</key>
+        <string>%tu fesuriad</string>
+        <key>few</key>
+        <string>%tu mesur</string>
+        <key>many</key>
+        <string>%tu mesur</string>
+        <key>other</key>
+        <string>%tu mesur</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

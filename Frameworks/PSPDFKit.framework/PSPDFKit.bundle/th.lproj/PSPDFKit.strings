@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "ปิด";
+"Cancel" = "ยกเลิก";
+"OK" = "ตกลง";
+"Open" = "เปิด";
+"Untitled" = "ไม่มีชื่อ";
+"File Not Found" = "ไม่พบไฟล์";
+"File couldn't be opened." = "เปิดไฟล์ไม่ได้"; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF ที่ไม่ได้ตั้งชื่อ";
+"Page %tu" = "หน้า %tu";
+"Page %@" = "หน้า %@";
+"Next" = "ถัดไป";
+"Previous" = "ก่อนหน้า";
+"Error" = "ข้อผิดพลาด";
+"More options" = "ตัวเลือกเพิ่มเติม";
+"Close Tab" = "ปิดแท็บ";
+"Close All Tabs" = "ปิดหมดทุกแท็บ";
+"Close All Other Tabs" = "ปิดแท็บอื่นๆ ทั้งหมด"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "การวาด";
+"Highlighter" = "การไฮไลท์แบบฟรีฟอร์ม";
+
+// toolbar
+"Outline" = "ตัวเส้นขอบ"; // Table of contents
+"No Outline" = "ไม่มีโครงร่าง";
+"Search Outline" = "ค้นหาตัวเส้นขอบ";
+"Search" = "ค้นหา";
+"Email" = "อีเมล";
+"Send via Email" = "ส่งทางอีเมล";
+"Send" = "ส่ง";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "แชร์ทางเมสเสจ";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "แชร์ทางอีเมล";
+"Open In" = "เปิดใน";
+"Commit" = "ดำเนินการ";
+"Sending to %@" = "ส่งไปที่ %@"; // Open document with an application
+"Pages" = "หน้า";
+"Print with annotations" = "พิมพ์และแสดงหมายเหตุ";
+"Print without annotations" = "พิมพ์โดยไม่แสดงหมายเหตุ";
+"No Applications found" = "ไม่ได้ติดตั้งแอพที่สามารถเปิดเอกสาร PDF ได้";
+"Print" = "พิมพ์";
+"Annotation" = "การทำโน้ต";
+"Annotations" = "โน้ต";
+"No Annotations" = "ไม่มีการทำหมายเหตุ";
+"Bookmarks" = "ที่คั่นหน้าเว็บ";
+"No Bookmarks" = "ไม่มีที่คั่นหน้าเว็บ";
+"Add Bookmark" = "เพิ่มที่คั่นหน้า";
+"Remove Bookmark" = "ลบที่คั่นหน้าเว็บ";
+"Brightness" = "ความสว่าง";
+"Share" = "แบ่งปัน";
+"Preparing" = "กำลังเตรียม";
+"Loading" = "กำลังโหลด";
+"Expand" = "ขยายตัว";
+"Collapse" = "ยุบ";
+// SMS / iMessage sharing button
+"Message" = "ข้อความ";
+"Thumbnails" = "ภาพขนาดย่อ";
+"Drag Toolbar" = "ลากแถบเครื่องมือ";
+
+// thumbnails
+"Bookmarked" = "คั่นหน้าเว็บไว้";
+"Annotated" = "ลงหมายเหตุไว้";
+"All" = "ทั้งหมด";
+"Loading Annotations" = "กำลังโหลดโน้ต";
+"Loading Pages" = "กำลังโหลดหน้า";
+"Loading Bookmarks" = "กำลังโหลดที่คั่นหน้า";
+
+// password
+"Password" = "รหัสผ่าน"; // text on a label
+"Unlock" = "ปลดล็อก";
+"Please enter the password." = "กรุณากรอกรหัสผ่าน";
+"This document cannot be unlocked." = "ปลดล็อกเอกสารนี้ไม่ได้";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "ช่องรหัสผ่าน";
+
+// page
+"%tu of %tu" = "%tu จาก %tu";
+"%tu–%tu of %tu" = "%tu–%tu จาก %tu";
+"%@ (%tu of %tu)" = "%@ (%tu จาก %tu)";
+"%@, Page %tu" = "%@, หน้า %tu";
+"Leave %@?" = "ออกจาก %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu จาก %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu จาก %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu จาก %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "ค้นหาเอกสาร"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "กำลังหาหน้าที่ %tu จาก %tu";
+"Search Completed" = "การค้นหาเสร็จสิ้น";
+"Search Cancelled" = "การค้นหาถูกยกเลิก";
+"%tu left" = "เหลือ %tu ฉบับ"; // Indexing Documents... 5 left
+"Searching" = "กำลังค้นหา";
+"Done" = "เสร็จ";
+"Indexing Documents" = "กำลังทำดัชนี";
+"Document" = "เอกสาร";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "ค้นหาโน้ต";
+
+// inline browser
+"Open in Safari" = "เปิดใน Safari";
+"Open in Chrome" = "เปิดใน Chrome";
+"Your %@ is not configured to send emails." = "%@ ของคุณไม่ได้รับการตั้งค่าให้ส่งอีเมล";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "ลิงค์นี้กำลังขอให้เปิด %1$@. %2$@ คุณต้องการดำเนินการต่อหรือไม่?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "แอพพลิเคชั่นนอกระบบ"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "เมล"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "ไม่พบโปรแกรมที่ใช้เปิด%@";
+
+// text selection
+"Text copied to clipboard." = "คัดลอกข้อความไปยังคลิปบอร์ด";
+"Save to Photo Library" = "บันทึกไว้ที่คลังรูปภาพ";
+"Failed to extract image." = "ดึงรูปภาพไม่สำเร็จ";
+"Type value or pick from list" = "พิมพ์ค่าหรือเลือกจากรายการ";
+
+// annotations
+"Add %@" = "เพิ่ม%@";
+"Remove %@" = "ลบ %@";
+"Remove" = "ลบออก";
+"Delete" = "ลบ"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "แก้ไข";
+"Undo" = "ถอนคำสั่งกลับ";
+"Nothing to undo" = "ไม่มีคำสั่งให้ถอนกลับ";
+"Redo" = "ทำซ้ำ";
+"Nothing to redo" = "ไม่มีคำสั่งให้ทำซ้ำ";
+"Type" = "ประเภท"; // kind of Annotation can be selected
+"Size" = "ขนาด";
+"Font" = "แบบอักษร";
+"Fonts" = "แบบอักษร";
+"All Fonts" = "แบบอักษรทั้งหมด";
+"Downloadable Fonts" = "แบบอักษรที่ดาวน์โหลดได้";
+"Search Fonts" = "ค้นหาแบบอักษร";
+"Choose Color" = "เลือกสี";
+"Choose Fill Color" = "เลือกสีระบาย";
+"Rainbow" = "สีรุ้ง";
+"Monochrome" = "สีเดียว";
+"Vintage" = "วินเทจ";
+"Modern" = "โมเดิร์น";
+"ColorPalette_Unified" = "พาเลต";
+"Color" = "สี";
+"Border" = "ขอบ";
+"Fill Color" = "สีระบาย";
+"Start and End Color" = "จุดเริ่มและสิ้นสุดของสี";
+"Opacity" = "ความทึบแสง";
+"Thickness" = "ความหนา";
+"%@ pt" = "%@ จุด";
+"Yellow" = "สีเหลือง";
+"Green" = "สีเขียว";
+"Red" = "สีแดง";
+"Blue" = "สีน้ำเงิน";
+"Pink" = "สีชมพู";
+"Black" = "สีดำ";
+"Orange" = "สีส้ม";
+"Purple" = "สีม่วง";
+"Cyan" = "ฟ้าอมเขียว";
+"Gray" = "สีเทา";
+"White" = "สีขาว";
+"Color_Brown" = "น้ำตาล";
+"Color_DarkRed" = "แดงเข้ม";
+"Color_DarkBlue" = "น้ำเงินเข้ม";
+"Color_Magenta" = "แดงอมม่วง";
+"Define" = "นิยาม";
+"Wikipedia" = "วิกิพีเดีย";
+"Highlight" = "ไฮไลท์ข้อความ";
+"Underline" = "ขีดเส้นใต้";
+"Squiggly" = "ขยุกขยิก";
+"StrikeOut" = "ขีดฆ่า";
+"Rectangle" = "สี่เหลี่ยม";
+"Ellipse" = "วงรี";
+"Line" = "เส้น"; // something that can be drawn
+"Polygon" = "โพลีกอน";
+"Signature" = "ลายเซ็น";
+"Signatures" = "ลายเซ็น";
+"Signed" = "เซ็นแล้ว";
+"Sign" = "ลงชื่อ";
+"Signing…" = "กำลังลงเส้น…";
+"Sign using %@" = "ลงชื่อด้วย %@"; // e.g. Adobe.PPKLite
+"Methods" = "วิธี"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "เลือกรูปพรรณ"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "ตราประทับ";
+"Stamps" = "ตราประทับ";
+"Custom" = "กำหนดเอง"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "สร้างตราประทับ";
+"Preview" = "ดูตัวอย่าง";
+"Stamp Text" = "ข้อความของตราประทับ";
+"Add Signature" = "ลงลายเซ็น";
+"Remove Signature" = "ลบลายเซ็น";
+"My Signature" = "ลายเซ็นของฉัน";
+"No Signatures" = "ไม่มีลายเซ็น"; // text on label - is shown when there is no signature to display
+"Please sign here" = "กรุณาลงชื่อที่นี่";
+"Text" = "บันทึก";
+"FreeText" = "ข้อความ";
+"Delete Note" = "ลบบันทึก";
+"Remove Note" = "ลบบันทึก";
+"%@ could not be found." = "หา %@ ไม่พบ";
+"Photo Library" = "คลังรูปภาพ";
+"Camera" = "กล้อง";
+"camera_not_available" = "กล้องไม่พร้อมใช้งาน";
+"Image" = "รูปภาพ";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "เลือกคุณภาพของรูปภาพ";
+"Low Quality" = "คุณภาพต่ำ";
+"Medium Quality" = "คุณภาพปานกลาง";
+"High Quality" = "คุณภาพสูง";
+"Clear All" = "ล้างทั้งหมด";
+"Clear" = "ล้าง";
+"Style" = "รูปแบบ";
+"Link" = "ลิงก์";
+"Ink" = "การวาด";
+"Screen" = "หน้าจอ";
+"RichMedia" = "มัลติมีเดีย";
+"FileAttachment" = "ไฟล์";
+"Left" = "ซ้าย";
+"Center" = "กลาง";
+"Right" = "ขวา";
+"Alignment" = "การจัดแนว";
+"Preview File" = "ดูตัวอย่างไฟล์";
+"Copy" = "คัดลอก";
+"Paste" = "วาง";
+"Inspector" = "ตัวรายงานข้อมูล";
+"Group" = "จัดกลุ่ม";
+"Ungroup" = "แยกการจัดกลุ่ม";
+"Merge" = "ผสาน"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "ตัวอย่าง";
+"Annotation Summary for %@:" = "บทสรุปการทำหมายเหตุสำหรับ %@:";
+"Show Text" = "แสดงข้อความ";
+// title
+"Author Name" = "ชื่อผู้เขียน";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "กรุณากรอกชื่อผู้เขียนที่คุณต้องการใช้สำหรับหมายเหตุใหม่ที่เพิ่งเขียนลงไป";
+// text field placeholder
+"Name" = "ชื่อ";
+// meaning: close
+"Dismiss" = "ปิด";
+"Fit to Text" = "ปรับให้พอดีกับข้อความ";
+"Draw" = "วาด";
+"Sound" = "เสียง";
+"Eraser" = "ยางลบ";
+"Toggle Eraser" = "ปิดยางลบ"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "เครื่องมือสำหรับการเลือก";
+"Add" = "เพิ่ม"; // to add - infinitive
+"Date" = "วันที่";
+"Time" = "เวลา";
+"No Pages" = "ไม่มีหน้า";
+"Drag to resize" = "ลากเพื่อปรับขนาด"; // used as hint that inspector is resizable
+"Convert to" = "แปลงเป็น"; // used as label on action that changes free text intent type
+"Color Presets" = "ค่าสีที่ตั้งไว้ล่วงหน้า";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "พรีเซ็ตสี";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "ตัด";
+"Annotation copied." = "โน้ตที่ทำสำเนาแล้ว";
+"Annotation cut." = "โน้ตที่ตัดแล้ว";
+"Annotation pasted." = "โน้ตที่แปะแล้ว";
+"%tu selected" = "เลือก %tu โน้ต";
+"Custom Stamp" = "แต่งแสตมป์";
+"Change text and color" = "เปลี่ยนข้อความและสี";
+"Use an existing stamp design" = "ใช้แสตมป์ที่ออกแบบไว้";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "แมจิกอิงก์";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "โหลดแบบอักษร %@' ขนาด %@ ไม่สำเร็จ";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "ผู้ตรวจแก้สไตล์";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "คุณแน่ใจหรือว่าต้องการลบโน้ตทั้งหมด";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "ปิดการใช้งานการสร้างโน้ต";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "มีคอมเม้นท์";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "การทำโน้ตข้อความ";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "เครื่องหมายถูก";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "เครื่องหมายกากบาท";
+
+"Callout" = "กรอบคำพูด"; // freetext annotation with an arrow
+"Generic" = "ทั่วไป"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "แบบเส้น";
+"Solid" = "ต่อเนื่อง";
+"Narrow Dots" = "จุดถี่ๆ";
+"Wide Dots" = "จุดห่างๆ";
+"Narrow Dashes" = "เส้นประถี่ๆ";
+"Wide Dashes" = "เส้นประห่างๆ";
+"Cloudy" = "ก้อนเมฆ"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "ผ่านการรับรอง";
+"Not Approved" = "ไม่ผ่านการรับรอง";
+"Draft" = "ฉบับร่าง";
+"Final" = "สุดท้าย";
+"Completed" = "เสร็จสิ้น";
+"Confidential" = "เป็นความลับ";
+"For Public Release" = "สำหรับข่าวประชาสัมพันธ์";
+"Not For Public Release" = "ไม่ใช่สำหรับข่าวประชาสัมพันธ์";
+"For Comment" = "สำหรับแสดงความเห็น";
+"Void" = "เป็นโมฆะ";
+"Preliminary Results" = "ผลลัพธ์ขั้นต้น";
+"Information only" = "ข้อมูลเท่านั้น";
+"Accepted" = "ยอมรับ";
+"Rejected" = "ถูกปฏิเสธ";
+"Initial Here" = "ลงตัวย่อที่นี่";
+"Sign Here" = "ลงชื่อที่นี่";
+"Witness" = "พยาน";
+"Revised" = "ฉบับแก้ไขปรับปรุง";
+"Stamp.AsIs" = "ตามสภาพ";
+"Stamp.Departmental" = "ของแผนก";
+"Stamp.Experimental" = "ขั้นทดลอง";
+"Stamp.Expired" = "หมดอายุ";
+"Stamp.Sold" = "ขายแล้ว";
+"Stamp.TopSecret" = "ความลับสุดยอด";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "สไตล์";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "ปิด";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "กำลังสแกน";
+// text on a label; app connects to a stylus
+"Pairing" = "การเชื่อมต่อ";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ เชื่อมต่อแล้ว";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ ไม่ได้เชื่อมต่อ";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "การตั้งค่า";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "ใช้แต่ Apple Pencil เพื่อจดโน้ต";
+
+// PDF annotation name overrides
+"Square" = "สี่เหลี่ยม";
+"Circle" = "วงรี";
+"PolyLine" = "โพลีไลน์";
+"SavedAnnotations" = "หมายเหตุที่บันทึกไว้";
+
+// named actions
+"NextPage" = "หน้าถัดไป";
+"PrevPage" = "หน้าก่อนหน้า";
+"FirstPage" = "หน้าแรก";
+"LastPage" = "หน้าสุดท้าย";
+"GoBack" = "กลับไป";
+"GoForward" = "ไปข้างหน้า";
+"GoToPage" = "ไปที่หน้า";
+"Find" = "หา";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "ซูมเข้า";
+"ZoomOut" = "ซูมออก";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "การดำเนินการด้านมัลติมีเดีย";
+"Rendition Action" = "การดำเนินการบันทึก";
+"Hide Action" = "ซ่อนการดำเนินการ";
+"Submit Form" = "ส่งฟอร์ม";
+"Reset" = "รีเซ็ต";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "ย้อนกลับ";
+// Description of the select all text keyboard shortcut.
+"Select All" = "เลือกทั้งหมด";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "เลือกรายการด้านบน";
+"KeyCommand.SelectBelow" = "เลือกไอเท็มข้างล่าง";
+"KeyCommand.SelectTop" = "เลือกไอเท็มด้านบน";
+"KeyCommand.SelectBottom" = "เลือกไอเท็มด้านล่าง";
+"KeyCommand.ClearSelection" = "ยกเลิกการเลือก";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "ส่วนขยาย";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "ส่วนย่อ";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "แสดงแท็บถัดไป";
+"KeyCommand.ShowPreviousTab" = "แสดงแท็บก่อนหน้านี้";
+"KeyCommand.SelectAllAnnotations" = "เลือกโน้ตทั้งหมด";
+
+// line annotations
+"Start" = "จุดเริ่ม";
+"End" = "สิ้นสุด";
+"Line.None" = "ไม่มีเลย";
+"Line.ClosedArrow" = "ลูกศรปิด";
+"Line.OpenArrow" = "ลูกศรเปิด";
+"Line.Square" = "จัตุรัส";
+"Line.Circle" = "วงกลม";
+"Line.Diamond" = "เพชร";
+"Line.ROpenArrow" = "ลูกศรเปิดที่พลิกกลับ";
+"Line.RClosedArrow" = "ลูกศรปิดที่พลิกกลับ";
+"Line.Slash" = "เครื่องหมายทับ";
+"Line.Butt" = "ก้อน";
+"Line Start" = "จุดเริ่มต้นของเส้น";
+"Line End" = "จุดจบของเส้น";
+"Arrow" = "ลูกศร"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "สร้างลิงก์";
+"Add Link" = "เพิ่มลิงก์";
+"Edit Link" = "แก้ไขลิงก์";
+"Move Link" = "เลื่อนลิงก์";
+"Remove Link" = "ลบลิงก์";
+"Open Link" = "เปิดลิงก์";
+"Go to Page %tu" = "ไปที่หน้า %tu";
+"Go to Page" = "ไปที่หน้า"; // title of a Popup
+"Go" = "ไป"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "คัดลอก URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "คัดลอกลิงก์";
+"Save" = "บันทึก";
+"Link Destination" = "จุดหมายปลายทางของลิงก์";
+"Enter page index or a http:// address to link to an URL." = "กรอกดัชนีหน้าหรือที่อยู่ http:// เพื่อเชื่อมต่อไปที่ URL";
+"Page %@ Not Found" = "ไม่พบหน้า %@";
+"Add to Reading List" = "เพิ่มไปยังรายการที่อ่าน";
+
+"Link annotation creation failed." = "การสร้างลิงก์หมายเหตุล้มเหลว";
+"Link annotation successfully created." = "การสร้างลิงค์หมายเหตุเสร็จเรียบร้อย";
+"Entered text could not be converted to an Integer nor URL." = "ข้อความที่ป้อนเข้าไม่สามารถเปลี่ยนให้เป็น Integer หรือ URL";
+
+// voiceover accessibility
+"Grid" = "ตาราง"; // grid with thumbnails
+"Translucent" = "โปร่งใส";
+"left" = "ซ้าย";
+"center" = "ตรงกลาง";
+"right" = "ขวา";
+"decrease" = "ลดขนาด";
+"increase" = "ขยาย";
+"All Open Documents" = "เอกสารที่เปิดอยู่ทั้งหมด";
+"Add Documents" = "เพิ่มเอกสาร"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "เปิดไฟล์";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "การควบคุมมัลติมีเดีย";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "ตั้งค่าฟอร์มใหม่";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "แสดงให้เห็น";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "ใส่ชื่อที่คั่นหน้า";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "หน้า %tu-%tu"; // Range of pages
+"Current Page" = "หน้าปัจจุบัน";
+"Current Page (%tu)" = "หน้าปัจจุบัน (%tu)";
+"Ignore Annotations" = "เพิกเฉยหมายเหตุ";
+"The PDF will not contain any annotations." = "PDF นี้จะไม่มีหมายเหตุใดๆ";
+"Embed Annotations" = "ฝังหมายเหตุ";
+"Annotations will remain editable and are embedded into the PDF." = "สามารถแก้ไขปรับแต่งหมายเหตุต่อไปได้และฝังลงใน PDF";
+"Flatten Annotations" = "ลงหมายเหตุ";
+"Annotations are drawn into the PDF and are readonly." = "หมายเหตุได้รับการบันทึกลงใน PDF และแก้ไขไม่ได้";
+"Annotation Summary" = "บทสรุปการทำหมายเหตุ";
+"Embed Annotations into the PDF and also list them in the email." = "ฝังหมายเหตุลงใน PDF และแจงรายการลงในอีเมลด้วย";
+"Annotations will be listed in a text file." = "โน้ตจะถูกลิสต์เป็นข้อความ";
+"Files" = "ไฟล์";
+"Send as single files" = "ส่งเป็นไฟล์เดี่ยว";
+"Merge files" = "ผสานไฟล์";
+"Original File" = "ไฟล์ดั้งเดิม";
+"Range" = "ขอบเขต";
+"Annotated Pages" = "หน้าที่ลงหมายเหตุไว้";
+"Message could not be sent." = "ข้อความไม่ถูกส่งออกไป";
+"Export" = "เอ็กซ์พอร์ต";
+"This action can't be performed." = "ไม่สามารถดำเนินการได้";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "ไม่รองรับการนำออกเอกสารที่ไม่ใช่ไฟล์พื้นฐาน";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "ไม่มีโน้ตในเอกสารนี้";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "ไม่สามารถแชร์เอกสารได้";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "การแชร์รูปภาพเอกสารทำได้จำกัดสูงสุดที่ %tu หน้าต่อครั้ง";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "ไม่สามารถส่งเอกสารแนบทาง Messages";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "ไม่สามารถพิมพ์เอกสารนี้ได้";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "เอกสาร PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "ไม่สามารถแชร์ไปยังที่เลือกได้";
+
+// sound annotations
+"Speak" = "ออกเสียง"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "เล่น";
+"Pause" = "หยุดชั่วคราว";
+"Resume" = "กลับไปเล่นต่อ";
+"Stop" = "หยุด";
+"Play/Stop" = "เล่น/หยุด";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "อัดเสียง";
+"Pause Recording" = "หยุดการอัดเสียงชั่วคราว";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "การอัดเสียงหยุดค้างอยู่";
+"Continue Recording" = "อัดเสียงต่อ";
+"Finish Recording" = "เสร็จการอัดเสียง";
+"Audio Problem" = "ปัญหาด้านเสียง";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "เริ่มเล่นจากช่วงสุดท้ายไม่ได้";
+"Could not resume playback." = "เล่นต่อจากช่วงสุดท้ายไม่ได้";
+"Microphone permission not granted." = "ไม่ได้รับอนุญาตให้ใช้ไมโครโฟน";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "อัดเสียงไม่ได้ในขณะนี้ กรุณาอนุญาตให้แอปนี้เข้าใช้ไมโครโฟนของคุณ";
+"There was a problem trying to record audio." = "เกิดปัญหาขึ้นขณะที่พยายามจะอัดเสียง";
+"Already Recording" = "กำลังอัดเสียงอยู่แล้ว";
+"You are already recording on page %@." = "คุณกำลังอัดเสียงที่หน้า %@ อยู่แล้วในขณะนี้";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "ดูเหมือนว่าคุณไม่อนุญาตให้เปิดใช้งานไมโครโฟนในแอ็พนี้ เพื่อจะบันทึกโน้ตเสียงได้ คุณจำเป็นต้องเปิดการใช้งานไมโครโฟนที่หน้าการตั้งค่าแอ็พ";
+
+// Forms
+"Form Element" = "องค์ประกอบของฟอร์ม";
+"Text Field" = "ช่องใส่ข้อความ";
+"Button" = "ปุ่ม";
+"Choice Field" = "ช่องตัวเลือก";
+"Signature Field" = "ช่องลงลายเซ็น";
+"Clear Field" = "ลบข้อมูลในช่อง"; // same as delete
+"Default Values" = "ค่าเริ่มต้น";
+"Custom Value" = "ค่าที่กำหนดเอง";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "ค้นหาตัวเลือก";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "ค่าเป็นโมฆะ: ต้องมากกว่าหรือเท่ากับ %s";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "ค่าเป็นโมฆะ: ต้องมากกว่าหรือเท่ากับ %s และน้อยกว่าหรือเท่ากับ %s";
+"Invalid value: must be less than or equal to %s." = "ค่าเป็นโมฆะ: ต้องน้อยกว่าหรือเท่ากับ %s";
+"The value entered does not match the format of the field [%s]" = "ค่าที่ใส่ไม่ตรงกับฟอร์แมตของช่อง[%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "วัน/เวลาไม่ถูกต้อง กรุณาตรวจสอบวัน/เวลาที่ปรากฎอยู่ ช่อง[%s]ควรตรงกับฟอร์แมต%s";
+
+// General validation
+"Invalid value [%s]" = "ค่าไม่ถูกต้อง[%s]";
+
+// Gallery
+"Connection Error" = "ข้อผิดพลาดในการเชื่อมต่อ";
+"Unsupported Content" = "เนื้อหาที่ไม่รองรับ";
+"The specified content cannot be displayed." = "ไม่สามารถแสดงเนื้อหาที่ระบุไว้";
+"Something went wrong" = "เกิดปัญหาขึ้น";
+"This item is currently unavailable." = "ไอเท็มนี้ไม่มีให้เลือกในขณะนี้";
+"The information for this gallery could not be loaded." = "โหลดข้อมูลสำหรับอัลบั้มภาพนี้ไม่ได้";
+"Content Error" = "ข้อผิดพลาดทางเนื้อหา";
+"This content is unsupported." = "ไม่รองรับเนื้อหานี้";
+
+// Signatures
+"Digital Signature" = "ลายเซ็นดิจิตอล";
+"Signature is valid." = "ลายเซ็นมีผลบังคับใช้";
+"Signature is valid, but there are some warnings." = "ลายเซ็นมีผลบังคับ แต่มีคำเตือน";
+"It was signed by %@ on %@ at %@." = "ลงชื่อโดย %@ เมื่อวันที่ %@ เวลา %@ น."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "เซ็นเมื่อวันที่ %@ เวลา %@ น.";
+"It claims to have been signed by %@ on %@ at %@." = "อ้างว่าเซ็นชื่อโดย %@ เมื่อวันที่ %@ เวลา %@ น."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "อ้างว่าเซ็นชื่อเมื่อวันที่ %@ เวลา %@ น.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "เวอร์ชั่นที่ได้รับลายเซ็นนี้ไม่ได้ถูกแก้ไข อย่างไรก็ตามมีการเปลี่ยนแปลงเกิดขึ้นกับเอกสารนี้หลังจากที่ลงลายเซ็น"; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "ลายเซ็นนี้มีผลบังคับ และเนื้อหาของเอกสารนี้ไม่ได้ถูกแก้ไขหลังจากที่ลงลายเซ็น";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "ลายเซ็นเป็นโมฆะ — ตั้งแต่ที่เซ็นชื่อรับรองเนื้อหา เอกสารนี้ถูกเปลี่ยนแปลง สอดแทรก หรือทำลายเสียหาย";
+"Unsigned Signature Field" = "ช่องลายเซ็นที่ยังไม่ได้เซ็นชื่อ";
+"Do you really want to remove the signature from the document?" = "คุณต้องการลบลายเซ็นออกจากเอกสารจริง ๆ หรือ?";
+"Could not retrieve the certificate from the signature." = "ไม่สามารถกู้ใบรับรองจากลายเซ็นนี้ได้";
+"Could not retrieve the signature contents." = "ไม่สามารถกู้คอนเทนต์ของลายเซ็นนี้ได้";
+"Could not retrieve the public key from the signature." = "ไม่สามารถกูกุญแจสาธารณะจากลายเซ็นนี้ได้";
+"Could not retrieve the byte range of the signature." = "ไม่สามารถกู้ไบท์เรนจ์ของลายเซ็นนี้ได้";
+"Could not understand the encryption padding." = "ไม่สามารถเข้าใจการเติมการเข้ารหัสที่เพิ่มขึ้นมา";
+"Could not compute the digest for the document." = "ไม่สามารถคำนวนไดเจสต์สำหรับเอกสารนี้ได้";
+"General failure while trying to determine document integrity." = "เกิดข้อผิดพลาดทั่วไปขึ้นระหว่างการตรวจสอบความถูกต้องของเอกสาร";
+"Certificate chain is invalid." = "สายการรับรองไม่ถูกต้อง";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "ไม่สามารถตรวจสอบสายการรับรองเนื่องจากไม่มีกุญแจที่เชื่อถือได้";
+"Document integrity success, but certificate is self signed." = "ใบรับรองที่ลงชื่อด้วยตนเอง";
+"Document integrity check failed." = "ทำการตรวจสอบความถูกต้องของเอกสารไม่สำเร็จ";
+"The signing certificate is not trusted." = "ใบรับรองที่เซ็นกำกับนั้นไม่น่าเชื่อถือ";
+"unknown time" = "ไม่ทราบเวลา";
+"unknown date" = "ไม่ทราบวันที่";
+"Digitally signed by {}" = "ซึ่งลงนามแบบดิจิตอลโดย {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "วันที่";
+"Reason: " = "เหตุผล";
+"Location: " = "สถานที่";
+"Certificate" = "ใบรับรอง";
+"No Certificate" = "ไม่มีใบรับรอง";
+"No Certificates" = "ไม่มีใบรับรอง";
+"Store Signature" = "เก็บลายเซ็น";
+"Add Trusted Certificate" = "เพิ่มใบรับรองที่เชื่อถือได้";
+"Add Signer" = "เพิ่มผู้ลงนาม";
+"Added Trusted Certificate" = "ใบรับรองที่เชื่อถือได้ที่เพิ่มเข้ามา";
+"Added Signer" = "ผู้ลงนามที่เพิ่มแล้ว";
+"File doesn't match any certificate type" = "ไฟล์ไม่ตรงกับประเภทใบรับรอง";
+"Import Failed" = "นำเข้าไม่สำเร็จ";
+"Signature Area" = "ที่ลงลายเซ็น";
+"Draw Signature Area" = "วาดที่สำหรับลงลายเซ็น";
+
+// Signature Errors
+"Could not init PKCS7 object" = "ไม่สามารถเริ่มต้น PKCS7";
+"Could not find signature" = "ไม่พบลายเซ็น";
+"Could not hash the PDF document" = "ไม่สามารถแฮชเอกสาร PDF";
+"Could not create padding for the digital signature" = "ไม่สามารถกำหนดระยะห่างแพดดิงสำหรับลายเซ็นดิจิตัล";
+"Could not verify the signature" = "ไม่สามารถตรวจสอบลายเซ็น";
+"Could not save the signed document" = "ไม่สามารถบันทึกเอกสารที่ลงนามแล้ว";
+"Cannot sign attributes" = "ไม่สามารถเซ็นชื่อผู้เป็นเจ้าของ";
+"The selected subfilter type for the signature is not supported" = "ไม่รองรับประเภทของซับฟิลเตอร์ที่เลือกไว้สำหรับลายเซ็น";
+"Could not add signature to PKCS7 object" = "ไม่สามารถเพิ่มลายเซ็นให้กับ PKCS7";
+"Could not write PKCS7 signature" = "ไม่สามารถเขียนลายเซ็น PKCS7";
+"Could not create PKCS7 object" = "ไม่สามารถสร้าง PKCS7";
+"Could not generate PKCS7 object" = "ไม่สามารถสร้าง PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "ไม่สามารถลงนามในเอกสารเพราะได้ทำไปแล้ว";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "ไม่สามารถอ่านข้อมูลใบรับรองในฐานะใบรับรอง PKCS#7 ได้ อย่างไรก็ตามสามารถส่งออกข้อมูลของรูปแบบที่ถูกต้องด้วย Adobe Acrobat"; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "ไม่สามารถถอดรหัสลายเซ็นของใบรับรอง";
+"The public key in the certificate could not be read." = "อ่านกุญแจสาธารณะในใบรับรองไม่ได้";
+"The signature of the certificate is not valid." = "ลายเซ็นของใบรับรองเป็นโมฆะ";
+"Signature is not valid." = "ลายเซ็นเป็นโมฆะ";
+"There is a format error in the notBefore field of the certificate." = "มีข้อผิดพลาดทางรูปแบบในช่อง notBefore ของใบรับรอง"; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "มีข้อผิดพลาดทางรูปแบบในช่อง notAfter ของใบรับรอง"; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "ไม่สามารถพิสูจน์ลายเซ็นใดได้ เพราะสายใบรับรองประกอบด้วยใบรับรองเพียงฉบับเดียว ซึ่งไม่ได้เซ็นรับรองเอง และ issuer ไม่น่าเชื่อถือ";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "ใบรับรองจาก CA เป็นโมฆะเพราะไม่ใช่ CA หรือมีนามสกุลที่ไม่สอดคล้องกับจุดประสงค์ที่ตั้งไว้"; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "ค่าของตัวแปร basicConstraints pathlength มากเกิน"; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "root CA ไม่ได้รับการบันทึกว่าเชื่อถือได้สำหรับจุดประสงค์ที่ตั้งไว้"; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "root CA ถูกกำหนดให้ปฏิเสธจุดประสงค์ที่ระบุ"; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "issuer certificate ถูกปฏิเสธเพราะ subject name ไม่ตรงกับ issuer name ของใบรับรองปัจจุบัน"; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "issuer certificate ถูกปฏิเสธเพราะ subject key identifier ไม่ตรงกับ authority key identifier ของใบรับรองปัจจุบัน"; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "issuer certificate ถูกปฏิเสธเพราะ issuer name และ serial number ไม่ตรงกับ authority key identifier ของใบรับรองปัจจุบัน"; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "issuer ปฏิเสธใบรับรอง";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "ใบรับรองที่ได้รับเป็นแบบเซ็นด้วยตนเอง และไม่พบใบรับรองดังกล่าวในรายการของใบรับรองที่เชื่อถือได้";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "ใบรับรองที่เซ็นด้วยตนเองมีอยู่ในสายใบรับรอง สามารถสร้างสายใบรับรองนี้ได้สำเร็จโดยใช้ใบรับรองที่เชื่อถือไม่ได้ แต่หา root CA ในเครื่องในเครือข่ายท้องถิ่นไม่พบ"; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "ไม่พบใบรับรองสำหรับผู้ออกใบรับรอง (CA) รายหนึ่งในลำดับขั้นการลงลายเซ็น และแอพพลิเคชั่นในเครื่องไม่เชื่อถือ CA รายนั้น"; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "ไม่พบ issuer certificate ของใบรับรองที่ค้นหาไปในเครื่องที่อยู่ในเครือข่ายท้องถิ่น ปกติแล้วจะหมายความว่ารายชื่อของใบรับรองที่เชื่อถือได้นั้นยังไม่สมบูรณ์";
+"The certificate that was provided cannot be used for its intended purpose." = "ไม่สามารถใช้ใบรับรองที่มีให้สำหรับจุดประสงค์ที่ตั้งไว้";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "นามสกุลของ keyUsage ของ issuer certificate ไม่อนุญาตให้มีการลงชื่อใบรับรอง";
+"The certificate has expired." = "ใบรับรองหมดอายุ";
+"The certificate is not valid until a date in the future." = "ใบรับรองไม่มีผลบังคับใช้จนกว่าวันที่นั้นจะมาถึง";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "ไม่สามารถอ่านใบรับรอง X509 จากข้อมูล";
+// X509 should not be translated
+"No X509 certificate found" = "ไม่พบใบรับรอง X509";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "อ่านไฟล์ PKCS12 ไม่ได้ รูปแบบของไฟล์ไม่ถูกต้องหรือเสียหาย";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "ไม่สามารถปลดล็อกข้อมูล PKCS12 คุณกรอกรหัสผ่านถูกต้องหรือไม่?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "ไม่สามารถถอดรหัสข้อมูล PKCS ข้อมูลอาจไม่สมบูรณ์หรือไม่ใช่ระบบเดียวกัน";
+"Could not unlock PKCS12 data." = "ไม่สามารถปลดล็อกข้อมูล PKCS 12";
+"Could not add signature." = "ไม่สามารถเพิ่มลายเซ็นได้";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "ไม่สามารถเปิดไฟล์เพื่อทำการตรวจสอบลายเซ็นได้";
+"Could not get signer info" = "ไม่สามารถหาข้อมูลผู้ลงลายเซ็นได้";
+
+// Night Mode
+"Default" = "เริ่มต้น"; // Default view (night mode not enabled)
+"Sepia" = "ซีเปีย"; // Document uses sepia colors
+"Night" = "กลางคืน"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "ยังไม่ได้เลือกเอกสาร";
+"Unable to display document" = "ไม่สามารถแสดงเอกสาร";
+"Locked" = "ถูกล็อค";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "ไฟล์ที่คุณพยายามจะเข้าใช้ไม่ใช่ไฟล์ PDF หรืออาจเสียหาย";
+"A password is required to access this document." = "ต้องกรอกรหัสผ่านเพื่อเข้าสู่เอกสารนี้";
+"The security scheme of this document is currently not supported." = "ขณะนี้โปรแกรมไม่รองรับแผนรักษาความปลอดภัยของเอกสารนี้";
+"An unknown error has occured while trying to open this file." = "มีข้อผิดพลาดเกิดขึ้นในขณะที่พยายามจะเปิดไฟล์นี้";
+
+// Document Editor
+"Document Editor" = "โปรแกรมแก้ไขเอกสาร";
+"Add Page" = "เพิ่มหน้า";
+"Delete Pages" = "ลบหน้า";
+"Duplicate Pages" = "ทำหน้าซ้ำ";
+"Move Pages" = "เลื่อนหน้า";
+"Rotate Pages" = "หมุนหน้า";
+"Page Size" = "ขนาดของหน้า";
+"Background Color" = "สีพื้นหลัง";
+"Paper" = "กระดาษ";
+"Pattern" = "องค์ประกอบของฟอร์ม";
+"Use Document Size" = "ใช้ขนาดของเอกสาร";
+"Orientation" = "ทิศทางกระดาษ";
+"Portrait" = "แนวตั้ง";
+"Landscape" = "แนวนอน";
+"Document Name" = "ชื่อเอกสาร";
+"Documents" = "เอกสาร"; // Name of directory
+"Use Document Folder" = "ใช้โฟลเดอร์ของเอกสาร";
+"Folder" = "โฟลเดอร์";
+"Replace File?" = "แทนที่ไฟล์?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "มีไฟล์ชื่อ “%@” ในปลายทางที่เลือกแล้ว คุณต้องการบันทึกแทนที่ไฟล์นั้นหรือไม่?";
+"Replace" = "แทนที่";
+"Saving…" = "กำลังบันทึก…";
+"Saved" = "บันทึกแล้ว";
+"Save As…" = "บันทึกเป็น…";
+"Discard Changes" = "ยกเลิกการเปลี่ยนแปลง";
+"Empty" = "เป็นโมฆะ";
+"Use Image Size" = "ใช้ขนาดของรูป";
+"Page Background" = "พื้นหลังของหน้า";
+"Insert image annotation" = "ใส่โน้ตรูปภาพ";
+"Import page background" = "นำเข้าพื้นหลังของหน้า";
+"Quality" = "คุณภาพ";
+"Low" = "น้อย";
+"Medium" = "กลาง";
+"High" = "มาก";
+"Best" = "ดีที่สุด";
+"Copy Pages" = "คัดลอกหน้า";
+"Paste Pages" = "วางแปะหน้า";
+"Copied" = "คัดลอกแล้ว";
+"“%@” has unsaved changes. Do you want to save them now?" = "ยังไม่ได้บันทึกการเปลี่ยนแปลงของ “%@”  คุณต้องการบันทึกในขณะนี้เลยหรือไม่";
+"Select Source Document" = "เลือกเอกสารต้นฉบับ";
+"Add After Page %tu" = "เพิ่มหลังจากหน้า %tu";
+"Cut Pages" = "ตัดหน้า";
+"Import Document" = "นำเข้าเอกสาร";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "ใช้โฟลเดอร์ที่เลือกไว้";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "เลือกโฟลเดอร์";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "เลือกทุกหน้า";
+
+// Document Editor Errors
+"A blank document can not be saved." = "ไม่สามารถบันทึกเอกสารที่ว่างเปล่าได้”";
+"The document could not be saved." = "บันทึกเอกสารนี้ไม่ได้";
+"This document does not support editing." = "เอกสารนี้ไม่รองรับการแก้ไขปรับแต่ง";
+"The document could not be accessed." = "ไม่สามารถเข้าถึงเอกสารได้";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "ครั้งนี้ไม่สามารถนำเข้า PDF";
+"The image could not be imported at this time." = "ครั้งนี้ไม่สามารถนำเข้ารูปภาพ";
+
+// Page Patterns
+"None" = "ไม่มีเลย";
+"Dot5mm" = "จุด 5 มิลลิเมตร";
+"Grid5mm" = "ตาราง 5 มิลลิเมตร";
+"Lines5mm" = "บรรทัด 5 มิลลิเมตร";
+"Lines7mm" = "บรรทัด 7 มิลลิเมตร";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "ส่งหน้าออก";
+"Export…" = "ส่งออก…";
+"Exporting…" = "กำลังส่งออก…";
+"Exported" = "ส่งออกแล้ว";
+"%@ - Exported" = "ส่งออก - %@"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "สำเนาคัดลอก - %@"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "เอกสารที่เลือกไว้กำลังเปิดอยู่ กรุณาเลือกชื่อไฟล์อื่น";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "ยังไม่มีบริการอ่านออกเสียง ตรวจดูว่าคุณเชื่อมต่อเข้ากับอินเตอร์เน็ตอยู่หรือได้ติดตั้งและเปิดใช้งานบริการอ่านออกเสียงของ Google ในอุปกรณ์ของคุณ";
+
+// Settings
+"Page Layout" = "การกำหนดเลย์เอาท์";
+"Scroll Direction" = "ทิศทางการเลื่อนหน้า";
+"Theme" = "ธีม";
+"Keep screen on" = "ไม่ให้จอล็อกอัตโนมัติ";
+"Page Transition" = "การเปลี่ยนหน้า";
+"Single" = "เดี่ยว";
+"Continuous" = "ต่อเนื่อง";
+"Curl" = "ม้วน";
+"Scroll" = "เลื่อนหน้าจอ";
+"Horizontal" = "แนวขวาง";
+"Vertical" = "แนวตั้ง";
+"Page Mode" = "โหมดแสดงหน้า";
+"Automatic" = "อัตโนมัติ";
+"Double" = "สองหน้า";
+"Appearance" = "ปรากฎขึ้น";
+"Scrubber Bar" = "แท็บเลื่อน";
+"Jump" = "กระโดด"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "ไม่สามารถใช้งานได้"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "การแสดงหน้า";
+"Fit" = "เต็มหน้าจอ";
+"Fill" = "เพิ่ม";
+"Adaptive" = "ที่ปรับแต่ง";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ ไม่ได้รับสิทธิให้เข้าถึงรูปถ่ายของคุณ";
+"%@ does not have access to your camera." = "%@ ไม่ได้รับสิทธิให้เข้าถึงกล้องของคุณ";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "การตั้งค่าความเป็นส่วนตัว";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "คุณสามารถเข้าไปยัง %@ ได้";
+
+"Update Required" = "จำเป็นต้องอัพเดต";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "จำเป็นต้องอัพเดต %@ เพื่อเข้าสู่เอกสารและเพื่อซิงค์หมายเหตุ";
+
+
+// Annotation Replies
+"Comment" = "ความคิดเห็น";
+"Comments" = "ความคิดเห็น";
+"Add your comment…" = "เพิ่มความคิดเห็นของคุณ…";
+"Delete Comment" = "ลดความคิดเห็น";
+"Set Status" = "ตั้งค่าสถานะ";
+"Cancelled" = "ยกเลิกแล้ว";
+"Accepted by" = "ยอมรับโดย";
+"Rejected by" = "ปฏิเสธโดย";
+"Completed by" = "ทำเสร็จโดย";
+"Cancelled by" = "ยกเลิกโดย";
+
+// Note Annotation Icon Types
+"Right Pointer" = "พอยเตอร์ขวา";
+"Right Arrow" = "ลูกศรขวา";
+"Checkmark" = "เครื่องหมายถูก";
+"Circle Note" = "วงกลม";
+"Cross" = "กากบาท";
+"Insert Text" = "ใส่ข้อความ";
+"New Paragraph" = "ย่อหน้าใหม่";
+"Text Note" = "โน้ตข้อความ";
+"Paragraph" = "ย่อหน้า";
+"Help" = "ความช่วยเหลือ";
+"Star" = "ดอกจันทร์";
+"Key" = "กุญแจ";
+
+// PSPDFKit Web Strings
+"Light Blue" = "ฟ้าอ่อน";
+"Light Red" = "แดงอ่อน";
+"Light Green" = "เขียวอ่อน";
+"Fuchsia" = "ชมพูบานเย็น";
+"Page %tu of %tu" = "หน้า %tu จาก %tu";
+"Preparing document for printing…" = "กำลังเตรียมเอกสารเพื่อพิมพ์";
+"Are you sure you want to delete this annotation?" = "คุณแน่ใจหรือไม่ว่าต้องการลบโน้ตนี้";
+"Confirm annotation deletion" = "ยืนยันการลบโน้ต";
+"Page Rotation" = "การหมุนหน้า";
+"Rotate Left" = "หมุนซ้าย";
+"Rotate Right" = "หมุนขวา";
+"%@ (not supported)" = "%@ (ไม่รองรับ)";
+"Pan Mode" = "โหมดแพน";
+"Fit Page" = "ขนาดตามหน้า";
+"Fit Width" = "ขนาดตามความกว้าง";
+"Password Required" = "จำเป็นต้องมีพาสเวิร์ด";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "คุณต้องปลดล็อกเอกสารนี้เพื่อจะเปิดดู โปรดใส่พาสเวิร์ดในช่องด้านล่างนี้";
+"The password you entered is not correct. Please try again." = "พาสเวิร์ดที่คุณใส่ไม่ถูกต้อง โปรดลองอีกครั้งหนึ่ง";
+"Clear Signature" = "ลบลายเซ็น";
+"Top" = "บน";
+"Bottom" = "ล่าง";
+"Vertical Alignment" = "การวางแนวขวาง";
+"Horizontal Alignment" = "ม่วงอ่อน";
+"Light Orange" = "ส้มอ่อน";
+"Light Yellow" = "เหลืองอ่อน";
+"Mauve" = "ม่วงซีด";
+"Light Gray" = "เทาอ่อน";
+"Dark Gray" = "เทาเข้ม";
+"NoColor" = "ไม่มี";
+"Transparent" = "โปร่งใส";
+// Generic label for bookmark
+"Bookmark" = "ที่คั่นหน้า";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "ที่คั่นหน้าใหม่";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "คุณแน่ใจหรือไม่ว่าต้องการลบที่คั่นหน้านี้";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "ยืนยันการยกเลิกที่คั่นหน้า";
+// Label for the select image field
+"Select Image" = "เลือกรูปภาพ";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "เครื่องมือ %@, เมนูเปิดปิด";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "%@ ไม่รองรับสำหรับการเพิ่มโน้ตรูปภาพ โปรดใช้ JPEG หรือ PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "ซูมบริเวณที่เลือก";
+"Toolbar_TextHighlighter" = "ปากกาไฮไลท์ข้อความ";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "แถบเครื่องมือทำโน้ตมาร์กอัพ";
+// Region of the application where the PDF document is shown
+"Document viewport" = "จุดชมวิวเอกสาร";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "กำลังทำการแก้ไข";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "ระบุว่าเอกสารนี้มีการแก้ไข";
+"Icon" = "ไอคอน";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "ย้าย";
+// The instruction/prompt shown on the Move UI
+"movePage" = "ย้ายไปยังหน้าที่";
+// The label of the button on the Move UI
+"move" = "ย้าย";
+"selectedItem" = "%@,  ที่เลือก";
+"annotationDeleted" = "โน้ตที่ลบแล้ว";
+"newAnnotationCreated" = "%@ โน้ตใหม่ที่สร้างแล้ว";
+"bookmarkCreated" = "ที่คั่นหน้าที่สร้างไว้";
+"bookmarkEdited" = "ที่คั่นหน้าที่แก้ไข";
+"bookmarkDeleted" = "ที่คั่นหน้าที่ลบแล้ว";
+"cancelledEditingBookmark" = "การแก้ไขที่คั่นหน้าที่ยกเลิก";
+"selectAFileForImage" = "เลือกไฟล์สำหรับการทำโน้ตรูปภาพใหม่";
+"deleteAnnotationConfirmAccessibilityDescription" = "บทสนทนาที่ให้คุณยืนยันหรือยกเลิกการลบโน้ต";
+"deleteBookmarkConfirmAccessibilityDescription" = "บทสนทนาที่ให้คุณยืนยันหรือยกเลิกการลบที่คั่นหน้า";
+"deleteCommentConfirmAccessibilityDescription" = "บทสนทนาที่ให้คุณยืนยันหรือยกเลิกการลบคอมเมนท์";
+"resize" = "ปรับขนาด";
+"resizeHandleTop" = "บน";
+"resizeHandleBottom" = "ล่าง";
+"resizeHandleRight" = "ขวา";
+"resizeHandleLeft" = "ซ้าย";
+"cropCurrentPage" = "ครอบตัดหน้าปัจจุบัน";
+"cropCurrent" = "ครอบตัดปัจจุบัน";
+"cropAllPages" = "ครอบตัดทั้งหน้า";
+"cropAll" = "ครอบตัดทั้งหมด";
+"documentCrop" = "ครอบตัดเอกสาร";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "แทรกหลังจากหน้า";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "พิมพ์ “0” เพื่อย้ายหน้าที่เลือกไปยังจุดเริ่มต้นของเอกสาร";
+
+// Blend Mode Strings
+"Normal" = "ปกติ";
+"Multiply" = "การคูณ";
+"ScreenBlend" = "หน้าจอ";
+"Overlay" = "Overlay";
+"Darken" = "Darken";
+"Lighten" = "Lighten";
+"ColorDodge" = "Color Dodge";
+"ColorBurn" = "Color Burn";
+"HardLight" = "Hard Light";
+"SoftLight" = "Soft Light";
+"Difference" = "Difference";
+"Exclusion" = "Exclusion";
+"Multiple" = "หลายโหมด";
+"Blend Mode" = "โหมดผสาน";
+
+// Image Document Strings
+"File type not supported." = "ไม่ซัพพอร์ตชนิดของไฟล์";
+"Could not load image file." = "ไม่สามารถโหลดไฟล์รูปภาพได้";
+"The image is too large to be opened." = "รูปภาพใหญ่เกินไปจึงเปิดไม่ได้";
+"Could not generate a PDF document from the image." = "ไม่สามารถสร้างเอกสาร PDF จากรูปได้";
+"Unnamed Image Document" = "เอกสารรูปภาพที่ไม่มีชื่อ";
+"Annotations will remain editable and are embedded into the image." = "โน้ตจะยังสามารถแก้ไขได้และถูกฝังลงในรูปภาพ";
+"Annotations are drawn into the image and are readonly." = "โน้ตที่ฝังอยู่ในรูปภาพ และเป็นโหมดอ่านอย่างเดียว";
+
+//Metadata Strings
+"Document Info" = "ข้อมูลเอกสาร";
+"Content" = "เนื้อหา";
+"Title" = "ชื่อ";
+"Author" = "ผู้เขียน";
+"Subject" = "เรื่อง";
+"Keywords" = "คำสำคัญ";
+"Not Set" = "ไม่ได้ตั้งค่า";
+"NoneValue" = "ไม่มีเลย";
+"Security" = "ความปลอดภัย";
+"Document Open Password" = "รหัสผ่านเปิดเอกสาร";
+"Not set, minimum 8 characters" = "ไม่ได้ตั้งค่า น้อยสุด 8 อักขระ";
+"Permissions" = "การอนุญาต";
+"Changes" = "การเปลี่ยนแปลง";
+"Printing" = "การพิมพ์";
+"Content Copying for Accessibility" = "การคัดลอกเนื้อหาสำหรับการเข้าถึง";
+"Content Modification" = "การปรับเปลี่ยนเนื้อหา";
+"High Quality Printing" = "พิมพ์แบบคุณภาพสูง";
+"Filling of Form Fields" = "กรอกในช่องของฟอร์ม";
+"Document Assembly" = "ผสานเอกสาร";
+"Annotations and Forms" = "โน้ตและฟอร์ม";
+"Content Copying" = "การคัดลอกเนื้อหา";
+"Number of Pages" = "จำนวนหน้า";
+"File Size" = "ขนาดของไฟล์";
+"CreationDate" = "สร้างขึ้น";
+"ModDate" = "ที่แก้ไขแล้ว";
+"Creator" = "ผู้สร้าง";
+"Producer" = "ผู้สร้าง PDF";
+"Info" = "ข้อมูล";
+"Tap the Edit button to show all metadata fields." = "แตะที่ปุ่มแก้ไขเพื่อจะดูรายละเอียดข้อมูลทั้งหมด";
+"Document Owner Password" = "รหัสผ่านเจ้าของเอกสาร";
+"Changes Are Locked" = "การเปลี่ยนแปลงถูกล็อก";
+"Enter the Document Owner Password to make changes." = "ใส่รหัสผ่านของเจ้าของเอกสารเพื่อแก้ไข";
+"Incorrect Password" = "รหัสผ่านไม่ถูกต้อง";
+"Passwords" = "รหัสผ่าน";
+"Modifying Content" = "การแก้ไขเนื้อหา";
+"Editing Annotations and Forms" = "แก้ไขโน้ตและฟอร์ม";
+"Filling Forms" = "กรอกฟอร์ม";
+"Copying Content" = "กำลังคัดลอกเนื้อหา";
+"Copying Content for Accessibility" = "การคัดลอกเนื้อหาสำหรับการเข้าถึง";
+"Could Not Save" = "สามารถบันทึกได้";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "เมื่อกำหนดรหัสเปิดเอกสาร จำเป็นต้องมีรหัสผ่านเพื่อเปิดเอกสาร";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "ไฟล์พาธ";
+"Identical Passwords" = "รหัสผ่านตรงกัน";
+"Choose a different Owner or Open password." = "เลือกรหัสผ่านของเจ้าของสิทธิ หรือรหัสผ่านอื่นเพื่อเปิดเอกสาร";
+"Owner Password Required" = "จำเป็นต้องมีรหัสผ่านของเจ้าของ";
+"An owner password is required to change the permissions of a document." = "ต้องมีรหัสผ่านของผู้เป็นเจ้าของเพื่อเปลี่ยนสิทธิการใช้งานเอกสาร";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "ผู้อ่าน PDF อาจตั้งค่ากำหนดข้อจำกัดการแก้ไขเอกสาร แต่ว่าจะไม่มีผลในแอ็พนี้";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "ที่เลือกไว้ %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "ที่เลือกไว้ %@ ด้วย %@ เป็นคอนเทนต์";
+// Accessibility string for comment threads
+"commentThread" = "หัวข้อคอมเม้นท์";
+"printProgressModalDesc" = "ระบุว่าเอกสารนี้กำลังถูกเตรียมเพื่อพิมพ์";
+"printProgressModal" = "กำลังพิมพ์";
+"documentEditorDesc" = "ทำการเปลี่ยนแปลงในเอกสารปัจจุบัน";
+"reloadDocumentDialog" = "ยืนยันการรีโหลดเอกสาร";
+"reloadDocumentDialogDesc" = "เพื่อเตรียมพร้อมผู้ใช้งานให้ยืนยันการรีโหลดเอกสาร";
+"signatureDialog" = "ลายเซ็น";
+"signatureDialogDesc" = "เพื่อให้คุณเลือกหมึกของลายเซ็นที่จะใส่ในเอกสาร หากคุณไม่ได้ทำลายเซ็นเก็บไว้ คุณสามารถสร้างขึ้นใหม่ได้ที่ช่องวาดรูป";
+"stampAnnotationTemplatesDialog" = "เทมเพล็ตแสตมป์โน้ต";
+"stampAnnotationTemplatesDialogDesc" = "เพื่อให้คุณเลือกเทมเพล็ตของแสตมป์โน้ตที่จะใส่ลงในเอกสาร หรือคุณสามารถสร้างแสตป์โน้ตด้วยข้อความของคุณเอง";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "การเขียนโน้ต";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "เครื่องหมายการเขียนโน้ต";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "การเขียนโน้ตที่ใช้งาน";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "สีของเส้นขอบ";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "ข้อความที่ซ้อนทับ";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "ข้อความซ้ำ";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "สีของข้อความ";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "ข้อมูลการเขียนโน้ต";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "เอกสารนี้มีโน้ตที่เขียนไว้ คุณต้องการใช้โน้ตหรือไม่";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "ใช้งาน";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "การเขียนโน้ตคือขั้นตอนสองขั้นตอน ขั้นแรกคือการทำเครื่องหมายเพื่อเลือกบริเวณที่จะเขียนโน้ต เพื่อที่จะลบเนื้อหาแบบที่ไม่สามารถย้อนกลับได้ ให้แตะที่ปุ่ม ▵ สีแดงที่อยู่มุมขวาด้านล่าง และจึงเขียนโน้ต";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "ทำการแก้ไข";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "ล้างการแก้ไข";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "เปิดใช้งานพรีวิวการแก้ไข";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "เลิกใช้งานพรีวิวการแก้ไข";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "เมื่อดำเนินการแก้ไขจะลบข้อมูลอย่างถาวรและไม่สามารถย้อนกลับได้";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "บันทึกไฟล์ใหม่";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "แก้ไขเอกสารนี้";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "กำลังแก้ไข…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "ไม่สามารถแก้ไขเอกสารได้";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "ส่วนที่ทำเครื่องหมายเพื่อการแก้ไขจะถูกลบออกไปเมื่อทำการบันทึกเอกสาร คุณแน่ใจหรือไม่ว่าจะดำเนินการต่อ";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "ซ่อนข้อมูลในเอกสารนี้";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "บันทึกเอกสารที่ทำการซ่อนข้อมูลเป็น";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - ซ่อนข้อมูลแล้ว";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "พื้นที่เขียนโน้ต";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "การเขียนโน้ตข้อความ";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "กำลังใช้การเขียนโน้ต";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "กำลังลงลายมือ";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "ระบุว่าเอกสารนี้ถูกลงลายมือ";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "แทรกข้อความ";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "กู้คืนไฟล์";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "ไม่พบไฟล์";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "มีการเปลี่ยนแปลงใน ’%@‘ นอกแอพพลิเคชั่น คุณต้องการปิดเอกสารหรือกู้ไฟล์?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "ไฟล์มีปัญหา";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "มีการเปลี่ยนแปลงใน ’%@‘ นอกแอพพลิเคชั่น เมื่อสั่งบันทึกข้อมูลการเปลี่ยนแปลงนั้นจะถูกบันทึกทับ";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "บันทึกการเปลี่ยนแปลง";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "แตะเพื่อโหลดสื่อ";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "สื่อสำหรับโน้ตนี้ไม่สามารถโหลดได้เนื่องจากปัญหาการเชื่อมต่อ โปรดลองอีกครั้งหนึ่ง";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "แตะเพื่อโหลดสื่ออีกครั้ง";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "ไม่พบสื่อสำหรับโน้ตนี้ หากยังคงพบข้อความนี้หลังจากที่มีการซิงก์เอกสารแล้ว โปรดรายงานปัญหาดังกล่าวรวมทั้งข้อมูลต่อไปนี้  %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "แตะเพื่อยกเลิกดาวน์โหลด";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "เกิดข้อผิดพลาดขึ้นในขณะที่กำลังโหลดสื่อ ข้อผิดพลาดคือ %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "ลิงก์ไปยังหน้า";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "ลิงก์กับเว็บไซต์";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "หมายเลขหน้า";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "หน้าที่เลือกไว้";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "วางจากคลิปบอร์ด";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "พรีวิวเว็บไซต์";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "ที่อยู่เว็บไซต์";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "ย้อนกลับ";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "ไปข้างหน้า";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "พาเลต";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "ที่เพิ่งใช้เร็วๆ นี้";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "พาเลตสีดั้งเดิม";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "ความหลากหลายของสี";
+// Custom color value for HSL color picking: Hue
+"Hue" = "ค่าสีสัน";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "ความสดของสี";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "ความสว่าง";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "โค้ดสีฐานเลขสิบหก";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "ไม่มีสีตามค่าที่กำหนด";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "วางจากคลิปบอร์ด";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "เข้าเล่ม";
+// Text shown when left edge binding is selected.
+"Left Edge" = "ขอบซ้าย";
+// Text shown when right edge binding is selected.
+"Right Edge" = "ขอบขวา";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "ไม่รู้จัก";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "ซ้าย";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "ขวา";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "ลำดับ";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "ด้านบน";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "ไปข้างหน้า";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "ไปข้างหลัง";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "ย้อนกลับ";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "ทำสำเนา";
+"DocumentEditor_Extract" = "แยกออก";
+"General_SelectNone" = "ไม่เลือก";
+"DocumentEditor_NewPage" = "หน้าใหม่";
+"DocumentEditor_InstantModifiedWarning" = "เอกสารมีการเปลี่ยนแปลง จึงเปิดเอกสารในโหมดสำหรับอ่านเท่านั้น โหลดใหม่อีกครั้งเพื่อแก้ไข";
+"DocumentEditor_MoveBefore" = "เลื่อนไปหน้า";
+"DocumentEditor_MoveAfter" = "เลื่อนไปหลัง";
+"DocumentEditor_DocumentMergedHere" = "จะรวมเอกสารที่นี่";
+
+// Android Strings
+"FileSystemPermission" = "ดูเหมือนว่าคุณได้ปฏิเสธคำอนุญาตให้แอพนี้เข้าถึงระบบไฟล์ เพื่อที่จะดูและเปิดไฟล์ PDF ที่เก็บไว้ในอุปกรณ์ของคุณ คุณต้องให้อนุญาตระบบไฟล์ที่การตั้งค่าแอ็พ";
+"Button_OpenSettings" = "เปิดหน้าการตั้งค่า";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "แสดงเพิ่ม";
+// Button to show less comments
+"Comments_ShowLess" = "แสดงผลย่อ";
+// Button to reply to a comment
+"Comments_Reply" = "ตอบ";
+// Button to show all comments
+"Comments_ShowAll" = "แสดงทั้งหมด";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "คุณแน่ใจหรือไม่ที่จะลบคอมเม้นท์นี้";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "ยืนยันการลบคอมเม้นท์";
+// Verb for Comment
+"Comment_Action" = "ให้ความเห็น";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แล้วและทุกลายเซ็นถูกต้อง";
+"DigitalSignatures_DocModified" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แล้วแต่มีการแก้ไขเมื่อเซ็นชื่อ";
+"DigitalSignatures_SignatureWarning" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แล้วแต่มีหนึ่งลายเซ็นที่มีปัญหา";
+"DigitalSignatures_SignatureWarningDocModified" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แล้วแต่มีการแก้ไขเมื่อเซ็นชื่อ และมีอย่างน้อยหนึ่งลายเซ็นที่มีปัญหา";
+"DigitalSignatures_SignatureError" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แต่อย่างน้อยมีหนึ่งลายมือชื่อที่ไม่ถูกต้อง";
+"DigitalSignatures_SignatureErrorDocModified" = "มีการลงลายมือชื่อดิจิทัลในเอกสารนี้แล้วแต่มีการแก้ไขเมื่อเซ็นชื่อ อย่างน้อยมีหนึ่งลายเซ็นที่ไม่ถูกต้อง";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "เริ่มบันทึกไม่ได้";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "หยุดการบันทึกไม่ได้";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "วางหน้าไม่ได้";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "ไม่สามารถขอใบรับรองที่ลงนามได้";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "ลงนามเอกสารไม่ได้";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "มีข้อผิดพลาดเกิดขึ้นในขณะที่พยายามจะเปิดไฟล์นี้";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "เปิดเพื่ออ่าน";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "วาด";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "รูปภาพ";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "พิมพ์";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "ลงชื่อที่นี่";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "พิมพ์ลายเซ็นของคุณด้านบน";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "บันทึกลายเซ็น";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "เลือกหรือลากรูปภาพ";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "เลือกรูปภาพ";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "แทนที่รูปภาพ";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "ไฟล์";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "ลายเซ็นใหม่";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "เปิด";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "ปิด";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "เพิ่มโน้ต";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "เพิ่มโน้ต";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "เพิ่มความคิดเห็น";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "เปลี่ยนสถานะความคิดเห็น";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "เปลี่ยนประเภทมาร์กอัพ";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "เปลี่ยนการเลือก";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "ล้างโน้ต";
+// Command of cutting.
+"Undo_Cut" = "ตัด";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "ตรวจจับรูปร่าง";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "วาด";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "วาง";
+// Command of editing text of a comment.
+"Undo_EditComment" = "แก้ไขความคิดเห็น";
+// Command of editing text inside text fields.
+"Undo_EditText" = "แก้ไขข้อความ";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "ลบ";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "จัดกลุ่ม";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "ผสาน";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "แก้ไขโน้ต";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "แก้ไขโน้ต";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "ย้ายโน้ต";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "ย้ายโน้ต";
+// Command of pasting.
+"Undo_Paste" = "วาง";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "ลบโน้ต";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "ลบโน้ตออก";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "ลบความคิดเห็น";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "ลบความคิดเห็น";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "เปลี่ยนขนาดโน้ต";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "เปลี่ยนขนาดโน้ต";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "หมุนโน้ต";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "หมุนโน้ต";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "เลิกจัดกลุ่ม";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "จัดตำแหน่ง";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "จัดตำแหน่งเอกสาร";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "เลือกจุด";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "เก่า";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "ใหม่";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "เปรียบเทียบ";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "เลือกสามจุดในเอกสารทั้งสองสำหรับการจัดตำแหน่งด้วยตนเอง เพื่อผลลัพธ์ที่ดีที่สุด ให้เลือกจุดที่ใกล้กับมุมของเอกสาร เพื่อให้แน่ใจว่าจุดต่างๆ จะอยู่ในลำดับเดียวกันในเอกสารทั้งสองฉบับ";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "ยกเลิก";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "จัดตำแหน่งเอกสาร";
+// Compare two documents.
+"Comparison_DocumentComparison" = "การเปรียบเทียบเอกสาร";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "เอกสารเก่า";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "เอกสารใหม่";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "รีเซ็ต";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "การเลือกจุด";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "จัดตำแหน่ง…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "การเลือกจุด";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "จุด %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "ที่เลือก %1$tu จาก %2$tu ใน “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "จุด %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "เป้าหมายการเลือกจุด";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "เมฆสี่เหลี่ยมผืนผ้า";
+"DashedRectangleAnnotation" = "สี่เหลี่ยมผืนผ้าเส้นประ";
+"CloudyEllipseAnnotation" = "เมฆวงรี";
+"DashedEllipseAnnotation" = "วงรีเส้นประ";
+"CloudyPolygonAnnotation" = "เมฆหลายเหลี่ยม";
+"DashedPolygonAnnotation" = "หลายเหลี่ยมเส้นประ";
+"CloudAnnotation" = "เมฆ";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "ไม่เติม";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "ไม่สามารถโหลดโน้ตที่ทำและบันทึกไว้ได้";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "ไม่สามารถบันทึกการทำโน้ต";
+
+/// Measurement Strings
+"DistanceMeasurement" = "ระยะห่าง";
+"PerimeterMeasurement" = "เส้นรอบรูป";
+"PolygonalAreaMeasurement" = "พื้นที่รูปหลายเหลี่ยม";
+"RectangularAreaMeasurement" = "พื้นที่รูปสี่เหลี่ยม";
+"EllipticalAreaMeasurement" = "พื้นที่วงรี";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "หมุนทวนเข็มนาฬิกา";
+"Rotate_Clockwise" = "หมุนตามเข็มนาฬิกา";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "ใส่คำอธิบายที่นี่";
+// "New option button text"
+"FormDesigner_addOption" = "เพิ่มตัวเลือก";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "คุณสมบัติของ{formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "ชื่อที่ตั้งไว้สำหรับช่องฟอร์ม{formFieldName}นี้ได้ใช้ไปแล้ว โปรดเลือกชื่ออื่น";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "รูปแบบ{formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "ชื่อช่องฟอร์ม";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "ค่าเริ่มต้น";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "มัลติไลน์";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "หากต้องการจัดกลุ่มปุ่มตัวเลือก ตรวจสอบให้แน่ใจว่าปุ่มเหล่านี้มีชื่อช่องฟอร์มเหมือนกัน";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "ขั้นสูง";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "ชื่อผู้สร้าง";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "หมายเหตุ";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "ข้อมูลที่กำหนดเอง";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "จำเป็น";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "อ่านเท่านั้น";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "สร้างขึ้น";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "อัพเดทเมื่อ";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "ต้องเป็นออบเจ็กต์ JSON ธรรมดาที่แปลงได้";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "สีของเส้นขอบ";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "ความกว้างของเส้นขอบ";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "รูปแบบเส้นขอบ";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "พิมพ์";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "ต่อเนื่อง";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "เส้นปรุ";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "ขอบตัด";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "แทรก";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "ขีดเส้นใต้";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "รูปแบบข้อความ";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "ขนาดแบบอักษร";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "สีแบบอักษร";
+// "Button Field"
+"FormDesigner_button" = "ช่องของปุ่ม";
+// "Text Field Button"
+"FormDesigner_textField" = "ช่องใส่ข้อความ";
+// "Radio Field Button"
+"FormDesigner_radioField" = "ช่องตัวเลือก";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "ช่องติ๊ก";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "ช่องข้อมูลคอมโบ";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "ช่องข้อมูลรายการ";
+// "signature Field Button"
+"FormDesigner_signatureField" = "ช่องลายเซ็น";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "ปุ่มข้อความ";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "ไม่มี";
+// Label for form field
+"FormDesigner_label" = "ฉลาก";
+// Value for form field
+"FormDesigner_value" = "ค่า";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "เมื่อสร้างแล้วไม่สามารถแก้ไขได้";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "ชื่อช่องแบบฟอร์มต้องไม่เว้นว่าง";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "สร้างแบบฟอร์ม";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "เลือกหลายรายการ";
+"FormDesigner_readOnlyProperty" = "อ่านเท่านั้น";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "ตัวเลือก";
+
+// Measurement tools
+"MeasurementScale" = "ขนาด";
+"MeasurementCalibrateLength" = "ปรับค่าความยาว";
+"MeasurementPrecision" = "ความแม่นยำ";
+"MeasurementSnapping" = "การสแนป";
+"MeasurementPrecision_Whole" = "ทั้งหมด";
+"MeasurementPrecision_OneDecimalPlace" = "ทศนิยมหนึ่งตำแหน่ง";
+"MeasurementPrecision_TwoDecimalPlaces" = "ทศนิยมสองตำแหน่ง";
+"MeasurementPrecision_ThreeDecimalPlaces" = "ทศนิยมสามตำแหน่ง";
+"MeasurementPrecision_FourDecimalPlaces" = "ทศนิยมสี่ตำแหน่ง";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "พื้นที่";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "โน้ตประกอบสื่อ";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "เบราว์เซอร์นี้ไม่รองรับวิดีโอหรือเสียงที่ฝัง";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "การตั้งค่าลิงก์";
+// Label for selection of link type (website - page).
+"linkTo" = "ลิงก์ไปยัง";
+// Label for website selection.
+"uriLink" = "เว็บไซต์";
+// Label for page selection.
+"pageLink" = "หน้า";
+// Text for preceding number for page link number.
+"linkToPage" = "ลิงก์ไปยังหน้า %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "โปรดใส่หมายเลขหน้าที่ถูกต้อง";
+// Error message for invalid page link.
+"invalidPageLink" = "กรุณาใส่ลิงก์ของหน้าที่ถูกต้อง";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "การตั้งค่าการวัด{measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "เลือกโน้ตหลายรายการ";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ เครื่องมือ";
+
+// Document unlock string
+"Unlock_Document_Description" = "คุณต้องปลดล็อกเอกสารนี้เพื่อดู กรุณากรอกรหัสผ่านในช่องด้านล่าง";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "นิรนาม";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "ตัวเลือกของความคิดเห็น";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "แก้ไขเนื้อหา";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "การตั้งค่าขนาดเส้นรอบรูป";
+"Distance_Popover_Title" = "การตั้งค่าขนาดระยะห่าง";
+"Rectangle_Area_Title" = "การตั้งค่าขนาดพื้นที่สี่เหลี่ยมผืนผ้า";
+"Polygon_Area_Title" = "การตั้งค่าการวัดพื้นที่รูปหลายเหลี่ยม";
+"Ellipse_Area_Title" = "การตั้งค่าการวัดพื้นที่วงรี";
+
+// Rich text formatting options for text annotations.
+"Bold" = "ตัวหนา";
+"Italic" = "ตัวเอน";
+
+// Button to save and then close current context
+"Save_And_Close" = "บันทึก & ปิด";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "ทูลทิปเปลี่ยนแบบตัวอักษรที่ไม่ตรงกัน";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "แบบอักษร %@ ไม่พร้อมใช้งาน หรืไม่สามารถใช้ในการแก้ไขเนื้อหาในเอกสารนี้ เนื้อหาที่เพิ่มหรือเปลี่ยนแปลงจะเปลี่ยนกลับเป็นแบบอักษรเริ่มต้น";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "ที่ฝังอยู่";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "แผ่ออก";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "เว้น";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "รายการโน้ต";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "เลือกต้นหน้า";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "เลือกปลายหน้า";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "ถึง";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "การหมุน";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "แก้ไขเนื้อหา";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” มีการเปลี่ยนแปลงที่ไม่ได้บันทึก";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "แบบอักษรหลายตัว";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "ไม่ทราบแบบอักษร";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "หลากหลายขนาด";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "ลดขนาด";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "เพิ่มขนาด";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "หลากหลายสี";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ ตัวหนา";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ ตัวเอน";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ ตัวเอนหนา";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "เปิดหัวข้อคอมเม้นท์ที่เริ่มต้นโดย %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "ความคิดเห็นเพิ่มเติม";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "ช่วงหน้า";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "สีที่กำหนดเองใหม่";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "แก้ไขเนื้อหา";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "เลือกทั้งหมด";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "ค้นหาในเว็บ";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "เต็มนิ้ว";
+"MeasurementPrecision_Halves" = "ครึ่งนิ้ว";
+"MeasurementPrecision_Quarters" = "หนึ่งในสี่ส่วนนิ้ว";
+"MeasurementPrecision_Eighths" = "ส่วนแปดนิ้ว";
+"MeasurementPrecision_Sixteenths" = "ส่วนสิบหกนิ้ว";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "ห่วงโซ่ใบรับรองที่ใช้ในการลงนามในเอกสารว่างเปล่า";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "ไม่รองรับประเภทลายเซ็นดิจิทัล";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "ลายเซ็นดิจิทัลมีการประทับรับรองเวลาที่ไม่ถูกต้อง หรือข้อมูลที่ประทับรับรองเวลาถูกดัดแปลง";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "การตั้งค่าการวัด";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "เพิ่มเครื่องวัด";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "ใช้เครื่องมือสอบเทียบ";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "สอบเทียบเครื่องวัด";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "ตั้งค่าเครื่องวัด";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "หน่วยรอง";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "หน่วย";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "การลบเครื่องวัดจะลบค่าการวัดที่ใช้ในเครื่องวัดด้วย";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "เครื่องวัดนี้มีการใช้งานแล้ว";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "คุณต้องการแก้ไขหรือใช้เครื่องวัดที่มีอยู่แล้วหรือไม่";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "ใช้ที่มีอยู่";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "ไม่มีชื่อ";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "สแน็ปไปที่จุด";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "สแน็ปไปที่ตัวเอง";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "แสดง Smart Guides";
+
+// Label for the add text box button
+"AddTextBox" = "เพิ่มกล่องข้อความ";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "คุณแน่ใจหรือไม่ว่าต้องการลบกล่องข้อความนี้";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "ยืนยันการลบกล่องข้อความ";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "กล่องโต้ตอบที่อนุญาตให้ผู้ใช้ยืนยันหรือยกเลิกการลบกล่องข้อความ";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "อ่านเท่านั้น";
+"locked" = "ถูกล็อค";
+"lockedContent" = "คอนเทนต์ถูกล็อค";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "เพิ่มเครื่องวัดแล้ว";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "ได้เพิ่ม “%@” ในรายการเครื่องวัดเรียบร้อยแล้ว";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "ไอคอนการตั้งค่าการวัด";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "ไอคอนแสดงว่าไม่ได้ตั้งค่าสเกลการตั้งค่าการวัด";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "เอกสารนี้ลงนามด้วย %@ โดย %@ เมื่อวันที่ %@ ที่ %@";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "เอกสารนี้อ้างว่าได้ลงนามด้วย %@ โดย %@ วันที่ %@ เวลา %@";
+"DigitalSignatureSignedWithAlgo%@with%@." = "อัลกอริทึม %@ ด้วย %@";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "แยกหน้า";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "ชื่อเครื่องวัด";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "เครื่องวัดที่มีการตั้งค่าเหล่านี้ได้ถูกกำหนดไว้แล้ว โปรดเลือกเครื่องวัดอื่น";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "แสดงหน่วยรอง";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "แก้ไขหรือเพิ่มเครื่องวัดใหม่";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "ปรับเทียบ";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "เลเยอร์";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "ไม่มีเลเยอร์";
+
+"The certificate is not yet valid" = "ใบรับรองยังไม่ถูกต้อง";
+"Signature validation failed - invalid signature" = "ลายเซ็นไม่ถูกต้อง";
+"The certificate has been revoked" = "ใบรับรองถูกเพิกถอนแล้ว";
+"Certificate problem" = "ใบรับรองมีปัญหา";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "ตรวจสอบไม่ได้ว่าใบรับรองถูกเพิกถอนแล้วหรือไม่";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "ระยะห่างระหว่างบรรทัด";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "หนึ่งบรรทัด";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "สองบรรทัด";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "เลือกเพิ่มเติม...";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "การวัด";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "รีโหลดเอกสาร";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "ช่วยโลกสร้างสรรค์สิ่งใหม่ พ้นผ่านการใช้กระดาษด้วยเครื่องมือสำหรับนักพัฒนา โซลูชันที่มีโค้ดน้อย เพื่อผู้ใช้งานและครอบคลุมแพลตฟอร์มหลักทั้งหมด";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "การกระทำ";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "คำสั่งลัด";
+
+// Mention button popover text.
+"CommentEditor_mention" = "การกล่าวถึง";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "เปิดหน้าต่างข้อความช่วยเหลือ";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "เรียนรู้เพิ่มเติม";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "แถบเครื่องมือโฟกัส";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "มีหน่วยความจำไม่เพียงพอที่จะแสดงหน้านี้";

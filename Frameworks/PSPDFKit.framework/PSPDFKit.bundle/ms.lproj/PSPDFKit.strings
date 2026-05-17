@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Tutup";
+"Cancel" = "Batal";
+"OK" = "OK";
+"Open" = "Buka";
+"Untitled" = "Tanpa Tajuk";
+"File Not Found" = "Fail Tidak Ditemui";
+"File couldn't be opened." = "Fail tidak boleh dibuka."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "PDF Tidak Dinamakan";
+"Page %tu" = "Halaman %tu";
+"Page %@" = "Halaman %@";
+"Next" = "Seterusnya";
+"Previous" = "Sebelumnya";
+"Error" = "Ralat";
+"More options" = "Lagi pilihan";
+"Close Tab" = "Tutup Tab";
+"Close All Tabs" = "Tutup Semua Tab";
+"Close All Other Tabs" = "Tutup Semua Tab Lain"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Lukisan";
+"Highlighter" = "Serlahan Bentuk Bebas";
+
+// toolbar
+"Outline" = "Ringkasan"; // Table of contents
+"No Outline" = "Tiada Ringkasan";
+"Search Outline" = "Cari Ringkasan";
+"Search" = "Cari";
+"Email" = "E-mel";
+"Send via Email" = "Hantar melalui E-mel";
+"Send" = "Hantar";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Kongsi melalui Mesej";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Kongsi melalui E-mel";
+"Open In" = "Buka Dalam";
+"Commit" = "Lakukan";
+"Sending to %@" = "Menghantar ke %@"; // Open document with an application
+"Pages" = "Halaman";
+"Print with annotations" = "Cetak dengan anotasi";
+"Print without annotations" = "Cetak tanpa anotasi";
+"No Applications found" = "Tiada aplikasi yang telah dipasang yang boleh membuka dokumen PDF.";
+"Print" = "Cetak";
+"Annotation" = "Anotasi";
+"Annotations" = "Anotasi";
+"No Annotations" = "Tiada Anotasi";
+"Bookmarks" = "Penanda";
+"No Bookmarks" = "Tiada Penanda";
+"Add Bookmark" = "Tambah Penanda";
+"Remove Bookmark" = "Alih Keluar Penanda";
+"Brightness" = "Kecerahan";
+"Share" = "Kongsi";
+"Preparing" = "Menyediakan";
+"Loading" = "Memuatkan";
+"Expand" = "Kembangkan";
+"Collapse" = "Runtuhkan";
+// SMS / iMessage sharing button
+"Message" = "Mesej";
+"Thumbnails" = "Imej kecil";
+"Drag Toolbar" = "Seret Bar Alat";
+
+// thumbnails
+"Bookmarked" = "Ditandakan";
+"Annotated" = "Beranotasi";
+"All" = "Semua";
+"Loading Annotations" = "Memuatkan Anotasi";
+"Loading Pages" = "Memuatkan Halaman";
+"Loading Bookmarks" = "Memuatkan Penanda";
+
+// password
+"Password" = "Kata Laluan"; // text on a label
+"Unlock" = "Buka Kunci";
+"Please enter the password." = "Sila masukkan kata laluan.";
+"This document cannot be unlocked." = "Dokumen ini tidak boleh dibuka kunci.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Medan Kata Laluan";
+
+// page
+"%tu of %tu" = "%tu daripada %tu";
+"%tu–%tu of %tu" = "%tu–%tu daripada %tu";
+"%@ (%tu of %tu)" = "%@ (%tu daripada %tu)";
+"%@, Page %tu" = "%@, Halaman %tu";
+"Leave %@?" = "Tinggalkan %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu daripada %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu daripada %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu daripada %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Cari Dokumen"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Mencari di Halaman %tu daripada %tu";
+"Search Completed" = "Carian Selesai";
+"Search Cancelled" = "Carian Dibatalkan";
+"%tu left" = "tinggal %tu"; // Indexing Documents... 5 left
+"Searching" = "Mencari";
+"Done" = "Selesai";
+"Indexing Documents" = "Mengindeks Dokumen";
+"Document" = "Dokumen";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Anotasi Carian";
+
+// inline browser
+"Open in Safari" = "Buka dalam Safari";
+"Open in Chrome" = "Buka dalam Chrome";
+"Your %@ is not configured to send emails." = "%@ anda tidak dikonfigurasi untuk menghantar e-mel.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Pautan ini meminta untuk membuka %1$@. %2$@Adakah anda ingin meneruskan?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "sebuah aplikasi luaran"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "E-mel"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Tiada pengendali ditemui untuk %@";
+
+// text selection
+"Text copied to clipboard." = "Teks disalin ke papan keratan.";
+"Save to Photo Library" = "Simpan ke Pustaka Foto";
+"Failed to extract image." = "Gagal untuk mengekstrak imej.";
+"Type value or pick from list" = "Taipkan nilai atau pilih daripada senarai";
+
+// annotations
+"Add %@" = "Tambah %@";
+"Remove %@" = "Alih Keluar %@";
+"Remove" = "Alih Keluar";
+"Delete" = "Padam"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Edit";
+"Undo" = "Buat Asal";
+"Nothing to undo" = "Tiada apa untuk buat asal";
+"Redo" = "Buat Semula";
+"Nothing to redo" = "Tiada apa untuk buat semula";
+"Type" = "Jenis"; // kind of Annotation can be selected
+"Size" = "Saiz";
+"Font" = "Fon";
+"Fonts" = "Fon";
+"All Fonts" = "Semua Fon";
+"Downloadable Fonts" = "Fon Boleh Dimuat Turun";
+"Search Fonts" = "Cari Fon";
+"Choose Color" = "Pilih Warna";
+"Choose Fill Color" = "Pilih Warna Isian";
+"Rainbow" = "Pelangi";
+"Monochrome" = "Monokrom";
+"Vintage" = "Vintaj";
+"Modern" = "Moden";
+"ColorPalette_Unified" = "Pelet";
+"Color" = "Warna";
+"Border" = "Sempadan";
+"Fill Color" = "Warna Isian";
+"Start and End Color" = "Warna Mula dan Tamat";
+"Opacity" = "Kelegapan";
+"Thickness" = "Ketebalan";
+"%@ pt" = "%@ mata";
+"Yellow" = "Kuning";
+"Green" = "Hijau";
+"Red" = "Merah";
+"Blue" = "Biru";
+"Pink" = "Merah Jambu";
+"Black" = "Hitam";
+"Orange" = "Oren";
+"Purple" = "Ungu";
+"Cyan" = "Sian";
+"Gray" = "Kelabu";
+"White" = "Putih";
+"Color_Brown" = "Perang";
+"Color_DarkRed" = "Merah Tua";
+"Color_DarkBlue" = "Biru Gelap";
+"Color_Magenta" = "Magenta";
+"Define" = "Takrifkan";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Serlahan Teks";
+"Underline" = "Garis Bawah";
+"Squiggly" = "Berpintal";
+"StrikeOut" = "Lorek";
+"Rectangle" = "Segi Empat Tepat";
+"Ellipse" = "Elips";
+"Line" = "Garis"; // something that can be drawn
+"Polygon" = "Poligon";
+"Signature" = "Tandatangan";
+"Signatures" = "Tandatangan";
+"Signed" = "Bertandatangan";
+"Sign" = "Tandatangan";
+"Signing…" = "Menandatangani…";
+"Sign using %@" = "Tandatangan menggunakan %@"; // e.g. Adobe.PPKLite
+"Methods" = "Kaedah"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Pilih Identiti"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Cap";
+"Stamps" = "Cap";
+"Custom" = "Tersuai"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Cipta Cap";
+"Preview" = "Pratonton";
+"Stamp Text" = "Teks Cap";
+"Add Signature" = "Tambah Tandatangan";
+"Remove Signature" = "Alih Keluar Tandatangan";
+"My Signature" = "Tandatangan Saya";
+"No Signatures" = "Tiada Tandatangan"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Sila tandatangan di sini";
+"Text" = "Nota";
+"FreeText" = "Teks";
+"Delete Note" = "Padam Nota";
+"Remove Note" = "Alih Keluar Nota";
+"%@ could not be found." = "%@ tidak dapat ditemui.";
+"Photo Library" = "Pustaka Foto";
+"Camera" = "Kamera";
+"camera_not_available" = "Kamera tidak tersedia";
+"Image" = "Imej";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Pilih Kualiti Imej";
+"Low Quality" = "Kualiti Rendah";
+"Medium Quality" = "Kualiti Pertengahan";
+"High Quality" = "Kualiti Tinggi";
+"Clear All" = "Kosongkan Semua";
+"Clear" = "Kosongkan";
+"Style" = "Gaya";
+"Link" = "Pautan";
+"Ink" = "Lukisan";
+"Screen" = "Skrin";
+"RichMedia" = "Media Kaya";
+"FileAttachment" = "Fail";
+"Left" = "Kiri";
+"Center" = "Tengah";
+"Right" = "Kanan";
+"Alignment" = "Penjajaran";
+"Preview File" = "Pratonton Fail";
+"Copy" = "Salin";
+"Paste" = "Tampal";
+"Inspector" = "Pemeriksa";
+"Group" = "Kumpulan";
+"Ungroup" = "Leraikan";
+"Merge" = "Gabungkan"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Sampel";
+"Annotation Summary for %@:" = "Ringkasan Anotasi untuk %@:";
+"Show Text" = "Tunjukkan Teks";
+// title
+"Author Name" = "Nama Pengarang";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Sila masukkan nama pengarang yang anda mahu gunakan bagi anotasi yang baharu dimasukkan.";
+// text field placeholder
+"Name" = "Nama";
+// meaning: close
+"Dismiss" = "Tutup";
+"Fit to Text" = "Muatkan dengan Teks";
+"Draw" = "Lukis";
+"Sound" = "Bunyi";
+"Eraser" = "Pemadam";
+"Toggle Eraser" = "Togol Pemadam"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Alat Pemilihan";
+"Add" = "Tambah"; // to add - infinitive
+"Date" = "Tarikh";
+"Time" = "Masa";
+"No Pages" = "Tiada Halaman";
+"Drag to resize" = "Seret untuk mensaiz semula"; // used as hint that inspector is resizable
+"Convert to" = "Tukarkan ke"; // used as label on action that changes free text intent type
+"Color Presets" = "Praset Warna";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Praset Warna";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Potong";
+"Annotation copied." = "Anotasi disalin.";
+"Annotation cut." = "Anotasi dipotong.";
+"Annotation pasted." = "Anotasi ditampal.";
+"%tu selected" = "%tu dipilih";
+"Custom Stamp" = "Cap Tersuai";
+"Change text and color" = "Ubah teks dan warna";
+"Use an existing stamp design" = "Gunakan reka bentuk cap yang sedia ada";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Dakwat Magik";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Gagal untuk memuatkan fon '%@' pada saiz %@";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Pemeriksa Gaya";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Adakah anda pasti anda ingin mengosongkan semua anotasi?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Penciptaan Anotasi Dinyahdayakan";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Mempunyai komen";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Anotasi Teks";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Tanda Semak";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Tanda Pangkah";
+
+"Callout" = "Serlahan"; // freetext annotation with an arrow
+"Generic" = "Generik"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Gaya Garis";
+"Solid" = "Padu";
+"Narrow Dots" = "Titik Sempit";
+"Wide Dots" = "Titik Lebar";
+"Narrow Dashes" = "Sempang Sempit";
+"Wide Dashes" = "Sempang Lebar";
+"Cloudy" = "Kabur"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Diluluskan";
+"Not Approved" = "Tidak Diluluskan";
+"Draft" = "Draf";
+"Final" = "Muktamad";
+"Completed" = "Selesai";
+"Confidential" = "Sulit";
+"For Public Release" = "Untuk Edaran Umum";
+"Not For Public Release" = "Bukan Untuk Edaran Umum";
+"For Comment" = "Untuk Komen";
+"Void" = "Tidak Sah";
+"Preliminary Results" = "Keputusan Awal";
+"Information only" = "Maklumat sahaja";
+"Accepted" = "Diterima";
+"Rejected" = "Ditolak";
+"Initial Here" = "Parap Di Sini";
+"Sign Here" = "Tandatangan Di Sini";
+"Witness" = "Saksi";
+"Revised" = "Disemak";
+"Stamp.AsIs" = "Seadanya";
+"Stamp.Departmental" = "Jabatan";
+"Stamp.Experimental" = "Eksperimen";
+"Stamp.Expired" = "Tamat Tempoh";
+"Stamp.Sold" = "Dijual";
+"Stamp.TopSecret" = "Rahsia Besar";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Stylus";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Tidak Aktif";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Mengimbas";
+// text on a label; app connects to a stylus
+"Pairing" = "Perpasangan";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ Disambung";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ Terputus Sambungan";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Seting";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Gunakan Apple Pencil untuk Anotasi";
+
+// PDF annotation name overrides
+"Square" = "Segi Empat Tepat";
+"Circle" = "Elips";
+"PolyLine" = "Poligaris";
+"SavedAnnotations" = "Anotasi Disimpan";
+
+// named actions
+"NextPage" = "Halaman Seterusnya";
+"PrevPage" = "Halaman Sebelumnya";
+"FirstPage" = "Halaman Pertama";
+"LastPage" = "Halaman Terakhir";
+"GoBack" = "Pergi Balik";
+"GoForward" = "Pergi Hadapan";
+"GoToPage" = "Pergi ke Halaman";
+"Find" = "Cari";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Zum Ke Dalam";
+"ZoomOut" = "Zum Ke Luar";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Tindakan Media Kaya";
+"Rendition Action" = "Tindakan Persembahan";
+"Hide Action" = "Sembunyi Tindakan";
+"Submit Form" = "Serah Borang";
+"Reset" = "Set Semula";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Kembali";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Pilih Semua";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Pilih Item Di Atas";
+"KeyCommand.SelectBelow" = "Pilih Item Di Bawah";
+"KeyCommand.SelectTop" = "Pilih Item Teratas";
+"KeyCommand.SelectBottom" = "Pilih Item Terbawah";
+"KeyCommand.ClearSelection" = "Kosongkan Pilihan";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Kembangkan Bahagian";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Runtuhkan Bahagian";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Tunjukkan Tab Seterusnya";
+"KeyCommand.ShowPreviousTab" = "Tunjukkan Tab Sebelumnya";
+"KeyCommand.SelectAllAnnotations" = "Pilih Semua Anotasi";
+
+// line annotations
+"Start" = "Mula";
+"End" = "Tamat";
+"Line.None" = "Tiada";
+"Line.ClosedArrow" = "Anak Panah Ditutup";
+"Line.OpenArrow" = "Anak Panah Buka";
+"Line.Square" = "Segi Empat Sama";
+"Line.Circle" = "Bulatan";
+"Line.Diamond" = "Berlian";
+"Line.ROpenArrow" = "Terbalikkan Anak Panah Buka";
+"Line.RClosedArrow" = "Terbalikkan Anak Panah Ditutup";
+"Line.Slash" = "Garis Condong";
+"Line.Butt" = "Pangkal";
+"Line Start" = "Mula Garis";
+"Line End" = "Akhir Garis";
+"Arrow" = "Anak Panah"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Cipta Pautan";
+"Add Link" = "Tambah Pautan";
+"Edit Link" = "Edit Pautan";
+"Move Link" = "Alih Pautan";
+"Remove Link" = "Alih Keluar Pautan";
+"Open Link" = "Buka Pautan";
+"Go to Page %tu" = "Pergi ke Halaman %tu";
+"Go to Page" = "Pergi ke Halaman"; // title of a Popup
+"Go" = "Pergi"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Salin URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Salin Pautan";
+"Save" = "Simpan";
+"Link Destination" = "Destinasi Pautan";
+"Enter page index or a http:// address to link to an URL." = "Masukkan indeks halaman atau alamat http:// untuk memaut kepada URL.";
+"Page %@ Not Found" = "Halaman %@ Tidak Ditemui";
+"Add to Reading List" = "Tambah pada Senarai Bacaan";
+
+"Link annotation creation failed." = "Penciptaan anotasi pautan gagal.";
+"Link annotation successfully created." = "Anotasi pautan berjaya dicipta.";
+"Entered text could not be converted to an Integer nor URL." = "Teks yang dimasukkan tidak dapat ditukar menjadi Integer atau URL.";
+
+// voiceover accessibility
+"Grid" = "Rangkaian"; // grid with thumbnails
+"Translucent" = "lut cahaya";
+"left" = "kiri";
+"center" = "tengah";
+"right" = "kanan";
+"decrease" = "kurangkan";
+"increase" = "tingkatkan";
+"All Open Documents" = "Semua Dokumen Terbuka";
+"Add Documents" = "Tambah Dokumen"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Buka Fail";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Kawalan Multimedia";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Set Semula Borang";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Tunjukkan Tindakan";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Tindakan Diberi Nama";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Halaman %tu-%tu"; // Range of pages
+"Current Page" = "Halaman Semasa";
+"Current Page (%tu)" = "Halaman Semasa (%tu)";
+"Ignore Annotations" = "Abaikan Anotasi";
+"The PDF will not contain any annotations." = "PDF tidak akan mengandungi sebarang anotasi.";
+"Embed Annotations" = "Benam Anotasi";
+"Annotations will remain editable and are embedded into the PDF." = "Anotasi akan terus boleh diedit dan dibenamkan ke dalam PDF.";
+"Flatten Annotations" = "Anotasi Didatarkan";
+"Annotations are drawn into the PDF and are readonly." = "Anotasi dipersembahkan dalam PDF dan adalah baca sahaja.";
+"Annotation Summary" = "Ringkasan Anotasi";
+"Embed Annotations into the PDF and also list them in the email." = "Benam Anotasi ke dalam PDF dan juga senaraikannya dalam e-mel.";
+"Annotations will be listed in a text file." = "Anotasi akan disenaraikan sebagai teks.";
+"Files" = "Fail";
+"Send as single files" = "Hantar sebagai fail tunggal";
+"Merge files" = "Gabungkan fail";
+"Original File" = "Fail Asal";
+"Range" = "Julat";
+"Annotated Pages" = "Halaman Beranotasi";
+"Message could not be sent." = "Mesej tidak dapat dihantar.";
+"Export" = "Eksport";
+"This action can't be performed." = "Tindakan ini tidak dapat dilakukan.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Pengeksportan dokumen yang tidak berasaskan fail adalah tidak disokong";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Dokumen tersebut tidak mengandungi anotasi.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Tidak Dapat Berkongsi Dokumen";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Perkongsian imej dokumen dihadkan pada maksimum %tu halaman pada satu-satu masa.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Tidak dapat menghantar lampiran melalui Mesej.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Dokumen tidak boleh dicetak.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "Dokumen PDF";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Destinasi Tidak Tersedia";
+
+// sound annotations
+"Speak" = "Sebut"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Main";
+"Pause" = "Jeda";
+"Resume" = "Teruskan";
+"Stop" = "Hentikan";
+"Play/Stop" = "Mainkan/Hentikan";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Rakam";
+"Pause Recording" = "Jeda Rakaman";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Rakaman dijeda";
+"Continue Recording" = "Teruskan Rakaman";
+"Finish Recording" = "Selesaikan Rakaman";
+"Audio Problem" = "Masalah Audio";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Tidak dapat memulakan main balik.";
+"Could not resume playback." = "Tidak dapat meneruskan main balik.";
+"Microphone permission not granted." = "Kebenaran mikrofon tidak diberikan.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Audio tidak boleh dirakamkan pada masa ini. Sila beri kebenaran kepada aplikasi ini untuk mengakses mikrofon anda.";
+"There was a problem trying to record audio." = "Terdapat masalah semasa cuba merakamkan audio.";
+"Already Recording" = "Telah Pun Merakamkan";
+"You are already recording on page %@." = "Anda telah pun merakamkan pada halaman %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Nampaknya anda telah menafikan akses mikrofon bagi aplikasi ini buat selama-lamanya. Untuk merakamkan nota audio, anda perlu mendayakan kebenaran mikrofon secara manual melalui skrin tetapan aplikasi.";
+
+// Forms
+"Form Element" = "Elemen Borang";
+"Text Field" = "Medan Teks";
+"Button" = "Butang";
+"Choice Field" = "Medan Pilihan";
+"Signature Field" = "Medan Tandatangan";
+"Clear Field" = "Kosongkan Medan"; // same as delete
+"Default Values" = "Nilai Lalai";
+"Custom Value" = "Nilai Tersuai";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Cari Pilihan";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Nilai tidak sah: mesti besar daripada atau sama dengan %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Nilai tidak sah: mesti besar daripada atau sama dengan %s dan kurang daripada atau sama dengan %s.";
+"Invalid value: must be less than or equal to %s." = "Nilai tidak sah: mesti kurang daripada atau sama dengan %s.";
+"The value entered does not match the format of the field [%s]" = "Nilai yang dimasukkan tidak sepadan dengan format medan [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Tarikh/masa tidak sah: sila pastikan tarikh/masa wujud. Medan [%s] hendaklah sepadan dengan format %s";
+
+// General validation
+"Invalid value [%s]" = "Nilai tidak sah [%s]";
+
+// Gallery
+"Connection Error" = "Ralat Sambungan";
+"Unsupported Content" = "Kandungan Tidak Disokong";
+"The specified content cannot be displayed." = "Kandungan yang dinyatakan tidak dapat dipaparkan.";
+"Something went wrong" = "Ada sesuatu tidak kena";
+"This item is currently unavailable." = "Item ini tidak tersedia pada masa ini.";
+"The information for this gallery could not be loaded." = "Maklumat bagi galeri ini tidak dapat dimuatkan.";
+"Content Error" = "Ralat Kandungan";
+"This content is unsupported." = "Kandungan ini tidak disokong.";
+
+// Signatures
+"Digital Signature" = "Tandatangan Digital";
+"Signature is valid." = "Tandatangan adalah sah.";
+"Signature is valid, but there are some warnings." = "Tandatangan adalah sah tetapi terdapat beberapa amaran.";
+"It was signed by %@ on %@ at %@." = "Ia telah ditandatangani oleh %@ pada %@ pada jam %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Ia ditandatangani pada %@ pada jam %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Ia mendakwa telah ditandatangani oleh %@ pada %@ pada jam %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Ia mendakwa telah ditandatangani pada %@ pada jam %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Semakan yang diliputi oleh tandatangan ini tidak diubah suai, walau bagaimanapun perubahan telah dibuat ke atas dokumen sejak ia ditandatangani."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Tandatangan adalah sah dan kandungan dokumen ini tidak diubah suai sejak ia ditandatangani.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Tandatangan tidak sah — sejak menandatangani kandungan dokumen ini, ia telah diubah suai, diusik atau rosak.";
+"Unsigned Signature Field" = "Medan Tandatangan Tidak Ditandatangani";
+"Do you really want to remove the signature from the document?" = "Adakah anda benar-benar ingin mengalih keluar tandatangan daripada dokumen?";
+"Could not retrieve the certificate from the signature." = "Tidak dapat mengambil sijil daripada tandatangan.";
+"Could not retrieve the signature contents." = "Tidak dapat mengambil kandungan tandatangan.";
+"Could not retrieve the public key from the signature." = "Tidak dapat mengambil kunci awam daripada tandatangan.";
+"Could not retrieve the byte range of the signature." = "Tidak dapat mengambil julat bait tandatangan.";
+"Could not understand the encryption padding." = "Tidak dapat memahami pengisian penyulitan.";
+"Could not compute the digest for the document." = "Tidak dapat mengira ikhtisar bagi dokumen.";
+"General failure while trying to determine document integrity." = "Kegagalan umum semasa cuba menentukan integriti dokumen.";
+"Certificate chain is invalid." = "Rantai sijil tidak sah.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Rantai sijil tidak dapat disahkan kerana tiada kunci dipercayai dibekalkan.";
+"Document integrity success, but certificate is self signed." = "Sijil ditandatangani sendiri.";
+"Document integrity check failed." = "Pemeriksaan integriti dokumen gagal.";
+"The signing certificate is not trusted." = "Sijil yang menandatangani tidak dipercayai.";
+"unknown time" = "masa tidak diketahui";
+"unknown date" = "tarikh tidak diketahui";
+"Digitally signed by {}" = "Ditandatangani secara digital oleh {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Tarikh:";
+"Reason: " = "Sebab:";
+"Location: " = "Lokasi:";
+"Certificate" = "Sijil";
+"No Certificate" = "Tiada Sijil";
+"No Certificates" = "Tiada Sijil";
+"Store Signature" = "Simpan Tandatangan";
+"Add Trusted Certificate" = "Tambah Sijil Dipercayai";
+"Add Signer" = "Tambah Penandatangan";
+"Added Trusted Certificate" = "Sijil Dipercayai Ditambah";
+"Added Signer" = "Penandatangan Ditambah";
+"File doesn't match any certificate type" = "Fail tidak sepadan dengan mana-mana jenis sijil";
+"Import Failed" = "Import Gagal";
+"Signature Area" = "Kawasan Tandatangan";
+"Draw Signature Area" = "Lukis Kawasan Tandatangan";
+
+// Signature Errors
+"Could not init PKCS7 object" = "Tidak dapat memulakan objek PKCS7";
+"Could not find signature" = "Tidak dapat menemui tandatangan";
+"Could not hash the PDF document" = "Tidak dapat mencincang dokumen PDF";
+"Could not create padding for the digital signature" = "Tidak dapat mencipta pengisian untuk tandatangan digital";
+"Could not verify the signature" = "Tidak dapat mengesahkan tandatangan";
+"Could not save the signed document" = "Tidak dapat menyimpan dokumen yang ditandatangani";
+"Cannot sign attributes" = "Tidak dapat menandatangani atribut";
+"The selected subfilter type for the signature is not supported" = "Jenis subpenapis yang dipilih untuk tandatangan adalah tidak disokong";
+"Could not add signature to PKCS7 object" = "Tidak dapat menambah tandatangan pada objek PKCS7";
+"Could not write PKCS7 signature" = "Tidak dapat menulis tandatangan PKCS7";
+"Could not create PKCS7 object" = "Tidak dapat mencipta objek PKCS7";
+"Could not generate PKCS7 object" = "Tidak dapat menjana objek PKCS7";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Tidak dapat menandatangani dokumen kerana dokumen tersebut sudah pun ditandatangani.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Tidak boleh membaca data sijil sebagai sijil PKCS#7. Data dalam format yang betul boleh dieksport daripada Adobe Acrobat."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Tidak dapat nyahsulit tandatangan pada sijil.";
+"The public key in the certificate could not be read." = "Kunci awam dalam sijil tidak boleh dibaca.";
+"The signature of the certificate is not valid." = "Tandatangan pada sijil adalah tidak sah.";
+"Signature is not valid." = "Tandatangan tidak sah.";
+"There is a format error in the notBefore field of the certificate." = "Terdapat ralat format dalam medan notBefore pada sijil."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "Terdapat ralat format dalam medan notAfter pada sijil."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Tiada tandatangan dapat disahkan kerana rantai sijil mengandungi hanya satu sijil, ia tidak bertandatangan sendiri dan pengeluarnya tidak dipercayai.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "Sijil CA tidak sah kerana ia bukan CA atau sambungannya tidak konsisten dengan tujuan yang sepatutnya."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Parameter basicConstraints pathlength telah dilampaui."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Root CA tidak ditandakan sebagai dipercayai bagi tujuan yang sepatutnya."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Root CA telah ditandakan untuk menolak tujuan yang dinyatakan."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Sijil pengeluar telah ditolak kerana nama subject tidak sepadan dengan nama issuer bagi sijil semasa."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Sijil pengeluar telah ditolak kerana subject key identifier telah wujud dan tidak sepadan dengan authority key identifier bagi sijil semasa."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Sijil pengeluar telah ditolak kerana nama issuer dan serial number telah wujud dan tidak sepadan dengan authority key identifier bagi sijil semasa."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Sijil telah dibatalkan oleh pengeluar.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Sijil yang diluluskan bertandatangan sendiri dan sijil yang sama tidak dapat ditemui dalam senarai sijil dipercayai.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "Sebuah sijil bertandatangan sendiri wujud dalam rantai sijil. Rantai sijil boleh dibina menggunakan sijil tidak dipercayai tetapi root CA tidak dapat ditemui secara setempat."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Tidak dapat mencari sijil bagi satu daripada pihak berkuasa perakuan (CA) dalam hierarki tandatangan dan CA tersebut tidak dipercayai oleh aplikasi setempat."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Sijil pengeluar bagi sijil yang dicari secara setempat tidak ditemui. Ini biasanya bermaksud senarai sijil dipercayai adalah tidak lengkap.";
+"The certificate that was provided cannot be used for its intended purpose." = "Sijil yang telah disediakan tidak boleh digunakan bagi tujuan yang sepatutnya.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Sambungan keyUsage sijil pengeluar tidak membenarkan tandatangan sijil.";
+"The certificate has expired." = "Sijil telah tamat tempoh.";
+"The certificate is not valid until a date in the future." = "Sijil tidak sah sehingga suatu tarikh pada masa hadapan.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Tidak dapat membaca sijil X509 daripada data";
+// X509 should not be translated
+"No X509 certificate found" = "Tiada sijil X509 ditemui";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Tidak dapat membaca fail PKCS12. Fail diformatkan dengan tidak betul atau telah rosak.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Tidak dapat membuka kunci data PKCS12. Adakah anda telah memasukkan kata laluan yang betul?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Tidak dapat menyahkod data PKCS12. Data tersebut mungkin tersalah bentuk atau tidak serasi.";
+"Could not unlock PKCS12 data." = "Tidak dapat membuka kunci data PKCS12.";
+"Could not add signature." = "Tidak dapat menambah tandatangan.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Tidak dapat membuka fail untuk pengesahan tandatangan";
+"Could not get signer info" = "Tidak mendapat maklumat penandatangan";
+
+// Night Mode
+"Default" = "Lalai"; // Default view (night mode not enabled)
+"Sepia" = "Sepia"; // Document uses sepia colors
+"Night" = "Malam"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Tiada dokumen ditetapkan";
+"Unable to display document" = "Tidak dapat memaparkan dokumen";
+"Locked" = "Dikunci";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Fail yang anda cuba untuk mengakses sama ada bukan fail PDF atau mungkin telah rosak.";
+"A password is required to access this document." = "Kata laluan diperlukan untuk mengakses dokumen ini.";
+"The security scheme of this document is currently not supported." = "Skema keselamatan dokumen ini tidak disokong pada masa ini.";
+"An unknown error has occured while trying to open this file." = "Ralat yang tidak diketahui telah berlaku semasa cuba membuka fail ini.";
+
+// Document Editor
+"Document Editor" = "Editor Dokumen";
+"Add Page" = "Tambah Halaman";
+"Delete Pages" = "Padamkan Halaman";
+"Duplicate Pages" = "Menduplikasi Halaman";
+"Move Pages" = "Alihkan Halaman";
+"Rotate Pages" = "Putarkan Halaman";
+"Page Size" = "Saiz Halaman";
+"Background Color" = "Warna Latar Belakang";
+"Paper" = "Kertas";
+"Pattern" = "Corak";
+"Use Document Size" = "Gunakan Saiz Dokumen";
+"Orientation" = "Orientasi";
+"Portrait" = "Potret";
+"Landscape" = "Landskap";
+"Document Name" = "Nama Dokumen";
+"Documents" = "Dokumen"; // Name of directory
+"Use Document Folder" = "Gunakan Folder Dokumen";
+"Folder" = "Folder";
+"Replace File?" = "Gantikan Fail?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Fail bernama “%@” telah wujud di destinasi yang dipilih. Adakah anda mahu menggantikannya?";
+"Replace" = "Gantikan";
+"Saving…" = "Menyimpan…";
+"Saved" = "Disimpan";
+"Save As…" = "Simpan Sebagai…";
+"Discard Changes" = "Buang Perubahan";
+"Empty" = "Tidak Sah";
+"Use Image Size" = "Gunakan Saiz Imej";
+"Page Background" = "Latar Belakang Halaman";
+"Insert image annotation" = "Masukkan anotasi imej";
+"Import page background" = "Import latar belakang halaman";
+"Quality" = "Kualiti";
+"Low" = "Rendah";
+"Medium" = "Sederhana";
+"High" = "Tinggi";
+"Best" = "Terbaik";
+"Copy Pages" = "Salin Halaman";
+"Paste Pages" = "Tampal Halaman";
+"Copied" = "Disalin";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” ada perubahan yang tidak disimpan. Anda ingin simpan perubahan itu sekarang?";
+"Select Source Document" = "Pilih Dokumen Sumber";
+"Add After Page %tu" = "Tambah Selepas Halaman %tu";
+"Cut Pages" = "Potong Halaman";
+"Import Document" = "Import Dokumen";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Gunakan Pemilih Folder";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Pilih Folder";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Pilih Semua Halaman";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Dokumen kosong tidak dapat disimpan.";
+"The document could not be saved." = "Dokumen ini tidak dapat disimpan.";
+"This document does not support editing." = "Dokumen ini tidak menyokong pengeditan.";
+"The document could not be accessed." = "Document tersebut tidak dapat diakses.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF tidak dapat dimport pada masa ini.";
+"The image could not be imported at this time." = "Imej tidak dapat dimport pada masa ini.";
+
+// Page Patterns
+"None" = "Tiada";
+"Dot5mm" = "Titik 5mm";
+"Grid5mm" = "Grid 5mm";
+"Lines5mm" = "Garisan 5mm";
+"Lines7mm" = "Garisan 7mm";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "Surat AS";
+"US Legal" = "Undang-undang AS";
+
+// Page Export
+"Export Pages" = "Eksport Halaman";
+"Export…" = "Eksport…";
+"Exporting…" = "Mengeksport…";
+"Exported" = "Dieksport";
+"%@ - Exported" = "%@ - Dieksport"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Salinan"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Dokumen yang dipilih sedang dibuka. Sila pilih nama fail yang berlainan.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Perkhidmatan teks ke pertuturan tidak tersedia. Pastikan anda mempunyai sambungan Internet yang aktif atau telah memasang enjin Teks ke pertuturan Google dan didayakan pada peranti anda.";
+
+// Settings
+"Page Layout" = "Tataletak Halaman";
+"Scroll Direction" = "Arah Skrol";
+"Theme" = "Tema";
+"Keep screen on" = "Pastikan skrin aktif";
+"Page Transition" = "Peralihan Halaman";
+"Single" = "Tunggal";
+"Continuous" = "Berterusan";
+"Curl" = "Bergulung";
+"Scroll" = "Skrol";
+"Horizontal" = "Mendatar";
+"Vertical" = "Menegak";
+"Page Mode" = "Mod Halaman";
+"Automatic" = "Automatik";
+"Double" = "Berganda";
+"Appearance" = "Penampilan";
+"Scrubber Bar" = "Bar Penggosok";
+"Jump" = "Lompat"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Tidak Tersedia"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Penyesuaian Halaman";
+"Fit" = "Muat";
+"Fill" = "Isi";
+"Adaptive" = "Boleh Suai";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ tidak mempunyai akses kepada foto anda.";
+"%@ does not have access to your camera." = "%@ tidak mempunyai akses kepada kamera anda.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "Seting Privasi";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Anda boleh mendayakan akses dalam %@.";
+
+"Update Required" = "Kemas Kini Diperlukan";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Kemas kini untuk %@ diperlukan untuk mengakses dokumen dan menyegerakkan anotasi.";
+
+
+// Annotation Replies
+"Comment" = "Komen";
+"Comments" = "Komen";
+"Add your comment…" = "Tambahkan komen anda…";
+"Delete Comment" = "Padam Komen";
+"Set Status" = "Tetapkan Status";
+"Cancelled" = "Dibatalkan";
+"Accepted by" = "Diterima oleh";
+"Rejected by" = "Ditolak oleh";
+"Completed by" = "Diselesaikan oleh";
+"Cancelled by" = "Dibatalkan oleh";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Penunjuk Kanan";
+"Right Arrow" = "Anak Panah Kanan";
+"Checkmark" = "Tanda semak";
+"Circle Note" = "Bulatan";
+"Cross" = "Pangkah";
+"Insert Text" = "Masukkan Teks";
+"New Paragraph" = "Perenggan Baharu";
+"Text Note" = "Nota Teks";
+"Paragraph" = "Perenggan";
+"Help" = "Bantuan";
+"Star" = "Bintang";
+"Key" = "Kunci";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Biru Muda";
+"Light Red" = "Merah Muda";
+"Light Green" = "Hijau Muda";
+"Fuchsia" = "Fuchsia";
+"Page %tu of %tu" = "Halaman %tu daripada %tu";
+"Preparing document for printing…" = "Menyediakan dokumen untuk pencetakan…";
+"Are you sure you want to delete this annotation?" = "Adakah anda pasti anda ingin memadamkan anotasi ini?";
+"Confirm annotation deletion" = "Sahkan pemadaman anotasi";
+"Page Rotation" = "Putaran Halaman";
+"Rotate Left" = "Putar Ke Kiri";
+"Rotate Right" = "Putar Ke Kanan";
+"%@ (not supported)" = "%@ (tidak disokong)";
+"Pan Mode" = "Mod Sorot";
+"Fit Page" = "Muat Ikut Halaman";
+"Fit Width" = "Muat Ikut Lebar";
+"Password Required" = "Kata Laluan Diperlukan";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Anda perlu membuka kunci dokumen ini untuk melihat dokumen tersebut. Sila masukkan kata laluan dalam medan di bawah.";
+"The password you entered is not correct. Please try again." = "Kata laluan yang anda masukkan adalah tidak betul. Sila cuba sekali lagi.";
+"Clear Signature" = "Kosongkan Tandatangan";
+"Top" = "Atas";
+"Bottom" = "Bawah";
+"Vertical Alignment" = "Penjajaran Menegak";
+"Horizontal Alignment" = "Penjajaran Melintang";
+"Light Orange" = "Jingga Cerah";
+"Light Yellow" = "Kuning Cerah";
+"Mauve" = "Merah Senduduk";
+"Light Gray" = "Kelabu Cerah";
+"Dark Gray" = "Kelabu Gelap";
+"NoColor" = "Tiada";
+"Transparent" = "Lut Sinar";
+// Generic label for bookmark
+"Bookmark" = "Penanda";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Penanda Baharu";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Adakah anda pasti anda ingin memadamkan penanda ini?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Sahkan pemadaman penanda";
+// Label for the select image field
+"Select Image" = "Pilih Imej";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "Alat %@, togol menu";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Jenis yang tidak disokong untuk anotasi imej: %@. Sila gunakan JPEG atau PNG.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Alat Tenda";
+"Toolbar_TextHighlighter" = "Pen Penyerlah Teks";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Bar alat anotasi penanda";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Viewport dokumen";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Reduksi sedang berjalan";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Menunjukkan bahawa dokumen semasa sedang menjalani reduksi";
+"Icon" = "Ikon";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Alihkan";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Alihkan halaman ke";
+// The label of the button on the Move UI
+"move" = "Alihkan";
+"selectedItem" = "%@, dipilih.";
+"annotationDeleted" = "Anotasi dipadamkan.";
+"newAnnotationCreated" = "Anotasi %@ baharu dicipta.";
+"bookmarkCreated" = "Penanda dicipta.";
+"bookmarkEdited" = "Penanda diedit.";
+"bookmarkDeleted" = "Penanda dipadamkan.";
+"cancelledEditingBookmark" = "Pengeditan penanda dibatalkan.";
+"selectAFileForImage" = "Pilih fail untuk anotasi imej baharu.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Dialog yang membolehkan anda mengesahkan atau membatalkan pemadaman anotasi.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Dialog yang membolehkan anda mengesahkan atau membatalkan pemadaman penanda.";
+"deleteCommentConfirmAccessibilityDescription" = "Dialog yang membolehkan anda mengesahkan atau membatalkan pemadaman komen.";
+"resize" = "Ubah saiz";
+"resizeHandleTop" = "Atas";
+"resizeHandleBottom" = "Bawah";
+"resizeHandleRight" = "Kanan";
+"resizeHandleLeft" = "Kiri";
+"cropCurrentPage" = "Pangkas Halaman Semasa";
+"cropCurrent" = "Pangkas Semasa";
+"cropAllPages" = "Pangkas Semua Halaman";
+"cropAll" = "Pangkas Semua";
+"documentCrop" = "Pangkasan Dokumen";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Masukkan selepas halaman";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Taip “0” untuk mengalihkan halaman yang dipilih ke permulaan dokumen.";
+
+// Blend Mode Strings
+"Normal" = "Normal";
+"Multiply" = "Berganda";
+"ScreenBlend" = "Skrin";
+"Overlay" = "Tindihan";
+"Darken" = "Digelapkan";
+"Lighten" = "Dicerahkan";
+"ColorDodge" = "Pencerahan Warna";
+"ColorBurn" = "Pembakaran Warna";
+"HardLight" = "Cerah Keras";
+"SoftLight" = "Cerah Lembut";
+"Difference" = "Perbezaan";
+"Exclusion" = "Pengasingan";
+"Multiple" = "Berbilang";
+"Blend Mode" = "Mod Adunan";
+
+// Image Document Strings
+"File type not supported." = "Jenis fail tidak disokong.";
+"Could not load image file." = "Tidak dapat memuatkan fail imej.";
+"The image is too large to be opened." = "Imej terlalu besar untuk dibuka.";
+"Could not generate a PDF document from the image." = "Tidak dapat menjana dokumen PDF daripada imej.";
+"Unnamed Image Document" = "Dokumen Imej Tidak Bernama";
+"Annotations will remain editable and are embedded into the image." = "Anotasi akan sentiasa boleh diedit dan dibenamkan ke dalam imej.";
+"Annotations are drawn into the image and are readonly." = "Anotasi dilukis ke dalam imej dan bersifat baca sahaja.";
+
+//Metadata Strings
+"Document Info" = "Maklumat Dokumen";
+"Content" = "Kandungan";
+"Title" = "Tajuk";
+"Author" = "Pengarang";
+"Subject" = "Subjek";
+"Keywords" = "Kata Kunci";
+"Not Set" = "Tidak Ditetapkan";
+"NoneValue" = "Tiada";
+"Security" = "Keselamatan";
+"Document Open Password" = "Kata Laluan Buka Dokumen";
+"Not set, minimum 8 characters" = "Tidak ditetapkan, minimum 8 aksara";
+"Permissions" = "Kebenaran";
+"Changes" = "Perubahan";
+"Printing" = "Pencetakan";
+"Content Copying for Accessibility" = "Penyalinan Kandungan Kebolehcapaian";
+"Content Modification" = "Pengubahsuaian Dokumen";
+"High Quality Printing" = "Pencetakan Berkualiti Tinggi";
+"Filling of Form Fields" = "Pengisian Medan Borang";
+"Document Assembly" = "Penggabungan Dokumen";
+"Annotations and Forms" = "Anotasi dan Borang";
+"Content Copying" = "Penyalinan Kandungan";
+"Number of Pages" = "Bilangan Halaman";
+"File Size" = "Saiz Fail";
+"CreationDate" = "Dicipta";
+"ModDate" = "Diubah Suai";
+"Creator" = "Pencipta Kandungan";
+"Producer" = "Penerbit PDF";
+"Info" = "Maklumat";
+"Tap the Edit button to show all metadata fields." = "Ketik butang Edit untuk memaparkan semua medan metadata.";
+"Document Owner Password" = "Kata Laluan Pemilik Dokumen";
+"Changes Are Locked" = "Perubahan Dikunci";
+"Enter the Document Owner Password to make changes." = "Masukkan Kata Laluan Pemilik Kata Kunci untuk membuat perubahan.";
+"Incorrect Password" = "Kata Laluan Tidak Betul";
+"Passwords" = "Kata laluan";
+"Modifying Content" = "Mengubah Suai Kandungan";
+"Editing Annotations and Forms" = "Mengedit Anotasi dan Borang";
+"Filling Forms" = "Mengisi Borang";
+"Copying Content" = "Menyalin Kandungan";
+"Copying Content for Accessibility" = "Menyalin Kandungan untuk Kebolehcapaian";
+"Could Not Save" = "Tidak Dapat Menyimpan";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Semasa menentukan Kata Laluan Buka Dokumen, Kata Laluan Pemilik Dokumen hendaklah tersedia.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Laluan Fail";
+"Identical Passwords" = "Kata Laluan Serupa";
+"Choose a different Owner or Open password." = "Pilih kata laluan Pemilik atau kata laluan Buka yang berbeza.";
+"Owner Password Required" = "Kata Laluan Pemilik Diperlukan";
+"An owner password is required to change the permissions of a document." = "Kata laluan pemilik diperlukan untuk mengubah kebenaran dokumen.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Sekatan kebenaran dipatuhi oleh sesetengah pembaca PDF. Sekatan tersebut tidak dikuatkuasakan dalam aplikasi ini.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Memilih %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Memilih %@ dengan %@ sebagai kandungan";
+// Accessibility string for comment threads
+"commentThread" = "Jalur komen";
+"printProgressModalDesc" = "Menunjukkan bahawa dokumen sedang disediakan untuk pencetakan";
+"printProgressModal" = "Pencetakan dengan berjalan";
+"documentEditorDesc" = "Buat perubahan pada dokumen semasa";
+"reloadDocumentDialog" = "Sahkan muat semula dokumen";
+"reloadDocumentDialogDesc" = "Dialog yang menggesa pengguna untuk mengesahkan muat semula dokumen.";
+"signatureDialog" = "Tandatangan";
+"signatureDialogDesc" = "Dialog ini membolehkan anda memilih tandatangan dakwat untuk disisipkan ke dalam dokumen. Jika anda tidak mempunyai tandatangan yang disimpan, anda boleh mencipta tandatangan tersebut menggunakan paparan kanvas.";
+"stampAnnotationTemplatesDialog" = "Templat Anotasi Cap";
+"stampAnnotationTemplatesDialogDesc" = "Dialog ini membolehkan anda memilih anotasi cap untuk disisipkan ke dalam dokumen atau mencipta anotasi cap tersuai dengan teks anda sendiri.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Reduksi";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Tanda Reduksi";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Reduksi Yang Dilaksanakan";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Warna Garis Luar";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Teks Tindanan";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Teks Berulang";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Warna Teks";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Maklumat Reduksi";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Dokumen ini mengandungi anotasi reduksi yang tidak dilaksanakan. Adakah anda mahu melaksanakan anotasi tersebut?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Laksanakan";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Reduksi ialah proses dua langkah. Mula-mula, cipta tanda reduksi untuk memilih kawasan yang hendak dilakukan reduksi. Untuk mengalih keluar kandungan yang tidak boleh ditarik balik, ketik butang ▵ yang berwarna merah di penjuru kanan sebelah bawah dan laksanakan reduksi tersebut.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Laksanakan Reduksi";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Kosongkan Reduksi";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Dayakan Pratonton Reduksi";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Nyahdayakan Pratonton Reduksi";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Pelaksanaan reduksi akan mengalih keluar maklumat tersebut buat selama-lamanya dan tidak boleh dibuat asal.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Simpan ke fail baharu";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Reduksi pada dokumen semasa";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Melakukan reduksi…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Dokument tersebut tidak dapat dilakukan reduksi.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Kandungan yang ditandakan untuk reduksi tidak akan dialih keluar semasa menyimpan dokumen. Adakah anda pasti anda ingin meneruskan?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Reduksi Pada Dokumen Semasa";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Simpan Dokumen Yang Dilakukan Reduksi Sebagai";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Dilakukan Reduksi";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Reduksi Kawasan";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Reduksi Teks";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Melaksanakan reduksi";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Tandatangan sedang berjalan";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Menunjukkan bahawa dokumen semasa sedang ditandatangani";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Masukkan teks tindanan";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Pulihkan Fail";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Fail Tiada";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' telah dialih keluar di luar aplikasi. Adakah anda ingin menutup dokumen ini atau memulihkan fail?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Konflik Fail";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' telah diubah di luar aplikasi. Penyimpanan akan menggantikan perubahan jauh.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Simpan Perubahan";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Ketik untuk memuatkan media.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Media bagi anotasi ini tidak dapat dimuatkan disebabkan oleh isu sambungan. Sila cuba lagi pada masa yang lain.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Ketik untuk cuba memuatkan media lagi.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Media bagi anotasi ini tidak dapat ditemui. Sekiranya mesej ini berterusan selepas berjaya menyegerakkan dokumen ini, sila laporkan isu ini termasuk maklumat yang berikut: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Ketik untuk batalkan muat turun";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Ralat yang tidak dijangka telah berlaku semasa memuatkan media. Ralat %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Pautan ke Halaman";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Pautan ke Tapak Web";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Nombor Halaman";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Pemilihan Halaman";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Tampal Daripada Papan Klip";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Pratonton Tapak Web";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Alamat Tapak Web";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Kembali";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Ke Depan";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Pelet";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Digunakan Baru-baru Ini";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Pelet Warna Lalai";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Variasi Warna";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Rona";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Ketepuan";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Kecerahan";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Nilai Warna Perenambelasan";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Nilai yang dinyatakan bukan warna yang sah.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Tampal daripada Papan Klip";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Pengikatan Halaman";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Tepi Kiri";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Tepi Kanan";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Tidak Diketahui";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Kiri";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Kanan";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Susunan";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "Depan";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Ke Depan";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Ke Belakang";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "Belakang";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Duplikasi";
+"DocumentEditor_Extract" = "Ekstrak";
+"General_SelectNone" = "Jangan Pilih";
+"DocumentEditor_NewPage" = "Halaman Baru";
+"DocumentEditor_InstantModifiedWarning" = "Dokumen telah diubah suai dan kini dalam mod baca sahaja. Muat semula halaman untuk membetulkan perkara ini.";
+"DocumentEditor_MoveBefore" = "Alih Ke Sebelum";
+"DocumentEditor_MoveAfter" = "Alih Ke Selepas";
+"DocumentEditor_DocumentMergedHere" = "Dokumen akan digabungkan di sini";
+
+// Android Strings
+"FileSystemPermission" = "Nampaknya anda telah menafikan akses sistem fail bagi aplikasi ini buat selama-lamanya. Untuk melihat dan membuka fail PDF yang disimpan dalam peranti anda, anda perlu mendayakan kebenaran sistem fail melalui skrin tetapan aplikasi secara manual.";
+"Button_OpenSettings" = "Buka Tetapan";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Tunjukkan lagi";
+// Button to show less comments
+"Comments_ShowLess" = "Tunjukkan sedikit";
+// Button to reply to a comment
+"Comments_Reply" = "Balas";
+// Button to show all comments
+"Comments_ShowAll" = "Tunjukkan semua";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Adakah anda pasti anda ingin memadamkan komen ini?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Sahkan pemadaman komen";
+// Verb for Comment
+"Comment_Action" = "Komen";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Dokumen telah ditandatangani secara digital dan semua tandatangan adalah sah.";
+"DigitalSignatures_DocModified" = "Dokumen telah ditandatangani secara digital, tetapi telah diubah suai sejak ditandatangani.";
+"DigitalSignatures_SignatureWarning" = "Dokumen telah ditandatangani secara digital, tetapi sekurang-kurangnya satu tandatangan mempunyai masalah.";
+"DigitalSignatures_SignatureWarningDocModified" = "Dokumen telah ditandatangani secara digital, tetapi telah diubah suai sejak ditandatangani dan sekurang-kurangnya satu tandatangan mempunyai masalah.";
+"DigitalSignatures_SignatureError" = "Dokumen telah ditandatangani secara digital, tetapi sekurang-kurangnya satu tandatangan adalah tidak sah.";
+"DigitalSignatures_SignatureErrorDocModified" = "Dokumen telah ditandatangani secara digital, tetapi telah diubah suai sejak ditandatangani dan sekurang-kurangnya satu tandatangan adalah tidak sah.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Tidak Dapat Memulakan Rakaman";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Tidak Dapat Menghentikan Rakaman";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Tidak Dapat Menampal Halaman";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Tidak Dapat Meminta Menandatangani Sijil";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Tidak Dapat Menandatangani Dokumen";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Ralat yang tidak diketahui telah berlaku semasa cuba membuka fail ini.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Paparan Pembaca";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Lukis";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Imej";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Taip";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Tandatangan Di Sini";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Taip Tandatangan Anda Di Atas";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Simpan Tandatangan";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Pilih atau Seret Imej";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Pilih Imej";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Gantikan Imej";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Fail";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Tandatangan Baharu";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Dihidupkan";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Dimatikan";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "Tambah Anotasi";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "Tambah Anotasi";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "Tambah Komen";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "Ubah Status Komen";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "Ubah Jenis Penanda";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "Ubah Pilihan";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "Kosongkan Anotasi";
+// Command of cutting.
+"Undo_Cut" = "Potong";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "Kesan Bentuk";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "Lukis";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "Lepaskan";
+// Command of editing text of a comment.
+"Undo_EditComment" = "Edit Komen";
+// Command of editing text inside text fields.
+"Undo_EditText" = "Edit Teks";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "Padam";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "Kumpulkan";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "Gabung";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "Ubah Suai Anotasi";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "Ubah Suai Anotasi";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "Alihkan Anotasi";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "Alihkan Anotasi";
+// Command of pasting.
+"Undo_Paste" = "Tampal";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "Alih Keluar Anotasi";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "Alih Keluar Anotasi";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "Alih Keluar Komen";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "Alih Keluar Komen";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "Ubah Saiz Anotasi";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "Ubah Saiz Anotasi";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "Putar Anotasi";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "Putar Anotasi";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "Leraikan";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Jajarkan";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Jajarkan Dokumen";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Pilih Titik";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Lama";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Baru";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Perbandingan";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Pilih tiga titik pada kedua-dua dokumen untuk penjajaran secara manual. Untuk mendapatkan hasil yang terbaik, pilih titik yang berhampiran dengan penjuru dokumen dan pastikan titik tersebut berada dalam kedudukan yang sama pada kedua-dua dokumen.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Tutup";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Jajarkan Dokumen";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Perbandingan Dokumen";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Dokumen Lama";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Dokumen Baru";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Set Semula";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Memilih Titik";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Jajarkan…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Memilih Titik";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Titik %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "%1$tu daripada %2$tu dipilih dalam “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Titik %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Sasaran pemilihan titik";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Segi Empat Tepat Berawan";
+"DashedRectangleAnnotation" = "Segi Empat Tepat Putus-Putus";
+"CloudyEllipseAnnotation" = "Elips Berawan";
+"DashedEllipseAnnotation" = "Elips Putus-Putus";
+"CloudyPolygonAnnotation" = "Poligon Berawan";
+"DashedPolygonAnnotation" = "Poligon Putus-Putus";
+"CloudAnnotation" = "Awan";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Tiada Isian";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Anotasi Yang Disimpan Tidak Dapat Dimuatkan";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Anotasi Tidak Dapat Disimpan";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Jarak";
+"PerimeterMeasurement" = "Perimeter";
+"PolygonalAreaMeasurement" = "Kawasan Poligon";
+"RectangularAreaMeasurement" = "Kawasan Segi Empat Tepat";
+"EllipticalAreaMeasurement" = "Kawasan Elips";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Putar lawan arah jam";
+"Rotate_Clockwise" = "Putar ikut arah jam";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Masukkan perihalan di sini";
+// "New option button text"
+"FormDesigner_addOption" = "Tambah pilihan";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Sifat {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Medan borang bernama {formFieldName} sudah pun wujud. Sila pilih nama yang lain.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Gaya {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Nama Medan Borang";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Nilai Lalai";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Berbilang baris";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Untuk mengumpulkan butang radio, pastikan butang radio tersebut mempunyai nama medan borang yang sama.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Lanjutan";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Nama Pencipta";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Nota";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Data Tersuai";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Diperlukan";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Baca Sahaja";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Dicipta Pada";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Dikemas Kini Pada";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Hendaklah merupakan objek boleh dijadikan bersiri JSON yang biasa";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Warna Sempadan";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Lebar Sempadan";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Gaya Sempadan";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Cetak";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Padu";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Putus-Putus";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Serong";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Sisipan";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Bergaris Bawah";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Gaya Teks";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Saiz Fon";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Warna Fon";
+// "Button Field"
+"FormDesigner_button" = "Medan Butang";
+// "Text Field Button"
+"FormDesigner_textField" = "Medan Teks";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Medan Radio";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Medan Kotak Semak";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Medan Kotak Kombo";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Medan Kotak Senarai";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Medan Tandatangan";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Teks Butang";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "N/A";
+// Label for form field
+"FormDesigner_label" = "Label";
+// Value for form field
+"FormDesigner_value" = "Nilai";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Tidak boleh diedit setelah dicipta.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Nama medan borang tidak boleh dibiarkan kosong.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Pencipta Borang";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Berbilang Pilih";
+"FormDesigner_readOnlyProperty" = "Baca Sahaja";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Pilihan";
+
+// Measurement tools
+"MeasurementScale" = "Skala";
+"MeasurementCalibrateLength" = "Panjang Tentukur";
+"MeasurementPrecision" = "Ketepatan";
+"MeasurementSnapping" = "Pengikatan";
+"MeasurementPrecision_Whole" = "Nombor Bulat";
+"MeasurementPrecision_OneDecimalPlace" = "Satu Tempat Perpuluhan";
+"MeasurementPrecision_TwoDecimalPlaces" = "Dua Tempat Perpuluhan";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tiga Tempat Perpuluhan";
+"MeasurementPrecision_FourDecimalPlaces" = "Empat Tempat Perpuluhan";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Kawasan";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Anotasi Media";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Pelayar ini tidak menyokong video atau audio yang dibenamkan.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Tetapan Pautan";
+// Label for selection of link type (website - page).
+"linkTo" = "Pautan Ke";
+// Label for website selection.
+"uriLink" = "Tapak Web";
+// Label for page selection.
+"pageLink" = "Halaman";
+// Text for preceding number for page link number.
+"linkToPage" = "Pautan ke Halaman %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Masukkan nombor halaman yang sah.";
+// Error message for invalid page link.
+"invalidPageLink" = "Masukkan pautan halaman yang sah.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "Tetapan Ukuran {measurementType}";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Pilih Berbilang Anotasi";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Alat %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Anda perlu membuka kunci dokumen ini untuk melihat dokumen tersebut. Sila masukkan kata laluan dalam medan di bawah.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Awanama";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Pilihan Komen";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Edit Kandungan";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Tetapan Ukuran Perimeter";
+"Distance_Popover_Title" = "Tetapan Ukuran Jarak";
+"Rectangle_Area_Title" = "Tetapan Ukuran Kawasan Segi Empat Tepat";
+"Polygon_Area_Title" = "Tetapan Ukuran Kawasan Poligon";
+"Ellipse_Area_Title" = "Tetapan Ukuran Kawasan Elips";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Tebal";
+"Italic" = "Italik";
+
+// Button to save and then close current context
+"Save_And_Close" = "Simpan & Tutup";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Togol tip alat salah padan fon";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Fon %@ tidak tersedia atau tidak dapat digunakan untuk mengedit kandungan dalam dokumen ini. Kandungan yang ditambah atau diubah akan kembali kepada fon lalai.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Benam";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Didatarkan";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Abaikan";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Ringkasan";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Pilih halaman mula";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Pilih halaman akhir";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "hingga";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Putaran";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Edit Kandungan";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” mempunyai perubahan yang tidak disimpan.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Berbilang Fon";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Fon Tidak Diketahui";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Berbilang Saiz";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Kurangkan Saiz";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Tingkatkan Saiz";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Berbilang Warna";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ Tebal";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ Italik";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ Tebal Italik";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Buka jalur komen yang dimulakan oleh %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Lagi komen";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Julat Halaman";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Warna Tersuai Baharu";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Editor Kandungan";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Cari Pilihan";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Cari di Web";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Inci Penuh";
+"MeasurementPrecision_Halves" = "Setengah Inci";
+"MeasurementPrecision_Quarters" = "Suku Inci";
+"MeasurementPrecision_Eighths" = "Satu Perlapan Inci";
+"MeasurementPrecision_Sixteenths" = "Satu Perenam Belas Inci";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Rantaian sijil yang digunakan untuk menandatangani dokumen adalah kosong.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Jenis tandatangan digital tersebut tidak disokong.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Tandatangan digital tersebut mengandungi cap masa yang tidak sah, atau data yang diberi cap masa itu telah diusik.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Tetapan Pengukuran";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Tambahkan Skala";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Gunakan Alat Penentukuran";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Tentukur Skala";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Tetapkan Skala";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Unit Sekunder";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Unit";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Tindakan memadamkan skala juga akan memadamkan pengukuran yang menggunakan skala tersebut.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "Skala ini sedang digunakan";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Adakah anda ingin mengedit atau menggunakan skala yang sedia ada?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Gunakan Yang Sedia Ada";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Tidak Bernama";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Lekat pada Titik";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Lekat pada Diri";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Tunjukkan Panduan Pintar";
+
+// Label for the add text box button
+"AddTextBox" = "Tambahkan Kotak Teks";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Adakah anda pasti anda ingin memadamkan kotak teks ini?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Sahkan pemadaman kotak teks";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Dialog yang membolehkan pengguna mengesahkan atau membatalkan pemadaman kotak teks";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Baca Sahaja";
+"locked" = "Dikunci";
+"lockedContent" = "Kandungan Dikunci";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Skala Ditambahkan";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” telah berjaya ditambahkan kepada senarai skala.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Ikon tetapan pengukuran";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Ikon yang menunjukkan skala tetapan pengukuran tidak ditetapkan";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Dokumen ini telah ditandatangani dengan %@ oleh %@ pada %@ pada pukul %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Dokumen ini mendakwa telah ditandatangani dengan %@ oleh %@ pada %@ pada pukul %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritma: %@ dengan %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Ekstrak Halaman";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Nama Skala";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Skala dengan tetapan ini sudah pun ditakrifkan. Sila pilih skala yang lain.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Paparkan Unit Sekunder";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Edit atau tambahkan skala baharu";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Tentukur";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Lapisan";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Tiada Lapisan";
+
+"The certificate is not yet valid" = "Sijil masih belum sah lagi.";
+"Signature validation failed - invalid signature" = "Tandatangan adalah tidak sah.";
+"The certificate has been revoked" = "Sijil telah dibatalkan.";
+"Certificate problem" = "Terdapat masalah dengan sijil tersebut.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Tidak dapat menyemak jika sijil tersebut telah dibatalkan.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Ruang Jarak Baris";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Sebaris";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dua Baris";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Pilih Lagi…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Ukuran";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Muat Semula Dokumen";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Membantu dunia menginovasi dengan alatan pembangun, penyelesaian kurang kod, dan alatan pengguna akhir yang meliputi semua platform utama.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Tindakan";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Pintasan";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Sebutan";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Buka Dialog Bantuan";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Baca lebih lanjut";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Fokus Bar Alat";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Ingatan tidak mencukupi untuk memaparkan halaman ini.";

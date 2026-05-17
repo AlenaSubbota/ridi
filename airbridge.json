@@ -1,0 +1,13 @@
+{
+  "sdkEnabled": true,
+  "logLevel": "warning",
+  "autoStartTrackingEnabled": false,
+  "autoDetermineTrackingAuthorizationTimeoutInSecond": 10,
+  "trackMetaDeferredAppLinkEnabled": false,
+  "sessionTimeoutInSecond": 1800,
+  "trackAirbridgeDeeplinkOnlyEnabled": true,
+  "trackInSessionLifecycleEventEnabled": true,
+  "sdkSignatureID": "4c26bd31-72a6-453a-9684-241456ef76bf",
+  "sdkSignatureSecret": "fcf401a3d32fd3c5b05772698c7a7101a7ba4cab774e195a75971a3421673879",
+  "isHandleAirbridgeDeeplinkOnly": true
+}

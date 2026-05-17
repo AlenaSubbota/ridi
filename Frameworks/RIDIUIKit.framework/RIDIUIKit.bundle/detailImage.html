@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <style type="text/css">
+  * {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+  body {
+    background-color: transparent;
+  }
+  .content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  img, svg {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  #zoomTable {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    position: fixed;
+  }
+  </style>
+  <meta name="viewport" content= "width=device-width,height=device-height,initial-scale=1.0,maximum-scale=3.0,user-scalable=yes" />
+  </head>
+  <body>
+    <div class="content">#{CONTENT}</div>
+    <table id="zoomTable"><tbody><tr><td></td><td></td></tr></tbody></table>
+  </body>
+</html>

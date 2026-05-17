@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "닫기";
+"Cancel" = "취소";
+"OK" = "승인";
+"Open" = "열기";
+"Untitled" = "제목 없음";
+"File Not Found" = "파일을 찾을 수 없음";
+"File couldn't be opened." = "파일을 열 수 없습니다."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "이름 없는 PDF";
+"Page %tu" = "페이지 %tu";
+"Page %@" = "페이지 %@";
+"Next" = "다음";
+"Previous" = "이전";
+"Error" = "오류";
+"More options" = "옵션 더보기";
+"Close Tab" = "탭 닫기";
+"Close All Tabs" = "모든 탭 닫기";
+"Close All Other Tabs" = "다른 모든 탭 닫기"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "그리기";
+"Highlighter" = "자유형태 하이라이트";
+
+// toolbar
+"Outline" = "개요"; // Table of contents
+"No Outline" = "개요 없음";
+"Search Outline" = "개요 검색";
+"Search" = "검색";
+"Email" = "이메일";
+"Send via Email" = "이메일로 전송";
+"Send" = "전송";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "메시지로 공유";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "이메일로 공유";
+"Open In" = "다음으로 열기";
+"Commit" = "수용";
+"Sending to %@" = "%@에게 전송"; // Open document with an application
+"Pages" = "페이지";
+"Print with annotations" = "주석을 함께 출력";
+"Print without annotations" = "주석 없이 문서만 출력";
+"No Applications found" = "PDF 문서를 열 수 있는 응용 프로그램이 설치되어 있지 않습니다.";
+"Print" = "출력";
+"Annotation" = "주석";
+"Annotations" = "주석";
+"No Annotations" = "주석 없음";
+"Bookmarks" = "책갈피";
+"No Bookmarks" = "책갈피 없음";
+"Add Bookmark" = "책갈피 추가";
+"Remove Bookmark" = "책갈피 제거";
+"Brightness" = "밝기";
+"Share" = "공유";
+"Preparing" = "준비 중";
+"Loading" = "불러오는 중";
+"Expand" = "확장";
+"Collapse" = "접기";
+// SMS / iMessage sharing button
+"Message" = "메시지";
+"Thumbnails" = "축소판";
+"Drag Toolbar" = "도구막대 끌어놓기";
+
+// thumbnails
+"Bookmarked" = "즐겨찾기됨";
+"Annotated" = "주석포함";
+"All" = "전체";
+"Loading Annotations" = "주석 불러오는 중";
+"Loading Pages" = "페이지 불러오는 중";
+"Loading Bookmarks" = "책갈피 불러오는 중";
+
+// password
+"Password" = "비밀번호"; // text on a label
+"Unlock" = "잠금해제";
+"Please enter the password." = "비밀번호를 입력하세요.";
+"This document cannot be unlocked." = "이 문서를 잠금해제할 수 없습니다.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "암호 필드";
+
+// page
+"%tu of %tu" = "%2$tu 중의 %1$tu";
+"%tu–%tu of %tu" = "%tu–%tu/%tu";
+"%@ (%tu of %tu)" = "%1$@ (%3$tu 중의 %2$tu)";
+"%@, Page %tu" = "%@, %tu 페이지";
+"Leave %@?" = "%@에서 나갈까요?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu/%tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu/%tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu/%tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "문서 검색"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "%2$tu 페이지 중의 %1$tu 페이지 검색 중";
+"Search Completed" = "검색 완료";
+"Search Cancelled" = "검색 취소";
+"%tu left" = "%tu개 남음"; // Indexing Documents... 5 left
+"Searching" = "검색 중";
+"Done" = "완료";
+"Indexing Documents" = "문서 색인 중";
+"Document" = "문서";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "주석 검색";
+
+// inline browser
+"Open in Safari" = "Safari에서 열기";
+"Open in Chrome" = "Chrome에서 열기";
+"Your %@ is not configured to send emails." = "사용자의 %@은 이메일을 전송할 수 있도록 구성되지 않았습니다.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "링크를 누르면 %1$@ 앱으로 연결됩니다. %2$@계속 하시겠습니까?"; // First placeholder is for an app name (e.g. Mail) and the second one is for the URL of the app and automatically begins a newline afterwards
+"an external application" = "외부 응용 프로그램"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "앱 스토어"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "%@을(를) 위한 핸들러가 없습니다";
+
+// text selection
+"Text copied to clipboard." = "텍스트가 클립보드에 복사되었습니다.";
+"Save to Photo Library" = "사진 보관함에 저장";
+"Failed to extract image." = "이미지를 추출하는데 실패했습니다.";
+"Type value or pick from list" = "값을 입력하거나 목록에서 선택하십시오";
+
+// annotations
+"Add %@" = "%@ 추가";
+"Remove %@" = "%@ 제거";
+"Remove" = "제거";
+"Delete" = "삭제"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "편집";
+"Undo" = "실행취소";
+"Nothing to undo" = "실행취소할 작업 없음";
+"Redo" = "실행복귀";
+"Nothing to redo" = "재실행할 작업 없음";
+"Type" = "유형"; // kind of Annotation can be selected
+"Size" = "크기";
+"Font" = "서체";
+"Fonts" = "서체";
+"All Fonts" = "모든 서체";
+"Downloadable Fonts" = "다운로드 가능한 서체";
+"Search Fonts" = "서체 검색";
+"Choose Color" = "색상 선택";
+"Choose Fill Color" = "채우기 색상 선택";
+"Rainbow" = "무지개";
+"Monochrome" = "흑백";
+"Vintage" = "빈티지";
+"Modern" = "모던";
+"ColorPalette_Unified" = "팔레트";
+"Color" = "색상";
+"Border" = "테두리";
+"Fill Color" = "채우기 색상";
+"Start and End Color" = "시작 및 끝 색상";
+"Opacity" = "불투명도";
+"Thickness" = "두께";
+"%@ pt" = "%@ pt";
+"Yellow" = "노란색";
+"Green" = "초록색";
+"Red" = "빨간색";
+"Blue" = "파란색";
+"Pink" = "분홍색";
+"Black" = "검은색";
+"Orange" = "귤색";
+"Purple" = "자주색";
+"Cyan" = "청록색";
+"Gray" = "회색";
+"White" = "흰색";
+"Color_Brown" = "갈색";
+"Color_DarkRed" = "암적색";
+"Color_DarkBlue" = "검푸른색";
+"Color_Magenta" = "자홍색";
+"Define" = "정의";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "텍스트 하이라이트";
+"Underline" = "밑줄";
+"Squiggly" = "구불한 선";
+"StrikeOut" = "취소선";
+"Rectangle" = "직사각형";
+"Ellipse" = "타원";
+"Line" = "선"; // something that can be drawn
+"Polygon" = "다각형";
+"Signature" = "서명";
+"Signatures" = "서명";
+"Signed" = "서명됨";
+"Sign" = "서명";
+"Signing…" = "서명 중…";
+"Sign using %@" = "%@(으)로 서명"; // e.g. Adobe.PPKLite
+"Methods" = "처리방식"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "신원 선택"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "스탬프";
+"Stamps" = "스탬프";
+"Custom" = "사용자 지정"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "스탬프 생성";
+"Preview" = "미리보기";
+"Stamp Text" = "텍스트 스탬프";
+"Add Signature" = "서명 추가";
+"Remove Signature" = "서명 제거하기";
+"My Signature" = "나의 서명";
+"No Signatures" = "서명 없음"; // text on label - is shown when there is no signature to display
+"Please sign here" = "여기 서명하십시오";
+"Text" = "메모";
+"FreeText" = "텍스트";
+"Delete Note" = "메모 삭제";
+"Remove Note" = "메모 제거";
+"%@ could not be found." = "%@을(를) 찾을 수 없습니다.";
+"Photo Library" = "사진 보관함";
+"Camera" = "카메라";
+"camera_not_available" = "카메라 사용할 수 없음";
+"Image" = "이미지";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "이미지 품질 선택";
+"Low Quality" = "낮은 품질";
+"Medium Quality" = "중간 품질";
+"High Quality" = "높은 품질";
+"Clear All" = "모두 지우기";
+"Clear" = "지우기";
+"Style" = "스타일";
+"Link" = "링크";
+"Ink" = "그리기";
+"Screen" = "스크린";
+"RichMedia" = "리치 미디어";
+"FileAttachment" = "파일";
+"Left" = "왼쪽";
+"Center" = "중앙";
+"Right" = "오른쪽";
+"Alignment" = "정렬";
+"Preview File" = "파일 미리보기";
+"Copy" = "복사";
+"Paste" = "붙여넣기";
+"Inspector" = "속성";
+"Group" = "그룹";
+"Ungroup" = "그룹해제";
+"Merge" = "병합"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "샘플";
+"Annotation Summary for %@:" = "%@의 주석 요약:";
+"Show Text" = "텍스트 보기";
+// title
+"Author Name" = "저자 이름";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "새로 삽입한 주석에 대한 저자 이름을 입력해 주십시오.";
+// text field placeholder
+"Name" = "이름";
+// meaning: close
+"Dismiss" = "무시";
+"Fit to Text" = "텍스트에 맞추기";
+"Draw" = "그리기";
+"Sound" = "사운드";
+"Eraser" = "지우개";
+"Toggle Eraser" = "지우개 켬/끔"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "선택 도구";
+"Add" = "추가"; // to add - infinitive
+"Date" = "날짜";
+"Time" = "시간";
+"No Pages" = "페이지 없음";
+"Drag to resize" = "드래그 하여 크기조정"; // used as hint that inspector is resizable
+"Convert to" = "다음으로 변환"; // used as label on action that changes free text intent type
+"Color Presets" = "색상 미리설정";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "색상 프리셋";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "잘라내기";
+"Annotation copied." = "주석 복사됨.";
+"Annotation cut." = "주석 잘라냄.";
+"Annotation pasted." = "주석 붙임.";
+"%tu selected" = "%tu개 선택";
+"Custom Stamp" = "사용자지정 스탬프";
+"Change text and color" = "텍스트 및 색상 변경";
+"Use an existing stamp design" = "기존 스탬프 디자인 사용";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "매직 잉크";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "%@ 크기의 '%@' 서체 불러오기 실패";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "스타일 속성";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "모든 주석을 삭제하시겠습니까?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "주석 생성 끔";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "코멘트 있음";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "텍스트 주석";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "체크 마크";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "크로스 마크";
+
+"Callout" = "말풍선"; // freetext annotation with an arrow
+"Generic" = "일반"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "선 스타일";
+"Solid" = "채움";
+"Narrow Dots" = "좁은 점선";
+"Wide Dots" = "넓은 점선";
+"Narrow Dashes" = "좁은 줄표";
+"Wide Dashes" = "넓은 줄표";
+"Cloudy" = "클라우디"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "승인됨";
+"Not Approved" = "승인되지 않음";
+"Draft" = "초안";
+"Final" = "최종";
+"Completed" = "완료됨";
+"Confidential" = "비밀 정보";
+"For Public Release" = "일반 공개 용도";
+"Not For Public Release" = "일반 공개 불가";
+"For Comment" = "코멘트 용도";
+"Void" = "효력 없음";
+"Preliminary Results" = "예비 결과";
+"Information only" = "참고 용도";
+"Accepted" = "수락됨";
+"Rejected" = "거부됨";
+"Initial Here" = "여기 이니셜";
+"Sign Here" = "이곳에 서명";
+"Witness" = "증명";
+"Revised" = "수정본";
+"Stamp.AsIs" = "현재 상태로";
+"Stamp.Departmental" = "세분화";
+"Stamp.Experimental" = "실험";
+"Stamp.Expired" = "만료";
+"Stamp.Sold" = "판매완료";
+"Stamp.TopSecret" = "일급비밀";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "스타일러스";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "끔";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "탐지 중";
+// text on a label; app connects to a stylus
+"Pairing" = "페어링";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ 연결됨";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ 연결해제";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "설정";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Apple Pencil만 사용해 주석 편집";
+
+// PDF annotation name overrides
+"Square" = "직사각형";
+"Circle" = "타원";
+"PolyLine" = "폴리라인";
+"SavedAnnotations" = "저장된 주석";
+
+// named actions
+"NextPage" = "다음 페이지";
+"PrevPage" = "이전 페이지";
+"FirstPage" = "첫 페이지";
+"LastPage" = "마지막 페이지";
+"GoBack" = "뒤로";
+"GoForward" = "앞으로";
+"GoToPage" = "페이지로 이동";
+"Find" = "찾기";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "확대";
+"ZoomOut" = "축소";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "리치 미디어 동작";
+"Rendition Action" = "해석 동작";
+"Hide Action" = "동작 감추기";
+"Submit Form" = "양식 전송";
+"Reset" = "초기화";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "뒤로";
+// Description of the select all text keyboard shortcut.
+"Select All" = "모두 선택";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "위 항목 선택";
+"KeyCommand.SelectBelow" = "아래 항목 선택";
+"KeyCommand.SelectTop" = "최상위 항목 선택";
+"KeyCommand.SelectBottom" = "아래 항목 선택";
+"KeyCommand.ClearSelection" = "선택 취소";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "섹션 펼치기";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "섹션 접기";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "다음 탭 보기";
+"KeyCommand.ShowPreviousTab" = "이전 탭 보기";
+"KeyCommand.SelectAllAnnotations" = "모든 주석 선택";
+
+// line annotations
+"Start" = "시작";
+"End" = "끝";
+"Line.None" = "없음";
+"Line.ClosedArrow" = "닫힌 화살표";
+"Line.OpenArrow" = "열린 화살표";
+"Line.Square" = "정사각형";
+"Line.Circle" = "원";
+"Line.Diamond" = "다이아몬드";
+"Line.ROpenArrow" = "역방향 열린 화살표";
+"Line.RClosedArrow" = "역방향 닫힌 화살표";
+"Line.Slash" = "슬래시";
+"Line.Butt" = "밑동";
+"Line Start" = "선 시작";
+"Line End" = "선 끝";
+"Arrow" = "화살표"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "링크 생성";
+"Add Link" = "링크 추가";
+"Edit Link" = "링크 편집";
+"Move Link" = "링크 이동";
+"Remove Link" = "링크 제거";
+"Open Link" = "링크 열기";
+"Go to Page %tu" = "%tu 페이지로 이동";
+"Go to Page" = "페이지로 이동"; // title of a Popup
+"Go" = "이동"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "URL 복사";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "링크 복사";
+"Save" = "저장";
+"Link Destination" = "링크 대상";
+"Enter page index or a http:// address to link to an URL." = "페이지 색인 또는 http:// 주소로 링크에 URL을 추가하세요.";
+"Page %@ Not Found" = "%@ 페이지를 찾을 수 없음";
+"Add to Reading List" = "읽기 목록에 추가";
+
+"Link annotation creation failed." = "링크 주석 생성 실패.";
+"Link annotation successfully created." = "링크 주석 생성 성공.";
+"Entered text could not be converted to an Integer nor URL." = "입력한 텍스트를 정수 또는 URL로 변환할 수 없습니다.";
+
+// voiceover accessibility
+"Grid" = "격자"; // grid with thumbnails
+"Translucent" = "반투명";
+"left" = "왼쪽";
+"center" = "중앙";
+"right" = "오른쪽";
+"decrease" = "작게";
+"increase" = "크게";
+"All Open Documents" = "모든 열려 있는 문서";
+"Add Documents" = "문서 추가"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "파일 열기";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "멀티미디어 제어";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "양식 초기화";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "동작 보기";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "지명 동작";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "페이지 %tu-%tu"; // Range of pages
+"Current Page" = "현재 페이지";
+"Current Page (%tu)" = "현재 페이지 (%tu)";
+"Ignore Annotations" = "주석 무시";
+"The PDF will not contain any annotations." = "PDF 문서에 주석이 첨부되지 않습니다.";
+"Embed Annotations" = "주석 첨부";
+"Annotations will remain editable and are embedded into the PDF." = "PDF 문서에 주석을 첨부하며, 차후 다시 편집할 수 있습니다.";
+"Flatten Annotations" = "주석 레이어 합침";
+"Annotations are drawn into the PDF and are readonly." = "PDF 문서에 주석을 각인하며, 읽기전용으로 전환합니다.";
+"Annotation Summary" = "주석 요약";
+"Embed Annotations into the PDF and also list them in the email." = "주석을 PDF 문서에 첨부하고 이메일에 목록으로 나열합니다.";
+"Annotations will be listed in a text file." = "주석은 텍스트 형식으로 나열됩니다.";
+"Files" = "파일";
+"Send as single files" = "하나의 파일로 전송";
+"Merge files" = "파일 병합";
+"Original File" = "원본 파일";
+"Range" = "범위";
+"Annotated Pages" = "주석포함 페이지";
+"Message could not be sent." = "메시지를 보낼 수 없습니다.";
+"Export" = "내보내기";
+"This action can't be performed." = "이 동작을 수행할 수 없습니다.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "파일 기반이 아닌 문서에 대한 보내기 작업은 수행할 수 없음";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "문서가 주석을 포함하고 있지 않습니다.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "문서를 공유할 수 없음";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "문서 이미지 공유는 한 번에 %tu 페이지로 제한됩니다.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "메시지를 통해 첨부파일을 전송할 수 없습니다.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "프린트할 수 없는 문서입니다.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF 문서";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "목적지를 사용할 수 없음";
+
+// sound annotations
+"Speak" = "말하기"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "재생";
+"Pause" = "일시정지";
+"Resume" = "재개";
+"Stop" = "정지";
+"Play/Stop" = "재생/정지";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "녹음";
+"Pause Recording" = "녹음 일시정지";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "녹음 일시정지";
+"Continue Recording" = "계속 녹음";
+"Finish Recording" = "녹음 완료";
+"Audio Problem" = "오디오 에러";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "재생을 시작할 수 없습니다.";
+"Could not resume playback." = "이어서 재생할 수 없습니다.";
+"Microphone permission not granted." = "마이크 사용 권한이 없습니다.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "죄송합니다. 소리를 녹음할 수 없습니다. 앱이 마이크에 접근할 수 있도록 설정을 변경해 주시기 바랍니다.";
+"There was a problem trying to record audio." = "죄송합니다. 녹음 중 오류가 발생했습니다.";
+"Already Recording" = "이미 녹음 중";
+"You are already recording on page %@." = "이미 %@ 페이지에서 녹음 중입니다.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "이 앱에 대한 마이크 접근 권한이 영구적으로 거부된 것 같습니다. 음성 노트를 녹음하려면, 앱 설정 화면을 통해 마이크 권한을 수동으로 켜주시기 바랍니다.";
+
+// Forms
+"Form Element" = "양식 요소";
+"Text Field" = "텍스트 필드";
+"Button" = "버튼";
+"Choice Field" = "선택 필드";
+"Signature Field" = "서명 필드";
+"Clear Field" = "필드 지우기"; // same as delete
+"Default Values" = "기본값";
+"Custom Value" = "사용자 지정값";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "옵션 검색";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "유효하지 않은 값: 반드시 %s와 같거나 더 커야합니다.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "유효하지 않은 값: %s 이상 %s 이내의 값을 입력해 주십시오.";
+"Invalid value: must be less than or equal to %s." = "유효하지 않은 값: 반드시 %s와 같거나 작아야 합니다.";
+"The value entered does not match the format of the field [%s]" = "입력한 값이 다음 필드의 포맷과 일치하지 않습니다: [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "올바르지 않은 시간/날짜: 날짜/시간이 존재하는지 확인하십시오. [%s] 필드가 %s 포맷과 일치해야 합니다";
+
+// General validation
+"Invalid value [%s]" = "올바르지 않은 값 [%s]";
+
+// Gallery
+"Connection Error" = "연결 오류";
+"Unsupported Content" = "지원하지 않는 콘텐츠";
+"The specified content cannot be displayed." = "특정 콘텐츠를 화면에 표시할 수 없습니다.";
+"Something went wrong" = "예기치 않은 문제가 발생했습니다";
+"This item is currently unavailable." = "사용할 수 없는 항목입니다.";
+"The information for this gallery could not be loaded." = "갤러리 정보를 불러올 수 없습니다.";
+"Content Error" = "콘텐트 에러";
+"This content is unsupported." = "지원하지 않는 콘텐츠입니다.";
+
+// Signatures
+"Digital Signature" = "디지털 서명";
+"Signature is valid." = "유효한 서명입니다.";
+"Signature is valid, but there are some warnings." = "유효한 서명이지만, 주의사항이 있습니다.";
+"It was signed by %@ on %@ at %@." = "%@이(가) %@ %@에 서명했습니다."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "다음 시각에 서명된 것으로 기재되어 있습니다:  %@ %@.";
+"It claims to have been signed by %@ on %@ at %@." = "%@이(가) %@ %@에 서명한 것으로 추정됩니다."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "다음 시각에 서명된 것으로 기재되어 있습니다:  %@ %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "서명이 수용할 수 았는 개정판이 수정되지 않았습니다. 하지만 서명 이후에 문서의 내용이 수정되었습니다."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "서명이 유효하며, 문서에 서명이 추가된 이후 내용이 수정되지 않았습니다.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "올바르지 않은 서명 - 서명 후 문서의 내용이 수정되었거나 손상되었습니다.";
+"Unsigned Signature Field" = "서명하지 않은 서명 필드";
+"Do you really want to remove the signature from the document?" = "이 문서에서 서명을 제거하시겠습니까?";
+"Could not retrieve the certificate from the signature." = "서명에서 인증서를 가져올 수 없습니다.";
+"Could not retrieve the signature contents." = "서명 콘텐츠를 가져올 수 없습니다.";
+"Could not retrieve the public key from the signature." = "서명에서 공개 키를 가져올 수 없습니다.";
+"Could not retrieve the byte range of the signature." = "서명에서 바이트 범위를 가져올 수 없습니다.";
+"Could not understand the encryption padding." = "암호화 패딩을 이해할 수 없습니다.";
+"Could not compute the digest for the document." = "문서의 요약문이 검출되지 않습니다.";
+"General failure while trying to determine document integrity." = "문서 완전성을 확인하는 도중 일반적인 오류가 발생했습니다.";
+"Certificate chain is invalid." = "인증서 체인이 올바르지 않습니다.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "신뢰할 수 있는 키가 제공되지 않아 인증서 체인에 대한 유효성을 확인할 수 없습니다.";
+"Document integrity success, but certificate is self signed." = "인증서가 자가 서명되었습니다.";
+"Document integrity check failed." = "문서 완전성 검사 실패.";
+"The signing certificate is not trusted." = "서명 인증서가 검증되지 않았습니다.";
+"unknown time" = "알 수 없는 시간";
+"unknown date" = "알 수 없는 날짜";
+"Digitally signed by {}" = "디지털 서명인: {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "날짜: ";
+"Reason: " = "이유: ";
+"Location: " = "위치: ";
+"Certificate" = "인증서";
+"No Certificate" = "인증서 없음";
+"No Certificates" = "인증서 없음";
+"Store Signature" = "서명 저장";
+"Add Trusted Certificate" = "신뢰할 수 있는 인증서 추가";
+"Add Signer" = "서명인 추가";
+"Added Trusted Certificate" = "추가된 신뢰할 수 있는 인증서";
+"Added Signer" = "추가된 서명인";
+"File doesn't match any certificate type" = "파일이 아무런 인증서 유형과 일치하지 않습니다";
+"Import Failed" = "불러오기 실패";
+"Signature Area" = "서명 영역";
+"Draw Signature Area" = "서명 영역을 그리세요";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7 객체를 개시할 수 없음";
+"Could not find signature" = "서명을 찾을 수 없음";
+"Could not hash the PDF document" = "PDF 문서의 해시를 확인할 수 없음";
+"Could not create padding for the digital signature" = "디지털 서명을 위한 여백을 생성할 수 없음";
+"Could not verify the signature" = "서명을 확인할 수 없음";
+"Could not save the signed document" = "서명한 문서를 저장할 수 없음";
+"Cannot sign attributes" = "속성을 서명할 수 없음";
+"The selected subfilter type for the signature is not supported" = "선택한 하위 파일의 유형은 서명을 지원하지 않습니다";
+"Could not add signature to PKCS7 object" = "PKCS7 객체에 서명을 추가할 수 없음";
+"Could not write PKCS7 signature" = "PKCS7 서명을 작성할 수 없음";
+"Could not create PKCS7 object" = "PKCS7 객체를 생성할 수 없음";
+"Could not generate PKCS7 object" = "PKCS7 객체를 생성할 수 없음";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "이미 서명이 완료되어 재서명할 수 없습니다.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "PKCS#7 인증서 유형으로 인증서를 판독할 수 없습니다. Adobe Acrobat에서 올바른 데이터 형식으로 다시 내보낼 수 있습니다."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "인증서의 서명 정보를 복호할 수 없습니다.";
+"The public key in the certificate could not be read." = "인증서의 공개키를 읽을 수 없습니다.";
+"The signature of the certificate is not valid." = "인증서 서명이 유효하지 않습니다.";
+"Signature is not valid." = "서명이 올바르지 않습니다.";
+"There is a format error in the notBefore field of the certificate." = "인증서의 notBefore 필드에 포맷 오류가 있습니다."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "인증서의 notAfter 필드에 포맷 오류가 있습니다."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "인증서 체인에 발행인을 신뢰할 수 없고 자체 서명하지 않은 단 하나의 인증서만 포함하고 있어 서명을 확인할 수 없습니다.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "CA 인증서가 유효하지 않습니다. CA가 아니거나 인증서의 확장 코드가 해당 목적에 부합하지 않습니다."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "basicConstraints pathlength 파라미터가 초과되었습니다."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "특정 목적으로 사용 시 신뢰되지 않도록 루트 CA에 마킹되어 있습니다."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "특정 목적에 사용할 수 없도록 루트 CA에 마킹되어 있습니다."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "인증서 발행인의 이름과 주체의 이름이 일치하지 않아 인증서가 거부되었습니다."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "주체 키 식별자가 존재하지만 기관 키 식별자와 일치하지 않아 발행인 인증서가 거부되었습니다."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "발행인 이름과 일련번호가 존재하지만 기관 키 식별자와 일치하지 않아 인증서가 거부되었습니다."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "발행인이 인증서를 취소했습니다.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "통과한 인증서는 자체-서명되었으며, 신뢰할 수 있는 인증서 목록에 포함되어 있지 않습니다.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "자체-서명한 인증서가 인증서 체인에 존재합니다. 루트 CA가 없는 상황에서 신뢰할 수 없는 인증서에 기반한 인증서 체인은 존재할 수 없습니다."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "서명 계층에 포함된 인증서 기관(CA) 한 곳에 대한 인증서를 발견할 수 없으며, 로컬 애플리케이션으로부터 신뢰할 수 없는 CA 입니다."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "로컬 룩업 인증서가 발행인 인증서를 포함하고 있지 않습니다. 대부분 신뢰할 수 있는 인증서 목록이 불완전할 경우 발생합니다.";
+"The certificate that was provided cannot be used for its intended purpose." = "공급 받은 인증서를 특정 목적으로 사용할 수 없습니다.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "발행인 인증서의 keyUsage 확장이 인증서 서명을 허용하지 않습니다.";
+"The certificate has expired." = "인증서 기한이 만료되었습니다.";
+"The certificate is not valid until a date in the future." = "특정 날짜 전에눈 사용할 수 없는 인증서입니다.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "X509 인증서로부터 데이터를 가져올 수 없음";
+// X509 should not be translated
+"No X509 certificate found" = "X509 인증서가 없음";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "PKC12 파일을 읽을 수 없습니다. 파일 형식이 올바르지 않거나 손상되었을 수 있습니다.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "PKCS12 데이터를 잠금해제할 수 없습니다. 비밀번호를 정확히 입력하셨습니까?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "PKCS12 데이터를 디코딩할 수 없습니다. 데이터가 손상되었거나 호환되지 않습니다.";
+"Could not unlock PKCS12 data." = "PKCS12 데이터를 잠금해제할 수 없습니다.";
+"Could not add signature." = "서명을 추가할 수 없습니다.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "서명 확인에 필요한 파일을 불러올 수 없음";
+"Could not get signer info" = "서명자의 정보를 가져올 수 없음";
+
+// Night Mode
+"Default" = "기본"; // Default view (night mode not enabled)
+"Sepia" = "세피아"; // Document uses sepia colors
+"Night" = "야간"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "문서 세트 없음";
+"Unable to display document" = "문서를 화면에 표시할 수 없음";
+"Locked" = "잠김";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "접근하려는 파일이 PDF 문서가 아니거나 손상되었을 수 있습니다.";
+"A password is required to access this document." = "이 문서에 접근하려면 암호가 필요합니다.";
+"The security scheme of this document is currently not supported." = "현재 이 문서의 보안스킴은 지원하지 않습니다.";
+"An unknown error has occured while trying to open this file." = "이 파일을 여는 도중 예기치 못한 오류가 발생했습니다.";
+
+// Document Editor
+"Document Editor" = "문서 편집기";
+"Add Page" = "페이지 추가";
+"Delete Pages" = "페이지 삭제";
+"Duplicate Pages" = "페이지 복제";
+"Move Pages" = "페이지 이동";
+"Rotate Pages" = "페이지 회전";
+"Page Size" = "페이지 크기";
+"Background Color" = "배경 색상";
+"Paper" = "종이";
+"Pattern" = "패턴";
+"Use Document Size" = "문서 크기 사용";
+"Orientation" = "페이지 방향";
+"Portrait" = "세로";
+"Landscape" = "가로";
+"Document Name" = "문서 이름";
+"Documents" = "문서"; // Name of directory
+"Use Document Folder" = "문서 폴더 사용";
+"Folder" = "폴더";
+"Replace File?" = "파일을 대치하시겠습니까?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "선택한 경로에 이름이 “%@”인 파일이 존재합니다. 파일을 대치하시겠습니까?";
+"Replace" = "대치";
+"Saving…" = "저장 중…";
+"Saved" = "저장됨";
+"Save As…" = "다음 이름으로 변경…";
+"Discard Changes" = "변경사항 무시";
+"Empty" = "효력 없음";
+"Use Image Size" = "이미지 크기";
+"Page Background" = "페이지 배경";
+"Insert image annotation" = "이미지 주석 삽입";
+"Import page background" = "페이지 배경 가져오기";
+"Quality" = "품질";
+"Low" = "낮음";
+"Medium" = "중간";
+"High" = "높음";
+"Best" = "최상";
+"Copy Pages" = "페이지 복사";
+"Paste Pages" = "페이지 붙이기";
+"Copied" = "복사됨";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” 항목에 저장되지 않은 변경 사항이 있습니다. 지금 저장하시겠습니까?";
+"Select Source Document" = "소스 문서 선택";
+"Add After Page %tu" = "%tu 페이지 뒤에 추가";
+"Cut Pages" = "페이지 잘라내기";
+"Import Document" = "문서 불러오기";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "폴더 선택기 사용";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "폴더 선택";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "모든 페이지 선택";
+
+// Document Editor Errors
+"A blank document can not be saved." = "내용이 없는 문서는 저장할 수 없습니다.";
+"The document could not be saved." = "문서를 저장할 수 없습니다.";
+"This document does not support editing." = "이 문서는 편집을 지원하지 않습니다.";
+"The document could not be accessed." = "문서에 접근할 수 없습니다.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF를 불러올 수 없습니다.";
+"The image could not be imported at this time." = "이미지를 불러올 수 없습니다.";
+
+// Page Patterns
+"None" = "없음";
+"Dot5mm" = "5mm 점종이";
+"Grid5mm" = "5mm 모눈종이";
+"Lines5mm" = "5mm 줄친종이";
+"Lines7mm" = "7mm 줄친종이";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US 편지지";
+"US Legal" = "US 공문서";
+
+// Page Export
+"Export Pages" = "페이지 내보내기";
+"Export…" = "내보내기…";
+"Exporting…" = "내보내는 중…";
+"Exported" = "내보냄";
+"%@ - Exported" = "%@ - 내보냄"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - 복사"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "선택한 문서가 현재 열려 있습니다. 다른 파일 이름을 선택하시기 바랍니다.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "텍스트 음성변환 서비스를 사용할 수 없습니다. 인터넷에 연결되어 있는지 확인하시거나 Google의 텍스트-투-스피치 엔진이 기기에 설치되어 있는지, 활성화되어 있는지 확인하시기 바랍니다.";
+
+// Settings
+"Page Layout" = "페이지 레이아웃";
+"Scroll Direction" = "스크롤 방향";
+"Theme" = "테마";
+"Keep screen on" = "스크린을 켠 상태로 유지";
+"Page Transition" = "페이지 전환효과";
+"Single" = "단일";
+"Continuous" = "연속";
+"Curl" = "두루마리";
+"Scroll" = "스크롤";
+"Horizontal" = "수평";
+"Vertical" = "수직";
+"Page Mode" = "페이지 모드";
+"Automatic" = "자동";
+"Double" = "두 페이지";
+"Appearance" = "모양";
+"Scrubber Bar" = "스크롤 바";
+"Jump" = "점프"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "사용할 수 없음"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "페이지 맞추기";
+"Fit" = "맞추기";
+"Fill" = "채우기";
+"Adaptive" = "적응성";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@가 사진에 접근할 수 없습니다.";
+"%@ does not have access to your camera." = "%@가 카메라에 접근할 수 없습니다.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "개인 정보 보호 설정";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "%@에서 접근을 활성화할 수 있습니다.";
+
+"Update Required" = "업데이트 필요";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "문서를 열고 주석을 동기화하려면 %@에 대한 업데이트가 필요합니다.";
+
+
+// Annotation Replies
+"Comment" = "코멘트";
+"Comments" = "코멘트";
+"Add your comment…" = "코멘트 달기…";
+"Delete Comment" = "코멘트 삭제";
+"Set Status" = "상태 설정";
+"Cancelled" = "취소됨";
+"Accepted by" = "승인자";
+"Rejected by" = "거부자";
+"Completed by" = "완료자";
+"Cancelled by" = "취소인";
+
+// Note Annotation Icon Types
+"Right Pointer" = "오른쪽 포인터";
+"Right Arrow" = "오른쪽 화살표";
+"Checkmark" = "체크마크";
+"Circle Note" = "원";
+"Cross" = "크로스";
+"Insert Text" = "텍스트 삽입";
+"New Paragraph" = "새 문단";
+"Text Note" = "텍스트 노트";
+"Paragraph" = "문단";
+"Help" = "도움말";
+"Star" = "별";
+"Key" = "키";
+
+// PSPDFKit Web Strings
+"Light Blue" = "하늘색";
+"Light Red" = "명적색";
+"Light Green" = "담녹색";
+"Fuchsia" = "푸크시아색";
+"Page %tu of %tu" = "%tu/%tu 페이지";
+"Preparing document for printing…" = "프린트할 문서를 준비하는 중…";
+"Are you sure you want to delete this annotation?" = "정말 주석을 삭제하시겠습니까?";
+"Confirm annotation deletion" = "주석 삭제 확인";
+"Page Rotation" = "페이지 회전";
+"Rotate Left" = "왼쪽으로 회전";
+"Rotate Right" = "오른쪽으로 회전";
+"%@ (not supported)" = "%@ (지원하지 않음)";
+"Pan Mode" = "패닝 모드";
+"Fit Page" = "페이지에 맞추기";
+"Fit Width" = "폭에 맞추기";
+"Password Required" = "비밀번호 필요";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "문서를 열려먼 먼저 잠금을 해제해야 합니다. 아래 필드에 비밀번호를 입력해주십시오.";
+"The password you entered is not correct. Please try again." = "올바르지 않은 비밀번호입니다. 다시 입력해주십시오.";
+"Clear Signature" = "서명 지우기";
+"Top" = "상단";
+"Bottom" = "하단";
+"Vertical Alignment" = "수직 정렬";
+"Horizontal Alignment" = "수평 정렬";
+"Light Orange" = "연주황";
+"Light Yellow" = "연노랑";
+"Mauve" = "연보라";
+"Light Gray" = "회백색";
+"Dark Gray" = "암회색";
+"NoColor" = "없음";
+"Transparent" = "투명";
+// Generic label for bookmark
+"Bookmark" = "책갈피";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "새로운 책갈피";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "책갈피를 삭제하시겠습니까?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "책갈피 삭제 확인";
+// Label for the select image field
+"Select Image" = "이미지 선택";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "%@ 도구, 메뉴 토글";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "지원하지 않는 형태의 이미지 주석입니다: %@. JPEG 또는 PNG를 이용해주십시오.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "선택 윤곽도구";
+"Toolbar_TextHighlighter" = "텍스트 형광펜";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "마크업 주석 도구막대";
+// Region of the application where the PDF document is shown
+"Document viewport" = "문서 뷰포트";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "교정 진행 중";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "현재 문제가 교정 중이라는 것을 나타냅니다";
+"Icon" = "아이콘";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "이동";
+// The instruction/prompt shown on the Move UI
+"movePage" = "다음 페이지로 이동";
+// The label of the button on the Move UI
+"move" = "이동";
+"selectedItem" = "%@ 선택됨.";
+"annotationDeleted" = "주석 삭제됨.";
+"newAnnotationCreated" = "새로운 %@ 주석이 생성됨.";
+"bookmarkCreated" = "책갈피를 생성함.";
+"bookmarkEdited" = "책갈피를 편집함.";
+"bookmarkDeleted" = "책갈피를 삭제함.";
+"cancelledEditingBookmark" = "책갈피 편집을 취소함.";
+"selectAFileForImage" = "새로운 이미지 주석을 위한 파일 선택.";
+"deleteAnnotationConfirmAccessibilityDescription" = "주석 삭제를 확인 또는 취소하는 대화상자.";
+"deleteBookmarkConfirmAccessibilityDescription" = "책갈피 삭제를 확인 또는 취소하는 대화상자.";
+"deleteCommentConfirmAccessibilityDescription" = "코멘트 삭제를 확인 또는 취소하는 대화상자.";
+"resize" = "크기조정";
+"resizeHandleTop" = "상단";
+"resizeHandleBottom" = "하단";
+"resizeHandleRight" = "오른쪽";
+"resizeHandleLeft" = "왼쪽";
+"cropCurrentPage" = "현재 페이지 자르기";
+"cropCurrent" = "이 페이지만";
+"cropAllPages" = "모든 페이지 자르기";
+"cropAll" = "모두 자르기";
+"documentCrop" = "문서 자르기";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "페이지 뒤에 삽입";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "선택한 페이지를 문서 시작 부분으로 이동하려면 “0”을 입력합니다.";
+
+// Blend Mode Strings
+"Normal" = "표준";
+"Multiply" = "곱하기";
+"ScreenBlend" = "스크린";
+"Overlay" = "오버레이";
+"Darken" = "어두운 색상";
+"Lighten" = "밝게 하기";
+"ColorDodge" = "색상 닷지";
+"ColorBurn" = "색상 번";
+"HardLight" = "하드 라이트";
+"SoftLight" = "소프트 라이트";
+"Difference" = "차이";
+"Exclusion" = "제외";
+"Multiple" = "다중";
+"Blend Mode" = "혼합 모드";
+
+// Image Document Strings
+"File type not supported." = "지원하지 않는 파일 유형입니다.";
+"Could not load image file." = "이미지를 불러올 수 없습니다.";
+"The image is too large to be opened." = "이미지 크기가 너무 커 열 수 없습니다.";
+"Could not generate a PDF document from the image." = "이미지에서 PDF 문서를 생성할 수 없습니다.";
+"Unnamed Image Document" = "이름 없는 이미지 문서";
+"Annotations will remain editable and are embedded into the image." = "주석이 이미지에 첨부되며 차후 다시 편집할 수 있습니다.";
+"Annotations are drawn into the image and are readonly." = "주석이 이미지에 삽입되며 차후 다시 편집할 수 없습니다.";
+
+//Metadata Strings
+"Document Info" = "문서 정보";
+"Content" = "콘텐츠";
+"Title" = "제목";
+"Author" = "저자";
+"Subject" = "주제";
+"Keywords" = "키워드";
+"Not Set" = "설정되지 않음";
+"NoneValue" = "없음";
+"Security" = "보안";
+"Document Open Password" = "문서 열기 암호";
+"Not set, minimum 8 characters" = "설정되지 않음, 최소 8글자";
+"Permissions" = "권한";
+"Changes" = "변경사항";
+"Printing" = "프린팅";
+"Content Copying for Accessibility" = "접근성을 위한 콘텐츠 복사";
+"Content Modification" = "콘텐츠 수정";
+"High Quality Printing" = "고품질 프린팅";
+"Filling of Form Fields" = "양식 필드 채우기";
+"Document Assembly" = "문서 결합";
+"Annotations and Forms" = "주석 및 양식";
+"Content Copying" = "콘텐츠 복사";
+"Number of Pages" = "페이지 번호";
+"File Size" = "파일 크기";
+"CreationDate" = "생성일";
+"ModDate" = "수정일";
+"Creator" = "콘텐츠 창작자";
+"Producer" = "PDF 생산자";
+"Info" = "정보";
+"Tap the Edit button to show all metadata fields." = "모든 메타데이터 필드를 보려면 편집 버튼을 누르세요.";
+"Document Owner Password" = "문서 소유자 암호";
+"Changes Are Locked" = "변경사항이 잠겨졌습니다";
+"Enter the Document Owner Password to make changes." = "문서르 변경하려면 문서 소유자 암호를 입력하십시오.";
+"Incorrect Password" = "올바르지 않은 암호";
+"Passwords" = "암호";
+"Modifying Content" = "콘텐츠 수정";
+"Editing Annotations and Forms" = "주석 및 양식 편집";
+"Filling Forms" = "양식 채우기";
+"Copying Content" = "콘텐츠 복사";
+"Copying Content for Accessibility" = "접근성을 위한 콘텐츠 복사";
+"Could Not Save" = "저장할 수 없음";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "문서 열기 암호를 지정하려면, 문서 소유자 암호가 존재해야 합니다.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "파일 경로";
+"Identical Passwords" = "동일한 암호";
+"Choose a different Owner or Open password." = "다른 소유자나 공개 암호를 선택하십시오.";
+"Owner Password Required" = "사용자 암호 필요";
+"An owner password is required to change the permissions of a document." = "문서의 권한을 변경하려면 사용자 암호가 필요합니다.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "승인 제한은 일부 PDF 리더에서 준수됩니다. 이 앱에서는 이러한 제한이 강제로 적용되지 않습니다.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "%@ 선택";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "%@ 선택 및 %@를 콘텐츠로 포함";
+// Accessibility string for comment threads
+"commentThread" = "코멘트 스레드";
+"printProgressModalDesc" = "문서가 프린트하기 위해 준비 중이라는 것을 나타냅니다";
+"printProgressModal" = "프린트 진행 중";
+"documentEditorDesc" = "현재 문제에 변경사항  적용";
+"reloadDocumentDialog" = "문서 다시 불러오기 확인";
+"reloadDocumentDialogDesc" = "문서 다시 불러오기에 대한 사용자 확인을 안내하는 대화상자입니다.";
+"signatureDialog" = "서명";
+"signatureDialogDesc" = "문서에 삽입할 잉크 서명을 선택하는 대화상자입니다. 저장된 서명이 없는 경우, 캔버스 보기에서 새로운 서명을 생성할 수 있습니다.";
+"stampAnnotationTemplatesDialog" = "스탬프 주석 템플릿";
+"stampAnnotationTemplatesDialogDesc" = "문서에 삽입할 스탬프 주석을 선택하거나 사용자가 원하는 텍스트로 스탬프 주석을 생성할 수 있는 대화상자입니다.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "교정";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "교정 표시";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "교정 적용";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "윤곽 색상";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "오버레이 텍스트";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "텍스트 반복";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "테스트 색상";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "교정 정보";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "이 문서는 변경이력을 저장하지 않은 교정 주석을 포함하고 있습니다. 지금 적용하시겠습니까?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "적용";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "교정은 두 단계의 작업을 거칩니다. 먼저 교정할 부분에 교정 표시를 생성합니다. 변경할 수 없는 콘텐츠는 우측 하단에 있는 빨간색 ▵ 버튼을 탭한 뒤 교정을 적용합니다.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "교정 적용";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "교정 지우기";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "교정 미리보기 켬";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "교정 미리보기 끔";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "교정을 적용하면 해당 정보는 영구적으로 제거되며 복구 불가능합니다.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "새로운 파일로 저장";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "현재 문제 교정";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "교정 중…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "문서를 교정할 수 없습니다.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "문서를 저장하더라도 교정을 적용한 내용물은 제거되지 않습니다. 계속 진행하시겠습니까?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "현재 문서 교정";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "교정본을 다음으로 저장";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - 교정본";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "영역 교정";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "텍스트 교정";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "교정 적용";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "서명 진행 중";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "현재 문제가 서명 중이라는 것을 나타냅니다";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "오버레이 텍스트 삽입";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "파일 복구";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "파일을 찾을 수 없음";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "'%@' 문서가 응용 프로그램 외부에서 수정되었습니다. 이 문서를 닫으시겠습니까? 아니면 파일을 복원하시겠습니까?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "파일 충돌";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "'%@' 문서가 응용 프로그램 외부에서 수정되었습니다. 파일을 저장하면 원격 문서를 덮어씁니다.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "변경사항 저장";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "탭하여 미디어를 불러오십시오.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "연결 문제로 인해 이 주석을 위한 미디어를 불러오지 못했습니다. 나중에 다시 시도하시기 바랍니다.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "미디어를 다시 불러오려면 탭하십시오.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "이 주석을 위한 미디어를 발견하지 못했습니다. 문서를 성공적으로 동기화한 이후에도 같은 메시지가 나온다면, 다음 정보를 포함하여 리포트해주시기 바랍니다: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "탭하여 다운로드 취소";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "미디어를 불러오는 도중 예기치 않은 오류가 발생했습니다. 오류 %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "페이지에 연결";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "웹사이트에 연결";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "페이지 번호";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "페이지 선택";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "클립보드로부터 붙여넣기";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "웹사이트 미리보기";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "웹사이트 주소";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "뒤로";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "앞으로";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "팔레트";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "최근 사용";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "기본 색상 팔레트";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "색상 변화";
+// Custom color value for HSL color picking: Hue
+"Hue" = "색조";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "채도";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "밝기";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "16진법 색상값";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "지정한 값이 유효한 색상이 아닙니다.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "클립보드로부터 붙여넣기";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "페이지 묶음";
+// Text shown when left edge binding is selected.
+"Left Edge" = "왼쪽 모서리";
+// Text shown when right edge binding is selected.
+"Right Edge" = "오른쪽 모서리";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "알 수 없음";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "왼쪽";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "오른쪽";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "순서";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "맨 앞으로";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "앞으로";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "뒤로";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "맨 뒤로";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "복제";
+"DocumentEditor_Extract" = "추출";
+"General_SelectNone" = "선택 없음";
+"DocumentEditor_NewPage" = "새로운 페이지";
+"DocumentEditor_InstantModifiedWarning" = "문서가 변형되었으며 현재 읽기 전용 상태입니다. 이 문제를 정정하려면 페이지를 다시 불러오십시오.";
+"DocumentEditor_MoveBefore" = "앞으로 이동";
+"DocumentEditor_MoveAfter" = "뒤로 이동";
+"DocumentEditor_DocumentMergedHere" = "문서가 여기서 병합됩니다";
+
+// Android Strings
+"FileSystemPermission" = "이 앱이 파일 시스템에 액세스 할 수 없도록 설정되어 있습니다. 기기에 저장된 PDF 파일을 열고 보려면 앱 설정 화면에서 시스템 권한을 수동으로 활성화십시오.";
+"Button_OpenSettings" = "설정 열기";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "자세히 보기";
+// Button to show less comments
+"Comments_ShowLess" = "간단히 보기";
+// Button to reply to a comment
+"Comments_Reply" = "답장";
+// Button to show all comments
+"Comments_ShowAll" = "모두 보기";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "정말 코멘트를 삭제하시겠습니까?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "코멘트 삭제 확인";
+// Verb for Comment
+"Comment_Action" = "코멘트달기";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "이 문서는 디지털 서명을 포함하고 있으며, 모두 유효한 서명입니다.";
+"DigitalSignatures_DocModified" = "이 문서는 디지털 서명을 포함하고 있습니다. 하지만 문서에 서명이 추가된 이후 문서가 수정되었습니다.";
+"DigitalSignatures_SignatureWarning" = "이 문서는 디지털 서명을 포함하고 있습니다. 하지만 최소한 하나 이상의 서명에 문제가 있습니다.";
+"DigitalSignatures_SignatureWarningDocModified" = "이 문서는 디지털 서명을 포함하고 있습니다. 하지만 문서에 서명이 추가된 이후 문서가 수정되었으며, 하나 이상의 서명에 문제가 있습니다.";
+"DigitalSignatures_SignatureError" = "이 문서는 디지털 서명을 포함하고 있습니다. 하지만 최소한 하나 이상의 서명이 유효하지 않습니다.";
+"DigitalSignatures_SignatureErrorDocModified" = "이 문서는 디지털 서명을 포함하고 있습니다. 하지만 문서에 서명이 추가된 이후 문서가 수정되었으며, 하나 이상의 서명이 유효하지 않습니다.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "녹화를 시작할 수 없음";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "녹화를 중지할 수 없음";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "페이지를 붙여넣을 수 없음";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "서명 인증서를 요청할 수 없음";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "문서를 서명할 수 없음";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "이 파일을 여는 중 예기치 못한 오류가 발생했습니다.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "읽기도구 보기";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "그리기";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "이미지";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "타자";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "이곳에 서명";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "상단에 서명을 타자로 입력하세요";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "서명 저장";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "이미지 선택 또는 그리기";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "이미지 선택";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "이미지 대치";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "파일";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "새로운 서명";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "켜짐";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "꺼짐";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "주석 추가";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "주석 추가";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "코멘트 추가";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "코멘트 상태 변경";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "마크업 유형 변경";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "선택항목 변경";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "주석 지우기";
+// Command of cutting.
+"Undo_Cut" = "잘라내기";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "모양 탐지";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "그리기";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "떨구기";
+// Command of editing text of a comment.
+"Undo_EditComment" = "코멘트 편집";
+// Command of editing text inside text fields.
+"Undo_EditText" = "텍스트 편집";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "지우기";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "그룹";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "병합";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "주석 수정";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "주석 수정";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "주석 이동";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "주석 이동";
+// Command of pasting.
+"Undo_Paste" = "붙여넣기";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "주석 제거";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "주석 제거";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "코멘트 제거";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "코멘트 제거";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "주석 크기조정";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "주석 크기조정";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "주석 회전";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "주석 회전";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "그룹해제";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "정렬";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "문서 정렬";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "포인트 선택";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "기존";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "신규";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "비교";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "수동 정렬을 위해 양쪽 문서에서 포인트 3개를 선택하십시오. 최상의 결과를 위해 문서 가장자리에 가까운 곳에 포인트를 선택하고, 양쪽 문서의 포인트가 동일한 순서인지 확인하시기 바랍니다.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "무시";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "문서 정렬";
+// Compare two documents.
+"Comparison_DocumentComparison" = "문서 비교";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "기존 문서";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "신규 문서";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "초기화";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "포인트 선택";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "정렬…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "포인트 선택";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "포인트 %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "“%3$@“에서 전체 %2$tu개 중 %1$tu개 선택됨";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "포인트 %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "포인트 선택 대상";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "구름 모양 사각형";
+"DashedRectangleAnnotation" = "점선으로 된 사각형";
+"CloudyEllipseAnnotation" = "구름 모양 타원";
+"DashedEllipseAnnotation" = "점선으로 된 타원";
+"CloudyPolygonAnnotation" = "구름 모양 다각형";
+"DashedPolygonAnnotation" = "점선으로 된 다각형";
+"CloudAnnotation" = "구름";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "채우기 없음";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "저장된 주석을 불러오지 못함";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "주석을 저장할 수 없음";
+
+/// Measurement Strings
+"DistanceMeasurement" = "거리";
+"PerimeterMeasurement" = "둘레";
+"PolygonalAreaMeasurement" = "다각형 면적";
+"RectangularAreaMeasurement" = "사각형 면적";
+"EllipticalAreaMeasurement" = "타원형 면적";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "반시계방향 회전";
+"Rotate_Clockwise" = "시계방향 회전";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "여기에 설명 입력";
+// "New option button text"
+"FormDesigner_addOption" = "옵션 추가";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "{formFieldType} 속성";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "이미 {formFieldName} 이름의 폼 양식이 존재합니다. 다른 이름을 선택하십시오.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "{formFieldType} 스타일";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "양식 필드 이름";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "기본값";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "멀티라인";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "여러 라디오 버튼을 그룹화하려면 양식 필드 이름이 같은지 확인하십시오.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "고급";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "창작자 이름";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "메모";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "사용자지정 날짜";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "필수";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "읽기 전용";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "생성일";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "수정일";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "직렬화 가능한 일반 JSON 개체여야 합니다";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "테두리 색상";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "테두리 굵기";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "테두리 스타일";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "프린트";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "채움";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "점선";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "경사면";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "삽입";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "밑줄";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "텍스트 스타일";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "서체 크기";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "서체 색상";
+// "Button Field"
+"FormDesigner_button" = "버튼 필드";
+// "Text Field Button"
+"FormDesigner_textField" = "텍스트 필드";
+// "Radio Field Button"
+"FormDesigner_radioField" = "라디오 필드";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "체크박스 필드";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "콤보 상자 필드";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "목록 상자 필드";
+// "signature Field Button"
+"FormDesigner_signatureField" = "서명 필드";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "버튼 텍스트";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "없음";
+// Label for form field
+"FormDesigner_label" = "레이블";
+// Value for form field
+"FormDesigner_value" = "값";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "한 번 생성된 후에는 편집이 불가능합니다.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "양식 필드 이름은 비워둘 수 없습니다.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "양식 크리에이터";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "다중 선택";
+"FormDesigner_readOnlyProperty" = "읽기 전용";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "옵션";
+
+// Measurement tools
+"MeasurementScale" = "축척";
+"MeasurementCalibrateLength" = "보정 길이";
+"MeasurementPrecision" = "정밀도";
+"MeasurementSnapping" = "스냅";
+"MeasurementPrecision_Whole" = "전체";
+"MeasurementPrecision_OneDecimalPlace" = "소수점 한 자리";
+"MeasurementPrecision_TwoDecimalPlaces" = "소수점 두 자리";
+"MeasurementPrecision_ThreeDecimalPlaces" = "소수점 세 자리";
+"MeasurementPrecision_FourDecimalPlaces" = "소수점 네 자리";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "면적";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "미디어 주석";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "이 브라우저는 임베디드 비디오 또는 오디오를 지원하지 않습니다.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "링크 설정";
+// Label for selection of link type (website - page).
+"linkTo" = "링크 대상";
+// Label for website selection.
+"uriLink" = "웹사이트";
+// Label for page selection.
+"pageLink" = "페이지";
+// Text for preceding number for page link number.
+"linkToPage" = "%tu 페이지로 링크";
+// Error message for invalid page number.
+"invalidPageNumber" = "유효한 페이지 번호를 입력하십시오.";
+// Error message for invalid page link.
+"invalidPageLink" = "유효한 페이지 링크를 입력하십시오.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} 측정 설정";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "다수의 주석 선택";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "%@ 도구";
+
+// Document unlock string
+"Unlock_Document_Description" = "문서를 열기 위해서는 먼저 잠금을 해제해야 합니다. 아래 필드에 비밀번호를 입력해주십시오.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "익명";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "코멘트 옵션";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "콘텐츠 편집";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "둘레 측정 설정";
+"Distance_Popover_Title" = "거리 측정 설정";
+"Rectangle_Area_Title" = "사각형 영역 측정 설정";
+"Polygon_Area_Title" = "다각형 영역 측정 설정";
+"Ellipse_Area_Title" = "타원형 면적 측정 설정";
+
+// Rich text formatting options for text annotations.
+"Bold" = "볼드체";
+"Italic" = "이탤릭체";
+
+// Button to save and then close current context
+"Save_And_Close" = "저장 후 닫기";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "서체 불일치 툴팁 켬/끔";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "%@ 서체가 없거나 이 문서의 콘텐츠를 편집하는데 사용할 수 없습니다. 추가되거나 변경된 콘텐츠가 있는 경우 기본 서체로 돌아갑니다.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "내장";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "병합";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "무시";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "요약";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "시작 페이지 선택";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "끝 페이지 선택";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "~";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "회전";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "콘텐츠 편집";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@”에 저장되지 않은 변경사항이 있습니다.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "다수의 서체";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "알 수 없는 서체";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "다수의 크기";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "크기 감소";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "크기 증가";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "다수의 색상";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ 볼드";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ 이탤릭";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ 볼드 이탤릭";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "%@에 의해 시작된 코멘트 스레드 열기: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "더 많은 코멘트";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "페이지 범위";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "새로운 사용자지정 색상";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "콘텐츠 편집기";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "선택 항목 찾기";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "웹 검색";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "전체 인치";
+"MeasurementPrecision_Halves" = "반 인치";
+"MeasurementPrecision_Quarters" = "사분의 일 인치";
+"MeasurementPrecision_Eighths" = "팔분의 일 인치";
+"MeasurementPrecision_Sixteenths" = "십육분의 일 인치";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "문서 서명에 사용된 인증서 체인이 비어 있습니다.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "이 유형의 디지털 서명은 지원되지 않습니다.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "디지털 서명에 유효하지 않은 타임스탬프가 포함되어 있거나 타임스탬프 데이터가 변조되었습니다.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "측정 설정";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "비율 추가";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "보정 도구 사용";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "비율 보정";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "비율 설정";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "보조 단위";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "단위";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "비율을 삭제하면 이 비율을 사용한 측정값도 삭제됩니다.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "이미 사용 중인 비율";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "기존 비율을 편집하거나 사용하시겠습니까?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "기존 설정 유지";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "이름 없음";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "포인트에 스냅";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "자기 자신에 스냅";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "스마트 가이드 보기";
+
+// Label for the add text box button
+"AddTextBox" = "텍스트 박스 추가";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "정말 텍스트 박스를 삭제하시겠습니까?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "텍스트 상자 삭제 확인";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "사용자로 하여금 텍스트 삭제를 확인 또는 취소하는 대화상자.";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "읽기 전용";
+"locked" = "잠김";
+"lockedContent" = "잠긴 컨텐츠";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "비율 추가 완료";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "\"%@\" 비율이 비율 목록에 성공적으로 추가되었습니다.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "측정 설정 아이콘";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "측정 설정의 비율을 나타내는 아이콘이 설정되지 않았습니다";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "이 문서는 %@ 기반으로 %@님이 전자서명을 하였습니다 (서명일: %@ %@).";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "이 문서는 %@ 기반으로 %@님이 전자서명을 한 것으로 추정됩니다 (서명 추정일: %@ %@).";
+"DigitalSignatureSignedWithAlgo%@with%@." = "알고리즘: %@ (%@ 적용).";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "페이지 추출";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "비율 이름";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "동일한 설정이 적용된 비율이 이미 정의되어 있습니다. 다른 비율을 선택해 주세요.";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "보조 단위 표시";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "편집 또는 새로운 비율 추가";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "보정";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "레이어";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "레이어 없음";
+
+"The certificate is not yet valid" = "인증서가 유효하지 않습니다.";
+"Signature validation failed - invalid signature" = "서명이 유효하지 않습니다.";
+"The certificate has been revoked" = "인증서가 해지되었습니다.";
+"Certificate problem" = "인증서에 문제가 있습니다.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "인증서가 해지되었는지 확인할 수 없습니다.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "줄 간격";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "한 줄";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "두 줄";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "더 보기...";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "측정";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "문서 다시 불러오기";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "모든 주요 플랫폼을 아우르는 개발자 도구와 로우코드 솔루션, 엔드유저 도구로 종이를 넘어서는 세상의 혁신을 돕고 있습니다.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "동작";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "바로가기";
+
+// Mention button popover text.
+"CommentEditor_mention" = "멘션";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "도움말 대화상자 열기";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "더 알아보기";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "도구 막대 포커스";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "이 페이지를 표시할 메모리가 부족합니다.";

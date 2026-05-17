@@ -1,0 +1,1800 @@
+/*
+  Localization.strings
+  PSPDFKit
+
+ Copyright © 2012-2024 PSPDFKit GmbH. All rights reserved.
+
+ THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+ AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+ UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+ This notice may not be removed from this file.
+*/
+
+// general
+"Close" = "Zapri";
+"Cancel" = "Prekliči";
+"OK" = "V redu";
+"Open" = "Odpri";
+"Untitled" = "Neimenovano";
+"File Not Found" = "Datoteka ni najdena";
+"File couldn't be opened." = "Datoteke ni bilo mogoče odpreti."; // error message, when embedded files could not be parsed
+"Unnamed PDF" = "Neimenovan PDF";
+"Page %tu" = "Stran %tu";
+"Page %@" = "Stran %@";
+"Next" = "Naslednji";
+"Previous" = "Prejšnji";
+"Error" = "Napaka";
+"More options" = "Več opcij";
+"Close Tab" = "Zapri jeziček";
+"Close All Tabs" = "Zapri vse zavihke";
+"Close All Other Tabs" = "Zapri vse preostale zavihke"; // Alert controller action text for closing all tabs but the selected one
+"Pen" = "Risba";
+"Highlighter" = "Prostoročni poudarek";
+
+// toolbar
+"Outline" = "Kazalo"; // Table of contents
+"No Outline" = "Ni kazala";
+"Search Outline" = "Išči po kazalu";
+"Search" = "Išči";
+"Email" = "E-pošta";
+"Send via Email" = "Pošlji po e-pošti";
+"Send" = "Pošlji";
+// Button title in the sharing UI that continues the sharing flow to the message sending UI.
+"DocumentSharing_SendMessage" = "Pošlji kot sporočilo";
+// Button title in the sharing UI that continues the sharing flow to the email sending UI.
+"DocumentSharing_SendEmail" = "Pošlji kot e-pošto";
+"Open In" = "Odpri z";
+"Commit" = "Potrdi";
+"Sending to %@" = "Pošiljam v %@"; // Open document with an application
+"Pages" = "Strani";
+"Print with annotations" = "Natisni z označbami";
+"Print without annotations" = "Natisni brez označb";
+"No Applications found" = "Ni nameščenih aplikacij, ki bi lahko odprle PDF dokumente.";
+"Print" = "Natisni";
+"Annotation" = "Označba";
+"Annotations" = "Označbe";
+"No Annotations" = "Ni označb";
+"Bookmarks" = "Zaznamki";
+"No Bookmarks" = "Ni zaznamkov";
+"Add Bookmark" = "Dodaj zaznamek";
+"Remove Bookmark" = "Odstrani zaznamek";
+"Brightness" = "Svetlost";
+"Share" = "Deli";
+"Preparing" = "Pripravljam";
+"Loading" = "Nalagam";
+"Expand" = "Razširi";
+"Collapse" = "Skrči";
+// SMS / iMessage sharing button
+"Message" = "Sporočilo";
+"Thumbnails" = "Predogled";
+"Drag Toolbar" = "Povleci orodno vrstico";
+
+// thumbnails
+"Bookmarked" = "Zaznamovane";
+"Annotated" = "Označene";
+"All" = "Vse";
+"Loading Annotations" = "Nalagam označbe";
+"Loading Pages" = "Nalagam strani";
+"Loading Bookmarks" = "Nalagam zaznamke";
+
+// password
+"Password" = "Geslo"; // text on a label
+"Unlock" = "Odkleni";
+"Please enter the password." = "Prosim vnesite geslo.";
+"This document cannot be unlocked." = "Dokumenta ni mogoče odkleniti.";
+// Accessibility label of the password field shown for a protected PDF.
+"Password Field" = "Polje za geslo";
+
+// page
+"%tu of %tu" = "%tu od %tu";
+"%tu–%tu of %tu" = "%tu–%tu od %tu";
+"%@ (%tu of %tu)" = "%@ (%tu od %tu)";
+"%@, Page %tu" = "%@, Stran %tu";
+"Leave %@?" = "Zapusti %@?";
+"%@–%@ (%tu–%tu of %tu)" = "%@–%@ (%tu–%tu od %tu)"; // Two pages are shown and both pages have a label. Placeholders: 1 = label first page, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+"%@–%tu (%tu–%tu of %tu)" = "%@–%tu (%tu–%tu od %tu)"; // Two pages are shown, only the first page has a label. Placeholders: 1 = label first page, 2 = second page number, 3 = first page number, 4 = second page number, 5 = page count.
+"%tu–%@ (%tu–%tu of %tu)" = "%tu–%@ (%tu–%tu od %tu)"; // Two pages are shown, only the second page has a label. Placeholders: 1 = first page number, 2 = label second page, 3 = first page number, 4 = second page number, 5 = page count.
+
+// search
+"Search Document" = "Išči po dokumentu"; // to search for a string in the given document
+"Searching Page %tu of %tu" = "Iščem po strani %tu od %tu";
+"Search Completed" = "Iskanje končano";
+"Search Cancelled" = "Iskanje preklicano";
+"%tu left" = "preostanek %tu"; // Indexing Documents... 5 left
+"Searching" = "Iščem";
+"Done" = "Končaj";
+"Indexing Documents" = "Indeksiram dokumente";
+"Document" = "Dokument";
+
+// The title displayed in the search text field inside the annotation list view controller.
+"Search Annotations" = "Išči po označbah";
+
+// inline browser
+"Open in Safari" = "Odpri v Safariju";
+"Open in Chrome" = "Odpri v Chromu";
+"Your %@ is not configured to send emails." = "Vaš %@ ni nastavljen za pošiljanje e-pošte.";
+"The link is requesting to open %1$@. %2$@Would you like to continue?" = "Povezava odpira %1$@. %2$@Želite nadaljevati?";
+"an external application" = "zunanjo aplikacijo"; // "The link is requesting to open an external application. Would you like to continue?"
+"the App Store" = "App Store"; // "The link is requesting to open the App Store. Would you like to continue?"
+"Mail" = "Mail"; // "The link is requesting to open Mail. Would you like to continue?"
+// This text is shown when no application has been found to open then link in.
+"No handler found for %@" = "Povezave ni bilo mogoče odpreti: %@";
+
+// text selection
+"Text copied to clipboard." = "Besedilo, kopirano v odložišče.";
+"Save to Photo Library" = "Shrani v knjižnico fotografij";
+"Failed to extract image." = "Slike ni bilo mogoče pridobiti.";
+"Type value or pick from list" = "Vnesite vrednost ali jo izberite iz seznama";
+
+// annotations
+"Add %@" = "Dodaj %@";
+"Remove %@" = "Odstrani %@";
+"Remove" = "Odstrani";
+"Delete" = "Izbriši"; // Keyboard command discoverability title when an annotation is selected
+"Edit" = "Uredi";
+"Undo" = "Razveljavi";
+"Nothing to undo" = "Ni mogoče razveljaviti";
+"Redo" = "Uveljavi";
+"Nothing to redo" = "Ni mogoče uveljaviti";
+"Type" = "Tip"; // kind of Annotation can be selected
+"Size" = "Velikost";
+"Font" = "Pisava";
+"Fonts" = "Pisave";
+"All Fonts" = "Vse Pisave";
+"Downloadable Fonts" = "Prenesljive pisave";
+"Search Fonts" = "Išči po pisavah";
+"Choose Color" = "Izberi barvo";
+"Choose Fill Color" = "Izberi barvo polnila";
+"Rainbow" = "Mavrične";
+"Monochrome" = "Sivine";
+"Vintage" = "Tradicionalne";
+"Modern" = "Moderne";
+"ColorPalette_Unified" = "Paleta";
+"Color" = "Barva";
+"Border" = "Obroba";
+"Fill Color" = "Barva polnila";
+"Start and End Color" = "Barva zaključka";
+"Opacity" = "Prosojnost";
+"Thickness" = "Debelina";
+"%@ pt" = "%@ pt";
+"Yellow" = "Rumena";
+"Green" = "Zelena";
+"Red" = "Rdeča";
+"Blue" = "Modra";
+"Pink" = "Roza";
+"Black" = "Črna";
+"Orange" = "Oranžna";
+"Purple" = "Vijolična";
+"Cyan" = "Modro-zelena";
+"Gray" = "Siva";
+"White" = "Bela";
+"Color_Brown" = "Rjava";
+"Color_DarkRed" = "Temno Rrdeča";
+"Color_DarkBlue" = "Temno Modra";
+"Color_Magenta" = "Magenta";
+"Define" = "Določi";
+"Wikipedia" = "Wikipedia";
+"Highlight" = "Poudarek";
+"Underline" = "Podčrtava";
+"Squiggly" = "Vijuga";
+"StrikeOut" = "Prečrtava";
+"Rectangle" = "Pravokotnik";
+"Ellipse" = "Elipsa";
+"Line" = "Črta"; // something that can be drawn
+"Polygon" = "Mnogokotnik";
+"Signature" = "Podpis";
+"Signatures" = "Podpisi";
+"Signed" = "Podpisano";
+"Sign" = "Podpiši";
+"Signing…" = "Podpisovanje…";
+"Sign using %@" = "Podpiši z uporabo %@"; // e.g. Adobe.PPKLite
+"Methods" = "Načini"; // text on a button. An example for a method would be signing.
+"Choose Identity" = "Izberi identiteto"; // text on a label. the user should choose an identity that is used for signing.
+"Stamp" = "Štampiljka";
+"Stamps" = "Štampiljke";
+"Custom" = "Po meri"; // The text shown on one of the stamps in the stamp selection menu
+"Create Stamp" = "Ustvari štampiljko";
+"Preview" = "Predogled";
+"Stamp Text" = "Besedilo štampiljke";
+"Add Signature" = "Dodaj podpis";
+"Remove Signature" = "Odstrani podpis";
+"My Signature" = "Moj podpis";
+"No Signatures" = "Ni podpisov"; // text on label - is shown when there is no signature to display
+"Please sign here" = "Prosim podpišite tukaj";
+"Text" = "Zapisek";
+"FreeText" = "Besedilo";
+"Delete Note" = "Izbriši zapisek";
+"Remove Note" = "Odstrani zapisek";
+"%@ could not be found." = "%@ ni bilo mogoče najti.";
+"Photo Library" = "Fotografije";
+"Camera" = "Kamera";
+"camera_not_available" = "Kamera ni na voljo";
+"Image" = "Slika";
+// Title of the quality picker for images
+"ImagePicker_ChooseQuality" = "Kvaliteta slike";
+"Low Quality" = "Nizka kakovost";
+"Medium Quality" = "Srednja kakovost";
+"High Quality" = "Visoka kakovost";
+"Clear All" = "Počisti vse";
+"Clear" = "Počisti";
+"Style" = "Stil";
+"Link" = "Povezava";
+"Ink" = "Risba";
+"Screen" = "Prikazovalnik";
+"RichMedia" = "Večpredstavnost";
+"FileAttachment" = "Datoteka";
+"Left" = "Levo";
+"Center" = "Sredinsko";
+"Right" = "Desno";
+"Alignment" = "Poravnava";
+"Preview File" = "Predoglej datoteko";
+"Copy" = "Kopiraj";
+"Paste" = "Prilepi";
+"Inspector" = "Pregledovalnik";
+"Group" = "Grupiraj";
+"Ungroup" = "Razdruži";
+"Merge" = "Združi"; // text on button - when clicked, two drawings are merged into one drawing
+"Sample" = "Vzorec";
+"Annotation Summary for %@:" = "Povzetek označb za %@:";
+"Show Text" = "Prikaži Besedilo";
+// title
+"Author Name" = "Avtor";
+// message
+"Please enter the author name you want to use for newly inserted annotations." = "Prosim vnesite ime avtorja za novo ustvarjene označbe.";
+// text field placeholder
+"Name" = "Ime";
+// meaning: close
+"Dismiss" = "Opusti";
+"Fit to Text" = "Prilagodi besedilu";
+"Draw" = "Riši";
+"Sound" = "Zvok";
+"Eraser" = "Radirka";
+"Toggle Eraser" = "Preklopi na radirko"; // Keyboard command discoverability title while drawing
+"SelectionTool" = "Orodje za izbor";
+"Add" = "Dodaj"; // to add - infinitive
+"Date" = "Datum";
+"Time" = "Čas";
+"No Pages" = "Ni strani";
+"Drag to resize" = "Povleci"; // used as hint that inspector is resizable
+"Convert to" = "Pretvori v"; // used as label on action that changes free text intent type
+"Color Presets" = "Barvne predloge";
+// A set of border color and background color applied to an annotation.
+"Color Preset" = "Barvni predlog";
+"pt" = "pt"; // Size of e.g. an ink annotation in points or font size in points
+"Cut" = "Izreži";
+"Annotation copied." = "Označba je bila kopirana.";
+"Annotation cut." = "Označba je bila izrezana.";
+"Annotation pasted." = "Označba je bila prilepljena.";
+"%tu selected" = "Izbranih %tu";
+"Custom Stamp" = "Štampiljka po meri";
+"Change text and color" = "Spremeni besedilo in barvo";
+"Use an existing stamp design" = "Uporabi obstoječo štampiljko";
+// The variant used for Magic Ink (This tool detects the drawn Ink and converts it to a Shape)
+"Magic" = "Čarobno pero";
+// Error message that might be displayed when a downloadable font has been loaded, but instantiating a font based on name and size still failed. This is unlikely to happen, and would (currently) only be user facing when a font family is loaded in response to tapping on a row from the “Downloable Fonts” section of the font picker on iOS. While there are other cases where this error can be triggered, they would only be logged to the console.
+"FontDownloader.resolutionErrorWithName:%@ size:%@" = "Pisave '%@' z velikostjo %@ ni bilo mogoče naložiti.";
+// Accessibility label of the annotation inspector, where an annotation's style can be customized."
+"Style Inspector" = "Urejevalnik stilov";
+// Confirmation message when hitting the clear all button.
+"Are you sure you want to clear all annotations?" = "Ste prepričani, da želite izbrisati vse označbe?";
+// Error text shown briefly when trying to create an annotation when annotation creation is disabled.
+"AnnotationCreationDisabled" = "Ustvarjanje označb je onemogočeno";
+// A short textual alternative to the icon shown beside annotations that have notes/comments attached. Appended to the annotation’s accessibility value.
+"Annotation_HasComment" = "Ima komentarje";
+// Describes a text annotation. Used in contexts where simply ‘Text’ (the localized string with the key ‘FreeText’) would be ambiguous. Used as an accessibility value.
+"Annotation_TextAnnotation" = "Tekstovna označba";
+// Text alternative for a green check mark stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_AcceptedImageDescription" = "Kljukica";
+// Text alternative for a red cross (X) stamp annotation. Used in the annotation list and as an accessibility value.
+"StampAnnotation_RejectedImageDescription" = "Križni znak";
+
+"Callout" = "Oblaček"; // freetext annotation with an arrow
+"Generic" = "Generičen"; // basic freetext annotation
+
+// Line dash styles
+"Line Style" = "Slog črte";
+"Solid" = "Neprekinjena";
+"Narrow Dots" = "Ozke pike";
+"Wide Dots" = "Široke pike";
+"Narrow Dashes" = "Ozke črtice";
+"Wide Dashes" = "Široke črtice";
+"Cloudy" = "Oblaček"; // Accessibility label for an annotation border/line style looking like a cloud.
+
+// Stamps
+"Approved" = "Potrjeno";
+"Not Approved" = "Ni potrjeno";
+"Draft" = "Osnutek";
+"Final" = "Končno";
+"Completed" = "Zaključeno";
+"Confidential" = "Zaupno";
+"For Public Release" = "Za javno objavo";
+"Not For Public Release" = "Ni za javno objavo";
+"For Comment" = "Za diskusijo";
+"Void" = "Nično";
+"Preliminary Results" = "Preliminarni rezultati";
+"Information only" = "Samo informativno";
+"Accepted" = "Sprejeto";
+"Rejected" = "Zavrnjeno";
+"Initial Here" = "Parafirajte tukaj";
+"Sign Here" = "Podpišite tukaj";
+"Witness" = "Priča";
+"Revised" = "Revidiran";
+"Stamp.AsIs" = "Kot je";
+"Stamp.Departmental" = "Oddelčno";
+"Stamp.Experimental" = "Eksperimentalno";
+"Stamp.Expired" = "Poteklo";
+"Stamp.Sold" = "Prodano";
+"Stamp.TopSecret" = "Zaupno";
+
+// Stylus
+// text on a label above a list; a user can choose one stylus form the list and then draw on the iPhone/iPad
+"Stylus" = "Pisalo";
+// text on a label; shows the connection state of the stylus: it is off
+"Off" = "Izključeno";
+// text on a label: "Scanning..."; the app searches for a new stylus.
+"Scanning" = "Iščem";
+// text on a label; app connects to a stylus
+"Pairing" = "Spajam";
+// text on a label; app and stylus are connected
+"%@ Connected" = "%@ Povezano";
+// text on a label; app and stylus are not connected
+"%@ Disconnected" = "%@ Odklopljeno";
+// text on a button; if clicked, the settings of the stylus are shown
+"Settings" = "Nastavitve";
+// Setting when using an Apple Pencil that disables being able to annotate with finger touches and just use the Apple Pencil instead
+"ApplePencilSettings_EnableTitle" = "Uporabi Apple Pencil za označevanje";
+
+// PDF annotation name overrides
+"Square" = "Pravokotnik";
+"Circle" = "Elipsa";
+"PolyLine" = "Lomljena črta";
+"SavedAnnotations" = "Shranjene označbe";
+
+// named actions
+"NextPage" = "Naslednja stran";
+"PrevPage" = "Prejšnja stran";
+"FirstPage" = "Prva stran";
+"LastPage" = "Zadnja stran";
+"GoBack" = "Pojdi nazaj";
+"GoForward" = "Pojdi naprej";
+"GoToPage" = "Pojdi na stran";
+"Find" = "Najdi";
+// Print, Outline, Search, Brightness are translated via toolbar
+"ZoomIn" = "Povečaj";
+"ZoomOut" = "Pomanjšaj";
+"JavaScript" = "JavaScript";
+"Rich Media Action" = "Večpredstavnostna aktivnost";
+"Rendition Action" = "Izrisevalna aktivnost";
+"Hide Action" = "Prikazovalna aktivnost";
+"Submit Form" = "Pošlji obrazec";
+"Reset" = "Ponastavi";
+// Discoverability text for an external keyboard command to navigate back to the previous screen. This is shown in an overlay when holding the command key on an external keyboard.
+"KeyCommand.Back" = "Nazaj";
+// Description of the select all text keyboard shortcut.
+"Select All" = "Izberi vse";
+// Discoverability text for navigating lists using arrow keys on a hardware keyboard.
+"KeyCommand.SelectAbove" = "Izberi prejšnjo";
+"KeyCommand.SelectBelow" = "Izberi naslenjo";
+"KeyCommand.SelectTop" = "Izberi prvo";
+"KeyCommand.SelectBottom" = "Izberi zadnjo";
+"KeyCommand.ClearSelection" = "Počisti izbrio";
+// Discoverability text for shortcut to expand an outline section.
+"KeyCommand.ExpandOutlineSection" = "Razširi";
+// Discoverability text for shortcut to collapse an outline section.
+"KeyCommand.CollapseOutlineSection" = "Strni";
+// Shortcuts used to change document tabs.
+"KeyCommand.ShowNextTab" = "Naslednji jeziček";
+"KeyCommand.ShowPreviousTab" = "Prejšnji jeziček";
+"KeyCommand.SelectAllAnnotations" = "Izberi vse označbe";
+
+// line annotations
+"Start" = "Začetek";
+"End" = "Konec";
+"Line.None" = "Brez";
+"Line.ClosedArrow" = "Zaprta puščica";
+"Line.OpenArrow" = "Odprta puščica";
+"Line.Square" = "Kvadrat";
+"Line.Circle" = "Krog";
+"Line.Diamond" = "Diamant";
+"Line.ROpenArrow" = "Obratna odprta puščica";
+"Line.RClosedArrow" = "Obratna zaprta puščica";
+"Line.Slash" = "Poševnica";
+"Line.Butt" = "Črta";
+"Line Start" = "Začetek črte";
+"Line End" = "Konec črte";
+"Arrow" = "Puščica"; // Label of toolbar button activating the arrow tool, which allows to draw arrow line annotations
+
+// link annotation editing
+"Create Link" = "Ustvari povezavo";
+"Add Link" = "Dodaj povezavo";
+"Edit Link" = "Uredi povezavo";
+"Move Link" = "Premakni povezavo";
+"Remove Link" = "Odstrani povezavo";
+"Open Link" = "Odpri povezavo";
+"Go to Page %tu" = "Pojdi na stran %tu";
+"Go to Page" = "Pojdi na stran"; // title of a Popup
+"Go" = "Pojdi"; // Used as a button label: In the "Go to Page" prompt, a user can enter a page number and then press the "Go" button to go this page
+// Copies the actual URL of a link annotation as text. E.g. https://pspdfkit.com/
+"Copy URL" = "Kopiraj URL";
+// Copies a link annotation as a whole, including the size and styling, that can be pasted somewhere else on a document.
+"Copy Link" = "Kopiraj povezavo";
+"Save" = "Shrani";
+"Link Destination" = "Cilj povezave";
+"Enter page index or a http:// address to link to an URL." = "Vnesite št. strani ali http:// naslov vzpostavitev povezave.";
+"Page %@ Not Found" = "Stran %@ ni bila najdena";
+"Add to Reading List" = "Dodaj na seznam za branje";
+
+"Link annotation creation failed." = "Povezave ni bilo mogoče ustvariti.";
+"Link annotation successfully created." = "Povezava je bila uspešno ustvarjena.";
+"Entered text could not be converted to an Integer nor URL." = "Vneseni tekst ni bilo mogoče pretvoriti v številko ali URL naslov.";
+
+// voiceover accessibility
+"Grid" = "Mreža"; // grid with thumbnails
+"Translucent" = "prosojen";
+"left" = "levo";
+"center" = "sredinsko";
+"right" = "desno";
+"decrease" = "povečaj";
+"increase" = "pomanjšaj";
+"All Open Documents" = "Vsi odprti dokumenti";
+"Add Documents" = "Dodaj dokumente"; // button in tabbed bar that shows document picker to open new documents
+
+// Bookmark UI
+// Shown as a description on a bookmark that opens a new file.
+"Open File" = "Odpri datoteko";
+// Shown as a description on a bookmark that controls media playback.
+"Multimedia Control" = "Predvajanje";
+// Shown as a description on a bookmark that resets form elements.
+"Reset Form" = "Počisti obrazec";
+// Shown as a description on a bookmark that makes a previously hidden annotation visible.
+"Show Action" = "Prikaži označbo";
+// Label in the bookmarks UI when a bookmark's action is a named action.
+"Named Action" = "Poimenovana akcija";
+
+// PSPDFDocumentSharingViewController
+"Pages %tu-%tu" = "Strani %tu-%tu"; // Range of pages
+"Current Page" = "Trenutna stran";
+"Current Page (%tu)" = "Trenutna stran (%tu)";
+"Ignore Annotations" = "Zavrži označbe";
+"The PDF will not contain any annotations." = "PDF ne bo imel vključenih označb.";
+"Embed Annotations" = "Vključi označbe";
+"Annotations will remain editable and are embedded into the PDF." = "Označbe bodo vključene v PDF z možnostjo urejanja.";
+"Flatten Annotations" = "Splošči označbe";
+"Annotations are drawn into the PDF and are readonly." = "Označbe bodo izrisane v PDF brez možnosti nadaljnjega urejanja.";
+"Annotation Summary" = "Povzetek označb";
+"Embed Annotations into the PDF and also list them in the email." = "Označbe bodo vključene v PDF in navedene v besedilu e-pošte.";
+"Annotations will be listed in a text file." = "Označbe bojo navedene v tekstovni obliki.";
+"Files" = "Datoteke";
+"Send as single files" = "Pošlji kot ločene datoteke";
+"Merge files" = "Združi datoteke";
+"Original File" = "Izvorna datoteka";
+"Range" = "Območje";
+"Annotated Pages" = "Označene strani";
+"Message could not be sent." = "Sporočila ni bilo mogoče poslati.";
+"Export" = "Izvoz";
+"This action can't be performed." = "Izbrano opravilo ni mogoče izvesti.";
+// Message shown to the user when the export is done for a document that's not file-based.
+"Exporting non-file based documents is not supported." = "Izvoz dokumentov, ki ne temeljijo na datoteki, ni podprt.";
+// Text exported as the "Annotation summary" when the document has no annotations, and error messages.
+"The document contains no annotations." = "Dokument ne vsebuje označb.";
+// On the message bar in Viewer when the files couldn't be generated with the selected options
+"Couldn't Share Document" = "Dokumenta ni bilo mogoče deliti";
+// Shown as a footer on the page range selection view controller when the current document exceeds the supported page count for exporting pages as images.
+"Document image sharing is limited to a maximum of %tu pages at a time." = "Slikovni izvoz je omejen na %tu strani.";
+// Shown when the user wants to share a document to the Messages destination but Messages is not configured to send attachments.
+"Can't send attachments via Messages." = "Priponk ni mogoče posredovati preko aplikacije Messages.";
+// Shown when the user wants to share a document to the Print destination but the documents do not have the print feature  enabled.
+"Documents are not printable." = "Dokumenti ne omogočajo tiskanja.";
+// Shown in the share sheet when the selected output file type is PDF.
+"PDF Document" = "PDF Dokument";
+// Shown in the share sheet when the configured share destination is unavailable.
+"Destination Unavailable" = "Destinacija ni na voljo";
+
+// sound annotations
+"Speak" = "Govori"; // should be translated like the "Speak" Menu in UIKit
+"Play" = "Predvajaj";
+"Pause" = "Začasno ustavi";
+"Resume" = "Nadaljuj";
+"Stop" = "Ustavi";
+"Play/Stop" = "Predvajaj/Ustavi";
+// title of a ViewController; View Controller contains a recording and playback button to record audio files
+"Record" = "Snemaj";
+"Pause Recording" = "Začasno ustavi snemanje";
+// text on a label; is shown, when the recording of an audio file is paused
+"Recording paused" = "Snemanje začasno ustavljeno";
+"Continue Recording" = "Nadaljuj snemanje";
+"Finish Recording" = "Končaj snemanje";
+"Audio Problem" = "Težava z zvokom";
+// text on a label; Error message, when the before recorded audio file can not be played to the user
+"Could not start playback." = "Predvajanja ni bilo mogoče pričeti.";
+"Could not resume playback." = "Predvajanja ni bilo mogoče nadaljevati.";
+"Microphone permission not granted." = "Dovoljenje za dostop do mikrofona ni bilo dodeljeno.";
+"Audio cannot be recorded at the moment. Please grant this app permission to access your microphone." = "Snemanje trenutno ni možno. Prosim dodelite aplikaciji dovoljenje za dostop do mikrofona.";
+"There was a problem trying to record audio." = "Pri poskusu snemanje je prišlo do napake.";
+"Already Recording" = "Snemanje že poteka";
+"You are already recording on page %@." = "Snemanje že poteka na strani %@.";
+// Android: Rational shown when microphone access permission has been permanently denied.
+"It seems you have permanently denied microphone access for this app." = "Kot kaže ste trajno zavrnili dostop do mikrofona. Da bi lahko posneli zvočne označbe morate v nastavitvah omogočiti dostop do mikrofona.";
+
+// Forms
+"Form Element" = "Element obrazca";
+"Text Field" = "Tekstovno polje";
+"Button" = "Gumb";
+"Choice Field" = "Izbirno polje";
+"Signature Field" = "Polje za podpis";
+"Clear Field" = "Izbriši"; // same as delete
+"Default Values" = "Privzete vrednosti";
+"Custom Value" = "Vrednost po meri";
+// Shown in the search bar for dropdown form elements, where you can search available options to use for the form element value.
+"Search Options" = "Išči";
+
+// Validation of numbers
+"Invalid value: must be greater than or equal to %s." = "Neveljavna vrednost: mora bit več kot ali enako %s.";
+"Invalid value: must be greater than or equal to %s and less than or equal to %s." = "Neveljavna vrednost: mora bit več kot ali enako %s in manj kot ali enako %s.";
+"Invalid value: must be less than or equal to %s." = "Neveljavna vrednost: mora bit manj kot ali enako %s.";
+"The value entered does not match the format of the field [%s]" = "Vnesena vrednost ne ustreza formatu polja [%s]";
+
+// Validation of dates
+"Invalid date/time: please ensure that the date/time exists. Field [%s] should match format %s" = "Neveljaven datum/čas: zagotovite, da je datum/čas veljaven. Polje [%s] naj ustreza formatu %s";
+
+// General validation
+"Invalid value [%s]" = "Neveljavna vrednost [%s]";
+
+// Gallery
+"Connection Error" = "Napaka pri povezavi";
+"Unsupported Content" = "Nepodprta vsebina";
+"The specified content cannot be displayed." = "Izbrane vsebine ni mogoče prikazati.";
+"Something went wrong" = "Nekaj je spodletelo";
+"This item is currently unavailable." = "Ta element trenutno ni na voljo.";
+"The information for this gallery could not be loaded." = "Podatke za galerijo ni bilo mogoče naložiti.";
+"Content Error" = "Napaka pri vsebini";
+"This content is unsupported." = "Ta vsebina ni podprta.";
+
+// Signatures
+"Digital Signature" = "Digitalni podpis";
+"Signature is valid." = "Podpis je veljaven.";
+"Signature is valid, but there are some warnings." = "Podpis je veljaven, toda obstajajo nekatera opozorila.";
+"It was signed by %@ on %@ at %@." = "Dokument je podpisal %@, %@ ob %@."; // the document was signed by name on date at time
+// the document was signed on date at time
+"It was signed on %@ at %@." = "Dokument je bil podpisan %@ ob %@.";
+"It claims to have been signed by %@ on %@ at %@." = "Dokument trdi da ga je podpisal %@, %@ at %@."; // by name on date at time
+// on date at time
+"It claims to have been signed on %@ at %@." = "Dokument trdi da je bil podpisan %@ at %@.";
+"The revision covered by this signature has not been modified, however changes have been made to the document since it was signed." = "Revizija, ki jo označuje podpis ni bila spremenjena, vendar so na dokumentu nastale spremembe odkar je bil podpisan."; // When a document is signed, the content is frozen at that point, and any subsequent changes are appended to the document. So the version or revision of the document that was signed can later be reviewed. So this message essentially means "The signed version is intact and you could view it, but what you are looking at now has had modifications made to it." There is / will be a button for viewing these old signed revisions.
+"The signature is valid and the content of this document has not been modified since it was signed." = "Podpis je veljaven in vsebina dokumenta ni bila spremenjena odkar je bil podpisan.";
+"Invalid signature — since signing the content of this document has been modified, tampered with, or corrupted." = "Neveljaven podpis — dokument je bil spremenjen ali poškodovan odkar je bil podpisan.";
+"Unsigned Signature Field" = "Nepodpisano podpisno polje";
+"Do you really want to remove the signature from the document?" = "Ali zares želite odstraniti podpis iz tega dokumenta?";
+"Could not retrieve the certificate from the signature." = "Iz podpisa ni bilo mogoče pridobiti certifikata.";
+"Could not retrieve the signature contents." = "Vsebine podpisa ni bilo mogoče pridobiti.";
+"Could not retrieve the public key from the signature." = "Iz podpisa ni bilo mogoče pridobiti javnega ključa.";
+"Could not retrieve the byte range of the signature." = "Območje podpisa ni bilo mogoče pridobiti.";
+"Could not understand the encryption padding." = "Zapolnjevanje kriptografske šifre ni bilo razumljivo.";
+"Could not compute the digest for the document." = "Zgoščene vrednosti za dokument ni bilo mogoče pridobiti.";
+"General failure while trying to determine document integrity." = "Splošna napaka pri preverjanju pristnosti dokumenta.";
+"Certificate chain is invalid." = "Veriga certifikatov ni veljavna.";
+"Certificate chain could not be verified, as no trusted keys were supplied." = "Verige certifikatov ni bilo mogoče preveriti, saj ni bilo podanih zaupanja vrednih ključev.";
+"Document integrity success, but certificate is self signed." = "Certifikat je samopodpisan.";
+"Document integrity check failed." = "Preverjanje pristnosti dokumenta je spodletelo.";
+"The signing certificate is not trusted." = "Certifikat, uporabljen pri podpisu, ni zaupanja vreden.";
+"unknown time" = "neznani čas";
+"unknown date" = "neznani datum";
+"Digitally signed by {}" = "Digitalno podpisano, {}"; // {} will be replaced by the person who has signed the document, so place it in the correct position in the translation
+"Date: " = "Datum: ";
+"Reason: " = "Razlog: ";
+"Location: " = "Kraj: ";
+"Certificate" = "Certifikat";
+"No Certificate" = "Brez certifikata";
+"No Certificates" = "Ni certifikatov";
+"Store Signature" = "Shrani podpis";
+"Add Trusted Certificate" = "Dodaj zaupanja vreden certifikat";
+"Add Signer" = "Dodaj podpisnika";
+"Added Trusted Certificate" = "Dodan zaupanja vreden certifikat";
+"Added Signer" = "Dodan podpisnik";
+"File doesn't match any certificate type" = "Datoteka ne ustreza podprtim tipom certifikatov";
+"Import Failed" = "Uvoz je spodletel";
+"Signature Area" = "Prostor za podpis";
+"Draw Signature Area" = "Označite območje podpisa";
+
+// Signature Errors
+"Could not init PKCS7 object" = "PKCS7 objekta ni mogoče inicializirati";
+"Could not find signature" = "Podpisa ni bilo mogoče najti";
+"Could not hash the PDF document" = "Za PDF dokument ni bilo mogoče pridobiti zgoščene vrednosti";
+"Could not create padding for the digital signature" = "Za digitalni podpis ni bilo mogoče inicializirati bitnega zapolnjevanja";
+"Could not verify the signature" = "Podpisa ni bilo mogoče preveriti";
+"Could not save the signed document" = "Podpisanega dokumenta ni bilo mogoče shraniti";
+"Cannot sign attributes" = "Atributov ni bilo mogoče podpisati";
+"The selected subfilter type for the signature is not supported" = "Izbrani tip filtra za podpis ni podprt";
+"Could not add signature to PKCS7 object" = "K PKCS7 objektu ni bilo mogoče dodati podpisa";
+"Could not write PKCS7 signature" = "PKCS7 podpisa ni bilo mogoče zapisati";
+"Could not create PKCS7 object" = "PKCS7 objekta ni bilo mogoče inicializirati";
+"Could not generate PKCS7 object" = "PKCS7 objekta ni bilo mogoče ustvariti";
+// Error text that may be shown when trying to add a digital (cryptographic) signature to a document that has already has a digital signature applied.
+"SigningError_AlreadySigned" = "Dokumenta ni bilo mogoče podpisati, ker je že podpisan.";
+
+// Signatures - PSPDFSignatureVerificationX509Error
+"Cannot read certificate data as PKCS#7 certificate. Data of the right format can be exported from Adobe Acrobat." = "Podatke o certifikatu ni mogoče prebrati v PKCS#7 formatu. Podatke v pravilni obliki je mogoče izvoziti iz Adobe Acrobata."; // PKCS#7 should not be translated
+"Unable to decrypt the signature of the certificate." = "Podpis certifikata ni mogoče dekriptirati.";
+"The public key in the certificate could not be read." = "Javni ključ certifikata ni bilo mogoče prebrati.";
+"The signature of the certificate is not valid." = "Podpis certifikata ni veljaven.";
+"Signature is not valid." = "Podpis ni veljaven.";
+"There is a format error in the notBefore field of the certificate." = "V notBefore polju certifikata je napaka v kodiranju."; // notBefore should not be translated
+"There is a format error in the notAfter field of the certificate." = "V  notAfter polju certifikata je napaka v kodiranju.."; // notAfter should not be translated
+"No signatures could be verified because the certificate chain contains only one certificate, it is not self-signed, and the issuer is not trusted." = "Podpise ni bilo mogoče preveriti, ker veriga certifikatov vsebuje le en certifikat, ki ni samo-podpisan in njegov izdajatelj ni na seznamu zaupanih izdajateljev.";
+"A CA certificate is not valid because it is not a CA or its extensions are not consistent with the intended purpose." = "CA certifikat ni veljaven ker ni CA ali ker njegove razširitve niso konsistentne z načrtovanim namenom."; // CA = Certificate Authority; The sentence means: The as CA provided certificate is not a CA or can not be used as a CA because its extensions are not consistent with the intended purpose. CA should be translated
+"The basicConstraints pathlength parameter was exceeded." = "Dolžina basicConstraints pathlength parametra je bila prekoračena."; // basicContraints pathlength should not be translated
+"The root CA is not marked as trusted for its intended purpose." = "Korenski CA ni označen kot zaupanja vreden za načrtovani name."; // root CA should be translated
+"The root CA is marked to reject the purpose specified." = "Korenski CA je označen za zavrnitev podanega namena."; // root CA should be translated
+"The issuer certificate was rejected because its subject name did not match the issuer name of the current certificate." = "Izdajateljev certifikat je bil zavrnjen, ker njegovo subject name vnos ne ustreza issuer name vnosu na trenutnem certifikatu."; // subject and the second issuer should not be translated
+"The issuer certificate was rejected because its subject key identifier was present and did not match the authority key identifier of the current certificate." = "Izdajateljev certifikat je bil zavrnjen, ker je njegov subject key identifier vnos prisoten in ne ustreza authority key identifier vnosu pri trenutnem certifikatu."; // subject key identifier and authority key identifier should not be translated
+"The issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate." = "Izdajateljev certifikat je bil zavrnjen, ker sta prisotna njegova issuer name in serial number vnosa in ne ustrezata authority key identifier vnosu pri trenutnem certifikatu."; // the 2. issuer, serial number and Authority key Identifier schould not be translated
+"The certificate was revoked by the issuer." = "Certifikat je bil preklican s strani izdajatelja.";
+"The passed certificate is self-signed and the same certificate cannot be found in the list of trusted certificates." = "Podan certifikat je samo-podpisan in ni na seznamu zaupanja vrednih certifikatov.";
+"A self-signed certificate exists in the certificate chain. The certificate chain could be built up using the untrusted certificates, but the root CA could not be found locally." = "V verigi certifikatov je prisoten samo-podpisan certifikat. Verigo certifikatov je mogoče postaviti z uporabo certifikatov, ki niso vredni zaupanja, vendar ni mogoče najti korenskega CA."; // root CA should be translated
+"Unable to find the certificate for one of the certificate authorities (CAs) in the signing hierarchy and that CA is not trusted by the local application." = "Ni mogoče najti certifikata za enega od overiteljev digitalnih potrdil (CAs) v podpisni hierarhiji in ta overitelj v aplikaciji ni označen kot zaupanja vreden."; // CAs should not be translated;
+"The issuer certificate of a locally looked up certificate could not be found. This normally means that the list of trusted certificates is not complete." = "Izdajateljevega certifikata za lokalni certifikat ni bilo mogoče najti. To praviloma pomeni da seznam zaupanja vrednih certifikatov ni popolni.";
+"The certificate that was provided cannot be used for its intended purpose." = "Podani certifikat ni mogoče uporabiti za načrtovani namen.";
+"The issuer certificate's keyUsage extension does not permit certificate signing." = "Razširitev keyUsage pri izdajateljevim cerifikatu ne podpira podpisovanja s cerifikatom.";
+"The certificate has expired." = "Certifikat je potekel.";
+"The certificate is not valid until a date in the future." = "Certifikat ni veljaven do datuma v prihodnjosti.";
+// X509 should not be translated
+"Could not read X509 certificate from data" = "Ni bilo mogoče prebrati X509 certifikata iz podatkov";
+// X509 should not be translated
+"No X509 certificate found" = "X509 cetifikata ni bilo mogoče najti";
+
+// PKCS12 should not be translated
+"Cannot read PKCS12 file. File is incorrectly formatted or corrupted." = "Ni mogoče prebrati PKCS12 datoteke. Datoteka je v napačni obliki ali poškodovana.";
+// PKCS12 should not be translated
+"Could not unlock PKCS12 data. Did you enter the correct password?" = "Ni bilo mogoče odkleniti PKCS12 podatkov. Ste vnesli pravilno geslo?";
+"Could not decode PKCS12 data. The data might be malformed or incompatible." = "Podatke PKCS12 ni bilo mogoče dekodirati. Morebiti so popačeni ali nepopolni.";
+"Could not unlock PKCS12 data." = "Podatke PKCS12 ni bilo mogoče odkleniti.";
+"Could not add signature." = "Podpisa ni bilo mogoče dodati.";
+
+// the signature of a file should be checked, but this file can not be opened
+"Could not open file for signature validation" = "Datoteke ni bilo mogoče odpreti za preveritev podpisa";
+"Could not get signer info" = "Ni bilo mogoče pridobiti podatkov o podpisovalcu";
+
+// Night Mode
+"Default" = "Privzeto"; // Default view (night mode not enabled)
+"Sepia" = "Sepija"; // Document uses sepia colors
+"Night" = "Noč"; // UI switches into night mode: Dark and inverted colors
+
+// Document States
+"No document set" = "Noben dokument ni nastavljen";
+"Unable to display document" = "Ni bilo mogoče prikazati dokumenta";
+"Locked" = "Zaklenjen";
+"The file you are trying to access is either not a PDF file or might be corrupted." = "Datoteka ni PDF ali pa je poškodovana.";
+"A password is required to access this document." = "Ta dokument rabi geslo za dostop.";
+"The security scheme of this document is currently not supported." = "Varnostna shema za ta dokument trenutno ni podprta.";
+"An unknown error has occured while trying to open this file." = "Pri odpiranju datoteke je prišlo do neznane napake.";
+
+// Document Editor
+"Document Editor" = "Urejevalnik";
+"Add Page" = "Dodaj stran";
+"Delete Pages" = "Izbriši strani";
+"Duplicate Pages" = "Podvoji strani";
+"Move Pages" = "Premakni strani";
+"Rotate Pages" = "Obrni strani";
+"Page Size" = "Velikost strani";
+"Background Color" = "Barva ozadja";
+"Paper" = "Papir";
+"Pattern" = "Vzorec";
+"Use Document Size" = "Velikost v dokumentu";
+"Orientation" = "Orientacija";
+"Portrait" = "Pokončno";
+"Landscape" = "Ležeče";
+"Document Name" = "Ime dokcumenta";
+"Documents" = "Dokumenti"; // Name of directory
+"Use Document Folder" = "Uporabi mapo izvornega dokumenta";
+"Folder" = "Mapa";
+"Replace File?" = "Zamenjaj datoteko?";
+"A file named “%@” already exists at the selected destination. Do you want to replace it?" = "Datoteka “%@” že obstaja. Jo želite zamenjati?";
+"Replace" = "Zamenjaj";
+"Saving…" = "Shranjujem…";
+"Saved" = "Shranjeno";
+"Save As…" = "Shrani kot…";
+"Discard Changes" = "Zavrzi spremembe";
+"Empty" = "Prazno";
+"Use Image Size" = "Uporabi velikost slike";
+"Page Background" = "Ozadje strani";
+"Insert image annotation" = "Vstavi sliko";
+"Import page background" = "Uvozi ozadje strani";
+"Quality" = "Kakovost";
+"Low" = "Nizka";
+"Medium" = "Srednja";
+"High" = "Visoka";
+"Best" = "Najboljša";
+"Copy Pages" = "Kopiraj strani";
+"Paste Pages" = "Prilepi strani";
+"Copied" = "Kopirano";
+"“%@” has unsaved changes. Do you want to save them now?" = "“%@” vsebuje neshranjene spremembe. Jih želite shraniti sedaj?";
+"Select Source Document" = "Izberi izvirni dokument";
+"Add After Page %tu" = "Dodaj za stranjo %tu";
+"Cut Pages" = "Izreži strani";
+"Import Document" = "Uvozi dokument";
+// Title of an entry in the Folders section in the Save UI. When selected a system UI to select a folder will be used for folder selection.
+"Use Folder Picker" = "Uporabi izbirnik map";
+// Action/commit button title on the Save UI where a system UI to select a folder will be presented when tapped. This string will only be used if the "Use Folder Picker" item is selected, otherwise this will read "Save".
+"Pick Folder" = "Izberi mapo";
+// Accessibility label of the select all pages button in the document editor toolbar.
+"Select All Pages" = "Izberi vse strani";
+
+// Document Editor Errors
+"A blank document can not be saved." = "Praznega dokumenta ni mogoče shraniti.";
+"The document could not be saved." = "Dokumenta ni bilo mogoče shraniti.";
+"This document does not support editing." = "Ta dokument ne podpira urejanja.";
+"The document could not be accessed." = "Do dokumenta ni bilo možno dostopati.";
+
+// Drag and Drop Errors
+"The PDF could not be imported at this time." = "PDF datoteke trenutno ni mogoče uvoziti.";
+"The image could not be imported at this time." = "Slike trenutno ni mogoče uvoziti.";
+
+// Page Patterns
+"None" = "Prazna stran";
+"Dot5mm" = "5mm pike";
+"Grid5mm" = "5mm mreža";
+"Lines5mm" = "5mm črte";
+"Lines7mm" = "7mm črte";
+
+// Page Sizes
+"A4" = "A4";
+"A5" = "A5";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+
+// Page Export
+"Export Pages" = "Izvozi strani";
+"Export…" = "Izvozi…";
+"Exporting…" = "Izvažam…";
+"Exported" = "Izvoz končan";
+"%@ - Exported" = "%@ - Izvoz"; // Format for the default filename during export (%@ = existing filename)
+"%@ - Copy" = "%@ - Kopija"; // Format for the default filename during save as (%@ = existing filename)
+"The selected document is currently open. Please choose a different filename." = "Izbran dokument je trenutno odprt. Prosimo izberite drugo ime.";
+
+// Miscellaneous
+"Text-to-speech service unavailable. Make sure you have an active internet connection or Google Text-to-speech engine installed and enabled on your device." = "Storitev za govor trenutno ni na voljo. Preverite internetno povezavo in namestitev Google TTS.";
+
+// Settings
+"Page Layout" = "Postavitev strani";
+"Scroll Direction" = "Smer listanja";
+"Theme" = "Tema";
+"Keep screen on" = "Zaslon vedno prižgan";
+"Page Transition" = "Menjava strani";
+"Single" = "Samostojno";
+"Continuous" = "Zvezno";
+"Curl" = "Listanje";
+"Scroll" = "Pomik";
+"Horizontal" = "Vodoravno";
+"Vertical" = "Navpično";
+"Page Mode" = "Prikaz strani";
+"Automatic" = "Avtomatično";
+"Double" = "Dvojno";
+"Appearance" = "Prikaz";
+"Scrubber Bar" = "Drsnik";
+"Jump" = "Samostojno"; // The name of the single page mode transition displayed in settings view
+"Not Available" = "Ni na voljo"; // value displayed for disabled browsing option in settings view (disabled scroll direction and page mode)
+"Page Fitting" = "Poravnava strani";
+"Fit" = "Umesti";
+"Fill" = "Zapolni";
+"Adaptive" = "Adaptivno";
+
+// Privacy Access (%@ is replaced with the app name)
+"%@ does not have access to your photos." = "%@ nima dostopa do vaših fotografij.";
+"%@ does not have access to your camera." = "%@ nima dostopa do vaše kamere.";
+// This will be inserted and underlined in the string below.
+"Privacy Settings" = "nastavitvah zasebnosti";
+// %@ is replaced with "Privacy Settings"
+"You can enable access in %@." = "Dostop lahko omogočite v %@.";
+
+"Update Required" = "Potrebna je posodobitev";
+// Message of alert shown when trying to download a document or sync annotations and the app needs to be updated for that to work.
+"An update for %@ is required to access the document and sync annotations." = "Za dostop do dokumentov in sinhronizacijo označb je potrebno posodobiti %@.";
+
+
+// Annotation Replies
+"Comment" = "Komentar";
+"Comments" = "Komentarji";
+"Add your comment…" = "Dodaj komentar…";
+"Delete Comment" = "Izbriši komentar";
+"Set Status" = "Nastavite status";
+"Cancelled" = "Preklicano";
+"Accepted by" = "Sprejeli";
+"Rejected by" = "Zavrnili";
+"Completed by" = "Zaključili";
+"Cancelled by" = "Preklicali";
+
+// Note Annotation Icon Types
+"Right Pointer" = "Kazalec v desno";
+"Right Arrow" = "Puščica desno";
+"Checkmark" = "Kljukica";
+"Circle Note" = "Circle";
+"Cross" = "Križ";
+"Insert Text" = "Vnos besedila";
+"New Paragraph" = "Novi odstavek";
+"Text Note" = "Tekstovna označba";
+"Paragraph" = "Odstavek";
+"Help" = "Pomoč";
+"Star" = "Zvezda";
+"Key" = "Ključ";
+
+// PSPDFKit Web Strings
+"Light Blue" = "Svetlo modra";
+"Light Red" = "Svetlo rdeča";
+"Light Green" = "Svetlo zelena";
+"Fuchsia" = "Fuchsia";
+"Page %tu of %tu" = "Stran %tu od %tu";
+"Preparing document for printing…" = "Dokument se pripravlja za tisk…";
+"Are you sure you want to delete this annotation?" = "Ste prepričani, da želite izbrisati označbo?";
+"Confirm annotation deletion" = "Potrdite brisanje označbe";
+"Page Rotation" = "Rotacija strani";
+"Rotate Left" = "Zavrti levo";
+"Rotate Right" = "Zavrti desno";
+"%@ (not supported)" = "%@ (ni podprta)";
+"Pan Mode" = "Način za premikanje";
+"Fit Page" = "Poravnaj s stranjo";
+"Fit Width" = "Poravnaj s širino";
+"Password Required" = "Potrebno je geslo";
+"You have to unlock this document in order to view it. Please enter the password in the field below." = "Za ogled je potrebno odkleniti dokument. Vnesite geslo v spodnje polje.";
+"The password you entered is not correct. Please try again." = "Vneseno geslo ni pravilno. Poskusite ponovno.";
+"Clear Signature" = "Počisti podpis";
+"Top" = "Na vrh";
+"Bottom" = "Na dno";
+"Vertical Alignment" = "Navpična poravnava";
+"Horizontal Alignment" = "Vodoravna poravnava";
+"Light Orange" = "Svetlo oranžna";
+"Light Yellow" = "Svetlo rumena";
+"Mauve" = "Mauve";
+"Light Gray" = "Svetlo siva";
+"Dark Gray" = "Temno siva";
+"NoColor" = "Brez barve";
+"Transparent" = "Prosojna";
+// Generic label for bookmark
+"Bookmark" = "Zaznamek";
+// Button to create a new bookmark from the current page. Right now we use Add Bookmark but design had this label instead.
+"New Bookmark" = "Nov zaznamek";
+// Message displayed in the "delete bookmark" confirm dialog
+"Are you sure you want to delete this bookmark?" = "Ste prepričani, da želite izbrisati zaznamek?";
+// Accessibility label (title) for the "Delete Bookmark" confirm dialog
+"Confirm bookmark deletion" = "Potrditev izbrisa zaznamka";
+// Label for the select image field
+"Select Image" = "Izberi sliko";
+// Accessible label to announce the button to open and close a toolbar menu (a dropdown) which contains tools like shapes or ink annotations buttons. Example. "Stamp tools, toogle menu".
+"%@ tools, toggle menu" = "Podmeni: %@";
+"Unsupported type for image annotation: %@. Please use a JPEG or a PNG." = "Nepodprt format slike za slikovno označbo: %@. Izberite JPEG ali PNG sliko.";
+// Enables Marquee Zoom mode which allows to zoom to a rectangle
+"MarqueeZoom" = "Povečaj izbrano področje";
+"Toolbar_TextHighlighter" = "Teskstovni označevalec";
+// Toolbar that appears on top of a text selection to create an annotation from it
+"Markup annotation toolbar" = "Orodna vrstica za tekstovne označbe";
+// Region of the application where the PDF document is shown
+"Document viewport" = "Vidno polje dokumenta";
+// Accessibility title of the redaction dialog
+"Redaction in progress" = "Redakcija v teku";
+// Description of the redaction in progress dialog
+"Indicates that the current document is being redacted" = "Prikazuje, da na trenutnem dokumentu poteka redakcija.";
+"Icon" = "Ikona";
+// The name of the item on the menu for the Move UI
+"openMoveDialog" = "Premakni";
+// The instruction/prompt shown on the Move UI
+"movePage" = "Premakni stran na položaj";
+// The label of the button on the Move UI
+"move" = "Premakni";
+"selectedItem" = "Izbrano: %@.";
+"annotationDeleted" = "Označba je bila izbrisana.";
+"newAnnotationCreated" = "Nova %@ označba je bila usvarjena.";
+"bookmarkCreated" = "Zaznamek je bil ustvarjen.";
+"bookmarkEdited" = "Zaznamek je bil spremenjen.";
+"bookmarkDeleted" = "Zaznamek je bil izbrisan.";
+"cancelledEditingBookmark" = "Prekliči urejanje zaznamka.";
+"selectAFileForImage" = "Izberi datoteko za novo slikovno označbo.";
+"deleteAnnotationConfirmAccessibilityDescription" = "Pogovorno okno, ki omogoča potrditev ali preklic izbrisa označbe.";
+"deleteBookmarkConfirmAccessibilityDescription" = "Pogovorno okno, ki omogoča potrditev ali preklic izbrisa zaznamka.";
+"deleteCommentConfirmAccessibilityDescription" = "Pogovorno okno, ki omogoča potrditev ali preklic izbrisa komentarja.";
+"resize" = "Spremeni velikost";
+"resizeHandleTop" = "Zgoraj";
+"resizeHandleBottom" = "Spodaj";
+"resizeHandleRight" = "Desno";
+"resizeHandleLeft" = "Levo";
+"cropCurrentPage" = "Obreži trenutno stran";
+"cropCurrent" = "Obreži trenutno";
+"cropAllPages" = "Obreži vse strani";
+"cropAll" = "Obreži vse";
+"documentCrop" = "Obrezovanje dokumenta";
+// Description: move selected pages after the designated page index.
+"insertAfterPage" = "Vstavi za stranjo";
+// Description: Instructions for how to move pages to the beginning of the document when using the Move button in the Document Editor.
+"docEditorMoveBeginningHint" = "Vnesite “0” za premik izbranih strani na začetek dokumenta.";
+
+// Blend Mode Strings
+"Normal" = "Navaden";
+"Multiply" = "Pomnoži";
+"ScreenBlend" = "Zakrij";
+"Overlay" = "Prekrij";
+"Darken" = "Potemni";
+"Lighten" = "Posvetli";
+"ColorDodge" = "Umakni barve";
+"ColorBurn" = "Ožgi barve";
+"HardLight" = "Ostra osvetlitev";
+"SoftLight" = "Mehka osvetlitev";
+"Difference" = "Razlika";
+"Exclusion" = "Izključi";
+"Multiple" = "Mnogi";
+"Blend Mode" = "Način zlivanja";
+
+// Image Document Strings
+"File type not supported." = "Nepodprta vrsta datoteke.";
+"Could not load image file." = "Slikovne datoteke ni mogoče naložiti.";
+"The image is too large to be opened." = "Slika je prevelika.";
+"Could not generate a PDF document from the image." = "Slike ni bilo mogoče pretvoriti v PDF dokument.";
+"Unnamed Image Document" = "Neimenovan slikovni dokument";
+"Annotations will remain editable and are embedded into the image." = "Označbe bojo vključene v sliko z možnostjo urejanja.";
+"Annotations are drawn into the image and are readonly." = "Označbe bodo izrisane v sloko brez možnosti nadaljnjega urejanja.";
+
+//Metadata Strings
+"Document Info" = "Podatki o dokumentu";
+"Content" = "Vsebina";
+"Title" = "Naslov";
+"Author" = "Avtor";
+"Subject" = "Zadeva";
+"Keywords" = "Ključne besede";
+"Not Set" = "Ni nastavljeno";
+"NoneValue" = "Nič";
+"Security" = "Varnost";
+"Document Open Password" = "Geslo za odpiranje";
+"Not set, minimum 8 characters" = "Ni nastavljeno, najmanj 8 znakov";
+"Permissions" = "Dovoljenja";
+"Changes" = "Spremembe";
+"Printing" = "Tiskanje";
+"Content Copying for Accessibility" = "Kopiranje vsebine za dostopnost";
+"Content Modification" = "Spreminjanje vsebine";
+"High Quality Printing" = "Tiskanje v visoki kakovosti";
+"Filling of Form Fields" = "Izpolnjevanje obrazcev";
+"Document Assembly" = "Sestavljanje dokumenta";
+"Annotations and Forms" = "Označbe in obrazci";
+"Content Copying" = "Kopiranje vsebine";
+"Number of Pages" = "Število strani";
+"File Size" = "Velikost datoteke";
+"CreationDate" = "Ustvarjeno";
+"ModDate" = "Spremenjeno";
+"Creator" = "Ustvarjalec vsebine";
+"Producer" = "PDF proizvajalec";
+"Info" = "Info";
+"Tap the Edit button to show all metadata fields." = "Izberite gumb Uredi za prikaz vseh polj.";
+"Document Owner Password" = "Geslo lastnika dokumenta";
+"Changes Are Locked" = "Spremembe so onemogočene";
+"Enter the Document Owner Password to make changes." = "Za spreminjanje vnesite geslo lastnika dokumenta.";
+"Incorrect Password" = "Nepravilno geslo";
+"Passwords" = "Gesla";
+"Modifying Content" = "Spremembe vsebine";
+"Editing Annotations and Forms" = "Urejanje označb in obrazcev";
+"Filling Forms" = "Izpolnjevanje obrazcev";
+"Copying Content" = "Kopiranje vsebine";
+"Copying Content for Accessibility" = "Kopiranje vsebine za namen dostopnosti";
+"Could Not Save" = "Shranjevanje ni uspelo";
+"When specifying a Document Open Password, a Document Owner Password needs to be present." = "Pri vnosu gesla za odpiranje je potrebno vnesti tudi geslo lastnika dokumenta.";
+"%1$@ × %2$@" = "%1$@ × %2$@";
+"File Path" = "Lokacija datoteke";
+"Identical Passwords" = "Identični gesli";
+"Choose a different Owner or Open password." = "Geslo lastnika dokumenta se mora razlikovati od gesla za odpiranje.";
+"Owner Password Required" = "Potreben vnos lastniškega gesla";
+"An owner password is required to change the permissions of a document." = "Za spreminjanje dovoljenj je potreben vnos lastniškega gesla.";
+// Shown at the bottom of the screen that shows which document permissions are abled in the document when the app tells PSPDFKit to not honor permissions.
+"DocumentSecurity_PermissionsDisabledExplanation" = "Omejitve dovoljenj upoštevajo določene PDF aplikacije. Ta aplikacija jih ne upošteva.";
+// Accessibility string for selected annotation
+"selectedAnnotation" = "Izbrano: %@";
+// Accessibility string for selected note and text annotation
+"selectedAnnotationWithText" = "Izbrano: %@ z %@ kot vsebino";
+// Accessibility string for comment threads
+"commentThread" = "Komentarji";
+"printProgressModalDesc" = "Prikazuje pripravo dokumenta za tisk";
+"printProgressModal" = "Tiskanje v teku";
+"documentEditorDesc" = "Izvajanje sprememb na trenutnem dokumentu";
+"reloadDocumentDialog" = "Potrdi osvežitev dokumenta";
+"reloadDocumentDialogDesc" = "Pogovorno okno z pozivo za osvežitev dokumenta.";
+"signatureDialog" = "Podpis";
+"signatureDialogDesc" = "To pogovorno okno omogoča izbiro prostoročnega podpisa za vstavitev v dokument. Če nimate shranjenih podpisov lahko ustvarite novega z uporabo površine za risanje.";
+"stampAnnotationTemplatesDialog" = "Predloge žigov";
+"stampAnnotationTemplatesDialogDesc" = "Pogovorno okno omogoča izbiro žiga za vstavitev v dokument ali izdelavo žiga z lastnim tekstom.";
+
+// Redaction Strings
+// Redaction annotation type. Shown in the title of the annotation inspector, the annotation list, the redaction usage hint alert, and used for the accessibility label of the annotation toolbar button for redactions.
+"Redact" = "Redakcija";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "marked" state (which means that it has not yet been applied, and the content beneath it hasn't been removed yet.)
+"Redaction Mark" = "Redakcijska označba";
+// Shown as the section title in the annotation inspector for redactions. The values in this section only apply to the redaction while in the "redacted" state (which means that it has been applied, and the content beneath it has been removed.)
+"Applied Redaction" = "Potrjena redakcija";
+// Shown in the annotation inspector for redactions. Defines the color used for the border of redactions in marked state.
+"Outline Color" = "Barva obrobe";
+// Shown in the annotation inspector for redactions. Defines the text that is shown on top of the fill color of the applied redaction.
+"Overlay Text" = "Prekrivno besedilo";
+// Shown in the annotation inspector for redactions. Defines if the overlay text should be repeated, or only shown once.
+"Repeat Text" = "Ponovi besedilo";
+// Shown in the annotation inspector for redactions. Defines the color of the overlay text.
+"Text Color" = "Barva besedila";
+// Accessibility label for the floating redaction info button, that is shown if the document contains uncommitted redactions, and when tapped, shows UI to preview and apply all redactions in the document.
+"Redaction Info" = "Podrobnosti o redakciji";
+// Message that is shown in the redaction info UI, that can be accessed via the floating redaction info button when the document contains redaction annotations.
+"This document contains uncommitted redaction annotations. Do you want to apply them?" = "Dokument vsebuje nepotrjene označbe. Jih želite potrditi?";
+// Button that is shown in the redaction info UI, and can be used to apply all the redactions in the document, and in turn remove the page content underneath the redactions.
+"Apply" = "Potrdi";
+// Message that is shown in the redaction usage hint alert, presented when redactions are first used by the user, to describe how they are used.
+"Redaction is a two step process. First create a redaction mark to select the area that should be redacted. To remove the content irreversibly, tap the red ▵ button in the lower right corner, and apply the redactions." = "Redakcija je proces, ki zahteva dva koraka. Najprej ustvarite označbo s katero izberete področje, ki ga želite odstraniti. Za nepovratni izbris vsebine, izberite gumb z oznako ▵ v spodnjem desnem kotu, in pordite redakcijo.";
+// Button that is shown in the redaction menu to apply redactions.
+"Apply Redactions" = "Potrdi redakcijo";
+// Button that is shown in the redaction menu to remove all redaction annotations.
+"Clear Redactions" = "Izbriši redakcijske označbe";
+// Button that is shown in the redaction menu to enable the redaction preview.
+"Enable Redaction Preview" = "Vključi predogled redakcije";
+// Button that is shown in the redaction menu to disable the redaction preview.
+"Disable Redaction Preview" = "Izključi predogled redakcije";
+// Message shown in the dialog before applying redactions to the document.
+"Applying redactions will permanently remove the information and can't be undone." = "Potrditev redakcije bo trajno izbrisala označeno vsebino brez možnosti za razveljavitev.";
+// Dialog button for saving the redacted document to a new file.
+"Save to new file" = "Shrani kot novo datoteko";
+// Dialog button for applying the redaction in the current document.
+"Redact current document" = "Redigiraj trenutni dokument";
+// Text shown in the progress dialog while redacting.
+"Redacting…" = "Redigiranje…";
+// Text shown in the error dialog when redacting failed.
+"The document could not be redacted." = "Redakcij ni bilo mogoče potrditi.";
+// Message shown in dialog when saving using document editor with redactions in the document.
+"Content marked for redaction will not be removed when saving the document. Are you sure you want to proceed?" = "Vsebina, ki je označena za redakcijo ne bo odstranjena. Ste prepričani, da želite nadaljevati?";
+// Button label for applying redaction annotations on the current document, and therefore irrecoverably remove marked content.
+"Redact Current Document" = "Redigiraj trenutni dokument";
+// Button label for applying redaction annotations in a new document, leaving the current document untouched.
+"Save Redacted Document As" = "Shradi redigiran dokument kot";
+// Suggested file name for the new document that will be created with content redacted. %@ will be replaced with the file name/title of the current document.
+"%@ - Redacted" = "%@ - Redigirano";
+
+/// Web Redaction Strings
+// Label for the "Area Redaction" tool
+"Area Redaction" = "Ploskovna redakcija";
+// Label for the "Text Redaction" tool
+"Text Redaction" = "Tekstovna redakcija";
+// Text shown in the "Applying Redactions" modal
+"Applying redactions" = "Potrditev redakcij";
+// Accessibility label for the "Signing" modal
+"Signing in progress" = "Podpisovanje je v teku";
+// Accessibility description for the "Signing" modal
+"Indicates that the current document is being signed" = "Označuje da je trenutni dokument v postopku podpisovanja";
+// Placeholder when the overlay text input for redactions is empty
+"Insert overlay text" = "Vstavi prekrivno besedilo";
+
+// File Change Alert Strings
+// Alert action title to that restores the file on disk from the currently loaded state, if the file was altered or deleted by another application.
+"Restore File" = "Shrani dokument";
+// Alert title shown when the file is was removed on disk while it's being displayed.
+"Missing File" = "Manjkajoča datoteka";
+// Alert details message shown when the file is was removed on disk while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been removed outside of the application. Do you want to close this document or restore the file?" = "Datoteka za '%@' je bila izbrisana izven aplikacije. Želite zapreti dokument ali obnoviti datoteko?";
+// Alert title shown when the file is was altered on disk by another application while it's being displayed.
+"File Conflict" = "Datotečni konflikt";
+// Alert details message shown when the file is was altered on disk by another application while it's being displayed. The %@ parameter is replaced by the document title.
+"'%@' has been changed outside of the application. Saving will override remote changes." = "Datoteka za '%@' je bila spremenjena izven aplikacije. Shranjevanje bo prepisalo zunanje spremembe.";
+// Alert action title to that saves the displayed document and updates the file on disk.
+"Save Changes" = "Shrani spremembe";
+
+// Instant Assets Strings
+// Message to be displayed in the placeholder view when the media for an image-, or sound annotation has not been loaded yet, and a download of the media has not been scheduled either. Can be visible because of a configuration where media isn’t loaded automatically, or because there are already two many active downloads.
+"Instant.assets.tapToLoad" = "Izberite za nalaganje vsebine.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed due to a connection error. Will be displayed as a detailed error message alongside `.tapToRetryDownload`.
+"Instant.assets.loadConnectionError" = "Vsebine za označbo ni bilo mogoče naložiti zaradi težav pri povezavi. Prosim poskusite ponovno.";
+// Recovery suggestion displayed in the placeholder view, when loading the media for an image-, or sound annotation failed.
+"Instant.assets.tapToRetryDownload" = "Izberite za ponovno nalaganje vsebine.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed because the file did not exist. Can happen in an environment where automatic synchronization is disabled, and the media for an annotation is loaded on demand, but the annotation has since been deleted, or its media content has been replaced with something else on the server side. Could also happen due to a server issue, hence the suggestion to report an issue. The parameter in the string will be replaced with some technical information about the document and asset identifier.
+"Instant.assets.noSuchAsset(details: %@)" = "Vsebine za označbo ni bilo mogoče najti. Če se napaka ponovno pojavi po uspešni sinhronizaciji dokumenta prosimo, da prijavite napako in priložite naslednje podatek: %@";
+// Message to be displayed in the placeholder view while the media for an image-, or sound annotation is downloading.
+"Instant.assets.tapToCancelDownload" = "Izberite za preklic prenosa.";
+// Error message to be displayed in the placeholder view, when loading of the media for an image-, or sound annotation failed for reasons that shouldn’t happen on a healthy device (for example when the database has been corrupted).
+// The placeholders will be substituted with information the can include in a bug report to help us troubleshoot cases where this happens more often.
+"Instant.assets.unexpectedError(code: %@, details: %@)" = "Pri nalaganju je prišlo do nepričakovane napake. Napaka %@: %@";
+
+// Link Annotation Creation/Editing UI
+// Segmented control title to show the UI for creating a link that links to a page in the current document.
+"Link to Page" = "Povezava do strani";
+// Segmented control title to show the UI for creating a link that links to a website.
+"Link to Website" = "Povezava do spletne strani";
+// Placeholder in the text field to enter a page number, when creating a new link annotation.
+"Page Number" = "Številka strani";
+// Header that is shown in the link creation UI when selecting a page from the document to create a link to.
+"Page Selection" = "Izbira strani";
+// Label that is shown in the link annotation UI that pastes the currently pasted address, while a valid website address is detected in the clipboard.
+"Paste From Clipboard" = "Prilepi iz odložišča";
+// Label that is shown in the location where a website preview would be shown if a valid website was entered in the text field.
+"Website Preview" = "Predogled spletne strani";
+// Placeholder in the text field to enter a website, when creating a new link annotation.
+"Website Address" = "Naslov spletne strani";
+// Accessibility label for the back button to go to the last website in the link annotation website preview UI.
+"Back" = "Nazaj";
+// Accessibility label for the forward button to go to the last website in the link annotation website preview UI.
+"Forward" = "Naprej";
+
+// Android Color Picker Strings
+// Title of a tab header inside the new color picker, for the tab showing pre-defined color palettes.
+"Palette" = "Paleta";
+// Section header for a palette showing recently used colors for fast access.
+"Recently Used" = "Nedavno uporabljene";
+// Section header for a palette showing default pre-configured colors.
+"Default Color Palette" = "Privzeta barvna paleta";
+// Section header for a palette showing a variation of different colors for the currently active color.
+"Color Variations" = "Barvne variacije";
+// Custom color value for HSL color picking: Hue
+"Hue" = "Ton";
+// Custom color value for HSL color picking: Saturation
+"Saturation" = "Nasičenost";
+// Custom color value for HSL color picking: Lightness
+"Lightness" = "Svetlost";
+// Title of the text input to enter hexadecimal colors.
+"Hexadecimal Color Value" = "Šestnajstiški zapis barve";
+// Text shown when an invalid color is entered.
+"The specified value is not a valid color." = "Podana vrednost ne predstavlja veljavne barve.";
+// Text on button used to paste hex colors from clipboard.
+"Paste from Clipboard" = "Prilepi iz odložišča";
+"Hex" = "Hex";
+"RGB" = "RGB";
+"HSL" = "HSL";
+
+// Android Page Binding Strings
+// Label for the page binding setting.
+"Page Binding" = "Vrsta vezave";
+// Text shown when left edge binding is selected.
+"Left Edge" = "Levi rob";
+// Text shown when right edge binding is selected.
+"Right Edge" = "Desni rob";
+// Text shown when unknown edge binding is selected.
+"Unknown" = "Neznana";
+// Text shown under the left edge binding option.
+"PageBinding_Left" = "Levo";
+// Text shown under the right edge binding option.
+"PageBinding_Right" = "Desno";
+
+// Annotation Z-Index Strings
+// Title label shown in the UI that allows changing the z-index (stacking order) of an annotation.
+"AnnotationZIndex_Order" = "Vrstni red";
+// Accessibility label for moving the annotation to the front.
+"AnnotationZIndex_Front" = "V ospredje";
+// Accessibility label for moving the annotation one position forward.
+"AnnotationZIndex_Forward" = "Naprej";
+// Accessibility label for moving the annotation one position backward.
+"AnnotationZIndex_Backward" = "Nazaj";
+// Accessibility label for moving the annotation to the back.
+"AnnotationZIndex_Back" = "V ozadje";
+
+// Web Document Editor Strings
+"DocumentEditor_Duplicate" = "Podvoji";
+"DocumentEditor_Extract" = "Izvleci";
+"General_SelectNone" = "Počisti izbiro";
+"DocumentEditor_NewPage" = "Nova stran";
+"DocumentEditor_InstantModifiedWarning" = "Dokument je bil spremenjen in je sedaj v načinu za branje. Osvežite stran, za prehod nazaj v osnovni način.";
+"DocumentEditor_MoveBefore" = "Premakni pred";
+"DocumentEditor_MoveAfter" = "Premakni za";
+"DocumentEditor_DocumentMergedHere" = "Dokument bo združen tukaj";
+
+// Android Strings
+"FileSystemPermission" = "Zdi se, da ste aplikaciji trajno onemogočili dostop do datotečnega sistema. Da bi lahko ponovno pregledovali in urejeli PDF dokumente, shranjene na vaši napravi, morate ponovno omogočiti pravico za dostop do datotečnega sistema v sistemskih nastavitvah.";
+"Button_OpenSettings" = "Odpri nastavitve";
+
+/// Web Comments Strings
+// Button to show more comments
+"Comments_ShowMore" = "Prikaži več";
+// Button to show less comments
+"Comments_ShowLess" = "Prikaži manj";
+// Button to reply to a comment
+"Comments_Reply" = "Odgovor";
+// Button to show all comments
+"Comments_ShowAll" = "Prikaži vse";
+// Message displayed in the "Delete Comment" confirm dialog
+"Are you sure you want to delete this comment?" = "Ali ste prepričani, da želite izbrisati ta komentar?";
+// Accessibility label (title) for the "Delete Comment" confirm dialog
+"Confirm comment deletion" = "Potrdi izbris komentarja";
+// Verb for Comment
+"Comment_Action" = "Komentiraj";
+
+/// Web Digital Signatures Strings
+"DigitalSignatures_AllValid" = "Dokument je bil digitalno podpisan in vsi podpisi so veljavni.";
+"DigitalSignatures_DocModified" = "Dokument je bil digitalno podpisan, vendar je bil spremenjen odkar je bil podpisan.";
+"DigitalSignatures_SignatureWarning" = "Dokument je bil digitalno podpisan, vendar vsaj en podpis ima težave.";
+"DigitalSignatures_SignatureWarningDocModified" = "Dokument je bil digitalno podpisan, vendar je bil spremenjen odkar je bil podpisan in vsaj en podpis ima težave.";
+"DigitalSignatures_SignatureError" = "Dokument je bil digitalno podpisan, vendar vsaj en podpis je neveljaven.";
+"DigitalSignatures_SignatureErrorDocModified" = "Dokument je bil digitalno podpisan, vendar je bil spremenjen odkar je bil podpisan in vsaj en podpis je neveljaven.";
+
+/// Miscellaneous Error Strings
+// Title of alert shown when trying to start recording audio as a sound annotation and it can’t be started.
+"SoundAnnotation_CouldNotStartRecording" = "Snamanja ni bilo mogoče začeti";
+// Title of alert shown when trying to stop recording audio as a sound annotation and it can’t be stopped.
+"SoundAnnotation_CouldNotStopRecording" = "Snemanja ni bilo mogoče končati";
+// Text in HUD (toast message) shown when trying to paste PDF pages that were previously cut or copied.
+"DocumentEditor_CouldNotPastePages" = "Strani ni bilo mogoče prilepiti";
+// Alert title when trying to add a digital signature to a document but fetching the certificate to sign with failed.
+"Signing_CouldNotRequestSigningCertificate" = "Podpisnega certifikata ni bilo mogoče pridobiti";
+// Alert title when trying to add a digital signature to a document but it does not work.
+"Signing_CouldNotSign" = "Dokumenta ni mogoče podpisati";
+// Error text that may be shown when a document can’t be opened and we don’t have enough info to know why.
+"DocumentOpenError_Unknown" = "Pri odpiranju dokumenta je prišlo do neznane napake.";
+
+/// Reader View Strings
+// Button title for Reader View, which reformats document text for easy reading.
+"BarButtonTitle_ReaderView" = "Pogled za branje";
+
+/// Electronic Signatures
+// Tab title for adding a signature by drawing with a finger, stylus, or mouse.
+"ElectronicSignatures_DrawTab" = "Riši";
+// Tab title for adding a signature by choosing from an image saved in files or photos.
+"ElectronicSignatures_ImageTab" = "Slika";
+// Tab title for adding a signature by typing and choosing from a list of stylized handwriting fonts. Used as a verb.
+"ElectronicSignatures_TypeTab" = "Tipkaj";
+// Hint in the signing area for drawing a signature.
+"ElectronicSignatures_SignHereDrawHint" = "Podpišite tukaj";
+// Hint shown below the text field for typing a signature.
+"ElectronicSignatures_SignHereTypeHint" = "Zgoraj vnesite svoj podpis";
+// Title by a checkbox to decided whether the save the entered signature for next time.
+"ElectronicSignatures_SaveToggle" = "Shrani podpis";
+// Title for a button that shows a file picker to pick an image to use as a signature. The user can also drag a file in the area where this button is shown.
+"ElectronicSignatures_SelectDragImageButton" = "Izberi ali povleči sliko";
+// Title for a button that shows a menu to pick an image to use as a signature either by taking a photo or choosing an existing image from saved photos or files.
+"ElectronicSignatures_SelectImageButton" = "Izberi sliko";
+// Title for a button that removes a previously picked image and shows a file picker to pick a different image to use as a signature.
+"ElectronicSignatures_ReplaceImageButton" = "Zamenjaj sliko";
+// Title of a menu item that shows a file picker to choose an image to use as a signature. The other items in the menu allow choosing Camera or Photo Library.
+"ImagePicker_FilesMenuItem" = "Datoteke";
+// Button to create a new signature
+"SignaturesPicker_NewSignature" = "Nov podpis";
+// Accessibility value for a checkbox button that is enabled.
+"Checkbox_On" = "Vklopljeno";
+// Accessibility value for a checkbox button that is disabled.
+"Checkbox_Off" = "Izklopljeno";
+
+/// Undo Command Titles
+// Command of adding one annotation to a document.
+"Undo_AddAnnotation" = "Dodaj označbo";
+// Command of adding more than one annotation to a document.
+"Undo_AddAnnotations" = "Dodaj označbe";
+// Command of adding one comment under an annotation.
+"Undo_AddComment" = "Dodaj komentar";
+// Command of changing status of a comment (e.g. to approved or rejected).
+"Undo_ChangeCommentState" = "Spremeni stanje komentarja";
+// Command of changing type of text markup annotations (e.g. change highlight to underline).
+"Undo_ChangeMarkupType" = "Spremeni vrsto tekstovne označbe";
+// Command of changing selection of drop-downs, checkboxes and radio buttons.
+"Undo_ChangeSelection" = "Spremeni izbrio";
+// Command of clearing annotations (which includes removing annotations and clearing values of form fields).
+"Undo_ClearAnnotations" = "Izbriši označbe";
+// Command of cutting.
+"Undo_Cut" = "Izreži";
+// Command of automatically detecting shape when using Magic Ink tool.
+"Undo_DetectShape" = "Prepoznaj obliko";
+// Command of drawing an ink annotation.
+"Undo_Draw" = "Riši";
+// Command of dropping (as in drag-and-drop).
+"Undo_Drop" = "Spusti";
+// Command of editing text of a comment.
+"Undo_EditComment" = "Uredi komentar";
+// Command of editing text inside text fields.
+"Undo_EditText" = "Uredi tekst";
+// Command of erasing an ink annotation.
+"Undo_Erase" = "Izbriši";
+// Command of grouping more than one annotation together.
+"Undo_Group" = "Grupiraj";
+// Command of merging more than one ink annotation together.
+"Undo_Merge" = "Združi";
+// Command of modifying one annotation.
+"Undo_ModifyAnnotation" = "Spremeni označbo";
+// Command of modifying more than one annotation.
+"Undo_ModifyAnnotations" = "Spremeni označbe";
+// Command of moving one annotation on page.
+"Undo_MoveAnnotation" = "Premakni označbo";
+// Command of moving more than one annotation on page.
+"Undo_MoveAnnotations" = "Premakni označbe";
+// Command of pasting.
+"Undo_Paste" = "Prilepi";
+// Command of removing one annotation from a document.
+"Undo_RemoveAnnotation" = "Izbriši označbo";
+// Command of removing more than one annotation from a document.
+"Undo_RemoveAnnotations" = "Izbriši označbe";
+// Command of removing one comment from under an annotation.
+"Undo_RemoveComment" = "Izbriši komentar";
+// Command of removing more than one comment from under an annotation.
+"Undo_RemoveComments" = "Izbriši komentarje";
+// Command of resizing one annotation.
+"Undo_ResizeAnnotation" = "Spremeni velikost označbe";
+// Command of resizing more than one annotation.
+"Undo_ResizeAnnotations" = "Spremeni velikost označb";
+// Command of rotating one annotation.
+"Undo_RotateAnnotation" = "Rotiraj označbo";
+// Command of rotating more than one annotation.
+"Undo_RotateAnnotations" = "Rotiraj označbe";
+// Command of ungrouping previously grouped annotations.
+"Undo_Ungroup" = "Odgrupiraj";
+
+/// Document Comparison Strings
+"Comparison_AlignButton" = "Poravnaj";
+// Title of the document alignment UI. This UI is used to align two versions of the document being compared.
+"Comparison_Alignment_Title" = "Poravnaj dokumenta";
+// Title of the button shown above the crosshair in the document alignment UI. Pressing it selects a point. More than one point can be selected.
+"Comparison_Alignment_SelectButton" = "Izberi točko";
+// Default title of the old version of the document being compared, used when the document has no title and no file name.
+"Comparison_OldDocumentTitle" = "Stari";
+// Default title of the new version of a document being compared, used when the document has no title and no file name.
+"Comparison_NewDocumentTitle" = "Nov";
+// Title of the document produced as a result of comparing two versions of the document.
+"Comparison_ComparisonDocumentTitle" = "Primerjava";
+// Detailed message that describes how the document alignment process works.
+"Comparison_HintContent" = "Za ročno poravnavo izberite tri točke na obeh dokumentih. Da bi doseglji najbolše prileganje izberite točkle blizu vogalov dokumenta v enakem zaporedju.";
+// Title of the button used to dismiss the information box that describes how the document alignment process works.
+"Comparison_HintDismiss" = "Opusti";
+// Unique to Web
+// Start the manual document alignment process (desktop).
+"Comparison_AlignButton_Long" = "Poravnaj dokumenta";
+// Compare two documents.
+"Comparison_DocumentComparison" = "Primejava dokumentov";
+// One of the documents to be compared.
+"Comparison_OldDocumentTitle_Long" = "Stari dokument";
+// The new document used in the comparison.
+"Comparison_NewDocumentTitle_Long" = "Nov dokument";
+// Reset all placed alignment points.
+"Comparison_ResetButton" = "Ponastavi";
+// Title of the information box that describes how the document alignment process works.
+"Comparison_HintHeader" = "Izbria točk";
+// Unique to iOS
+// Title of the button shown over a (potentially misaligned) comparison document. Pressing it opens the document alignment UI.
+"Comparison_Alignment_ButtonTitle" = "Poravnaj…";
+// Title of the document alignment progress UI. This UI shows two progress bars, one for each version of the document being compared.
+"Comparison_Alignment_ProgressTitle" = "Izbria točk";
+// Title of the selection step shown as part of the document alignment progress UI. Each step represents a point to be selected. %1$tu will be replaced with number representing the index. Example: "Point 2".
+"Comparison_Alignment_ProgressStep" = "Točka %1$tu";
+// Accessibility label for the document alignment progress bar. %1$tu will be replaced with number of already selected points. %2$tu will be replaced with number of total points. %3$@ will be replaced with the document title. Example: "Selected 1 of 3 in Old Document".
+"Comparison_Alignment_ProgressAccessibility" = "Izbrana %1$tu od %2$tu v “%3$@”";
+// Unique to Android
+// Labels for point positions on the stepper view; %d will be replaced by the point position number.
+"Comparison_PointSelectionPosition" = "Točka %d";
+"Comparison_Selection_Target_AccessibilityDescription" = "Izbirnik točk";
+
+// https://github.com/PSPDFKit/Localization/issues/917
+"CloudyRectangleAnnotation" = "Oblačkast pravokotnik";
+"DashedRectangleAnnotation" = "Črtkan pravokotnik";
+"CloudyEllipseAnnotation" = "Oblačkasta elipsa";
+"DashedEllipseAnnotation" = "Črtkana elipsa";
+"CloudyPolygonAnnotation" = "Oblačkasta mnogokotnik";
+"DashedPolygonAnnotation" = "Črtkan mnogokotnik";
+"CloudAnnotation" = "Oblak";
+
+// https://github.com/PSPDFKit/Localization/issues/913
+// Button label in the color picker for selecting no fill color for an annotation (fully transparent fill).
+"ColorPicker_ClearFill" = "Brez polnila";
+
+// https://github.com/PSPDFKit/Localization/issues/911
+// Displayed in the Saved Annotations grid if the annotations failed to load.
+"SavedAnnotations_FailedToRead" = "Shranjenih označb ni bilo mogoče naložiti";
+
+// Displayed as the alert title if pasting/deleting the annotations failed.
+"SavedAnnotations_FailedToWrite" = "Označb ni bilo mogoče shraniti";
+
+/// Measurement Strings
+"DistanceMeasurement" = "Razdalja";
+"PerimeterMeasurement" = "Obseg";
+"PolygonalAreaMeasurement" = "Mnogokotna ploščina";
+"RectangularAreaMeasurement" = "Pravokotna ploščina";
+"EllipticalAreaMeasurement" = "Elipsoidna ploščina";
+
+// Image rotation button tool tips
+"Rotate_Counterclockwise" = "Rotiraj v nasprotni smeri urinega kazalca";
+"Rotate_Clockwise" = "Rotiraj v smeri urinega kazalca";
+
+// Web Form Designer UI
+// "New option input placeholder text for description text input"
+"FormDesigner_enterDescriptionHere" = "Tukaj vnesite opis";
+// "New option button text"
+"FormDesigner_addOption" = "Dodaj opcijo";
+// "Form designer popover title (in the screenshot is List Box properties)"
+"FormDesigner_formDesignerPopoverTitle" = "Lastnosi za {formFieldType}";
+// "Error that asks to change form field name if it already exists"
+"FormDesigner_formFieldNameExists" = "Polje z nazivom {formFieldName} že obstaja. Prosim izberite drugo ime.";
+// "Form designer style section (in the screenshot list box style)"
+"FormDesigner_styleSectionLabel" = "Stil za {formFieldType}";
+// "Form designer popover form field name input label"
+"FormDesigner_formFieldName" = "Naziv polja";
+// "Form designer popover default value input label"
+"FormDesigner_defaultValue" = "Privzeta vrednost";
+// "Form designer popover multiline input label
+"FormDesigner_multiline" = "Večvrstično";
+// "Form designer popover radio button form field name warning message"
+"FormDesigner_radioButtonFormFieldNameWarning" = "Za grupiranje izbirnih gumbov določite vsem enak naziv.";
+// "Form designer popover advanced section title"
+"FormDesigner_advanced" = "Napredno";
+// "Form designer popover advanced section creator name label"
+"FormDesigner_creatorName" = "Ime ustvarjalca";
+// "Form designer popover advanced section note label"
+"FormDesigner_note" = "Opomba";
+// "Form designer popover advanced section custom data label"
+"FormDesigner_customData" = "Dodatni podatki";
+// "Form designer popover advanced section required label"
+"FormDesigner_required" = "Zahtevano";
+// "Form designer popover advanced section read only label"
+"FormDesigner_readOnly" = "Samo za branje";
+// "Form designer popover advanced section created at label"
+"FormDesigner_createdAt" = "Ustvarjetno";
+// "Form designer popover advanced section updated at label"
+"FormDesigner_updatedAt" = "Posodobljeno";
+// "Form designer popover advanced section custom data error"
+"FormDesigner_customDataErrorMessage" = "Mora biti v primerni obliki za format JSON.";
+// "Form designer popover style section border color label"
+"FormDesigner_borderColor" = "Barva obrobe";
+// "Form designer popover style section border width label"
+"FormDesigner_borderWidth" = "Debeljina obrobe";
+// "Form designer popover style section border style label"
+"FormDesigner_borderStyle" = "Stil obrobe";
+// "Form designer popover style section print label"
+"FormDesigner_print" = "Tiskanje";
+// "Form designer popover style section solid border label"
+"FormDesigner_solid" = "Neprekinjeno";
+// "Form designer popover style section dashed border label"
+"FormDesigner_dashed" = "Črtkano";
+// "Form designer popover style section beveled border label"
+"FormDesigner_beveled" = "Izbočeno";
+// "Form designer popover style section inset border label"
+"FormDesigner_inset" = "Vbočeno";
+// "Form designer popover style section underline border label"
+"FormDesigner_underline" = "Podčrtano";
+// "Form designer popover text section title"
+"FormDesigner_textStyle" = "Stil pisave";
+// "Form designer popover text section font size label"
+"FormDesigner_fontSize" = "Velikost pisave";
+// "Form designer popover text section font color label"
+"FormDesigner_fontColor" = "Barva pisave";
+// "Button Field"
+"FormDesigner_button" = "Gumb";
+// "Text Field Button"
+"FormDesigner_textField" = "Tekstovno poje";
+// "Radio Field Button"
+"FormDesigner_radioField" = "Izbirno polje";
+// "Checkbox Field Button"
+"FormDesigner_checkboxField" = "Potrdilno polje";
+// "Combo Box Field Button"
+"FormDesigner_comboBoxField" = "Kombinirano polje";
+// "List Box Field Button"
+"FormDesigner_listBoxField" = "Seznamsko polje";
+// "signature Field Button"
+"FormDesigner_signatureField" = "Podpisno polje";
+// "Form designer popover button text input label"
+"FormDesigner_buttonText" = "Napis na gumbu";
+// Value not available; used for border style, fill and border color
+"FormDesigner_notAvailable" = "Ni na voljo";
+// Label for form field
+"FormDesigner_label" = "Oznaka";
+// Value for form field
+"FormDesigner_value" = "Vsebina";
+// Form field name cannot be edited once created error message
+"FormDesigner_cannotEditOnceCreated" = "Naknadno spreminjanje ni možno.";
+// Form field name cannot be left empty
+"FormDesigner_formFieldNameNotEmpty" = "Naziv polja ne more biti prazen.";
+
+// Tooltip for the button to disclose the form creation tools
+"FormDesigner_formDesigner" = "Urejevalnik Obrazcev";
+// Tells you whether you can select multiple options in a dropdown
+"FormDesigner_multiSelect" = "Več izbir";
+"FormDesigner_readOnlyProperty" = "Samo za branje";
+// A list of values you can select in a dropdown
+"FormDesigner_options" = "Možnosti";
+
+// Measurement tools
+"MeasurementScale" = "Merilo";
+"MeasurementCalibrateLength" = "Dolžina za umerjanje";
+"MeasurementPrecision" = "Natančnost";
+"MeasurementSnapping" = "Zaskočitev";
+"MeasurementPrecision_Whole" = "Celo število";
+"MeasurementPrecision_OneDecimalPlace" = "Eno decimalno mesto";
+"MeasurementPrecision_TwoDecimalPlaces" = "Dva decimalna mesta";
+"MeasurementPrecision_ThreeDecimalPlaces" = "Tri decimalna mesta";
+"MeasurementPrecision_FourDecimalPlaces" = "Štiri decimalna mesta";
+// Label shown in the annotation inspector next to a numerical value showing the geometric area of a shape. For example a rectangle might be place over a room shown in a construction plan to know the floor area of that room.
+"AreaMeasurement" = "Ploščina";
+
+// aria label for the media element
+"MediaAnnotation_Annotation" = "Večpredstavnostna označba";
+// in the case a browser does not support the video or the audio html element, we display this warning
+"MediaAnnotation_ElementNotSupported_ErrorMessage" = "Ta brskalnik ne podpira videa in zvoka.";
+
+// MARK: - Link Editor for Web:
+// Link settings popover title text.
+"linkSettingsPopoverTitle" = "Nastavitve povezave";
+// Label for selection of link type (website - page).
+"linkTo" = "Povezava do";
+// Label for website selection.
+"uriLink" = "Spletne strani";
+// Label for page selection.
+"pageLink" = "Strani";
+// Text for preceding number for page link number.
+"linkToPage" = "Povezava do strani %tu";
+// Error message for invalid page number.
+"invalidPageNumber" = "Vnesite veljavno številko strani.";
+// Error message for invalid page link.
+"invalidPageLink" = "Vnesite veljavno povezavo do strani.";
+
+// Title for the Measurement popover.
+"Measurement_Popover_Title" = "{measurementType} - Nastavitve";
+
+// Tooltip text when long hover on toolbar icon for multiple annotations selection icon
+"MultiAnnotationsSelection" = "Izberi več označb";
+
+// This string is used for the screen reader. Whenever a toolbar dropdown is opened, the screen reader reads this out.
+"accessibilityLabelDropdownGroupToggle" = "Spustni seznam: %@";
+
+// Document unlock string
+"Unlock_Document_Description" = "Dokument je potrebno odkleniti. Prosim vnesite geslo v tekstovno polje.";
+
+// Instant comment name shown when creator is not known
+"Anonymous" = "Anonimen";
+
+// Accessibility label on the comment dropdown menu trigger (three dots)
+"Comment_Options" = "Nastavitve komentarja";
+// Dropdown menu label for editing comment content
+"Edit_Content" = "Uredi vsebino";
+
+// Title for the Measurement popover.
+"Perimeter_Popover_Title" = "Nastavitve meritve obsega";
+"Distance_Popover_Title" = "Nastavitve meritve razdalje";
+"Rectangle_Area_Title" = "Nastavitve meritve pravokotne ploščine";
+"Polygon_Area_Title" = "Nastavitve meritve mnogokotne ploščine";
+"Ellipse_Area_Title" = "Nastavitve meritve elipsoidne ploščine";
+
+// Rich text formatting options for text annotations.
+"Bold" = "Odebeljeno";
+"Italic" = "Poševno";
+
+// Button to save and then close current context
+"Save_And_Close" = "Shrani in zapri";
+// Button to show tooltip with information about a font mismatch
+"ContentEditor_Toggle_Font_Mismatch_Tooltip" = "Prikaži ali skrij namig za neusklajene pisave";
+// Tooltip that notifies customers that there are unavailable fonts when content editing.
+"ContentEditor_Font_Mismatch" = "Pisava: %@ ni na voljo ali ne more biti uporabljena za urejanje vsebine tega dokumenta. Dodana ali spremenjena vsebina bo pisavo vrnila na privzeto.";
+
+// Concise summary of an option to embed annotations when sharing/exporting a document so the annotations remain visible and editable. Shown next to the label “Annotations.”
+"Sharing_EmbedAnnotations" = "Vključi";
+// Concise summary of an option to flatten annotations when sharing/exporting a document so the annotations are visible but can’t be edited. Shown next to the label “Annotations.”
+"Sharing_FlattenAnnotations" = "Splošči";
+// Concise summary of an option to ignore/skip/omit annotations when sharing/exporting a document so the annotations are not visible.  Shown next to the label “Annotations.”
+"Sharing_IgnoreAnnotations" = "Ignoriraj";
+// Concise summary of an option to share/export a textual summary of annotations in a document instead of the document itself. Shown next to the label “Annotations.”
+"Sharing_AnnotationSummary" = "Povzetek";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the start page of the page range from the document to be shared.
+"Sharing_SelectStartPage" = "Izberi začetno stran";
+// Accessibility text to describe the purpose of the scrolling picker that is used to select the end page of the page range from the document to be shared.
+"Sharing_SelectEndPage" = "Izberi končno stran";
+// Label shown between the scrolling pickers for selecting the page range of the document to be shared.
+"Sharing_PageRangeTo" = "do";
+
+// Line title for rotation option in Form Creator popover
+"Rotate" = "Rotiraj";
+
+// The title of the content editing view mode.
+"ContentEditing_ViewModeTitle" = "Uredi vsebino";
+
+// The title of the action sheet that appears when user tries to exit the
+// content editing mode. The available options to the user are: Discard Changes,
+// Cancel, and possibly Save. %1$@ will be replaced with the document title.
+"ContentEditing_DiscardConfirmation" = "“%1$@” ima neshranjene spremembe.";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple fonts.
+"ContentEditing_ToolbarFontFaceMixed" = "Več pisav";
+
+// Button label in the content editing toolbar when selected text contains a
+// font that we don't have available.
+"ContentEditing_ToolbarFontFaceUnknown" = "Neznana pisava";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple font sizes.
+"ContentEditing_ToolbarFontSizeMixed" = "Več velikosti";
+
+// Label for the button in the content editing toolbar that decreases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeDecrease" = "Pomanjšaj velikost";
+
+// Label for the button in the content editing toolbar that increases the font
+// size for selected text by 1.
+"ContentEditing_ToolbarFontSizeIncrease" = "Povečaj velikost";
+
+// Button label in the content editing toolbar when selected text consists of
+// multiple colors.
+"ContentEditing_ToolbarColorMixed" = "Več barv";
+
+// Adjective for bold font variant. Used in the font picker for Content Editing
+// in addition to the font family name for a font that has a bold style. %1$@
+// will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBold" = "%1$@ Krepko";
+
+// Adjective for italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has an italic
+// style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantItalic" = "%1$@ Poševno";
+
+// Adjective for bold italic font variant. Used in the font picker for Content
+// Editing in addition to the font family name for a font that has both bold and
+// italic style. %1$@ will be replaced with a font name, e.g. "Helvetica".
+"ContentEditing_FontVariantBoldItalic" = "%1$@ Krepko Poševno";
+
+// String for screen readers for closed comment threads in the sidebar
+"commentDialogClosed" = "Odpri pogovor, ki ga je začel/-a %@: “%@”";
+
+// More comments indicator in comments popover
+"MoreComments" = "Več komentarjev";
+
+// Title for screen in the Sharing UI flow that allows selecting between the different page options for sharing.
+"Sharing_PageRange" = "Obseg strani";
+
+// When a customer passes a custom color palette to our custom color picker, this string will be the label of the new color (there is a bug and it doesn't work atm)
+"newColor" = "Nova barva po meri";
+
+// Menu title for the "Content Editor" option
+"ContentEditor_Title" = "Urejevalnik vsebine";
+
+// Appends an ellipsis to some text. In most languages this will be the same as it is in English. Used for intermediate states such as “Loading…” and buttons or menu items where an action won’t be immediately completed on activation. This is a common convention on macOS.
+"FormatWithEllipsis%@" = "%@…";
+
+// Verb; Title of an action that begins searching for the currently selected
+// text in the currently open document. This string should be the same as what
+// shows up for natively selected text on iOS.
+"Menu_FindSelection" = "Poišči izbrano";
+
+// Verb; Title of an action that opens the built-in web browser and begins
+// search with the user's chosen search engine. This string should be the same
+// as what shows up for natively selected text on iOS.
+"Menu_SearchWeb" = "Poišči na spletu";
+
+// Describe fractional precisions that the user can set for measurement annotations. These are used for accessibility. For example, if the user chooses quarters, then a distance measurement will show distances rounded to the nearest whole number, 1/4, 1/2, or 3/4.
+"MeasurementPrecision_WholeFraction" = "Celi inči";
+"MeasurementPrecision_Halves" = "Polovice inča";
+"MeasurementPrecision_Quarters" = "Četrtine inča";
+"MeasurementPrecision_Eighths" = "Osmine inča";
+"MeasurementPrecision_Sixteenths" = "Šestnajstine inča";
+
+// Error shown when the user wants to sign a document but the certificate chain array they passed as argument does not contain any certificate.
+"The certificate chain used to sign the document is empty." = "Veriga potrdil, uporabljenih za podpis dokumenta, je prazna.";
+
+// This error happens when the user tries to validates a signature whose type we don't support (typically because it's legacy).
+"DigitalSignaturesErrorMessage_UnsupportedSignatureType" = "Vrsta digitalnega podpisa ni podprta.";
+// This error happens when the user tries to validate a signature with a timestamp, but the timestamp is invalid or damaged.
+"DigitalSignaturesErrorMessage_InvalidTimestamp" = "Digitalni podpis vsebuje časovni žig, ki ni veljaven, ali pa so bili podatki s časovnim žigom spremenjeni.";
+
+// Label used for the title of the inspector for the settings
+"Measurements_MeasurementSettings" = "Merilne nastavitve";
+
+// Label used when adding a new scale to a document
+"Measurements_AddScale" = "Dodaj merilo";
+
+// Label used by the scale inspector to use the calibration tool in setting a scale
+"Measurements_UseCalibrationTool" = "Uporabi orodje za kalibriranje";
+
+// The title of the inspector for calibrating properties like the name, length, scale, and precision
+"Measurements_CalibrateScale" = "Kalibriraj merilo";
+
+// Label used by the measurements fab when there is no scale detected on the document
+"Measurements_SetScale" = "Nastavi merilo";
+
+// Label used in the inspector displayed by the fab above to toggle display of secondary units when using measurements
+"Measurements_SecondaryUnits" = "Sekundarne enote";
+
+// Label of picker for units. This picker is displayed when the secondary units are enabled
+"Measurements_Unit" = "Enota";
+
+// Dialog description to inform the user of the effects of deleting a scale in use
+"Measurements_DeleteScaleWarning" = "Če izbrišete merilo, bodo izbrisane tudi meritve, ki uporabljajo to merilo.";
+
+// Dialog title when the user tries to use a scale that is already in use
+"Measurements_ScaleInUse" = "To merilo je že v uporabi";
+
+// Dialog description to prompt the user to edit a scale or use the existing one
+"Measurements_EditUseExistingScale" = "Želite urediti ali uporabiti že obstoječe merilo?";
+
+// Dialog action to use the existing scale
+"Measurements_UseExisting" = "Uporabi obstoječe";
+
+// Label used when a scale does not have a name set
+"Measurements_ScaleUnnamed" = "Neimenovano";
+
+// Label used in the global settings of the app
+"Measurements_SnapToPoint" = "Zaskoči na točko";
+
+// Label used in the global settings of the app
+"Measurements_SnapToSelf" = "Zaskoči nase";
+
+// Label used in the global settings of the app. This is NOT pluralised so no need
+"Measurements_ShowSmartGuides" = "Pokaži pametne pomožne linije";
+
+// Label for the add text box button
+"AddTextBox" = "Dodaj besedilno polje";
+// Message for the delete text block confirm dialog
+"DeleteTextBlockConfirmMessage" = "Ste prepričani, da želite izbrisati besedilno polje?";
+// Accessibility label for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityLabel" = "Potrditev izbrisa besedilnega polja";
+// Accessibility description for the delete text block confirm dialog
+"DeleteTextBlockConfirmAccessibilityDescription" = "Pogovorno okno, ki uporabniku omogoča potrditev ali preklic izbrisa besedilnega polja";
+
+// Whenever a `readOnly`, `locked`, or `lockedContent` annotation is hovered over, we show a tooltip with the flags associated with the annotation
+"readOnly" = "Zgolj za branje";
+"locked" = "Zaklenjeno";
+"lockedContent" = "Zaklenjena vsebina";
+
+// Dialog title for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAdded" = "Merilo dodano";
+// Dialog text for the confirmation dialog displayed after a scale was created by the calibration tool
+"Measurements_CalibrateScaleAddedDescription" = "“%@” je bilo uspešno dodano v seznam meril.";
+
+// These two strings are used for accessibility in Android. They are known as [content descriptions](https://stackoverflow.com/a/11595890/8344055).
+"Measurements_MeasurementSettingsIcon" = "Ikona za merilne nastavitve";
+"Measurements_MeasurementSettingsScaleNotSetIcon" = "Ikona, ki označuje, da merilo ni nastavljeno";
+
+"DigitalSignatureSignedWithInfo%@by%@on%@at%@." = "Ta dokument je s strani %@ podpisal %@, dne %@, ob %@.";
+"DigitalSignatureSignedWithInfoInvalid%@by%@on%@at%@" = "Ta dokument trdi, da ga je s strani %@ podpisal %@, dne %@, ob %@.";
+"DigitalSignatureSignedWithAlgo%@with%@." = "Algoritem: %@ z %@.";
+
+// When the new "Extract Pages" button is pressed, a new document that only includes the currently selected pages will be automatically downloaded.
+"DocumentEditor_extractPages" = "Izvleci strani";
+
+// Placeholder for the scale name input.
+"Measurements_ScaleName" = "Ime merila";
+
+// Warning shown when having a duplicate scale.
+"Measurements_ScaleAlreadyAddedWarning" = "Merilo s temi nastavitvami je že bilo definiriano. Prosimo izberite drugo merilo";
+
+// Label for radio button that shows/hides the section for inputting a secondary unit.
+"Measurements_DisplaySecondaryUnit" = "Prikaz sekundarne enote";
+
+// Dropdown selection option for editing/adding scales.
+"Measurements_EditAddNewScale" = "Uredi ali dodaj novo merilo";
+
+// Used as an alt text for the calibration icon in the UI.
+"Measurements_Calibrate" = "Umeri";
+
+// OCG Sidebar Header.
+"OCG_Layers" = "Sloji";
+
+// Message to show in case there are no OCGs in the document.
+"OCG_NoLayers" = "Ni slojev";
+
+"The certificate is not yet valid" = "Certifikat še ni veljaven.";
+"Signature validation failed - invalid signature" = "Podpis je neveljaven.";
+"The certificate has been revoked" = "Certifikat je bil preklican.";
+"Certificate problem" = "Prišlo je do težave s certifikatom.";
+// This error happens when the user tries to validates a signature but we can't assert if the certificate is revoked or not.
+"DigitalSignaturesErrorMessage_CantCheckCertificateRevocationStatus" = "Ni bilo mogoče preveriti statusa preklica potrdila.";
+
+// Line Spacing title (used for the inspector item and as title in the linespacing bottom sheet)
+"LineSpacing" = "Medvrstični razmik";
+// replaces the value "1.0" in the bottom sheet
+"LineSpacing_Single" = "Enojni";
+// replaces the value "2.0" in the bottom sheet
+"LineSpacing_Double" = "Dvojni";
+
+// Text used for the menu item shown when an annotation that toggles the selection tool is picked.
+"AnnotationMenu_SelectMore" = "Izberi več…";
+
+// Message to show on the Measurement Toolbar button hover
+"Measurement" = "Izmeri";
+
+// Message to show in the Reload document modal in Instant.
+"ReloadDocument" = "Ponovno naloži dokument";
+
+// Google play developer account promotional text
+"GooglePlayConsoleDeveloperPromoText" = "Svetu pomagamo pri inovacijah, ki presegajo papir z orodji za razvijalce, low-code rešitvami in orodji za končne uporabnike, ki pokrivajo vse glavne platforme.";
+
+// Header for the help modal in the comment editor help modal.
+"CommentEditorHelp_action" = "Akcija";
+
+// Header for the shortcut in the comment editor help modal.
+"CommentEditorHelp_shortcut" = "Bližnjica";
+
+// Mention button popover text.
+"CommentEditor_mention" = "Omemba";
+
+// "Open Help Dialog" action in the help modal.
+"CommentEditorHelp_openHelpDialog" = "Odpri okno za pomoč";
+
+// Read more label in the comment thread.
+"CommentEditor_readMore" = "Preberi več";
+
+// Label for the toolbar focus action in the help modal.
+"CommentEditorHelp_toolbarFocus" = "Fokisiraj orodno vrstico";
+
+// Message displayed to the user in place of the page contents when a page in a document is too complex for their device to handle. ‘Memory’ means devices’s RAM.
+"RenderingError_OutOfMemoryDescription" = "Ni dovolj pomnilnika za prikaz te strani.";
